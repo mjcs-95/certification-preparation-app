@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/certprep/questions.schema.json",
+  "title": "CertPrep question bank",
+  "description": "Exchange format for question banks compatible with QuizPractice.",
+  "type": "object",
+  "required": ["questions"],
+  "properties": {
+    "version": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "questions": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/question" }
+    }
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "option": {
+      "type": "object",
+      "required": ["id", "text"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "text": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "matchItem": {
+      "type": "object",
+      "required": ["id", "text"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "text": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "blank": {
+      "type": "object",
+      "required": ["id", "options", "correctAnswer"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1, "pattern": "^[A-Za-z0-9_-]+$" },
+        "options": {
+          "type": "array",
+          "minItems": 2,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "correctAnswer": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "question": {
+      "type": "object",
+      "required": ["id", "type", "question"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "type": {
+          "enum": [
+            "multiple-choice",
+            "multiple-response",
+            "true-false",
+            "scenario",
+            "matching",
+            "fill-blank"
+          ]
+        },
+        "category": { "type": "string", "minLength": 1 },
+        "question": { "type": "string", "minLength": 1 },
+        "description": { "type": "string" },
+        "options": {
+          "type": "array",
+          "minItems": 2,
+          "items": { "$ref": "#/$defs/option" }
+        },
+        "correctAnswers": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "explanation": { "type": "string" },
+        "scenario": { "type": "string", "minLength": 1 },
+        "scenarioId": { "type": "string", "minLength": 1 },
+        "leftItems": {
+          "type": "array",
+          "minItems": 2,
+          "items": { "$ref": "#/$defs/matchItem" }
+        },
+        "rightItems": {
+          "type": "array",
+          "minItems": 2,
+          "items": { "$ref": "#/$defs/matchItem" }
+        },
+        "correctMatches": {
+          "type": "object",
+          "minProperties": 2,
+          "additionalProperties": { "type": "string", "minLength": 1 }
+        },
+        "blanks": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/blank" }
+        },
+        "source": { "type": "string" }
+      },
+      "additionalProperties": true,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": { "enum": ["multiple-choice", "true-false", "scenario"] }
+            }
+          },
+          "then": {
+            "required": ["options", "correctAnswers"],
+            "properties": {
+              "correctAnswers": { "minItems": 1, "maxItems": 1 }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "multiple-response" } } },
+          "then": { "required": ["options", "correctAnswers"] }
+        },
+        {
+          "if": { "properties": { "type": { "const": "true-false" } } },
+          "then": {
+            "properties": {
+              "options": { "minItems": 2, "maxItems": 2 }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "scenario" } } },
+          "then": { "required": ["scenario"] }
+        },
+        {
+          "if": { "properties": { "type": { "const": "matching" } } },
+          "then": { "required": ["leftItems", "rightItems", "correctMatches"] }
+        },
+        {
+          "if": { "properties": { "type": { "const": "fill-blank" } } },
+          "then": { "required": ["blanks"] }
+        }
+      ]
+    }
+  }
+}

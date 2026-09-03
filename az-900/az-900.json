@@ -1,0 +1,1345 @@
+{
+    "version": "1.0",
+    "title": "Azure Fundamentals",
+    "questions": [
+        {
+            "id": "mc-001",
+            "type": "multiple-choice",
+            "category": "cloud-concepts",
+            "question": "What does Microsoft Azure primarily provide?",
+            "options": [
+                { "id": "a", "text": "A local-only virtualization platform" },
+                { "id": "b", "text": "A cloud computing platform with a wide range of services" },
+                { "id": "c", "text": "A hardware marketplace for physical servers" }
+            ],
+            "correctAnswers": ["b"],
+            "explanation": "Azure is a cloud computing platform offering compute, storage, networking, AI, IoT, and more.",
+            "source": "Azure Fundamentals introduction page"
+        },
+        {
+            "id": "mc-002",
+            "type": "multiple-choice",
+            "category": "cloud-concepts",
+            "question": "Which Azure Fundamentals domain area has the highest exam weight?",
+            "options": [
+                { "id": "a", "text": "Describe cloud concepts" },
+                { "id": "b", "text": "Describe Azure architecture and services" },
+                { "id": "c", "text": "Describe Azure management and governance" }
+            ],
+            "correctAnswers": ["b"],
+            "explanation": "The page states Azure architecture and services has a weight of 35–40%.",
+            "source": "Azure Fundamentals introduction page"
+        },
+        {
+            "id": "mc-003",
+            "type": "multiple-choice",
+            "category": "cloud-concepts",
+            "question": "Why might someone take Azure Fundamentals?",
+            "options": [
+                { "id": "a", "text": "To learn cloud basics and prepare for the AZ-900 exam" },
+                { "id": "b", "text": "To configure on-premises hardware clusters" },
+                { "id": "c", "text": "To learn only AI and IoT services" }
+            ],
+            "correctAnswers": ["a"],
+            "explanation": "The page highlights cloud basics and AZ‑900 preparation as key reasons.",
+            "source": "Azure Fundamentals introduction page"
+        },
+
+        {
+            "id": "mr-001",
+            "type": "multiple-response",
+            "category": "cloud-concepts",
+            "question": "Which of the following are examples of Azure services?",
+            "options": [
+                { "id": "a", "text": "Remote storage" },
+                { "id": "b", "text": "Database hosting" },
+                { "id": "c", "text": "Centralized account management" },
+                { "id": "d", "text": "Physical server manufacturing" }
+            ],
+            "correctAnswers": ["a", "b", "c"],
+            "explanation": "Azure provides storage, databases, and identity services.",
+            "source": "Azure Fundamentals introduction page"
+        },
+        {
+            "id": "mr-002",
+            "type": "multiple-response",
+            "category": "cloud-concepts",
+            "question": "Which topics are included in Azure Fundamentals?",
+            "options": [
+                { "id": "a", "text": "Compute services" },
+                { "id": "b", "text": "Networking services" },
+                { "id": "c", "text": "Storage services" },
+                { "id": "d", "text": "Automobile engineering" }
+            ],
+            "correctAnswers": ["a", "b", "c"],
+            "explanation": "The page mentions compute, networking, and storage as core learning topics.",
+            "source": "Azure Fundamentals introduction page"
+        },
+        {
+            "id": "mr-003",
+            "type": "multiple-response",
+            "category": "cloud-concepts",
+            "question": "Which domain areas are part of the AZ-900 exam?",
+            "options": [
+                { "id": "a", "text": "Describe cloud concepts" },
+                { "id": "b", "text": "Describe Azure architecture and services" },
+                { "id": "c", "text": "Describe Azure management and governance" },
+                { "id": "d", "text": "Design custom hardware circuits" }
+            ],
+            "correctAnswers": ["a", "b", "c"],
+            "explanation": "The page lists these three domain areas with their respective weights.",
+            "source": "Azure Fundamentals introduction page"
+        },
+
+        {
+            "id": "tf-001",
+            "type": "true-false",
+            "category": "cloud-concepts",
+            "question": "Azure can host fully virtualized computers for custom software solutions.",
+            "options": [
+                { "id": "true", "text": "True" },
+                { "id": "false", "text": "False" }
+            ],
+            "correctAnswers": ["true"],
+            "explanation": "The page explicitly states Azure can run fully virtualized computers.",
+            "source": "Azure Fundamentals introduction page"
+        },
+        {
+            "id": "tf-002",
+            "type": "true-false",
+            "category": "cloud-concepts",
+            "question": "Technical IT experience is required to take Azure Fundamentals.",
+            "options": [
+                { "id": "true", "text": "True" },
+                { "id": "false", "text": "False" }
+            ],
+            "correctAnswers": ["false"],
+            "explanation": "The page says technical IT experience isn't required.",
+            "source": "Azure Fundamentals introduction page"
+        },
+        {
+            "id": "tf-003",
+            "type": "true-false",
+            "category": "cloud-concepts",
+            "question": "Azure Fundamentals includes guided content and knowledge checks.",
+            "options": [
+                { "id": "true", "text": "True" },
+                { "id": "false", "text": "False" }
+            ],
+            "correctAnswers": ["true"],
+            "explanation": "The page states that guided content and knowledge checks reinforce key concepts.",
+            "source": "Azure Fundamentals introduction page"
+        },
+
+        {
+            "id": "sc-001",
+            "type": "scenario",
+            "category": "cloud-concepts",
+            "scenario": "A company wants to migrate their on-premises web app to a cloud platform that supports simple hosting and scalable compute.",
+            "scenarioId": "sc001",
+            "question": "Which Azure capability best fits their needs?",
+            "options": [
+                { "id": "a", "text": "AI and IoT services only" },
+                { "id": "b", "text": "Simple web hosting and virtualized compute" },
+                { "id": "c", "text": "Physical server procurement" }
+            ],
+            "correctAnswers": ["b"],
+            "explanation": "Azure supports simple web hosting and fully virtualized compute.",
+            "source": "Azure Fundamentals introduction page"
+        },
+        {
+            "id": "sc-002",
+            "type": "scenario",
+            "category": "cloud-concepts",
+            "scenario": "An IT student wants to learn cloud basics and prepare for a certification without needing prior technical experience.",
+            "scenarioId": "sc002",
+            "question": "Which learning path should they choose?",
+            "options": [
+                { "id": "a", "text": "Azure Fundamentals" },
+                { "id": "b", "text": "Advanced Azure DevOps Engineering" },
+                { "id": "c", "text": "On-premises datacenter hardware design" }
+            ],
+            "correctAnswers": ["a"],
+            "explanation": "Azure Fundamentals is designed for beginners and prepares for AZ‑900.",
+            "source": "Azure Fundamentals introduction page"
+        },
+        {
+            "id": "sc-003",
+            "type": "scenario",
+            "category": "cloud-concepts",
+            "scenario": "A team wants to understand governance and compliance options available in Azure.",
+            "scenarioId": "sc003",
+            "question": "Which domain area should they study?",
+            "options": [
+                { "id": "a", "text": "Describe cloud concepts" },
+                { "id": "b", "text": "Describe Azure architecture and services" },
+                { "id": "c", "text": "Describe Azure management and governance" }
+            ],
+            "correctAnswers": ["c"],
+            "explanation": "Governance and compliance are part of Azure management and governance.",
+            "source": "Azure Fundamentals introduction page"
+        },
+
+        {
+            "id": "match-001",
+            "type": "matching",
+            "category": "cloud-concepts",
+            "question": "Match each Azure domain area with its exam weight range.",
+            "leftItems": [
+                { "id": "l1", "text": "Describe cloud concepts" },
+                { "id": "l2", "text": "Describe Azure architecture and services" },
+                { "id": "l3", "text": "Describe Azure management and governance" }
+            ],
+            "rightItems": [
+                { "id": "r1", "text": "25–30%" },
+                { "id": "r2", "text": "35–40%" },
+                { "id": "r3", "text": "30–35%" }
+            ],
+            "correctMatches": {
+                "l1": "r1",
+                "l2": "r2",
+                "l3": "r3"
+            },
+            "source": "Azure Fundamentals introduction page"
+        },
+        {
+            "id": "match-002",
+            "type": "matching",
+            "category": "cloud-concepts",
+            "question": "Match each Azure capability with its description.",
+            "leftItems": [
+                { "id": "l1", "text": "Compute" },
+                { "id": "l2", "text": "Storage" },
+                { "id": "l3", "text": "AI services" }
+            ],
+            "rightItems": [
+                { "id": "r1", "text": "Run virtualized machines and apps" },
+                { "id": "r2", "text": "Store data remotely" },
+                { "id": "r3", "text": "Build intelligent applications" }
+            ],
+            "correctMatches": {
+                "l1": "r1",
+                "l2": "r2",
+                "l3": "r3"
+            },
+            "source": "Azure Fundamentals introduction page"
+        },
+        {
+            "id": "match-003",
+            "type": "matching",
+            "category": "cloud-concepts",
+            "question": "Match each learning path topic with what it helps you understand.",
+            "leftItems": [
+                { "id": "l1", "text": "Cloud concepts" },
+                { "id": "l2", "text": "Architecture and services" },
+                { "id": "l3", "text": "Management and governance" }
+            ],
+            "rightItems": [
+                { "id": "r1", "text": "Basic cloud principles" },
+                { "id": "r2", "text": "Core Azure services" },
+                { "id": "r3", "text": "Governance and compliance" }
+            ],
+            "correctMatches": {
+                "l1": "r1",
+                "l2": "r2",
+                "l3": "r3"
+            },
+            "source": "Azure Fundamentals introduction page"
+        },
+
+        {
+            "id": "fb-001",
+            "type": "fill-blank",
+            "category": "cloud-concepts",
+            "question": "Fill in the missing information about Azure Fundamentals: The certification associated with this learning path is {{b1}}.",
+            "blanks": [
+                {
+                    "id": "b1",
+                    "options": ["AZ-900", "AZ-500", "DP-900"],
+                    "correctAnswer": "AZ-900"
+                }
+            ],
+            "source": "Azure Fundamentals introduction page"
+        },
+        {
+            "id": "fb-002",
+            "type": "fill-blank",
+            "category": "cloud-concepts",
+            "question": "Azure Fundamentals includes guided content and {{b1}} to reinforce key concepts.",
+            "blanks": [
+                {
+                    "id": "b1",
+                    "options": ["knowledge checks", "hardware labs", "network diagrams"],
+                    "correctAnswer": "knowledge checks"
+                }
+            ],
+            "source": "Azure Fundamentals introduction page"
+        },
+        {
+            "id": "fb-003",
+            "type": "fill-blank",
+            "category": "cloud-concepts",
+            "question": "Azure offers capabilities in artificial intelligence (AI) and {{b1}}.",
+            "blanks": [
+                {
+                    "id": "b1",
+                    "options": ["IoT", "automotive systems", "blockchain mining"],
+                    "correctAnswer": "IoT"
+                }
+            ],
+            "source": "Azure Fundamentals introduction page"
+        },
+
+        {
+            "id": "mc-004",
+            "type": "multiple-choice",
+            "category": "cloud-computing",
+            "question": "What is cloud computing?",
+            "options": [
+                { "id": "a", "text": "The delivery of computing services over the internet" },
+                { "id": "b", "text": "A method for building physical datacenters faster" },
+                { "id": "c", "text": "A replacement for all networking hardware" }
+            ],
+            "correctAnswers": ["a"],
+            "explanation": "Cloud computing delivers computing services such as VMs, storage, databases, and networking over the internet.",
+            "source": "Unit: What is cloud computing"
+        },
+        {
+            "id": "mc-005",
+            "type": "multiple-choice",
+            "category": "cloud-computing",
+            "question": "Which of the following is an example of a cloud computing service?",
+            "options": [
+                { "id": "a", "text": "Virtual machines" },
+                { "id": "b", "text": "Physical server procurement" },
+                { "id": "c", "text": "Manual datacenter cooling systems" }
+            ],
+            "correctAnswers": ["a"],
+            "explanation": "Virtual machines are a core cloud service.",
+            "source": "Unit: What is cloud computing"
+        },
+        {
+            "id": "mc-006",
+            "type": "multiple-choice",
+            "category": "cloud-computing",
+            "question": "Why can cloud computing scale faster than traditional datacenters?",
+            "options": [
+                { "id": "a", "text": "It is not constrained by physical infrastructure" },
+                { "id": "b", "text": "It uses custom hardware built on demand" },
+                { "id": "c", "text": "It eliminates the need for networking" }
+            ],
+            "correctAnswers": ["a"],
+            "explanation": "Cloud services are delivered over the internet, so they are not limited by physical datacenter build times.",
+            "source": "Unit: What is cloud computing"
+        },
+
+        {
+            "id": "mr-004",
+            "type": "multiple-response",
+            "category": "cloud-computing",
+            "question": "Which of the following are computing services provided by cloud platforms?",
+            "options": [
+                { "id": "a", "text": "Storage" },
+                { "id": "b", "text": "Databases" },
+                { "id": "c", "text": "Networking" },
+                { "id": "d", "text": "Manual hardware installation" }
+            ],
+            "correctAnswers": ["a", "b", "c"],
+            "explanation": "Cloud computing includes storage, databases, and networking.",
+            "source": "Unit: What is cloud computing"
+        },
+        {
+            "id": "mr-005",
+            "type": "multiple-response",
+            "category": "cloud-computing",
+            "question": "Which advanced services can cloud computing provide beyond traditional IT?",
+            "options": [
+                { "id": "a", "text": "Internet of Things (IoT)" },
+                { "id": "b", "text": "Machine learning (ML)" },
+                { "id": "c", "text": "Artificial intelligence (AI)" },
+                { "id": "d", "text": "Physical datacenter construction" }
+            ],
+            "correctAnswers": ["a", "b", "c"],
+            "explanation": "Cloud platforms expand traditional IT offerings with IoT, ML, and AI.",
+            "source": "Unit: What is cloud computing"
+        },
+        {
+            "id": "mr-006",
+            "type": "multiple-response",
+            "category": "cloud-computing",
+            "question": "Which benefits does cloud computing provide for infrastructure planning?",
+            "options": [
+                { "id": "a", "text": "On-demand provisioning" },
+                { "id": "b", "text": "Faster testing and recovery" },
+                { "id": "c", "text": "Adaptable capacity as requirements change" },
+                { "id": "d", "text": "Long procurement cycles" }
+            ],
+            "correctAnswers": ["a", "b", "c"],
+            "explanation": "Cloud computing enables agility, rapid testing, and flexible scaling.",
+            "source": "Unit: What is cloud computing"
+        },
+
+        {
+            "id": "tf-004",
+            "type": "true-false",
+            "category": "cloud-computing",
+            "question": "Cloud computing allows teams to scale infrastructure rapidly without building new physical datacenters.",
+            "options": [
+                { "id": "true", "text": "True" },
+                { "id": "false", "text": "False" }
+            ],
+            "correctAnswers": ["true"],
+            "explanation": "Cloud services are not constrained by physical infrastructure.",
+            "source": "Unit: What is cloud computing"
+        },
+        {
+            "id": "tf-005",
+            "type": "true-false",
+            "category": "cloud-computing",
+            "question": "Cloud computing is limited to traditional IT services such as storage and networking.",
+            "options": [
+                { "id": "true", "text": "True" },
+                { "id": "false", "text": "False" }
+            ],
+            "correctAnswers": ["false"],
+            "explanation": "Cloud computing also includes IoT, ML, and AI.",
+            "source": "Unit: What is cloud computing"
+        },
+        {
+            "id": "tf-006",
+            "type": "true-false",
+            "category": "cloud-computing",
+            "question": "Cloud platforms can place services closer to users by leveraging global reach.",
+            "options": [
+                { "id": "true", "text": "True" },
+                { "id": "false", "text": "False" }
+            ],
+            "correctAnswers": ["true"],
+            "explanation": "Cloud platforms offer global distribution options.",
+            "source": "Unit: What is cloud computing"
+        },
+
+        {
+            "id": "sc-004",
+            "type": "scenario",
+            "category": "cloud-computing",
+            "scenario": "A retail team expects a surge in traffic during a seasonal launch and needs temporary additional compute capacity.",
+            "scenarioId": "sc004",
+            "question": "How can cloud computing help them?",
+            "options": [
+                { "id": "a", "text": "Deploy additional compute capacity temporarily and scale down afterward" },
+                { "id": "b", "text": "Purchase physical servers months in advance" },
+                { "id": "c", "text": "Build a new datacenter for the launch period" }
+            ],
+            "correctAnswers": ["a"],
+            "explanation": "Cloud computing enables rapid scaling aligned with demand.",
+            "source": "Unit: What is cloud computing"
+        },
+        {
+            "id": "sc-005",
+            "type": "scenario",
+            "category": "cloud-computing",
+            "scenario": "A development team wants to test new features quickly and recover from failures faster.",
+            "scenarioId": "sc005",
+            "question": "Which cloud benefit supports this goal?",
+            "options": [
+                { "id": "a", "text": "Long procurement cycles" },
+                { "id": "b", "text": "On-demand provisioning and agility" },
+                { "id": "c", "text": "Manual hardware configuration" }
+            ],
+            "correctAnswers": ["b"],
+            "explanation": "Cloud computing enables rapid testing and faster recovery.",
+            "source": "Unit: What is cloud computing"
+        },
+        {
+            "id": "sc-006",
+            "type": "scenario",
+            "category": "cloud-computing",
+            "scenario": "A global company wants to place services closer to users in different regions.",
+            "scenarioId": "sc006",
+            "question": "How does cloud computing support this requirement?",
+            "options": [
+                { "id": "a", "text": "By offering global reach and regional service placement" },
+                { "id": "b", "text": "By requiring multiple physical datacenters to be built manually" },
+                { "id": "c", "text": "By limiting services to a single region" }
+            ],
+            "correctAnswers": ["a"],
+            "explanation": "Cloud platforms allow global distribution of services.",
+            "source": "Unit: What is cloud computing"
+        },
+
+        {
+            "id": "match-004",
+            "type": "matching",
+            "category": "cloud-computing",
+            "question": "Match each cloud service with its description.",
+            "leftItems": [
+                { "id": "l1", "text": "Virtual machines" },
+                { "id": "l2", "text": "Storage" },
+                { "id": "l3", "text": "Databases" }
+            ],
+            "rightItems": [
+                { "id": "r1", "text": "Persistent data storage" },
+                { "id": "r2", "text": "Structured data management" },
+                { "id": "r3", "text": "Compute resources for applications" }
+            ],
+            "correctMatches": {
+                "l1": "r3",
+                "l2": "r1",
+                "l3": "r2"
+            },
+            "source": "Unit: What is cloud computing"
+        },
+        {
+            "id": "match-005",
+            "type": "matching",
+            "category": "cloud-computing",
+            "question": "Match each advanced cloud capability with its purpose.",
+            "leftItems": [
+                { "id": "l1", "text": "IoT" },
+                { "id": "l2", "text": "Machine learning" },
+                { "id": "l3", "text": "Artificial intelligence" }
+            ],
+            "rightItems": [
+                { "id": "r1", "text": "Connect and manage devices" },
+                { "id": "r2", "text": "Train predictive models" },
+                { "id": "r3", "text": "Enable intelligent decision-making" }
+            ],
+            "correctMatches": {
+                "l1": "r1",
+                "l2": "r2",
+                "l3": "r3"
+            },
+            "source": "Unit: What is cloud computing"
+        },
+        {
+            "id": "match-006",
+            "type": "matching",
+            "category": "cloud-computing",
+            "question": "Match each cloud benefit with its description.",
+            "leftItems": [
+                { "id": "l1", "text": "Agility" },
+                { "id": "l2", "text": "Global reach" },
+                { "id": "l3", "text": "Scalability" }
+            ],
+            "rightItems": [
+                { "id": "r1", "text": "Place services closer to users" },
+                { "id": "r2", "text": "Adjust capacity based on demand" },
+                { "id": "r3", "text": "Test and recover faster" }
+            ],
+            "correctMatches": {
+                "l1": "r3",
+                "l2": "r1",
+                "l3": "r2"
+            },
+            "source": "Unit: What is cloud computing"
+        },
+
+        {
+            "id": "fb-004",
+            "type": "fill-blank",
+            "category": "cloud-computing",
+            "question": "Cloud computing delivers computing services such as virtual machines, storage, databases, and networking over the {{b1}}.",
+            "blanks": [
+                {
+                    "id": "b1",
+                    "options": ["internet", "local network", "physical datacenter"],
+                    "correctAnswer": "internet"
+                }
+            ],
+            "source": "Unit: What is cloud computing"
+        },
+        {
+            "id": "fb-005",
+            "type": "fill-blank",
+            "category": "cloud-computing",
+            "question": "Cloud platforms can expand traditional IT offerings to include IoT, machine learning, and {{b1}}.",
+            "blanks": [
+                {
+                    "id": "b1",
+                    "options": ["AI", "manual hardware setup", "datacenter cooling"],
+                    "correctAnswer": "AI"
+                }
+            ],
+            "source": "Unit: What is cloud computing"
+        },
+        {
+            "id": "fb-006",
+            "type": "fill-blank",
+            "category": "cloud-computing",
+            "question": "Cloud computing changes infrastructure planning from long procurement cycles to {{b1}} provisioning.",
+            "blanks": [
+                {
+                    "id": "b1",
+                    "options": ["on-demand", "manual", "hardware-based"],
+                    "correctAnswer": "on-demand"
+                }
+            ],
+            "source": "Unit: What is cloud computing"
+        },
+        {
+            "id": "mc-007",
+            "type": "multiple-choice",
+            "category": "shared-responsibility",
+            "question": "In the shared responsibility model, who is responsible for physical security of the datacenter?",
+            "options": [
+                { "id": "a", "text": "The consumer" },
+                { "id": "b", "text": "The cloud provider" },
+                { "id": "c", "text": "A third-party auditor" }
+            ],
+            "correctAnswers": ["b"],
+            "explanation": "Physical security, power, cooling, and network connectivity are always the provider's responsibility.",
+            "source": "Describe the shared responsibility model"
+        },
+        {
+            "id": "mc-008",
+            "type": "multiple-choice",
+            "category": "shared-responsibility",
+            "question": "Which responsibility always stays with the consumer?",
+            "options": [
+                { "id": "a", "text": "Managing physical hosts" },
+                { "id": "b", "text": "Managing identities and accounts" },
+                { "id": "c", "text": "Maintaining the physical network" }
+            ],
+            "correctAnswers": ["b"],
+            "explanation": "Consumers always own identities, accounts, and data stored in the cloud.",
+            "source": "Describe the shared responsibility model"
+        },
+        {
+            "id": "mc-009",
+            "type": "multiple-choice",
+            "category": "shared-responsibility",
+            "question": "Which cloud service model places the most responsibility on the consumer?",
+            "options": [
+                { "id": "a", "text": "IaaS" },
+                { "id": "b", "text": "PaaS" },
+                { "id": "c", "text": "SaaS" }
+            ],
+            "correctAnswers": ["a"],
+            "explanation": "IaaS leaves most responsibilities to the consumer, except physical infrastructure.",
+            "source": "Describe the shared responsibility model"
+        },
+
+        {
+            "id": "mr-007",
+            "type": "multiple-response",
+            "category": "shared-responsibility",
+            "question": "Which responsibilities are always owned by the cloud provider?",
+            "options": [
+                { "id": "a", "text": "Physical datacenter" },
+                { "id": "b", "text": "Physical network" },
+                { "id": "c", "text": "Physical hosts" },
+                { "id": "d", "text": "User identity management" }
+            ],
+            "correctAnswers": ["a", "b", "c"],
+            "explanation": "The provider always owns physical infrastructure components.",
+            "source": "Describe the shared responsibility model"
+        },
+        {
+            "id": "mr-008",
+            "type": "multiple-response",
+            "category": "shared-responsibility",
+            "question": "Which responsibilities always stay with the consumer?",
+            "options": [
+                { "id": "a", "text": "Data stored in the cloud" },
+                { "id": "b", "text": "Devices allowed to connect" },
+                { "id": "c", "text": "Accounts and identities" },
+                { "id": "d", "text": "Cooling systems" }
+            ],
+            "correctAnswers": ["a", "b", "c"],
+            "explanation": "Consumers always own data, devices, and identities.",
+            "source": "Describe the shared responsibility model"
+        },
+        {
+            "id": "mr-009",
+            "type": "multiple-response",
+            "category": "shared-responsibility",
+            "question": "Which responsibilities depend on the cloud service type?",
+            "options": [
+                { "id": "a", "text": "Operating systems" },
+                { "id": "b", "text": "Network controls" },
+                { "id": "c", "text": "Applications" },
+                { "id": "d", "text": "Physical datacenter" }
+            ],
+            "correctAnswers": ["a", "b", "c"],
+            "explanation": "These shift depending on whether you're using IaaS, PaaS, or SaaS.",
+            "source": "Describe the shared responsibility model"
+        },
+
+        {
+            "id": "tf-007",
+            "type": "true-false",
+            "category": "shared-responsibility",
+            "question": "In SaaS, most responsibilities shift to the cloud provider.",
+            "options": [
+                { "id": "true", "text": "True" },
+                { "id": "false", "text": "False" }
+            ],
+            "correctAnswers": ["true"],
+            "explanation": "SaaS places the majority of responsibility on the provider.",
+            "source": "Describe the shared responsibility model"
+        },
+        {
+            "id": "tf-008",
+            "type": "true-false",
+            "category": "shared-responsibility",
+            "question": "Consumers are responsible for physical network connectivity in the cloud.",
+            "options": [
+                { "id": "true", "text": "True" },
+                { "id": "false", "text": "False" }
+            ],
+            "correctAnswers": ["false"],
+            "explanation": "Physical network is always the provider's responsibility.",
+            "source": "Describe the shared responsibility model"
+        },
+        {
+            "id": "tf-009",
+            "type": "true-false",
+            "category": "shared-responsibility",
+            "question": "Identity and access responsibilities are shared in PaaS and SaaS.",
+            "options": [
+                { "id": "true", "text": "True" },
+                { "id": "false", "text": "False" }
+            ],
+            "correctAnswers": ["true"],
+            "explanation": "Consumers manage users and roles; providers run the authentication platform.",
+            "source": "Describe the shared responsibility model"
+        },
+
+        {
+            "id": "sc-007",
+            "type": "scenario",
+            "category": "shared-responsibility",
+            "scenario": "A company deploys a virtual machine and installs SQL Server on it.",
+            "scenarioId": "sc007",
+            "question": "Who is responsible for patching and updating the SQL database?",
+            "options": [
+                { "id": "a", "text": "The cloud provider" },
+                { "id": "b", "text": "The consumer" },
+                { "id": "c", "text": "A third-party vendor" }
+            ],
+            "correctAnswers": ["b"],
+            "explanation": "When you install SQL on your VM, you own patching and updates.",
+            "source": "Describe the shared responsibility model"
+        },
+        {
+            "id": "sc-008",
+            "type": "scenario",
+            "category": "shared-responsibility",
+            "scenario": "A team uses a cloud SQL database provided as a managed service.",
+            "scenarioId": "sc008",
+            "question": "Which responsibilities belong to the cloud provider?",
+            "options": [
+                { "id": "a", "text": "Maintaining the actual database engine" },
+                { "id": "b", "text": "Managing the data stored in the database" },
+                { "id": "c", "text": "Controlling user access policies" }
+            ],
+            "correctAnswers": ["a"],
+            "explanation": "Managed databases shift engine maintenance to the provider.",
+            "source": "Describe the shared responsibility model"
+        },
+        {
+            "id": "sc-009",
+            "type": "scenario",
+            "category": "shared-responsibility",
+            "scenario": "A company wants to understand how responsibilities shift when moving from on-premises to cloud.",
+            "scenarioId": "sc009",
+            "question": "Which statement best describes the shift?",
+            "options": [
+                { "id": "a", "text": "Consumers keep all responsibilities" },
+                { "id": "b", "text": "Responsibilities are shared depending on the cloud service model" },
+                { "id": "c", "text": "Providers take over all responsibilities" }
+            ],
+            "correctAnswers": ["b"],
+            "explanation": "Responsibility distribution depends on IaaS, PaaS, or SaaS.",
+            "source": "Describe the shared responsibility model"
+        },
+
+        {
+            "id": "match-007",
+            "type": "matching",
+            "category": "shared-responsibility",
+            "question": "Match each responsibility with who owns it.",
+            "leftItems": [
+                { "id": "l1", "text": "Physical datacenter" },
+                { "id": "l2", "text": "Data stored in the cloud" },
+                { "id": "l3", "text": "Accounts and identities" }
+            ],
+            "rightItems": [
+                { "id": "r1", "text": "Cloud provider" },
+                { "id": "r2", "text": "Consumer" }
+            ],
+            "correctMatches": {
+                "l1": "r1",
+                "l2": "r2",
+                "l3": "r2"
+            },
+            "source": "Describe the shared responsibility model"
+        },
+        {
+            "id": "match-008",
+            "type": "matching",
+            "category": "shared-responsibility",
+            "question": "Match each cloud service model with its responsibility distribution.",
+            "leftItems": [
+                { "id": "l1", "text": "IaaS" },
+                { "id": "l2", "text": "PaaS" },
+                { "id": "l3", "text": "SaaS" }
+            ],
+            "rightItems": [
+                { "id": "r1", "text": "Most responsibility on consumer" },
+                { "id": "r2", "text": "Balanced responsibility" },
+                { "id": "r3", "text": "Most responsibility on provider" }
+            ],
+            "correctMatches": {
+                "l1": "r1",
+                "l2": "r2",
+                "l3": "r3"
+            },
+            "source": "Describe the shared responsibility model"
+        },
+        {
+            "id": "match-009",
+            "type": "matching",
+            "category": "shared-responsibility",
+            "question": "Match each item with whether it always belongs to the provider or consumer.",
+            "leftItems": [
+                { "id": "l1", "text": "Physical hosts" },
+                { "id": "l2", "text": "Devices allowed to connect" },
+                { "id": "l3", "text": "Physical network" }
+            ],
+            "rightItems": [
+                { "id": "r1", "text": "Provider" },
+                { "id": "r2", "text": "Consumer" }
+            ],
+            "correctMatches": {
+                "l1": "r1",
+                "l2": "r2",
+                "l3": "r1"
+            },
+            "source": "Describe the shared responsibility model"
+        },
+
+        {
+            "id": "fb-007",
+            "type": "fill-blank",
+            "category": "shared-responsibility",
+            "question": "In the shared responsibility model, the consumer is always responsible for managing {{b1}}.",
+            "blanks": [
+                {
+                    "id": "b1",
+                    "options": ["identities", "physical hosts", "cooling systems"],
+                    "correctAnswer": "identities"
+                }
+            ],
+            "source": "Describe the shared responsibility model"
+        },
+        {
+            "id": "fb-008",
+            "type": "fill-blank",
+            "category": "shared-responsibility",
+            "question": "The cloud provider is always responsible for the {{b1}}.",
+            "blanks": [
+                {
+                    "id": "b1",
+                    "options": ["physical datacenter", "user accounts", "stored data"],
+                    "correctAnswer": "physical datacenter"
+                }
+            ],
+            "source": "Describe the shared responsibility model"
+        },
+        {
+            "id": "fb-009",
+            "type": "fill-blank",
+            "category": "shared-responsibility",
+            "question": "Responsibility for operating systems and applications depends on the {{b1}}.",
+            "blanks": [
+                {
+                    "id": "b1",
+                    "options": ["cloud service model", "physical location", "network speed"],
+                    "correctAnswer": "cloud service model"
+                }
+            ],
+            "source": "Describe the shared responsibility model"
+        },
+
+        {
+            "id": "mc-010",
+            "type": "multiple-choice",
+            "category": "cloud-models",
+            "question": "Which cloud model provides the most flexibility?",
+            "options": [
+                { "id": "a", "text": "Public cloud" },
+                { "id": "b", "text": "Private cloud" },
+                { "id": "c", "text": "Hybrid cloud" }
+            ],
+            "correctAnswers": ["c"],
+            "explanation": "Hybrid cloud combines public and private environments, offering maximum flexibility.",
+            "source": "Define cloud models"
+        },
+        {
+            "id": "mc-011",
+            "type": "multiple-choice",
+            "category": "cloud-models",
+            "question": "Which cloud model requires capital expenditures for hardware?",
+            "options": [
+                { "id": "a", "text": "Public cloud" },
+                { "id": "b", "text": "Private cloud" },
+                { "id": "c", "text": "Hybrid cloud" }
+            ],
+            "correctAnswers": ["b"],
+            "explanation": "Private cloud requires purchasing and maintaining hardware.",
+            "source": "Define cloud models"
+        },
+        {
+            "id": "mc-012",
+            "type": "multiple-choice",
+            "category": "cloud-models",
+            "question": "Which cloud model is built, controlled, and maintained by a third-party provider?",
+            "options": [
+                { "id": "a", "text": "Private cloud" },
+                { "id": "b", "text": "Public cloud" },
+                { "id": "c", "text": "Hybrid cloud" }
+            ],
+            "correctAnswers": ["b"],
+            "explanation": "Public cloud is operated by a cloud provider and available to anyone.",
+            "source": "Define cloud models"
+        },
+
+        {
+            "id": "mr-010",
+            "type": "multiple-response",
+            "category": "cloud-models",
+            "question": "Which characteristics describe a private cloud?",
+            "options": [
+                { "id": "a", "text": "Used by a single organization" },
+                { "id": "b", "text": "Provides complete control over resources" },
+                { "id": "c", "text": "Requires hardware purchase and maintenance" },
+                { "id": "d", "text": "Available to the general public" }
+            ],
+            "correctAnswers": ["a", "b", "c"],
+            "explanation": "Private cloud is dedicated, controlled, and hardware-dependent.",
+            "source": "Define cloud models"
+        },
+        {
+            "id": "mr-011",
+            "type": "multiple-response",
+            "category": "cloud-models",
+            "question": "Which benefits are associated with public cloud?",
+            "options": [
+                { "id": "a", "text": "No capital expenditures" },
+                { "id": "b", "text": "Quick provisioning and deprovisioning" },
+                { "id": "c", "text": "Pay only for what you use" },
+                { "id": "d", "text": "Complete control over physical security" }
+            ],
+            "correctAnswers": ["a", "b", "c"],
+            "explanation": "Public cloud offers cost efficiency, agility, and usage-based billing.",
+            "source": "Define cloud models"
+        },
+        {
+            "id": "mr-012",
+            "type": "multiple-response",
+            "category": "cloud-models",
+            "question": "Which scenarios describe multicloud environments?",
+            "options": [
+                { "id": "a", "text": "Using features from multiple cloud providers" },
+                { "id": "b", "text": "Migrating from one provider to another" },
+                { "id": "c", "text": "Running workloads across two or more public clouds" },
+                { "id": "d", "text": "Using only private cloud resources" }
+            ],
+            "correctAnswers": ["a", "b", "c"],
+            "explanation": "Multicloud involves multiple public cloud providers.",
+            "source": "Define cloud models"
+        },
+
+        {
+            "id": "tf-010",
+            "type": "true-false",
+            "category": "cloud-models",
+            "question": "Hybrid cloud can be used to temporarily increase capacity by using public cloud resources.",
+            "options": [
+                { "id": "true", "text": "True" },
+                { "id": "false", "text": "False" }
+            ],
+            "correctAnswers": ["true"],
+            "explanation": "Hybrid cloud allows private cloud to surge using public cloud resources.",
+            "source": "Define cloud models"
+        },
+        {
+            "id": "tf-011",
+            "type": "true-false",
+            "category": "cloud-models",
+            "question": "Public cloud provides complete control over resources and security.",
+            "options": [
+                { "id": "true", "text": "True" },
+                { "id": "false", "text": "False" }
+            ],
+            "correctAnswers": ["false"],
+            "explanation": "Private cloud provides complete control, not public cloud.",
+            "source": "Define cloud models"
+        },
+        {
+            "id": "tf-012",
+            "type": "true-false",
+            "category": "cloud-models",
+            "question": "Multicloud environments involve managing resources and security across multiple public cloud providers.",
+            "options": [
+                { "id": "true", "text": "True" },
+                { "id": "false", "text": "False" }
+            ],
+            "correctAnswers": ["true"],
+            "explanation": "Multicloud means using two or more public clouds.",
+            "source": "Define cloud models"
+        },
+
+        {
+            "id": "sc-010",
+            "type": "scenario",
+            "category": "cloud-models",
+            "scenario": "A company wants full control over its infrastructure and security but also wants to deliver services over the internet.",
+            "scenarioId": "sc010",
+            "question": "Which cloud model best fits their needs?",
+            "options": [
+                { "id": "a", "text": "Public cloud" },
+                { "id": "b", "text": "Private cloud" },
+                { "id": "c", "text": "Hybrid cloud" }
+            ],
+            "correctAnswers": ["b"],
+            "explanation": "Private cloud provides full control while still delivering services online.",
+            "source": "Define cloud models"
+        },
+        {
+            "id": "sc-011",
+            "type": "scenario",
+            "category": "cloud-models",
+            "scenario": "A business wants to run VMware workloads in the cloud without rearchitecting them.",
+            "scenarioId": "sc011",
+            "question": "Which Azure offering supports this requirement?",
+            "options": [
+                { "id": "a", "text": "Azure Arc" },
+                { "id": "b", "text": "Azure VMware Solution" },
+                { "id": "c", "text": "Azure Virtual Desktop" }
+            ],
+            "correctAnswers": ["b"],
+            "explanation": "Azure VMware Solution allows running VMware workloads natively in Azure.",
+            "source": "Define cloud models"
+        },
+        {
+            "id": "sc-012",
+            "type": "scenario",
+            "category": "cloud-models",
+            "scenario": "An organization uses Azure, AWS, and Google Cloud simultaneously.",
+            "scenarioId": "sc012",
+            "question": "Which cloud model describes this setup?",
+            "options": [
+                { "id": "a", "text": "Hybrid cloud" },
+                { "id": "b", "text": "Multicloud" },
+                { "id": "c", "text": "Private cloud" }
+            ],
+            "correctAnswers": ["b"],
+            "explanation": "Using multiple public cloud providers is a multicloud environment.",
+            "source": "Define cloud models"
+        },
+        {
+            "id": "sc-013",
+            "type": "scenario",
+            "category": "shared-responsibility",
+            "scenario": "An organization wants to migrate from on-premises to IaaS. They want to understand how responsibilities shift.",
+            "scenarioId": "sc013",
+            "question": "Which responsibilities move to the cloud provider when adopting IaaS?",
+            "options": [
+                { "id": "a", "text": "Operating system updates" },
+                { "id": "b", "text": "Physical security, power, and network connectivity" },
+                { "id": "c", "text": "Application patching" }
+            ],
+            "correctAnswers": ["b"],
+            "explanation": "IaaS shifts physical infrastructure responsibilities to the provider.",
+            "source": "Describe the shared responsibility model"
+        },
+        {
+            "id": "sc-014",
+            "type": "scenario",
+            "category": "shared-responsibility",
+            "scenario": "A company wants to ensure that devices connecting to their cloud environment meet security requirements.",
+            "scenarioId": "sc014",
+            "question": "Who is responsible for managing device compliance?",
+            "options": [
+                { "id": "a", "text": "The cloud provider" },
+                { "id": "b", "text": "The consumer" },
+                { "id": "c", "text": "Shared responsibility" }
+            ],
+            "correctAnswers": ["b"],
+            "explanation": "Consumers always own device policies and compliance.",
+            "source": "Describe the shared responsibility model"
+        },
+        {
+            "id": "sc-015",
+            "type": "scenario",
+            "category": "shared-responsibility",
+            "scenario": "A business uses a SaaS CRM solution and wants to know what responsibilities they still retain.",
+            "scenarioId": "sc015",
+            "question": "Which responsibility remains with the consumer?",
+            "options": [
+                { "id": "a", "text": "Maintaining the CRM application" },
+                { "id": "b", "text": "Managing user accounts and identities" },
+                { "id": "c", "text": "Maintaining the physical datacenter" }
+            ],
+            "correctAnswers": ["b"],
+            "explanation": "Even in SaaS, consumers manage identities and access.",
+            "source": "Describe the shared responsibility model"
+        },
+        {
+            "id": "sc-016",
+            "type": "scenario",
+            "category": "shared-responsibility",
+            "scenario": "A team deploys a containerized application using Azure Kubernetes Service (AKS).",
+            "scenarioId": "sc016",
+            "question": "Who is responsible for securing the application running inside the containers?",
+            "options": [
+                { "id": "a", "text": "The cloud provider" },
+                { "id": "b", "text": "The consumer" },
+                { "id": "c", "text": "Shared responsibility" }
+            ],
+            "correctAnswers": ["b"],
+            "explanation": "The consumer owns application-level security, even in managed container services.",
+            "source": "Describe the shared responsibility model"
+        },
+        {
+            "id": "sc-017",
+            "type": "scenario",
+            "category": "shared-responsibility",
+            "scenario": "A company uses Azure Active Directory for authentication but manages its own user roles and permissions.",
+            "scenarioId": "sc017",
+            "question": "Which part of identity management is the cloud provider responsible for?",
+            "options": [
+                { "id": "a", "text": "Running the authentication platform" },
+                { "id": "b", "text": "Assigning user roles" },
+                { "id": "c", "text": "Managing user passwords" }
+            ],
+            "correctAnswers": ["a"],
+            "explanation": "Azure AD provides the authentication platform; consumers manage roles and permissions.",
+            "source": "Describe the shared responsibility model"
+        },
+        {
+            "id": "sc-018",
+            "type": "scenario",
+            "category": "shared-responsibility",
+            "scenario": "A company stores confidential documents in Azure Storage and wants to ensure encryption is enabled.",
+            "scenarioId": "sc018",
+            "question": "Who is responsible for enabling and managing encryption for stored data?",
+            "options": [
+                { "id": "a", "text": "The cloud provider" },
+                { "id": "b", "text": "The consumer" },
+                { "id": "c", "text": "Shared responsibility" }
+            ],
+            "correctAnswers": ["b"],
+            "explanation": "Consumers are responsible for data security settings, including encryption.",
+            "source": "Describe the shared responsibility model"
+        },
+        {
+            "id": "match-010",
+            "type": "matching",
+            "category": "cloud-models",
+            "question": "Match each cloud model with its description.",
+            "leftItems": [
+                { "id": "l1", "text": "Public cloud" },
+                { "id": "l2", "text": "Private cloud" },
+                { "id": "l3", "text": "Hybrid cloud" }
+            ],
+            "rightItems": [
+                { "id": "r1", "text": "Built and maintained by a cloud provider" },
+                { "id": "r2", "text": "Used by a single organization" },
+                { "id": "r3", "text": "Combines public and private environments" }
+            ],
+            "correctMatches": {
+                "l1": "r1",
+                "l2": "r2",
+                "l3": "r3"
+            },
+            "source": "Define cloud models"
+        },
+        {
+            "id": "match-011",
+            "type": "matching",
+            "category": "cloud-models",
+            "question": "Match each Azure technology with its purpose.",
+            "leftItems": [
+                { "id": "l1", "text": "Azure Arc" },
+                { "id": "l2", "text": "Azure VMware Solution" },
+                { "id": "l3", "text": "Multicloud" }
+            ],
+            "rightItems": [
+                { "id": "r1", "text": "Manage resources across multiple environments" },
+                { "id": "r2", "text": "Run VMware workloads in Azure" },
+                { "id": "r3", "text": "Use multiple public cloud providers" }
+            ],
+            "correctMatches": {
+                "l1": "r1",
+                "l2": "r2",
+                "l3": "r3"
+            },
+            "source": "Define cloud models"
+        },
+        {
+            "id": "match-012",
+            "type": "matching",
+            "category": "cloud-models",
+            "question": "Match each cloud model with one of its key advantages.",
+            "leftItems": [
+                { "id": "l1", "text": "Public cloud" },
+                { "id": "l2", "text": "Private cloud" },
+                { "id": "l3", "text": "Hybrid cloud" }
+            ],
+            "rightItems": [
+                { "id": "r1", "text": "No capital expenditures" },
+                { "id": "r2", "text": "Complete control over security" },
+                { "id": "r3", "text": "Most flexible deployment option" }
+            ],
+            "correctMatches": {
+                "l1": "r1",
+                "l2": "r2",
+                "l3": "r3"
+            },
+            "source": "Define cloud models"
+        },
+
+        {
+            "id": "fb-010",
+            "type": "fill-blank",
+            "category": "cloud-models",
+            "question": "A private cloud is used by a {{b1}} organization.",
+            "blanks": [
+                {
+                    "id": "b1",
+                    "options": ["single", "public", "multiple"],
+                    "correctAnswer": "single"
+                }
+            ],
+            "source": "Define cloud models"
+        },
+        {
+            "id": "fb-011",
+            "type": "fill-blank",
+            "category": "cloud-models",
+            "question": "A multicloud environment uses {{b1}} public cloud providers.",
+            "blanks": [
+                {
+                    "id": "b1",
+                    "options": ["multiple", "only one", "private"],
+                    "correctAnswer": "multiple"
+                }
+            ],
+            "source": "Define cloud models"
+        },
+        {
+            "id": "fb-012",
+            "type": "fill-blank",
+            "category": "cloud-models",
+            "question": "Hybrid cloud combines both public and {{b1}} cloud environments.",
+            "blanks": [
+                {
+                    "id": "b1",
+                    "options": ["private", "multicloud", "community"],
+                    "correctAnswer": "private"
+                }
+            ],
+            "source": "Define cloud models"
+        },
+            {
+      "id": "sc-019",
+      "type": "scenario",
+      "category": "cloud-models",
+      "scenario": "A company wants to avoid capital expenditures and deploy applications quickly without purchasing hardware.",
+      "scenarioId": "sc019",
+      "question": "Which cloud model best fits their needs?",
+      "options": [
+        { "id": "a", "text": "Private cloud" },
+        { "id": "b", "text": "Public cloud" },
+        { "id": "c", "text": "Hybrid cloud" }
+      ],
+      "correctAnswers": ["b"],
+      "explanation": "Public cloud requires no capital expenditures and allows rapid provisioning.",
+      "source": "Define cloud models"
+    },
+    {
+      "id": "sc-020",
+      "type": "scenario",
+      "category": "cloud-models",
+      "scenario": "An organization needs complete control over resources and security due to strict compliance requirements.",
+      "scenarioId": "sc020",
+      "question": "Which cloud model should they choose?",
+      "options": [
+        { "id": "a", "text": "Public cloud" },
+        { "id": "b", "text": "Private cloud" },
+        { "id": "c", "text": "Multicloud" }
+      ],
+      "correctAnswers": ["b"],
+      "explanation": "Private cloud provides full control over resources and security.",
+      "source": "Define cloud models"
+    },
+    {
+      "id": "sc-021",
+      "type": "scenario",
+      "category": "cloud-models",
+      "scenario": "A business wants to run its private cloud workloads but also temporarily expand capacity during peak demand.",
+      "scenarioId": "sc021",
+      "question": "Which cloud model supports this requirement?",
+      "options": [
+        { "id": "a", "text": "Public cloud" },
+        { "id": "b", "text": "Hybrid cloud" },
+        { "id": "c", "text": "Multicloud" }
+      ],
+      "correctAnswers": ["b"],
+      "explanation": "Hybrid cloud allows private cloud to surge using public cloud resources.",
+      "source": "Define cloud models"
+    },
+    {
+      "id": "sc-022",
+      "type": "scenario",
+      "category": "cloud-models",
+      "scenario": "A company uses AWS for storage, Azure for compute, and Google Cloud for analytics.",
+      "scenarioId": "sc022",
+      "question": "Which cloud model describes this setup?",
+      "options": [
+        { "id": "a", "text": "Hybrid cloud" },
+        { "id": "b", "text": "Multicloud" },
+        { "id": "c", "text": "Private cloud" }
+      ],
+      "correctAnswers": ["b"],
+      "explanation": "Using multiple public cloud providers is a multicloud environment.",
+      "source": "Define cloud models"
+    },
+    {
+      "id": "sc-023",
+      "type": "scenario",
+      "category": "cloud-models",
+      "scenario": "A company wants to manage resources across Azure, their private datacenter, and AWS from a single control plane.",
+      "scenarioId": "sc023",
+      "question": "Which Azure technology enables this?",
+      "options": [
+        { "id": "a", "text": "Azure VMware Solution" },
+        { "id": "b", "text": "Azure Arc" },
+        { "id": "c", "text": "Azure Virtual Desktop" }
+      ],
+      "correctAnswers": ["b"],
+      "explanation": "Azure Arc manages resources across public, private, hybrid, and multicloud environments.",
+      "source": "Define cloud models"
+    },
+    {
+      "id": "sc-024",
+      "type": "scenario",
+      "category": "cloud-models",
+      "scenario": "A company already uses VMware in its private cloud and wants to migrate workloads to Azure without rearchitecting.",
+      "scenarioId": "sc024",
+      "question": "Which Azure offering supports this requirement?",
+      "options": [
+        { "id": "a", "text": "Azure Arc" },
+        { "id": "b", "text": "Azure VMware Solution" },
+        { "id": "c", "text": "Azure Kubernetes Service" }
+      ],
+      "correctAnswers": ["b"],
+      "explanation": "Azure VMware Solution lets you run VMware workloads natively in Azure.",
+      "source": "Define cloud models"
+    }
+    ]
+}

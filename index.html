@@ -1,0 +1,428 @@
+<!-- 
+ SPDX-License-Identifier: AGPL-3.0-only
+ Copyright (c) 2026 mjcs-95 and contributors
+-->
+<!doctype html>
+<html lang="en" data-theme="light">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="A local certification practice app powered by JSON question banks." />
+        <meta name="color-scheme" content="light dark" />
+        <title>CertPrep · Certification practice</title>
+        <link rel="stylesheet" href="styles.css?v=1.1.0" />
+    </head>
+    <body>
+        <a class="skip-link" href="#main-content" data-i18n="import.skip">Skip to content</a>
+
+        <header class="app-header">
+            <a
+                class="brand"
+                href="#"
+                id="brand-link"
+                aria-label="Go to CertPrep home"
+                data-i18n-aria-label="header.home"
+            >
+                <span class="brand-mark" aria-hidden="true">CP</span>
+                <span>
+                    <strong>CertPrep</strong>
+                    <small data-i18n="header.studio">Practice studio</small>
+                </span>
+            </a>
+            <div class="header-actions">
+                <label class="language-picker" for="language-select">
+                    <span class="sr-only" data-i18n="language.label">Language</span>
+                    <select id="language-select" aria-label="Language" data-i18n-aria-label="language.label">
+                        <option value="en">English</option>
+                        <option value="es">Español</option>
+                        <option value="fr">Français</option>
+                    </select>
+                </label>
+                <span class="save-indicator" id="save-indicator" aria-live="polite">
+                    <span class="save-dot" aria-hidden="true"></span>
+                    <span id="save-label" data-i18n="header.savedLocally">Saved locally</span>
+                </span>
+                <button
+                    class="icon-button"
+                    id="theme-toggle"
+                    type="button"
+                    aria-label="Enable dark mode"
+                    title="Change theme"
+                    data-i18n-aria-label="header.enableDarkMode"
+                    data-i18n-title="header.changeTheme"
+                >
+                    <span id="theme-icon" aria-hidden="true">☾</span>
+                </button>
+                <button
+                    class="button button-ghost button-small"
+                    id="clear-session"
+                    type="button"
+                    data-i18n="header.clearSession"
+                >
+                    Clear session
+                </button>
+            </div>
+        </header>
+
+        <main id="main-content" tabindex="-1">
+            <section id="import-view" class="view" aria-labelledby="import-title">
+                <div class="intro-grid">
+                    <div class="intro-copy">
+                        <span class="eyebrow" data-i18n="import.eyebrow">Your preparation space</span>
+                        <h1 id="import-title" data-i18n="import.title">
+                            Turn your questions into a focused study session.
+                        </h1>
+                        <p data-i18n="import.description">
+                            Import a JSON question bank, set your pace, and practice without accounts, servers, or
+                            subscriptions. Everything stays in this browser.
+                        </p>
+                        <ul class="feature-list" aria-label="Key features" data-i18n-aria-label="import.featuresLabel">
+                            <li>
+                                <span aria-hidden="true">✓</span>
+                                <span data-i18n="import.featureFormats">Six question formats</span>
+                            </li>
+                            <li>
+                                <span aria-hidden="true">✓</span>
+                                <span data-i18n="import.featureModes">Practice and exam modes</span>
+                            </li>
+                            <li>
+                                <span aria-hidden="true">✓</span>
+                                <span data-i18n="import.featureProgress">Private, persistent progress</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <section class="panel import-panel" aria-labelledby="source-title">
+                        <div class="panel-heading">
+                            <div>
+                                <span class="step-label" data-i18n="import.step">Step 1</span>
+                                <h2 id="source-title" data-i18n="import.heading">Add your questions</h2>
+                            </div>
+                            <button
+                                class="button button-secondary button-small"
+                                id="load-demo"
+                                type="button"
+                                data-i18n="import.useDemo"
+                            >
+                                Use demo
+                            </button>
+                        </div>
+
+                        <label class="file-drop" for="question-file" id="file-drop">
+                            <span class="file-icon" aria-hidden="true">⇧</span>
+                            <span
+                                ><strong data-i18n="import.chooseFile">Choose a JSON file</strong
+                                ><small data-i18n="import.dragFile">or drag it here · 5 MB maximum</small></span
+                            >
+                            <input id="question-file" type="file" accept=".json,application/json" />
+                        </label>
+
+                        <div class="divider"><span data-i18n="import.orPaste">or paste the contents</span></div>
+                        <label class="field-label" for="json-input" data-i18n="import.jsonLabel">Question JSON</label>
+                        <textarea
+                            id="json-input"
+                            class="code-input"
+                            rows="10"
+                            spellcheck="false"
+                            placeholder='{"questions": [{"id": "q1", "type": "multiple-choice", ...}]}'
+                            data-i18n-placeholder="import.jsonPlaceholder"
+                        ></textarea>
+                        <p class="field-hint" data-i18n="import.jsonHint">
+                            The expected structure is documented in <code>README.md</code>.
+                        </p>
+
+                        <div id="import-message" class="message" role="status" aria-live="polite" hidden></div>
+                        <button
+                            class="button button-primary button-full"
+                            id="validate-load"
+                            type="button"
+                            data-i18n="import.validate"
+                        >
+                            Validate and load questions
+                        </button>
+                    </section>
+                </div>
+            </section>
+
+            <section id="setup-view" class="view" aria-labelledby="setup-title" hidden>
+                <div class="page-heading">
+                    <div>
+                        <span class="eyebrow" data-i18n="setup.eyebrow">Question bank ready</span>
+                        <h1 id="setup-title" data-i18n="setup.title">Design your session</h1>
+                        <p data-i18n="setup.description">Shape the quiz around your time and goal for today.</p>
+                    </div>
+                    <button
+                        class="button button-secondary"
+                        id="change-source"
+                        type="button"
+                        data-i18n="setup.changeBank"
+                    >
+                        Change bank
+                    </button>
+                </div>
+
+                <div class="setup-grid">
+                    <section class="panel summary-panel" aria-labelledby="summary-title">
+                        <div class="panel-heading">
+                            <div>
+                                <span class="step-label" data-i18n="setup.summary">Summary</span>
+                                <h2 id="summary-title" data-i18n="setup.bank">Question bank</h2>
+                            </div>
+                            <span class="status-badge status-ready" data-i18n="setup.ready">Ready</span>
+                        </div>
+                        <div class="stat-grid">
+                            <div class="stat-card">
+                                <strong id="total-questions">0</strong
+                                ><span data-i18n="setup.questions">questions</span>
+                            </div>
+                            <div class="stat-card">
+                                <strong id="total-types">0</strong><span data-i18n="setup.formats">formats</span>
+                            </div>
+                            <div class="stat-card">
+                                <strong id="total-categories">0</strong
+                                ><span data-i18n="setup.categories">categories</span>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="mini-title" data-i18n="setup.breakdown">Breakdown by type</h3>
+                            <div id="type-summary" class="distribution-list"></div>
+                        </div>
+                        <div>
+                            <h3 class="mini-title" data-i18n="setup.availableCategories">Available categories</h3>
+                            <div id="category-summary" class="tag-list"></div>
+                        </div>
+                    </section>
+
+                    <form class="panel config-panel" id="quiz-config">
+                        <div class="panel-heading">
+                            <div>
+                                <span class="step-label" data-i18n="setup.step">Step 2</span>
+                                <h2 data-i18n="setup.configure">Configure your practice</h2>
+                            </div>
+                        </div>
+
+                        <fieldset class="form-group mode-options">
+                            <legend data-i18n="setup.sessionMode">Session mode</legend>
+                            <label class="choice-card">
+                                <input type="radio" name="mode" value="practice" checked />
+                                <span class="choice-icon" aria-hidden="true">◎</span>
+                                <span
+                                    ><strong data-i18n="setup.practice">Practice</strong
+                                    ><small data-i18n="setup.practiceHelp">Check each question as you go.</small></span
+                                >
+                            </label>
+                            <label class="choice-card">
+                                <input type="radio" name="mode" value="exam" />
+                                <span class="choice-icon" aria-hidden="true">◇</span>
+                                <span
+                                    ><strong data-i18n="setup.exam">Exam</strong
+                                    ><small data-i18n="setup.examHelp"
+                                        >Review answers only when you finish.</small
+                                    ></span
+                                >
+                            </label>
+                        </fieldset>
+
+                        <div class="form-row">
+                            <label class="form-field" for="question-count">
+                                <span data-i18n="setup.questionCount">Number of questions</span>
+                                <input id="question-count" type="number" min="1" value="10" required />
+                            </label>
+                            <label class="form-field" for="category-filter">
+                                <span data-i18n="setup.category">Category</span>
+                                <select id="category-filter">
+                                    <option value="all" data-i18n="setup.allCategories">All categories</option>
+                                </select>
+                            </label>
+                        </div>
+
+                        <fieldset class="form-group inline-options">
+                            <legend data-i18n="setup.selection">Selection</legend>
+                            <label
+                                ><input type="radio" name="selection" value="ordered" checked />
+                                <span data-i18n="setup.ordered">In order</span></label
+                            >
+                            <label
+                                ><input type="radio" name="selection" value="random" />
+                                <span data-i18n="setup.random">Random</span></label
+                            >
+                        </fieldset>
+
+                        <label class="switch-row" for="immediate-explanation">
+                            <span
+                                ><strong data-i18n="setup.immediate">Immediate explanation</strong
+                                ><small data-i18n="setup.immediateHelp"
+                                    >Show it after checking in practice mode.</small
+                                ></span
+                            >
+                            <span class="switch"
+                                ><input id="immediate-explanation" type="checkbox" checked /><span
+                                    aria-hidden="true"
+                                ></span
+                            ></span>
+                        </label>
+
+                        <div id="config-message" class="message" role="status" aria-live="polite" hidden></div>
+                        <button class="button button-primary button-full" type="submit">
+                            <span data-i18n="setup.start">Start session</span> <span aria-hidden="true">→</span>
+                        </button>
+                    </form>
+                </div>
+            </section>
+
+            <section id="quiz-view" class="view quiz-view" aria-labelledby="quiz-title" hidden>
+                <div class="quiz-topbar">
+                    <div>
+                        <span id="quiz-mode-label" class="eyebrow">Practice mode</span>
+                        <h1 id="quiz-title" data-i18n="quiz.title">Session in progress</h1>
+                    </div>
+                    <div class="quiz-top-actions">
+                        <button
+                            class="button button-ghost button-small"
+                            id="reset-answers"
+                            type="button"
+                            data-i18n="quiz.reset"
+                        >
+                            Reset answers
+                        </button>
+                        <button
+                            class="button button-secondary button-small"
+                            id="exit-quiz"
+                            type="button"
+                            data-i18n="quiz.exit"
+                        >
+                            Exit
+                        </button>
+                    </div>
+                </div>
+
+                <div class="progress-block">
+                    <div class="progress-meta">
+                        <span id="progress-text">Question 1 of 1</span><span id="answered-text">0 answered</span>
+                    </div>
+                    <div
+                        class="progress-track"
+                        role="progressbar"
+                        aria-label="Quiz progress"
+                        data-i18n-aria-label="quiz.progressLabel"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        aria-valuenow="0"
+                    >
+                        <span id="progress-fill"></span>
+                    </div>
+                </div>
+
+                <div class="quiz-layout">
+                    <aside class="question-map panel" aria-label="Question map" data-i18n-aria-label="quiz.map">
+                        <div class="map-legend">
+                            <span
+                                ><i class="legend-dot answered"></i
+                                ><span data-i18n="quiz.answeredLegend">Answered</span></span
+                            ><span
+                                ><i class="legend-dot reviewed"></i
+                                ><span data-i18n="quiz.checkedLegend">Checked</span></span
+                            >
+                        </div>
+                        <nav id="question-nav" aria-label="Go to a question" data-i18n-aria-label="quiz.navLabel"></nav>
+                    </aside>
+
+                    <article class="question-card panel" id="question-card">
+                        <header class="question-header">
+                            <div class="question-meta">
+                                <span id="question-number">Question 1</span
+                                ><span id="question-category" class="tag"></span>
+                            </div>
+                            <span id="question-type" class="type-badge"></span>
+                        </header>
+                        <div id="scenario-container" class="scenario-box" hidden></div>
+                        <div id="question-content"></div>
+                        <div id="feedback-container" aria-live="polite"></div>
+
+                        <footer class="question-actions">
+                            <button class="button button-secondary" id="previous-question" type="button">
+                                <span aria-hidden="true">←</span> <span data-i18n="quiz.previous">Previous</span>
+                            </button>
+                            <div class="primary-actions">
+                                <button
+                                    class="button button-secondary"
+                                    id="check-question"
+                                    type="button"
+                                    data-i18n="quiz.check"
+                                >
+                                    Check
+                                </button>
+                                <button class="button button-primary" id="next-question" type="button">
+                                    <span data-i18n="quiz.next">Next</span> <span aria-hidden="true">→</span>
+                                </button>
+                                <button class="button button-primary" id="finish-quiz" type="button" hidden></button>
+                            </div>
+                        </footer>
+                    </article>
+                </div>
+            </section>
+
+            <section id="results-view" class="view" aria-labelledby="results-title" hidden>
+                <div class="results-wrap">
+                    <section class="results-hero panel">
+                        <span class="eyebrow" data-i18n="results.eyebrow">Session complete</span>
+                        <div class="score-ring" id="score-ring">
+                            <strong id="score-value">0%</strong><span data-i18n="results.correct">correct</span>
+                        </div>
+                        <h1 id="results-title" data-i18n="results.title">Session result</h1>
+                        <p id="results-message"></p>
+                        <div class="results-stats">
+                            <div>
+                                <strong id="correct-count">0</strong
+                                ><span data-i18n="results.correctStat">Correct</span>
+                            </div>
+                            <div>
+                                <strong id="incorrect-count">0</strong
+                                ><span data-i18n="results.incorrectStat">Incorrect</span>
+                            </div>
+                            <div>
+                                <strong id="answered-count">0</strong
+                                ><span data-i18n="results.answeredStat">Answered</span>
+                            </div>
+                        </div>
+                        <div class="results-actions">
+                            <button
+                                class="button button-primary"
+                                id="retry-wrong"
+                                type="button"
+                                data-i18n="results.retry"
+                            >
+                                Retry missed
+                            </button>
+                            <button
+                                class="button button-secondary"
+                                id="new-session"
+                                type="button"
+                                data-i18n="results.new"
+                            >
+                                New session
+                            </button>
+                        </div>
+                    </section>
+
+                    <section class="panel review-panel" aria-labelledby="review-title">
+                        <div class="panel-heading">
+                            <div>
+                                <span class="step-label" data-i18n="results.review">Review</span>
+                                <h2 id="review-title" data-i18n="results.missedTitle">Missed questions</h2>
+                            </div>
+                            <span id="wrong-badge" class="status-badge"></span>
+                        </div>
+                        <div id="wrong-questions" class="wrong-list"></div>
+                    </section>
+                </div>
+            </section>
+        </main>
+
+        <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+        <script src="locales/en.js?v=1.1.0" defer></script>
+        <script src="locales/es.js?v=1.1.0" defer></script>
+        <script src="locales/fr.js?v=1.1.0" defer></script>
+        <script src="app.js?v=1.1.0" defer></script>
+    </body>
+</html>
