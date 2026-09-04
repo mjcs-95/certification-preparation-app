@@ -68,6 +68,8 @@ window.CERTPREP_LOCALES.en = {
     "quiz.answered": ({ count }) => `${count} answered`,
     "quiz.progressLabel": "Quiz progress",
     "quiz.map": "Question map",
+    "quiz.hideMap": "Hide map",
+    "quiz.showMap": "Show map",
     "quiz.navLabel": "Go to a question",
     "quiz.answeredLegend": "Answered",
     "quiz.checkedLegend": "Checked",

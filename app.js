@@ -176,6 +176,7 @@
     let state = defaultState();
     let activeMatchLeft = null;
     let toastTimer = null;
+    let questionMapExpanded = !window.matchMedia("(max-width: 920px)").matches;
 
     const $ = (selector, root = document) => root.querySelector(selector);
     const $$ = (selector, root = document) => Array.from(root.querySelectorAll(selector));
@@ -214,6 +215,8 @@
         progressTrack: $(".progress-track"),
         progressFill: $("#progress-fill"),
         questionNav: $("#question-nav"),
+        questionMapContent: $("#question-map-content"),
+        questionMapToggle: $("#toggle-question-map"),
         questionNumber: $("#question-number"),
         questionCategory: $("#question-category"),
         questionType: $("#question-type"),
@@ -255,6 +258,7 @@
         const description = document.querySelector('meta[name="description"]');
         if (description) description.setAttribute("content", t("meta.description"));
         if (elements.languageSelect) elements.languageSelect.value = currentLocale;
+        if (elements.questionMapToggle) setQuestionMapExpanded(questionMapExpanded);
     }
 
     function applyLocale({ rerender = true } = {}) {
@@ -274,6 +278,13 @@
             // The app remains usable when storage is unavailable.
         }
         applyLocale();
+    }
+
+    function setQuestionMapExpanded(expanded) {
+        questionMapExpanded = expanded;
+        elements.questionMapContent.hidden = !expanded;
+        elements.questionMapToggle.setAttribute("aria-expanded", String(expanded));
+        elements.questionMapToggle.textContent = expanded ? t("quiz.hideMap") : t("quiz.showMap");
     }
 
     // ---------- Persistence and state ----------
@@ -673,6 +684,7 @@
     }
 
     function renderQuestionMap(quiz) {
+        setQuestionMapExpanded(questionMapExpanded);
         elements.questionNav.replaceChildren();
         quiz.forEach((question, index) => {
             const button = create("button", "nav-question", String(index + 1));
@@ -1308,6 +1320,7 @@
 
     function bindEvents() {
         elements.languageSelect.addEventListener("change", () => setLocale(elements.languageSelect.value));
+        elements.questionMapToggle.addEventListener("click", () => setQuestionMapExpanded(!questionMapExpanded));
         elements.themeToggle.addEventListener("click", toggleTheme);
         elements.clearSession.addEventListener("click", clearSavedSession);
         elements.brandLink.addEventListener("click", (event) => {
@@ -1364,6 +1377,7 @@
     function init() {
         const restored = loadSavedState();
         bindEvents();
+        setQuestionMapExpanded(questionMapExpanded);
         applyTheme();
         applyLocale({ rerender: false });
         if (state.view === "setup" && state.bank.length) renderSetup();

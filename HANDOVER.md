@@ -12,6 +12,7 @@ Current features:
 - Runs directly from `index.html` or through a static web server.
 - Six question types: single choice, multiple response, true/false, scenario, matching, and fill in the blanks.
 - Practice and exam modes.
+- Responsive question map: scrollable on desktop and collapsible/grid-based on narrow screens.
 - Progress, answers, configuration, and theme stored in `localStorage`.
 - Interface available in English, Spanish, and French.
 - Question content is not translated: it is displayed exactly in the language of the loaded JSON.
@@ -77,7 +78,7 @@ The file is wrapped in an IIFE and exposes no public API. Its main areas are:
 - **Persistence:** `loadSavedState`, `saveState`, and `clearSavedSession`.
 - **Import and validation:** `parseAndLoadInput`, `validateQuestionBank`, and type-specific validators.
 - **Configuration:** `renderSetup` and `startQuiz`.
-- **Quiz:** `renderQuiz`, `renderQuestion`, option/matching/fill-in-the-blank renderers, and navigation.
+- **Quiz:** `renderQuiz`, `renderQuestion`, option/matching/fill-in-the-blank renderers, question-map behavior, and navigation.
 - **Evaluation:** `evaluateQuestion`, `isAnswered`, `renderFeedback`, and `renderResults`.
 - **General interface:** `showView`, `applyTheme`, messages, and toasts.
 

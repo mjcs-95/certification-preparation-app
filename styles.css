@@ -859,11 +859,37 @@ input[type="checkbox"] {
     align-items: start;
     gap: 20px;
 }
+.quiz-layout > * {
+    min-width: 0;
+}
 .question-map {
     position: sticky;
     top: 92px;
+    min-width: 0;
     padding: 18px;
     box-shadow: var(--shadow-soft);
+}
+.question-map-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+.question-map-title {
+    color: var(--text);
+    font-size: 0.78rem;
+    font-weight: 800;
+}
+.question-map-toggle {
+    min-height: 30px;
+    padding: 0 8px;
+    font-size: 0.7rem;
+}
+#question-map-content {
+    max-height: calc(100vh - 190px);
+    overflow-y: auto;
+    padding-right: 3px;
 }
 .map-legend {
     display: flex;
@@ -1413,16 +1439,18 @@ input[type="checkbox"] {
         position: static;
         padding: 14px;
     }
+    #question-map-content {
+        max-height: 220px;
+    }
     .map-legend {
         margin-bottom: 10px;
     }
     #question-nav {
-        display: flex;
-        overflow-x: auto;
-        padding-bottom: 4px;
+        grid-template-columns: repeat(auto-fill, minmax(42px, 1fr));
+        gap: 8px;
     }
     .nav-question {
-        flex: 0 0 38px;
+        min-width: 0;
         aspect-ratio: 1;
     }
     .results-hero {

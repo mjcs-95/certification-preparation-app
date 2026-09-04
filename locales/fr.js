@@ -180,6 +180,8 @@ window.CERTPREP_LOCALES.fr = {
 };
 window.CERTPREP_LOCALES.fr["results.missedTitle"] = "Questions incorrectes";
 window.CERTPREP_LOCALES.fr["quiz.navLabel"] = "Aller à une question";
+window.CERTPREP_LOCALES.fr["quiz.hideMap"] = "Masquer la carte";
+window.CERTPREP_LOCALES.fr["quiz.showMap"] = "Afficher la carte";
 window.CERTPREP_LOCALES.fr["validation.countPositive"] = "Saisissez un nombre de questions supérieur à zéro.";
 window.CERTPREP_LOCALES.fr["validation.countAvailable"] = ({ count }) =>
     `Seules ${count} questions sont disponibles pour cette catégorie.`;

@@ -315,16 +315,17 @@
 
                 <div class="quiz-layout">
                     <aside class="question-map panel" aria-label="Question map" data-i18n-aria-label="quiz.map">
-                        <div class="map-legend">
-                            <span
-                                ><i class="legend-dot answered"></i
-                                ><span data-i18n="quiz.answeredLegend">Answered</span></span
-                            ><span
-                                ><i class="legend-dot reviewed"></i
-                                ><span data-i18n="quiz.checkedLegend">Checked</span></span
-                            >
+                        <div class="question-map-heading">
+                            <span class="question-map-title" data-i18n="quiz.map">Question map</span>
+                            <button class="button button-ghost button-small question-map-toggle" id="toggle-question-map" type="button" aria-expanded="true">Hide map</button>
                         </div>
-                        <nav id="question-nav" aria-label="Go to a question" data-i18n-aria-label="quiz.navLabel"></nav>
+                        <div id="question-map-content">
+                            <div class="map-legend">
+                                <span><i class="legend-dot answered"></i><span data-i18n="quiz.answeredLegend">Answered</span></span>
+                                <span><i class="legend-dot reviewed"></i><span data-i18n="quiz.checkedLegend">Checked</span></span>
+                            </div>
+                            <nav id="question-nav" aria-label="Go to a question" data-i18n-aria-label="quiz.navLabel"></nav>
+                        </div>
                     </aside>
 
                     <article class="question-card panel" id="question-card">

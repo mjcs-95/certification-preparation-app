@@ -179,6 +179,8 @@ window.CERTPREP_LOCALES.es = {
 };
 window.CERTPREP_LOCALES.es["results.missedTitle"] = "Preguntas falladas";
 window.CERTPREP_LOCALES.es["quiz.navLabel"] = "Ir a una pregunta";
+window.CERTPREP_LOCALES.es["quiz.hideMap"] = "Ocultar mapa";
+window.CERTPREP_LOCALES.es["quiz.showMap"] = "Mostrar mapa";
 window.CERTPREP_LOCALES.es["validation.countPositive"] = "Introduce un número de preguntas mayor que cero.";
 window.CERTPREP_LOCALES.es["validation.countAvailable"] = ({ count }) =>
     `Solo hay ${count} preguntas disponibles para esta categoría.`;
