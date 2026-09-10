@@ -33,7 +33,18 @@ Left/right arrow keys navigate between questions when focus is not in a form fie
 certification-preparation-app/
 ├── index.html                     # Semantic interface structure
 ├── styles.css                     # Light/dark theme and responsive layout
-├── app.js                         # Validation, state, rendering, and grading
+├── js/
+│   ├── app.js                     # DOM coordination, views, events, and navigation
+│   ├── i18n.js                    # Locale detection, translation, and preference storage
+│   ├── demo-bank.js                # Built-in demonstration question bank
+│   ├── importer.js                 # JSON parsing and file-reading helpers
+│   ├── question-map.js             # Question-map rendering and navigation states
+│   ├── setup.js                    # Initial bank summary and quiz setup view
+│   ├── evaluation.js              # Pure answer evaluation helpers
+│   ├── randomization.js            # Pure shuffle and order helpers
+│   ├── validation.js               # Question-bank validation helpers
+│   ├── state.js                    # Default session state factory
+│   └── storage.js                  # Safe localStorage adapter
 ├── locales/
 │   ├── en.js                       # English interface strings
 │   ├── es.js                       # Spanish interface strings

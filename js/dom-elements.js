@@ -1,0 +1,68 @@
+/* SPDX-License-Identifier: AGPL-3.0-only */
+(() => {
+    "use strict";
+    const namespace = (window.CertPrep = window.CertPrep || {});
+    function create(documentRef = document) {
+        const $ = (selector) => documentRef.querySelector(selector);
+        const $$ = (selector) => Array.from(documentRef.querySelectorAll(selector));
+        return {
+            views: $$(".view"),
+            brandLink: $("#brand-link"),
+            languageSelect: $("#language-select"),
+            themeToggle: $("#theme-toggle"),
+            themeIcon: $("#theme-icon"),
+            clearSession: $("#clear-session"),
+            saveIndicator: $("#save-indicator"),
+            saveLabel: $("#save-label"),
+            fileInput: $("#question-file"),
+            fileDrop: $("#file-drop"),
+            jsonInput: $("#json-input"),
+            loadDemo: $("#load-demo"),
+            validateLoad: $("#validate-load"),
+            importMessage: $("#import-message"),
+            changeSource: $("#change-source"),
+            totalQuestions: $("#total-questions"),
+            totalTypes: $("#total-types"),
+            totalCategories: $("#total-categories"),
+            typeSummary: $("#type-summary"),
+            categorySummary: $("#category-summary"),
+            configForm: $("#quiz-config"),
+            questionCount: $("#question-count"),
+            categoryFilter: $("#category-filter"),
+            immediateExplanation: $("#immediate-explanation"),
+            configMessage: $("#config-message"),
+            quizModeLabel: $("#quiz-mode-label"),
+            resetAnswers: $("#reset-answers"),
+            exitQuiz: $("#exit-quiz"),
+            progressText: $("#progress-text"),
+            answeredText: $("#answered-text"),
+            progressTrack: $(".progress-track"),
+            progressFill: $("#progress-fill"),
+            questionNav: $("#question-nav"),
+            questionMapContent: $("#question-map-content"),
+            questionMapToggle: $("#toggle-question-map"),
+            questionNumber: $("#question-number"),
+            questionCategory: $("#question-category"),
+            questionType: $("#question-type"),
+            scenario: $("#scenario-container"),
+            questionContent: $("#question-content"),
+            feedback: $("#feedback-container"),
+            previous: $("#previous-question"),
+            checkQuestion: $("#check-question"),
+            next: $("#next-question"),
+            finish: $("#finish-quiz"),
+            scoreRing: $("#score-ring"),
+            scoreValue: $("#score-value"),
+            resultsMessage: $("#results-message"),
+            correctCount: $("#correct-count"),
+            incorrectCount: $("#incorrect-count"),
+            answeredCount: $("#answered-count"),
+            retryWrong: $("#retry-wrong"),
+            newSession: $("#new-session"),
+            wrongBadge: $("#wrong-badge"),
+            wrongQuestions: $("#wrong-questions"),
+            toast: $("#toast"),
+        };
+    }
+    namespace.domElements = { create };
+})();

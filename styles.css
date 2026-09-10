@@ -1077,7 +1077,15 @@ input[type="checkbox"] {
     border-color: var(--success);
     background: var(--success-soft);
 }
+.answer-option.correct-answer:has(input:checked) {
+    border-color: var(--success);
+    background: var(--success-soft);
+}
 .answer-option.incorrect-answer {
+    border-color: var(--danger);
+    background: var(--danger-soft);
+}
+.answer-option.incorrect-answer:has(input:checked) {
     border-color: var(--danger);
     background: var(--danger-soft);
 }

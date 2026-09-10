@@ -36,7 +36,7 @@ Then open `http://127.0.0.1:4174/`.
 ### Minimum checks before delivering changes
 
 ```powershell
-node --check app.js
+node --check js/app.js
 node --check locales/en.js
 node --check locales/es.js
 node --check locales/fr.js
@@ -53,7 +53,7 @@ Also check manually:
 7. Light/dark theme, keyboard navigation, and mobile layout.
 8. Question, answer, and explanation text remains unchanged when the interface language changes.
 
-There is currently no automated test suite; the reference functional test is the complete flow using `examples/sample-questions.json`.
+Run `node tests/regression.cjs` and `node tests/domain.cjs` for dependency-free development checks. See `tests/README.md` for coverage and limitations.
 
 ## 3. Code map
 
@@ -61,7 +61,17 @@ There is currently no automated test suite; the reference functional test is the
 | --- | --- |
 | `index.html` | Semantic interface structure, views, and controls. |
 | `styles.css` | Light/dark theme, responsive layout, visual states, and visual accessibility. |
-| `app.js` | State, persistence, validation, rendering, navigation, and grading. |
+| `js/app.js` | Composition root: constructs modules, injects dependencies and starts the app. |
+| `js/i18n.js` | Locale detection, translation lookup, and language preference storage. |
+| `js/demo-bank.js` | Built-in demonstration question bank. |
+| `js/importer.js` | JSON parsing and file-reading helpers. |
+| `js/question-map.js` | Question-map rendering and navigation states. |
+| `js/setup.js` | Initial bank summary and quiz setup view. |
+| `js/state.js` | Default session-state factory. |
+| `js/storage.js` | Safe `localStorage` adapter. |
+| `js/evaluation.js` | Pure answer evaluation and answered-state helpers. |
+| `js/randomization.js` | Pure shuffle, set, and randomized-order helpers. |
+| `js/validation.js` | Question-bank validation helpers, created with a translation function. |
 | `locales/en.js` | English interface strings and primary fallback. |
 | `locales/es.js` | Spanish interface strings. |
 | `locales/fr.js` | French interface strings. |
@@ -70,17 +80,20 @@ There is currently no automated test suite; the reference functional test is the
 | `README.md` | Usage guide and JSON format reference. |
 | `CONTRIBUTING.md` / `CLA.md` | Contribution rules and agreement. |
 
-## 4. `app.js` architecture
+## 4. `js/app.js` architecture
 
-The file is wrapped in an IIFE and exposes no public API. Its main areas are:
+The application uses classic local scripts; modules publish factories under `window.CertPrep`.
+Only `app.js` resolves those factories and connects them. See `ARCHITECTURE.md` for the full dependency map and contracts.
 
-- **Localization:** `detectInitialLocale`, `t`, `applyLocale`, and `setLocale`.
-- **Persistence:** `loadSavedState`, `saveState`, and `clearSavedSession`.
-- **Import and validation:** `parseAndLoadInput`, `validateQuestionBank`, and type-specific validators.
-- **Configuration:** `renderSetup` and `startQuiz`.
-- **Quiz:** `renderQuiz`, `renderQuestion`, option/matching/fill-in-the-blank renderers, question-map behavior, and navigation.
-- **Evaluation:** `evaluateQuestion`, `isAnswered`, `renderFeedback`, and `renderResults`.
-- **General interface:** `showView`, `applyTheme`, messages, and toasts.
+- `session-manager.js` owns the current immutable snapshot and persistence.
+- `quiz-domain.js` computes state transitions without DOM or browser effects.
+- `quiz-controller.js` coordinates commands, confirmation and effect execution.
+- `app-effects.js` applies persistence, rendering, navigation and notifications.
+- `form-adapter.js` reads and writes form controls; `app-actions.js` adapts UI events.
+- `question-types.js` supplies a common evaluation protocol.
+- Option, fill and matching renderers display snapshots and dispatch answer commands.
+- `matching-domain.js`, `matching-controller.js` and `matching-renderer.js` isolate matching rules, transient selection and SVG presentation.
+- Views do not mutate session snapshots; they read the latest snapshot on each render.
 
 Persisted state uses the key `certprep.quiz-session.v1`. It includes the generated `matchingOrders` for the current session, so a matching question keeps its order while the user navigates. A new session generates fresh orders and deliberately avoids repeating the previous order when there are at least two items. The language is stored separately with `certprep.locale.v1`; keeping them separate prevents a language change from modifying progress.
 
@@ -116,25 +129,14 @@ Persisted state uses the key `certprep.quiz-session.v1`. It includes the generat
 
 ## 6. Application data flow
 
-```text
-User JSON
-    ↓
-parseAndLoadInput()
-    ↓
-validateQuestionBank()
-    ↓
-state.bank + state.config
-    ↓
-renderSetup() → startQuiz()
-    ↓
-state.quizIds + state.responses + state.evaluations
-    ↓
-renderQuiz() → finishQuiz()
-    ↓
-renderResults()
-```
+1. DOM events are translated into data by `app-actions.js` and `form-adapter.js`.
+2. Import parsing and validation return a result before a bank can be committed.
+3. `quiz-controller.js` passes commands and the session snapshot to the domain.
+4. Successful transitions replace the session snapshot.
+5. `app-effects.js` renders, persists once and performs requested navigation or notifications.
+6. Renderers dispatch response commands through injected callbacks.
 
-Every relevant change calls `saveState()`. If the state shape changes, preserve compatibility with older sessions or explicitly increment the storage key version.
+If the persisted state shape changes, preserve compatibility with older sessions or explicitly increment the storage key version.
 
 ## 7. Publishing with GitHub Pages
 
@@ -143,7 +145,7 @@ The project does not require a build step. To publish it:
 1. Upload the contents of this folder to a repository.
 2. In GitHub, open **Settings → Pages**.
 3. Select **Deploy from a branch**, then choose the desired branch and the root `/` folder.
-4. Verify that `index.html`, `app.js`, `styles.css`, and `locales/` are in the published root.
+4. Verify that `index.html`, `js/app.js`, `styles.css`, and `locales/` are in the published root.
 
 `.nojekyll` is already included. Do not move `locales/` or change relative paths unless the `script` elements in `index.html` are updated as well.
 
@@ -151,8 +153,7 @@ The project does not require a build step. To publish it:
 
 These tasks are not implemented and require a decision before being started:
 
-- Add automated tests for validation and grading.
-- Extract the demo bank into a separate resource if reducing `app.js` size is important.
+- Extend browser-level coverage for keyboard focus and SVG geometry.
 - Add a minification tool for the publication artifact only.
 - Improve pluralization with `Intl.PluralRules` if more languages are added.
 - Add a migration strategy if the `localStorage` format changes.
