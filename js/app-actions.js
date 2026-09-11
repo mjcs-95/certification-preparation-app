@@ -9,6 +9,10 @@
             if (!result.ok) messages.setMessage(elements.importMessage, "error", result.error.messages, result.error.footer);
             return result;
         }
+        function loadText(text) {
+            elements.jsonInput.value = text;
+            return validateLoad();
+        }
         async function readQuestionFile(file) {
             messages.clearMessage(elements.importMessage);
             const result = await importer.readFile(file);
@@ -47,7 +51,7 @@
                 elements.jsonInput.value = JSON.stringify(demoBank, null, 2);
                 messages.setMessage(elements.importMessage, "success", [t("toast.demoPrepared")]);
             },
-            validateLoad, readQuestionFile, startQuiz,
+            validateLoad, loadText, readQuestionFile, startQuiz,
             dragOver: event => drag(event, true), dragLeave: event => drag(event, false),
             changeSource: quiz.run.bind(null, "view", "import"),
             categoryChange() { forms.limitCount(selection.availableQuestions(session.read().bank, elements.categoryFilter.value).length); },

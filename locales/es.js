@@ -177,6 +177,7 @@ window.CERTPREP_LOCALES.es = {
     "type.matching": "Correspondencias",
     "type.fill-blank": "Completar espacios",
 };
+window.CERTPREP_LOCALES.es["import.az900Quiz"] = "Quiz AZ-900";
 window.CERTPREP_LOCALES.es["results.missedTitle"] = "Preguntas falladas";
 window.CERTPREP_LOCALES.es["quiz.navLabel"] = "Ir a una pregunta";
 window.CERTPREP_LOCALES.es["quiz.hideMap"] = "Ocultar mapa";

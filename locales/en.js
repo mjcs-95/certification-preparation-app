@@ -183,3 +183,4 @@ window.CERTPREP_LOCALES.en = {
     "type.matching": "Matching",
     "type.fill-blank": "Fill in the blanks",
 };
+window.CERTPREP_LOCALES.en["import.az900Quiz"] = "AZ-900 Quiz";

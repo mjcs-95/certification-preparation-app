@@ -96,6 +96,14 @@
         session, quiz, importer, forms, elements, messages, effects, translate,
         demoBank: api.demoBank, selection, locale, theme, matching: matchingView, platform, map,
     });
+    api.optionalBank.create({
+        path: "./az-900/ChatGPT_AZ-900_All_Units_Combined_Bank.json",
+        label: translate("import.az900Quiz"),
+        anchor: elements.loadDemo,
+        documentRef: document,
+        fetch: typeof window.fetch === "function" ? window.fetch.bind(window) : async () => ({ ok: false }),
+        onLoad: actions.loadText,
+    }).discover();
     const restored = session.load();
     api.eventBindings.create({
         elements, actions, getState, getQuestionMapExpanded: map.getExpanded,
