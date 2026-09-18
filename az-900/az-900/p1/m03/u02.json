@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe cloud service types · Describe Infrastructure as a Service",
+  "questions": [
+    {
+      "id": "mc-0085",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "question": "Which statement best describes Infrastructure as a Service (IaaS)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The high level of customer control that comes with greater operational responsibility"
+        },
+        {
+          "id": "b",
+          "text": "A managed environment that lets developers build applications without maintaining the full development infrastructure"
+        },
+        {
+          "id": "c",
+          "text": "A cloud model that rents infrastructure while giving the customer the most control over operating systems and software"
+        },
+        {
+          "id": "d",
+          "text": "Configuring much of the workload networking and security settings above the physical layer"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Infrastructure as a Service (IaaS) is a cloud model that rents infrastructure while giving the customer the most control over operating systems and software.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "mc-0086",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "question": "In the context of this Microsoft Learn unit, what does IaaS provider responsibility refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The lowest customer operational overhead among IaaS, PaaS, and SaaS"
+        },
+        {
+          "id": "b",
+          "text": "Maintaining physical hardware, physical security, and internet connectivity"
+        },
+        {
+          "id": "c",
+          "text": "Moving workloads to cloud infrastructure with minimal redesign"
+        },
+        {
+          "id": "d",
+          "text": "Rapidly creating and removing environments while retaining detailed configuration control"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "IaaS provider responsibility is maintaining physical hardware, physical security, and internet connectivity.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "mc-0087",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "question": "Which description correctly matches IaaS customer operating-system responsibility?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Typically less infrastructure customization than IaaS or PaaS"
+        },
+        {
+          "id": "b",
+          "text": "Installing, configuring, patching, and maintaining the guest operating system"
+        },
+        {
+          "id": "c",
+          "text": "Platform features such as scalability and high availability that reduce the amount of infrastructure code a team must manage"
+        },
+        {
+          "id": "d",
+          "text": "Configuring much of the workload networking and security settings above the physical layer"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "IaaS customer operating-system responsibility is installing, configuring, patching, and maintaining the guest operating system.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "mc-0088",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "question": "Which of the following is the best definition of IaaS customer network configuration?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Platform features such as scalability and high availability that reduce the amount of infrastructure code a team must manage"
+        },
+        {
+          "id": "b",
+          "text": "Configuring much of the workload networking and security settings above the physical layer"
+        },
+        {
+          "id": "c",
+          "text": "Maintaining physical hardware, physical security, and internet connectivity"
+        },
+        {
+          "id": "d",
+          "text": "Using managed analytics or business-intelligence platforms to extract insights without running the underlying platform"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "IaaS customer network configuration is configuring much of the workload networking and security settings above the physical layer.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "mc-0089",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "question": "What is the primary meaning of Lift-and-shift migration in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The cloud provider patches and maintains the underlying operating system"
+        },
+        {
+          "id": "b",
+          "text": "Maintaining physical hardware, physical security, and internet connectivity"
+        },
+        {
+          "id": "c",
+          "text": "Moving workloads to cloud infrastructure with minimal redesign"
+        },
+        {
+          "id": "d",
+          "text": "The cloud provider manages middleware and managed runtime components"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Lift-and-shift migration is moving workloads to cloud infrastructure with minimal redesign.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "mr-0085",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS provider responsibility: the high level of customer control that comes with greater operational responsibility."
+        },
+        {
+          "id": "b",
+          "text": "IaaS customer operating-system responsibility: the cloud provider manages middleware and managed runtime components."
+        },
+        {
+          "id": "c",
+          "text": "Infrastructure as a Service (IaaS): configuring much of the workload networking and security settings above the physical layer."
+        },
+        {
+          "id": "d",
+          "text": "Infrastructure as a Service (IaaS): a cloud model that rents infrastructure while giving the customer the most control over operating systems and software."
+        },
+        {
+          "id": "e",
+          "text": "IaaS provider responsibility: maintaining physical hardware, physical security, and internet connectivity."
+        }
+      ],
+      "correctAnswers": [
+        "d",
+        "e"
+      ],
+      "explanation": "The correct pair is: Infrastructure as a Service (IaaS) — a cloud model that rents infrastructure while giving the customer the most control over operating systems and software; and IaaS provider responsibility — maintaining physical hardware, physical security, and internet connectivity.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "mr-0086",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS customer operating-system responsibility: installing, configuring, patching, and maintaining the guest operating system."
+        },
+        {
+          "id": "b",
+          "text": "IaaS customer network configuration: the cloud provider patches and maintains the underlying operating system."
+        },
+        {
+          "id": "c",
+          "text": "IaaS customer network configuration: a managed environment that lets developers build applications without maintaining the full development infrastructure."
+        },
+        {
+          "id": "d",
+          "text": "IaaS customer operating-system responsibility: rapidly creating and removing environments while retaining detailed configuration control."
+        },
+        {
+          "id": "e",
+          "text": "IaaS customer network configuration: configuring much of the workload networking and security settings above the physical layer."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "e"
+      ],
+      "explanation": "The correct pair is: IaaS customer operating-system responsibility — installing, configuring, patching, and maintaining the guest operating system; and IaaS customer network configuration — configuring much of the workload networking and security settings above the physical layer.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "mr-0087",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS dev/test use case: a managed environment that lets developers build applications without maintaining the full development infrastructure."
+        },
+        {
+          "id": "b",
+          "text": "IaaS dev/test use case: rapidly creating and removing environments while retaining detailed configuration control."
+        },
+        {
+          "id": "c",
+          "text": "Lift-and-shift migration: using managed analytics or business-intelligence platforms to extract insights without running the underlying platform."
+        },
+        {
+          "id": "d",
+          "text": "Lift-and-shift migration: a cloud model in which the provider manages infrastructure and platform components while the customer focuses on applications and data."
+        },
+        {
+          "id": "e",
+          "text": "Lift-and-shift migration: moving workloads to cloud infrastructure with minimal redesign."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: Lift-and-shift migration — moving workloads to cloud infrastructure with minimal redesign; and IaaS dev/test use case — rapidly creating and removing environments while retaining detailed configuration control.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "mr-0088",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS dev/test use case: application code, data, and access controls rather than physical infrastructure."
+        },
+        {
+          "id": "b",
+          "text": "Infrastructure as a Service (IaaS): rapidly creating and removing environments while retaining detailed configuration control."
+        },
+        {
+          "id": "c",
+          "text": "Infrastructure as a Service (IaaS): a cloud model that rents infrastructure while giving the customer the most control over operating systems and software."
+        },
+        {
+          "id": "d",
+          "text": "IaaS flexibility: the cloud provider manages middleware and managed runtime components."
+        },
+        {
+          "id": "e",
+          "text": "IaaS flexibility: the high level of customer control that comes with greater operational responsibility."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "e"
+      ],
+      "explanation": "The correct pair is: IaaS flexibility — the high level of customer control that comes with greater operational responsibility; and Infrastructure as a Service (IaaS) — a cloud model that rents infrastructure while giving the customer the most control over operating systems and software.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "mr-0089",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS provider responsibility: maintaining physical hardware, physical security, and internet connectivity."
+        },
+        {
+          "id": "b",
+          "text": "IaaS customer operating-system responsibility: installing, configuring, patching, and maintaining the guest operating system."
+        },
+        {
+          "id": "c",
+          "text": "IaaS customer operating-system responsibility: a cloud model in which the provider manages infrastructure and platform components while the customer focuses on applications and data."
+        },
+        {
+          "id": "d",
+          "text": "IaaS provider responsibility: moving workloads to cloud infrastructure with minimal redesign."
+        },
+        {
+          "id": "e",
+          "text": "IaaS flexibility: platform features such as scalability and high availability that reduce the amount of infrastructure code a team must manage."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: IaaS provider responsibility — maintaining physical hardware, physical security, and internet connectivity; and IaaS customer operating-system responsibility — installing, configuring, patching, and maintaining the guest operating system.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "tf-0085",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "question": "Infrastructure as a Service (IaaS) is a cloud model that rents infrastructure while giving the customer the most control over operating systems and software.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Infrastructure as a Service (IaaS) is a cloud model that rents infrastructure while giving the customer the most control over operating systems and software.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "tf-0086",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "question": "According to this unit: IaaS provider responsibility is moving workloads to cloud infrastructure with minimal redesign.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. IaaS provider responsibility is maintaining physical hardware, physical security, and internet connectivity.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "tf-0087",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "question": "For Azure fundamentals, IaaS customer operating-system responsibility is installing, configuring, patching, and maintaining the guest operating system.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "IaaS customer operating-system responsibility is installing, configuring, patching, and maintaining the guest operating system.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "tf-0088",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "question": "This statement is correct: IaaS customer network configuration is the high level of customer control that comes with greater operational responsibility.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. IaaS customer network configuration is configuring much of the workload networking and security settings above the physical layer.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "tf-0089",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "question": "The unit supports the following statement: Lift-and-shift migration is moving workloads to cloud infrastructure with minimal redesign.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Lift-and-shift migration is moving workloads to cloud infrastructure with minimal redesign.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "sc-0170",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Infrastructure as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a cloud model that rents infrastructure while giving the customer the most control over operating systems and software. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "PaaS development framework"
+        },
+        {
+          "id": "b",
+          "text": "SaaS email use case"
+        },
+        {
+          "id": "c",
+          "text": "Infrastructure as a Service (IaaS)"
+        },
+        {
+          "id": "d",
+          "text": "IaaS customer network configuration"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Infrastructure as a Service (IaaS) is the best match because it is a cloud model that rents infrastructure while giving the customer the most control over operating systems and software.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "sc-0171",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Infrastructure as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs maintaining physical hardware, physical security, and internet connectivity. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "PaaS operating-system management"
+        },
+        {
+          "id": "b",
+          "text": "IaaS provider responsibility"
+        },
+        {
+          "id": "c",
+          "text": "SaaS customer responsibility"
+        },
+        {
+          "id": "d",
+          "text": "Platform as a Service (PaaS)"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "IaaS provider responsibility is the best match because it is maintaining physical hardware, physical security, and internet connectivity.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "sc-0172",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Infrastructure as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: installing, configuring, patching, and maintaining the guest operating system. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS flexibility"
+        },
+        {
+          "id": "b",
+          "text": "SaaS provider responsibility"
+        },
+        {
+          "id": "c",
+          "text": "Lift-and-shift migration"
+        },
+        {
+          "id": "d",
+          "text": "IaaS customer operating-system responsibility"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "IaaS customer operating-system responsibility is the best match because it is installing, configuring, patching, and maintaining the guest operating system.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "sc-0173",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Infrastructure as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: configuring much of the workload networking and security settings above the physical layer. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "PaaS built-in cloud capabilities"
+        },
+        {
+          "id": "b",
+          "text": "PaaS customer focus"
+        },
+        {
+          "id": "c",
+          "text": "PaaS analytics use case"
+        },
+        {
+          "id": "d",
+          "text": "IaaS customer network configuration"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "IaaS customer network configuration is the best match because it is configuring much of the workload networking and security settings above the physical layer.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "sc-0174",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Infrastructure as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants moving workloads to cloud infrastructure with minimal redesign. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "SaaS provider responsibility"
+        },
+        {
+          "id": "b",
+          "text": "SaaS email use case"
+        },
+        {
+          "id": "c",
+          "text": "Lift-and-shift migration"
+        },
+        {
+          "id": "d",
+          "text": "SaaS operational overhead"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Lift-and-shift migration is the best match because it is moving workloads to cloud infrastructure with minimal redesign.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "sc-0175",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Infrastructure as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for rapidly creating and removing environments while retaining detailed configuration control. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "SaaS flexibility"
+        },
+        {
+          "id": "b",
+          "text": "IaaS dev/test use case"
+        },
+        {
+          "id": "c",
+          "text": "IaaS flexibility"
+        },
+        {
+          "id": "d",
+          "text": "Lift-and-shift migration"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "IaaS dev/test use case is the best match because it is rapidly creating and removing environments while retaining detailed configuration control.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "sc-0176",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Infrastructure as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for the high level of customer control that comes with greater operational responsibility. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS flexibility"
+        },
+        {
+          "id": "b",
+          "text": "SaaS flexibility"
+        },
+        {
+          "id": "c",
+          "text": "IaaS dev/test use case"
+        },
+        {
+          "id": "d",
+          "text": "IaaS customer operating-system responsibility"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "IaaS flexibility is the best match because it is the high level of customer control that comes with greater operational responsibility.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "sc-0177",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Infrastructure as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is a cloud model that rents infrastructure while giving the customer the most control over operating systems and software. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Infrastructure as a Service (IaaS)"
+        },
+        {
+          "id": "b",
+          "text": "IaaS customer operating-system responsibility"
+        },
+        {
+          "id": "c",
+          "text": "SaaS provider responsibility"
+        },
+        {
+          "id": "d",
+          "text": "SaaS operational overhead"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Infrastructure as a Service (IaaS) is the best match because it is a cloud model that rents infrastructure while giving the customer the most control over operating systems and software.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "sc-0178",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Infrastructure as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as maintaining physical hardware, physical security, and internet connectivity. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS provider responsibility"
+        },
+        {
+          "id": "b",
+          "text": "IaaS dev/test use case"
+        },
+        {
+          "id": "c",
+          "text": "PaaS analytics use case"
+        },
+        {
+          "id": "d",
+          "text": "PaaS development framework"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "IaaS provider responsibility is the best match because it is maintaining physical hardware, physical security, and internet connectivity.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "sc-0179",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Infrastructure as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides installing, configuring, patching, and maintaining the guest operating system. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS customer operating-system responsibility"
+        },
+        {
+          "id": "b",
+          "text": "SaaS email use case"
+        },
+        {
+          "id": "c",
+          "text": "Lift-and-shift migration"
+        },
+        {
+          "id": "d",
+          "text": "IaaS flexibility"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "IaaS customer operating-system responsibility is the best match because it is installing, configuring, patching, and maintaining the guest operating system.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "match-0085",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Infrastructure as a Service (IaaS)"
+        },
+        {
+          "id": "l2",
+          "text": "IaaS provider responsibility"
+        },
+        {
+          "id": "l3",
+          "text": "IaaS customer operating-system responsibility"
+        },
+        {
+          "id": "l4",
+          "text": "IaaS customer network configuration"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Configuring much of the workload networking and security settings above the physical layer"
+        },
+        {
+          "id": "r1",
+          "text": "A cloud model that rents infrastructure while giving the customer the most control over operating systems and software"
+        },
+        {
+          "id": "r3",
+          "text": "Installing, configuring, patching, and maintaining the guest operating system"
+        },
+        {
+          "id": "r2",
+          "text": "Maintaining physical hardware, physical security, and internet connectivity"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l1": "r1",
+        "l3": "r3",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "match-0086",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "IaaS customer operating-system responsibility"
+        },
+        {
+          "id": "l2",
+          "text": "IaaS customer network configuration"
+        },
+        {
+          "id": "l3",
+          "text": "Lift-and-shift migration"
+        },
+        {
+          "id": "l4",
+          "text": "IaaS dev/test use case"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Rapidly creating and removing environments while retaining detailed configuration control"
+        },
+        {
+          "id": "r1",
+          "text": "Installing, configuring, patching, and maintaining the guest operating system"
+        },
+        {
+          "id": "r2",
+          "text": "Configuring much of the workload networking and security settings above the physical layer"
+        },
+        {
+          "id": "r3",
+          "text": "Moving workloads to cloud infrastructure with minimal redesign"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "match-0087",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Lift-and-shift migration"
+        },
+        {
+          "id": "l2",
+          "text": "IaaS dev/test use case"
+        },
+        {
+          "id": "l3",
+          "text": "IaaS flexibility"
+        },
+        {
+          "id": "l4",
+          "text": "Infrastructure as a Service (IaaS)"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "Rapidly creating and removing environments while retaining detailed configuration control"
+        },
+        {
+          "id": "r4",
+          "text": "A cloud model that rents infrastructure while giving the customer the most control over operating systems and software"
+        },
+        {
+          "id": "r1",
+          "text": "Moving workloads to cloud infrastructure with minimal redesign"
+        },
+        {
+          "id": "r3",
+          "text": "The high level of customer control that comes with greater operational responsibility"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l4": "r4",
+        "l1": "r1",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "match-0088",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "IaaS flexibility"
+        },
+        {
+          "id": "l2",
+          "text": "Infrastructure as a Service (IaaS)"
+        },
+        {
+          "id": "l3",
+          "text": "IaaS provider responsibility"
+        },
+        {
+          "id": "l4",
+          "text": "IaaS customer operating-system responsibility"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "The high level of customer control that comes with greater operational responsibility"
+        },
+        {
+          "id": "r3",
+          "text": "Maintaining physical hardware, physical security, and internet connectivity"
+        },
+        {
+          "id": "r2",
+          "text": "A cloud model that rents infrastructure while giving the customer the most control over operating systems and software"
+        },
+        {
+          "id": "r4",
+          "text": "Installing, configuring, patching, and maintaining the guest operating system"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l3": "r3",
+        "l2": "r2",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "match-0089",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "IaaS provider responsibility"
+        },
+        {
+          "id": "l2",
+          "text": "IaaS customer operating-system responsibility"
+        },
+        {
+          "id": "l3",
+          "text": "IaaS customer network configuration"
+        },
+        {
+          "id": "l4",
+          "text": "Lift-and-shift migration"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Maintaining physical hardware, physical security, and internet connectivity"
+        },
+        {
+          "id": "r2",
+          "text": "Installing, configuring, patching, and maintaining the guest operating system"
+        },
+        {
+          "id": "r3",
+          "text": "Configuring much of the workload networking and security settings above the physical layer"
+        },
+        {
+          "id": "r4",
+          "text": "Moving workloads to cloud infrastructure with minimal redesign"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "fill-0085",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "question": "{{answer}} is installing, configuring, patching, and maintaining the guest operating system.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Platform as a Service (PaaS)",
+            "IaaS customer operating-system responsibility",
+            "PaaS customer focus",
+            "SaaS provider responsibility"
+          ],
+          "correctAnswer": "IaaS customer operating-system responsibility"
+        }
+      ],
+      "explanation": "IaaS customer operating-system responsibility is installing, configuring, patching, and maintaining the guest operating system.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "fill-0086",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "question": "The term for configuring much of the workload networking and security settings above the physical layer is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Platform as a Service (PaaS)",
+            "IaaS customer network configuration",
+            "PaaS customer focus",
+            "Infrastructure as a Service (IaaS)"
+          ],
+          "correctAnswer": "IaaS customer network configuration"
+        }
+      ],
+      "explanation": "IaaS customer network configuration is configuring much of the workload networking and security settings above the physical layer.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "fill-0087",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "question": "In this unit, {{answer}} refers to moving workloads to cloud infrastructure with minimal redesign.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Lift-and-shift migration",
+            "SaaS customer responsibility",
+            "Infrastructure as a Service (IaaS)",
+            "Platform as a Service (PaaS)"
+          ],
+          "correctAnswer": "Lift-and-shift migration"
+        }
+      ],
+      "explanation": "Lift-and-shift migration is moving workloads to cloud infrastructure with minimal redesign.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "fill-0088",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "question": "For AZ-900, the concept described as rapidly creating and removing environments while retaining detailed configuration control is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "PaaS customer focus",
+            "PaaS middleware management",
+            "SaaS productivity use case",
+            "IaaS dev/test use case"
+          ],
+          "correctAnswer": "IaaS dev/test use case"
+        }
+      ],
+      "explanation": "IaaS dev/test use case is rapidly creating and removing environments while retaining detailed configuration control.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    },
+    {
+      "id": "fill-0089",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Infrastructure as a Service",
+      "question": "Choose the term that completes the statement: {{answer}} means the high level of customer control that comes with greater operational responsibility.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "IaaS flexibility",
+            "SaaS provider responsibility",
+            "IaaS provider responsibility",
+            "SaaS email use case"
+          ],
+          "correctAnswer": "IaaS flexibility"
+        }
+      ],
+      "explanation": "IaaS flexibility is the high level of customer control that comes with greater operational responsibility.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service"
+    }
+  ]
+}

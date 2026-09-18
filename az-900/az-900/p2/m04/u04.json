@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe monitoring tools in Azure · Describe Azure Monitor",
+  "questions": [
+    {
+      "id": "mc-0230",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "question": "Which statement best describes Azure Monitor?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Service information about issues or changes that may require customer attention"
+        },
+        {
+          "id": "b",
+          "text": "A platform for collecting, analyzing, and acting on telemetry from Azure, on-premises, and multicloud resources and applications"
+        },
+        {
+          "id": "c",
+          "text": "Viewing recommendations by subscription, resource group, or service"
+        },
+        {
+          "id": "d",
+          "text": "A personalized view of outages, planned maintenance, and advisories for the Azure services and regions you use"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Monitor is a platform for collecting, analyzing, and acting on telemetry from Azure, on-premises, and multicloud resources and applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "mc-0231",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "question": "In the context of this Microsoft Learn unit, what does Metrics refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A reusable definition of who to notify or what action to run when an alert fires"
+        },
+        {
+          "id": "b",
+          "text": "Numerical time-series measurements collected for monitoring resource behavior"
+        },
+        {
+          "id": "c",
+          "text": "A platform for collecting, analyzing, and acting on telemetry from Azure, on-premises, and multicloud resources and applications"
+        },
+        {
+          "id": "d",
+          "text": "Advisor guidance intended to reduce vulnerabilities and security risks"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Metrics is numerical time-series measurements collected for monitoring resource behavior.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "mc-0232",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "question": "Which description correctly matches Logs?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A definition of the condition that triggers a monitoring alert"
+        },
+        {
+          "id": "b",
+          "text": "Event and diagnostic data that can be queried and analyzed"
+        },
+        {
+          "id": "c",
+          "text": "A service that analyzes Azure resources and provides personalized best-practice recommendations"
+        },
+        {
+          "id": "d",
+          "text": "Service information about issues or changes that may require customer attention"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Logs is event and diagnostic data that can be queried and analyzed.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "mc-0233",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "question": "Which of the following is the best definition of Log Analytics?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A personalized view of outages, planned maintenance, and advisories for the Azure services and regions you use"
+        },
+        {
+          "id": "b",
+          "text": "Advisor guidance intended to reduce unnecessary Azure spending"
+        },
+        {
+          "id": "c",
+          "text": "Service information about issues or changes that may require customer attention"
+        },
+        {
+          "id": "d",
+          "text": "The Azure portal tool used to query Azure Monitor log data"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Log Analytics is the Azure portal tool used to query Azure Monitor log data.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "mc-0234",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "question": "What is the primary meaning of Azure Monitor alert rule in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A definition of the condition that triggers a monitoring alert"
+        },
+        {
+          "id": "b",
+          "text": "A reusable definition of who to notify or what action to run when an alert fires"
+        },
+        {
+          "id": "c",
+          "text": "Viewing recommendations by subscription, resource group, or service"
+        },
+        {
+          "id": "d",
+          "text": "Retained event information that can help identify recurring service patterns"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure Monitor alert rule is a definition of the condition that triggers a monitoring alert.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "mr-0230",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Monitor: the Azure portal tool used to query Azure Monitor log data."
+        },
+        {
+          "id": "b",
+          "text": "Azure Monitor: a platform for collecting, analyzing, and acting on telemetry from Azure, on-premises, and multicloud resources and applications."
+        },
+        {
+          "id": "c",
+          "text": "Metrics: an Azure Monitor feature for observing web-application performance and usage."
+        },
+        {
+          "id": "d",
+          "text": "Metrics: numerical time-series measurements collected for monitoring resource behavior."
+        },
+        {
+          "id": "e",
+          "text": "Logs: Advisor guidance intended to reduce configuration risks that threaten application availability."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: Azure Monitor — a platform for collecting, analyzing, and acting on telemetry from Azure, on-premises, and multicloud resources and applications; and Metrics — numerical time-series measurements collected for monitoring resource behavior.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "mr-0231",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Log Analytics: Advisor guidance intended to reduce vulnerabilities and security risks."
+        },
+        {
+          "id": "b",
+          "text": "Logs: event and diagnostic data that can be queried and analyzed."
+        },
+        {
+          "id": "c",
+          "text": "Log Analytics: the Azure portal tool used to query Azure Monitor log data."
+        },
+        {
+          "id": "d",
+          "text": "Log Analytics: a service that analyzes Azure resources and provides personalized best-practice recommendations."
+        },
+        {
+          "id": "e",
+          "text": "Logs: a reusable definition of who to notify or what action to run when an alert fires."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: Logs — event and diagnostic data that can be queried and analyzed; and Log Analytics — the Azure portal tool used to query Azure Monitor log data.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "mr-0232",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Monitor alert rule: a synthetic request used by Application Insights to test whether an application endpoint responds."
+        },
+        {
+          "id": "b",
+          "text": "Azure Monitor alert rule: a definition of the condition that triggers a monitoring alert."
+        },
+        {
+          "id": "c",
+          "text": "Azure Monitor alert rule: Advisor guidance intended to improve application or resource performance."
+        },
+        {
+          "id": "d",
+          "text": "Action group: a reusable definition of who to notify or what action to run when an alert fires."
+        },
+        {
+          "id": "e",
+          "text": "Action group: Advisor guidance intended to reduce vulnerabilities and security risks."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: Azure Monitor alert rule — a definition of the condition that triggers a monitoring alert; and Action group — a reusable definition of who to notify or what action to run when an alert fires.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "mr-0233",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Action group: Advisor guidance intended to improve processes, workflows, and deployment practices."
+        },
+        {
+          "id": "b",
+          "text": "Availability test: Advisor guidance intended to improve processes, workflows, and deployment practices."
+        },
+        {
+          "id": "c",
+          "text": "Application Insights: an Azure Monitor feature for observing web-application performance and usage."
+        },
+        {
+          "id": "d",
+          "text": "Availability test: a synthetic request used by Application Insights to test whether an application endpoint responds."
+        },
+        {
+          "id": "e",
+          "text": "Application Insights: Advisor guidance intended to reduce configuration risks that threaten application availability."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: Application Insights — an Azure Monitor feature for observing web-application performance and usage; and Availability test — a synthetic request used by Application Insights to test whether an application endpoint responds.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "mr-0234",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Monitor: the Azure portal tool used to query Azure Monitor log data."
+        },
+        {
+          "id": "b",
+          "text": "Azure Monitor: a platform for collecting, analyzing, and acting on telemetry from Azure, on-premises, and multicloud resources and applications."
+        },
+        {
+          "id": "c",
+          "text": "Metrics: an Azure Monitor feature for observing web-application performance and usage."
+        },
+        {
+          "id": "d",
+          "text": "Application Insights: Advisor guidance intended to reduce unnecessary Azure spending."
+        },
+        {
+          "id": "e",
+          "text": "Metrics: numerical time-series measurements collected for monitoring resource behavior."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: Azure Monitor — a platform for collecting, analyzing, and acting on telemetry from Azure, on-premises, and multicloud resources and applications; and Metrics — numerical time-series measurements collected for monitoring resource behavior.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "tf-0230",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "question": "Azure Monitor is a platform for collecting, analyzing, and acting on telemetry from Azure, on-premises, and multicloud resources and applications.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure Monitor is a platform for collecting, analyzing, and acting on telemetry from Azure, on-premises, and multicloud resources and applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "tf-0231",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "question": "According to this unit: Metrics is a definition of the condition that triggers a monitoring alert.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Metrics is numerical time-series measurements collected for monitoring resource behavior.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "tf-0232",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "question": "For Azure fundamentals, Logs is event and diagnostic data that can be queried and analyzed.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Logs is event and diagnostic data that can be queried and analyzed.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "tf-0233",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "question": "This statement is correct: Log Analytics is an Azure Monitor feature for observing web-application performance and usage.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Log Analytics is the Azure portal tool used to query Azure Monitor log data.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "tf-0234",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "question": "The unit supports the following statement: Azure Monitor alert rule is a definition of the condition that triggers a monitoring alert.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure Monitor alert rule is a definition of the condition that triggers a monitoring alert.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "sc-0460",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "scenario": "The organization is reviewing the topic “Describe Azure Monitor” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a platform for collecting, analyzing, and acting on telemetry from Azure, on-premises, and multicloud resources and applications. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Monitor"
+        },
+        {
+          "id": "b",
+          "text": "Metrics"
+        },
+        {
+          "id": "c",
+          "text": "Health advisory"
+        },
+        {
+          "id": "d",
+          "text": "Azure Status"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure Monitor is the best match because it is a platform for collecting, analyzing, and acting on telemetry from Azure, on-premises, and multicloud resources and applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "sc-0461",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "scenario": "The organization is reviewing the topic “Describe Azure Monitor” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs numerical time-series measurements collected for monitoring resource behavior. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Application Insights"
+        },
+        {
+          "id": "b",
+          "text": "Cost recommendation"
+        },
+        {
+          "id": "c",
+          "text": "Metrics"
+        },
+        {
+          "id": "d",
+          "text": "Planned maintenance notice"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Metrics is the best match because it is numerical time-series measurements collected for monitoring resource behavior.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "sc-0462",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "scenario": "The organization is reviewing the topic “Describe Azure Monitor” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: event and diagnostic data that can be queried and analyzed. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Security recommendation"
+        },
+        {
+          "id": "b",
+          "text": "Advisor notification"
+        },
+        {
+          "id": "c",
+          "text": "Logs"
+        },
+        {
+          "id": "d",
+          "text": "Action group"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Logs is the best match because it is event and diagnostic data that can be queried and analyzed.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "sc-0463",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "scenario": "The organization is reviewing the topic “Describe Azure Monitor” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: the Azure portal tool used to query Azure Monitor log data. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Advisor"
+        },
+        {
+          "id": "b",
+          "text": "Operational Excellence recommendation"
+        },
+        {
+          "id": "c",
+          "text": "Historical health events"
+        },
+        {
+          "id": "d",
+          "text": "Log Analytics"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Log Analytics is the best match because it is the Azure portal tool used to query Azure Monitor log data.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "sc-0464",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "scenario": "The organization is reviewing the topic “Describe Azure Monitor” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants a definition of the condition that triggers a monitoring alert. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Monitor alert rule"
+        },
+        {
+          "id": "b",
+          "text": "Service Health alert"
+        },
+        {
+          "id": "c",
+          "text": "Operational Excellence recommendation"
+        },
+        {
+          "id": "d",
+          "text": "Performance recommendation"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure Monitor alert rule is the best match because it is a definition of the condition that triggers a monitoring alert.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "sc-0465",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "scenario": "The organization is reviewing the topic “Describe Azure Monitor” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for a reusable definition of who to notify or what action to run when an alert fires. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Health advisory"
+        },
+        {
+          "id": "b",
+          "text": "Historical health events"
+        },
+        {
+          "id": "c",
+          "text": "Action group"
+        },
+        {
+          "id": "d",
+          "text": "Azure Monitor"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Action group is the best match because it is a reusable definition of who to notify or what action to run when an alert fires.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "sc-0466",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "scenario": "The organization is reviewing the topic “Describe Azure Monitor” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for an Azure Monitor feature for observing web-application performance and usage. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Operational Excellence recommendation"
+        },
+        {
+          "id": "b",
+          "text": "Application Insights"
+        },
+        {
+          "id": "c",
+          "text": "Performance recommendation"
+        },
+        {
+          "id": "d",
+          "text": "Cost recommendation"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Application Insights is the best match because it is an Azure Monitor feature for observing web-application performance and usage.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "sc-0467",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "scenario": "The organization is reviewing the topic “Describe Azure Monitor” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is a synthetic request used by Application Insights to test whether an application endpoint responds. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Availability test"
+        },
+        {
+          "id": "b",
+          "text": "Azure Advisor"
+        },
+        {
+          "id": "c",
+          "text": "Health advisory"
+        },
+        {
+          "id": "d",
+          "text": "Service Health alert"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Availability test is the best match because it is a synthetic request used by Application Insights to test whether an application endpoint responds.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "sc-0468",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "scenario": "The organization is reviewing the topic “Describe Azure Monitor” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as a platform for collecting, analyzing, and acting on telemetry from Azure, on-premises, and multicloud resources and applications. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Monitor"
+        },
+        {
+          "id": "b",
+          "text": "Performance recommendation"
+        },
+        {
+          "id": "c",
+          "text": "Application Insights"
+        },
+        {
+          "id": "d",
+          "text": "Logs"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure Monitor is the best match because it is a platform for collecting, analyzing, and acting on telemetry from Azure, on-premises, and multicloud resources and applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "sc-0469",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "scenario": "The organization is reviewing the topic “Describe Azure Monitor” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides numerical time-series measurements collected for monitoring resource behavior. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Log Analytics"
+        },
+        {
+          "id": "b",
+          "text": "Azure Monitor alert rule"
+        },
+        {
+          "id": "c",
+          "text": "Security recommendation"
+        },
+        {
+          "id": "d",
+          "text": "Metrics"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Metrics is the best match because it is numerical time-series measurements collected for monitoring resource behavior.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "match-0230",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Monitor"
+        },
+        {
+          "id": "l2",
+          "text": "Metrics"
+        },
+        {
+          "id": "l3",
+          "text": "Logs"
+        },
+        {
+          "id": "l4",
+          "text": "Log Analytics"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "Numerical time-series measurements collected for monitoring resource behavior"
+        },
+        {
+          "id": "r1",
+          "text": "A platform for collecting, analyzing, and acting on telemetry from Azure, on-premises, and multicloud resources and applications"
+        },
+        {
+          "id": "r3",
+          "text": "Event and diagnostic data that can be queried and analyzed"
+        },
+        {
+          "id": "r4",
+          "text": "The Azure portal tool used to query Azure Monitor log data"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l1": "r1",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "match-0231",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Logs"
+        },
+        {
+          "id": "l2",
+          "text": "Log Analytics"
+        },
+        {
+          "id": "l3",
+          "text": "Azure Monitor alert rule"
+        },
+        {
+          "id": "l4",
+          "text": "Action group"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Event and diagnostic data that can be queried and analyzed"
+        },
+        {
+          "id": "r4",
+          "text": "A reusable definition of who to notify or what action to run when an alert fires"
+        },
+        {
+          "id": "r3",
+          "text": "A definition of the condition that triggers a monitoring alert"
+        },
+        {
+          "id": "r2",
+          "text": "The Azure portal tool used to query Azure Monitor log data"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l4": "r4",
+        "l3": "r3",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "match-0232",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Monitor alert rule"
+        },
+        {
+          "id": "l2",
+          "text": "Action group"
+        },
+        {
+          "id": "l3",
+          "text": "Application Insights"
+        },
+        {
+          "id": "l4",
+          "text": "Availability test"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "A synthetic request used by Application Insights to test whether an application endpoint responds"
+        },
+        {
+          "id": "r2",
+          "text": "A reusable definition of who to notify or what action to run when an alert fires"
+        },
+        {
+          "id": "r3",
+          "text": "An Azure Monitor feature for observing web-application performance and usage"
+        },
+        {
+          "id": "r1",
+          "text": "A definition of the condition that triggers a monitoring alert"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l2": "r2",
+        "l3": "r3",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "match-0233",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Application Insights"
+        },
+        {
+          "id": "l2",
+          "text": "Availability test"
+        },
+        {
+          "id": "l3",
+          "text": "Azure Monitor"
+        },
+        {
+          "id": "l4",
+          "text": "Metrics"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Numerical time-series measurements collected for monitoring resource behavior"
+        },
+        {
+          "id": "r2",
+          "text": "A synthetic request used by Application Insights to test whether an application endpoint responds"
+        },
+        {
+          "id": "r3",
+          "text": "A platform for collecting, analyzing, and acting on telemetry from Azure, on-premises, and multicloud resources and applications"
+        },
+        {
+          "id": "r1",
+          "text": "An Azure Monitor feature for observing web-application performance and usage"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l2": "r2",
+        "l3": "r3",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "match-0234",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Monitor"
+        },
+        {
+          "id": "l2",
+          "text": "Metrics"
+        },
+        {
+          "id": "l3",
+          "text": "Logs"
+        },
+        {
+          "id": "l4",
+          "text": "Log Analytics"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Event and diagnostic data that can be queried and analyzed"
+        },
+        {
+          "id": "r4",
+          "text": "The Azure portal tool used to query Azure Monitor log data"
+        },
+        {
+          "id": "r2",
+          "text": "Numerical time-series measurements collected for monitoring resource behavior"
+        },
+        {
+          "id": "r1",
+          "text": "A platform for collecting, analyzing, and acting on telemetry from Azure, on-premises, and multicloud resources and applications"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "fill-0230",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "question": "{{answer}} is event and diagnostic data that can be queried and analyzed.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Health advisory",
+            "Logs",
+            "Service Health alert",
+            "Azure Status"
+          ],
+          "correctAnswer": "Logs"
+        }
+      ],
+      "explanation": "Logs is event and diagnostic data that can be queried and analyzed.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "fill-0231",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "question": "The term for the Azure portal tool used to query Azure Monitor log data is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Log Analytics",
+            "Service Health",
+            "Advisor filtering",
+            "Application Insights"
+          ],
+          "correctAnswer": "Log Analytics"
+        }
+      ],
+      "explanation": "Log Analytics is the Azure portal tool used to query Azure Monitor log data.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "fill-0232",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "question": "In this unit, {{answer}} refers to a definition of the condition that triggers a monitoring alert.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure Monitor alert rule",
+            "Cost recommendation",
+            "Metrics",
+            "Security recommendation"
+          ],
+          "correctAnswer": "Azure Monitor alert rule"
+        }
+      ],
+      "explanation": "Azure Monitor alert rule is a definition of the condition that triggers a monitoring alert.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "fill-0233",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "question": "For AZ-900, the concept described as a reusable definition of who to notify or what action to run when an alert fires is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Performance recommendation",
+            "Advisor filtering",
+            "Log Analytics",
+            "Action group"
+          ],
+          "correctAnswer": "Action group"
+        }
+      ],
+      "explanation": "Action group is a reusable definition of who to notify or what action to run when an alert fires.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    },
+    {
+      "id": "fill-0234",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Monitor",
+      "question": "Choose the term that completes the statement: {{answer}} means an Azure Monitor feature for observing web-application performance and usage.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Application Insights",
+            "Azure Advisor",
+            "Azure Status",
+            "Log Analytics"
+          ],
+          "correctAnswer": "Application Insights"
+        }
+      ],
+      "explanation": "Application Insights is an Azure Monitor feature for observing web-application performance and usage.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor"
+    }
+  ]
+}

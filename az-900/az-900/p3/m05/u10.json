@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe Azure identity, access, and security · Describe Microsoft Defender for Cloud",
+  "questions": [
+    {
+      "id": "mc-0445",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "question": "Which statement best describes Microsoft Defender for Cloud?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A protection approach that can reduce exposure by limiting management-port access to approved time windows"
+        },
+        {
+          "id": "b",
+          "text": "Segmentation and network controls that restrict communication paths"
+        },
+        {
+          "id": "c",
+          "text": "A cloud security management service that helps assess security posture and protect workloads"
+        },
+        {
+          "id": "d",
+          "text": "Information about the requesting user or workload used to evaluate access"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Microsoft Defender for Cloud is a cloud security management service that helps assess security posture and protect workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "mc-0446",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "question": "In the context of this Microsoft Learn unit, what does Security posture management refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Controls that protect the boundary from external network threats"
+        },
+        {
+          "id": "b",
+          "text": "Identifying misconfigurations and recommendations that improve the security state of cloud resources"
+        },
+        {
+          "id": "c",
+          "text": "The network or geographic context that can influence a Conditional Access policy"
+        },
+        {
+          "id": "d",
+          "text": "Controls that verify identities and restrict permissions"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Security posture management is identifying misconfigurations and recommendations that improve the security state of cloud resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "mc-0447",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "question": "Which description correctly matches Secure score?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A measurement that summarizes security posture and can improve as recommended controls are implemented"
+        },
+        {
+          "id": "b",
+          "text": "Protecting data while it moves across networks, commonly with protocols such as TLS"
+        },
+        {
+          "id": "c",
+          "text": "Inviting external partners or guests to access organizational resources using their own identities"
+        },
+        {
+          "id": "d",
+          "text": "Reassessing trust based on changing signals rather than assuming a one-time login establishes permanent trust"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Secure score is a measurement that summarizes security posture and can improve as recommended controls are implemented.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "mc-0448",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "question": "Which of the following is the best definition of Security recommendations?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The network or geographic context that can influence a Conditional Access policy"
+        },
+        {
+          "id": "b",
+          "text": "Inviting external partners or guests to access organizational resources using their own identities"
+        },
+        {
+          "id": "c",
+          "text": "Using identity and device state with tools such as Intune and Conditional Access"
+        },
+        {
+          "id": "d",
+          "text": "Prioritized guidance for reducing identified security risks"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Security recommendations is prioritized guidance for reducing identified security risks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "mc-0449",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "question": "What is the primary meaning of Workload protection in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Controls such as encryption and access restrictions applied directly to information"
+        },
+        {
+          "id": "b",
+          "text": "Defender capabilities that detect threats and protect supported cloud workloads"
+        },
+        {
+          "id": "c",
+          "text": "Prioritized guidance for reducing identified security risks"
+        },
+        {
+          "id": "d",
+          "text": "Configuring how users from different Microsoft Entra tenants collaborate"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Workload protection is Defender capabilities that detect threats and protect supported cloud workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "mr-0445",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Security posture management: a view that maps resource configuration and controls to supported compliance standards."
+        },
+        {
+          "id": "b",
+          "text": "Secure score: verifying the identity of a person, service, or device before granting access."
+        },
+        {
+          "id": "c",
+          "text": "Security posture management: identifying misconfigurations and recommendations that improve the security state of cloud resources."
+        },
+        {
+          "id": "d",
+          "text": "Microsoft Defender for Cloud: a cloud security management service that helps assess security posture and protect workloads."
+        },
+        {
+          "id": "e",
+          "text": "Microsoft Defender for Cloud: prioritized guidance for reducing identified security risks."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: Microsoft Defender for Cloud — a cloud security management service that helps assess security posture and protect workloads; and Security posture management — identifying misconfigurations and recommendations that improve the security state of cloud resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "mr-0446",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Secure score: security posture and protection capabilities that can extend beyond Azure to supported other-cloud environments."
+        },
+        {
+          "id": "b",
+          "text": "Security recommendations: Microsoft cloud-based identity and access management service."
+        },
+        {
+          "id": "c",
+          "text": "Security recommendations: using one identity sign-in to access multiple trusted applications."
+        },
+        {
+          "id": "d",
+          "text": "Security recommendations: prioritized guidance for reducing identified security risks."
+        },
+        {
+          "id": "e",
+          "text": "Secure score: a measurement that summarizes security posture and can improve as recommended controls are implemented."
+        }
+      ],
+      "correctAnswers": [
+        "d",
+        "e"
+      ],
+      "explanation": "The correct pair is: Secure score — a measurement that summarizes security posture and can improve as recommended controls are implemented; and Security recommendations — prioritized guidance for reducing identified security risks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "mr-0447",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Multicloud security: security posture and protection capabilities that can extend beyond Azure to supported other-cloud environments."
+        },
+        {
+          "id": "b",
+          "text": "Workload protection: Microsoft Entra capabilities for integrating and controlling access to cloud and on-premises applications."
+        },
+        {
+          "id": "c",
+          "text": "Workload protection: a protection approach that can reduce exposure by limiting management-port access to approved time windows."
+        },
+        {
+          "id": "d",
+          "text": "Workload protection: Defender capabilities that detect threats and protect supported cloud workloads."
+        },
+        {
+          "id": "e",
+          "text": "Multicloud security: using one identity sign-in to access multiple trusted applications."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Workload protection — Defender capabilities that detect threats and protect supported cloud workloads; and Multicloud security — security posture and protection capabilities that can extend beyond Azure to supported other-cloud environments.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "mr-0448",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Regulatory compliance dashboard: verifying the identity of a person, service, or device before granting access."
+        },
+        {
+          "id": "b",
+          "text": "Multicloud security: using identity and device state with tools such as Intune and Conditional Access."
+        },
+        {
+          "id": "c",
+          "text": "Regulatory compliance dashboard: a view that maps resource configuration and controls to supported compliance standards."
+        },
+        {
+          "id": "d",
+          "text": "Just-in-time VM access: a protection approach that can reduce exposure by limiting management-port access to approved time windows."
+        },
+        {
+          "id": "e",
+          "text": "Just-in-time VM access: using identity and device state with tools such as Intune and Conditional Access."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: Regulatory compliance dashboard — a view that maps resource configuration and controls to supported compliance standards; and Just-in-time VM access — a protection approach that can reduce exposure by limiting management-port access to approved time windows.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "mr-0449",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Regulatory compliance dashboard: technology that synchronizes identities between on-premises Active Directory and Microsoft Entra ID."
+        },
+        {
+          "id": "b",
+          "text": "Microsoft Defender for Cloud: a cloud security management service that helps assess security posture and protect workloads."
+        },
+        {
+          "id": "c",
+          "text": "Security posture management: identifying misconfigurations and recommendations that improve the security state of cloud resources."
+        },
+        {
+          "id": "d",
+          "text": "Microsoft Defender for Cloud: prioritized guidance for reducing identified security risks."
+        },
+        {
+          "id": "e",
+          "text": "Security posture management: a view that maps resource configuration and controls to supported compliance standards."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: Microsoft Defender for Cloud — a cloud security management service that helps assess security posture and protect workloads; and Security posture management — identifying misconfigurations and recommendations that improve the security state of cloud resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "tf-0445",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "question": "Microsoft Defender for Cloud is a cloud security management service that helps assess security posture and protect workloads.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Microsoft Defender for Cloud is a cloud security management service that helps assess security posture and protect workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "tf-0446",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "question": "According to this unit: Security posture management is Defender capabilities that detect threats and protect supported cloud workloads.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Security posture management is identifying misconfigurations and recommendations that improve the security state of cloud resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "tf-0447",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "question": "For Azure fundamentals, Secure score is a measurement that summarizes security posture and can improve as recommended controls are implemented.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Secure score is a measurement that summarizes security posture and can improve as recommended controls are implemented.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "tf-0448",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "question": "This statement is correct: Security recommendations is a view that maps resource configuration and controls to supported compliance standards.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Security recommendations is prioritized guidance for reducing identified security risks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "tf-0449",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "question": "The unit supports the following statement: Workload protection is Defender capabilities that detect threats and protect supported cloud workloads.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Workload protection is Defender capabilities that detect threats and protect supported cloud workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "sc-0890",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "scenario": "The organization is reviewing the topic “Describe Microsoft Defender for Cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a cloud security management service that helps assess security posture and protect workloads. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Identity and access layer"
+        },
+        {
+          "id": "b",
+          "text": "Microsoft Defender for Cloud"
+        },
+        {
+          "id": "c",
+          "text": "Microsoft Entra Connect"
+        },
+        {
+          "id": "d",
+          "text": "Inherited RBAC permission"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Microsoft Defender for Cloud is the best match because it is a cloud security management service that helps assess security posture and protect workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "sc-0891",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "scenario": "The organization is reviewing the topic “Describe Microsoft Defender for Cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs identifying misconfigurations and recommendations that improve the security state of cloud resources. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Require compliant device"
+        },
+        {
+          "id": "b",
+          "text": "Physical security layer"
+        },
+        {
+          "id": "c",
+          "text": "Security posture management"
+        },
+        {
+          "id": "d",
+          "text": "B2B collaboration"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Security posture management is the best match because it is identifying misconfigurations and recommendations that improve the security state of cloud resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "sc-0892",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "scenario": "The organization is reviewing the topic “Describe Microsoft Defender for Cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: a measurement that summarizes security posture and can improve as recommended controls are implemented. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Security recommendations"
+        },
+        {
+          "id": "b",
+          "text": "Microsoft Authenticator"
+        },
+        {
+          "id": "c",
+          "text": "Secure score"
+        },
+        {
+          "id": "d",
+          "text": "Application signal"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Secure score is the best match because it is a measurement that summarizes security posture and can improve as recommended controls are implemented.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "sc-0893",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "scenario": "The organization is reviewing the topic “Describe Microsoft Defender for Cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: prioritized guidance for reducing identified security risks. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Security recommendations"
+        },
+        {
+          "id": "b",
+          "text": "B2B collaboration"
+        },
+        {
+          "id": "c",
+          "text": "Verify explicitly"
+        },
+        {
+          "id": "d",
+          "text": "Guest user"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Security recommendations is the best match because it is prioritized guidance for reducing identified security risks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "sc-0894",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "scenario": "The organization is reviewing the topic “Describe Microsoft Defender for Cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants defender capabilities that detect threats and protect supported cloud workloads. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Security posture management"
+        },
+        {
+          "id": "b",
+          "text": "Workload protection"
+        },
+        {
+          "id": "c",
+          "text": "Scope"
+        },
+        {
+          "id": "d",
+          "text": "Compute layer"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Workload protection is the best match because it is Defender capabilities that detect threats and protect supported cloud workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "sc-0895",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "scenario": "The organization is reviewing the topic “Describe Microsoft Defender for Cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for security posture and protection capabilities that can extend beyond Azure to supported other-cloud environments. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Guest user"
+        },
+        {
+          "id": "b",
+          "text": "Multicloud security"
+        },
+        {
+          "id": "c",
+          "text": "Secure score"
+        },
+        {
+          "id": "d",
+          "text": "Single sign-on (SSO)"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Multicloud security is the best match because it is security posture and protection capabilities that can extend beyond Azure to supported other-cloud environments.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "sc-0896",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "scenario": "The organization is reviewing the topic “Describe Microsoft Defender for Cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for a view that maps resource configuration and controls to supported compliance standards. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Inherence factor"
+        },
+        {
+          "id": "b",
+          "text": "Regulatory compliance dashboard"
+        },
+        {
+          "id": "c",
+          "text": "Knowledge factor"
+        },
+        {
+          "id": "d",
+          "text": "Microsoft Entra Connect"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Regulatory compliance dashboard is the best match because it is a view that maps resource configuration and controls to supported compliance standards.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "sc-0897",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "scenario": "The organization is reviewing the topic “Describe Microsoft Defender for Cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is a protection approach that can reduce exposure by limiting management-port access to approved time windows. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Role assignment"
+        },
+        {
+          "id": "b",
+          "text": "Identity and access layer"
+        },
+        {
+          "id": "c",
+          "text": "Verify explicitly"
+        },
+        {
+          "id": "d",
+          "text": "Just-in-time VM access"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Just-in-time VM access is the best match because it is a protection approach that can reduce exposure by limiting management-port access to approved time windows.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "sc-0898",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "scenario": "The organization is reviewing the topic “Describe Microsoft Defender for Cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as a cloud security management service that helps assess security posture and protect workloads. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microsoft Entra ID"
+        },
+        {
+          "id": "b",
+          "text": "Device management"
+        },
+        {
+          "id": "c",
+          "text": "Azure Storage Service Encryption"
+        },
+        {
+          "id": "d",
+          "text": "Microsoft Defender for Cloud"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Microsoft Defender for Cloud is the best match because it is a cloud security management service that helps assess security posture and protect workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "sc-0899",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "scenario": "The organization is reviewing the topic “Describe Microsoft Defender for Cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides identifying misconfigurations and recommendations that improve the security state of cloud resources. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microsoft Entra ID"
+        },
+        {
+          "id": "b",
+          "text": "Cross-tenant collaboration"
+        },
+        {
+          "id": "c",
+          "text": "Security posture management"
+        },
+        {
+          "id": "d",
+          "text": "Continuous evaluation"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Security posture management is the best match because it is identifying misconfigurations and recommendations that improve the security state of cloud resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "match-0445",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Microsoft Defender for Cloud"
+        },
+        {
+          "id": "l2",
+          "text": "Security posture management"
+        },
+        {
+          "id": "l3",
+          "text": "Secure score"
+        },
+        {
+          "id": "l4",
+          "text": "Security recommendations"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A measurement that summarizes security posture and can improve as recommended controls are implemented"
+        },
+        {
+          "id": "r1",
+          "text": "A cloud security management service that helps assess security posture and protect workloads"
+        },
+        {
+          "id": "r4",
+          "text": "Prioritized guidance for reducing identified security risks"
+        },
+        {
+          "id": "r2",
+          "text": "Identifying misconfigurations and recommendations that improve the security state of cloud resources"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l1": "r1",
+        "l4": "r4",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "match-0446",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Secure score"
+        },
+        {
+          "id": "l2",
+          "text": "Security recommendations"
+        },
+        {
+          "id": "l3",
+          "text": "Workload protection"
+        },
+        {
+          "id": "l4",
+          "text": "Multicloud security"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Security posture and protection capabilities that can extend beyond Azure to supported other-cloud environments"
+        },
+        {
+          "id": "r2",
+          "text": "Prioritized guidance for reducing identified security risks"
+        },
+        {
+          "id": "r1",
+          "text": "A measurement that summarizes security posture and can improve as recommended controls are implemented"
+        },
+        {
+          "id": "r3",
+          "text": "Defender capabilities that detect threats and protect supported cloud workloads"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "match-0447",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Workload protection"
+        },
+        {
+          "id": "l2",
+          "text": "Multicloud security"
+        },
+        {
+          "id": "l3",
+          "text": "Regulatory compliance dashboard"
+        },
+        {
+          "id": "l4",
+          "text": "Just-in-time VM access"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A view that maps resource configuration and controls to supported compliance standards"
+        },
+        {
+          "id": "r4",
+          "text": "A protection approach that can reduce exposure by limiting management-port access to approved time windows"
+        },
+        {
+          "id": "r2",
+          "text": "Security posture and protection capabilities that can extend beyond Azure to supported other-cloud environments"
+        },
+        {
+          "id": "r1",
+          "text": "Defender capabilities that detect threats and protect supported cloud workloads"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "match-0448",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Regulatory compliance dashboard"
+        },
+        {
+          "id": "l2",
+          "text": "Just-in-time VM access"
+        },
+        {
+          "id": "l3",
+          "text": "Microsoft Defender for Cloud"
+        },
+        {
+          "id": "l4",
+          "text": "Security posture management"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A cloud security management service that helps assess security posture and protect workloads"
+        },
+        {
+          "id": "r2",
+          "text": "A protection approach that can reduce exposure by limiting management-port access to approved time windows"
+        },
+        {
+          "id": "r1",
+          "text": "A view that maps resource configuration and controls to supported compliance standards"
+        },
+        {
+          "id": "r4",
+          "text": "Identifying misconfigurations and recommendations that improve the security state of cloud resources"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l2": "r2",
+        "l1": "r1",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "match-0449",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Microsoft Defender for Cloud"
+        },
+        {
+          "id": "l2",
+          "text": "Security posture management"
+        },
+        {
+          "id": "l3",
+          "text": "Secure score"
+        },
+        {
+          "id": "l4",
+          "text": "Security recommendations"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Prioritized guidance for reducing identified security risks"
+        },
+        {
+          "id": "r1",
+          "text": "A cloud security management service that helps assess security posture and protect workloads"
+        },
+        {
+          "id": "r3",
+          "text": "A measurement that summarizes security posture and can improve as recommended controls are implemented"
+        },
+        {
+          "id": "r2",
+          "text": "Identifying misconfigurations and recommendations that improve the security state of cloud resources"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l1": "r1",
+        "l3": "r3",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "fill-0445",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "question": "{{answer}} is a measurement that summarizes security posture and can improve as recommended controls are implemented.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Application layer",
+            "Secure score",
+            "Layered mitigation",
+            "Regulatory compliance dashboard"
+          ],
+          "correctAnswer": "Secure score"
+        }
+      ],
+      "explanation": "Secure score is a measurement that summarizes security posture and can improve as recommended controls are implemented.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "fill-0446",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "question": "The term for prioritized guidance for reducing identified security risks is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Perimeter layer",
+            "Security recommendations",
+            "Data layer",
+            "Multifactor authentication (MFA)"
+          ],
+          "correctAnswer": "Security recommendations"
+        }
+      ],
+      "explanation": "Security recommendations is prioritized guidance for reducing identified security risks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "fill-0447",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "question": "In this unit, {{answer}} refers to defender capabilities that detect threats and protect supported cloud workloads.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Workload protection",
+            "Regulatory compliance dashboard",
+            "Assume breach",
+            "Multifactor authentication (MFA)"
+          ],
+          "correctAnswer": "Workload protection"
+        }
+      ],
+      "explanation": "Workload protection is Defender capabilities that detect threats and protect supported cloud workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "fill-0448",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "question": "For AZ-900, the concept described as security posture and protection capabilities that can extend beyond Azure to supported other-cloud environments is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Data layer",
+            "Azure RBAC",
+            "Encryption in transit",
+            "Multicloud security"
+          ],
+          "correctAnswer": "Multicloud security"
+        }
+      ],
+      "explanation": "Multicloud security is security posture and protection capabilities that can extend beyond Azure to supported other-cloud environments.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    },
+    {
+      "id": "fill-0449",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Microsoft Defender for Cloud",
+      "question": "Choose the term that completes the statement: {{answer}} means a view that maps resource configuration and controls to supported compliance standards.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Device signal",
+            "Regulatory compliance dashboard",
+            "Perimeter layer",
+            "FIDO2 security key"
+          ],
+          "correctAnswer": "Regulatory compliance dashboard"
+        }
+      ],
+      "explanation": "Regulatory compliance dashboard is a view that maps resource configuration and controls to supported compliance standards.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud"
+    }
+  ]
+}

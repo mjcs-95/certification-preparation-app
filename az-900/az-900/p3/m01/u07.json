@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe the core architectural components of Azure · Summary",
+  "questions": [
+    {
+      "id": "mc-0275",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Which statement best describes Microsoft Azure?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A scope above subscriptions used to apply governance and access across multiple subscriptions"
+        },
+        {
+          "id": "b",
+          "text": "Removing resources you no longer need to avoid unexpected charges"
+        },
+        {
+          "id": "c",
+          "text": "An Azure compute option for running existing or custom server workloads"
+        },
+        {
+          "id": "d",
+          "text": "A global cloud platform with services for building, managing, and deploying applications and infrastructure"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Microsoft Azure is a global cloud platform with services for building, managing, and deploying applications and infrastructure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "mc-0276",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "In the context of this Microsoft Learn unit, what does Azure virtual machines refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An operation that deletes the resources contained in that resource group"
+        },
+        {
+          "id": "b",
+          "text": "The top-level management group associated with a Microsoft Entra tenant"
+        },
+        {
+          "id": "c",
+          "text": "A service that replicates across availability zones within a region"
+        },
+        {
+          "id": "d",
+          "text": "An Azure compute option for running existing or custom server workloads"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Azure virtual machines is an Azure compute option for running existing or custom server workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "mc-0277",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Which description correctly matches Managed databases?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A service that replicates across availability zones within a region"
+        },
+        {
+          "id": "b",
+          "text": "Database services that reduce the need to operate the underlying database infrastructure manually"
+        },
+        {
+          "id": "c",
+          "text": "A Microsoft partner that can sell and manage Azure services for customers"
+        },
+        {
+          "id": "d",
+          "text": "A physically separate datacenter location within an Azure region with independent power, cooling, and networking"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Managed databases is database services that reduce the need to operate the underlying database infrastructure manually.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "mc-0278",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Which of the following is the best definition of Azure AI services?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A billing, management, and access-control boundary containing resource groups"
+        },
+        {
+          "id": "b",
+          "text": "Prebuilt cloud AI capabilities that can add intelligent features to applications"
+        },
+        {
+          "id": "c",
+          "text": "An Azure compute option for running existing or custom server workloads"
+        },
+        {
+          "id": "d",
+          "text": "An Azure service for generative AI scenarios such as chat and content generation"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure AI services is prebuilt cloud AI capabilities that can add intelligent features to applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "mc-0279",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "What is the primary meaning of Azure OpenAI Service in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A student offer that provides credit and developer benefits without requiring a credit card for sign-up"
+        },
+        {
+          "id": "b",
+          "text": "An introductory Azure offer that includes limited free services and promotional credit"
+        },
+        {
+          "id": "c",
+          "text": "An Azure service for generative AI scenarios such as chat and content generation"
+        },
+        {
+          "id": "d",
+          "text": "Moving from manually managed servers toward managed, autoscaling, or event-driven cloud services"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure OpenAI Service is an Azure service for generative AI scenarios such as chat and content generation.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "mr-0275",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microsoft Azure: prebuilt cloud AI capabilities that can add intelligent features to applications."
+        },
+        {
+          "id": "b",
+          "text": "Azure virtual machines: the worldwide infrastructure that enables Azure services to be deployed close to users and across regions."
+        },
+        {
+          "id": "c",
+          "text": "Microsoft Azure: a global cloud platform with services for building, managing, and deploying applications and infrastructure."
+        },
+        {
+          "id": "d",
+          "text": "Managed databases: the identity relationship used to access Azure and own one or more subscriptions."
+        },
+        {
+          "id": "e",
+          "text": "Azure virtual machines: an Azure compute option for running existing or custom server workloads."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "e"
+      ],
+      "explanation": "The correct pair is: Microsoft Azure — a global cloud platform with services for building, managing, and deploying applications and infrastructure; and Azure virtual machines — an Azure compute option for running existing or custom server workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "mr-0276",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Managed databases: a service for building, training, and managing custom machine-learning models."
+        },
+        {
+          "id": "b",
+          "text": "Azure AI services: a way to separate environments, teams, billing, or access policies."
+        },
+        {
+          "id": "c",
+          "text": "Managed databases: database services that reduce the need to operate the underlying database infrastructure manually."
+        },
+        {
+          "id": "d",
+          "text": "Azure AI services: prebuilt cloud AI capabilities that can add intelligent features to applications."
+        },
+        {
+          "id": "e",
+          "text": "Azure AI services: a logical unit that provides access to Azure products and services and acts as a billing and management boundary."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: Managed databases — database services that reduce the need to operate the underlying database infrastructure manually; and Azure AI services — prebuilt cloud AI capabilities that can add intelligent features to applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "mr-0277",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure OpenAI Service: moving from manually managed servers toward managed, autoscaling, or event-driven cloud services."
+        },
+        {
+          "id": "b",
+          "text": "Azure OpenAI Service: an Azure service for generative AI scenarios such as chat and content generation."
+        },
+        {
+          "id": "c",
+          "text": "Azure OpenAI Service: an introductory Azure offer that includes limited free services and promotional credit."
+        },
+        {
+          "id": "d",
+          "text": "Azure Machine Learning: a way to separate environments, teams, billing, or access policies."
+        },
+        {
+          "id": "e",
+          "text": "Azure Machine Learning: a service for building, training, and managing custom machine-learning models."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: Azure OpenAI Service — an Azure service for generative AI scenarios such as chat and content generation; and Azure Machine Learning — a service for building, training, and managing custom machine-learning models.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "mr-0278",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Machine Learning: a student offer that provides credit and developer benefits without requiring a credit card for sign-up."
+        },
+        {
+          "id": "b",
+          "text": "Azure global network: the worldwide infrastructure that enables Azure services to be deployed close to users and across regions."
+        },
+        {
+          "id": "c",
+          "text": "Workload modernization: moving from manually managed servers toward managed, autoscaling, or event-driven cloud services."
+        },
+        {
+          "id": "d",
+          "text": "Workload modernization: a student offer that provides credit and developer benefits without requiring a credit card for sign-up."
+        },
+        {
+          "id": "e",
+          "text": "Azure global network: the identity relationship used to access Azure and own one or more subscriptions."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: Azure global network — the worldwide infrastructure that enables Azure services to be deployed close to users and across regions; and Workload modernization — moving from manually managed servers toward managed, autoscaling, or event-driven cloud services.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "mr-0279",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure account: the identity relationship used to access Azure and own one or more subscriptions."
+        },
+        {
+          "id": "b",
+          "text": "Azure account: a Microsoft partner that can sell and manage Azure services for customers."
+        },
+        {
+          "id": "c",
+          "text": "Azure subscription: an introductory Azure offer that includes limited free services and promotional credit."
+        },
+        {
+          "id": "d",
+          "text": "Azure subscription: a logical unit that provides access to Azure products and services and acts as a billing and management boundary."
+        },
+        {
+          "id": "e",
+          "text": "Azure global network: Azure resources are created inside a subscription."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Azure subscription — a logical unit that provides access to Azure products and services and acts as a billing and management boundary; and Azure account — the identity relationship used to access Azure and own one or more subscriptions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "tf-0275",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Microsoft Azure is a global cloud platform with services for building, managing, and deploying applications and infrastructure.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Microsoft Azure is a global cloud platform with services for building, managing, and deploying applications and infrastructure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "tf-0276",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "According to this unit: Azure virtual machines is an Azure service for generative AI scenarios such as chat and content generation.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Azure virtual machines is an Azure compute option for running existing or custom server workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "tf-0277",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "For Azure fundamentals, Managed databases is database services that reduce the need to operate the underlying database infrastructure manually.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Managed databases is database services that reduce the need to operate the underlying database infrastructure manually.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "tf-0278",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "This statement is correct: Azure AI services is the worldwide infrastructure that enables Azure services to be deployed close to users and across regions.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Azure AI services is prebuilt cloud AI capabilities that can add intelligent features to applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "tf-0279",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "The unit supports the following statement: Azure OpenAI Service is an Azure service for generative AI scenarios such as chat and content generation.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure OpenAI Service is an Azure service for generative AI scenarios such as chat and content generation.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "sc-0550",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a global cloud platform with services for building, managing, and deploying applications and infrastructure. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Access-control boundary"
+        },
+        {
+          "id": "b",
+          "text": "Microsoft Azure"
+        },
+        {
+          "id": "c",
+          "text": "Zonal service"
+        },
+        {
+          "id": "d",
+          "text": "Availability Zone"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Microsoft Azure is the best match because it is a global cloud platform with services for building, managing, and deploying applications and infrastructure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "sc-0551",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs an Azure compute option for running existing or custom server workloads. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Non-regional service"
+        },
+        {
+          "id": "b",
+          "text": "Availability Zone"
+        },
+        {
+          "id": "c",
+          "text": "Azure virtual machines"
+        },
+        {
+          "id": "d",
+          "text": "Managed databases"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure virtual machines is the best match because it is an Azure compute option for running existing or custom server workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "sc-0552",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: database services that reduce the need to operate the underlying database infrastructure manually. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Managed databases"
+        },
+        {
+          "id": "b",
+          "text": "Availability Zone"
+        },
+        {
+          "id": "c",
+          "text": "Azure resource"
+        },
+        {
+          "id": "d",
+          "text": "Azure for Students"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Managed databases is the best match because it is database services that reduce the need to operate the underlying database infrastructure manually.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "sc-0553",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: prebuilt cloud AI capabilities that can add intelligent features to applications. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure AI services"
+        },
+        {
+          "id": "b",
+          "text": "Sovereign region"
+        },
+        {
+          "id": "c",
+          "text": "Resource creation"
+        },
+        {
+          "id": "d",
+          "text": "Microsoft Azure"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure AI services is the best match because it is prebuilt cloud AI capabilities that can add intelligent features to applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "sc-0554",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants an Azure service for generative AI scenarios such as chat and content generation. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure subscription boundary"
+        },
+        {
+          "id": "b",
+          "text": "Azure subscription"
+        },
+        {
+          "id": "c",
+          "text": "Azure OpenAI Service"
+        },
+        {
+          "id": "d",
+          "text": "Zonal service"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure OpenAI Service is the best match because it is an Azure service for generative AI scenarios such as chat and content generation.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "sc-0555",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for a service for building, training, and managing custom machine-learning models. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure subscription"
+        },
+        {
+          "id": "b",
+          "text": "Azure resource"
+        },
+        {
+          "id": "c",
+          "text": "Microsoft Azure"
+        },
+        {
+          "id": "d",
+          "text": "Azure Machine Learning"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Azure Machine Learning is the best match because it is a service for building, training, and managing custom machine-learning models.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "sc-0556",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for the worldwide infrastructure that enables Azure services to be deployed close to users and across regions. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Management-group inheritance"
+        },
+        {
+          "id": "b",
+          "text": "Zonal service"
+        },
+        {
+          "id": "c",
+          "text": "Azure global network"
+        },
+        {
+          "id": "d",
+          "text": "Cloud Solution Provider partner"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure global network is the best match because it is the worldwide infrastructure that enables Azure services to be deployed close to users and across regions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "sc-0557",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is moving from manually managed servers toward managed, autoscaling, or event-driven cloud services. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure OpenAI Service"
+        },
+        {
+          "id": "b",
+          "text": "Sovereign region"
+        },
+        {
+          "id": "c",
+          "text": "Workload modernization"
+        },
+        {
+          "id": "d",
+          "text": "Microsoft Azure"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Workload modernization is the best match because it is moving from manually managed servers toward managed, autoscaling, or event-driven cloud services.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "sc-0558",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as a logical unit that provides access to Azure products and services and acts as a billing and management boundary. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure region"
+        },
+        {
+          "id": "b",
+          "text": "Region pair"
+        },
+        {
+          "id": "c",
+          "text": "Azure subscription boundary"
+        },
+        {
+          "id": "d",
+          "text": "Azure subscription"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Azure subscription is the best match because it is a logical unit that provides access to Azure products and services and acts as a billing and management boundary.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "sc-0559",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides the identity relationship used to access Azure and own one or more subscriptions. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Resource creation"
+        },
+        {
+          "id": "b",
+          "text": "Access-control boundary"
+        },
+        {
+          "id": "c",
+          "text": "Azure account"
+        },
+        {
+          "id": "d",
+          "text": "Multiple subscriptions"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure account is the best match because it is the identity relationship used to access Azure and own one or more subscriptions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "match-0275",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Microsoft Azure"
+        },
+        {
+          "id": "l2",
+          "text": "Azure virtual machines"
+        },
+        {
+          "id": "l3",
+          "text": "Managed databases"
+        },
+        {
+          "id": "l4",
+          "text": "Azure AI services"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Database services that reduce the need to operate the underlying database infrastructure manually"
+        },
+        {
+          "id": "r4",
+          "text": "Prebuilt cloud AI capabilities that can add intelligent features to applications"
+        },
+        {
+          "id": "r2",
+          "text": "An Azure compute option for running existing or custom server workloads"
+        },
+        {
+          "id": "r1",
+          "text": "A global cloud platform with services for building, managing, and deploying applications and infrastructure"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "match-0276",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Managed databases"
+        },
+        {
+          "id": "l2",
+          "text": "Azure AI services"
+        },
+        {
+          "id": "l3",
+          "text": "Azure OpenAI Service"
+        },
+        {
+          "id": "l4",
+          "text": "Azure Machine Learning"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "A service for building, training, and managing custom machine-learning models"
+        },
+        {
+          "id": "r1",
+          "text": "Database services that reduce the need to operate the underlying database infrastructure manually"
+        },
+        {
+          "id": "r3",
+          "text": "An Azure service for generative AI scenarios such as chat and content generation"
+        },
+        {
+          "id": "r2",
+          "text": "Prebuilt cloud AI capabilities that can add intelligent features to applications"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l1": "r1",
+        "l3": "r3",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "match-0277",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure OpenAI Service"
+        },
+        {
+          "id": "l2",
+          "text": "Azure Machine Learning"
+        },
+        {
+          "id": "l3",
+          "text": "Azure global network"
+        },
+        {
+          "id": "l4",
+          "text": "Workload modernization"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "An Azure service for generative AI scenarios such as chat and content generation"
+        },
+        {
+          "id": "r2",
+          "text": "A service for building, training, and managing custom machine-learning models"
+        },
+        {
+          "id": "r3",
+          "text": "The worldwide infrastructure that enables Azure services to be deployed close to users and across regions"
+        },
+        {
+          "id": "r4",
+          "text": "Moving from manually managed servers toward managed, autoscaling, or event-driven cloud services"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "match-0278",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure global network"
+        },
+        {
+          "id": "l2",
+          "text": "Workload modernization"
+        },
+        {
+          "id": "l3",
+          "text": "Azure subscription"
+        },
+        {
+          "id": "l4",
+          "text": "Azure account"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "Moving from manually managed servers toward managed, autoscaling, or event-driven cloud services"
+        },
+        {
+          "id": "r1",
+          "text": "The worldwide infrastructure that enables Azure services to be deployed close to users and across regions"
+        },
+        {
+          "id": "r4",
+          "text": "The identity relationship used to access Azure and own one or more subscriptions"
+        },
+        {
+          "id": "r3",
+          "text": "A logical unit that provides access to Azure products and services and acts as a billing and management boundary"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l1": "r1",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "match-0279",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure subscription"
+        },
+        {
+          "id": "l2",
+          "text": "Azure account"
+        },
+        {
+          "id": "l3",
+          "text": "Multiple subscriptions"
+        },
+        {
+          "id": "l4",
+          "text": "Azure free account"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A way to separate environments, teams, billing, or access policies"
+        },
+        {
+          "id": "r4",
+          "text": "An introductory Azure offer that includes limited free services and promotional credit"
+        },
+        {
+          "id": "r1",
+          "text": "A logical unit that provides access to Azure products and services and acts as a billing and management boundary"
+        },
+        {
+          "id": "r2",
+          "text": "The identity relationship used to access Azure and own one or more subscriptions"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l1": "r1",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "fill-0275",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "{{answer}} is database services that reduce the need to operate the underlying database infrastructure manually.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure account",
+            "Access-control boundary",
+            "Microsoft Azure",
+            "Managed databases"
+          ],
+          "correctAnswer": "Managed databases"
+        }
+      ],
+      "explanation": "Managed databases is database services that reduce the need to operate the underlying database infrastructure manually.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "fill-0276",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "The term for prebuilt cloud AI capabilities that can add intelligent features to applications is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Access-control boundary",
+            "Zonal service",
+            "Azure AI services",
+            "Resource-group deletion"
+          ],
+          "correctAnswer": "Azure AI services"
+        }
+      ],
+      "explanation": "Azure AI services is prebuilt cloud AI capabilities that can add intelligent features to applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "fill-0277",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "In this unit, {{answer}} refers to an Azure service for generative AI scenarios such as chat and content generation.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Availability Zone",
+            "Azure OpenAI Service",
+            "Resource-group deletion",
+            "Azure subscription boundary"
+          ],
+          "correctAnswer": "Azure OpenAI Service"
+        }
+      ],
+      "explanation": "Azure OpenAI Service is an Azure service for generative AI scenarios such as chat and content generation.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "fill-0278",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "For AZ-900, the concept described as a service for building, training, and managing custom machine-learning models is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Non-regional service",
+            "Workload modernization",
+            "Azure global network",
+            "Azure Machine Learning"
+          ],
+          "correctAnswer": "Azure Machine Learning"
+        }
+      ],
+      "explanation": "Azure Machine Learning is a service for building, training, and managing custom machine-learning models.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    },
+    {
+      "id": "fill-0279",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Choose the term that completes the statement: {{answer}} means the worldwide infrastructure that enables Azure services to be deployed close to users and across regions.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure global network",
+            "Workload modernization",
+            "Non-regional service",
+            "Azure region"
+          ],
+          "correctAnswer": "Azure global network"
+        }
+      ],
+      "explanation": "Azure global network is the worldwide infrastructure that enables Azure services to be deployed close to users and across regions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary"
+    }
+  ]
+}

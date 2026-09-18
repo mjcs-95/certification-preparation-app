@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe features and tools in Azure for governance and compliance · Describe the purpose of resource locks",
+  "questions": [
+    {
+      "id": "mc-0165",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "question": "Which statement best describes Resource lock?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A control designed to protect Azure resources from accidental deletion or modification"
+        },
+        {
+          "id": "b",
+          "text": "The ability of a policy to block creation of noncompliant resources"
+        },
+        {
+          "id": "c",
+          "text": "Purview capabilities for mapping, classifying, discovering, and governing data across on-premises, multicloud, and SaaS sources"
+        },
+        {
+          "id": "d",
+          "text": "A lock that permits authorized users to read and modify a resource but prevents deletion"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Resource lock is a control designed to protect Azure resources from accidental deletion or modification.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "mc-0166",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "question": "In the context of this Microsoft Learn unit, what does Delete lock refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A Service Trust Portal area for pinning documents and optionally receiving update notifications"
+        },
+        {
+          "id": "b",
+          "text": "A lock that permits authorized users to read and modify a resource but prevents deletion"
+        },
+        {
+          "id": "c",
+          "text": "A control designed to protect Azure resources from accidental deletion or modification"
+        },
+        {
+          "id": "d",
+          "text": "The Azure portal, PowerShell, Azure CLI, and ARM templates can manage resource locks"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Delete lock is a lock that permits authorized users to read and modify a resource but prevents deletion.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "mc-0167",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "question": "Which description correctly matches ReadOnly lock?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A resource-group or subscription lock applying to resources beneath that scope"
+        },
+        {
+          "id": "b",
+          "text": "A lock that permits reading but blocks updates and deletion"
+        },
+        {
+          "id": "c",
+          "text": "A service for creating, assigning, and managing rules that audit or control Azure resource configurations"
+        },
+        {
+          "id": "d",
+          "text": "An agreement that may need to be accepted before accessing certain compliance materials"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "ReadOnly lock is a lock that permits reading but blocks updates and deletion.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "mc-0168",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "question": "Which of the following is the best definition of Lock inheritance?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Some Service Trust Portal materials require signing in with a Microsoft Entra work or school account"
+        },
+        {
+          "id": "b",
+          "text": "A controlled exclusion that allows a resource to be exempted from a policy requirement"
+        },
+        {
+          "id": "c",
+          "text": "A resource-group or subscription lock applying to resources beneath that scope"
+        },
+        {
+          "id": "d",
+          "text": "A control designed to protect Azure resources from accidental deletion or modification"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Lock inheritance is a resource-group or subscription lock applying to resources beneath that scope.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "mc-0169",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "question": "What is the primary meaning of RBAC and locks in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The ability of a policy to block creation of noncompliant resources"
+        },
+        {
+          "id": "b",
+          "text": "A lock that permits authorized users to read and modify a resource but prevents deletion"
+        },
+        {
+          "id": "c",
+          "text": "A Purview capability that helps identify data across the data estate"
+        },
+        {
+          "id": "d",
+          "text": "Resource locks apply even when a user has RBAC permissions that would otherwise allow the blocked operation"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "RBAC and locks is resource locks apply even when a user has RBAC permissions that would otherwise allow the blocked operation.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "mr-0165",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ReadOnly lock: a Purview capability for identifying and classifying sensitive information."
+        },
+        {
+          "id": "b",
+          "text": "Resource lock: a resource-group or subscription lock applying to resources beneath that scope."
+        },
+        {
+          "id": "c",
+          "text": "Delete lock: a lock that permits authorized users to read and modify a resource but prevents deletion."
+        },
+        {
+          "id": "d",
+          "text": "Delete lock: the Azure portal, PowerShell, Azure CLI, and ARM templates can manage resource locks."
+        },
+        {
+          "id": "e",
+          "text": "Resource lock: a control designed to protect Azure resources from accidental deletion or modification."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "e"
+      ],
+      "explanation": "The correct pair is: Resource lock — a control designed to protect Azure resources from accidental deletion or modification; and Delete lock — a lock that permits authorized users to read and modify a resource but prevents deletion.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "mr-0166",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lock inheritance: a resource-group or subscription lock applying to resources beneath that scope."
+        },
+        {
+          "id": "b",
+          "text": "Lock inheritance: a Purview capability that helps identify data across the data estate."
+        },
+        {
+          "id": "c",
+          "text": "ReadOnly lock: a lock that permits reading but blocks updates and deletion."
+        },
+        {
+          "id": "d",
+          "text": "ReadOnly lock: the required first step before performing an operation that the lock blocks."
+        },
+        {
+          "id": "e",
+          "text": "Lock inheritance: a Purview capability for understanding how data moves and transforms across systems."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "c"
+      ],
+      "explanation": "The correct pair is: ReadOnly lock — a lock that permits reading but blocks updates and deletion; and Lock inheritance — a resource-group or subscription lock applying to resources beneath that scope.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "mr-0167",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Removing a lock: a Purview capability for understanding how data moves and transforms across systems."
+        },
+        {
+          "id": "b",
+          "text": "RBAC and locks: resource locks apply even when a user has RBAC permissions that would otherwise allow the blocked operation."
+        },
+        {
+          "id": "c",
+          "text": "RBAC and locks: solution capabilities focused on protecting sensitive data and managing regulatory requirements."
+        },
+        {
+          "id": "d",
+          "text": "RBAC and locks: a family of data governance, risk, and compliance solutions that provides a unified view of data across environments."
+        },
+        {
+          "id": "e",
+          "text": "Removing a lock: the required first step before performing an operation that the lock blocks."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: RBAC and locks — resource locks apply even when a user has RBAC permissions that would otherwise allow the blocked operation; and Removing a lock — the required first step before performing an operation that the lock blocks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "mr-0168",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Resource lock: the required first step before performing an operation that the lock blocks."
+        },
+        {
+          "id": "b",
+          "text": "Lock management tools: a Purview capability for identifying and classifying sensitive information."
+        },
+        {
+          "id": "c",
+          "text": "Resource lock: a control designed to protect Azure resources from accidental deletion or modification."
+        },
+        {
+          "id": "d",
+          "text": "Lock management tools: the Azure portal, PowerShell, Azure CLI, and ARM templates can manage resource locks."
+        },
+        {
+          "id": "e",
+          "text": "Removing a lock: Purview capabilities for mapping, classifying, discovering, and governing data across on-premises, multicloud, and SaaS sources."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: Lock management tools — the Azure portal, PowerShell, Azure CLI, and ARM templates can manage resource locks; and Resource lock — a control designed to protect Azure resources from accidental deletion or modification.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "mr-0169",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ReadOnly lock: a lock that permits reading but blocks updates and deletion."
+        },
+        {
+          "id": "b",
+          "text": "ReadOnly lock: a family of data governance, risk, and compliance solutions that provides a unified view of data across environments."
+        },
+        {
+          "id": "c",
+          "text": "Delete lock: a lock that permits authorized users to read and modify a resource but prevents deletion."
+        },
+        {
+          "id": "d",
+          "text": "Delete lock: resource locks apply even when a user has RBAC permissions that would otherwise allow the blocked operation."
+        },
+        {
+          "id": "e",
+          "text": "Lock management tools: a view that helps organizations understand where data is stored and how it is classified."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "c"
+      ],
+      "explanation": "The correct pair is: Delete lock — a lock that permits authorized users to read and modify a resource but prevents deletion; and ReadOnly lock — a lock that permits reading but blocks updates and deletion.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "tf-0165",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "question": "Resource lock is a control designed to protect Azure resources from accidental deletion or modification.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Resource lock is a control designed to protect Azure resources from accidental deletion or modification.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "tf-0166",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "question": "According to this unit: Delete lock is resource locks apply even when a user has RBAC permissions that would otherwise allow the blocked operation.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Delete lock is a lock that permits authorized users to read and modify a resource but prevents deletion.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "tf-0167",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "question": "For Azure fundamentals, ReadOnly lock is a lock that permits reading but blocks updates and deletion.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "ReadOnly lock is a lock that permits reading but blocks updates and deletion.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "tf-0168",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "question": "This statement is correct: Lock inheritance is the Azure portal, PowerShell, Azure CLI, and ARM templates can manage resource locks.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Lock inheritance is a resource-group or subscription lock applying to resources beneath that scope.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "tf-0169",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "question": "The unit supports the following statement: RBAC and locks is resource locks apply even when a user has RBAC permissions that would otherwise allow the blocked operation.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "RBAC and locks is resource locks apply even when a user has RBAC permissions that would otherwise allow the blocked operation.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "sc-0330",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of resource locks” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a control designed to protect Azure resources from accidental deletion or modification. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Secure data discovery"
+        },
+        {
+          "id": "b",
+          "text": "Compliance reports"
+        },
+        {
+          "id": "c",
+          "text": "RBAC and locks"
+        },
+        {
+          "id": "d",
+          "text": "Resource lock"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Resource lock is the best match because it is a control designed to protect Azure resources from accidental deletion or modification.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "sc-0331",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of resource locks” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs a lock that permits authorized users to read and modify a resource but prevents deletion. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Initiative"
+        },
+        {
+          "id": "b",
+          "text": "Delete lock"
+        },
+        {
+          "id": "c",
+          "text": "Sensitive data classification"
+        },
+        {
+          "id": "d",
+          "text": "My Library"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Delete lock is the best match because it is a lock that permits authorized users to read and modify a resource but prevents deletion.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "sc-0332",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of resource locks” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: a lock that permits reading but blocks updates and deletion. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ReadOnly lock"
+        },
+        {
+          "id": "b",
+          "text": "Policy inheritance"
+        },
+        {
+          "id": "c",
+          "text": "All Documents"
+        },
+        {
+          "id": "d",
+          "text": "Policy remediation"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "ReadOnly lock is the best match because it is a lock that permits reading but blocks updates and deletion.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "sc-0333",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of resource locks” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: a resource-group or subscription lock applying to resources beneath that scope. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lock inheritance"
+        },
+        {
+          "id": "b",
+          "text": "Azure Policy"
+        },
+        {
+          "id": "c",
+          "text": "Delete lock"
+        },
+        {
+          "id": "d",
+          "text": "Compliance reports"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Lock inheritance is the best match because it is a resource-group or subscription lock applying to resources beneath that scope.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "sc-0334",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of resource locks” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants resource locks apply even when a user has RBAC permissions that would otherwise allow the blocked operation. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "RBAC and locks"
+        },
+        {
+          "id": "b",
+          "text": "Removing a lock"
+        },
+        {
+          "id": "c",
+          "text": "Compliance reports"
+        },
+        {
+          "id": "d",
+          "text": "Purview risk and compliance"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "RBAC and locks is the best match because it is resource locks apply even when a user has RBAC permissions that would otherwise allow the blocked operation.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "sc-0335",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of resource locks” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for the required first step before performing an operation that the lock blocks. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Unified data governance"
+        },
+        {
+          "id": "b",
+          "text": "My Library"
+        },
+        {
+          "id": "c",
+          "text": "Preventive policy effect"
+        },
+        {
+          "id": "d",
+          "text": "Removing a lock"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Removing a lock is the best match because it is the required first step before performing an operation that the lock blocks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "sc-0336",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of resource locks” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for the Azure portal, PowerShell, Azure CLI, and ARM templates can manage resource locks. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Policy remediation"
+        },
+        {
+          "id": "b",
+          "text": "Lock management tools"
+        },
+        {
+          "id": "c",
+          "text": "Document retention availability"
+        },
+        {
+          "id": "d",
+          "text": "Purview risk and compliance"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Lock management tools is the best match because it is the Azure portal, PowerShell, Azure CLI, and ARM templates can manage resource locks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "sc-0337",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of resource locks” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is a control designed to protect Azure resources from accidental deletion or modification. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Document retention availability"
+        },
+        {
+          "id": "b",
+          "text": "ReadOnly lock"
+        },
+        {
+          "id": "c",
+          "text": "Unified data governance"
+        },
+        {
+          "id": "d",
+          "text": "Resource lock"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Resource lock is the best match because it is a control designed to protect Azure resources from accidental deletion or modification.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "sc-0338",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of resource locks” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as a lock that permits authorized users to read and modify a resource but prevents deletion. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Policy definition"
+        },
+        {
+          "id": "b",
+          "text": "Delete lock"
+        },
+        {
+          "id": "c",
+          "text": "Policy remediation"
+        },
+        {
+          "id": "d",
+          "text": "Initiative"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Delete lock is the best match because it is a lock that permits authorized users to read and modify a resource but prevents deletion.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "sc-0339",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of resource locks” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides a lock that permits reading but blocks updates and deletion. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ReadOnly lock"
+        },
+        {
+          "id": "b",
+          "text": "Policy exception"
+        },
+        {
+          "id": "c",
+          "text": "Delete lock"
+        },
+        {
+          "id": "d",
+          "text": "Automated data discovery"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "ReadOnly lock is the best match because it is a lock that permits reading but blocks updates and deletion.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "match-0165",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Resource lock"
+        },
+        {
+          "id": "l2",
+          "text": "Delete lock"
+        },
+        {
+          "id": "l3",
+          "text": "ReadOnly lock"
+        },
+        {
+          "id": "l4",
+          "text": "Lock inheritance"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "A resource-group or subscription lock applying to resources beneath that scope"
+        },
+        {
+          "id": "r1",
+          "text": "A control designed to protect Azure resources from accidental deletion or modification"
+        },
+        {
+          "id": "r2",
+          "text": "A lock that permits authorized users to read and modify a resource but prevents deletion"
+        },
+        {
+          "id": "r3",
+          "text": "A lock that permits reading but blocks updates and deletion"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "match-0166",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "ReadOnly lock"
+        },
+        {
+          "id": "l2",
+          "text": "Lock inheritance"
+        },
+        {
+          "id": "l3",
+          "text": "RBAC and locks"
+        },
+        {
+          "id": "l4",
+          "text": "Removing a lock"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "The required first step before performing an operation that the lock blocks"
+        },
+        {
+          "id": "r3",
+          "text": "Resource locks apply even when a user has RBAC permissions that would otherwise allow the blocked operation"
+        },
+        {
+          "id": "r1",
+          "text": "A lock that permits reading but blocks updates and deletion"
+        },
+        {
+          "id": "r2",
+          "text": "A resource-group or subscription lock applying to resources beneath that scope"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l3": "r3",
+        "l1": "r1",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "match-0167",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "RBAC and locks"
+        },
+        {
+          "id": "l2",
+          "text": "Removing a lock"
+        },
+        {
+          "id": "l3",
+          "text": "Lock management tools"
+        },
+        {
+          "id": "l4",
+          "text": "Resource lock"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "The required first step before performing an operation that the lock blocks"
+        },
+        {
+          "id": "r1",
+          "text": "Resource locks apply even when a user has RBAC permissions that would otherwise allow the blocked operation"
+        },
+        {
+          "id": "r4",
+          "text": "A control designed to protect Azure resources from accidental deletion or modification"
+        },
+        {
+          "id": "r3",
+          "text": "The Azure portal, PowerShell, Azure CLI, and ARM templates can manage resource locks"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l1": "r1",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "match-0168",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Lock management tools"
+        },
+        {
+          "id": "l2",
+          "text": "Resource lock"
+        },
+        {
+          "id": "l3",
+          "text": "Delete lock"
+        },
+        {
+          "id": "l4",
+          "text": "ReadOnly lock"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "A control designed to protect Azure resources from accidental deletion or modification"
+        },
+        {
+          "id": "r4",
+          "text": "A lock that permits reading but blocks updates and deletion"
+        },
+        {
+          "id": "r1",
+          "text": "The Azure portal, PowerShell, Azure CLI, and ARM templates can manage resource locks"
+        },
+        {
+          "id": "r3",
+          "text": "A lock that permits authorized users to read and modify a resource but prevents deletion"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l4": "r4",
+        "l1": "r1",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "match-0169",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Delete lock"
+        },
+        {
+          "id": "l2",
+          "text": "ReadOnly lock"
+        },
+        {
+          "id": "l3",
+          "text": "Lock inheritance"
+        },
+        {
+          "id": "l4",
+          "text": "RBAC and locks"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A lock that permits authorized users to read and modify a resource but prevents deletion"
+        },
+        {
+          "id": "r3",
+          "text": "A resource-group or subscription lock applying to resources beneath that scope"
+        },
+        {
+          "id": "r4",
+          "text": "Resource locks apply even when a user has RBAC permissions that would otherwise allow the blocked operation"
+        },
+        {
+          "id": "r2",
+          "text": "A lock that permits reading but blocks updates and deletion"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "fill-0165",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "question": "{{answer}} is a lock that permits reading but blocks updates and deletion.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Document retention availability",
+            "ReadOnly lock",
+            "Unified data governance",
+            "Compliance reports"
+          ],
+          "correctAnswer": "ReadOnly lock"
+        }
+      ],
+      "explanation": "ReadOnly lock is a lock that permits reading but blocks updates and deletion.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "fill-0166",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "question": "The term for a resource-group or subscription lock applying to resources beneath that scope is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Purview risk and compliance",
+            "Sensitive data classification",
+            "Lock management tools",
+            "Lock inheritance"
+          ],
+          "correctAnswer": "Lock inheritance"
+        }
+      ],
+      "explanation": "Lock inheritance is a resource-group or subscription lock applying to resources beneath that scope.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "fill-0167",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "question": "In this unit, {{answer}} refers to resource locks apply even when a user has RBAC permissions that would otherwise allow the blocked operation.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "RBAC and locks",
+            "Document retention availability",
+            "Secure data discovery",
+            "Removing a lock"
+          ],
+          "correctAnswer": "RBAC and locks"
+        }
+      ],
+      "explanation": "RBAC and locks is resource locks apply even when a user has RBAC permissions that would otherwise allow the blocked operation.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "fill-0168",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "question": "For AZ-900, the concept described as the required first step before performing an operation that the lock blocks is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Authenticated access",
+            "Nondisclosure agreement",
+            "Secure data discovery",
+            "Removing a lock"
+          ],
+          "correctAnswer": "Removing a lock"
+        }
+      ],
+      "explanation": "Removing a lock is the required first step before performing an operation that the lock blocks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    },
+    {
+      "id": "fill-0169",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of resource locks",
+      "question": "Choose the term that completes the statement: {{answer}} means the Azure portal, PowerShell, Azure CLI, and ARM templates can manage resource locks.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "End-to-end data lineage",
+            "Lock management tools",
+            "All Documents",
+            "Nondisclosure agreement"
+          ],
+          "correctAnswer": "Lock management tools"
+        }
+      ],
+      "explanation": "Lock management tools is the Azure portal, PowerShell, Azure CLI, and ARM templates can manage resource locks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks"
+    }
+  ]
+}

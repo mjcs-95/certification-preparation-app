@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe Azure identity, access, and security · Introduction",
+  "questions": [
+    {
+      "id": "mc-0400",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Which statement best describes Microsoft Entra ID?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microsoft cloud-based identity and access management service"
+        },
+        {
+          "id": "b",
+          "text": "The user, group, service principal, or managed identity receiving a role assignment"
+        },
+        {
+          "id": "c",
+          "text": "Using available signals such as identity, location, device, service, workload, and data classification to make access decisions"
+        },
+        {
+          "id": "d",
+          "text": "A security model that assumes breach and verifies each access request rather than trusting based on network location"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Microsoft Entra ID is Microsoft cloud-based identity and access management service.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "mc-0401",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "In the context of this Microsoft Learn unit, what does Authentication refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Requiring an additional authentication factor so a password alone is not sufficient"
+        },
+        {
+          "id": "b",
+          "text": "Protecting stored data by encoding it while it resides on disks or other storage media"
+        },
+        {
+          "id": "c",
+          "text": "A hardware-based passwordless authentication option supported by Microsoft Entra ID"
+        },
+        {
+          "id": "d",
+          "text": "Verifying the identity of a person, service, or device before granting access"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Authentication is verifying the identity of a person, service, or device before granting access.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "mc-0402",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Which description correctly matches Single sign-on (SSO)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Controls that verify identities and restrict permissions"
+        },
+        {
+          "id": "b",
+          "text": "Prioritized guidance for reducing identified security risks"
+        },
+        {
+          "id": "c",
+          "text": "Managed domain capabilities such as domain join, Group Policy, LDAP, Kerberos, and NTLM without customer-managed domain controllers"
+        },
+        {
+          "id": "d",
+          "text": "Using one identity sign-in to access multiple trusted applications"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Single sign-on (SSO) is using one identity sign-in to access multiple trusted applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "mc-0403",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Which of the following is the best definition of Application management?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external user represented in a Microsoft Entra tenant for collaboration"
+        },
+        {
+          "id": "b",
+          "text": "Protecting stored data by encoding it while it resides on disks or other storage media"
+        },
+        {
+          "id": "c",
+          "text": "Microsoft Entra capabilities for integrating and controlling access to cloud and on-premises applications"
+        },
+        {
+          "id": "d",
+          "text": "Encryption capabilities for Azure virtual-machine disks"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Application management is Microsoft Entra capabilities for integrating and controlling access to cloud and on-premises applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "mc-0404",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "What is the primary meaning of Device management in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Using identity and device state with tools such as Intune and Conditional Access"
+        },
+        {
+          "id": "b",
+          "text": "Designing detection, segmentation, and response as though attackers may already be present"
+        },
+        {
+          "id": "c",
+          "text": "Verifying the identity of a person, service, or device before granting access"
+        },
+        {
+          "id": "d",
+          "text": "A view that maps resource configuration and controls to supported compliance standards"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Device management is using identity and device state with tools such as Intune and Conditional Access.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "mr-0400",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Authentication: managed domain capabilities such as domain join, Group Policy, LDAP, Kerberos, and NTLM without customer-managed domain controllers."
+        },
+        {
+          "id": "b",
+          "text": "Single sign-on (SSO): something the user knows, such as a password or PIN."
+        },
+        {
+          "id": "c",
+          "text": "Microsoft Entra ID: Microsoft Entra capabilities for integrating and controlling access to cloud and on-premises applications."
+        },
+        {
+          "id": "d",
+          "text": "Authentication: verifying the identity of a person, service, or device before granting access."
+        },
+        {
+          "id": "e",
+          "text": "Microsoft Entra ID: Microsoft cloud-based identity and access management service."
+        }
+      ],
+      "correctAnswers": [
+        "d",
+        "e"
+      ],
+      "explanation": "The correct pair is: Microsoft Entra ID — Microsoft cloud-based identity and access management service; and Authentication — verifying the identity of a person, service, or device before granting access.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "mr-0401",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Single sign-on (SSO): using one identity sign-in to access multiple trusted applications."
+        },
+        {
+          "id": "b",
+          "text": "Application management: requiring an additional authentication factor so a password alone is not sufficient."
+        },
+        {
+          "id": "c",
+          "text": "Application management: Microsoft Entra capabilities for integrating and controlling access to cloud and on-premises applications."
+        },
+        {
+          "id": "d",
+          "text": "Application management: something the user has, such as a phone or security key."
+        },
+        {
+          "id": "e",
+          "text": "Single sign-on (SSO): technology that synchronizes identities between on-premises Active Directory and Microsoft Entra ID."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "c"
+      ],
+      "explanation": "The correct pair is: Single sign-on (SSO) — using one identity sign-in to access multiple trusted applications; and Application management — Microsoft Entra capabilities for integrating and controlling access to cloud and on-premises applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "mr-0402",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Device management: using identity and device state with tools such as Intune and Conditional Access."
+        },
+        {
+          "id": "b",
+          "text": "Microsoft Entra Connect: technology that synchronizes identities between on-premises Active Directory and Microsoft Entra ID."
+        },
+        {
+          "id": "c",
+          "text": "Device management: identity synchronization from Microsoft Entra ID to Microsoft Entra Domain Services without syncing managed-domain-only objects back."
+        },
+        {
+          "id": "d",
+          "text": "Device management: something the user is, such as a fingerprint or facial biometric."
+        },
+        {
+          "id": "e",
+          "text": "Microsoft Entra Connect: something the user has, such as a phone or security key."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Device management — using identity and device state with tools such as Intune and Conditional Access; and Microsoft Entra Connect — technology that synchronizes identities between on-premises Active Directory and Microsoft Entra ID.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "mr-0403",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "One-way managed-domain synchronization: identity synchronization from Microsoft Entra ID to Microsoft Entra Domain Services without syncing managed-domain-only objects back."
+        },
+        {
+          "id": "b",
+          "text": "Microsoft Entra Domain Services: managed domain capabilities such as domain join, Group Policy, LDAP, Kerberos, and NTLM without customer-managed domain controllers."
+        },
+        {
+          "id": "c",
+          "text": "Microsoft Entra Domain Services: something the user knows, such as a password or PIN."
+        },
+        {
+          "id": "d",
+          "text": "One-way managed-domain synchronization: a Microsoft passwordless authentication option using a device-bound credential and PIN or biometrics."
+        },
+        {
+          "id": "e",
+          "text": "Microsoft Entra Connect: a Microsoft passwordless authentication option using a device-bound credential and PIN or biometrics."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Microsoft Entra Domain Services — managed domain capabilities such as domain join, Group Policy, LDAP, Kerberos, and NTLM without customer-managed domain controllers; and One-way managed-domain synchronization — identity synchronization from Microsoft Entra ID to Microsoft Entra Domain Services without syncing managed-domain-only objects back.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "mr-0404",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microsoft Entra Domain Services: an app that can support MFA and passwordless sign-in."
+        },
+        {
+          "id": "b",
+          "text": "Multifactor authentication (MFA): requiring an additional authentication factor so a password alone is not sufficient."
+        },
+        {
+          "id": "c",
+          "text": "Knowledge factor: something the user knows, such as a password or PIN."
+        },
+        {
+          "id": "d",
+          "text": "Multifactor authentication (MFA): something the user is, such as a fingerprint or facial biometric."
+        },
+        {
+          "id": "e",
+          "text": "Knowledge factor: a hardware-based passwordless authentication option supported by Microsoft Entra ID."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: Multifactor authentication (MFA) — requiring an additional authentication factor so a password alone is not sufficient; and Knowledge factor — something the user knows, such as a password or PIN.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "tf-0400",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Microsoft Entra ID is Microsoft cloud-based identity and access management service.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Microsoft Entra ID is Microsoft cloud-based identity and access management service.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "tf-0401",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "According to this unit: Authentication is using identity and device state with tools such as Intune and Conditional Access.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Authentication is verifying the identity of a person, service, or device before granting access.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "tf-0402",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "For Azure fundamentals, Single sign-on (SSO) is using one identity sign-in to access multiple trusted applications.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Single sign-on (SSO) is using one identity sign-in to access multiple trusted applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "tf-0403",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "This statement is correct: Application management is managed domain capabilities such as domain join, Group Policy, LDAP, Kerberos, and NTLM without customer-managed domain controllers.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Application management is Microsoft Entra capabilities for integrating and controlling access to cloud and on-premises applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "tf-0404",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "The unit supports the following statement: Device management is using identity and device state with tools such as Intune and Conditional Access.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Device management is using identity and device state with tools such as Intune and Conditional Access.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "sc-0800",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "scenario": "The organization is reviewing the topic “Introduction” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: microsoft cloud-based identity and access management service. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Network layer"
+        },
+        {
+          "id": "b",
+          "text": "Microsoft Entra ID"
+        },
+        {
+          "id": "c",
+          "text": "Device management"
+        },
+        {
+          "id": "d",
+          "text": "Least-privilege external access"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Microsoft Entra ID is the best match because it is Microsoft cloud-based identity and access management service.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "sc-0801",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "scenario": "The organization is reviewing the topic “Introduction” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs verifying the identity of a person, service, or device before granting access. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Windows Hello for Business"
+        },
+        {
+          "id": "b",
+          "text": "Authentication"
+        },
+        {
+          "id": "c",
+          "text": "Layered mitigation"
+        },
+        {
+          "id": "d",
+          "text": "Scope"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Authentication is the best match because it is verifying the identity of a person, service, or device before granting access.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "sc-0802",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "scenario": "The organization is reviewing the topic “Introduction” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: using one identity sign-in to access multiple trusted applications. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "User or group signal"
+        },
+        {
+          "id": "b",
+          "text": "Single sign-on (SSO)"
+        },
+        {
+          "id": "c",
+          "text": "Microsoft Entra Domain Services"
+        },
+        {
+          "id": "d",
+          "text": "Block access"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Single sign-on (SSO) is the best match because it is using one identity sign-in to access multiple trusted applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "sc-0803",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "scenario": "The organization is reviewing the topic “Introduction” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: microsoft Entra capabilities for integrating and controlling access to cloud and on-premises applications. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Customer identity access"
+        },
+        {
+          "id": "b",
+          "text": "Application management"
+        },
+        {
+          "id": "c",
+          "text": "Defense in depth"
+        },
+        {
+          "id": "d",
+          "text": "Physical security layer"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Application management is the best match because it is Microsoft Entra capabilities for integrating and controlling access to cloud and on-premises applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "sc-0804",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "scenario": "The organization is reviewing the topic “Introduction” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants using identity and device state with tools such as Intune and Conditional Access. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Physical security layer"
+        },
+        {
+          "id": "b",
+          "text": "Require MFA"
+        },
+        {
+          "id": "c",
+          "text": "Multicloud security"
+        },
+        {
+          "id": "d",
+          "text": "Device management"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Device management is the best match because it is using identity and device state with tools such as Intune and Conditional Access.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "sc-0805",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "scenario": "The organization is reviewing the topic “Introduction” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for technology that synchronizes identities between on-premises Active Directory and Microsoft Entra ID. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microsoft Entra Connect"
+        },
+        {
+          "id": "b",
+          "text": "Key rotation"
+        },
+        {
+          "id": "c",
+          "text": "Encryption in transit"
+        },
+        {
+          "id": "d",
+          "text": "Require MFA"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Microsoft Entra Connect is the best match because it is technology that synchronizes identities between on-premises Active Directory and Microsoft Entra ID.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "sc-0806",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "scenario": "The organization is reviewing the topic “Introduction” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for managed domain capabilities such as domain join, Group Policy, LDAP, Kerberos, and NTLM without customer-managed domain controllers. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "User or group signal"
+        },
+        {
+          "id": "b",
+          "text": "Microsoft Entra Domain Services"
+        },
+        {
+          "id": "c",
+          "text": "Authentication"
+        },
+        {
+          "id": "d",
+          "text": "Security recommendations"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Microsoft Entra Domain Services is the best match because it is managed domain capabilities such as domain join, Group Policy, LDAP, Kerberos, and NTLM without customer-managed domain controllers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "sc-0807",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "scenario": "The organization is reviewing the topic “Introduction” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is identity synchronization from Microsoft Entra ID to Microsoft Entra Domain Services without syncing managed-domain-only objects back. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microsoft Entra ID"
+        },
+        {
+          "id": "b",
+          "text": "One-way managed-domain synchronization"
+        },
+        {
+          "id": "c",
+          "text": "Azure Storage Service Encryption"
+        },
+        {
+          "id": "d",
+          "text": "Role definition"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "One-way managed-domain synchronization is the best match because it is identity synchronization from Microsoft Entra ID to Microsoft Entra Domain Services without syncing managed-domain-only objects back.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "sc-0808",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "scenario": "The organization is reviewing the topic “Introduction” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as requiring an additional authentication factor so a password alone is not sufficient. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Defense in depth"
+        },
+        {
+          "id": "b",
+          "text": "Multifactor authentication (MFA)"
+        },
+        {
+          "id": "c",
+          "text": "Customer identity access"
+        },
+        {
+          "id": "d",
+          "text": "Layered mitigation"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Multifactor authentication (MFA) is the best match because it is requiring an additional authentication factor so a password alone is not sufficient.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "sc-0809",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "scenario": "The organization is reviewing the topic “Introduction” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides something the user knows, such as a password or PIN. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Network layer"
+        },
+        {
+          "id": "b",
+          "text": "Encryption at rest"
+        },
+        {
+          "id": "c",
+          "text": "Identity and access layer"
+        },
+        {
+          "id": "d",
+          "text": "Knowledge factor"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Knowledge factor is the best match because it is something the user knows, such as a password or PIN.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "match-0400",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Microsoft Entra ID"
+        },
+        {
+          "id": "l2",
+          "text": "Authentication"
+        },
+        {
+          "id": "l3",
+          "text": "Single sign-on (SSO)"
+        },
+        {
+          "id": "l4",
+          "text": "Application management"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Microsoft cloud-based identity and access management service"
+        },
+        {
+          "id": "r2",
+          "text": "Verifying the identity of a person, service, or device before granting access"
+        },
+        {
+          "id": "r4",
+          "text": "Microsoft Entra capabilities for integrating and controlling access to cloud and on-premises applications"
+        },
+        {
+          "id": "r3",
+          "text": "Using one identity sign-in to access multiple trusted applications"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "match-0401",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Single sign-on (SSO)"
+        },
+        {
+          "id": "l2",
+          "text": "Application management"
+        },
+        {
+          "id": "l3",
+          "text": "Device management"
+        },
+        {
+          "id": "l4",
+          "text": "Microsoft Entra Connect"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Technology that synchronizes identities between on-premises Active Directory and Microsoft Entra ID"
+        },
+        {
+          "id": "r3",
+          "text": "Using identity and device state with tools such as Intune and Conditional Access"
+        },
+        {
+          "id": "r1",
+          "text": "Using one identity sign-in to access multiple trusted applications"
+        },
+        {
+          "id": "r2",
+          "text": "Microsoft Entra capabilities for integrating and controlling access to cloud and on-premises applications"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l3": "r3",
+        "l1": "r1",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "match-0402",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Device management"
+        },
+        {
+          "id": "l2",
+          "text": "Microsoft Entra Connect"
+        },
+        {
+          "id": "l3",
+          "text": "Microsoft Entra Domain Services"
+        },
+        {
+          "id": "l4",
+          "text": "One-way managed-domain synchronization"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Using identity and device state with tools such as Intune and Conditional Access"
+        },
+        {
+          "id": "r3",
+          "text": "Managed domain capabilities such as domain join, Group Policy, LDAP, Kerberos, and NTLM without customer-managed domain controllers"
+        },
+        {
+          "id": "r4",
+          "text": "Identity synchronization from Microsoft Entra ID to Microsoft Entra Domain Services without syncing managed-domain-only objects back"
+        },
+        {
+          "id": "r2",
+          "text": "Technology that synchronizes identities between on-premises Active Directory and Microsoft Entra ID"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "match-0403",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Microsoft Entra Domain Services"
+        },
+        {
+          "id": "l2",
+          "text": "One-way managed-domain synchronization"
+        },
+        {
+          "id": "l3",
+          "text": "Multifactor authentication (MFA)"
+        },
+        {
+          "id": "l4",
+          "text": "Knowledge factor"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Requiring an additional authentication factor so a password alone is not sufficient"
+        },
+        {
+          "id": "r4",
+          "text": "Something the user knows, such as a password or PIN"
+        },
+        {
+          "id": "r2",
+          "text": "Identity synchronization from Microsoft Entra ID to Microsoft Entra Domain Services without syncing managed-domain-only objects back"
+        },
+        {
+          "id": "r1",
+          "text": "Managed domain capabilities such as domain join, Group Policy, LDAP, Kerberos, and NTLM without customer-managed domain controllers"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "match-0404",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Multifactor authentication (MFA)"
+        },
+        {
+          "id": "l2",
+          "text": "Knowledge factor"
+        },
+        {
+          "id": "l3",
+          "text": "Possession factor"
+        },
+        {
+          "id": "l4",
+          "text": "Inherence factor"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "Something the user knows, such as a password or PIN"
+        },
+        {
+          "id": "r3",
+          "text": "Something the user has, such as a phone or security key"
+        },
+        {
+          "id": "r4",
+          "text": "Something the user is, such as a fingerprint or facial biometric"
+        },
+        {
+          "id": "r1",
+          "text": "Requiring an additional authentication factor so a password alone is not sufficient"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "fill-0400",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "{{answer}} is using one identity sign-in to access multiple trusted applications.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Secure score",
+            "Inherence factor",
+            "Single sign-on (SSO)",
+            "Possession factor"
+          ],
+          "correctAnswer": "Single sign-on (SSO)"
+        }
+      ],
+      "explanation": "Single sign-on (SSO) is using one identity sign-in to access multiple trusted applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "fill-0401",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "The term for microsoft Entra capabilities for integrating and controlling access to cloud and on-premises applications is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Least-privilege access",
+            "Inherence factor",
+            "Application management",
+            "One-way managed-domain synchronization"
+          ],
+          "correctAnswer": "Application management"
+        }
+      ],
+      "explanation": "Application management is Microsoft Entra capabilities for integrating and controlling access to cloud and on-premises applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "fill-0402",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "In this unit, {{answer}} refers to using identity and device state with tools such as Intune and Conditional Access.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Encryption in transit",
+            "Scope",
+            "Device management",
+            "Azure Key Vault"
+          ],
+          "correctAnswer": "Device management"
+        }
+      ],
+      "explanation": "Device management is using identity and device state with tools such as Intune and Conditional Access.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "fill-0403",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "For AZ-900, the concept described as technology that synchronizes identities between on-premises Active Directory and Microsoft Entra ID is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "FIDO2 security key",
+            "Microsoft Entra Connect",
+            "Role definition",
+            "Inherence factor"
+          ],
+          "correctAnswer": "Microsoft Entra Connect"
+        }
+      ],
+      "explanation": "Microsoft Entra Connect is technology that synchronizes identities between on-premises Active Directory and Microsoft Entra ID.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    },
+    {
+      "id": "fill-0404",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Choose the term that completes the statement: {{answer}} means managed domain capabilities such as domain join, Group Policy, LDAP, Kerberos, and NTLM without customer-managed domain controllers.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure RBAC",
+            "Single sign-on (SSO)",
+            "Customer identity access",
+            "Microsoft Entra Domain Services"
+          ],
+          "correctAnswer": "Microsoft Entra Domain Services"
+        }
+      ],
+      "explanation": "Microsoft Entra Domain Services is managed domain capabilities such as domain join, Group Policy, LDAP, Kerberos, and NTLM without customer-managed domain controllers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction"
+    }
+  ]
+}

@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe Azure storage services · Describe Azure storage services",
+  "questions": [
+    {
+      "id": "mc-0375",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "question": "Which statement best describes Azure Blob Storage?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A Blob Storage tier optimized for infrequently accessed data generally stored for at least 90 days"
+        },
+        {
+          "id": "b",
+          "text": "A command-line utility for uploading, downloading, copying, and one-way synchronizing blobs and files"
+        },
+        {
+          "id": "c",
+          "text": "LRS in the primary region plus asynchronous replication to LRS in a paired secondary region"
+        },
+        {
+          "id": "d",
+          "text": "Massively scalable object storage for unstructured text and binary data"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Azure Blob Storage is massively scalable object storage for unstructured text and binary data.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "mc-0376",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "question": "In the context of this Microsoft Learn unit, what does Azure Files refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The recommended standard account type for most blob, file, queue, and table storage scenarios"
+        },
+        {
+          "id": "b",
+          "text": "Managed cloud file shares accessible with protocols such as SMB or NFS"
+        },
+        {
+          "id": "c",
+          "text": "A resource that provides a unique namespace for Azure Storage data and exposes storage services through endpoints"
+        },
+        {
+          "id": "d",
+          "text": "A cross-platform graphical application for managing Azure Storage files and blobs"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Files is managed cloud file shares accessible with protocols such as SMB or NFS.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "mc-0377",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "question": "Which description correctly matches Azure Queue Storage?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A resource that provides a unique namespace for Azure Storage data and exposes storage services through endpoints"
+        },
+        {
+          "id": "b",
+          "text": "A name of 3–24 characters using lowercase letters and numbers only"
+        },
+        {
+          "id": "c",
+          "text": "An endpoint using the storage account name with the blob.core.windows.net service domain"
+        },
+        {
+          "id": "d",
+          "text": "A messaging store for large numbers of messages used in asynchronous application processing"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Azure Queue Storage is a messaging store for large numbers of messages used in asynchronous application processing.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "mc-0378",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "question": "Which of the following is the best definition of Azure Disk Storage?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ZRS in the primary region plus asynchronous replication to LRS in a secondary region"
+        },
+        {
+          "id": "b",
+          "text": "Managed block-level storage volumes used by Azure virtual machines"
+        },
+        {
+          "id": "c",
+          "text": "Azure Storage keeping three copies of data in the primary region"
+        },
+        {
+          "id": "d",
+          "text": "An Azure Migrate capability for moving server workloads to Azure"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Disk Storage is managed block-level storage volumes used by Azure virtual machines.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "mc-0379",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "question": "What is the primary meaning of Azure Table Storage in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A NoSQL service for large amounts of structured, non-relational data"
+        },
+        {
+          "id": "b",
+          "text": "Synchronous replication across three availability zones in the primary region"
+        },
+        {
+          "id": "c",
+          "text": "The globally unique account name used as part of Azure Storage service endpoints"
+        },
+        {
+          "id": "d",
+          "text": "An Azure Migrate capability for inventorying workloads and evaluating migration readiness"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure Table Storage is a NoSQL service for large amounts of structured, non-relational data.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "mr-0375",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Blob Storage: massively scalable object storage for unstructured text and binary data."
+        },
+        {
+          "id": "b",
+          "text": "Azure Files: managed cloud file shares accessible with protocols such as SMB or NFS."
+        },
+        {
+          "id": "c",
+          "text": "Azure Files: a Blob Storage tier optimized for infrequently accessed data generally stored for at least 30 days."
+        },
+        {
+          "id": "d",
+          "text": "Azure Blob Storage: managed block-level storage volumes used by Azure virtual machines."
+        },
+        {
+          "id": "e",
+          "text": "Azure Queue Storage: a resource that provides a unique namespace for Azure Storage data and exposes storage services through endpoints."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Azure Blob Storage — massively scalable object storage for unstructured text and binary data; and Azure Files — managed cloud file shares accessible with protocols such as SMB or NFS.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "mr-0376",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Queue Storage: a Blob Storage tier optimized for data accessed frequently."
+        },
+        {
+          "id": "b",
+          "text": "Azure Disk Storage: the recommended standard account type for most blob, file, queue, and table storage scenarios."
+        },
+        {
+          "id": "c",
+          "text": "Azure Queue Storage: a messaging store for large numbers of messages used in asynchronous application processing."
+        },
+        {
+          "id": "d",
+          "text": "Azure Disk Storage: managed block-level storage volumes used by Azure virtual machines."
+        },
+        {
+          "id": "e",
+          "text": "Azure Disk Storage: the lowest-cost storage tier for rarely accessed data with the highest retrieval latency and a long intended retention period."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: Azure Queue Storage — a messaging store for large numbers of messages used in asynchronous application processing; and Azure Disk Storage — managed block-level storage volumes used by Azure virtual machines.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "mr-0377",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Table Storage: a Blob Storage tier optimized for infrequently accessed data generally stored for at least 90 days."
+        },
+        {
+          "id": "b",
+          "text": "Hot access tier: a Blob Storage tier optimized for data accessed frequently."
+        },
+        {
+          "id": "c",
+          "text": "Azure Table Storage: a NoSQL service for large amounts of structured, non-relational data."
+        },
+        {
+          "id": "d",
+          "text": "Azure Table Storage: a premium account type for block and append blobs requiring high transaction rates or low latency."
+        },
+        {
+          "id": "e",
+          "text": "Hot access tier: the recommended standard account type for most blob, file, queue, and table storage scenarios."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: Azure Table Storage — a NoSQL service for large amounts of structured, non-relational data; and Hot access tier — a Blob Storage tier optimized for data accessed frequently.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "mr-0378",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cold access tier: a Blob Storage tier optimized for infrequently accessed data generally stored for at least 90 days."
+        },
+        {
+          "id": "b",
+          "text": "Hot access tier: a premium account type for Azure Files that supports SMB and NFS shares."
+        },
+        {
+          "id": "c",
+          "text": "Cool access tier: a resource that provides a unique namespace for Azure Storage data and exposes storage services through endpoints."
+        },
+        {
+          "id": "d",
+          "text": "Cool access tier: a Blob Storage tier optimized for infrequently accessed data generally stored for at least 30 days."
+        },
+        {
+          "id": "e",
+          "text": "Cold access tier: a premium account type for Azure Files that supports SMB and NFS shares."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Cool access tier — a Blob Storage tier optimized for infrequently accessed data generally stored for at least 30 days; and Cold access tier — a Blob Storage tier optimized for infrequently accessed data generally stored for at least 90 days.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "mr-0379",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Blob Storage: massively scalable object storage for unstructured text and binary data."
+        },
+        {
+          "id": "b",
+          "text": "Azure Blob Storage: a Blob Storage tier optimized for data accessed frequently."
+        },
+        {
+          "id": "c",
+          "text": "Cool access tier: a premium account type dedicated to page blobs."
+        },
+        {
+          "id": "d",
+          "text": "Archive access tier: the lowest-cost storage tier for rarely accessed data with the highest retrieval latency and a long intended retention period."
+        },
+        {
+          "id": "e",
+          "text": "Archive access tier: a premium account type for block and append blobs requiring high transaction rates or low latency."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Archive access tier — the lowest-cost storage tier for rarely accessed data with the highest retrieval latency and a long intended retention period; and Azure Blob Storage — massively scalable object storage for unstructured text and binary data.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "tf-0375",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "question": "Azure Blob Storage is massively scalable object storage for unstructured text and binary data.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure Blob Storage is massively scalable object storage for unstructured text and binary data.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "tf-0376",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "question": "According to this unit: Azure Files is a NoSQL service for large amounts of structured, non-relational data.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Azure Files is managed cloud file shares accessible with protocols such as SMB or NFS.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "tf-0377",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "question": "For Azure fundamentals, Azure Queue Storage is a messaging store for large numbers of messages used in asynchronous application processing.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure Queue Storage is a messaging store for large numbers of messages used in asynchronous application processing.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "tf-0378",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "question": "This statement is correct: Azure Disk Storage is a Blob Storage tier optimized for infrequently accessed data generally stored for at least 30 days.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Azure Disk Storage is managed block-level storage volumes used by Azure virtual machines.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "tf-0379",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "question": "The unit supports the following statement: Azure Table Storage is a NoSQL service for large amounts of structured, non-relational data.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure Table Storage is a NoSQL service for large amounts of structured, non-relational data.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "sc-0750",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "scenario": "The organization is reviewing the topic “Describe Azure storage services” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: massively scalable object storage for unstructured text and binary data. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure storage account"
+        },
+        {
+          "id": "b",
+          "text": "Azure Blob Storage"
+        },
+        {
+          "id": "c",
+          "text": "Azure Queue Storage"
+        },
+        {
+          "id": "d",
+          "text": "Archive access tier"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Blob Storage is the best match because it is massively scalable object storage for unstructured text and binary data.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "sc-0751",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "scenario": "The organization is reviewing the topic “Describe Azure storage services” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs managed cloud file shares accessible with protocols such as SMB or NFS. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Files"
+        },
+        {
+          "id": "b",
+          "text": "Storage account namespace"
+        },
+        {
+          "id": "c",
+          "text": "Primary-region replication"
+        },
+        {
+          "id": "d",
+          "text": "Locally redundant storage (LRS)"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure Files is the best match because it is managed cloud file shares accessible with protocols such as SMB or NFS.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "sc-0752",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "scenario": "The organization is reviewing the topic “Describe Azure storage services” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: a messaging store for large numbers of messages used in asynchronous application processing. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Server Migration"
+        },
+        {
+          "id": "b",
+          "text": "Azure Queue Storage"
+        },
+        {
+          "id": "c",
+          "text": "Premium page blobs"
+        },
+        {
+          "id": "d",
+          "text": "Premium file shares"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Queue Storage is the best match because it is a messaging store for large numbers of messages used in asynchronous application processing.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "sc-0753",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "scenario": "The organization is reviewing the topic “Describe Azure storage services” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: managed block-level storage volumes used by Azure virtual machines. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Disk Storage"
+        },
+        {
+          "id": "b",
+          "text": "Read-access geo-redundant storage (RA-GRS)"
+        },
+        {
+          "id": "c",
+          "text": "Cloud tiering"
+        },
+        {
+          "id": "d",
+          "text": "Zone-redundant storage (ZRS)"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure Disk Storage is the best match because it is managed block-level storage volumes used by Azure virtual machines.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "sc-0754",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "scenario": "The organization is reviewing the topic “Describe Azure storage services” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants a NoSQL service for large amounts of structured, non-relational data. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Blob service endpoint"
+        },
+        {
+          "id": "b",
+          "text": "Azure Table Storage"
+        },
+        {
+          "id": "c",
+          "text": "Premium page blobs"
+        },
+        {
+          "id": "d",
+          "text": "AzCopy"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Table Storage is the best match because it is a NoSQL service for large amounts of structured, non-relational data.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "sc-0755",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "scenario": "The organization is reviewing the topic “Describe Azure storage services” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for a Blob Storage tier optimized for data accessed frequently. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Storage account namespace"
+        },
+        {
+          "id": "b",
+          "text": "Hot access tier"
+        },
+        {
+          "id": "c",
+          "text": "Zone-redundant storage (ZRS)"
+        },
+        {
+          "id": "d",
+          "text": "Azure Blob Storage"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Hot access tier is the best match because it is a Blob Storage tier optimized for data accessed frequently.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "sc-0756",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "scenario": "The organization is reviewing the topic “Describe Azure storage services” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for a Blob Storage tier optimized for infrequently accessed data generally stored for at least 30 days. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure File Sync"
+        },
+        {
+          "id": "b",
+          "text": "Cool access tier"
+        },
+        {
+          "id": "c",
+          "text": "Primary-region replication"
+        },
+        {
+          "id": "d",
+          "text": "Zone-redundant storage (ZRS)"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Cool access tier is the best match because it is a Blob Storage tier optimized for infrequently accessed data generally stored for at least 30 days.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "sc-0757",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "scenario": "The organization is reviewing the topic “Describe Azure storage services” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is a Blob Storage tier optimized for infrequently accessed data generally stored for at least 90 days. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Premium page blobs"
+        },
+        {
+          "id": "b",
+          "text": "Azure Storage Explorer"
+        },
+        {
+          "id": "c",
+          "text": "Hot access tier"
+        },
+        {
+          "id": "d",
+          "text": "Cold access tier"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Cold access tier is the best match because it is a Blob Storage tier optimized for infrequently accessed data generally stored for at least 90 days.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "sc-0758",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "scenario": "The organization is reviewing the topic “Describe Azure storage services” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as the lowest-cost storage tier for rarely accessed data with the highest retrieval latency and a long intended retention period. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Archive access tier"
+        },
+        {
+          "id": "b",
+          "text": "Azure storage account"
+        },
+        {
+          "id": "c",
+          "text": "Premium block blobs"
+        },
+        {
+          "id": "d",
+          "text": "Offline bulk migration"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Archive access tier is the best match because it is the lowest-cost storage tier for rarely accessed data with the highest retrieval latency and a long intended retention period.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "sc-0759",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "scenario": "The organization is reviewing the topic “Describe Azure storage services” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides massively scalable object storage for unstructured text and binary data. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Offline bulk migration"
+        },
+        {
+          "id": "b",
+          "text": "Premium page blobs"
+        },
+        {
+          "id": "c",
+          "text": "Azure Blob Storage"
+        },
+        {
+          "id": "d",
+          "text": "Local file-server cache"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure Blob Storage is the best match because it is massively scalable object storage for unstructured text and binary data.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "match-0375",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Blob Storage"
+        },
+        {
+          "id": "l2",
+          "text": "Azure Files"
+        },
+        {
+          "id": "l3",
+          "text": "Azure Queue Storage"
+        },
+        {
+          "id": "l4",
+          "text": "Azure Disk Storage"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Massively scalable object storage for unstructured text and binary data"
+        },
+        {
+          "id": "r3",
+          "text": "A messaging store for large numbers of messages used in asynchronous application processing"
+        },
+        {
+          "id": "r2",
+          "text": "Managed cloud file shares accessible with protocols such as SMB or NFS"
+        },
+        {
+          "id": "r4",
+          "text": "Managed block-level storage volumes used by Azure virtual machines"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l3": "r3",
+        "l2": "r2",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "match-0376",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Queue Storage"
+        },
+        {
+          "id": "l2",
+          "text": "Azure Disk Storage"
+        },
+        {
+          "id": "l3",
+          "text": "Azure Table Storage"
+        },
+        {
+          "id": "l4",
+          "text": "Hot access tier"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A messaging store for large numbers of messages used in asynchronous application processing"
+        },
+        {
+          "id": "r4",
+          "text": "A Blob Storage tier optimized for data accessed frequently"
+        },
+        {
+          "id": "r2",
+          "text": "Managed block-level storage volumes used by Azure virtual machines"
+        },
+        {
+          "id": "r3",
+          "text": "A NoSQL service for large amounts of structured, non-relational data"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l4": "r4",
+        "l2": "r2",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "match-0377",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Table Storage"
+        },
+        {
+          "id": "l2",
+          "text": "Hot access tier"
+        },
+        {
+          "id": "l3",
+          "text": "Cool access tier"
+        },
+        {
+          "id": "l4",
+          "text": "Cold access tier"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A NoSQL service for large amounts of structured, non-relational data"
+        },
+        {
+          "id": "r4",
+          "text": "A Blob Storage tier optimized for infrequently accessed data generally stored for at least 90 days"
+        },
+        {
+          "id": "r2",
+          "text": "A Blob Storage tier optimized for data accessed frequently"
+        },
+        {
+          "id": "r3",
+          "text": "A Blob Storage tier optimized for infrequently accessed data generally stored for at least 30 days"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l4": "r4",
+        "l2": "r2",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "match-0378",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Cool access tier"
+        },
+        {
+          "id": "l2",
+          "text": "Cold access tier"
+        },
+        {
+          "id": "l3",
+          "text": "Archive access tier"
+        },
+        {
+          "id": "l4",
+          "text": "Azure Blob Storage"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "A Blob Storage tier optimized for infrequently accessed data generally stored for at least 90 days"
+        },
+        {
+          "id": "r1",
+          "text": "A Blob Storage tier optimized for infrequently accessed data generally stored for at least 30 days"
+        },
+        {
+          "id": "r4",
+          "text": "Massively scalable object storage for unstructured text and binary data"
+        },
+        {
+          "id": "r3",
+          "text": "The lowest-cost storage tier for rarely accessed data with the highest retrieval latency and a long intended retention period"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l1": "r1",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "match-0379",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Archive access tier"
+        },
+        {
+          "id": "l2",
+          "text": "Azure Blob Storage"
+        },
+        {
+          "id": "l3",
+          "text": "Azure Files"
+        },
+        {
+          "id": "l4",
+          "text": "Azure Queue Storage"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "The lowest-cost storage tier for rarely accessed data with the highest retrieval latency and a long intended retention period"
+        },
+        {
+          "id": "r4",
+          "text": "A messaging store for large numbers of messages used in asynchronous application processing"
+        },
+        {
+          "id": "r2",
+          "text": "Massively scalable object storage for unstructured text and binary data"
+        },
+        {
+          "id": "r3",
+          "text": "Managed cloud file shares accessible with protocols such as SMB or NFS"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l4": "r4",
+        "l2": "r2",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "fill-0375",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "question": "{{answer}} is a messaging store for large numbers of messages used in asynchronous application processing.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Data Box import",
+            "Zone-redundant storage (ZRS)",
+            "Azure Queue Storage",
+            "Archive access tier"
+          ],
+          "correctAnswer": "Azure Queue Storage"
+        }
+      ],
+      "explanation": "Azure Queue Storage is a messaging store for large numbers of messages used in asynchronous application processing.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "fill-0376",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "question": "The term for managed block-level storage volumes used by Azure virtual machines is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Recovery point objective (RPO)",
+            "Azure Disk Storage",
+            "Azure Table Storage",
+            "Azure Data Box"
+          ],
+          "correctAnswer": "Azure Disk Storage"
+        }
+      ],
+      "explanation": "Azure Disk Storage is managed block-level storage volumes used by Azure virtual machines.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "fill-0377",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "question": "In this unit, {{answer}} refers to a NoSQL service for large amounts of structured, non-relational data.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Cold access tier",
+            "Azure Table Storage",
+            "Azure File Sync",
+            "Storage account namespace"
+          ],
+          "correctAnswer": "Azure Table Storage"
+        }
+      ],
+      "explanation": "Azure Table Storage is a NoSQL service for large amounts of structured, non-relational data.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "fill-0378",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "question": "For AZ-900, the concept described as a Blob Storage tier optimized for data accessed frequently is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Read-access geo-redundant storage (RA-GRS)",
+            "Hot access tier",
+            "Zone-redundant storage (ZRS)",
+            "Data Box import"
+          ],
+          "correctAnswer": "Hot access tier"
+        }
+      ],
+      "explanation": "Hot access tier is a Blob Storage tier optimized for data accessed frequently.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    },
+    {
+      "id": "fill-0379",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage services",
+      "question": "Choose the term that completes the statement: {{answer}} means a Blob Storage tier optimized for infrequently accessed data generally stored for at least 30 days.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Zone-redundant storage (ZRS)",
+            "Cool access tier",
+            "Azure Disk Storage",
+            "Primary-region replication"
+          ],
+          "correctAnswer": "Cool access tier"
+        }
+      ],
+      "explanation": "Cool access tier is a Blob Storage tier optimized for infrequently accessed data generally stored for at least 30 days.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services"
+    }
+  ]
+}

@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe Azure networking services · Introduction",
+  "questions": [
+    {
+      "id": "mc-0325",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Which statement best describes Azure Virtual Network (VNet)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A private connection from on-premises networks to Microsoft cloud services through a connectivity provider"
+        },
+        {
+          "id": "b",
+          "text": "A custom route used to control traffic flow between subnets or virtual networks"
+        },
+        {
+          "id": "c",
+          "text": "A private network in Azure that enables resources to communicate securely with each other and with external networks"
+        },
+        {
+          "id": "d",
+          "text": "An encrypted tunnel that carries trusted private-network traffic across an untrusted network such as the internet"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure Virtual Network (VNet) is a private network in Azure that enables resources to communicate securely with each other and with external networks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "mc-0326",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "In the context of this Microsoft Learn unit, what does Subnet refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A subdivision of a virtual network address space used to segment resources"
+        },
+        {
+          "id": "b",
+          "text": "A private connection from on-premises networks to Microsoft cloud services through a connectivity provider"
+        },
+        {
+          "id": "c",
+          "text": "The foundation that gives Azure DNS support for RBAC, activity logs, and resource locks"
+        },
+        {
+          "id": "d",
+          "text": "A VPN connection from an individual client device to an Azure virtual network"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Subnet is a subdivision of a virtual network address space used to segment resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "mc-0327",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Which description correctly matches Public endpoint?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Managing domain records through the portal, PowerShell, CLI, REST API, or SDKs"
+        },
+        {
+          "id": "b",
+          "text": "An endpoint with a public IP address that can be reachable from the internet"
+        },
+        {
+          "id": "c",
+          "text": "An encrypted tunnel that carries trusted private-network traffic across an untrusted network such as the internet"
+        },
+        {
+          "id": "d",
+          "text": "A mechanism that provides optimized and secure connectivity from a VNet to supported Azure services"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Public endpoint is an endpoint with a public IP address that can be reachable from the internet.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "mc-0328",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Which of the following is the best definition of Private endpoint?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An endpoint with a private IP address inside a virtual network"
+        },
+        {
+          "id": "b",
+          "text": "A virtual network gateway used to create encrypted connectivity between Azure and other networks or devices"
+        },
+        {
+          "id": "c",
+          "text": "Using an internet-based VPN gateway as an alternate path if an ExpressRoute connection becomes unavailable"
+        },
+        {
+          "id": "d",
+          "text": "A VPN connection from an individual client device to an Azure virtual network"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Private endpoint is an endpoint with a private IP address inside a virtual network.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "mc-0329",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "What is the primary meaning of Network security group (NSG) in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A DNS zone used for custom private name resolution within Azure virtual networks"
+        },
+        {
+          "id": "b",
+          "text": "A resource containing inbound and outbound rules that allow or deny network traffic"
+        },
+        {
+          "id": "c",
+          "text": "The default resiliency configuration in which a standby VPN gateway instance can take over during failure"
+        },
+        {
+          "id": "d",
+          "text": "The foundation that gives Azure DNS support for RBAC, activity logs, and resource locks"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Network security group (NSG) is a resource containing inbound and outbound rules that allow or deny network traffic.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "mr-0325",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Virtual Network (VNet): an endpoint with a private IP address inside a virtual network."
+        },
+        {
+          "id": "b",
+          "text": "Subnet: a subdivision of a virtual network address space used to segment resources."
+        },
+        {
+          "id": "c",
+          "text": "Public endpoint: an encrypted tunnel that carries trusted private-network traffic across an untrusted network such as the internet."
+        },
+        {
+          "id": "d",
+          "text": "Subnet: a private connection between VNets that uses the Microsoft backbone instead of the public internet."
+        },
+        {
+          "id": "e",
+          "text": "Azure Virtual Network (VNet): a private network in Azure that enables resources to communicate securely with each other and with external networks."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: Azure Virtual Network (VNet) — a private network in Azure that enables resources to communicate securely with each other and with external networks; and Subnet — a subdivision of a virtual network address space used to segment resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "mr-0326",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Public endpoint: a custom route used to control traffic flow between subnets or virtual networks."
+        },
+        {
+          "id": "b",
+          "text": "Private endpoint: a specialized VM that performs network functions such as firewalling or WAN optimization."
+        },
+        {
+          "id": "c",
+          "text": "Private endpoint: an endpoint with a private IP address inside a virtual network."
+        },
+        {
+          "id": "d",
+          "text": "Private endpoint: a virtual network gateway used to create encrypted connectivity between Azure and other networks or devices."
+        },
+        {
+          "id": "e",
+          "text": "Public endpoint: an endpoint with a public IP address that can be reachable from the internet."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "e"
+      ],
+      "explanation": "The correct pair is: Public endpoint — an endpoint with a public IP address that can be reachable from the internet; and Private endpoint — an endpoint with a private IP address inside a virtual network.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "mr-0327",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Network security group (NSG): a mechanism that provides optimized and secure connectivity from a VNet to supported Azure services."
+        },
+        {
+          "id": "b",
+          "text": "Network security group (NSG): a VPN connection between an on-premises network gateway and an Azure virtual network."
+        },
+        {
+          "id": "c",
+          "text": "User-defined route (UDR): a custom route used to control traffic flow between subnets or virtual networks."
+        },
+        {
+          "id": "d",
+          "text": "Network security group (NSG): a resource containing inbound and outbound rules that allow or deny network traffic."
+        },
+        {
+          "id": "e",
+          "text": "User-defined route (UDR): a virtual network gateway used to create encrypted connectivity between Azure and other networks or devices."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: Network security group (NSG) — a resource containing inbound and outbound rules that allow or deny network traffic; and User-defined route (UDR) — a custom route used to control traffic flow between subnets or virtual networks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "mr-0328",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Virtual network peering: an encrypted tunnel that carries trusted private-network traffic across an untrusted network such as the internet."
+        },
+        {
+          "id": "b",
+          "text": "User-defined route (UDR): a VPN connection from an individual client device to an Azure virtual network."
+        },
+        {
+          "id": "c",
+          "text": "Service endpoint: a VPN connection from an individual client device to an Azure virtual network."
+        },
+        {
+          "id": "d",
+          "text": "Virtual network peering: a private connection between VNets that uses the Microsoft backbone instead of the public internet."
+        },
+        {
+          "id": "e",
+          "text": "Service endpoint: a mechanism that provides optimized and secure connectivity from a VNet to supported Azure services."
+        }
+      ],
+      "correctAnswers": [
+        "d",
+        "e"
+      ],
+      "explanation": "The correct pair is: Virtual network peering — a private connection between VNets that uses the Microsoft backbone instead of the public internet; and Service endpoint — a mechanism that provides optimized and secure connectivity from a VNet to supported Azure services.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "mr-0329",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Network virtual appliance: a specialized VM that performs network functions such as firewalling or WAN optimization."
+        },
+        {
+          "id": "b",
+          "text": "Virtual private network (VPN): a VPN model that uses routing to determine which traffic enters encrypted tunnels and is preferred for many modern scenarios."
+        },
+        {
+          "id": "c",
+          "text": "Virtual private network (VPN): an encrypted tunnel that carries trusted private-network traffic across an untrusted network such as the internet."
+        },
+        {
+          "id": "d",
+          "text": "Network virtual appliance: a VPN connection between an on-premises network gateway and an Azure virtual network."
+        },
+        {
+          "id": "e",
+          "text": "Virtual network peering: a VPN connection between virtual networks."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "c"
+      ],
+      "explanation": "The correct pair is: Network virtual appliance — a specialized VM that performs network functions such as firewalling or WAN optimization; and Virtual private network (VPN) — an encrypted tunnel that carries trusted private-network traffic across an untrusted network such as the internet.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "tf-0325",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Azure Virtual Network (VNet) is a private network in Azure that enables resources to communicate securely with each other and with external networks.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure Virtual Network (VNet) is a private network in Azure that enables resources to communicate securely with each other and with external networks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "tf-0326",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "According to this unit: Subnet is a resource containing inbound and outbound rules that allow or deny network traffic.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Subnet is a subdivision of a virtual network address space used to segment resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "tf-0327",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "For Azure fundamentals, Public endpoint is an endpoint with a public IP address that can be reachable from the internet.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Public endpoint is an endpoint with a public IP address that can be reachable from the internet.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "tf-0328",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "This statement is correct: Private endpoint is a private connection between VNets that uses the Microsoft backbone instead of the public internet.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Private endpoint is an endpoint with a private IP address inside a virtual network.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "tf-0329",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "The unit supports the following statement: Network security group (NSG) is a resource containing inbound and outbound rules that allow or deny network traffic.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Network security group (NSG) is a resource containing inbound and outbound rules that allow or deny network traffic.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "sc-0650",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "scenario": "The organization is reviewing the topic “Introduction” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a private network in Azure that enables resources to communicate securely with each other and with external networks. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Service endpoint"
+        },
+        {
+          "id": "b",
+          "text": "Public endpoint"
+        },
+        {
+          "id": "c",
+          "text": "Azure Virtual Network (VNet)"
+        },
+        {
+          "id": "d",
+          "text": "Point-to-site VPN"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure Virtual Network (VNet) is the best match because it is a private network in Azure that enables resources to communicate securely with each other and with external networks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "sc-0651",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "scenario": "The organization is reviewing the topic “Introduction” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs a subdivision of a virtual network address space used to segment resources. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Built-in redundancy"
+        },
+        {
+          "id": "b",
+          "text": "User-defined route (UDR)"
+        },
+        {
+          "id": "c",
+          "text": "Subnet"
+        },
+        {
+          "id": "d",
+          "text": "Active/active gateway"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Subnet is the best match because it is a subdivision of a virtual network address space used to segment resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "sc-0652",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "scenario": "The organization is reviewing the topic “Introduction” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: an endpoint with a public IP address that can be reachable from the internet. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Virtual private network (VPN)"
+        },
+        {
+          "id": "b",
+          "text": "Public endpoint"
+        },
+        {
+          "id": "c",
+          "text": "Virtual network peering"
+        },
+        {
+          "id": "d",
+          "text": "Azure ExpressRoute"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Public endpoint is the best match because it is an endpoint with a public IP address that can be reachable from the internet.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "sc-0653",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "scenario": "The organization is reviewing the topic “Introduction” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: an endpoint with a private IP address inside a virtual network. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure RBAC for DNS"
+        },
+        {
+          "id": "b",
+          "text": "Private endpoint"
+        },
+        {
+          "id": "c",
+          "text": "Azure ExpressRoute"
+        },
+        {
+          "id": "d",
+          "text": "Azure Virtual Network (VNet)"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Private endpoint is the best match because it is an endpoint with a private IP address inside a virtual network.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "sc-0654",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "scenario": "The organization is reviewing the topic “Introduction” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants a resource containing inbound and outbound rules that allow or deny network traffic. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Network security group (NSG)"
+        },
+        {
+          "id": "b",
+          "text": "Point-to-site VPN"
+        },
+        {
+          "id": "c",
+          "text": "Azure DNS"
+        },
+        {
+          "id": "d",
+          "text": "Domain registration"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Network security group (NSG) is the best match because it is a resource containing inbound and outbound rules that allow or deny network traffic.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "sc-0655",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "scenario": "The organization is reviewing the topic “Introduction” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for a custom route used to control traffic flow between subnets or virtual networks. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "User-defined route (UDR)"
+        },
+        {
+          "id": "b",
+          "text": "Public endpoint"
+        },
+        {
+          "id": "c",
+          "text": "Point-to-site VPN"
+        },
+        {
+          "id": "d",
+          "text": "Azure ExpressRoute"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "User-defined route (UDR) is the best match because it is a custom route used to control traffic flow between subnets or virtual networks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "sc-0656",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "scenario": "The organization is reviewing the topic “Introduction” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for a private connection between VNets that uses the Microsoft backbone instead of the public internet. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Private DNS zone"
+        },
+        {
+          "id": "b",
+          "text": "Virtual network peering"
+        },
+        {
+          "id": "c",
+          "text": "Domain registration"
+        },
+        {
+          "id": "d",
+          "text": "User-defined route (UDR)"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Virtual network peering is the best match because it is a private connection between VNets that uses the Microsoft backbone instead of the public internet.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "sc-0657",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "scenario": "The organization is reviewing the topic “Introduction” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is a mechanism that provides optimized and secure connectivity from a VNet to supported Azure services. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Virtual private network (VPN)"
+        },
+        {
+          "id": "b",
+          "text": "Service endpoint"
+        },
+        {
+          "id": "c",
+          "text": "Azure Virtual Network (VNet)"
+        },
+        {
+          "id": "d",
+          "text": "Azure Resource Manager integration"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Service endpoint is the best match because it is a mechanism that provides optimized and secure connectivity from a VNet to supported Azure services.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "sc-0658",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "scenario": "The organization is reviewing the topic “Introduction” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as a specialized VM that performs network functions such as firewalling or WAN optimization. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ExpressRoute Global Reach"
+        },
+        {
+          "id": "b",
+          "text": "Azure DNS"
+        },
+        {
+          "id": "c",
+          "text": "Network virtual appliance"
+        },
+        {
+          "id": "d",
+          "text": "Subnet"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Network virtual appliance is the best match because it is a specialized VM that performs network functions such as firewalling or WAN optimization.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "sc-0659",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "scenario": "The organization is reviewing the topic “Introduction” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides an encrypted tunnel that carries trusted private-network traffic across an untrusted network such as the internet. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Virtual private network (VPN)"
+        },
+        {
+          "id": "b",
+          "text": "Route-based VPN"
+        },
+        {
+          "id": "c",
+          "text": "Azure DNS"
+        },
+        {
+          "id": "d",
+          "text": "Site-to-site VPN"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Virtual private network (VPN) is the best match because it is an encrypted tunnel that carries trusted private-network traffic across an untrusted network such as the internet.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "match-0325",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Virtual Network (VNet)"
+        },
+        {
+          "id": "l2",
+          "text": "Subnet"
+        },
+        {
+          "id": "l3",
+          "text": "Public endpoint"
+        },
+        {
+          "id": "l4",
+          "text": "Private endpoint"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "A subdivision of a virtual network address space used to segment resources"
+        },
+        {
+          "id": "r3",
+          "text": "An endpoint with a public IP address that can be reachable from the internet"
+        },
+        {
+          "id": "r4",
+          "text": "An endpoint with a private IP address inside a virtual network"
+        },
+        {
+          "id": "r1",
+          "text": "A private network in Azure that enables resources to communicate securely with each other and with external networks"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "match-0326",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Public endpoint"
+        },
+        {
+          "id": "l2",
+          "text": "Private endpoint"
+        },
+        {
+          "id": "l3",
+          "text": "Network security group (NSG)"
+        },
+        {
+          "id": "l4",
+          "text": "User-defined route (UDR)"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "An endpoint with a public IP address that can be reachable from the internet"
+        },
+        {
+          "id": "r3",
+          "text": "A resource containing inbound and outbound rules that allow or deny network traffic"
+        },
+        {
+          "id": "r4",
+          "text": "A custom route used to control traffic flow between subnets or virtual networks"
+        },
+        {
+          "id": "r2",
+          "text": "An endpoint with a private IP address inside a virtual network"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "match-0327",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Network security group (NSG)"
+        },
+        {
+          "id": "l2",
+          "text": "User-defined route (UDR)"
+        },
+        {
+          "id": "l3",
+          "text": "Virtual network peering"
+        },
+        {
+          "id": "l4",
+          "text": "Service endpoint"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A private connection between VNets that uses the Microsoft backbone instead of the public internet"
+        },
+        {
+          "id": "r1",
+          "text": "A resource containing inbound and outbound rules that allow or deny network traffic"
+        },
+        {
+          "id": "r4",
+          "text": "A mechanism that provides optimized and secure connectivity from a VNet to supported Azure services"
+        },
+        {
+          "id": "r2",
+          "text": "A custom route used to control traffic flow between subnets or virtual networks"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l1": "r1",
+        "l4": "r4",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "match-0328",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Virtual network peering"
+        },
+        {
+          "id": "l2",
+          "text": "Service endpoint"
+        },
+        {
+          "id": "l3",
+          "text": "Network virtual appliance"
+        },
+        {
+          "id": "l4",
+          "text": "Virtual private network (VPN)"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A specialized VM that performs network functions such as firewalling or WAN optimization"
+        },
+        {
+          "id": "r1",
+          "text": "A private connection between VNets that uses the Microsoft backbone instead of the public internet"
+        },
+        {
+          "id": "r2",
+          "text": "A mechanism that provides optimized and secure connectivity from a VNet to supported Azure services"
+        },
+        {
+          "id": "r4",
+          "text": "An encrypted tunnel that carries trusted private-network traffic across an untrusted network such as the internet"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l1": "r1",
+        "l2": "r2",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "match-0329",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Network virtual appliance"
+        },
+        {
+          "id": "l2",
+          "text": "Virtual private network (VPN)"
+        },
+        {
+          "id": "l3",
+          "text": "Azure VPN Gateway"
+        },
+        {
+          "id": "l4",
+          "text": "Site-to-site VPN"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A virtual network gateway used to create encrypted connectivity between Azure and other networks or devices"
+        },
+        {
+          "id": "r4",
+          "text": "A VPN connection between an on-premises network gateway and an Azure virtual network"
+        },
+        {
+          "id": "r1",
+          "text": "A specialized VM that performs network functions such as firewalling or WAN optimization"
+        },
+        {
+          "id": "r2",
+          "text": "An encrypted tunnel that carries trusted private-network traffic across an untrusted network such as the internet"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l1": "r1",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "fill-0325",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "{{answer}} is an endpoint with a public IP address that can be reachable from the internet.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure Virtual Network (VNet)",
+            "Network security group (NSG)",
+            "Public endpoint",
+            "DNS record management"
+          ],
+          "correctAnswer": "Public endpoint"
+        }
+      ],
+      "explanation": "Public endpoint is an endpoint with a public IP address that can be reachable from the internet.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "fill-0326",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "The term for an endpoint with a private IP address inside a virtual network is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Virtual network peering",
+            "VPN failover",
+            "Border Gateway Protocol (BGP)",
+            "Private endpoint"
+          ],
+          "correctAnswer": "Private endpoint"
+        }
+      ],
+      "explanation": "Private endpoint is an endpoint with a private IP address inside a virtual network.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "fill-0327",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "In this unit, {{answer}} refers to a resource containing inbound and outbound rules that allow or deny network traffic.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure RBAC for DNS",
+            "Public endpoint",
+            "Network security group (NSG)",
+            "Predictable latency"
+          ],
+          "correctAnswer": "Network security group (NSG)"
+        }
+      ],
+      "explanation": "Network security group (NSG) is a resource containing inbound and outbound rules that allow or deny network traffic.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "fill-0328",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "For AZ-900, the concept described as a custom route used to control traffic flow between subnets or virtual networks is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Domain registration",
+            "DNS record management",
+            "Site-to-site VPN",
+            "User-defined route (UDR)"
+          ],
+          "correctAnswer": "User-defined route (UDR)"
+        }
+      ],
+      "explanation": "User-defined route (UDR) is a custom route used to control traffic flow between subnets or virtual networks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    },
+    {
+      "id": "fill-0329",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Introduction",
+      "question": "Choose the term that completes the statement: {{answer}} means a private connection between VNets that uses the Microsoft backbone instead of the public internet.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "ExpressRoute Global Reach",
+            "Virtual network peering",
+            "VPN failover",
+            "Predictable latency"
+          ],
+          "correctAnswer": "Virtual network peering"
+        }
+      ],
+      "explanation": "Virtual network peering is a private connection between VNets that uses the Microsoft backbone instead of the public internet.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction"
+    }
+  ]
+}

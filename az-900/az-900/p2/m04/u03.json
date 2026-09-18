@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe monitoring tools in Azure · Describe Azure Service Health",
+  "questions": [
+    {
+      "id": "mc-0225",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "question": "Which statement best describes Azure Status?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A view of the health of an individual Azure resource and whether an issue is attributable to Azure or the customer environment"
+        },
+        {
+          "id": "b",
+          "text": "A broad public view of Azure health across services and regions"
+        },
+        {
+          "id": "c",
+          "text": "Viewing recommendations by subscription, resource group, or service"
+        },
+        {
+          "id": "d",
+          "text": "Service information about issues or changes that may require customer attention"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Status is a broad public view of Azure health across services and regions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "mc-0226",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "question": "In the context of this Microsoft Learn unit, what does Service Health refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A personalized view of outages, planned maintenance, and advisories for the Azure services and regions you use"
+        },
+        {
+          "id": "b",
+          "text": "Numerical time-series measurements collected for monitoring resource behavior"
+        },
+        {
+          "id": "c",
+          "text": "A definition of the condition that triggers a monitoring alert"
+        },
+        {
+          "id": "d",
+          "text": "A reusable definition of who to notify or what action to run when an alert fires"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Service Health is a personalized view of outages, planned maintenance, and advisories for the Azure services and regions you use.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "mc-0227",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "question": "Which description correctly matches Resource Health?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Numerical time-series measurements collected for monitoring resource behavior"
+        },
+        {
+          "id": "b",
+          "text": "Service information about issues or changes that may require customer attention"
+        },
+        {
+          "id": "c",
+          "text": "A view of the health of an individual Azure resource and whether an issue is attributable to Azure or the customer environment"
+        },
+        {
+          "id": "d",
+          "text": "A broad public view of Azure health across services and regions"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Resource Health is a view of the health of an individual Azure resource and whether an issue is attributable to Azure or the customer environment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "mc-0228",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "question": "Which of the following is the best definition of Service Health alert?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The Azure portal tool used to query Azure Monitor log data"
+        },
+        {
+          "id": "b",
+          "text": "A personalized view of outages, planned maintenance, and advisories for the Azure services and regions you use"
+        },
+        {
+          "id": "c",
+          "text": "A notification configured for service incidents, maintenance, or advisories relevant to your environment"
+        },
+        {
+          "id": "d",
+          "text": "A reusable definition of who to notify or what action to run when an alert fires"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Service Health alert is a notification configured for service incidents, maintenance, or advisories relevant to your environment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "mc-0229",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "question": "What is the primary meaning of Planned maintenance notice in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Numerical time-series measurements collected for monitoring resource behavior"
+        },
+        {
+          "id": "b",
+          "text": "A definition of the condition that triggers a monitoring alert"
+        },
+        {
+          "id": "c",
+          "text": "A synthetic request used by Application Insights to test whether an application endpoint responds"
+        },
+        {
+          "id": "d",
+          "text": "Information about scheduled Azure work that may affect services you use"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Planned maintenance notice is information about scheduled Azure work that may affect services you use.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "mr-0225",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Service Health: retained event information that can help identify recurring service patterns."
+        },
+        {
+          "id": "b",
+          "text": "Service Health: a personalized view of outages, planned maintenance, and advisories for the Azure services and regions you use."
+        },
+        {
+          "id": "c",
+          "text": "Azure Status: a broad public view of Azure health across services and regions."
+        },
+        {
+          "id": "d",
+          "text": "Azure Status: a notification configured for service incidents, maintenance, or advisories relevant to your environment."
+        },
+        {
+          "id": "e",
+          "text": "Resource Health: Advisor guidance intended to reduce vulnerabilities and security risks."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: Azure Status — a broad public view of Azure health across services and regions; and Service Health — a personalized view of outages, planned maintenance, and advisories for the Azure services and regions you use.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "mr-0226",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Service Health alert: Advisor guidance intended to improve application or resource performance."
+        },
+        {
+          "id": "b",
+          "text": "Resource Health: service information about issues or changes that may require customer attention."
+        },
+        {
+          "id": "c",
+          "text": "Service Health alert: Advisor guidance intended to reduce configuration risks that threaten application availability."
+        },
+        {
+          "id": "d",
+          "text": "Resource Health: a view of the health of an individual Azure resource and whether an issue is attributable to Azure or the customer environment."
+        },
+        {
+          "id": "e",
+          "text": "Service Health alert: a notification configured for service incidents, maintenance, or advisories relevant to your environment."
+        }
+      ],
+      "correctAnswers": [
+        "d",
+        "e"
+      ],
+      "explanation": "The correct pair is: Resource Health — a view of the health of an individual Azure resource and whether an issue is attributable to Azure or the customer environment; and Service Health alert — a notification configured for service incidents, maintenance, or advisories relevant to your environment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "mr-0227",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Planned maintenance notice: Advisor guidance intended to improve processes, workflows, and deployment practices."
+        },
+        {
+          "id": "b",
+          "text": "Health advisory: service information about issues or changes that may require customer attention."
+        },
+        {
+          "id": "c",
+          "text": "Planned maintenance notice: a service that analyzes Azure resources and provides personalized best-practice recommendations."
+        },
+        {
+          "id": "d",
+          "text": "Planned maintenance notice: information about scheduled Azure work that may affect services you use."
+        },
+        {
+          "id": "e",
+          "text": "Health advisory: Advisor guidance intended to improve application or resource performance."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: Planned maintenance notice — information about scheduled Azure work that may affect services you use; and Health advisory — service information about issues or changes that may require customer attention.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "mr-0228",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Historical health events: Advisor guidance intended to reduce vulnerabilities and security risks."
+        },
+        {
+          "id": "b",
+          "text": "Historical health events: retained event information that can help identify recurring service patterns."
+        },
+        {
+          "id": "c",
+          "text": "Azure Status: a broad public view of Azure health across services and regions."
+        },
+        {
+          "id": "d",
+          "text": "Azure Status: service information about issues or changes that may require customer attention."
+        },
+        {
+          "id": "e",
+          "text": "Health advisory: Advisor guidance intended to reduce unnecessary Azure spending."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: Historical health events — retained event information that can help identify recurring service patterns; and Azure Status — a broad public view of Azure health across services and regions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "mr-0229",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Resource Health: a view of the health of an individual Azure resource and whether an issue is attributable to Azure or the customer environment."
+        },
+        {
+          "id": "b",
+          "text": "Resource Health: a service that analyzes Azure resources and provides personalized best-practice recommendations."
+        },
+        {
+          "id": "c",
+          "text": "Service Health: a personalized view of outages, planned maintenance, and advisories for the Azure services and regions you use."
+        },
+        {
+          "id": "d",
+          "text": "Historical health events: viewing recommendations by subscription, resource group, or service."
+        },
+        {
+          "id": "e",
+          "text": "Service Health: information about scheduled Azure work that may affect services you use."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "c"
+      ],
+      "explanation": "The correct pair is: Service Health — a personalized view of outages, planned maintenance, and advisories for the Azure services and regions you use; and Resource Health — a view of the health of an individual Azure resource and whether an issue is attributable to Azure or the customer environment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "tf-0225",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "question": "Azure Status is a broad public view of Azure health across services and regions.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure Status is a broad public view of Azure health across services and regions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "tf-0226",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "question": "According to this unit: Service Health is information about scheduled Azure work that may affect services you use.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Service Health is a personalized view of outages, planned maintenance, and advisories for the Azure services and regions you use.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "tf-0227",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "question": "For Azure fundamentals, Resource Health is a view of the health of an individual Azure resource and whether an issue is attributable to Azure or the customer environment.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Resource Health is a view of the health of an individual Azure resource and whether an issue is attributable to Azure or the customer environment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "tf-0228",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "question": "This statement is correct: Service Health alert is retained event information that can help identify recurring service patterns.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Service Health alert is a notification configured for service incidents, maintenance, or advisories relevant to your environment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "tf-0229",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "question": "The unit supports the following statement: Planned maintenance notice is information about scheduled Azure work that may affect services you use.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Planned maintenance notice is information about scheduled Azure work that may affect services you use.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "sc-0450",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "scenario": "The organization is reviewing the topic “Describe Azure Service Health” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a broad public view of Azure health across services and regions. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Monitor alert rule"
+        },
+        {
+          "id": "b",
+          "text": "Azure Status"
+        },
+        {
+          "id": "c",
+          "text": "Azure Monitor"
+        },
+        {
+          "id": "d",
+          "text": "Service Health"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Status is the best match because it is a broad public view of Azure health across services and regions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "sc-0451",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "scenario": "The organization is reviewing the topic “Describe Azure Service Health” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs a personalized view of outages, planned maintenance, and advisories for the Azure services and regions you use. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Log Analytics"
+        },
+        {
+          "id": "b",
+          "text": "Service Health"
+        },
+        {
+          "id": "c",
+          "text": "Azure Advisor"
+        },
+        {
+          "id": "d",
+          "text": "Azure Status"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Service Health is the best match because it is a personalized view of outages, planned maintenance, and advisories for the Azure services and regions you use.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "sc-0452",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "scenario": "The organization is reviewing the topic “Describe Azure Service Health” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: a view of the health of an individual Azure resource and whether an issue is attributable to Azure or the customer environment. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Action group"
+        },
+        {
+          "id": "b",
+          "text": "Resource Health"
+        },
+        {
+          "id": "c",
+          "text": "Azure Monitor"
+        },
+        {
+          "id": "d",
+          "text": "Advisor filtering"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Resource Health is the best match because it is a view of the health of an individual Azure resource and whether an issue is attributable to Azure or the customer environment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "sc-0453",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "scenario": "The organization is reviewing the topic “Describe Azure Service Health” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: a notification configured for service incidents, maintenance, or advisories relevant to your environment. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Service Health alert"
+        },
+        {
+          "id": "b",
+          "text": "Azure Advisor"
+        },
+        {
+          "id": "c",
+          "text": "Performance recommendation"
+        },
+        {
+          "id": "d",
+          "text": "Azure Status"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Service Health alert is the best match because it is a notification configured for service incidents, maintenance, or advisories relevant to your environment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "sc-0454",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "scenario": "The organization is reviewing the topic “Describe Azure Service Health” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants information about scheduled Azure work that may affect services you use. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Planned maintenance notice"
+        },
+        {
+          "id": "b",
+          "text": "Log Analytics"
+        },
+        {
+          "id": "c",
+          "text": "Reliability recommendation"
+        },
+        {
+          "id": "d",
+          "text": "Azure Status"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Planned maintenance notice is the best match because it is information about scheduled Azure work that may affect services you use.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "sc-0455",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "scenario": "The organization is reviewing the topic “Describe Azure Service Health” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for service information about issues or changes that may require customer attention. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Monitor alert rule"
+        },
+        {
+          "id": "b",
+          "text": "Resource Health"
+        },
+        {
+          "id": "c",
+          "text": "Health advisory"
+        },
+        {
+          "id": "d",
+          "text": "Azure Advisor"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Health advisory is the best match because it is service information about issues or changes that may require customer attention.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "sc-0456",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "scenario": "The organization is reviewing the topic “Describe Azure Service Health” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for retained event information that can help identify recurring service patterns. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Status"
+        },
+        {
+          "id": "b",
+          "text": "Advisor notification"
+        },
+        {
+          "id": "c",
+          "text": "Historical health events"
+        },
+        {
+          "id": "d",
+          "text": "Resource Health"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Historical health events is the best match because it is retained event information that can help identify recurring service patterns.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "sc-0457",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "scenario": "The organization is reviewing the topic “Describe Azure Service Health” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is a broad public view of Azure health across services and regions. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Status"
+        },
+        {
+          "id": "b",
+          "text": "Azure Monitor alert rule"
+        },
+        {
+          "id": "c",
+          "text": "Advisor notification"
+        },
+        {
+          "id": "d",
+          "text": "Azure Monitor"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure Status is the best match because it is a broad public view of Azure health across services and regions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "sc-0458",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "scenario": "The organization is reviewing the topic “Describe Azure Service Health” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as a personalized view of outages, planned maintenance, and advisories for the Azure services and regions you use. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Service Health"
+        },
+        {
+          "id": "b",
+          "text": "Metrics"
+        },
+        {
+          "id": "c",
+          "text": "Azure Monitor alert rule"
+        },
+        {
+          "id": "d",
+          "text": "Azure Status"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Service Health is the best match because it is a personalized view of outages, planned maintenance, and advisories for the Azure services and regions you use.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "sc-0459",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "scenario": "The organization is reviewing the topic “Describe Azure Service Health” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides a view of the health of an individual Azure resource and whether an issue is attributable to Azure or the customer environment. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Resource Health"
+        },
+        {
+          "id": "b",
+          "text": "Health advisory"
+        },
+        {
+          "id": "c",
+          "text": "Metrics"
+        },
+        {
+          "id": "d",
+          "text": "Planned maintenance notice"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Resource Health is the best match because it is a view of the health of an individual Azure resource and whether an issue is attributable to Azure or the customer environment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "match-0225",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Status"
+        },
+        {
+          "id": "l2",
+          "text": "Service Health"
+        },
+        {
+          "id": "l3",
+          "text": "Resource Health"
+        },
+        {
+          "id": "l4",
+          "text": "Service Health alert"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A broad public view of Azure health across services and regions"
+        },
+        {
+          "id": "r4",
+          "text": "A notification configured for service incidents, maintenance, or advisories relevant to your environment"
+        },
+        {
+          "id": "r2",
+          "text": "A personalized view of outages, planned maintenance, and advisories for the Azure services and regions you use"
+        },
+        {
+          "id": "r3",
+          "text": "A view of the health of an individual Azure resource and whether an issue is attributable to Azure or the customer environment"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l4": "r4",
+        "l2": "r2",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "match-0226",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Resource Health"
+        },
+        {
+          "id": "l2",
+          "text": "Service Health alert"
+        },
+        {
+          "id": "l3",
+          "text": "Planned maintenance notice"
+        },
+        {
+          "id": "l4",
+          "text": "Health advisory"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Information about scheduled Azure work that may affect services you use"
+        },
+        {
+          "id": "r4",
+          "text": "Service information about issues or changes that may require customer attention"
+        },
+        {
+          "id": "r2",
+          "text": "A notification configured for service incidents, maintenance, or advisories relevant to your environment"
+        },
+        {
+          "id": "r1",
+          "text": "A view of the health of an individual Azure resource and whether an issue is attributable to Azure or the customer environment"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "match-0227",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Planned maintenance notice"
+        },
+        {
+          "id": "l2",
+          "text": "Health advisory"
+        },
+        {
+          "id": "l3",
+          "text": "Historical health events"
+        },
+        {
+          "id": "l4",
+          "text": "Azure Status"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Retained event information that can help identify recurring service patterns"
+        },
+        {
+          "id": "r1",
+          "text": "Information about scheduled Azure work that may affect services you use"
+        },
+        {
+          "id": "r2",
+          "text": "Service information about issues or changes that may require customer attention"
+        },
+        {
+          "id": "r4",
+          "text": "A broad public view of Azure health across services and regions"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l1": "r1",
+        "l2": "r2",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "match-0228",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Historical health events"
+        },
+        {
+          "id": "l2",
+          "text": "Azure Status"
+        },
+        {
+          "id": "l3",
+          "text": "Service Health"
+        },
+        {
+          "id": "l4",
+          "text": "Resource Health"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "A view of the health of an individual Azure resource and whether an issue is attributable to Azure or the customer environment"
+        },
+        {
+          "id": "r3",
+          "text": "A personalized view of outages, planned maintenance, and advisories for the Azure services and regions you use"
+        },
+        {
+          "id": "r1",
+          "text": "Retained event information that can help identify recurring service patterns"
+        },
+        {
+          "id": "r2",
+          "text": "A broad public view of Azure health across services and regions"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l3": "r3",
+        "l1": "r1",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "match-0229",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Service Health"
+        },
+        {
+          "id": "l2",
+          "text": "Resource Health"
+        },
+        {
+          "id": "l3",
+          "text": "Service Health alert"
+        },
+        {
+          "id": "l4",
+          "text": "Planned maintenance notice"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A personalized view of outages, planned maintenance, and advisories for the Azure services and regions you use"
+        },
+        {
+          "id": "r2",
+          "text": "A view of the health of an individual Azure resource and whether an issue is attributable to Azure or the customer environment"
+        },
+        {
+          "id": "r4",
+          "text": "Information about scheduled Azure work that may affect services you use"
+        },
+        {
+          "id": "r3",
+          "text": "A notification configured for service incidents, maintenance, or advisories relevant to your environment"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "fill-0225",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "question": "{{answer}} is a view of the health of an individual Azure resource and whether an issue is attributable to Azure or the customer environment.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Metrics",
+            "Planned maintenance notice",
+            "Resource Health",
+            "Health advisory"
+          ],
+          "correctAnswer": "Resource Health"
+        }
+      ],
+      "explanation": "Resource Health is a view of the health of an individual Azure resource and whether an issue is attributable to Azure or the customer environment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "fill-0226",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "question": "The term for a notification configured for service incidents, maintenance, or advisories relevant to your environment is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Resource Health",
+            "Operational Excellence recommendation",
+            "Log Analytics",
+            "Service Health alert"
+          ],
+          "correctAnswer": "Service Health alert"
+        }
+      ],
+      "explanation": "Service Health alert is a notification configured for service incidents, maintenance, or advisories relevant to your environment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "fill-0227",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "question": "In this unit, {{answer}} refers to information about scheduled Azure work that may affect services you use.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure Status",
+            "Security recommendation",
+            "Azure Advisor",
+            "Planned maintenance notice"
+          ],
+          "correctAnswer": "Planned maintenance notice"
+        }
+      ],
+      "explanation": "Planned maintenance notice is information about scheduled Azure work that may affect services you use.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "fill-0228",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "question": "For AZ-900, the concept described as service information about issues or changes that may require customer attention is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure Advisor",
+            "Application Insights",
+            "Health advisory",
+            "Metrics"
+          ],
+          "correctAnswer": "Health advisory"
+        }
+      ],
+      "explanation": "Health advisory is service information about issues or changes that may require customer attention.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    },
+    {
+      "id": "fill-0229",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe Azure Service Health",
+      "question": "Choose the term that completes the statement: {{answer}} means retained event information that can help identify recurring service patterns.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Advisor notification",
+            "Metrics",
+            "Historical health events",
+            "Planned maintenance notice"
+          ],
+          "correctAnswer": "Historical health events"
+        }
+      ],
+      "explanation": "Historical health events is retained event information that can help identify recurring service patterns.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health"
+    }
+  ]
+}

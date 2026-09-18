@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe cost management in Azure · Explore the pricing calculator",
+  "questions": [
+    {
+      "id": "mc-0120",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "question": "Which statement best describes Azure Pricing Calculator?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Data leaving Azure datacenters that can incur zone-based transfer charges"
+        },
+        {
+          "id": "b",
+          "text": "An online tool for estimating the potential cost of Azure resources and solutions before deployment"
+        },
+        {
+          "id": "c",
+          "text": "A discounted commitment option suited to stable, predictable workloads and specific resource capacity"
+        },
+        {
+          "id": "d",
+          "text": "Modeling storage type, access tier, and redundancy choices to see how they affect estimated cost"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Pricing Calculator is an online tool for estimating the potential cost of Azure resources and solutions before deployment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "mc-0121",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "question": "In the context of this Microsoft Learn unit, what does Estimate only refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "One of the commitment durations available for Azure Reservations"
+        },
+        {
+          "id": "b",
+          "text": "Metadata that identifies the person or team responsible for a resource"
+        },
+        {
+          "id": "c",
+          "text": "A name-value metadata pair attached to an Azure resource"
+        },
+        {
+          "id": "d",
+          "text": "The pricing calculator does not provision resources or create charges when you add services to an estimate"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Estimate only is the pricing calculator does not provision resources or create charges when you add services to an estimate.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "mc-0122",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "question": "Which description correctly matches Solution estimate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A workload pattern that can be a strong fit for Reservations"
+        },
+        {
+          "id": "b",
+          "text": "A name-value metadata pair attached to an Azure resource"
+        },
+        {
+          "id": "c",
+          "text": "A pricing-calculator configuration that combines multiple Azure services into a projected cost"
+        },
+        {
+          "id": "d",
+          "text": "A set of tools for analyzing, monitoring, and managing Azure costs"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Solution estimate is a pricing-calculator configuration that combines multiple Azure services into a projected cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "mc-0123",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "question": "Which of the following is the best definition of Regional comparison?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A workload pattern well suited to Spot Virtual Machines"
+        },
+        {
+          "id": "b",
+          "text": "Using the pricing calculator to compare estimated costs across Azure regions"
+        },
+        {
+          "id": "c",
+          "text": "A longer commitment duration available for Azure Reservations"
+        },
+        {
+          "id": "d",
+          "text": "Metadata that can help allocate or report costs to an internal cost center"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Regional comparison is using the pricing calculator to compare estimated costs across Azure regions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "mc-0124",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "question": "What is the primary meaning of Service-tier comparison in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Data leaving Azure datacenters that can incur zone-based transfer charges"
+        },
+        {
+          "id": "b",
+          "text": "Using the pricing calculator to compare different service tiers or sizes before deployment"
+        },
+        {
+          "id": "c",
+          "text": "The kind and configuration of an Azure service, which influences its price"
+        },
+        {
+          "id": "d",
+          "text": "One of the commitment durations available for Azure Reservations"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Service-tier comparison is using the pricing calculator to compare different service tiers or sizes before deployment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "mr-0120",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Solution estimate: ongoing cleanup and management that prevents unused associated resources from continuing to incur cost."
+        },
+        {
+          "id": "b",
+          "text": "Estimate only: the former Total Cost of Ownership calculator has been retired."
+        },
+        {
+          "id": "c",
+          "text": "Azure Pricing Calculator: an online tool for estimating the potential cost of Azure resources and solutions before deployment."
+        },
+        {
+          "id": "d",
+          "text": "Azure Pricing Calculator: using the pricing calculator to compare estimated costs across Azure regions."
+        },
+        {
+          "id": "e",
+          "text": "Estimate only: the pricing calculator does not provision resources or create charges when you add services to an estimate."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "e"
+      ],
+      "explanation": "The correct pair is: Azure Pricing Calculator — an online tool for estimating the potential cost of Azure resources and solutions before deployment; and Estimate only — the pricing calculator does not provision resources or create charges when you add services to an estimate.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "mr-0121",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Solution estimate: modeling storage type, access tier, and redundancy choices to see how they affect estimated cost."
+        },
+        {
+          "id": "b",
+          "text": "Regional comparison: the Azure region and data-transfer locations, which can affect pricing."
+        },
+        {
+          "id": "c",
+          "text": "Regional comparison: the amount of a resource used during a billing period."
+        },
+        {
+          "id": "d",
+          "text": "Regional comparison: using the pricing calculator to compare estimated costs across Azure regions."
+        },
+        {
+          "id": "e",
+          "text": "Solution estimate: a pricing-calculator configuration that combines multiple Azure services into a projected cost."
+        }
+      ],
+      "correctAnswers": [
+        "d",
+        "e"
+      ],
+      "explanation": "The correct pair is: Solution estimate — a pricing-calculator configuration that combines multiple Azure services into a projected cost; and Regional comparison — using the pricing calculator to compare estimated costs across Azure regions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "mr-0122",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Storage-option comparison: modeling storage type, access tier, and redundancy choices to see how they affect estimated cost."
+        },
+        {
+          "id": "b",
+          "text": "Service-tier comparison: using the pricing calculator to compare different service tiers or sizes before deployment."
+        },
+        {
+          "id": "c",
+          "text": "Storage-option comparison: the Azure region and data-transfer locations, which can affect pricing."
+        },
+        {
+          "id": "d",
+          "text": "Service-tier comparison: the subscription offer and included allowances that can change effective cost."
+        },
+        {
+          "id": "e",
+          "text": "Service-tier comparison: the kind and configuration of an Azure service, which influences its price."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Service-tier comparison — using the pricing calculator to compare different service tiers or sizes before deployment; and Storage-option comparison — modeling storage type, access tier, and redundancy choices to see how they affect estimated cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "mr-0123",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "TCO calculator status: the former Total Cost of Ownership calculator has been retired."
+        },
+        {
+          "id": "b",
+          "text": "Storage-option comparison: a source of third-party solutions that can add vendor charges to Azure service costs."
+        },
+        {
+          "id": "c",
+          "text": "Azure Pricing Calculator: an online tool for estimating the potential cost of Azure resources and solutions before deployment."
+        },
+        {
+          "id": "d",
+          "text": "TCO calculator status: ongoing cleanup and management that prevents unused associated resources from continuing to incur cost."
+        },
+        {
+          "id": "e",
+          "text": "Azure Pricing Calculator: modeling storage type, access tier, and redundancy choices to see how they affect estimated cost."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "c"
+      ],
+      "explanation": "The correct pair is: TCO calculator status — the former Total Cost of Ownership calculator has been retired; and Azure Pricing Calculator — an online tool for estimating the potential cost of Azure resources and solutions before deployment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "mr-0124",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Estimate only: the pricing calculator does not provision resources or create charges when you add services to an estimate."
+        },
+        {
+          "id": "b",
+          "text": "Solution estimate: the kind and configuration of an Azure service, which influences its price."
+        },
+        {
+          "id": "c",
+          "text": "Solution estimate: a pricing-calculator configuration that combines multiple Azure services into a projected cost."
+        },
+        {
+          "id": "d",
+          "text": "Estimate only: using the pricing calculator to compare different service tiers or sizes before deployment."
+        },
+        {
+          "id": "e",
+          "text": "TCO calculator status: a geographical grouping used for some data-transfer pricing and distinct from an availability zone."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "c"
+      ],
+      "explanation": "The correct pair is: Estimate only — the pricing calculator does not provision resources or create charges when you add services to an estimate; and Solution estimate — a pricing-calculator configuration that combines multiple Azure services into a projected cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "tf-0120",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "question": "Azure Pricing Calculator is an online tool for estimating the potential cost of Azure resources and solutions before deployment.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure Pricing Calculator is an online tool for estimating the potential cost of Azure resources and solutions before deployment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "tf-0121",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "question": "According to this unit: Estimate only is using the pricing calculator to compare different service tiers or sizes before deployment.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Estimate only is the pricing calculator does not provision resources or create charges when you add services to an estimate.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "tf-0122",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "question": "For Azure fundamentals, Solution estimate is a pricing-calculator configuration that combines multiple Azure services into a projected cost.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Solution estimate is a pricing-calculator configuration that combines multiple Azure services into a projected cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "tf-0123",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "question": "This statement is correct: Regional comparison is the former Total Cost of Ownership calculator has been retired.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Regional comparison is using the pricing calculator to compare estimated costs across Azure regions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "tf-0124",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "question": "The unit supports the following statement: Service-tier comparison is using the pricing calculator to compare different service tiers or sizes before deployment.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Service-tier comparison is using the pricing calculator to compare different service tiers or sizes before deployment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "sc-0240",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "scenario": "The organization is reviewing the topic “Explore the pricing calculator” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: an online tool for estimating the potential cost of Azure resources and solutions before deployment. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Pricing Calculator"
+        },
+        {
+          "id": "b",
+          "text": "Subscription type"
+        },
+        {
+          "id": "c",
+          "text": "Predictable production workload"
+        },
+        {
+          "id": "d",
+          "text": "Service-tier comparison"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure Pricing Calculator is the best match because it is an online tool for estimating the potential cost of Azure resources and solutions before deployment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "sc-0241",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "scenario": "The organization is reviewing the topic “Explore the pricing calculator” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs the pricing calculator does not provision resources or create charges when you add services to an estimate. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Estimate only"
+        },
+        {
+          "id": "b",
+          "text": "Billing zone"
+        },
+        {
+          "id": "c",
+          "text": "Interruptible batch workload"
+        },
+        {
+          "id": "d",
+          "text": "One-year reservation term"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Estimate only is the best match because it is the pricing calculator does not provision resources or create charges when you add services to an estimate.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "sc-0242",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "scenario": "The organization is reviewing the topic “Explore the pricing calculator” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: a pricing-calculator configuration that combines multiple Azure services into a projected cost. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Marketplace"
+        },
+        {
+          "id": "b",
+          "text": "Azure savings plan for compute"
+        },
+        {
+          "id": "c",
+          "text": "Solution estimate"
+        },
+        {
+          "id": "d",
+          "text": "Service-tier comparison"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Solution estimate is the best match because it is a pricing-calculator configuration that combines multiple Azure services into a projected cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "sc-0243",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "scenario": "The organization is reviewing the topic “Explore the pricing calculator” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: using the pricing calculator to compare estimated costs across Azure regions. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Three-year reservation term"
+        },
+        {
+          "id": "b",
+          "text": "Azure Spot Virtual Machines"
+        },
+        {
+          "id": "c",
+          "text": "Regional comparison"
+        },
+        {
+          "id": "d",
+          "text": "TCO calculator status"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Regional comparison is the best match because it is using the pricing calculator to compare estimated costs across Azure regions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "sc-0244",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "scenario": "The organization is reviewing the topic “Explore the pricing calculator” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants using the pricing calculator to compare different service tiers or sizes before deployment. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cost trend analysis"
+        },
+        {
+          "id": "b",
+          "text": "Azure Pricing Calculator"
+        },
+        {
+          "id": "c",
+          "text": "Service-tier comparison"
+        },
+        {
+          "id": "d",
+          "text": "Tag inheritance"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Service-tier comparison is the best match because it is using the pricing calculator to compare different service tiers or sizes before deployment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "sc-0245",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "scenario": "The organization is reviewing the topic “Explore the pricing calculator” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for modeling storage type, access tier, and redundancy choices to see how they affect estimated cost. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Geography"
+        },
+        {
+          "id": "b",
+          "text": "Storage-option comparison"
+        },
+        {
+          "id": "c",
+          "text": "Azure Marketplace"
+        },
+        {
+          "id": "d",
+          "text": "Tag-based automation"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Storage-option comparison is the best match because it is modeling storage type, access tier, and redundancy choices to see how they affect estimated cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "sc-0246",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "scenario": "The organization is reviewing the topic “Explore the pricing calculator” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for the former Total Cost of Ownership calculator has been retired. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subscription type"
+        },
+        {
+          "id": "b",
+          "text": "Interruptible batch workload"
+        },
+        {
+          "id": "c",
+          "text": "TCO calculator status"
+        },
+        {
+          "id": "d",
+          "text": "Spot pricing"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "TCO calculator status is the best match because it is the former Total Cost of Ownership calculator has been retired.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "sc-0247",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "scenario": "The organization is reviewing the topic “Explore the pricing calculator” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is an online tool for estimating the potential cost of Azure resources and solutions before deployment. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Predictable production workload"
+        },
+        {
+          "id": "b",
+          "text": "Azure Pricing Calculator"
+        },
+        {
+          "id": "c",
+          "text": "Cost analysis"
+        },
+        {
+          "id": "d",
+          "text": "Cost trend analysis"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Pricing Calculator is the best match because it is an online tool for estimating the potential cost of Azure resources and solutions before deployment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "sc-0248",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "scenario": "The organization is reviewing the topic “Explore the pricing calculator” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as the pricing calculator does not provision resources or create charges when you add services to an estimate. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tag inheritance"
+        },
+        {
+          "id": "b",
+          "text": "Predictable production workload"
+        },
+        {
+          "id": "c",
+          "text": "Estimate only"
+        },
+        {
+          "id": "d",
+          "text": "Interruptible batch workload"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Estimate only is the best match because it is the pricing calculator does not provision resources or create charges when you add services to an estimate.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "sc-0249",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "scenario": "The organization is reviewing the topic “Explore the pricing calculator” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides a pricing-calculator configuration that combines multiple Azure services into a projected cost. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Spot pricing"
+        },
+        {
+          "id": "b",
+          "text": "Regional comparison"
+        },
+        {
+          "id": "c",
+          "text": "Outbound data transfer"
+        },
+        {
+          "id": "d",
+          "text": "Solution estimate"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Solution estimate is the best match because it is a pricing-calculator configuration that combines multiple Azure services into a projected cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "match-0120",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Pricing Calculator"
+        },
+        {
+          "id": "l2",
+          "text": "Estimate only"
+        },
+        {
+          "id": "l3",
+          "text": "Solution estimate"
+        },
+        {
+          "id": "l4",
+          "text": "Regional comparison"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Using the pricing calculator to compare estimated costs across Azure regions"
+        },
+        {
+          "id": "r1",
+          "text": "An online tool for estimating the potential cost of Azure resources and solutions before deployment"
+        },
+        {
+          "id": "r3",
+          "text": "A pricing-calculator configuration that combines multiple Azure services into a projected cost"
+        },
+        {
+          "id": "r2",
+          "text": "The pricing calculator does not provision resources or create charges when you add services to an estimate"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l1": "r1",
+        "l3": "r3",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "match-0121",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Solution estimate"
+        },
+        {
+          "id": "l2",
+          "text": "Regional comparison"
+        },
+        {
+          "id": "l3",
+          "text": "Service-tier comparison"
+        },
+        {
+          "id": "l4",
+          "text": "Storage-option comparison"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "Using the pricing calculator to compare estimated costs across Azure regions"
+        },
+        {
+          "id": "r4",
+          "text": "Modeling storage type, access tier, and redundancy choices to see how they affect estimated cost"
+        },
+        {
+          "id": "r3",
+          "text": "Using the pricing calculator to compare different service tiers or sizes before deployment"
+        },
+        {
+          "id": "r1",
+          "text": "A pricing-calculator configuration that combines multiple Azure services into a projected cost"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l4": "r4",
+        "l3": "r3",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "match-0122",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Service-tier comparison"
+        },
+        {
+          "id": "l2",
+          "text": "Storage-option comparison"
+        },
+        {
+          "id": "l3",
+          "text": "TCO calculator status"
+        },
+        {
+          "id": "l4",
+          "text": "Azure Pricing Calculator"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "The former Total Cost of Ownership calculator has been retired"
+        },
+        {
+          "id": "r2",
+          "text": "Modeling storage type, access tier, and redundancy choices to see how they affect estimated cost"
+        },
+        {
+          "id": "r4",
+          "text": "An online tool for estimating the potential cost of Azure resources and solutions before deployment"
+        },
+        {
+          "id": "r1",
+          "text": "Using the pricing calculator to compare different service tiers or sizes before deployment"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l2": "r2",
+        "l4": "r4",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "match-0123",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "TCO calculator status"
+        },
+        {
+          "id": "l2",
+          "text": "Azure Pricing Calculator"
+        },
+        {
+          "id": "l3",
+          "text": "Estimate only"
+        },
+        {
+          "id": "l4",
+          "text": "Solution estimate"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "An online tool for estimating the potential cost of Azure resources and solutions before deployment"
+        },
+        {
+          "id": "r3",
+          "text": "The pricing calculator does not provision resources or create charges when you add services to an estimate"
+        },
+        {
+          "id": "r4",
+          "text": "A pricing-calculator configuration that combines multiple Azure services into a projected cost"
+        },
+        {
+          "id": "r1",
+          "text": "The former Total Cost of Ownership calculator has been retired"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "match-0124",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Estimate only"
+        },
+        {
+          "id": "l2",
+          "text": "Solution estimate"
+        },
+        {
+          "id": "l3",
+          "text": "Regional comparison"
+        },
+        {
+          "id": "l4",
+          "text": "Service-tier comparison"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "The pricing calculator does not provision resources or create charges when you add services to an estimate"
+        },
+        {
+          "id": "r2",
+          "text": "A pricing-calculator configuration that combines multiple Azure services into a projected cost"
+        },
+        {
+          "id": "r3",
+          "text": "Using the pricing calculator to compare estimated costs across Azure regions"
+        },
+        {
+          "id": "r4",
+          "text": "Using the pricing calculator to compare different service tiers or sizes before deployment"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "fill-0120",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "question": "{{answer}} is a pricing-calculator configuration that combines multiple Azure services into a projected cost.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Tag inheritance",
+            "Department spending quota alert",
+            "Solution estimate",
+            "Outbound data transfer"
+          ],
+          "correctAnswer": "Solution estimate"
+        }
+      ],
+      "explanation": "Solution estimate is a pricing-calculator configuration that combines multiple Azure services into a projected cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "fill-0121",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "question": "The term for using the pricing calculator to compare estimated costs across Azure regions is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Outbound data transfer",
+            "Regional comparison",
+            "CostCenter tag",
+            "Azure Reservations"
+          ],
+          "correctAnswer": "Regional comparison"
+        }
+      ],
+      "explanation": "Regional comparison is using the pricing calculator to compare estimated costs across Azure regions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "fill-0122",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "question": "In this unit, {{answer}} refers to using the pricing calculator to compare different service tiers or sizes before deployment.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Service-tier comparison",
+            "Azure Marketplace",
+            "One-year reservation term",
+            "Billing zone"
+          ],
+          "correctAnswer": "Service-tier comparison"
+        }
+      ],
+      "explanation": "Service-tier comparison is using the pricing calculator to compare different service tiers or sizes before deployment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "fill-0123",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "question": "For AZ-900, the concept described as modeling storage type, access tier, and redundancy choices to see how they affect estimated cost is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Department spending quota alert",
+            "Subscription type",
+            "Storage-option comparison",
+            "Tag-based automation"
+          ],
+          "correctAnswer": "Storage-option comparison"
+        }
+      ],
+      "explanation": "Storage-option comparison is modeling storage type, access tier, and redundancy choices to see how they affect estimated cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    },
+    {
+      "id": "fill-0124",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Explore the pricing calculator",
+      "question": "Choose the term that completes the statement: {{answer}} means the former Total Cost of Ownership calculator has been retired.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Budget automation",
+            "Cost analysis",
+            "TCO calculator status",
+            "Cost trend analysis"
+          ],
+          "correctAnswer": "TCO calculator status"
+        }
+      ],
+      "explanation": "TCO calculator status is the former Total Cost of Ownership calculator has been retired.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators"
+    }
+  ]
+}

@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe Azure storage services · Summary",
+  "questions": [
+    {
+      "id": "mc-0395",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Which statement best describes Azure storage account?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A resource that provides a unique namespace for Azure Storage data and exposes storage services through endpoints"
+        },
+        {
+          "id": "b",
+          "text": "A Blob Storage tier optimized for infrequently accessed data generally stored for at least 30 days"
+        },
+        {
+          "id": "c",
+          "text": "GZRS with read access to the secondary-region copy before failover"
+        },
+        {
+          "id": "d",
+          "text": "AzCopy synchronization that copies changes from a designated source toward a destination rather than maintaining two-way sync"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure storage account is a resource that provides a unique namespace for Azure Storage data and exposes storage services through endpoints.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "mc-0396",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "In the context of this Microsoft Learn unit, what does Standard general-purpose v2 refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A premium account type for Azure Files that supports SMB and NFS shares"
+        },
+        {
+          "id": "b",
+          "text": "The globally unique account name used as part of Azure Storage service endpoints"
+        },
+        {
+          "id": "c",
+          "text": "The recommended standard account type for most blob, file, queue, and table storage scenarios"
+        },
+        {
+          "id": "d",
+          "text": "Keeping frequently accessed files locally while allowing less-used files to remain primarily in Azure"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Standard general-purpose v2 is the recommended standard account type for most blob, file, queue, and table storage scenarios.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "mc-0397",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Which description correctly matches Premium block blobs?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Using Azure File Sync to retain fast local access while centralizing file shares in Azure Files"
+        },
+        {
+          "id": "b",
+          "text": "LRS in the primary region plus asynchronous replication to LRS in a paired secondary region"
+        },
+        {
+          "id": "c",
+          "text": "A premium account type for block and append blobs requiring high transaction rates or low latency"
+        },
+        {
+          "id": "d",
+          "text": "A resource that provides a unique namespace for Azure Storage data and exposes storage services through endpoints"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Premium block blobs is a premium account type for block and append blobs requiring high transaction rates or low latency.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "mc-0398",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Which of the following is the best definition of Premium file shares?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A premium account type for Azure Files that supports SMB and NFS shares"
+        },
+        {
+          "id": "b",
+          "text": "A messaging store for large numbers of messages used in asynchronous application processing"
+        },
+        {
+          "id": "c",
+          "text": "An endpoint using the storage account name with the blob.core.windows.net service domain"
+        },
+        {
+          "id": "d",
+          "text": "The lowest-cost storage tier for rarely accessed data with the highest retrieval latency and a long intended retention period"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Premium file shares is a premium account type for Azure Files that supports SMB and NFS shares.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "mc-0399",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "What is the primary meaning of Premium page blobs in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A premium account type dedicated to page blobs"
+        },
+        {
+          "id": "b",
+          "text": "Copying local data to the device and returning it so Microsoft can upload the data into Azure"
+        },
+        {
+          "id": "c",
+          "text": "Azure Storage keeping three copies of data in the primary region"
+        },
+        {
+          "id": "d",
+          "text": "A resource that provides a unique namespace for Azure Storage data and exposes storage services through endpoints"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Premium page blobs is a premium account type dedicated to page blobs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "mr-0395",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Premium block blobs: synchronous replication across three availability zones in the primary region."
+        },
+        {
+          "id": "b",
+          "text": "Azure storage account: a premium account type for Azure Files that supports SMB and NFS shares."
+        },
+        {
+          "id": "c",
+          "text": "Standard general-purpose v2: the recommended standard account type for most blob, file, queue, and table storage scenarios."
+        },
+        {
+          "id": "d",
+          "text": "Azure storage account: a resource that provides a unique namespace for Azure Storage data and exposes storage services through endpoints."
+        },
+        {
+          "id": "e",
+          "text": "Standard general-purpose v2: a name of 3–24 characters using lowercase letters and numbers only."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: Azure storage account — a resource that provides a unique namespace for Azure Storage data and exposes storage services through endpoints; and Standard general-purpose v2 — the recommended standard account type for most blob, file, queue, and table storage scenarios.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "mr-0396",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Premium file shares: replication of data three times within a single datacenter in the primary region."
+        },
+        {
+          "id": "b",
+          "text": "Premium file shares: LRS in the primary region plus asynchronous replication to LRS in a paired secondary region."
+        },
+        {
+          "id": "c",
+          "text": "Premium block blobs: a premium account type for block and append blobs requiring high transaction rates or low latency."
+        },
+        {
+          "id": "d",
+          "text": "Premium block blobs: the globally unique account name used as part of Azure Storage service endpoints."
+        },
+        {
+          "id": "e",
+          "text": "Premium file shares: a premium account type for Azure Files that supports SMB and NFS shares."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "e"
+      ],
+      "explanation": "The correct pair is: Premium block blobs — a premium account type for block and append blobs requiring high transaction rates or low latency; and Premium file shares — a premium account type for Azure Files that supports SMB and NFS shares.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "mr-0397",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Premium page blobs: a premium account type dedicated to page blobs."
+        },
+        {
+          "id": "b",
+          "text": "Premium page blobs: an endpoint using the storage account name with the blob.core.windows.net service domain."
+        },
+        {
+          "id": "c",
+          "text": "Premium page blobs: ZRS in the primary region plus asynchronous replication to LRS in a secondary region."
+        },
+        {
+          "id": "d",
+          "text": "Storage account namespace: the globally unique account name used as part of Azure Storage service endpoints."
+        },
+        {
+          "id": "e",
+          "text": "Storage account namespace: LRS in the primary region plus asynchronous replication to LRS in a paired secondary region."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Premium page blobs — a premium account type dedicated to page blobs; and Storage account namespace — the globally unique account name used as part of Azure Storage service endpoints.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "mr-0398",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Storage account naming rule: synchronous replication across three availability zones in the primary region."
+        },
+        {
+          "id": "b",
+          "text": "Storage account namespace: GRS with the ability to read the secondary-region copy before failover."
+        },
+        {
+          "id": "c",
+          "text": "Blob service endpoint: GRS with the ability to read the secondary-region copy before failover."
+        },
+        {
+          "id": "d",
+          "text": "Storage account naming rule: a name of 3–24 characters using lowercase letters and numbers only."
+        },
+        {
+          "id": "e",
+          "text": "Blob service endpoint: an endpoint using the storage account name with the blob.core.windows.net service domain."
+        }
+      ],
+      "correctAnswers": [
+        "d",
+        "e"
+      ],
+      "explanation": "The correct pair is: Storage account naming rule — a name of 3–24 characters using lowercase letters and numbers only; and Blob service endpoint — an endpoint using the storage account name with the blob.core.windows.net service domain.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "mr-0399",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Locally redundant storage (LRS): ZRS in the primary region plus asynchronous replication to LRS in a secondary region."
+        },
+        {
+          "id": "b",
+          "text": "Locally redundant storage (LRS): replication of data three times within a single datacenter in the primary region."
+        },
+        {
+          "id": "c",
+          "text": "Storage account naming rule: GZRS with read access to the secondary-region copy before failover."
+        },
+        {
+          "id": "d",
+          "text": "Zone-redundant storage (ZRS): synchronous replication across three availability zones in the primary region."
+        },
+        {
+          "id": "e",
+          "text": "Zone-redundant storage (ZRS): the point in time to which data can be recovered, reflecting possible lag in asynchronous replication."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: Locally redundant storage (LRS) — replication of data three times within a single datacenter in the primary region; and Zone-redundant storage (ZRS) — synchronous replication across three availability zones in the primary region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "tf-0395",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Azure storage account is a resource that provides a unique namespace for Azure Storage data and exposes storage services through endpoints.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure storage account is a resource that provides a unique namespace for Azure Storage data and exposes storage services through endpoints.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "tf-0396",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "According to this unit: Standard general-purpose v2 is a premium account type dedicated to page blobs.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Standard general-purpose v2 is the recommended standard account type for most blob, file, queue, and table storage scenarios.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "tf-0397",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "For Azure fundamentals, Premium block blobs is a premium account type for block and append blobs requiring high transaction rates or low latency.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Premium block blobs is a premium account type for block and append blobs requiring high transaction rates or low latency.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "tf-0398",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "This statement is correct: Premium file shares is a name of 3–24 characters using lowercase letters and numbers only.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Premium file shares is a premium account type for Azure Files that supports SMB and NFS shares.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "tf-0399",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "The unit supports the following statement: Premium page blobs is a premium account type dedicated to page blobs.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Premium page blobs is a premium account type dedicated to page blobs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "sc-0790",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a resource that provides a unique namespace for Azure Storage data and exposes storage services through endpoints. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Online migration"
+        },
+        {
+          "id": "b",
+          "text": "Azure storage account"
+        },
+        {
+          "id": "c",
+          "text": "Storage account naming rule"
+        },
+        {
+          "id": "d",
+          "text": "Azure Queue Storage"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure storage account is the best match because it is a resource that provides a unique namespace for Azure Storage data and exposes storage services through endpoints.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "sc-0791",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs the recommended standard account type for most blob, file, queue, and table storage scenarios. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Files"
+        },
+        {
+          "id": "b",
+          "text": "Cloud tiering"
+        },
+        {
+          "id": "c",
+          "text": "Standard general-purpose v2"
+        },
+        {
+          "id": "d",
+          "text": "One-way synchronization"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Standard general-purpose v2 is the best match because it is the recommended standard account type for most blob, file, queue, and table storage scenarios.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "sc-0792",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: a premium account type for block and append blobs requiring high transaction rates or low latency. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Storage Explorer backend"
+        },
+        {
+          "id": "b",
+          "text": "Server Migration"
+        },
+        {
+          "id": "c",
+          "text": "Offline bulk migration"
+        },
+        {
+          "id": "d",
+          "text": "Premium block blobs"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Premium block blobs is the best match because it is a premium account type for block and append blobs requiring high transaction rates or low latency.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "sc-0793",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: a premium account type for Azure Files that supports SMB and NFS shares. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Online migration"
+        },
+        {
+          "id": "b",
+          "text": "Premium file shares"
+        },
+        {
+          "id": "c",
+          "text": "Azure Files"
+        },
+        {
+          "id": "d",
+          "text": "Read-access geo-redundant storage (RA-GRS)"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Premium file shares is the best match because it is a premium account type for Azure Files that supports SMB and NFS shares.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "sc-0794",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants a premium account type dedicated to page blobs. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Premium page blobs"
+        },
+        {
+          "id": "b",
+          "text": "Primary-region replication"
+        },
+        {
+          "id": "c",
+          "text": "Standard general-purpose v2"
+        },
+        {
+          "id": "d",
+          "text": "Azure Table Storage"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Premium page blobs is the best match because it is a premium account type dedicated to page blobs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "sc-0795",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for the globally unique account name used as part of Azure Storage service endpoints. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Storage account namespace"
+        },
+        {
+          "id": "b",
+          "text": "AzCopy"
+        },
+        {
+          "id": "c",
+          "text": "Discovery and assessment"
+        },
+        {
+          "id": "d",
+          "text": "Locally redundant storage (LRS)"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Storage account namespace is the best match because it is the globally unique account name used as part of Azure Storage service endpoints.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "sc-0796",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for a name of 3–24 characters using lowercase letters and numbers only. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Storage account naming rule"
+        },
+        {
+          "id": "b",
+          "text": "One-way synchronization"
+        },
+        {
+          "id": "c",
+          "text": "Cloud tiering"
+        },
+        {
+          "id": "d",
+          "text": "Azure Storage Explorer"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Storage account naming rule is the best match because it is a name of 3–24 characters using lowercase letters and numbers only.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "sc-0797",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is an endpoint using the storage account name with the blob.core.windows.net service domain. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cross-platform Storage Explorer"
+        },
+        {
+          "id": "b",
+          "text": "Cool access tier"
+        },
+        {
+          "id": "c",
+          "text": "Blob service endpoint"
+        },
+        {
+          "id": "d",
+          "text": "Azure Blob Storage"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Blob service endpoint is the best match because it is an endpoint using the storage account name with the blob.core.windows.net service domain.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "sc-0798",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as replication of data three times within a single datacenter in the primary region. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Locally redundant storage (LRS)"
+        },
+        {
+          "id": "b",
+          "text": "Storage account naming rule"
+        },
+        {
+          "id": "c",
+          "text": "Storage account namespace"
+        },
+        {
+          "id": "d",
+          "text": "Azure Files"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Locally redundant storage (LRS) is the best match because it is replication of data three times within a single datacenter in the primary region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "sc-0799",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides synchronous replication across three availability zones in the primary region. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure storage account"
+        },
+        {
+          "id": "b",
+          "text": "Zone-redundant storage (ZRS)"
+        },
+        {
+          "id": "c",
+          "text": "Azure Table Storage"
+        },
+        {
+          "id": "d",
+          "text": "Azure Data Box"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Zone-redundant storage (ZRS) is the best match because it is synchronous replication across three availability zones in the primary region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "match-0395",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure storage account"
+        },
+        {
+          "id": "l2",
+          "text": "Standard general-purpose v2"
+        },
+        {
+          "id": "l3",
+          "text": "Premium block blobs"
+        },
+        {
+          "id": "l4",
+          "text": "Premium file shares"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "A premium account type for Azure Files that supports SMB and NFS shares"
+        },
+        {
+          "id": "r1",
+          "text": "A resource that provides a unique namespace for Azure Storage data and exposes storage services through endpoints"
+        },
+        {
+          "id": "r2",
+          "text": "The recommended standard account type for most blob, file, queue, and table storage scenarios"
+        },
+        {
+          "id": "r3",
+          "text": "A premium account type for block and append blobs requiring high transaction rates or low latency"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "match-0396",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Premium block blobs"
+        },
+        {
+          "id": "l2",
+          "text": "Premium file shares"
+        },
+        {
+          "id": "l3",
+          "text": "Premium page blobs"
+        },
+        {
+          "id": "l4",
+          "text": "Storage account namespace"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A premium account type dedicated to page blobs"
+        },
+        {
+          "id": "r1",
+          "text": "A premium account type for block and append blobs requiring high transaction rates or low latency"
+        },
+        {
+          "id": "r4",
+          "text": "The globally unique account name used as part of Azure Storage service endpoints"
+        },
+        {
+          "id": "r2",
+          "text": "A premium account type for Azure Files that supports SMB and NFS shares"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l1": "r1",
+        "l4": "r4",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "match-0397",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Premium page blobs"
+        },
+        {
+          "id": "l2",
+          "text": "Storage account namespace"
+        },
+        {
+          "id": "l3",
+          "text": "Storage account naming rule"
+        },
+        {
+          "id": "l4",
+          "text": "Blob service endpoint"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A premium account type dedicated to page blobs"
+        },
+        {
+          "id": "r4",
+          "text": "An endpoint using the storage account name with the blob.core.windows.net service domain"
+        },
+        {
+          "id": "r3",
+          "text": "A name of 3–24 characters using lowercase letters and numbers only"
+        },
+        {
+          "id": "r2",
+          "text": "The globally unique account name used as part of Azure Storage service endpoints"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l4": "r4",
+        "l3": "r3",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "match-0398",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Storage account naming rule"
+        },
+        {
+          "id": "l2",
+          "text": "Blob service endpoint"
+        },
+        {
+          "id": "l3",
+          "text": "Locally redundant storage (LRS)"
+        },
+        {
+          "id": "l4",
+          "text": "Zone-redundant storage (ZRS)"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Replication of data three times within a single datacenter in the primary region"
+        },
+        {
+          "id": "r4",
+          "text": "Synchronous replication across three availability zones in the primary region"
+        },
+        {
+          "id": "r1",
+          "text": "A name of 3–24 characters using lowercase letters and numbers only"
+        },
+        {
+          "id": "r2",
+          "text": "An endpoint using the storage account name with the blob.core.windows.net service domain"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l1": "r1",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "match-0399",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Locally redundant storage (LRS)"
+        },
+        {
+          "id": "l2",
+          "text": "Zone-redundant storage (ZRS)"
+        },
+        {
+          "id": "l3",
+          "text": "Geo-redundant storage (GRS)"
+        },
+        {
+          "id": "l4",
+          "text": "Geo-zone-redundant storage (GZRS)"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "LRS in the primary region plus asynchronous replication to LRS in a paired secondary region"
+        },
+        {
+          "id": "r4",
+          "text": "ZRS in the primary region plus asynchronous replication to LRS in a secondary region"
+        },
+        {
+          "id": "r2",
+          "text": "Synchronous replication across three availability zones in the primary region"
+        },
+        {
+          "id": "r1",
+          "text": "Replication of data three times within a single datacenter in the primary region"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "fill-0395",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "{{answer}} is a premium account type for block and append blobs requiring high transaction rates or low latency.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure Data Box",
+            "Azure Disk Storage",
+            "Data Box export",
+            "Premium block blobs"
+          ],
+          "correctAnswer": "Premium block blobs"
+        }
+      ],
+      "explanation": "Premium block blobs is a premium account type for block and append blobs requiring high transaction rates or low latency.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "fill-0396",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "The term for a premium account type for Azure Files that supports SMB and NFS shares is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Blob service endpoint",
+            "Premium file shares",
+            "Discovery and assessment",
+            "Storage account namespace"
+          ],
+          "correctAnswer": "Premium file shares"
+        }
+      ],
+      "explanation": "Premium file shares is a premium account type for Azure Files that supports SMB and NFS shares.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "fill-0397",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "In this unit, {{answer}} refers to a premium account type dedicated to page blobs.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure Blob Storage",
+            "Premium page blobs",
+            "Geo-redundant storage (GRS)",
+            "Azure File Sync"
+          ],
+          "correctAnswer": "Premium page blobs"
+        }
+      ],
+      "explanation": "Premium page blobs is a premium account type dedicated to page blobs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "fill-0398",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "For AZ-900, the concept described as the globally unique account name used as part of Azure Storage service endpoints is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Storage account namespace",
+            "Geo-zone-redundant storage (GZRS)",
+            "Cross-platform Storage Explorer",
+            "Azure Storage Explorer"
+          ],
+          "correctAnswer": "Storage account namespace"
+        }
+      ],
+      "explanation": "Storage account namespace is the globally unique account name used as part of Azure Storage service endpoints.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    },
+    {
+      "id": "fill-0399",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Choose the term that completes the statement: {{answer}} means a name of 3–24 characters using lowercase letters and numbers only.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Storage account naming rule",
+            "Storage account namespace",
+            "Discovery and assessment",
+            "Azure Disk Storage"
+          ],
+          "correctAnswer": "Storage account naming rule"
+        }
+      ],
+      "explanation": "Storage account naming rule is a name of 3–24 characters using lowercase letters and numbers only.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary"
+    }
+  ]
+}

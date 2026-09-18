@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe cost management in Azure · Describe factors that can affect costs in Azure",
+  "questions": [
+    {
+      "id": "mc-0115",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "question": "Which statement best describes Resource type?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reviewing accumulated costs over time to understand spending patterns and forecast future spend"
+        },
+        {
+          "id": "b",
+          "text": "A longer commitment duration available for Azure Reservations"
+        },
+        {
+          "id": "c",
+          "text": "The kind and configuration of an Azure service, which influences its price"
+        },
+        {
+          "id": "d",
+          "text": "A source of third-party solutions that can add vendor charges to Azure service costs"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Resource type is the kind and configuration of an Azure service, which influences its price.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "mc-0116",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "question": "In the context of this Microsoft Learn unit, what does Consumption refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Modeling storage type, access tier, and redundancy choices to see how they affect estimated cost"
+        },
+        {
+          "id": "b",
+          "text": "Ongoing cleanup and management that prevents unused associated resources from continuing to incur cost"
+        },
+        {
+          "id": "c",
+          "text": "A notification generated when spending reaches or exceeds a defined budget threshold"
+        },
+        {
+          "id": "d",
+          "text": "The amount of a resource used during a billing period"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Consumption is the amount of a resource used during a billing period.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "mc-0117",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "question": "Which description correctly matches Maintenance?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Using the pricing calculator to compare different service tiers or sizes before deployment"
+        },
+        {
+          "id": "b",
+          "text": "The subscription offer and included allowances that can change effective cost"
+        },
+        {
+          "id": "c",
+          "text": "Ongoing cleanup and management that prevents unused associated resources from continuing to incur cost"
+        },
+        {
+          "id": "d",
+          "text": "A notification generated when spending reaches or exceeds a defined budget threshold"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Maintenance is ongoing cleanup and management that prevents unused associated resources from continuing to incur cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "mc-0118",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "question": "Which of the following is the best definition of Geography?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A Cost Management feature for visualizing and grouping spend by dimensions such as subscription, resource group, region, or service"
+        },
+        {
+          "id": "b",
+          "text": "The subscription offer and included allowances that can change effective cost"
+        },
+        {
+          "id": "c",
+          "text": "The Azure region and data-transfer locations, which can affect pricing"
+        },
+        {
+          "id": "d",
+          "text": "Using metadata to select resources for automated operational tasks"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Geography is the Azure region and data-transfer locations, which can affect pricing.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "mc-0119",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "question": "What is the primary meaning of Subscription type in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A discounted commitment option suited to stable, predictable workloads and specific resource capacity"
+        },
+        {
+          "id": "b",
+          "text": "A geographical grouping used for some data-transfer pricing and distinct from an availability zone"
+        },
+        {
+          "id": "c",
+          "text": "The subscription offer and included allowances that can change effective cost"
+        },
+        {
+          "id": "d",
+          "text": "Using the pricing calculator to compare different service tiers or sizes before deployment"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Subscription type is the subscription offer and included allowances that can change effective cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "mr-0115",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Consumption: the amount of a resource used during a billing period."
+        },
+        {
+          "id": "b",
+          "text": "Consumption: a geographical grouping used for some data-transfer pricing and distinct from an availability zone."
+        },
+        {
+          "id": "c",
+          "text": "Maintenance: an online tool for estimating the potential cost of Azure resources and solutions before deployment."
+        },
+        {
+          "id": "d",
+          "text": "Resource type: the kind and configuration of an Azure service, which influences its price."
+        },
+        {
+          "id": "e",
+          "text": "Resource type: the Azure region and data-transfer locations, which can affect pricing."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Resource type — the kind and configuration of an Azure service, which influences its price; and Consumption — the amount of a resource used during a billing period.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "mr-0116",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Geography: discounted unused capacity suitable for workloads that can tolerate eviction."
+        },
+        {
+          "id": "b",
+          "text": "Maintenance: a source of third-party solutions that can add vendor charges to Azure service costs."
+        },
+        {
+          "id": "c",
+          "text": "Maintenance: ongoing cleanup and management that prevents unused associated resources from continuing to incur cost."
+        },
+        {
+          "id": "d",
+          "text": "Geography: the Azure region and data-transfer locations, which can affect pricing."
+        },
+        {
+          "id": "e",
+          "text": "Geography: the pricing calculator does not provision resources or create charges when you add services to an estimate."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: Maintenance — ongoing cleanup and management that prevents unused associated resources from continuing to incur cost; and Geography — the Azure region and data-transfer locations, which can affect pricing.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "mr-0117",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subscription type: the subscription offer and included allowances that can change effective cost."
+        },
+        {
+          "id": "b",
+          "text": "Azure Marketplace: the pricing calculator does not provision resources or create charges when you add services to an estimate."
+        },
+        {
+          "id": "c",
+          "text": "Azure Marketplace: a source of third-party solutions that can add vendor charges to Azure service costs."
+        },
+        {
+          "id": "d",
+          "text": "Subscription type: a pricing-calculator configuration that combines multiple Azure services into a projected cost."
+        },
+        {
+          "id": "e",
+          "text": "Subscription type: data leaving Azure datacenters that can incur zone-based transfer charges."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "c"
+      ],
+      "explanation": "The correct pair is: Subscription type — the subscription offer and included allowances that can change effective cost; and Azure Marketplace — a source of third-party solutions that can add vendor charges to Azure service costs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "mr-0118",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Outbound data transfer: data leaving Azure datacenters that can incur zone-based transfer charges."
+        },
+        {
+          "id": "b",
+          "text": "Azure Marketplace: using the pricing calculator to compare estimated costs across Azure regions."
+        },
+        {
+          "id": "c",
+          "text": "Outbound data transfer: using the pricing calculator to compare estimated costs across Azure regions."
+        },
+        {
+          "id": "d",
+          "text": "Billing zone: a geographical grouping used for some data-transfer pricing and distinct from an availability zone."
+        },
+        {
+          "id": "e",
+          "text": "Billing zone: an online tool for estimating the potential cost of Azure resources and solutions before deployment."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Billing zone — a geographical grouping used for some data-transfer pricing and distinct from an availability zone; and Outbound data transfer — data leaving Azure datacenters that can incur zone-based transfer charges.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "mr-0119",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Billing zone: using the pricing calculator to compare different service tiers or sizes before deployment."
+        },
+        {
+          "id": "b",
+          "text": "Azure Spot Virtual Machines: a pricing-calculator configuration that combines multiple Azure services into a projected cost."
+        },
+        {
+          "id": "c",
+          "text": "Resource type: the kind and configuration of an Azure service, which influences its price."
+        },
+        {
+          "id": "d",
+          "text": "Azure Spot Virtual Machines: discounted unused capacity suitable for workloads that can tolerate eviction."
+        },
+        {
+          "id": "e",
+          "text": "Resource type: a source of third-party solutions that can add vendor charges to Azure service costs."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: Azure Spot Virtual Machines — discounted unused capacity suitable for workloads that can tolerate eviction; and Resource type — the kind and configuration of an Azure service, which influences its price.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "tf-0115",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "question": "Resource type is the kind and configuration of an Azure service, which influences its price.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Resource type is the kind and configuration of an Azure service, which influences its price.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "tf-0116",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "question": "According to this unit: Consumption is the subscription offer and included allowances that can change effective cost.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Consumption is the amount of a resource used during a billing period.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "tf-0117",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "question": "For Azure fundamentals, Maintenance is ongoing cleanup and management that prevents unused associated resources from continuing to incur cost.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Maintenance is ongoing cleanup and management that prevents unused associated resources from continuing to incur cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "tf-0118",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "question": "This statement is correct: Geography is a geographical grouping used for some data-transfer pricing and distinct from an availability zone.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Geography is the Azure region and data-transfer locations, which can affect pricing.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "tf-0119",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "question": "The unit supports the following statement: Subscription type is the subscription offer and included allowances that can change effective cost.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Subscription type is the subscription offer and included allowances that can change effective cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "sc-0230",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "scenario": "The organization is reviewing the topic “Describe factors that can affect costs in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: the kind and configuration of an Azure service, which influences its price. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Estimate only"
+        },
+        {
+          "id": "b",
+          "text": "Maintenance"
+        },
+        {
+          "id": "c",
+          "text": "Solution estimate"
+        },
+        {
+          "id": "d",
+          "text": "Resource type"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Resource type is the best match because it is the kind and configuration of an Azure service, which influences its price.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "sc-0231",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "scenario": "The organization is reviewing the topic “Describe factors that can affect costs in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs the amount of a resource used during a billing period. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Department spending quota alert"
+        },
+        {
+          "id": "b",
+          "text": "Consumption"
+        },
+        {
+          "id": "c",
+          "text": "Azure Marketplace"
+        },
+        {
+          "id": "d",
+          "text": "Azure Pricing Calculator"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Consumption is the best match because it is the amount of a resource used during a billing period.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "sc-0232",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "scenario": "The organization is reviewing the topic “Describe factors that can affect costs in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: ongoing cleanup and management that prevents unused associated resources from continuing to incur cost. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Maintenance"
+        },
+        {
+          "id": "b",
+          "text": "Tag inheritance"
+        },
+        {
+          "id": "c",
+          "text": "Outbound data transfer"
+        },
+        {
+          "id": "d",
+          "text": "Cost analysis"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Maintenance is the best match because it is ongoing cleanup and management that prevents unused associated resources from continuing to incur cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "sc-0233",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "scenario": "The organization is reviewing the topic “Describe factors that can affect costs in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: the Azure region and data-transfer locations, which can affect pricing. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "CostCenter tag"
+        },
+        {
+          "id": "b",
+          "text": "Cost trend analysis"
+        },
+        {
+          "id": "c",
+          "text": "Azure Spot Virtual Machines"
+        },
+        {
+          "id": "d",
+          "text": "Geography"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Geography is the best match because it is the Azure region and data-transfer locations, which can affect pricing.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "sc-0234",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "scenario": "The organization is reviewing the topic “Describe factors that can affect costs in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants the subscription offer and included allowances that can change effective cost. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tag-based security classification"
+        },
+        {
+          "id": "b",
+          "text": "Billing zone"
+        },
+        {
+          "id": "c",
+          "text": "Subscription type"
+        },
+        {
+          "id": "d",
+          "text": "Department spending quota alert"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Subscription type is the best match because it is the subscription offer and included allowances that can change effective cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "sc-0235",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "scenario": "The organization is reviewing the topic “Describe factors that can affect costs in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for a source of third-party solutions that can add vendor charges to Azure service costs. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "CostCenter tag"
+        },
+        {
+          "id": "b",
+          "text": "Solution estimate"
+        },
+        {
+          "id": "c",
+          "text": "Azure Marketplace"
+        },
+        {
+          "id": "d",
+          "text": "Budget alert"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure Marketplace is the best match because it is a source of third-party solutions that can add vendor charges to Azure service costs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "sc-0236",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "scenario": "The organization is reviewing the topic “Describe factors that can affect costs in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for a geographical grouping used for some data-transfer pricing and distinct from an availability zone. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Billing zone"
+        },
+        {
+          "id": "b",
+          "text": "Cost analysis"
+        },
+        {
+          "id": "c",
+          "text": "Storage-option comparison"
+        },
+        {
+          "id": "d",
+          "text": "Credit alert"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Billing zone is the best match because it is a geographical grouping used for some data-transfer pricing and distinct from an availability zone.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "sc-0237",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "scenario": "The organization is reviewing the topic “Describe factors that can affect costs in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is data leaving Azure datacenters that can incur zone-based transfer charges. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Policy for tags"
+        },
+        {
+          "id": "b",
+          "text": "Outbound data transfer"
+        },
+        {
+          "id": "c",
+          "text": "Azure Pricing Calculator"
+        },
+        {
+          "id": "d",
+          "text": "Tag-based security classification"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Outbound data transfer is the best match because it is data leaving Azure datacenters that can incur zone-based transfer charges.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "sc-0238",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "scenario": "The organization is reviewing the topic “Describe factors that can affect costs in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as discounted unused capacity suitable for workloads that can tolerate eviction. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Spot Virtual Machines"
+        },
+        {
+          "id": "b",
+          "text": "Solution estimate"
+        },
+        {
+          "id": "c",
+          "text": "Interruptible batch workload"
+        },
+        {
+          "id": "d",
+          "text": "One-year reservation term"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure Spot Virtual Machines is the best match because it is discounted unused capacity suitable for workloads that can tolerate eviction.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "sc-0239",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "scenario": "The organization is reviewing the topic “Describe factors that can affect costs in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides the kind and configuration of an Azure service, which influences its price. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Geography"
+        },
+        {
+          "id": "b",
+          "text": "Resource type"
+        },
+        {
+          "id": "c",
+          "text": "Budget"
+        },
+        {
+          "id": "d",
+          "text": "Service-tier comparison"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Resource type is the best match because it is the kind and configuration of an Azure service, which influences its price.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "match-0115",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Resource type"
+        },
+        {
+          "id": "l2",
+          "text": "Consumption"
+        },
+        {
+          "id": "l3",
+          "text": "Maintenance"
+        },
+        {
+          "id": "l4",
+          "text": "Geography"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "The amount of a resource used during a billing period"
+        },
+        {
+          "id": "r4",
+          "text": "The Azure region and data-transfer locations, which can affect pricing"
+        },
+        {
+          "id": "r1",
+          "text": "The kind and configuration of an Azure service, which influences its price"
+        },
+        {
+          "id": "r3",
+          "text": "Ongoing cleanup and management that prevents unused associated resources from continuing to incur cost"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l4": "r4",
+        "l1": "r1",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "match-0116",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Maintenance"
+        },
+        {
+          "id": "l2",
+          "text": "Geography"
+        },
+        {
+          "id": "l3",
+          "text": "Subscription type"
+        },
+        {
+          "id": "l4",
+          "text": "Azure Marketplace"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "The Azure region and data-transfer locations, which can affect pricing"
+        },
+        {
+          "id": "r4",
+          "text": "A source of third-party solutions that can add vendor charges to Azure service costs"
+        },
+        {
+          "id": "r3",
+          "text": "The subscription offer and included allowances that can change effective cost"
+        },
+        {
+          "id": "r1",
+          "text": "Ongoing cleanup and management that prevents unused associated resources from continuing to incur cost"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l4": "r4",
+        "l3": "r3",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "match-0117",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Subscription type"
+        },
+        {
+          "id": "l2",
+          "text": "Azure Marketplace"
+        },
+        {
+          "id": "l3",
+          "text": "Billing zone"
+        },
+        {
+          "id": "l4",
+          "text": "Outbound data transfer"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A geographical grouping used for some data-transfer pricing and distinct from an availability zone"
+        },
+        {
+          "id": "r1",
+          "text": "The subscription offer and included allowances that can change effective cost"
+        },
+        {
+          "id": "r2",
+          "text": "A source of third-party solutions that can add vendor charges to Azure service costs"
+        },
+        {
+          "id": "r4",
+          "text": "Data leaving Azure datacenters that can incur zone-based transfer charges"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l1": "r1",
+        "l2": "r2",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "match-0118",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Billing zone"
+        },
+        {
+          "id": "l2",
+          "text": "Outbound data transfer"
+        },
+        {
+          "id": "l3",
+          "text": "Azure Spot Virtual Machines"
+        },
+        {
+          "id": "l4",
+          "text": "Resource type"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A geographical grouping used for some data-transfer pricing and distinct from an availability zone"
+        },
+        {
+          "id": "r3",
+          "text": "Discounted unused capacity suitable for workloads that can tolerate eviction"
+        },
+        {
+          "id": "r4",
+          "text": "The kind and configuration of an Azure service, which influences its price"
+        },
+        {
+          "id": "r2",
+          "text": "Data leaving Azure datacenters that can incur zone-based transfer charges"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "match-0119",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Spot Virtual Machines"
+        },
+        {
+          "id": "l2",
+          "text": "Resource type"
+        },
+        {
+          "id": "l3",
+          "text": "Consumption"
+        },
+        {
+          "id": "l4",
+          "text": "Maintenance"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "The amount of a resource used during a billing period"
+        },
+        {
+          "id": "r2",
+          "text": "The kind and configuration of an Azure service, which influences its price"
+        },
+        {
+          "id": "r4",
+          "text": "Ongoing cleanup and management that prevents unused associated resources from continuing to incur cost"
+        },
+        {
+          "id": "r1",
+          "text": "Discounted unused capacity suitable for workloads that can tolerate eviction"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l2": "r2",
+        "l4": "r4",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "fill-0115",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "question": "{{answer}} is ongoing cleanup and management that prevents unused associated resources from continuing to incur cost.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Budget alert",
+            "Budget automation",
+            "Maintenance",
+            "Outbound data transfer"
+          ],
+          "correctAnswer": "Maintenance"
+        }
+      ],
+      "explanation": "Maintenance is ongoing cleanup and management that prevents unused associated resources from continuing to incur cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "fill-0116",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "question": "The term for the Azure region and data-transfer locations, which can affect pricing is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Budget alert",
+            "Geography",
+            "Storage-option comparison",
+            "Estimate only"
+          ],
+          "correctAnswer": "Geography"
+        }
+      ],
+      "explanation": "Geography is the Azure region and data-transfer locations, which can affect pricing.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "fill-0117",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "question": "In this unit, {{answer}} refers to the subscription offer and included allowances that can change effective cost.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Three-year reservation term",
+            "Tag-based automation",
+            "CostCenter tag",
+            "Subscription type"
+          ],
+          "correctAnswer": "Subscription type"
+        }
+      ],
+      "explanation": "Subscription type is the subscription offer and included allowances that can change effective cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "fill-0118",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "question": "For AZ-900, the concept described as a source of third-party solutions that can add vendor charges to Azure service costs is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Resource type",
+            "Azure Marketplace",
+            "Azure Reservations",
+            "Department spending quota alert"
+          ],
+          "correctAnswer": "Azure Marketplace"
+        }
+      ],
+      "explanation": "Azure Marketplace is a source of third-party solutions that can add vendor charges to Azure service costs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    },
+    {
+      "id": "fill-0119",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe factors that can affect costs in Azure",
+      "question": "Choose the term that completes the statement: {{answer}} means a geographical grouping used for some data-transfer pricing and distinct from an availability zone.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Budget alert",
+            "Geography",
+            "Resource type",
+            "Billing zone"
+          ],
+          "correctAnswer": "Billing zone"
+        }
+      ],
+      "explanation": "Billing zone is a geographical grouping used for some data-transfer pricing and distinct from an availability zone.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure"
+    }
+  ]
+}

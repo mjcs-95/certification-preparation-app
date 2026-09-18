@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe Azure identity, access, and security · Describe Azure authentication methods",
+  "questions": [
+    {
+      "id": "mc-0410",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "question": "Which statement best describes Authentication?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prioritized guidance for reducing identified security risks"
+        },
+        {
+          "id": "b",
+          "text": "The process of establishing the identity of a user, service, or device using credentials"
+        },
+        {
+          "id": "c",
+          "text": "The identity or group membership used as part of a Conditional Access decision"
+        },
+        {
+          "id": "d",
+          "text": "Encryption capabilities for Azure virtual-machine disks"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Authentication is the process of establishing the identity of a user, service, or device using credentials.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "mc-0411",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "question": "In the context of this Microsoft Learn unit, what does Single sign-on (SSO) refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Signing in once and using that authenticated identity across multiple trusted applications"
+        },
+        {
+          "id": "b",
+          "text": "Using overlapping safeguards so attackers must defeat multiple independent controls"
+        },
+        {
+          "id": "c",
+          "text": "Automatic encryption of data written to Azure Storage"
+        },
+        {
+          "id": "d",
+          "text": "Reassessing trust based on changing signals rather than assuming a one-time login establishes permanent trust"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Single sign-on (SSO) is signing in once and using that authenticated identity across multiple trusted applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "mc-0412",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "question": "Which description correctly matches Multifactor authentication (MFA)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Requiring an additional authentication factor so a password alone is not sufficient"
+        },
+        {
+          "id": "b",
+          "text": "Using overlapping safeguards so attackers must defeat multiple independent controls"
+        },
+        {
+          "id": "c",
+          "text": "Reassessing trust based on changing signals rather than assuming a one-time login establishes permanent trust"
+        },
+        {
+          "id": "d",
+          "text": "A cloud security management service that helps assess security posture and protect workloads"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Multifactor authentication (MFA) is requiring an additional authentication factor so a password alone is not sufficient.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "mc-0413",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "question": "Which of the following is the best definition of Knowledge factor?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Automatic encryption of data written to Azure Storage"
+        },
+        {
+          "id": "b",
+          "text": "A service for securely storing and controlling access to secrets, encryption keys, and certificates"
+        },
+        {
+          "id": "c",
+          "text": "The combination of a security principal, role definition, and scope"
+        },
+        {
+          "id": "d",
+          "text": "Something the user knows, such as a password or PIN"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Knowledge factor is something the user knows, such as a password or PIN.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "mc-0414",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "question": "What is the primary meaning of Possession factor in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Something the user has, such as a phone or security key"
+        },
+        {
+          "id": "b",
+          "text": "A view that maps resource configuration and controls to supported compliance standards"
+        },
+        {
+          "id": "c",
+          "text": "Security posture and protection capabilities that can extend beyond Azure to supported other-cloud environments"
+        },
+        {
+          "id": "d",
+          "text": "Device state or compliance information used in access decisions"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Possession factor is something the user has, such as a phone or security key.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "mr-0410",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Single sign-on (SSO): a Microsoft passwordless authentication option using a device-bound credential and PIN or biometrics."
+        },
+        {
+          "id": "b",
+          "text": "Single sign-on (SSO): signing in once and using that authenticated identity across multiple trusted applications."
+        },
+        {
+          "id": "c",
+          "text": "Authentication: the process of establishing the identity of a user, service, or device using credentials."
+        },
+        {
+          "id": "d",
+          "text": "Multifactor authentication (MFA): Microsoft cloud-based identity and access management service."
+        },
+        {
+          "id": "e",
+          "text": "Authentication: something the user knows, such as a password or PIN."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: Authentication — the process of establishing the identity of a user, service, or device using credentials; and Single sign-on (SSO) — signing in once and using that authenticated identity across multiple trusted applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "mr-0411",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Knowledge factor: something the user knows, such as a password or PIN."
+        },
+        {
+          "id": "b",
+          "text": "Multifactor authentication (MFA): something the user is, such as a fingerprint or facial biometric."
+        },
+        {
+          "id": "c",
+          "text": "Multifactor authentication (MFA): requiring an additional authentication factor so a password alone is not sufficient."
+        },
+        {
+          "id": "d",
+          "text": "Knowledge factor: Microsoft Entra capabilities for integrating and controlling access to cloud and on-premises applications."
+        },
+        {
+          "id": "e",
+          "text": "Knowledge factor: a hardware-based passwordless authentication option supported by Microsoft Entra ID."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "c"
+      ],
+      "explanation": "The correct pair is: Multifactor authentication (MFA) — requiring an additional authentication factor so a password alone is not sufficient; and Knowledge factor — something the user knows, such as a password or PIN.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "mr-0412",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Possession factor: an app that can support MFA and passwordless sign-in."
+        },
+        {
+          "id": "b",
+          "text": "Possession factor: using identity and device state with tools such as Intune and Conditional Access."
+        },
+        {
+          "id": "c",
+          "text": "Inherence factor: Microsoft Entra capabilities for integrating and controlling access to cloud and on-premises applications."
+        },
+        {
+          "id": "d",
+          "text": "Inherence factor: something the user is, such as a fingerprint or facial biometric."
+        },
+        {
+          "id": "e",
+          "text": "Possession factor: something the user has, such as a phone or security key."
+        }
+      ],
+      "correctAnswers": [
+        "d",
+        "e"
+      ],
+      "explanation": "The correct pair is: Possession factor — something the user has, such as a phone or security key; and Inherence factor — something the user is, such as a fingerprint or facial biometric.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "mr-0413",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Windows Hello for Business: a Microsoft passwordless authentication option using a device-bound credential and PIN or biometrics."
+        },
+        {
+          "id": "b",
+          "text": "Windows Hello for Business: Microsoft cloud-based identity and access management service."
+        },
+        {
+          "id": "c",
+          "text": "Inherence factor: technology that synchronizes identities between on-premises Active Directory and Microsoft Entra ID."
+        },
+        {
+          "id": "d",
+          "text": "Microsoft Authenticator: technology that synchronizes identities between on-premises Active Directory and Microsoft Entra ID."
+        },
+        {
+          "id": "e",
+          "text": "Microsoft Authenticator: an app that can support MFA and passwordless sign-in."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "e"
+      ],
+      "explanation": "The correct pair is: Windows Hello for Business — a Microsoft passwordless authentication option using a device-bound credential and PIN or biometrics; and Microsoft Authenticator — an app that can support MFA and passwordless sign-in.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "mr-0414",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Authentication: the process of establishing the identity of a user, service, or device using credentials."
+        },
+        {
+          "id": "b",
+          "text": "FIDO2 security key: using identity and device state with tools such as Intune and Conditional Access."
+        },
+        {
+          "id": "c",
+          "text": "FIDO2 security key: a hardware-based passwordless authentication option supported by Microsoft Entra ID."
+        },
+        {
+          "id": "d",
+          "text": "Windows Hello for Business: managed domain capabilities such as domain join, Group Policy, LDAP, Kerberos, and NTLM without customer-managed domain controllers."
+        },
+        {
+          "id": "e",
+          "text": "Authentication: something the user is, such as a fingerprint or facial biometric."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "c"
+      ],
+      "explanation": "The correct pair is: FIDO2 security key — a hardware-based passwordless authentication option supported by Microsoft Entra ID; and Authentication — the process of establishing the identity of a user, service, or device using credentials.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "tf-0410",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "question": "Authentication is the process of establishing the identity of a user, service, or device using credentials.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Authentication is the process of establishing the identity of a user, service, or device using credentials.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "tf-0411",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "question": "According to this unit: Single sign-on (SSO) is something the user has, such as a phone or security key.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Single sign-on (SSO) is signing in once and using that authenticated identity across multiple trusted applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "tf-0412",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "question": "For Azure fundamentals, Multifactor authentication (MFA) is requiring an additional authentication factor so a password alone is not sufficient.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Multifactor authentication (MFA) is requiring an additional authentication factor so a password alone is not sufficient.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "tf-0413",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "question": "This statement is correct: Knowledge factor is a Microsoft passwordless authentication option using a device-bound credential and PIN or biometrics.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Knowledge factor is something the user knows, such as a password or PIN.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "tf-0414",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "question": "The unit supports the following statement: Possession factor is something the user has, such as a phone or security key.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Possession factor is something the user has, such as a phone or security key.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "sc-0820",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "scenario": "The organization is reviewing the topic “Describe Azure authentication methods” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: the process of establishing the identity of a user, service, or device using credentials. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microsoft Entra Connect"
+        },
+        {
+          "id": "b",
+          "text": "Least-privilege external access"
+        },
+        {
+          "id": "c",
+          "text": "Device signal"
+        },
+        {
+          "id": "d",
+          "text": "Authentication"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Authentication is the best match because it is the process of establishing the identity of a user, service, or device using credentials.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "sc-0821",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "scenario": "The organization is reviewing the topic “Describe Azure authentication methods” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs signing in once and using that authenticated identity across multiple trusted applications. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Continuous evaluation"
+        },
+        {
+          "id": "b",
+          "text": "Device signal"
+        },
+        {
+          "id": "c",
+          "text": "Single sign-on (SSO)"
+        },
+        {
+          "id": "d",
+          "text": "Multifactor authentication (MFA)"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Single sign-on (SSO) is the best match because it is signing in once and using that authenticated identity across multiple trusted applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "sc-0822",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "scenario": "The organization is reviewing the topic “Describe Azure authentication methods” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: requiring an additional authentication factor so a password alone is not sufficient. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Physical security layer"
+        },
+        {
+          "id": "b",
+          "text": "Multifactor authentication (MFA)"
+        },
+        {
+          "id": "c",
+          "text": "Just-in-time VM access"
+        },
+        {
+          "id": "d",
+          "text": "Role definition"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Multifactor authentication (MFA) is the best match because it is requiring an additional authentication factor so a password alone is not sufficient.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "sc-0823",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "scenario": "The organization is reviewing the topic “Describe Azure authentication methods” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: something the user knows, such as a password or PIN. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Least privilege"
+        },
+        {
+          "id": "b",
+          "text": "Knowledge factor"
+        },
+        {
+          "id": "c",
+          "text": "Azure Key Vault"
+        },
+        {
+          "id": "d",
+          "text": "Security posture management"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Knowledge factor is the best match because it is something the user knows, such as a password or PIN.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "sc-0824",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "scenario": "The organization is reviewing the topic “Describe Azure authentication methods” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants something the user has, such as a phone or security key. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microsoft Authenticator"
+        },
+        {
+          "id": "b",
+          "text": "Encryption in transit"
+        },
+        {
+          "id": "c",
+          "text": "Possession factor"
+        },
+        {
+          "id": "d",
+          "text": "Application signal"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Possession factor is the best match because it is something the user has, such as a phone or security key.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "sc-0825",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "scenario": "The organization is reviewing the topic “Describe Azure authentication methods” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for something the user is, such as a fingerprint or facial biometric. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Regulatory compliance dashboard"
+        },
+        {
+          "id": "b",
+          "text": "Microsoft Entra ID"
+        },
+        {
+          "id": "c",
+          "text": "Azure RBAC"
+        },
+        {
+          "id": "d",
+          "text": "Inherence factor"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Inherence factor is the best match because it is something the user is, such as a fingerprint or facial biometric.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "sc-0826",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "scenario": "The organization is reviewing the topic “Describe Azure authentication methods” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for a Microsoft passwordless authentication option using a device-bound credential and PIN or biometrics. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Windows Hello for Business"
+        },
+        {
+          "id": "b",
+          "text": "Possession factor"
+        },
+        {
+          "id": "c",
+          "text": "Role definition"
+        },
+        {
+          "id": "d",
+          "text": "Azure Disk Encryption"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Windows Hello for Business is the best match because it is a Microsoft passwordless authentication option using a device-bound credential and PIN or biometrics.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "sc-0827",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "scenario": "The organization is reviewing the topic “Describe Azure authentication methods” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is an app that can support MFA and passwordless sign-in. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Block access"
+        },
+        {
+          "id": "b",
+          "text": "Microsoft Authenticator"
+        },
+        {
+          "id": "c",
+          "text": "Microsoft Entra ID"
+        },
+        {
+          "id": "d",
+          "text": "Multifactor authentication (MFA)"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Microsoft Authenticator is the best match because it is an app that can support MFA and passwordless sign-in.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "sc-0828",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "scenario": "The organization is reviewing the topic “Describe Azure authentication methods” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as a hardware-based passwordless authentication option supported by Microsoft Entra ID. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microsoft-managed key"
+        },
+        {
+          "id": "b",
+          "text": "Azure Storage Service Encryption"
+        },
+        {
+          "id": "c",
+          "text": "FIDO2 security key"
+        },
+        {
+          "id": "d",
+          "text": "Verify explicitly"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "FIDO2 security key is the best match because it is a hardware-based passwordless authentication option supported by Microsoft Entra ID.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "sc-0829",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "scenario": "The organization is reviewing the topic “Describe Azure authentication methods” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides the process of establishing the identity of a user, service, or device using credentials. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Authentication"
+        },
+        {
+          "id": "b",
+          "text": "Compute layer"
+        },
+        {
+          "id": "c",
+          "text": "Secure score"
+        },
+        {
+          "id": "d",
+          "text": "Identity signal"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Authentication is the best match because it is the process of establishing the identity of a user, service, or device using credentials.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "match-0410",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Authentication"
+        },
+        {
+          "id": "l2",
+          "text": "Single sign-on (SSO)"
+        },
+        {
+          "id": "l3",
+          "text": "Multifactor authentication (MFA)"
+        },
+        {
+          "id": "l4",
+          "text": "Knowledge factor"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "The process of establishing the identity of a user, service, or device using credentials"
+        },
+        {
+          "id": "r2",
+          "text": "Signing in once and using that authenticated identity across multiple trusted applications"
+        },
+        {
+          "id": "r4",
+          "text": "Something the user knows, such as a password or PIN"
+        },
+        {
+          "id": "r3",
+          "text": "Requiring an additional authentication factor so a password alone is not sufficient"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "match-0411",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Multifactor authentication (MFA)"
+        },
+        {
+          "id": "l2",
+          "text": "Knowledge factor"
+        },
+        {
+          "id": "l3",
+          "text": "Possession factor"
+        },
+        {
+          "id": "l4",
+          "text": "Inherence factor"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "Something the user knows, such as a password or PIN"
+        },
+        {
+          "id": "r1",
+          "text": "Requiring an additional authentication factor so a password alone is not sufficient"
+        },
+        {
+          "id": "r3",
+          "text": "Something the user has, such as a phone or security key"
+        },
+        {
+          "id": "r4",
+          "text": "Something the user is, such as a fingerprint or facial biometric"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l1": "r1",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "match-0412",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Possession factor"
+        },
+        {
+          "id": "l2",
+          "text": "Inherence factor"
+        },
+        {
+          "id": "l3",
+          "text": "Windows Hello for Business"
+        },
+        {
+          "id": "l4",
+          "text": "Microsoft Authenticator"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "An app that can support MFA and passwordless sign-in"
+        },
+        {
+          "id": "r3",
+          "text": "A Microsoft passwordless authentication option using a device-bound credential and PIN or biometrics"
+        },
+        {
+          "id": "r1",
+          "text": "Something the user has, such as a phone or security key"
+        },
+        {
+          "id": "r2",
+          "text": "Something the user is, such as a fingerprint or facial biometric"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l3": "r3",
+        "l1": "r1",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "match-0413",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Windows Hello for Business"
+        },
+        {
+          "id": "l2",
+          "text": "Microsoft Authenticator"
+        },
+        {
+          "id": "l3",
+          "text": "FIDO2 security key"
+        },
+        {
+          "id": "l4",
+          "text": "Authentication"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A hardware-based passwordless authentication option supported by Microsoft Entra ID"
+        },
+        {
+          "id": "r4",
+          "text": "The process of establishing the identity of a user, service, or device using credentials"
+        },
+        {
+          "id": "r2",
+          "text": "An app that can support MFA and passwordless sign-in"
+        },
+        {
+          "id": "r1",
+          "text": "A Microsoft passwordless authentication option using a device-bound credential and PIN or biometrics"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "match-0414",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "FIDO2 security key"
+        },
+        {
+          "id": "l2",
+          "text": "Authentication"
+        },
+        {
+          "id": "l3",
+          "text": "Single sign-on (SSO)"
+        },
+        {
+          "id": "l4",
+          "text": "Multifactor authentication (MFA)"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Requiring an additional authentication factor so a password alone is not sufficient"
+        },
+        {
+          "id": "r3",
+          "text": "Signing in once and using that authenticated identity across multiple trusted applications"
+        },
+        {
+          "id": "r1",
+          "text": "A hardware-based passwordless authentication option supported by Microsoft Entra ID"
+        },
+        {
+          "id": "r2",
+          "text": "The process of establishing the identity of a user, service, or device using credentials"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l3": "r3",
+        "l1": "r1",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "fill-0410",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "question": "{{answer}} is requiring an additional authentication factor so a password alone is not sufficient.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Block access",
+            "Role definition",
+            "Multifactor authentication (MFA)",
+            "Just-in-time VM access"
+          ],
+          "correctAnswer": "Multifactor authentication (MFA)"
+        }
+      ],
+      "explanation": "Multifactor authentication (MFA) is requiring an additional authentication factor so a password alone is not sufficient.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "fill-0411",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "question": "The term for something the user knows, such as a password or PIN is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Require MFA",
+            "Knowledge factor",
+            "Require compliant device",
+            "Customer identity access"
+          ],
+          "correctAnswer": "Knowledge factor"
+        }
+      ],
+      "explanation": "Knowledge factor is something the user knows, such as a password or PIN.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "fill-0412",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "question": "In this unit, {{answer}} refers to something the user has, such as a phone or security key.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Require MFA",
+            "Network layer",
+            "Possession factor",
+            "Security recommendations"
+          ],
+          "correctAnswer": "Possession factor"
+        }
+      ],
+      "explanation": "Possession factor is something the user has, such as a phone or security key.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "fill-0413",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "question": "For AZ-900, the concept described as something the user is, such as a fingerprint or facial biometric is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Secure score",
+            "Defense in depth",
+            "Inherence factor",
+            "FIDO2 security key"
+          ],
+          "correctAnswer": "Inherence factor"
+        }
+      ],
+      "explanation": "Inherence factor is something the user is, such as a fingerprint or facial biometric.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    },
+    {
+      "id": "fill-0414",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure authentication methods",
+      "question": "Choose the term that completes the statement: {{answer}} means a Microsoft passwordless authentication option using a device-bound credential and PIN or biometrics.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "One-way managed-domain synchronization",
+            "Encryption at rest",
+            "Least-privilege external access",
+            "Windows Hello for Business"
+          ],
+          "correctAnswer": "Windows Hello for Business"
+        }
+      ],
+      "explanation": "Windows Hello for Business is a Microsoft passwordless authentication option using a device-bound credential and PIN or biometrics.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods"
+    }
+  ]
+}

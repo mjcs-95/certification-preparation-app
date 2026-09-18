@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe the benefits of using cloud services · Describe the benefits of manageability in the cloud",
+  "questions": [
+    {
+      "id": "mc-0060",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "question": "Which statement best describes Management of the cloud?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A model that gives customers more control over operating systems, software, patching, and maintenance"
+        },
+        {
+          "id": "b",
+          "text": "Capabilities used to manage cloud resources, such as autoscaling, templates, health monitoring, and alerts"
+        },
+        {
+          "id": "c",
+          "text": "Guidance that influences reliability, performance, and cost predictability"
+        },
+        {
+          "id": "d",
+          "text": "A scripting and command-line option for automating cloud management tasks"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Management of the cloud is capabilities used to manage cloud resources, such as autoscaling, templates, health monitoring, and alerts.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "mc-0061",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "question": "In the context of this Microsoft Learn unit, what does Management in the cloud refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A model that gives customers more control over operating systems, software, patching, and maintenance"
+        },
+        {
+          "id": "b",
+          "text": "Reducing capacity when demand decreases instead of keeping resources overprovisioned"
+        },
+        {
+          "id": "c",
+          "text": "The methods used to interact with cloud resources, such as a web portal, CLI, APIs, and PowerShell"
+        },
+        {
+          "id": "d",
+          "text": "Designing services to remain available as much as possible despite failures or disruptions"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Management in the cloud is the methods used to interact with cloud resources, such as a web portal, CLI, APIs, and PowerShell.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "mc-0062",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "question": "Which description correctly matches Preconfigured templates?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A tool that can estimate potential Azure spending before resources are deployed"
+        },
+        {
+          "id": "b",
+          "text": "A defined set of standards against which cloud resources can be evaluated"
+        },
+        {
+          "id": "c",
+          "text": "Repeatable deployment definitions that reduce manual configuration"
+        },
+        {
+          "id": "d",
+          "text": "Matching provisioned resource capacity to actual workload needs"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Preconfigured templates is repeatable deployment definitions that reduce manual configuration.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "mc-0063",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "question": "Which of the following is the best definition of Health monitoring?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Choosing services and configurations that meet requirements without unnecessary overprovisioning"
+        },
+        {
+          "id": "b",
+          "text": "Matching provisioned resource capacity to actual workload needs"
+        },
+        {
+          "id": "c",
+          "text": "Reducing capacity when demand decreases instead of keeping resources overprovisioned"
+        },
+        {
+          "id": "d",
+          "text": "Observing resource health and responding to failures"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Health monitoring is observing resource health and responding to failures.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "mc-0064",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "question": "What is the primary meaning of Automatic alerts in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Stopping or deallocating unused resources to reduce unnecessary consumption"
+        },
+        {
+          "id": "b",
+          "text": "A graphical browser-based method for managing cloud resources"
+        },
+        {
+          "id": "c",
+          "text": "Observing resource health and responding to failures"
+        },
+        {
+          "id": "d",
+          "text": "Notifications generated when configured metrics or conditions are reached"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Automatic alerts is notifications generated when configured metrics or conditions are reached.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "mr-0060",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Preconfigured templates: a service availability commitment that can include an uptime guarantee."
+        },
+        {
+          "id": "b",
+          "text": "Management of the cloud: capabilities used to manage cloud resources, such as autoscaling, templates, health monitoring, and alerts."
+        },
+        {
+          "id": "c",
+          "text": "Management in the cloud: the methods used to interact with cloud resources, such as a web portal, CLI, APIs, and PowerShell."
+        },
+        {
+          "id": "d",
+          "text": "Management of the cloud: observing resource health and responding to failures."
+        },
+        {
+          "id": "e",
+          "text": "Management in the cloud: a text-based method that supports repeatable and automated cloud management."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: Management of the cloud — capabilities used to manage cloud resources, such as autoscaling, templates, health monitoring, and alerts; and Management in the cloud — the methods used to interact with cloud resources, such as a web portal, CLI, APIs, and PowerShell.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "mr-0061",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Preconfigured templates: repeatable deployment definitions that reduce manual configuration."
+        },
+        {
+          "id": "b",
+          "text": "Health monitoring: designing services to remain available as much as possible despite failures or disruptions."
+        },
+        {
+          "id": "c",
+          "text": "Health monitoring: the ability to adjust resources to meet changes in demand."
+        },
+        {
+          "id": "d",
+          "text": "Preconfigured templates: a graphical browser-based method for managing cloud resources."
+        },
+        {
+          "id": "e",
+          "text": "Health monitoring: observing resource health and responding to failures."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "e"
+      ],
+      "explanation": "The correct pair is: Preconfigured templates — repeatable deployment definitions that reduce manual configuration; and Health monitoring — observing resource health and responding to failures.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "mr-0062",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Automatic alerts: increasing the capabilities of a resource, such as adding CPU or RAM to a virtual machine."
+        },
+        {
+          "id": "b",
+          "text": "Web portal: the ability to adjust resources to meet changes in demand."
+        },
+        {
+          "id": "c",
+          "text": "Web portal: a graphical browser-based method for managing cloud resources."
+        },
+        {
+          "id": "d",
+          "text": "Automatic alerts: a scripting and command-line option for automating cloud management tasks."
+        },
+        {
+          "id": "e",
+          "text": "Automatic alerts: notifications generated when configured metrics or conditions are reached."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "e"
+      ],
+      "explanation": "The correct pair is: Automatic alerts — notifications generated when configured metrics or conditions are reached; and Web portal — a graphical browser-based method for managing cloud resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "mr-0063",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Command-line interface: a service availability commitment that can include an uptime guarantee."
+        },
+        {
+          "id": "b",
+          "text": "PowerShell: a scripting and command-line option for automating cloud management tasks."
+        },
+        {
+          "id": "c",
+          "text": "PowerShell: reducing the capabilities of a resource, such as decreasing CPU or RAM."
+        },
+        {
+          "id": "d",
+          "text": "Web portal: reducing the capabilities of a resource, such as decreasing CPU or RAM."
+        },
+        {
+          "id": "e",
+          "text": "Command-line interface: a text-based method that supports repeatable and automated cloud management."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: Command-line interface — a text-based method that supports repeatable and automated cloud management; and PowerShell — a scripting and command-line option for automating cloud management tasks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "mr-0064",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Management in the cloud: the methods used to interact with cloud resources, such as a web portal, CLI, APIs, and PowerShell."
+        },
+        {
+          "id": "b",
+          "text": "Command-line interface: adding more resource instances, such as additional virtual machines or containers."
+        },
+        {
+          "id": "c",
+          "text": "Management in the cloud: a text-based method that supports repeatable and automated cloud management."
+        },
+        {
+          "id": "d",
+          "text": "Management of the cloud: capabilities used to manage cloud resources, such as autoscaling, templates, health monitoring, and alerts."
+        },
+        {
+          "id": "e",
+          "text": "Management of the cloud: observing resource health and responding to failures."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Management of the cloud — capabilities used to manage cloud resources, such as autoscaling, templates, health monitoring, and alerts; and Management in the cloud — the methods used to interact with cloud resources, such as a web portal, CLI, APIs, and PowerShell.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "tf-0060",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "question": "Management of the cloud is capabilities used to manage cloud resources, such as autoscaling, templates, health monitoring, and alerts.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Management of the cloud is capabilities used to manage cloud resources, such as autoscaling, templates, health monitoring, and alerts.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "tf-0061",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "question": "According to this unit: Management in the cloud is notifications generated when configured metrics or conditions are reached.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Management in the cloud is the methods used to interact with cloud resources, such as a web portal, CLI, APIs, and PowerShell.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "tf-0062",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "question": "For Azure fundamentals, Preconfigured templates is repeatable deployment definitions that reduce manual configuration.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Preconfigured templates is repeatable deployment definitions that reduce manual configuration.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "tf-0063",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "question": "This statement is correct: Health monitoring is a text-based method that supports repeatable and automated cloud management.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Health monitoring is observing resource health and responding to failures.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "tf-0064",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "question": "The unit supports the following statement: Automatic alerts is notifications generated when configured metrics or conditions are reached.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Automatic alerts is notifications generated when configured metrics or conditions are reached.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "sc-0120",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of manageability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: capabilities used to manage cloud resources, such as autoscaling, templates, health monitoring, and alerts. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS security control"
+        },
+        {
+          "id": "b",
+          "text": "Management of the cloud"
+        },
+        {
+          "id": "c",
+          "text": "Vertical scaling down"
+        },
+        {
+          "id": "d",
+          "text": "Cost predictability"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Management of the cloud is the best match because it is capabilities used to manage cloud resources, such as autoscaling, templates, health monitoring, and alerts.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "sc-0121",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of manageability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs the methods used to interact with cloud resources, such as a web portal, CLI, APIs, and PowerShell. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "SaaS maintenance"
+        },
+        {
+          "id": "b",
+          "text": "Management in the cloud"
+        },
+        {
+          "id": "c",
+          "text": "Cloud scale efficiency"
+        },
+        {
+          "id": "d",
+          "text": "Efficient service selection"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Management in the cloud is the best match because it is the methods used to interact with cloud resources, such as a web portal, CLI, APIs, and PowerShell.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "sc-0122",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of manageability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: repeatable deployment definitions that reduce manual configuration. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Preconfigured templates"
+        },
+        {
+          "id": "b",
+          "text": "Automation"
+        },
+        {
+          "id": "c",
+          "text": "IaaS security control"
+        },
+        {
+          "id": "d",
+          "text": "Decentralized cloud design"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Preconfigured templates is the best match because it is repeatable deployment definitions that reduce manual configuration.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "sc-0123",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of manageability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: observing resource health and responding to failures. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "SaaS maintenance"
+        },
+        {
+          "id": "b",
+          "text": "Service-level agreement (SLA)"
+        },
+        {
+          "id": "c",
+          "text": "Health monitoring"
+        },
+        {
+          "id": "d",
+          "text": "Management of the cloud"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Health monitoring is the best match because it is observing resource health and responding to failures.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "sc-0124",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of manageability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants notifications generated when configured metrics or conditions are reached. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Consumption-aware scaling"
+        },
+        {
+          "id": "b",
+          "text": "Vertical scaling up"
+        },
+        {
+          "id": "c",
+          "text": "Automatic alerts"
+        },
+        {
+          "id": "d",
+          "text": "Cost predictability"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Automatic alerts is the best match because it is notifications generated when configured metrics or conditions are reached.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "sc-0125",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of manageability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for a graphical browser-based method for managing cloud resources. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Governance templates"
+        },
+        {
+          "id": "b",
+          "text": "Automation"
+        },
+        {
+          "id": "c",
+          "text": "Monitoring usage trends"
+        },
+        {
+          "id": "d",
+          "text": "Web portal"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Web portal is the best match because it is a graphical browser-based method for managing cloud resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "sc-0126",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of manageability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for a text-based method that supports repeatable and automated cloud management. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Command-line interface"
+        },
+        {
+          "id": "b",
+          "text": "Cloud auditing"
+        },
+        {
+          "id": "c",
+          "text": "Cloud scale efficiency"
+        },
+        {
+          "id": "d",
+          "text": "Efficient service selection"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Command-line interface is the best match because it is a text-based method that supports repeatable and automated cloud management.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "sc-0127",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of manageability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is a scripting and command-line option for automating cloud management tasks. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Scalability"
+        },
+        {
+          "id": "b",
+          "text": "Health monitoring"
+        },
+        {
+          "id": "c",
+          "text": "PowerShell"
+        },
+        {
+          "id": "d",
+          "text": "Automation"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "PowerShell is the best match because it is a scripting and command-line option for automating cloud management tasks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "sc-0128",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of manageability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as capabilities used to manage cloud resources, such as autoscaling, templates, health monitoring, and alerts. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Well-Architected Framework"
+        },
+        {
+          "id": "b",
+          "text": "Preconfigured templates"
+        },
+        {
+          "id": "c",
+          "text": "Vertical scaling down"
+        },
+        {
+          "id": "d",
+          "text": "Management of the cloud"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Management of the cloud is the best match because it is capabilities used to manage cloud resources, such as autoscaling, templates, health monitoring, and alerts.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "sc-0129",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of manageability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides the methods used to interact with cloud resources, such as a web portal, CLI, APIs, and PowerShell. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Web portal"
+        },
+        {
+          "id": "b",
+          "text": "Command-line interface"
+        },
+        {
+          "id": "c",
+          "text": "Vertical scaling down"
+        },
+        {
+          "id": "d",
+          "text": "Management in the cloud"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Management in the cloud is the best match because it is the methods used to interact with cloud resources, such as a web portal, CLI, APIs, and PowerShell.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "match-0060",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Management of the cloud"
+        },
+        {
+          "id": "l2",
+          "text": "Management in the cloud"
+        },
+        {
+          "id": "l3",
+          "text": "Preconfigured templates"
+        },
+        {
+          "id": "l4",
+          "text": "Health monitoring"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Observing resource health and responding to failures"
+        },
+        {
+          "id": "r2",
+          "text": "The methods used to interact with cloud resources, such as a web portal, CLI, APIs, and PowerShell"
+        },
+        {
+          "id": "r3",
+          "text": "Repeatable deployment definitions that reduce manual configuration"
+        },
+        {
+          "id": "r1",
+          "text": "Capabilities used to manage cloud resources, such as autoscaling, templates, health monitoring, and alerts"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l2": "r2",
+        "l3": "r3",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "match-0061",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Preconfigured templates"
+        },
+        {
+          "id": "l2",
+          "text": "Health monitoring"
+        },
+        {
+          "id": "l3",
+          "text": "Automatic alerts"
+        },
+        {
+          "id": "l4",
+          "text": "Web portal"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "A graphical browser-based method for managing cloud resources"
+        },
+        {
+          "id": "r3",
+          "text": "Notifications generated when configured metrics or conditions are reached"
+        },
+        {
+          "id": "r2",
+          "text": "Observing resource health and responding to failures"
+        },
+        {
+          "id": "r1",
+          "text": "Repeatable deployment definitions that reduce manual configuration"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l3": "r3",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "match-0062",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Automatic alerts"
+        },
+        {
+          "id": "l2",
+          "text": "Web portal"
+        },
+        {
+          "id": "l3",
+          "text": "Command-line interface"
+        },
+        {
+          "id": "l4",
+          "text": "PowerShell"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "A scripting and command-line option for automating cloud management tasks"
+        },
+        {
+          "id": "r2",
+          "text": "A graphical browser-based method for managing cloud resources"
+        },
+        {
+          "id": "r1",
+          "text": "Notifications generated when configured metrics or conditions are reached"
+        },
+        {
+          "id": "r3",
+          "text": "A text-based method that supports repeatable and automated cloud management"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "match-0063",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Command-line interface"
+        },
+        {
+          "id": "l2",
+          "text": "PowerShell"
+        },
+        {
+          "id": "l3",
+          "text": "Management of the cloud"
+        },
+        {
+          "id": "l4",
+          "text": "Management in the cloud"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "The methods used to interact with cloud resources, such as a web portal, CLI, APIs, and PowerShell"
+        },
+        {
+          "id": "r3",
+          "text": "Capabilities used to manage cloud resources, such as autoscaling, templates, health monitoring, and alerts"
+        },
+        {
+          "id": "r2",
+          "text": "A scripting and command-line option for automating cloud management tasks"
+        },
+        {
+          "id": "r1",
+          "text": "A text-based method that supports repeatable and automated cloud management"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l3": "r3",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "match-0064",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Management of the cloud"
+        },
+        {
+          "id": "l2",
+          "text": "Management in the cloud"
+        },
+        {
+          "id": "l3",
+          "text": "Preconfigured templates"
+        },
+        {
+          "id": "l4",
+          "text": "Health monitoring"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Capabilities used to manage cloud resources, such as autoscaling, templates, health monitoring, and alerts"
+        },
+        {
+          "id": "r4",
+          "text": "Observing resource health and responding to failures"
+        },
+        {
+          "id": "r2",
+          "text": "The methods used to interact with cloud resources, such as a web portal, CLI, APIs, and PowerShell"
+        },
+        {
+          "id": "r3",
+          "text": "Repeatable deployment definitions that reduce manual configuration"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l4": "r4",
+        "l2": "r2",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "fill-0060",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "question": "{{answer}} is repeatable deployment definitions that reduce manual configuration.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Preconfigured templates",
+            "PowerShell",
+            "SaaS maintenance",
+            "Monitoring usage trends"
+          ],
+          "correctAnswer": "Preconfigured templates"
+        }
+      ],
+      "explanation": "Preconfigured templates is repeatable deployment definitions that reduce manual configuration.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "fill-0061",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "question": "The term for observing resource health and responding to failures is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Preconfigured templates",
+            "Consumption-aware scaling",
+            "Health monitoring",
+            "Command-line interface"
+          ],
+          "correctAnswer": "Health monitoring"
+        }
+      ],
+      "explanation": "Health monitoring is observing resource health and responding to failures.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "fill-0062",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "question": "In this unit, {{answer}} refers to notifications generated when configured metrics or conditions are reached.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Health monitoring",
+            "Cloud scale efficiency",
+            "SaaS maintenance",
+            "Automatic alerts"
+          ],
+          "correctAnswer": "Automatic alerts"
+        }
+      ],
+      "explanation": "Automatic alerts is notifications generated when configured metrics or conditions are reached.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "fill-0063",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "question": "For AZ-900, the concept described as a graphical browser-based method for managing cloud resources is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "High availability",
+            "Web portal",
+            "Efficient service selection",
+            "Command-line interface"
+          ],
+          "correctAnswer": "Web portal"
+        }
+      ],
+      "explanation": "Web portal is a graphical browser-based method for managing cloud resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    },
+    {
+      "id": "fill-0064",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of manageability in the cloud",
+      "question": "Choose the term that completes the statement: {{answer}} means a text-based method that supports repeatable and automated cloud management.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Consumption-aware scaling",
+            "Autoscaling",
+            "Command-line interface",
+            "Automatic alerts"
+          ],
+          "correctAnswer": "Command-line interface"
+        }
+      ],
+      "explanation": "Command-line interface is a text-based method that supports repeatable and automated cloud management.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud"
+    }
+  ]
+}

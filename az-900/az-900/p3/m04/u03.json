@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe Azure storage services · Describe Azure storage redundancy",
+  "questions": [
+    {
+      "id": "mc-0370",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "question": "Which statement best describes Locally redundant storage (LRS)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A Blob Storage tier optimized for infrequently accessed data generally stored for at least 90 days"
+        },
+        {
+          "id": "b",
+          "text": "GZRS with read access to the secondary-region copy before failover"
+        },
+        {
+          "id": "c",
+          "text": "Managed cloud file shares accessible with protocols such as SMB or NFS"
+        },
+        {
+          "id": "d",
+          "text": "Replication of data three times within a single datacenter in the primary region"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Locally redundant storage (LRS) is replication of data three times within a single datacenter in the primary region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "mc-0371",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "question": "In the context of this Microsoft Learn unit, what does Zone-redundant storage (ZRS) refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A hub for assessing and migrating on-premises infrastructure, servers, databases, and applications to Azure"
+        },
+        {
+          "id": "b",
+          "text": "Synchronous replication across three availability zones in the primary region"
+        },
+        {
+          "id": "c",
+          "text": "AzCopy is used behind the scenes for many Storage Explorer file and blob operations"
+        },
+        {
+          "id": "d",
+          "text": "Shipping data on a secure physical device such as Azure Data Box"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Zone-redundant storage (ZRS) is synchronous replication across three availability zones in the primary region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "mc-0372",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "question": "Which description correctly matches Geo-redundant storage (GRS)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ZRS in the primary region plus asynchronous replication to LRS in a secondary region"
+        },
+        {
+          "id": "b",
+          "text": "LRS in the primary region plus asynchronous replication to LRS in a paired secondary region"
+        },
+        {
+          "id": "c",
+          "text": "A cross-platform graphical application for managing Azure Storage files and blobs"
+        },
+        {
+          "id": "d",
+          "text": "A service that keeps Windows Server file data synchronized bidirectionally with Azure Files"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Geo-redundant storage (GRS) is LRS in the primary region plus asynchronous replication to LRS in a paired secondary region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "mc-0373",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "question": "Which of the following is the best definition of Geo-zone-redundant storage (GZRS)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Using a Data Box device to transfer large datasets out of Azure"
+        },
+        {
+          "id": "b",
+          "text": "A Blob Storage tier optimized for infrequently accessed data generally stored for at least 30 days"
+        },
+        {
+          "id": "c",
+          "text": "A hub for assessing and migrating on-premises infrastructure, servers, databases, and applications to Azure"
+        },
+        {
+          "id": "d",
+          "text": "ZRS in the primary region plus asynchronous replication to LRS in a secondary region"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Geo-zone-redundant storage (GZRS) is ZRS in the primary region plus asynchronous replication to LRS in a secondary region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "mc-0374",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "question": "What is the primary meaning of Read-access geo-redundant storage (RA-GRS) in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "GRS with the ability to read the secondary-region copy before failover"
+        },
+        {
+          "id": "b",
+          "text": "An Azure Migrate capability for inventorying workloads and evaluating migration readiness"
+        },
+        {
+          "id": "c",
+          "text": "Keeping frequently accessed files locally while allowing less-used files to remain primarily in Azure"
+        },
+        {
+          "id": "d",
+          "text": "A Blob Storage tier optimized for infrequently accessed data generally stored for at least 30 days"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Read-access geo-redundant storage (RA-GRS) is GRS with the ability to read the secondary-region copy before failover.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "mr-0370",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Geo-redundant storage (GRS): the recommended standard account type for most blob, file, queue, and table storage scenarios."
+        },
+        {
+          "id": "b",
+          "text": "Locally redundant storage (LRS): replication of data three times within a single datacenter in the primary region."
+        },
+        {
+          "id": "c",
+          "text": "Zone-redundant storage (ZRS): synchronous replication across three availability zones in the primary region."
+        },
+        {
+          "id": "d",
+          "text": "Zone-redundant storage (ZRS): the point in time to which data can be recovered, reflecting possible lag in asynchronous replication."
+        },
+        {
+          "id": "e",
+          "text": "Locally redundant storage (LRS): ZRS in the primary region plus asynchronous replication to LRS in a secondary region."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: Locally redundant storage (LRS) — replication of data three times within a single datacenter in the primary region; and Zone-redundant storage (ZRS) — synchronous replication across three availability zones in the primary region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "mr-0371",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Geo-redundant storage (GRS): LRS in the primary region plus asynchronous replication to LRS in a paired secondary region."
+        },
+        {
+          "id": "b",
+          "text": "Geo-zone-redundant storage (GZRS): ZRS in the primary region plus asynchronous replication to LRS in a secondary region."
+        },
+        {
+          "id": "c",
+          "text": "Geo-redundant storage (GRS): GZRS with read access to the secondary-region copy before failover."
+        },
+        {
+          "id": "d",
+          "text": "Geo-zone-redundant storage (GZRS): a premium account type for block and append blobs requiring high transaction rates or low latency."
+        },
+        {
+          "id": "e",
+          "text": "Geo-zone-redundant storage (GZRS): a resource that provides a unique namespace for Azure Storage data and exposes storage services through endpoints."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Geo-redundant storage (GRS) — LRS in the primary region plus asynchronous replication to LRS in a paired secondary region; and Geo-zone-redundant storage (GZRS) — ZRS in the primary region plus asynchronous replication to LRS in a secondary region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "mr-0372",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Read-access geo-redundant storage (RA-GRS): Azure Storage keeping three copies of data in the primary region."
+        },
+        {
+          "id": "b",
+          "text": "Read-access geo-zone-redundant storage (RA-GZRS): a premium account type for block and append blobs requiring high transaction rates or low latency."
+        },
+        {
+          "id": "c",
+          "text": "Read-access geo-zone-redundant storage (RA-GZRS): GZRS with read access to the secondary-region copy before failover."
+        },
+        {
+          "id": "d",
+          "text": "Read-access geo-redundant storage (RA-GRS): a premium account type for Azure Files that supports SMB and NFS shares."
+        },
+        {
+          "id": "e",
+          "text": "Read-access geo-redundant storage (RA-GRS): GRS with the ability to read the secondary-region copy before failover."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "e"
+      ],
+      "explanation": "The correct pair is: Read-access geo-redundant storage (RA-GRS) — GRS with the ability to read the secondary-region copy before failover; and Read-access geo-zone-redundant storage (RA-GZRS) — GZRS with read access to the secondary-region copy before failover.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "mr-0373",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Read-access geo-zone-redundant storage (RA-GZRS): a premium account type dedicated to page blobs."
+        },
+        {
+          "id": "b",
+          "text": "Primary-region replication: a premium account type dedicated to page blobs."
+        },
+        {
+          "id": "c",
+          "text": "Primary-region replication: Azure Storage keeping three copies of data in the primary region."
+        },
+        {
+          "id": "d",
+          "text": "Recovery point objective (RPO): the point in time to which data can be recovered, reflecting possible lag in asynchronous replication."
+        },
+        {
+          "id": "e",
+          "text": "Recovery point objective (RPO): the recommended standard account type for most blob, file, queue, and table storage scenarios."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: Recovery point objective (RPO) — the point in time to which data can be recovered, reflecting possible lag in asynchronous replication; and Primary-region replication — Azure Storage keeping three copies of data in the primary region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "mr-0374",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zone-redundant storage (ZRS): synchronous replication across three availability zones in the primary region."
+        },
+        {
+          "id": "b",
+          "text": "Zone-redundant storage (ZRS): the point in time to which data can be recovered, reflecting possible lag in asynchronous replication."
+        },
+        {
+          "id": "c",
+          "text": "Locally redundant storage (LRS): ZRS in the primary region plus asynchronous replication to LRS in a secondary region."
+        },
+        {
+          "id": "d",
+          "text": "Locally redundant storage (LRS): replication of data three times within a single datacenter in the primary region."
+        },
+        {
+          "id": "e",
+          "text": "Recovery point objective (RPO): the globally unique account name used as part of Azure Storage service endpoints."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Locally redundant storage (LRS) — replication of data three times within a single datacenter in the primary region; and Zone-redundant storage (ZRS) — synchronous replication across three availability zones in the primary region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "tf-0370",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "question": "Locally redundant storage (LRS) is replication of data three times within a single datacenter in the primary region.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Locally redundant storage (LRS) is replication of data three times within a single datacenter in the primary region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "tf-0371",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "question": "According to this unit: Zone-redundant storage (ZRS) is GRS with the ability to read the secondary-region copy before failover.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Zone-redundant storage (ZRS) is synchronous replication across three availability zones in the primary region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "tf-0372",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "question": "For Azure fundamentals, Geo-redundant storage (GRS) is LRS in the primary region plus asynchronous replication to LRS in a paired secondary region.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Geo-redundant storage (GRS) is LRS in the primary region plus asynchronous replication to LRS in a paired secondary region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "tf-0373",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "question": "This statement is correct: Geo-zone-redundant storage (GZRS) is the point in time to which data can be recovered, reflecting possible lag in asynchronous replication.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Geo-zone-redundant storage (GZRS) is ZRS in the primary region plus asynchronous replication to LRS in a secondary region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "tf-0374",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "question": "The unit supports the following statement: Read-access geo-redundant storage (RA-GRS) is GRS with the ability to read the secondary-region copy before failover.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Read-access geo-redundant storage (RA-GRS) is GRS with the ability to read the secondary-region copy before failover.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "sc-0740",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "scenario": "The organization is reviewing the topic “Describe Azure storage redundancy” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: replication of data three times within a single datacenter in the primary region. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Disk Storage"
+        },
+        {
+          "id": "b",
+          "text": "Zone-redundant storage (ZRS)"
+        },
+        {
+          "id": "c",
+          "text": "Discovery and assessment"
+        },
+        {
+          "id": "d",
+          "text": "Locally redundant storage (LRS)"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Locally redundant storage (LRS) is the best match because it is replication of data three times within a single datacenter in the primary region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "sc-0741",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "scenario": "The organization is reviewing the topic “Describe Azure storage redundancy” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs synchronous replication across three availability zones in the primary region. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Data Box"
+        },
+        {
+          "id": "b",
+          "text": "Geo-redundant storage (GRS)"
+        },
+        {
+          "id": "c",
+          "text": "Data Box export"
+        },
+        {
+          "id": "d",
+          "text": "Zone-redundant storage (ZRS)"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Zone-redundant storage (ZRS) is the best match because it is synchronous replication across three availability zones in the primary region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "sc-0742",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "scenario": "The organization is reviewing the topic “Describe Azure storage redundancy” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: lRS in the primary region plus asynchronous replication to LRS in a paired secondary region. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Table Storage"
+        },
+        {
+          "id": "b",
+          "text": "AzCopy"
+        },
+        {
+          "id": "c",
+          "text": "Read-access geo-redundant storage (RA-GRS)"
+        },
+        {
+          "id": "d",
+          "text": "Geo-redundant storage (GRS)"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Geo-redundant storage (GRS) is the best match because it is LRS in the primary region plus asynchronous replication to LRS in a paired secondary region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "sc-0743",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "scenario": "The organization is reviewing the topic “Describe Azure storage redundancy” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: zRS in the primary region plus asynchronous replication to LRS in a secondary region. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Storage account namespace"
+        },
+        {
+          "id": "b",
+          "text": "Primary-region replication"
+        },
+        {
+          "id": "c",
+          "text": "Cold access tier"
+        },
+        {
+          "id": "d",
+          "text": "Geo-zone-redundant storage (GZRS)"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Geo-zone-redundant storage (GZRS) is the best match because it is ZRS in the primary region plus asynchronous replication to LRS in a secondary region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "sc-0744",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "scenario": "The organization is reviewing the topic “Describe Azure storage redundancy” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants gRS with the ability to read the secondary-region copy before failover. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Premium block blobs"
+        },
+        {
+          "id": "b",
+          "text": "Read-access geo-redundant storage (RA-GRS)"
+        },
+        {
+          "id": "c",
+          "text": "Data Box export"
+        },
+        {
+          "id": "d",
+          "text": "Azure Storage Explorer"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Read-access geo-redundant storage (RA-GRS) is the best match because it is GRS with the ability to read the secondary-region copy before failover.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "sc-0745",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "scenario": "The organization is reviewing the topic “Describe Azure storage redundancy” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for gZRS with read access to the secondary-region copy before failover. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Read-access geo-zone-redundant storage (RA-GZRS)"
+        },
+        {
+          "id": "b",
+          "text": "One-way synchronization"
+        },
+        {
+          "id": "c",
+          "text": "Azure Blob Storage"
+        },
+        {
+          "id": "d",
+          "text": "AzCopy"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Read-access geo-zone-redundant storage (RA-GZRS) is the best match because it is GZRS with read access to the secondary-region copy before failover.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "sc-0746",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "scenario": "The organization is reviewing the topic “Describe Azure storage redundancy” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for the point in time to which data can be recovered, reflecting possible lag in asynchronous replication. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zone-redundant storage (ZRS)"
+        },
+        {
+          "id": "b",
+          "text": "Storage account namespace"
+        },
+        {
+          "id": "c",
+          "text": "Recovery point objective (RPO)"
+        },
+        {
+          "id": "d",
+          "text": "Cold access tier"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Recovery point objective (RPO) is the best match because it is the point in time to which data can be recovered, reflecting possible lag in asynchronous replication.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "sc-0747",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "scenario": "The organization is reviewing the topic “Describe Azure storage redundancy” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is azure Storage keeping three copies of data in the primary region. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Primary-region replication"
+        },
+        {
+          "id": "b",
+          "text": "Cold access tier"
+        },
+        {
+          "id": "c",
+          "text": "Premium file shares"
+        },
+        {
+          "id": "d",
+          "text": "Locally redundant storage (LRS)"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Primary-region replication is the best match because it is Azure Storage keeping three copies of data in the primary region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "sc-0748",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "scenario": "The organization is reviewing the topic “Describe Azure storage redundancy” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as replication of data three times within a single datacenter in the primary region. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Locally redundant storage (LRS)"
+        },
+        {
+          "id": "b",
+          "text": "Geo-zone-redundant storage (GZRS)"
+        },
+        {
+          "id": "c",
+          "text": "Storage Explorer backend"
+        },
+        {
+          "id": "d",
+          "text": "Archive access tier"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Locally redundant storage (LRS) is the best match because it is replication of data three times within a single datacenter in the primary region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "sc-0749",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "scenario": "The organization is reviewing the topic “Describe Azure storage redundancy” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides synchronous replication across three availability zones in the primary region. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Blob Storage"
+        },
+        {
+          "id": "b",
+          "text": "Server Migration"
+        },
+        {
+          "id": "c",
+          "text": "Zone-redundant storage (ZRS)"
+        },
+        {
+          "id": "d",
+          "text": "Geo-zone-redundant storage (GZRS)"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Zone-redundant storage (ZRS) is the best match because it is synchronous replication across three availability zones in the primary region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "match-0370",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Locally redundant storage (LRS)"
+        },
+        {
+          "id": "l2",
+          "text": "Zone-redundant storage (ZRS)"
+        },
+        {
+          "id": "l3",
+          "text": "Geo-redundant storage (GRS)"
+        },
+        {
+          "id": "l4",
+          "text": "Geo-zone-redundant storage (GZRS)"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "ZRS in the primary region plus asynchronous replication to LRS in a secondary region"
+        },
+        {
+          "id": "r3",
+          "text": "LRS in the primary region plus asynchronous replication to LRS in a paired secondary region"
+        },
+        {
+          "id": "r1",
+          "text": "Replication of data three times within a single datacenter in the primary region"
+        },
+        {
+          "id": "r2",
+          "text": "Synchronous replication across three availability zones in the primary region"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l3": "r3",
+        "l1": "r1",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "match-0371",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Geo-redundant storage (GRS)"
+        },
+        {
+          "id": "l2",
+          "text": "Geo-zone-redundant storage (GZRS)"
+        },
+        {
+          "id": "l3",
+          "text": "Read-access geo-redundant storage (RA-GRS)"
+        },
+        {
+          "id": "l4",
+          "text": "Read-access geo-zone-redundant storage (RA-GZRS)"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "LRS in the primary region plus asynchronous replication to LRS in a paired secondary region"
+        },
+        {
+          "id": "r3",
+          "text": "GRS with the ability to read the secondary-region copy before failover"
+        },
+        {
+          "id": "r2",
+          "text": "ZRS in the primary region plus asynchronous replication to LRS in a secondary region"
+        },
+        {
+          "id": "r4",
+          "text": "GZRS with read access to the secondary-region copy before failover"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l3": "r3",
+        "l2": "r2",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "match-0372",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Read-access geo-redundant storage (RA-GRS)"
+        },
+        {
+          "id": "l2",
+          "text": "Read-access geo-zone-redundant storage (RA-GZRS)"
+        },
+        {
+          "id": "l3",
+          "text": "Recovery point objective (RPO)"
+        },
+        {
+          "id": "l4",
+          "text": "Primary-region replication"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "The point in time to which data can be recovered, reflecting possible lag in asynchronous replication"
+        },
+        {
+          "id": "r4",
+          "text": "Azure Storage keeping three copies of data in the primary region"
+        },
+        {
+          "id": "r2",
+          "text": "GZRS with read access to the secondary-region copy before failover"
+        },
+        {
+          "id": "r1",
+          "text": "GRS with the ability to read the secondary-region copy before failover"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "match-0373",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Recovery point objective (RPO)"
+        },
+        {
+          "id": "l2",
+          "text": "Primary-region replication"
+        },
+        {
+          "id": "l3",
+          "text": "Locally redundant storage (LRS)"
+        },
+        {
+          "id": "l4",
+          "text": "Zone-redundant storage (ZRS)"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Synchronous replication across three availability zones in the primary region"
+        },
+        {
+          "id": "r1",
+          "text": "The point in time to which data can be recovered, reflecting possible lag in asynchronous replication"
+        },
+        {
+          "id": "r3",
+          "text": "Replication of data three times within a single datacenter in the primary region"
+        },
+        {
+          "id": "r2",
+          "text": "Azure Storage keeping three copies of data in the primary region"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l1": "r1",
+        "l3": "r3",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "match-0374",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Locally redundant storage (LRS)"
+        },
+        {
+          "id": "l2",
+          "text": "Zone-redundant storage (ZRS)"
+        },
+        {
+          "id": "l3",
+          "text": "Geo-redundant storage (GRS)"
+        },
+        {
+          "id": "l4",
+          "text": "Geo-zone-redundant storage (GZRS)"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "ZRS in the primary region plus asynchronous replication to LRS in a secondary region"
+        },
+        {
+          "id": "r3",
+          "text": "LRS in the primary region plus asynchronous replication to LRS in a paired secondary region"
+        },
+        {
+          "id": "r2",
+          "text": "Synchronous replication across three availability zones in the primary region"
+        },
+        {
+          "id": "r1",
+          "text": "Replication of data three times within a single datacenter in the primary region"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l3": "r3",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "fill-0370",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "question": "{{answer}} is lRS in the primary region plus asynchronous replication to LRS in a paired secondary region.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Local file-server cache",
+            "Archive access tier",
+            "Geo-redundant storage (GRS)",
+            "Locally redundant storage (LRS)"
+          ],
+          "correctAnswer": "Geo-redundant storage (GRS)"
+        }
+      ],
+      "explanation": "Geo-redundant storage (GRS) is LRS in the primary region plus asynchronous replication to LRS in a paired secondary region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "fill-0371",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "question": "The term for zRS in the primary region plus asynchronous replication to LRS in a secondary region is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Data Box import",
+            "Geo-zone-redundant storage (GZRS)",
+            "AzCopy",
+            "Local file-server cache"
+          ],
+          "correctAnswer": "Geo-zone-redundant storage (GZRS)"
+        }
+      ],
+      "explanation": "Geo-zone-redundant storage (GZRS) is ZRS in the primary region plus asynchronous replication to LRS in a secondary region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "fill-0372",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "question": "In this unit, {{answer}} refers to gRS with the ability to read the secondary-region copy before failover.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Geo-redundant storage (GRS)",
+            "Read-access geo-redundant storage (RA-GRS)",
+            "Storage Explorer backend",
+            "Premium page blobs"
+          ],
+          "correctAnswer": "Read-access geo-redundant storage (RA-GRS)"
+        }
+      ],
+      "explanation": "Read-access geo-redundant storage (RA-GRS) is GRS with the ability to read the secondary-region copy before failover.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "fill-0373",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "question": "For AZ-900, the concept described as gZRS with read access to the secondary-region copy before failover is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Read-access geo-zone-redundant storage (RA-GZRS)",
+            "Premium block blobs",
+            "Recovery point objective (RPO)",
+            "Geo-zone-redundant storage (GZRS)"
+          ],
+          "correctAnswer": "Read-access geo-zone-redundant storage (RA-GZRS)"
+        }
+      ],
+      "explanation": "Read-access geo-zone-redundant storage (RA-GZRS) is GZRS with read access to the secondary-region copy before failover.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    },
+    {
+      "id": "fill-0374",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Describe Azure storage redundancy",
+      "question": "Choose the term that completes the statement: {{answer}} means the point in time to which data can be recovered, reflecting possible lag in asynchronous replication.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Recovery point objective (RPO)",
+            "Online migration",
+            "Storage account naming rule",
+            "Geo-zone-redundant storage (GZRS)"
+          ],
+          "correctAnswer": "Recovery point objective (RPO)"
+        }
+      ],
+      "explanation": "Recovery point objective (RPO) is the point in time to which data can be recovered, reflecting possible lag in asynchronous replication.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy"
+    }
+  ]
+}

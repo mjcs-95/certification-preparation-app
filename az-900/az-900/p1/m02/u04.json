@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe the benefits of using cloud services · Describe the benefits of security and governance in the cloud",
+  "questions": [
+    {
+      "id": "mc-0055",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "question": "Which statement best describes Cloud governance?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A tool that can estimate potential Azure spending before resources are deployed"
+        },
+        {
+          "id": "b",
+          "text": "The potential for large cloud providers to use infrastructure more efficiently than many isolated environments"
+        },
+        {
+          "id": "c",
+          "text": "Using schedules and policies to turn off or resize resources when they are not needed"
+        },
+        {
+          "id": "d",
+          "text": "Using standards, policies, templates, and auditing to keep deployments aligned with organizational and regulatory requirements"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Cloud governance is using standards, policies, templates, and auditing to keep deployments aligned with organizational and regulatory requirements.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "mc-0056",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "question": "In the context of this Microsoft Learn unit, what does Cloud auditing refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The ability of a system to recover from failures and continue functioning"
+        },
+        {
+          "id": "b",
+          "text": "Observing resource health and responding to failures"
+        },
+        {
+          "id": "c",
+          "text": "The ability to adjust resources to meet changes in demand"
+        },
+        {
+          "id": "d",
+          "text": "Identifying resources that do not comply with a defined baseline"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Cloud auditing is identifying resources that do not comply with a defined baseline.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "mc-0057",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "question": "Which description correctly matches Governance templates?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reducing capacity when demand decreases instead of keeping resources overprovisioned"
+        },
+        {
+          "id": "b",
+          "text": "Repeatable definitions that help deploy resources according to technical and compliance standards"
+        },
+        {
+          "id": "c",
+          "text": "Using distributed regions so a failure in one location does not necessarily stop the whole solution"
+        },
+        {
+          "id": "d",
+          "text": "The ability of a system to recover from failures and continue functioning"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Governance templates is repeatable definitions that help deploy resources according to technical and compliance standards.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "mc-0058",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "question": "Which of the following is the best definition of IaaS security control?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Repeatedly reviewing and improving resource use as workload patterns change"
+        },
+        {
+          "id": "b",
+          "text": "A model that gives customers more control over operating systems, software, patching, and maintenance"
+        },
+        {
+          "id": "c",
+          "text": "A text-based method that supports repeatable and automated cloud management"
+        },
+        {
+          "id": "d",
+          "text": "A scripting and command-line option for automating cloud management tasks"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "IaaS security control is a model that gives customers more control over operating systems, software, patching, and maintenance.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "mc-0059",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "question": "What is the primary meaning of PaaS maintenance in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A model in which more platform patching and maintenance are handled by the provider"
+        },
+        {
+          "id": "b",
+          "text": "Removing resource instances when demand falls"
+        },
+        {
+          "id": "c",
+          "text": "Notifications generated when configured metrics or conditions are reached"
+        },
+        {
+          "id": "d",
+          "text": "The ability of a system to recover from failures and continue functioning"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "PaaS maintenance is a model in which more platform patching and maintenance are handled by the provider.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "mr-0055",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cloud auditing: identifying resources that do not comply with a defined baseline."
+        },
+        {
+          "id": "b",
+          "text": "Cloud governance: using standards, policies, templates, and auditing to keep deployments aligned with organizational and regulatory requirements."
+        },
+        {
+          "id": "c",
+          "text": "Cloud governance: a model that gives customers more control over operating systems, software, patching, and maintenance."
+        },
+        {
+          "id": "d",
+          "text": "Cloud auditing: the ability of cloud-scale infrastructure and security services to help withstand distributed denial-of-service attacks."
+        },
+        {
+          "id": "e",
+          "text": "Governance templates: a service availability commitment that can include an uptime guarantee."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Cloud governance — using standards, policies, templates, and auditing to keep deployments aligned with organizational and regulatory requirements; and Cloud auditing — identifying resources that do not comply with a defined baseline.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "mr-0056",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS security control: designing services to remain available as much as possible despite failures or disruptions."
+        },
+        {
+          "id": "b",
+          "text": "IaaS security control: a model that gives customers more control over operating systems, software, patching, and maintenance."
+        },
+        {
+          "id": "c",
+          "text": "Governance templates: repeatable definitions that help deploy resources according to technical and compliance standards."
+        },
+        {
+          "id": "d",
+          "text": "IaaS security control: the ability to adjust resources to meet changes in demand."
+        },
+        {
+          "id": "e",
+          "text": "Governance templates: a model in which the provider handles most application-stack maintenance."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: Governance templates — repeatable definitions that help deploy resources according to technical and compliance standards; and IaaS security control — a model that gives customers more control over operating systems, software, patching, and maintenance.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "mr-0057",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "SaaS maintenance: a model in which the provider handles most application-stack maintenance."
+        },
+        {
+          "id": "b",
+          "text": "PaaS maintenance: a defined set of standards against which cloud resources can be evaluated."
+        },
+        {
+          "id": "c",
+          "text": "SaaS maintenance: the ability to adjust resources to meet changes in demand."
+        },
+        {
+          "id": "d",
+          "text": "PaaS maintenance: increasing the capabilities of a resource, such as adding CPU or RAM to a virtual machine."
+        },
+        {
+          "id": "e",
+          "text": "PaaS maintenance: a model in which more platform patching and maintenance are handled by the provider."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "e"
+      ],
+      "explanation": "The correct pair is: PaaS maintenance — a model in which more platform patching and maintenance are handled by the provider; and SaaS maintenance — a model in which the provider handles most application-stack maintenance.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "mr-0058",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "SaaS maintenance: reducing the capabilities of a resource, such as decreasing CPU or RAM."
+        },
+        {
+          "id": "b",
+          "text": "DDoS resilience: the ability of cloud-scale infrastructure and security services to help withstand distributed denial-of-service attacks."
+        },
+        {
+          "id": "c",
+          "text": "DDoS resilience: a service availability commitment that can include an uptime guarantee."
+        },
+        {
+          "id": "d",
+          "text": "Governance baseline: a defined set of standards against which cloud resources can be evaluated."
+        },
+        {
+          "id": "e",
+          "text": "Governance baseline: reducing the capabilities of a resource, such as decreasing CPU or RAM."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: DDoS resilience — the ability of cloud-scale infrastructure and security services to help withstand distributed denial-of-service attacks; and Governance baseline — a defined set of standards against which cloud resources can be evaluated.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "mr-0059",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cloud governance: a model that gives customers more control over operating systems, software, patching, and maintenance."
+        },
+        {
+          "id": "b",
+          "text": "Cloud governance: using standards, policies, templates, and auditing to keep deployments aligned with organizational and regulatory requirements."
+        },
+        {
+          "id": "c",
+          "text": "DDoS resilience: adding more resource instances, such as additional virtual machines or containers."
+        },
+        {
+          "id": "d",
+          "text": "Cloud auditing: identifying resources that do not comply with a defined baseline."
+        },
+        {
+          "id": "e",
+          "text": "Cloud auditing: the ability of cloud-scale infrastructure and security services to help withstand distributed denial-of-service attacks."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: Cloud governance — using standards, policies, templates, and auditing to keep deployments aligned with organizational and regulatory requirements; and Cloud auditing — identifying resources that do not comply with a defined baseline.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "tf-0055",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "question": "Cloud governance is using standards, policies, templates, and auditing to keep deployments aligned with organizational and regulatory requirements.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Cloud governance is using standards, policies, templates, and auditing to keep deployments aligned with organizational and regulatory requirements.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "tf-0056",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "question": "According to this unit: Cloud auditing is a model in which more platform patching and maintenance are handled by the provider.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Cloud auditing is identifying resources that do not comply with a defined baseline.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "tf-0057",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "question": "For Azure fundamentals, Governance templates is repeatable definitions that help deploy resources according to technical and compliance standards.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Governance templates is repeatable definitions that help deploy resources according to technical and compliance standards.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "tf-0058",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "question": "This statement is correct: IaaS security control is the ability of cloud-scale infrastructure and security services to help withstand distributed denial-of-service attacks.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. IaaS security control is a model that gives customers more control over operating systems, software, patching, and maintenance.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "tf-0059",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "question": "The unit supports the following statement: PaaS maintenance is a model in which more platform patching and maintenance are handled by the provider.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "PaaS maintenance is a model in which more platform patching and maintenance are handled by the provider.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "sc-0110",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of security and governance in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: using standards, policies, templates, and auditing to keep deployments aligned with organizational and regulatory requirements. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vertical scaling down"
+        },
+        {
+          "id": "b",
+          "text": "Cloud scale efficiency"
+        },
+        {
+          "id": "c",
+          "text": "Cloud governance"
+        },
+        {
+          "id": "d",
+          "text": "Automatic alerts"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Cloud governance is the best match because it is using standards, policies, templates, and auditing to keep deployments aligned with organizational and regulatory requirements.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "sc-0111",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of security and governance in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs identifying resources that do not comply with a defined baseline. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cloud auditing"
+        },
+        {
+          "id": "b",
+          "text": "Service-level agreement (SLA)"
+        },
+        {
+          "id": "c",
+          "text": "Horizontal scaling out"
+        },
+        {
+          "id": "d",
+          "text": "PowerShell"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Cloud auditing is the best match because it is identifying resources that do not comply with a defined baseline.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "sc-0112",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of security and governance in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: repeatable definitions that help deploy resources according to technical and compliance standards. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Governance templates"
+        },
+        {
+          "id": "b",
+          "text": "Preconfigured templates"
+        },
+        {
+          "id": "c",
+          "text": "Azure Well-Architected Framework"
+        },
+        {
+          "id": "d",
+          "text": "Autoscaling for sustainability"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Governance templates is the best match because it is repeatable definitions that help deploy resources according to technical and compliance standards.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "sc-0113",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of security and governance in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: a model that gives customers more control over operating systems, software, patching, and maintenance. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS security control"
+        },
+        {
+          "id": "b",
+          "text": "DDoS resilience"
+        },
+        {
+          "id": "c",
+          "text": "Cloud governance"
+        },
+        {
+          "id": "d",
+          "text": "Health monitoring"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "IaaS security control is the best match because it is a model that gives customers more control over operating systems, software, patching, and maintenance.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "sc-0114",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of security and governance in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants a model in which more platform patching and maintenance are handled by the provider. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vertical scaling down"
+        },
+        {
+          "id": "b",
+          "text": "PaaS maintenance"
+        },
+        {
+          "id": "c",
+          "text": "Horizontal scaling in"
+        },
+        {
+          "id": "d",
+          "text": "Governance baseline"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "PaaS maintenance is the best match because it is a model in which more platform patching and maintenance are handled by the provider.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "sc-0115",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of security and governance in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for a model in which the provider handles most application-stack maintenance. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "SaaS maintenance"
+        },
+        {
+          "id": "b",
+          "text": "Autoscaling"
+        },
+        {
+          "id": "c",
+          "text": "Deallocation"
+        },
+        {
+          "id": "d",
+          "text": "Management of the cloud"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "SaaS maintenance is the best match because it is a model in which the provider handles most application-stack maintenance.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "sc-0116",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of security and governance in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for the ability of cloud-scale infrastructure and security services to help withstand distributed denial-of-service attacks. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vertical scaling up"
+        },
+        {
+          "id": "b",
+          "text": "Governance baseline"
+        },
+        {
+          "id": "c",
+          "text": "DDoS resilience"
+        },
+        {
+          "id": "d",
+          "text": "Management in the cloud"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "DDoS resilience is the best match because it is the ability of cloud-scale infrastructure and security services to help withstand distributed denial-of-service attacks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "sc-0117",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of security and governance in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is a defined set of standards against which cloud resources can be evaluated. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vertical scaling down"
+        },
+        {
+          "id": "b",
+          "text": "Azure Well-Architected Framework"
+        },
+        {
+          "id": "c",
+          "text": "Governance baseline"
+        },
+        {
+          "id": "d",
+          "text": "Vertical scaling up"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Governance baseline is the best match because it is a defined set of standards against which cloud resources can be evaluated.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "sc-0118",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of security and governance in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as using standards, policies, templates, and auditing to keep deployments aligned with organizational and regulatory requirements. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vertical scaling down"
+        },
+        {
+          "id": "b",
+          "text": "Consumption-aware scaling"
+        },
+        {
+          "id": "c",
+          "text": "Cloud governance"
+        },
+        {
+          "id": "d",
+          "text": "SaaS maintenance"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Cloud governance is the best match because it is using standards, policies, templates, and auditing to keep deployments aligned with organizational and regulatory requirements.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "sc-0119",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of security and governance in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides identifying resources that do not comply with a defined baseline. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Performance predictability"
+        },
+        {
+          "id": "b",
+          "text": "Azure Well-Architected Framework"
+        },
+        {
+          "id": "c",
+          "text": "Cloud auditing"
+        },
+        {
+          "id": "d",
+          "text": "Command-line interface"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Cloud auditing is the best match because it is identifying resources that do not comply with a defined baseline.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "match-0055",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Cloud governance"
+        },
+        {
+          "id": "l2",
+          "text": "Cloud auditing"
+        },
+        {
+          "id": "l3",
+          "text": "Governance templates"
+        },
+        {
+          "id": "l4",
+          "text": "IaaS security control"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "A model that gives customers more control over operating systems, software, patching, and maintenance"
+        },
+        {
+          "id": "r2",
+          "text": "Identifying resources that do not comply with a defined baseline"
+        },
+        {
+          "id": "r3",
+          "text": "Repeatable definitions that help deploy resources according to technical and compliance standards"
+        },
+        {
+          "id": "r1",
+          "text": "Using standards, policies, templates, and auditing to keep deployments aligned with organizational and regulatory requirements"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l2": "r2",
+        "l3": "r3",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "match-0056",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Governance templates"
+        },
+        {
+          "id": "l2",
+          "text": "IaaS security control"
+        },
+        {
+          "id": "l3",
+          "text": "PaaS maintenance"
+        },
+        {
+          "id": "l4",
+          "text": "SaaS maintenance"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A model in which more platform patching and maintenance are handled by the provider"
+        },
+        {
+          "id": "r4",
+          "text": "A model in which the provider handles most application-stack maintenance"
+        },
+        {
+          "id": "r2",
+          "text": "A model that gives customers more control over operating systems, software, patching, and maintenance"
+        },
+        {
+          "id": "r1",
+          "text": "Repeatable definitions that help deploy resources according to technical and compliance standards"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "match-0057",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "PaaS maintenance"
+        },
+        {
+          "id": "l2",
+          "text": "SaaS maintenance"
+        },
+        {
+          "id": "l3",
+          "text": "DDoS resilience"
+        },
+        {
+          "id": "l4",
+          "text": "Governance baseline"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A model in which more platform patching and maintenance are handled by the provider"
+        },
+        {
+          "id": "r2",
+          "text": "A model in which the provider handles most application-stack maintenance"
+        },
+        {
+          "id": "r4",
+          "text": "A defined set of standards against which cloud resources can be evaluated"
+        },
+        {
+          "id": "r3",
+          "text": "The ability of cloud-scale infrastructure and security services to help withstand distributed denial-of-service attacks"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "match-0058",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "DDoS resilience"
+        },
+        {
+          "id": "l2",
+          "text": "Governance baseline"
+        },
+        {
+          "id": "l3",
+          "text": "Cloud governance"
+        },
+        {
+          "id": "l4",
+          "text": "Cloud auditing"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "The ability of cloud-scale infrastructure and security services to help withstand distributed denial-of-service attacks"
+        },
+        {
+          "id": "r4",
+          "text": "Identifying resources that do not comply with a defined baseline"
+        },
+        {
+          "id": "r2",
+          "text": "A defined set of standards against which cloud resources can be evaluated"
+        },
+        {
+          "id": "r3",
+          "text": "Using standards, policies, templates, and auditing to keep deployments aligned with organizational and regulatory requirements"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l4": "r4",
+        "l2": "r2",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "match-0059",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Cloud governance"
+        },
+        {
+          "id": "l2",
+          "text": "Cloud auditing"
+        },
+        {
+          "id": "l3",
+          "text": "Governance templates"
+        },
+        {
+          "id": "l4",
+          "text": "IaaS security control"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Using standards, policies, templates, and auditing to keep deployments aligned with organizational and regulatory requirements"
+        },
+        {
+          "id": "r2",
+          "text": "Identifying resources that do not comply with a defined baseline"
+        },
+        {
+          "id": "r4",
+          "text": "A model that gives customers more control over operating systems, software, patching, and maintenance"
+        },
+        {
+          "id": "r3",
+          "text": "Repeatable definitions that help deploy resources according to technical and compliance standards"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "fill-0055",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "question": "{{answer}} is repeatable definitions that help deploy resources according to technical and compliance standards.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Efficient service selection",
+            "Governance templates",
+            "Deallocation",
+            "Scalability"
+          ],
+          "correctAnswer": "Governance templates"
+        }
+      ],
+      "explanation": "Governance templates is repeatable definitions that help deploy resources according to technical and compliance standards.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "fill-0056",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "question": "The term for a model that gives customers more control over operating systems, software, patching, and maintenance is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Performance predictability",
+            "PaaS maintenance",
+            "Command-line interface",
+            "IaaS security control"
+          ],
+          "correctAnswer": "IaaS security control"
+        }
+      ],
+      "explanation": "IaaS security control is a model that gives customers more control over operating systems, software, patching, and maintenance.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "fill-0057",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "question": "In this unit, {{answer}} refers to a model in which more platform patching and maintenance are handled by the provider.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "PaaS maintenance",
+            "Health monitoring",
+            "Governance templates",
+            "Autoscaling"
+          ],
+          "correctAnswer": "PaaS maintenance"
+        }
+      ],
+      "explanation": "PaaS maintenance is a model in which more platform patching and maintenance are handled by the provider.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "fill-0058",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "question": "For AZ-900, the concept described as a model in which the provider handles most application-stack maintenance is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "SaaS maintenance",
+            "IaaS security control",
+            "Azure Well-Architected Framework",
+            "Cloud governance"
+          ],
+          "correctAnswer": "SaaS maintenance"
+        }
+      ],
+      "explanation": "SaaS maintenance is a model in which the provider handles most application-stack maintenance.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    },
+    {
+      "id": "fill-0059",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of security and governance in the cloud",
+      "question": "Choose the term that completes the statement: {{answer}} means the ability of cloud-scale infrastructure and security services to help withstand distributed denial-of-service attacks.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Management in the cloud",
+            "DDoS resilience",
+            "Preconfigured templates",
+            "Monitoring usage trends"
+          ],
+          "correctAnswer": "DDoS resilience"
+        }
+      ],
+      "explanation": "DDoS resilience is the ability of cloud-scale infrastructure and security services to help withstand distributed denial-of-service attacks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud"
+    }
+  ]
+}

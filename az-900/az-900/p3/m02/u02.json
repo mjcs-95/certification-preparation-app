@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe Azure compute services · Describe Azure virtual machines",
+  "questions": [
+    {
+      "id": "mc-0285",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "question": "Which statement best describes Azure Virtual Machine?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Allowing multiple users to share Windows session-host infrastructure when appropriate"
+        },
+        {
+          "id": "b",
+          "text": "The default style in which each invocation should not depend on local state from a previous invocation"
+        },
+        {
+          "id": "c",
+          "text": "An IaaS compute resource that provides control over the guest operating system and installed software"
+        },
+        {
+          "id": "d",
+          "text": "A PaaS option for running individual containers quickly without managing virtual machines"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure Virtual Machine is an IaaS compute resource that provides control over the guest operating system and installed software.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "mc-0286",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "question": "In the context of this Microsoft Learn unit, what does VM image refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A lightweight virtualization environment that packages an application and dependencies without requiring a separate guest OS per instance"
+        },
+        {
+          "id": "b",
+          "text": "A managed HTTP-based platform for hosting web apps, REST APIs, mobile back ends, and related workloads without managing infrastructure"
+        },
+        {
+          "id": "c",
+          "text": "A template that can include an operating system and preinstalled components for rapid VM deployment"
+        },
+        {
+          "id": "d",
+          "text": "A simplified SaaS platform for building and managing IoT solutions"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "VM image is a template that can include an operating system and preinstalled components for rapid VM deployment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "mc-0287",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "question": "Which description correctly matches B-series VM?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A burstable, cost-efficient VM family suited to workloads with occasional CPU spikes"
+        },
+        {
+          "id": "b",
+          "text": "A model in which developers focus on code while the platform manages the underlying servers and scaling"
+        },
+        {
+          "id": "c",
+          "text": "A managed container platform with built-in scaling and load balancing"
+        },
+        {
+          "id": "d",
+          "text": "Scaling one containerized component separately from others when only that component has increased demand"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "B-series VM is a burstable, cost-efficient VM family suited to workloads with occasional CPU spikes.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "mc-0288",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "question": "Which of the following is the best definition of D-series VM?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A VM resiliency feature that separates instances across fault domains and update domains within a region"
+        },
+        {
+          "id": "b",
+          "text": "A general-purpose VM family suited to common application and web-server workloads"
+        },
+        {
+          "id": "c",
+          "text": "A template that can include an operating system and preinstalled components for rapid VM deployment"
+        },
+        {
+          "id": "d",
+          "text": "A PaaS option for running individual containers quickly without managing virtual machines"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "D-series VM is a general-purpose VM family suited to common application and web-server workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "mc-0289",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "question": "What is the primary meaning of E-series VM in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A managed HTTP-based platform for hosting web apps, REST APIs, mobile back ends, and related workloads without managing infrastructure"
+        },
+        {
+          "id": "b",
+          "text": "An App Service feature for running background programs or scripts on a schedule or trigger"
+        },
+        {
+          "id": "c",
+          "text": "A memory-optimized VM family suited to memory-intensive workloads"
+        },
+        {
+          "id": "d",
+          "text": "A template that can include an operating system and preinstalled components for rapid VM deployment"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "E-series VM is a memory-optimized VM family suited to memory-intensive workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "mr-0285",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "VM image: a GPU-enabled VM family suited to graphics and AI workloads."
+        },
+        {
+          "id": "b",
+          "text": "VM image: a template that can include an operating system and preinstalled components for rapid VM deployment."
+        },
+        {
+          "id": "c",
+          "text": "Azure Virtual Machine: a general-purpose VM family suited to common application and web-server workloads."
+        },
+        {
+          "id": "d",
+          "text": "B-series VM: a managed Azure service that provides virtual Windows desktops and applications to remote users."
+        },
+        {
+          "id": "e",
+          "text": "Azure Virtual Machine: an IaaS compute resource that provides control over the guest operating system and installed software."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: Azure Virtual Machine — an IaaS compute resource that provides control over the guest operating system and installed software; and VM image — a template that can include an operating system and preinstalled components for rapid VM deployment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "mr-0286",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "D-series VM: hosting desktops and applications in Azure rather than storing all application state on local user devices."
+        },
+        {
+          "id": "b",
+          "text": "B-series VM: a compute-optimized VM family suited to CPU-intensive workloads."
+        },
+        {
+          "id": "c",
+          "text": "B-series VM: a burstable, cost-efficient VM family suited to workloads with occasional CPU spikes."
+        },
+        {
+          "id": "d",
+          "text": "D-series VM: a general-purpose VM family suited to common application and web-server workloads."
+        },
+        {
+          "id": "e",
+          "text": "D-series VM: a VM resiliency feature that separates instances across fault domains and update domains within a region."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: B-series VM — a burstable, cost-efficient VM family suited to workloads with occasional CPU spikes; and D-series VM — a general-purpose VM family suited to common application and web-server workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "mr-0287",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "F-series VM: hosting desktops and applications in Azure rather than storing all application state on local user devices."
+        },
+        {
+          "id": "b",
+          "text": "F-series VM: a compute-optimized VM family suited to CPU-intensive workloads."
+        },
+        {
+          "id": "c",
+          "text": "E-series VM: a service for managing groups of similar load-balanced VMs that can scale instance count."
+        },
+        {
+          "id": "d",
+          "text": "E-series VM: a memory-optimized VM family suited to memory-intensive workloads."
+        },
+        {
+          "id": "e",
+          "text": "E-series VM: using Azure identity and access controls for virtual desktop users."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: E-series VM — a memory-optimized VM family suited to memory-intensive workloads; and F-series VM — a compute-optimized VM family suited to CPU-intensive workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "mr-0288",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "N-series VM: a GPU-enabled VM family suited to graphics and AI workloads."
+        },
+        {
+          "id": "b",
+          "text": "N-series VM: a managed Azure service that provides virtual Windows desktops and applications to remote users."
+        },
+        {
+          "id": "c",
+          "text": "F-series VM: allowing multiple users to share Windows session-host infrastructure when appropriate."
+        },
+        {
+          "id": "d",
+          "text": "Virtual Machine Scale Set: allowing multiple users to share Windows session-host infrastructure when appropriate."
+        },
+        {
+          "id": "e",
+          "text": "Virtual Machine Scale Set: a service for managing groups of similar load-balanced VMs that can scale instance count."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "e"
+      ],
+      "explanation": "The correct pair is: N-series VM — a GPU-enabled VM family suited to graphics and AI workloads; and Virtual Machine Scale Set — a service for managing groups of similar load-balanced VMs that can scale instance count.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "mr-0289",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Availability set: using Azure identity and access controls for virtual desktop users."
+        },
+        {
+          "id": "b",
+          "text": "Azure Virtual Machine: an IaaS compute resource that provides control over the guest operating system and installed software."
+        },
+        {
+          "id": "c",
+          "text": "Azure Virtual Machine: a compute-optimized VM family suited to CPU-intensive workloads."
+        },
+        {
+          "id": "d",
+          "text": "Availability set: a VM resiliency feature that separates instances across fault domains and update domains within a region."
+        },
+        {
+          "id": "e",
+          "text": "N-series VM: providing a dedicated session experience for a user when workload needs require it."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: Availability set — a VM resiliency feature that separates instances across fault domains and update domains within a region; and Azure Virtual Machine — an IaaS compute resource that provides control over the guest operating system and installed software.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "tf-0285",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "question": "Azure Virtual Machine is an IaaS compute resource that provides control over the guest operating system and installed software.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure Virtual Machine is an IaaS compute resource that provides control over the guest operating system and installed software.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "tf-0286",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "question": "According to this unit: VM image is a memory-optimized VM family suited to memory-intensive workloads.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. VM image is a template that can include an operating system and preinstalled components for rapid VM deployment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "tf-0287",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "question": "For Azure fundamentals, B-series VM is a burstable, cost-efficient VM family suited to workloads with occasional CPU spikes.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "B-series VM is a burstable, cost-efficient VM family suited to workloads with occasional CPU spikes.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "tf-0288",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "question": "This statement is correct: D-series VM is a GPU-enabled VM family suited to graphics and AI workloads.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. D-series VM is a general-purpose VM family suited to common application and web-server workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "tf-0289",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "question": "The unit supports the following statement: E-series VM is a memory-optimized VM family suited to memory-intensive workloads.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "E-series VM is a memory-optimized VM family suited to memory-intensive workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "sc-0570",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual machines” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: an IaaS compute resource that provides control over the guest operating system and installed software. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Virtual Desktop"
+        },
+        {
+          "id": "b",
+          "text": "Azure Virtual Machine"
+        },
+        {
+          "id": "c",
+          "text": "Distributed workforce use case"
+        },
+        {
+          "id": "d",
+          "text": "Durable Functions"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Virtual Machine is the best match because it is an IaaS compute resource that provides control over the guest operating system and installed software.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "sc-0571",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual machines” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs a template that can include an operating system and preinstalled components for rapid VM deployment. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Durable Functions"
+        },
+        {
+          "id": "b",
+          "text": "VM image"
+        },
+        {
+          "id": "c",
+          "text": "Reduced local data exposure"
+        },
+        {
+          "id": "d",
+          "text": "F-series VM"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "VM image is the best match because it is a template that can include an operating system and preinstalled components for rapid VM deployment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "sc-0572",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual machines” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: a burstable, cost-efficient VM family suited to workloads with occasional CPU spikes. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Stateless function"
+        },
+        {
+          "id": "b",
+          "text": "B-series VM"
+        },
+        {
+          "id": "c",
+          "text": "Serverless compute"
+        },
+        {
+          "id": "d",
+          "text": "Reduced local data exposure"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "B-series VM is the best match because it is a burstable, cost-efficient VM family suited to workloads with occasional CPU spikes.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "sc-0573",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual machines” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: a general-purpose VM family suited to common application and web-server workloads. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "API app"
+        },
+        {
+          "id": "b",
+          "text": "D-series VM"
+        },
+        {
+          "id": "c",
+          "text": "Distributed workforce use case"
+        },
+        {
+          "id": "d",
+          "text": "Azure AI services"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "D-series VM is the best match because it is a general-purpose VM family suited to common application and web-server workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "sc-0574",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual machines” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants a memory-optimized VM family suited to memory-intensive workloads. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Stateless function"
+        },
+        {
+          "id": "b",
+          "text": "E-series VM"
+        },
+        {
+          "id": "c",
+          "text": "Azure Container Instances"
+        },
+        {
+          "id": "d",
+          "text": "Mobile app back end"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "E-series VM is the best match because it is a memory-optimized VM family suited to memory-intensive workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "sc-0575",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual machines” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for a compute-optimized VM family suited to CPU-intensive workloads. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Multi-session Windows"
+        },
+        {
+          "id": "b",
+          "text": "D-series VM"
+        },
+        {
+          "id": "c",
+          "text": "Stateless function"
+        },
+        {
+          "id": "d",
+          "text": "F-series VM"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "F-series VM is the best match because it is a compute-optimized VM family suited to CPU-intensive workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "sc-0576",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual machines” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for a GPU-enabled VM family suited to graphics and AI workloads. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Docker"
+        },
+        {
+          "id": "b",
+          "text": "Single-session Windows"
+        },
+        {
+          "id": "c",
+          "text": "Container"
+        },
+        {
+          "id": "d",
+          "text": "N-series VM"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "N-series VM is the best match because it is a GPU-enabled VM family suited to graphics and AI workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "sc-0577",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual machines” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is a service for managing groups of similar load-balanced VMs that can scale instance count. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Stateless function"
+        },
+        {
+          "id": "b",
+          "text": "Virtual Machine Scale Set"
+        },
+        {
+          "id": "c",
+          "text": "Azure IoT Central"
+        },
+        {
+          "id": "d",
+          "text": "N-series VM"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Virtual Machine Scale Set is the best match because it is a service for managing groups of similar load-balanced VMs that can scale instance count.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "sc-0578",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual machines” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as a VM resiliency feature that separates instances across fault domains and update domains within a region. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure IoT Hub"
+        },
+        {
+          "id": "b",
+          "text": "Availability set"
+        },
+        {
+          "id": "c",
+          "text": "Automatic scaling"
+        },
+        {
+          "id": "d",
+          "text": "Multi-session Windows"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Availability set is the best match because it is a VM resiliency feature that separates instances across fault domains and update domains within a region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "sc-0579",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual machines” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides an IaaS compute resource that provides control over the guest operating system and installed software. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Functions"
+        },
+        {
+          "id": "b",
+          "text": "Azure Virtual Machine"
+        },
+        {
+          "id": "c",
+          "text": "Event trigger"
+        },
+        {
+          "id": "d",
+          "text": "Multi-session Windows"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Virtual Machine is the best match because it is an IaaS compute resource that provides control over the guest operating system and installed software.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "match-0285",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Virtual Machine"
+        },
+        {
+          "id": "l2",
+          "text": "VM image"
+        },
+        {
+          "id": "l3",
+          "text": "B-series VM"
+        },
+        {
+          "id": "l4",
+          "text": "D-series VM"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "A template that can include an operating system and preinstalled components for rapid VM deployment"
+        },
+        {
+          "id": "r1",
+          "text": "An IaaS compute resource that provides control over the guest operating system and installed software"
+        },
+        {
+          "id": "r4",
+          "text": "A general-purpose VM family suited to common application and web-server workloads"
+        },
+        {
+          "id": "r3",
+          "text": "A burstable, cost-efficient VM family suited to workloads with occasional CPU spikes"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l1": "r1",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "match-0286",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "B-series VM"
+        },
+        {
+          "id": "l2",
+          "text": "D-series VM"
+        },
+        {
+          "id": "l3",
+          "text": "E-series VM"
+        },
+        {
+          "id": "l4",
+          "text": "F-series VM"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A memory-optimized VM family suited to memory-intensive workloads"
+        },
+        {
+          "id": "r1",
+          "text": "A burstable, cost-efficient VM family suited to workloads with occasional CPU spikes"
+        },
+        {
+          "id": "r2",
+          "text": "A general-purpose VM family suited to common application and web-server workloads"
+        },
+        {
+          "id": "r4",
+          "text": "A compute-optimized VM family suited to CPU-intensive workloads"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l1": "r1",
+        "l2": "r2",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "match-0287",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "E-series VM"
+        },
+        {
+          "id": "l2",
+          "text": "F-series VM"
+        },
+        {
+          "id": "l3",
+          "text": "N-series VM"
+        },
+        {
+          "id": "l4",
+          "text": "Virtual Machine Scale Set"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A memory-optimized VM family suited to memory-intensive workloads"
+        },
+        {
+          "id": "r3",
+          "text": "A GPU-enabled VM family suited to graphics and AI workloads"
+        },
+        {
+          "id": "r4",
+          "text": "A service for managing groups of similar load-balanced VMs that can scale instance count"
+        },
+        {
+          "id": "r2",
+          "text": "A compute-optimized VM family suited to CPU-intensive workloads"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "match-0288",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "N-series VM"
+        },
+        {
+          "id": "l2",
+          "text": "Virtual Machine Scale Set"
+        },
+        {
+          "id": "l3",
+          "text": "Availability set"
+        },
+        {
+          "id": "l4",
+          "text": "Azure Virtual Machine"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A GPU-enabled VM family suited to graphics and AI workloads"
+        },
+        {
+          "id": "r4",
+          "text": "An IaaS compute resource that provides control over the guest operating system and installed software"
+        },
+        {
+          "id": "r3",
+          "text": "A VM resiliency feature that separates instances across fault domains and update domains within a region"
+        },
+        {
+          "id": "r2",
+          "text": "A service for managing groups of similar load-balanced VMs that can scale instance count"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l4": "r4",
+        "l3": "r3",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "match-0289",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Availability set"
+        },
+        {
+          "id": "l2",
+          "text": "Azure Virtual Machine"
+        },
+        {
+          "id": "l3",
+          "text": "VM image"
+        },
+        {
+          "id": "l4",
+          "text": "B-series VM"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A VM resiliency feature that separates instances across fault domains and update domains within a region"
+        },
+        {
+          "id": "r3",
+          "text": "A template that can include an operating system and preinstalled components for rapid VM deployment"
+        },
+        {
+          "id": "r4",
+          "text": "A burstable, cost-efficient VM family suited to workloads with occasional CPU spikes"
+        },
+        {
+          "id": "r2",
+          "text": "An IaaS compute resource that provides control over the guest operating system and installed software"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "fill-0285",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "question": "{{answer}} is a burstable, cost-efficient VM family suited to workloads with occasional CPU spikes.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Event trigger",
+            "B-series VM",
+            "E-series VM",
+            "Azure Kubernetes Service (AKS)"
+          ],
+          "correctAnswer": "B-series VM"
+        }
+      ],
+      "explanation": "B-series VM is a burstable, cost-efficient VM family suited to workloads with occasional CPU spikes.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "fill-0286",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "question": "The term for a general-purpose VM family suited to common application and web-server workloads is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "API app",
+            "Docker",
+            "D-series VM",
+            "Centralized desktop delivery"
+          ],
+          "correctAnswer": "D-series VM"
+        }
+      ],
+      "explanation": "D-series VM is a general-purpose VM family suited to common application and web-server workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "fill-0287",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "question": "In this unit, {{answer}} refers to a memory-optimized VM family suited to memory-intensive workloads.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure OpenAI Service",
+            "E-series VM",
+            "API app",
+            "F-series VM"
+          ],
+          "correctAnswer": "E-series VM"
+        }
+      ],
+      "explanation": "E-series VM is a memory-optimized VM family suited to memory-intensive workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "fill-0288",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "question": "For AZ-900, the concept described as a compute-optimized VM family suited to CPU-intensive workloads is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure Virtual Desktop",
+            "Consumption execution",
+            "F-series VM",
+            "Microsoft Entra ID integration"
+          ],
+          "correctAnswer": "F-series VM"
+        }
+      ],
+      "explanation": "F-series VM is a compute-optimized VM family suited to CPU-intensive workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    },
+    {
+      "id": "fill-0289",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual machines",
+      "question": "Choose the term that completes the statement: {{answer}} means a GPU-enabled VM family suited to graphics and AI workloads.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Distributed workforce use case",
+            "Azure OpenAI Service",
+            "API app",
+            "N-series VM"
+          ],
+          "correctAnswer": "N-series VM"
+        }
+      ],
+      "explanation": "N-series VM is a GPU-enabled VM family suited to graphics and AI workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines"
+    }
+  ]
+}

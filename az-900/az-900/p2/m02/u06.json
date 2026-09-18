@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe features and tools in Azure for governance and compliance · Module assessment",
+  "questions": [
+    {
+      "id": "mc-0175",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Which statement best describes Microsoft Purview?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A Purview capability for understanding how data moves and transforms across systems"
+        },
+        {
+          "id": "b",
+          "text": "A service for creating, assigning, and managing rules that audit or control Azure resource configurations"
+        },
+        {
+          "id": "c",
+          "text": "A family of data governance, risk, and compliance solutions that provides a unified view of data across environments"
+        },
+        {
+          "id": "d",
+          "text": "The ability of a policy to block creation of noncompliant resources"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Microsoft Purview is a family of data governance, risk, and compliance solutions that provides a unified view of data across environments.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "mc-0176",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "In the context of this Microsoft Learn unit, what does Automated data discovery refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A Purview capability that helps identify data across the data estate"
+        },
+        {
+          "id": "b",
+          "text": "Documents that provide information about Microsoft controls, assessments, and compliance practices"
+        },
+        {
+          "id": "c",
+          "text": "Service Trust Portal reports are generally available for at least 12 months after publication or until a newer version is available"
+        },
+        {
+          "id": "d",
+          "text": "Resource locks apply even when a user has RBAC permissions that would otherwise allow the blocked operation"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Automated data discovery is a Purview capability that helps identify data across the data estate.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "mc-0177",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Which description correctly matches Sensitive data classification?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A Purview capability for understanding how data moves and transforms across systems"
+        },
+        {
+          "id": "b",
+          "text": "The ability of a policy to block creation of noncompliant resources"
+        },
+        {
+          "id": "c",
+          "text": "A Purview capability for identifying and classifying sensitive information"
+        },
+        {
+          "id": "d",
+          "text": "A controlled exclusion that allows a resource to be exempted from a policy requirement"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Sensitive data classification is a Purview capability for identifying and classifying sensitive information.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "mc-0178",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Which of the following is the best definition of End-to-end data lineage?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The ability of some policy configurations to automatically correct noncompliant resources"
+        },
+        {
+          "id": "b",
+          "text": "A service for creating, assigning, and managing rules that audit or control Azure resource configurations"
+        },
+        {
+          "id": "c",
+          "text": "A Purview capability for understanding how data moves and transforms across systems"
+        },
+        {
+          "id": "d",
+          "text": "A lock that permits authorized users to read and modify a resource but prevents deletion"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "End-to-end data lineage is a Purview capability for understanding how data moves and transforms across systems.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "mc-0179",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "What is the primary meaning of Purview risk and compliance in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The ability of some policy configurations to automatically correct noncompliant resources"
+        },
+        {
+          "id": "b",
+          "text": "A family of data governance, risk, and compliance solutions that provides a unified view of data across environments"
+        },
+        {
+          "id": "c",
+          "text": "Solution capabilities focused on protecting sensitive data and managing regulatory requirements"
+        },
+        {
+          "id": "d",
+          "text": "A lock that permits authorized users to read and modify a resource but prevents deletion"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Purview risk and compliance is solution capabilities focused on protecting sensitive data and managing regulatory requirements.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "mr-0175",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microsoft Purview: a Purview capability for understanding how data moves and transforms across systems."
+        },
+        {
+          "id": "b",
+          "text": "Sensitive data classification: an individual Azure Policy rule that describes a desired or prohibited resource condition."
+        },
+        {
+          "id": "c",
+          "text": "Automated data discovery: a Purview capability that helps identify data across the data estate."
+        },
+        {
+          "id": "d",
+          "text": "Microsoft Purview: a family of data governance, risk, and compliance solutions that provides a unified view of data across environments."
+        },
+        {
+          "id": "e",
+          "text": "Automated data discovery: a view that helps organizations understand where data is stored and how it is classified."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: Microsoft Purview — a family of data governance, risk, and compliance solutions that provides a unified view of data across environments; and Automated data discovery — a Purview capability that helps identify data across the data estate.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "mr-0176",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "End-to-end data lineage: a Purview capability for understanding how data moves and transforms across systems."
+        },
+        {
+          "id": "b",
+          "text": "End-to-end data lineage: a service for creating, assigning, and managing rules that audit or control Azure resource configurations."
+        },
+        {
+          "id": "c",
+          "text": "Sensitive data classification: Purview capabilities for mapping, classifying, discovering, and governing data across on-premises, multicloud, and SaaS sources."
+        },
+        {
+          "id": "d",
+          "text": "Sensitive data classification: a Purview capability for identifying and classifying sensitive information."
+        },
+        {
+          "id": "e",
+          "text": "End-to-end data lineage: a collection of related Azure Policy definitions grouped to support a broader compliance goal."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Sensitive data classification — a Purview capability for identifying and classifying sensitive information; and End-to-end data lineage — a Purview capability for understanding how data moves and transforms across systems.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "mr-0177",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Unified data governance: Purview capabilities for mapping, classifying, discovering, and governing data across on-premises, multicloud, and SaaS sources."
+        },
+        {
+          "id": "b",
+          "text": "Purview risk and compliance: the behavior by which a policy assigned at a higher scope applies to resources in child scopes."
+        },
+        {
+          "id": "c",
+          "text": "Purview risk and compliance: enabling authorized data consumers to find useful data in a governed environment."
+        },
+        {
+          "id": "d",
+          "text": "Unified data governance: a collection of related Azure Policy definitions grouped to support a broader compliance goal."
+        },
+        {
+          "id": "e",
+          "text": "Purview risk and compliance: solution capabilities focused on protecting sensitive data and managing regulatory requirements."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "e"
+      ],
+      "explanation": "The correct pair is: Purview risk and compliance — solution capabilities focused on protecting sensitive data and managing regulatory requirements; and Unified data governance — Purview capabilities for mapping, classifying, discovering, and governing data across on-premises, multicloud, and SaaS sources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "mr-0178",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Data estate map: a view that helps organizations understand where data is stored and how it is classified."
+        },
+        {
+          "id": "b",
+          "text": "Secure data discovery: enabling authorized data consumers to find useful data in a governed environment."
+        },
+        {
+          "id": "c",
+          "text": "Unified data governance: Azure Policy checking existing resources and identifying those that do not meet assigned rules."
+        },
+        {
+          "id": "d",
+          "text": "Secure data discovery: Azure Policy checking existing resources and identifying those that do not meet assigned rules."
+        },
+        {
+          "id": "e",
+          "text": "Data estate map: an individual Azure Policy rule that describes a desired or prohibited resource condition."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Data estate map — a view that helps organizations understand where data is stored and how it is classified; and Secure data discovery — enabling authorized data consumers to find useful data in a governed environment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "mr-0179",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Policy: the behavior by which a policy assigned at a higher scope applies to resources in child scopes."
+        },
+        {
+          "id": "b",
+          "text": "Policy definition: an individual Azure Policy rule that describes a desired or prohibited resource condition."
+        },
+        {
+          "id": "c",
+          "text": "Policy definition: the ability of some policy configurations to automatically correct noncompliant resources."
+        },
+        {
+          "id": "d",
+          "text": "Data estate map: the ability of a policy to block creation of noncompliant resources."
+        },
+        {
+          "id": "e",
+          "text": "Azure Policy: a service for creating, assigning, and managing rules that audit or control Azure resource configurations."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: Azure Policy — a service for creating, assigning, and managing rules that audit or control Azure resource configurations; and Policy definition — an individual Azure Policy rule that describes a desired or prohibited resource condition.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "tf-0175",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Microsoft Purview is a family of data governance, risk, and compliance solutions that provides a unified view of data across environments.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Microsoft Purview is a family of data governance, risk, and compliance solutions that provides a unified view of data across environments.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "tf-0176",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "According to this unit: Automated data discovery is solution capabilities focused on protecting sensitive data and managing regulatory requirements.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Automated data discovery is a Purview capability that helps identify data across the data estate.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "tf-0177",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "For Azure fundamentals, Sensitive data classification is a Purview capability for identifying and classifying sensitive information.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Sensitive data classification is a Purview capability for identifying and classifying sensitive information.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "tf-0178",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "This statement is correct: End-to-end data lineage is a view that helps organizations understand where data is stored and how it is classified.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. End-to-end data lineage is a Purview capability for understanding how data moves and transforms across systems.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "tf-0179",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "The unit supports the following statement: Purview risk and compliance is solution capabilities focused on protecting sensitive data and managing regulatory requirements.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Purview risk and compliance is solution capabilities focused on protecting sensitive data and managing regulatory requirements.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "sc-0350",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a family of data governance, risk, and compliance solutions that provides a unified view of data across environments. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Policy definition"
+        },
+        {
+          "id": "b",
+          "text": "Microsoft Purview"
+        },
+        {
+          "id": "c",
+          "text": "Secure data discovery"
+        },
+        {
+          "id": "d",
+          "text": "Azure Policy"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Microsoft Purview is the best match because it is a family of data governance, risk, and compliance solutions that provides a unified view of data across environments.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "sc-0351",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs a Purview capability that helps identify data across the data estate. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "RBAC and locks"
+        },
+        {
+          "id": "b",
+          "text": "Automated data discovery"
+        },
+        {
+          "id": "c",
+          "text": "My Library"
+        },
+        {
+          "id": "d",
+          "text": "ReadOnly lock"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Automated data discovery is the best match because it is a Purview capability that helps identify data across the data estate.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "sc-0352",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: a Purview capability for identifying and classifying sensitive information. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sensitive data classification"
+        },
+        {
+          "id": "b",
+          "text": "Policy definition"
+        },
+        {
+          "id": "c",
+          "text": "Unified data governance"
+        },
+        {
+          "id": "d",
+          "text": "Compliance evaluation"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Sensitive data classification is the best match because it is a Purview capability for identifying and classifying sensitive information.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "sc-0353",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: a Purview capability for understanding how data moves and transforms across systems. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "End-to-end data lineage"
+        },
+        {
+          "id": "b",
+          "text": "RBAC and locks"
+        },
+        {
+          "id": "c",
+          "text": "Data estate map"
+        },
+        {
+          "id": "d",
+          "text": "Lock inheritance"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "End-to-end data lineage is the best match because it is a Purview capability for understanding how data moves and transforms across systems.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "sc-0354",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants solution capabilities focused on protecting sensitive data and managing regulatory requirements. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Compliance reports"
+        },
+        {
+          "id": "b",
+          "text": "Purview risk and compliance"
+        },
+        {
+          "id": "c",
+          "text": "Preventive policy effect"
+        },
+        {
+          "id": "d",
+          "text": "ReadOnly lock"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Purview risk and compliance is the best match because it is solution capabilities focused on protecting sensitive data and managing regulatory requirements.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "sc-0355",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for purview capabilities for mapping, classifying, discovering, and governing data across on-premises, multicloud, and SaaS sources. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Compliance evaluation"
+        },
+        {
+          "id": "b",
+          "text": "Unified data governance"
+        },
+        {
+          "id": "c",
+          "text": "ReadOnly lock"
+        },
+        {
+          "id": "d",
+          "text": "Automated data discovery"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Unified data governance is the best match because it is Purview capabilities for mapping, classifying, discovering, and governing data across on-premises, multicloud, and SaaS sources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "sc-0356",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for a view that helps organizations understand where data is stored and how it is classified. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lock management tools"
+        },
+        {
+          "id": "b",
+          "text": "Service Trust Portal"
+        },
+        {
+          "id": "c",
+          "text": "Data estate map"
+        },
+        {
+          "id": "d",
+          "text": "Policy inheritance"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Data estate map is the best match because it is a view that helps organizations understand where data is stored and how it is classified.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "sc-0357",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is enabling authorized data consumers to find useful data in a governed environment. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Compliance reports"
+        },
+        {
+          "id": "b",
+          "text": "Secure data discovery"
+        },
+        {
+          "id": "c",
+          "text": "Unified data governance"
+        },
+        {
+          "id": "d",
+          "text": "ReadOnly lock"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Secure data discovery is the best match because it is enabling authorized data consumers to find useful data in a governed environment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "sc-0358",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as a service for creating, assigning, and managing rules that audit or control Azure resource configurations. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Preventive policy effect"
+        },
+        {
+          "id": "b",
+          "text": "Compliance evaluation"
+        },
+        {
+          "id": "c",
+          "text": "Azure Policy"
+        },
+        {
+          "id": "d",
+          "text": "Service Trust Portal"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure Policy is the best match because it is a service for creating, assigning, and managing rules that audit or control Azure resource configurations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "sc-0359",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides an individual Azure Policy rule that describes a desired or prohibited resource condition. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Delete lock"
+        },
+        {
+          "id": "b",
+          "text": "Policy definition"
+        },
+        {
+          "id": "c",
+          "text": "Nondisclosure agreement"
+        },
+        {
+          "id": "d",
+          "text": "Lock inheritance"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Policy definition is the best match because it is an individual Azure Policy rule that describes a desired or prohibited resource condition.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "match-0175",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Microsoft Purview"
+        },
+        {
+          "id": "l2",
+          "text": "Automated data discovery"
+        },
+        {
+          "id": "l3",
+          "text": "Sensitive data classification"
+        },
+        {
+          "id": "l4",
+          "text": "End-to-end data lineage"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A family of data governance, risk, and compliance solutions that provides a unified view of data across environments"
+        },
+        {
+          "id": "r2",
+          "text": "A Purview capability that helps identify data across the data estate"
+        },
+        {
+          "id": "r4",
+          "text": "A Purview capability for understanding how data moves and transforms across systems"
+        },
+        {
+          "id": "r3",
+          "text": "A Purview capability for identifying and classifying sensitive information"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "match-0176",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Sensitive data classification"
+        },
+        {
+          "id": "l2",
+          "text": "End-to-end data lineage"
+        },
+        {
+          "id": "l3",
+          "text": "Purview risk and compliance"
+        },
+        {
+          "id": "l4",
+          "text": "Unified data governance"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A Purview capability for identifying and classifying sensitive information"
+        },
+        {
+          "id": "r3",
+          "text": "Solution capabilities focused on protecting sensitive data and managing regulatory requirements"
+        },
+        {
+          "id": "r2",
+          "text": "A Purview capability for understanding how data moves and transforms across systems"
+        },
+        {
+          "id": "r4",
+          "text": "Purview capabilities for mapping, classifying, discovering, and governing data across on-premises, multicloud, and SaaS sources"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l3": "r3",
+        "l2": "r2",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "match-0177",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Purview risk and compliance"
+        },
+        {
+          "id": "l2",
+          "text": "Unified data governance"
+        },
+        {
+          "id": "l3",
+          "text": "Data estate map"
+        },
+        {
+          "id": "l4",
+          "text": "Secure data discovery"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "Purview capabilities for mapping, classifying, discovering, and governing data across on-premises, multicloud, and SaaS sources"
+        },
+        {
+          "id": "r1",
+          "text": "Solution capabilities focused on protecting sensitive data and managing regulatory requirements"
+        },
+        {
+          "id": "r3",
+          "text": "A view that helps organizations understand where data is stored and how it is classified"
+        },
+        {
+          "id": "r4",
+          "text": "Enabling authorized data consumers to find useful data in a governed environment"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l1": "r1",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "match-0178",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Data estate map"
+        },
+        {
+          "id": "l2",
+          "text": "Secure data discovery"
+        },
+        {
+          "id": "l3",
+          "text": "Azure Policy"
+        },
+        {
+          "id": "l4",
+          "text": "Policy definition"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A service for creating, assigning, and managing rules that audit or control Azure resource configurations"
+        },
+        {
+          "id": "r1",
+          "text": "A view that helps organizations understand where data is stored and how it is classified"
+        },
+        {
+          "id": "r4",
+          "text": "An individual Azure Policy rule that describes a desired or prohibited resource condition"
+        },
+        {
+          "id": "r2",
+          "text": "Enabling authorized data consumers to find useful data in a governed environment"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l1": "r1",
+        "l4": "r4",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "match-0179",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Policy"
+        },
+        {
+          "id": "l2",
+          "text": "Policy definition"
+        },
+        {
+          "id": "l3",
+          "text": "Initiative"
+        },
+        {
+          "id": "l4",
+          "text": "Policy inheritance"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "The behavior by which a policy assigned at a higher scope applies to resources in child scopes"
+        },
+        {
+          "id": "r1",
+          "text": "A service for creating, assigning, and managing rules that audit or control Azure resource configurations"
+        },
+        {
+          "id": "r2",
+          "text": "An individual Azure Policy rule that describes a desired or prohibited resource condition"
+        },
+        {
+          "id": "r3",
+          "text": "A collection of related Azure Policy definitions grouped to support a broader compliance goal"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "fill-0175",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "{{answer}} is a Purview capability for identifying and classifying sensitive information.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "All Documents",
+            "Sensitive data classification",
+            "Policy definition",
+            "Removing a lock"
+          ],
+          "correctAnswer": "Sensitive data classification"
+        }
+      ],
+      "explanation": "Sensitive data classification is a Purview capability for identifying and classifying sensitive information.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "fill-0176",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "The term for a Purview capability for understanding how data moves and transforms across systems is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "End-to-end data lineage",
+            "Secure data discovery",
+            "Nondisclosure agreement",
+            "My Library"
+          ],
+          "correctAnswer": "End-to-end data lineage"
+        }
+      ],
+      "explanation": "End-to-end data lineage is a Purview capability for understanding how data moves and transforms across systems.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "fill-0177",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "In this unit, {{answer}} refers to solution capabilities focused on protecting sensitive data and managing regulatory requirements.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Purview risk and compliance",
+            "Preventive policy effect",
+            "Compliance evaluation",
+            "Lock inheritance"
+          ],
+          "correctAnswer": "Purview risk and compliance"
+        }
+      ],
+      "explanation": "Purview risk and compliance is solution capabilities focused on protecting sensitive data and managing regulatory requirements.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "fill-0178",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "For AZ-900, the concept described as purview capabilities for mapping, classifying, discovering, and governing data across on-premises, multicloud, and SaaS sources is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Unified data governance",
+            "Purview risk and compliance",
+            "Delete lock",
+            "Azure Policy"
+          ],
+          "correctAnswer": "Unified data governance"
+        }
+      ],
+      "explanation": "Unified data governance is Purview capabilities for mapping, classifying, discovering, and governing data across on-premises, multicloud, and SaaS sources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    },
+    {
+      "id": "fill-0179",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Choose the term that completes the statement: {{answer}} means a view that helps organizations understand where data is stored and how it is classified.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Removing a lock",
+            "Policy definition",
+            "Data estate map",
+            "Lock management tools"
+          ],
+          "correctAnswer": "Data estate map"
+        }
+      ],
+      "explanation": "Data estate map is a view that helps organizations understand where data is stored and how it is classified.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check"
+    }
+  ]
+}

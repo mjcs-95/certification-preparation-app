@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe cloud service types · Describe Platform as a Service",
+  "questions": [
+    {
+      "id": "mc-0090",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "question": "Which statement best describes Platform as a Service (PaaS)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A cloud model in which the provider manages infrastructure and platform components while the customer focuses on applications and data"
+        },
+        {
+          "id": "b",
+          "text": "Installing, configuring, patching, and maintaining the guest operating system"
+        },
+        {
+          "id": "c",
+          "text": "Typically less infrastructure customization than IaaS or PaaS"
+        },
+        {
+          "id": "d",
+          "text": "A model in which customers use a complete cloud-hosted application"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Platform as a Service (PaaS) is a cloud model in which the provider manages infrastructure and platform components while the customer focuses on applications and data.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "mc-0091",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "question": "In the context of this Microsoft Learn unit, what does PaaS operating-system management refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Application code, data, and access controls rather than physical infrastructure"
+        },
+        {
+          "id": "b",
+          "text": "Maintaining physical hardware, physical security, and internet connectivity"
+        },
+        {
+          "id": "c",
+          "text": "Installing, configuring, patching, and maintaining the guest operating system"
+        },
+        {
+          "id": "d",
+          "text": "The cloud provider patches and maintains the underlying operating system"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "PaaS operating-system management is the cloud provider patches and maintains the underlying operating system.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "mc-0092",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "question": "Which description correctly matches PaaS middleware management?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The cloud provider manages middleware and managed runtime components"
+        },
+        {
+          "id": "b",
+          "text": "Installing, configuring, patching, and maintaining the guest operating system"
+        },
+        {
+          "id": "c",
+          "text": "Application code, data, and access controls rather than physical infrastructure"
+        },
+        {
+          "id": "d",
+          "text": "Managing most of the infrastructure, platform, application maintenance, and updates"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "PaaS middleware management is the cloud provider manages middleware and managed runtime components.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "mc-0093",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "question": "Which of the following is the best definition of PaaS development framework?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A cloud model in which the provider manages infrastructure and platform components while the customer focuses on applications and data"
+        },
+        {
+          "id": "b",
+          "text": "Using a fully hosted email or messaging application instead of operating mail servers"
+        },
+        {
+          "id": "c",
+          "text": "Application code, data, and access controls rather than physical infrastructure"
+        },
+        {
+          "id": "d",
+          "text": "A managed environment that lets developers build applications without maintaining the full development infrastructure"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "PaaS development framework is a managed environment that lets developers build applications without maintaining the full development infrastructure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "mc-0094",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "question": "What is the primary meaning of PaaS analytics use case in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A cloud model in which the provider manages infrastructure and platform components while the customer focuses on applications and data"
+        },
+        {
+          "id": "b",
+          "text": "Using managed analytics or business-intelligence platforms to extract insights without running the underlying platform"
+        },
+        {
+          "id": "c",
+          "text": "Using complete productivity software delivered as a cloud service"
+        },
+        {
+          "id": "d",
+          "text": "Platform features such as scalability and high availability that reduce the amount of infrastructure code a team must manage"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "PaaS analytics use case is using managed analytics or business-intelligence platforms to extract insights without running the underlying platform.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "mr-0090",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "PaaS operating-system management: the cloud provider patches and maintains the underlying operating system."
+        },
+        {
+          "id": "b",
+          "text": "Platform as a Service (PaaS): a cloud model in which the provider manages infrastructure and platform components while the customer focuses on applications and data."
+        },
+        {
+          "id": "c",
+          "text": "PaaS middleware management: installing, configuring, patching, and maintaining the guest operating system."
+        },
+        {
+          "id": "d",
+          "text": "PaaS operating-system management: platform features such as scalability and high availability that reduce the amount of infrastructure code a team must manage."
+        },
+        {
+          "id": "e",
+          "text": "Platform as a Service (PaaS): a managed environment that lets developers build applications without maintaining the full development infrastructure."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Platform as a Service (PaaS) — a cloud model in which the provider manages infrastructure and platform components while the customer focuses on applications and data; and PaaS operating-system management — the cloud provider patches and maintains the underlying operating system.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "mr-0091",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "PaaS development framework: configuring much of the workload networking and security settings above the physical layer."
+        },
+        {
+          "id": "b",
+          "text": "PaaS middleware management: the cloud provider manages middleware and managed runtime components."
+        },
+        {
+          "id": "c",
+          "text": "PaaS development framework: a managed environment that lets developers build applications without maintaining the full development infrastructure."
+        },
+        {
+          "id": "d",
+          "text": "PaaS middleware management: application code, data, and access controls rather than physical infrastructure."
+        },
+        {
+          "id": "e",
+          "text": "PaaS development framework: maintaining physical hardware, physical security, and internet connectivity."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: PaaS middleware management — the cloud provider manages middleware and managed runtime components; and PaaS development framework — a managed environment that lets developers build applications without maintaining the full development infrastructure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "mr-0092",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "PaaS analytics use case: using managed analytics or business-intelligence platforms to extract insights without running the underlying platform."
+        },
+        {
+          "id": "b",
+          "text": "PaaS customer focus: application code, data, and access controls rather than physical infrastructure."
+        },
+        {
+          "id": "c",
+          "text": "PaaS analytics use case: a cloud model that rents infrastructure while giving the customer the most control over operating systems and software."
+        },
+        {
+          "id": "d",
+          "text": "PaaS customer focus: configuring much of the workload networking and security settings above the physical layer."
+        },
+        {
+          "id": "e",
+          "text": "PaaS analytics use case: moving workloads to cloud infrastructure with minimal redesign."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: PaaS analytics use case — using managed analytics or business-intelligence platforms to extract insights without running the underlying platform; and PaaS customer focus — application code, data, and access controls rather than physical infrastructure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "mr-0093",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "PaaS built-in cloud capabilities: installing, configuring, patching, and maintaining the guest operating system."
+        },
+        {
+          "id": "b",
+          "text": "PaaS built-in cloud capabilities: platform features such as scalability and high availability that reduce the amount of infrastructure code a team must manage."
+        },
+        {
+          "id": "c",
+          "text": "PaaS customer focus: rapidly creating and removing environments while retaining detailed configuration control."
+        },
+        {
+          "id": "d",
+          "text": "Platform as a Service (PaaS): application code, data, and access controls rather than physical infrastructure."
+        },
+        {
+          "id": "e",
+          "text": "Platform as a Service (PaaS): a cloud model in which the provider manages infrastructure and platform components while the customer focuses on applications and data."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: PaaS built-in cloud capabilities — platform features such as scalability and high availability that reduce the amount of infrastructure code a team must manage; and Platform as a Service (PaaS) — a cloud model in which the provider manages infrastructure and platform components while the customer focuses on applications and data.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "mr-0094",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "PaaS operating-system management: the cloud provider patches and maintains the underlying operating system."
+        },
+        {
+          "id": "b",
+          "text": "PaaS operating-system management: using managed analytics or business-intelligence platforms to extract insights without running the underlying platform."
+        },
+        {
+          "id": "c",
+          "text": "PaaS middleware management: the cloud provider manages middleware and managed runtime components."
+        },
+        {
+          "id": "d",
+          "text": "PaaS built-in cloud capabilities: the high level of customer control that comes with greater operational responsibility."
+        },
+        {
+          "id": "e",
+          "text": "PaaS middleware management: a cloud model that rents infrastructure while giving the customer the most control over operating systems and software."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "c"
+      ],
+      "explanation": "The correct pair is: PaaS operating-system management — the cloud provider patches and maintains the underlying operating system; and PaaS middleware management — the cloud provider manages middleware and managed runtime components.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "tf-0090",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "question": "Platform as a Service (PaaS) is a cloud model in which the provider manages infrastructure and platform components while the customer focuses on applications and data.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Platform as a Service (PaaS) is a cloud model in which the provider manages infrastructure and platform components while the customer focuses on applications and data.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "tf-0091",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "question": "According to this unit: PaaS operating-system management is using managed analytics or business-intelligence platforms to extract insights without running the underlying platform.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. PaaS operating-system management is the cloud provider patches and maintains the underlying operating system.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "tf-0092",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "question": "For Azure fundamentals, PaaS middleware management is the cloud provider manages middleware and managed runtime components.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "PaaS middleware management is the cloud provider manages middleware and managed runtime components.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "tf-0093",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "question": "This statement is correct: PaaS development framework is platform features such as scalability and high availability that reduce the amount of infrastructure code a team must manage.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. PaaS development framework is a managed environment that lets developers build applications without maintaining the full development infrastructure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "tf-0094",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "question": "The unit supports the following statement: PaaS analytics use case is using managed analytics or business-intelligence platforms to extract insights without running the underlying platform.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "PaaS analytics use case is using managed analytics or business-intelligence platforms to extract insights without running the underlying platform.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "sc-0180",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Platform as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a cloud model in which the provider manages infrastructure and platform components while the customer focuses on applications and data. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "PaaS analytics use case"
+        },
+        {
+          "id": "b",
+          "text": "PaaS built-in cloud capabilities"
+        },
+        {
+          "id": "c",
+          "text": "Platform as a Service (PaaS)"
+        },
+        {
+          "id": "d",
+          "text": "Lift-and-shift migration"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Platform as a Service (PaaS) is the best match because it is a cloud model in which the provider manages infrastructure and platform components while the customer focuses on applications and data.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "sc-0181",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Platform as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs the cloud provider patches and maintains the underlying operating system. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS flexibility"
+        },
+        {
+          "id": "b",
+          "text": "PaaS operating-system management"
+        },
+        {
+          "id": "c",
+          "text": "SaaS productivity use case"
+        },
+        {
+          "id": "d",
+          "text": "PaaS analytics use case"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "PaaS operating-system management is the best match because it is the cloud provider patches and maintains the underlying operating system.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "sc-0182",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Platform as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: the cloud provider manages middleware and managed runtime components. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "PaaS middleware management"
+        },
+        {
+          "id": "b",
+          "text": "IaaS flexibility"
+        },
+        {
+          "id": "c",
+          "text": "SaaS productivity use case"
+        },
+        {
+          "id": "d",
+          "text": "SaaS operational overhead"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "PaaS middleware management is the best match because it is the cloud provider manages middleware and managed runtime components.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "sc-0183",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Platform as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: a managed environment that lets developers build applications without maintaining the full development infrastructure. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS dev/test use case"
+        },
+        {
+          "id": "b",
+          "text": "PaaS analytics use case"
+        },
+        {
+          "id": "c",
+          "text": "SaaS email use case"
+        },
+        {
+          "id": "d",
+          "text": "PaaS development framework"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "PaaS development framework is the best match because it is a managed environment that lets developers build applications without maintaining the full development infrastructure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "sc-0184",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Platform as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants using managed analytics or business-intelligence platforms to extract insights without running the underlying platform. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lift-and-shift migration"
+        },
+        {
+          "id": "b",
+          "text": "PaaS development framework"
+        },
+        {
+          "id": "c",
+          "text": "PaaS analytics use case"
+        },
+        {
+          "id": "d",
+          "text": "Software as a Service (SaaS)"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "PaaS analytics use case is the best match because it is using managed analytics or business-intelligence platforms to extract insights without running the underlying platform.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "sc-0185",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Platform as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for application code, data, and access controls rather than physical infrastructure. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "PaaS operating-system management"
+        },
+        {
+          "id": "b",
+          "text": "SaaS customer responsibility"
+        },
+        {
+          "id": "c",
+          "text": "Software as a Service (SaaS)"
+        },
+        {
+          "id": "d",
+          "text": "PaaS customer focus"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "PaaS customer focus is the best match because it is application code, data, and access controls rather than physical infrastructure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "sc-0186",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Platform as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for platform features such as scalability and high availability that reduce the amount of infrastructure code a team must manage. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Infrastructure as a Service (IaaS)"
+        },
+        {
+          "id": "b",
+          "text": "IaaS customer operating-system responsibility"
+        },
+        {
+          "id": "c",
+          "text": "IaaS dev/test use case"
+        },
+        {
+          "id": "d",
+          "text": "PaaS built-in cloud capabilities"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "PaaS built-in cloud capabilities is the best match because it is platform features such as scalability and high availability that reduce the amount of infrastructure code a team must manage.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "sc-0187",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Platform as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is a cloud model in which the provider manages infrastructure and platform components while the customer focuses on applications and data. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "SaaS email use case"
+        },
+        {
+          "id": "b",
+          "text": "PaaS customer focus"
+        },
+        {
+          "id": "c",
+          "text": "SaaS customer responsibility"
+        },
+        {
+          "id": "d",
+          "text": "Platform as a Service (PaaS)"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Platform as a Service (PaaS) is the best match because it is a cloud model in which the provider manages infrastructure and platform components while the customer focuses on applications and data.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "sc-0188",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Platform as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as the cloud provider patches and maintains the underlying operating system. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lift-and-shift migration"
+        },
+        {
+          "id": "b",
+          "text": "IaaS flexibility"
+        },
+        {
+          "id": "c",
+          "text": "PaaS operating-system management"
+        },
+        {
+          "id": "d",
+          "text": "IaaS customer network configuration"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "PaaS operating-system management is the best match because it is the cloud provider patches and maintains the underlying operating system.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "sc-0189",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Platform as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides the cloud provider manages middleware and managed runtime components. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS provider responsibility"
+        },
+        {
+          "id": "b",
+          "text": "PaaS analytics use case"
+        },
+        {
+          "id": "c",
+          "text": "PaaS middleware management"
+        },
+        {
+          "id": "d",
+          "text": "Platform as a Service (PaaS)"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "PaaS middleware management is the best match because it is the cloud provider manages middleware and managed runtime components.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "match-0090",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Platform as a Service (PaaS)"
+        },
+        {
+          "id": "l2",
+          "text": "PaaS operating-system management"
+        },
+        {
+          "id": "l3",
+          "text": "PaaS middleware management"
+        },
+        {
+          "id": "l4",
+          "text": "PaaS development framework"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "The cloud provider manages middleware and managed runtime components"
+        },
+        {
+          "id": "r1",
+          "text": "A cloud model in which the provider manages infrastructure and platform components while the customer focuses on applications and data"
+        },
+        {
+          "id": "r2",
+          "text": "The cloud provider patches and maintains the underlying operating system"
+        },
+        {
+          "id": "r4",
+          "text": "A managed environment that lets developers build applications without maintaining the full development infrastructure"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l1": "r1",
+        "l2": "r2",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "match-0091",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "PaaS middleware management"
+        },
+        {
+          "id": "l2",
+          "text": "PaaS development framework"
+        },
+        {
+          "id": "l3",
+          "text": "PaaS analytics use case"
+        },
+        {
+          "id": "l4",
+          "text": "PaaS customer focus"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Using managed analytics or business-intelligence platforms to extract insights without running the underlying platform"
+        },
+        {
+          "id": "r4",
+          "text": "Application code, data, and access controls rather than physical infrastructure"
+        },
+        {
+          "id": "r2",
+          "text": "A managed environment that lets developers build applications without maintaining the full development infrastructure"
+        },
+        {
+          "id": "r1",
+          "text": "The cloud provider manages middleware and managed runtime components"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "match-0092",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "PaaS analytics use case"
+        },
+        {
+          "id": "l2",
+          "text": "PaaS customer focus"
+        },
+        {
+          "id": "l3",
+          "text": "PaaS built-in cloud capabilities"
+        },
+        {
+          "id": "l4",
+          "text": "Platform as a Service (PaaS)"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "A cloud model in which the provider manages infrastructure and platform components while the customer focuses on applications and data"
+        },
+        {
+          "id": "r1",
+          "text": "Using managed analytics or business-intelligence platforms to extract insights without running the underlying platform"
+        },
+        {
+          "id": "r3",
+          "text": "Platform features such as scalability and high availability that reduce the amount of infrastructure code a team must manage"
+        },
+        {
+          "id": "r2",
+          "text": "Application code, data, and access controls rather than physical infrastructure"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l1": "r1",
+        "l3": "r3",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "match-0093",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "PaaS built-in cloud capabilities"
+        },
+        {
+          "id": "l2",
+          "text": "Platform as a Service (PaaS)"
+        },
+        {
+          "id": "l3",
+          "text": "PaaS operating-system management"
+        },
+        {
+          "id": "l4",
+          "text": "PaaS middleware management"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Platform features such as scalability and high availability that reduce the amount of infrastructure code a team must manage"
+        },
+        {
+          "id": "r2",
+          "text": "A cloud model in which the provider manages infrastructure and platform components while the customer focuses on applications and data"
+        },
+        {
+          "id": "r4",
+          "text": "The cloud provider manages middleware and managed runtime components"
+        },
+        {
+          "id": "r3",
+          "text": "The cloud provider patches and maintains the underlying operating system"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "match-0094",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "PaaS operating-system management"
+        },
+        {
+          "id": "l2",
+          "text": "PaaS middleware management"
+        },
+        {
+          "id": "l3",
+          "text": "PaaS development framework"
+        },
+        {
+          "id": "l4",
+          "text": "PaaS analytics use case"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A managed environment that lets developers build applications without maintaining the full development infrastructure"
+        },
+        {
+          "id": "r2",
+          "text": "The cloud provider manages middleware and managed runtime components"
+        },
+        {
+          "id": "r1",
+          "text": "The cloud provider patches and maintains the underlying operating system"
+        },
+        {
+          "id": "r4",
+          "text": "Using managed analytics or business-intelligence platforms to extract insights without running the underlying platform"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l2": "r2",
+        "l1": "r1",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "fill-0090",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "question": "{{answer}} is the cloud provider manages middleware and managed runtime components.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "PaaS middleware management",
+            "Software as a Service (SaaS)",
+            "SaaS customer responsibility",
+            "PaaS operating-system management"
+          ],
+          "correctAnswer": "PaaS middleware management"
+        }
+      ],
+      "explanation": "PaaS middleware management is the cloud provider manages middleware and managed runtime components.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "fill-0091",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "question": "The term for a managed environment that lets developers build applications without maintaining the full development infrastructure is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "PaaS development framework",
+            "SaaS provider responsibility",
+            "SaaS productivity use case",
+            "SaaS flexibility"
+          ],
+          "correctAnswer": "PaaS development framework"
+        }
+      ],
+      "explanation": "PaaS development framework is a managed environment that lets developers build applications without maintaining the full development infrastructure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "fill-0092",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "question": "In this unit, {{answer}} refers to using managed analytics or business-intelligence platforms to extract insights without running the underlying platform.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Platform as a Service (PaaS)",
+            "Software as a Service (SaaS)",
+            "IaaS customer operating-system responsibility",
+            "PaaS analytics use case"
+          ],
+          "correctAnswer": "PaaS analytics use case"
+        }
+      ],
+      "explanation": "PaaS analytics use case is using managed analytics or business-intelligence platforms to extract insights without running the underlying platform.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "fill-0093",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "question": "For AZ-900, the concept described as application code, data, and access controls rather than physical infrastructure is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "SaaS flexibility",
+            "PaaS customer focus",
+            "PaaS operating-system management",
+            "IaaS customer network configuration"
+          ],
+          "correctAnswer": "PaaS customer focus"
+        }
+      ],
+      "explanation": "PaaS customer focus is application code, data, and access controls rather than physical infrastructure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    },
+    {
+      "id": "fill-0094",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Platform as a Service",
+      "question": "Choose the term that completes the statement: {{answer}} means platform features such as scalability and high availability that reduce the amount of infrastructure code a team must manage.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "PaaS built-in cloud capabilities",
+            "SaaS flexibility",
+            "PaaS customer focus",
+            "PaaS operating-system management"
+          ],
+          "correctAnswer": "PaaS built-in cloud capabilities"
+        }
+      ],
+      "explanation": "PaaS built-in cloud capabilities is platform features such as scalability and high availability that reduce the amount of infrastructure code a team must manage.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service"
+    }
+  ]
+}

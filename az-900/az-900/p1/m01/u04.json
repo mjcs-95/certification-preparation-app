@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe cloud computing · Describe the shared responsibility model",
+  "questions": [
+    {
+      "id": "mc-0015",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "question": "Which statement best describes Customer data responsibility?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cloud infrastructure built, controlled, and maintained by a third-party provider and available to customers who purchase services"
+        },
+        {
+          "id": "b",
+          "text": "The customer remains responsible for information and data stored in the cloud"
+        },
+        {
+          "id": "c",
+          "text": "A cloud computing platform that provides services for compute, storage, networking, databases, AI, IoT, and more"
+        },
+        {
+          "id": "d",
+          "text": "The customer remains responsible for devices that are allowed to connect to cloud resources"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Customer data responsibility is the customer remains responsible for information and data stored in the cloud.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "mc-0016",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "question": "In the context of this Microsoft Learn unit, what does Customer identity responsibility refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The ability to add resources for periods of high demand and reduce them again when demand falls"
+        },
+        {
+          "id": "b",
+          "text": "The ability to place services closer to users and design regional resilience without building your own worldwide datacenters"
+        },
+        {
+          "id": "c",
+          "text": "Compute resources that can be delivered as cloud services instead of requiring local physical servers"
+        },
+        {
+          "id": "d",
+          "text": "The customer remains responsible for accounts and identities used in the environment"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Customer identity responsibility is the customer remains responsible for accounts and identities used in the environment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "mc-0017",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "question": "Which description correctly matches Customer device responsibility?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The customer remains responsible for devices that are allowed to connect to cloud resources"
+        },
+        {
+          "id": "b",
+          "text": "The cloud provider is responsible for the physical datacenter"
+        },
+        {
+          "id": "c",
+          "text": "The ability to decide which workloads remain private and which use public-cloud capacity"
+        },
+        {
+          "id": "d",
+          "text": "The delivery of computing services over the internet"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Customer device responsibility is the customer remains responsible for devices that are allowed to connect to cloud resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "mc-0018",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "question": "Which of the following is the best definition of Provider physical datacenter responsibility?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The cloud provider is responsible for the physical datacenter"
+        },
+        {
+          "id": "b",
+          "text": "The use of services from two or more public cloud providers"
+        },
+        {
+          "id": "c",
+          "text": "A model in which you pay for the IT resources you use and can release them when they are no longer needed"
+        },
+        {
+          "id": "d",
+          "text": "Technology that helps manage Azure, on-premises, hybrid, and multicloud resources through a consistent management approach"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Provider physical datacenter responsibility is the cloud provider is responsible for the physical datacenter.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "mc-0019",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "question": "What is the primary meaning of Provider physical network responsibility in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The ability to decide which workloads remain private and which use public-cloud capacity"
+        },
+        {
+          "id": "b",
+          "text": "Allocating more capacity than needed, which can create unnecessary cost"
+        },
+        {
+          "id": "c",
+          "text": "A model in which you pay for the IT resources you use and can release them when they are no longer needed"
+        },
+        {
+          "id": "d",
+          "text": "The cloud provider is responsible for the physical network infrastructure"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Provider physical network responsibility is the cloud provider is responsible for the physical network infrastructure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "mr-0015",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Customer identity responsibility: the cloud service model that leaves the most operational responsibility with the customer."
+        },
+        {
+          "id": "b",
+          "text": "Customer data responsibility: the cloud provider is responsible for the physical datacenter."
+        },
+        {
+          "id": "c",
+          "text": "Customer device responsibility: a cloud computing platform that provides services for compute, storage, networking, databases, AI, IoT, and more."
+        },
+        {
+          "id": "d",
+          "text": "Customer identity responsibility: the customer remains responsible for accounts and identities used in the environment."
+        },
+        {
+          "id": "e",
+          "text": "Customer data responsibility: the customer remains responsible for information and data stored in the cloud."
+        }
+      ],
+      "correctAnswers": [
+        "d",
+        "e"
+      ],
+      "explanation": "The correct pair is: Customer data responsibility — the customer remains responsible for information and data stored in the cloud; and Customer identity responsibility — the customer remains responsible for accounts and identities used in the environment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "mr-0016",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Provider physical datacenter responsibility: the cloud provider is responsible for the physical datacenter."
+        },
+        {
+          "id": "b",
+          "text": "Customer device responsibility: the customer remains responsible for devices that are allowed to connect to cloud resources."
+        },
+        {
+          "id": "c",
+          "text": "Provider physical datacenter responsibility: a middle-ground model in which the provider manages the platform while the customer focuses on applications and data."
+        },
+        {
+          "id": "d",
+          "text": "Customer device responsibility: the cloud provider is responsible for the physical hosts."
+        },
+        {
+          "id": "e",
+          "text": "Provider physical datacenter responsibility: a beginner-oriented series that introduces Azure services, cloud concepts, governance, and management."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Customer device responsibility — the customer remains responsible for devices that are allowed to connect to cloud resources; and Provider physical datacenter responsibility — the cloud provider is responsible for the physical datacenter.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "mr-0017",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Provider physical network responsibility: the cloud service model that places the largest share of application-stack responsibility on the provider."
+        },
+        {
+          "id": "b",
+          "text": "Provider physical host responsibility: a beginner-oriented series that introduces Azure services, cloud concepts, governance, and management."
+        },
+        {
+          "id": "c",
+          "text": "Provider physical network responsibility: the cloud provider is responsible for the physical network infrastructure."
+        },
+        {
+          "id": "d",
+          "text": "Provider physical network responsibility: an AZ-900 domain covering general cloud ideas and accounting for roughly 25–30% of the exam."
+        },
+        {
+          "id": "e",
+          "text": "Provider physical host responsibility: the cloud provider is responsible for the physical hosts."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "e"
+      ],
+      "explanation": "The correct pair is: Provider physical network responsibility — the cloud provider is responsible for the physical network infrastructure; and Provider physical host responsibility — the cloud provider is responsible for the physical hosts.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "mr-0018",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "SaaS responsibility model: an AZ-900 domain covering Azure infrastructure and services and accounting for roughly 35–40% of the exam."
+        },
+        {
+          "id": "b",
+          "text": "SaaS responsibility model: the cloud service model that places the largest share of application-stack responsibility on the provider."
+        },
+        {
+          "id": "c",
+          "text": "IaaS responsibility model: a cloud computing platform that provides services for compute, storage, networking, databases, AI, IoT, and more."
+        },
+        {
+          "id": "d",
+          "text": "Provider physical host responsibility: an AZ-900 domain covering Azure infrastructure and services and accounting for roughly 35–40% of the exam."
+        },
+        {
+          "id": "e",
+          "text": "IaaS responsibility model: the cloud service model that leaves the most operational responsibility with the customer."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: IaaS responsibility model — the cloud service model that leaves the most operational responsibility with the customer; and SaaS responsibility model — the cloud service model that places the largest share of application-stack responsibility on the provider.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "mr-0019",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "PaaS responsibility model: an AZ-900 domain covering general cloud ideas and accounting for roughly 25–30% of the exam."
+        },
+        {
+          "id": "b",
+          "text": "Customer data responsibility: the customer remains responsible for information and data stored in the cloud."
+        },
+        {
+          "id": "c",
+          "text": "IaaS responsibility model: an AZ-900 domain covering management, monitoring, cost, and governance and accounting for roughly 30–35% of the exam."
+        },
+        {
+          "id": "d",
+          "text": "Customer data responsibility: the cloud provider is responsible for the physical hosts."
+        },
+        {
+          "id": "e",
+          "text": "PaaS responsibility model: a middle-ground model in which the provider manages the platform while the customer focuses on applications and data."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: PaaS responsibility model — a middle-ground model in which the provider manages the platform while the customer focuses on applications and data; and Customer data responsibility — the customer remains responsible for information and data stored in the cloud.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "tf-0015",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "question": "Customer data responsibility is the customer remains responsible for information and data stored in the cloud.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Customer data responsibility is the customer remains responsible for information and data stored in the cloud.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "tf-0016",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "question": "According to this unit: Customer identity responsibility is the cloud provider is responsible for the physical network infrastructure.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Customer identity responsibility is the customer remains responsible for accounts and identities used in the environment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "tf-0017",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "question": "For Azure fundamentals, Customer device responsibility is the customer remains responsible for devices that are allowed to connect to cloud resources.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Customer device responsibility is the customer remains responsible for devices that are allowed to connect to cloud resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "tf-0018",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "question": "This statement is correct: Provider physical datacenter responsibility is the cloud service model that leaves the most operational responsibility with the customer.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Provider physical datacenter responsibility is the cloud provider is responsible for the physical datacenter.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "tf-0019",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "question": "The unit supports the following statement: Provider physical network responsibility is the cloud provider is responsible for the physical network infrastructure.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Provider physical network responsibility is the cloud provider is responsible for the physical network infrastructure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "sc-0030",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "scenario": "The organization is reviewing the topic “Describe the shared responsibility model” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: the customer remains responsible for information and data stored in the cloud. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "PaaS responsibility model"
+        },
+        {
+          "id": "b",
+          "text": "Customer device responsibility"
+        },
+        {
+          "id": "c",
+          "text": "Public cloud"
+        },
+        {
+          "id": "d",
+          "text": "Customer data responsibility"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Customer data responsibility is the best match because it is the customer remains responsible for information and data stored in the cloud.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "sc-0031",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "scenario": "The organization is reviewing the topic “Describe the shared responsibility model” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs the customer remains responsible for accounts and identities used in the environment. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Fundamentals"
+        },
+        {
+          "id": "b",
+          "text": "Customer identity responsibility"
+        },
+        {
+          "id": "c",
+          "text": "Cloud computing"
+        },
+        {
+          "id": "d",
+          "text": "Azure Arc"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Customer identity responsibility is the best match because it is the customer remains responsible for accounts and identities used in the environment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "sc-0032",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "scenario": "The organization is reviewing the topic “Describe the shared responsibility model” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: the customer remains responsible for devices that are allowed to connect to cloud resources. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "PaaS responsibility model"
+        },
+        {
+          "id": "b",
+          "text": "Customer device responsibility"
+        },
+        {
+          "id": "c",
+          "text": "Cloud AI and IoT services"
+        },
+        {
+          "id": "d",
+          "text": "Consumption-based model"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Customer device responsibility is the best match because it is the customer remains responsible for devices that are allowed to connect to cloud resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "sc-0033",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "scenario": "The organization is reviewing the topic “Describe the shared responsibility model” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: the cloud provider is responsible for the physical datacenter. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Provider physical datacenter responsibility"
+        },
+        {
+          "id": "b",
+          "text": "Underprovisioning"
+        },
+        {
+          "id": "c",
+          "text": "IaaS responsibility model"
+        },
+        {
+          "id": "d",
+          "text": "Describe Azure architecture and services"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Provider physical datacenter responsibility is the best match because it is the cloud provider is responsible for the physical datacenter.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "sc-0034",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "scenario": "The organization is reviewing the topic “Describe the shared responsibility model” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants the cloud provider is responsible for the physical network infrastructure. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pay-as-you-go"
+        },
+        {
+          "id": "b",
+          "text": "Azure Fundamentals"
+        },
+        {
+          "id": "c",
+          "text": "Provider physical network responsibility"
+        },
+        {
+          "id": "d",
+          "text": "Provider physical datacenter responsibility"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Provider physical network responsibility is the best match because it is the cloud provider is responsible for the physical network infrastructure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "sc-0035",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "scenario": "The organization is reviewing the topic “Describe the shared responsibility model” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for the cloud provider is responsible for the physical hosts. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Describe Azure management and governance"
+        },
+        {
+          "id": "b",
+          "text": "Provider physical host responsibility"
+        },
+        {
+          "id": "c",
+          "text": "Pay-as-you-go"
+        },
+        {
+          "id": "d",
+          "text": "Capital expenditure (CapEx)"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Provider physical host responsibility is the best match because it is the cloud provider is responsible for the physical hosts.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "sc-0036",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "scenario": "The organization is reviewing the topic “Describe the shared responsibility model” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for the cloud service model that leaves the most operational responsibility with the customer. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "PaaS responsibility model"
+        },
+        {
+          "id": "b",
+          "text": "IaaS responsibility model"
+        },
+        {
+          "id": "c",
+          "text": "Overprovisioning"
+        },
+        {
+          "id": "d",
+          "text": "AZ-900"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "IaaS responsibility model is the best match because it is the cloud service model that leaves the most operational responsibility with the customer.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "sc-0037",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "scenario": "The organization is reviewing the topic “Describe the shared responsibility model” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is the cloud service model that places the largest share of application-stack responsibility on the provider. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "SaaS responsibility model"
+        },
+        {
+          "id": "b",
+          "text": "Global reach"
+        },
+        {
+          "id": "c",
+          "text": "Cloud computing"
+        },
+        {
+          "id": "d",
+          "text": "Hybrid cloud"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "SaaS responsibility model is the best match because it is the cloud service model that places the largest share of application-stack responsibility on the provider.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "sc-0038",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "scenario": "The organization is reviewing the topic “Describe the shared responsibility model” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as a middle-ground model in which the provider manages the platform while the customer focuses on applications and data. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Private cloud"
+        },
+        {
+          "id": "b",
+          "text": "Provider physical datacenter responsibility"
+        },
+        {
+          "id": "c",
+          "text": "Provider physical network responsibility"
+        },
+        {
+          "id": "d",
+          "text": "PaaS responsibility model"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "PaaS responsibility model is the best match because it is a middle-ground model in which the provider manages the platform while the customer focuses on applications and data.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "sc-0039",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "scenario": "The organization is reviewing the topic “Describe the shared responsibility model” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides the customer remains responsible for information and data stored in the cloud. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Underprovisioning"
+        },
+        {
+          "id": "b",
+          "text": "Describe Azure management and governance"
+        },
+        {
+          "id": "c",
+          "text": "Customer data responsibility"
+        },
+        {
+          "id": "d",
+          "text": "Operational expenditure (OpEx)"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Customer data responsibility is the best match because it is the customer remains responsible for information and data stored in the cloud.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "match-0015",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Customer data responsibility"
+        },
+        {
+          "id": "l2",
+          "text": "Customer identity responsibility"
+        },
+        {
+          "id": "l3",
+          "text": "Customer device responsibility"
+        },
+        {
+          "id": "l4",
+          "text": "Provider physical datacenter responsibility"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "The customer remains responsible for accounts and identities used in the environment"
+        },
+        {
+          "id": "r4",
+          "text": "The cloud provider is responsible for the physical datacenter"
+        },
+        {
+          "id": "r3",
+          "text": "The customer remains responsible for devices that are allowed to connect to cloud resources"
+        },
+        {
+          "id": "r1",
+          "text": "The customer remains responsible for information and data stored in the cloud"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l4": "r4",
+        "l3": "r3",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "match-0016",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Customer device responsibility"
+        },
+        {
+          "id": "l2",
+          "text": "Provider physical datacenter responsibility"
+        },
+        {
+          "id": "l3",
+          "text": "Provider physical network responsibility"
+        },
+        {
+          "id": "l4",
+          "text": "Provider physical host responsibility"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "The cloud provider is responsible for the physical hosts"
+        },
+        {
+          "id": "r2",
+          "text": "The cloud provider is responsible for the physical datacenter"
+        },
+        {
+          "id": "r1",
+          "text": "The customer remains responsible for devices that are allowed to connect to cloud resources"
+        },
+        {
+          "id": "r3",
+          "text": "The cloud provider is responsible for the physical network infrastructure"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "match-0017",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Provider physical network responsibility"
+        },
+        {
+          "id": "l2",
+          "text": "Provider physical host responsibility"
+        },
+        {
+          "id": "l3",
+          "text": "IaaS responsibility model"
+        },
+        {
+          "id": "l4",
+          "text": "SaaS responsibility model"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "The cloud provider is responsible for the physical network infrastructure"
+        },
+        {
+          "id": "r4",
+          "text": "The cloud service model that places the largest share of application-stack responsibility on the provider"
+        },
+        {
+          "id": "r3",
+          "text": "The cloud service model that leaves the most operational responsibility with the customer"
+        },
+        {
+          "id": "r2",
+          "text": "The cloud provider is responsible for the physical hosts"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l4": "r4",
+        "l3": "r3",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "match-0018",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "IaaS responsibility model"
+        },
+        {
+          "id": "l2",
+          "text": "SaaS responsibility model"
+        },
+        {
+          "id": "l3",
+          "text": "PaaS responsibility model"
+        },
+        {
+          "id": "l4",
+          "text": "Customer data responsibility"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A middle-ground model in which the provider manages the platform while the customer focuses on applications and data"
+        },
+        {
+          "id": "r2",
+          "text": "The cloud service model that places the largest share of application-stack responsibility on the provider"
+        },
+        {
+          "id": "r4",
+          "text": "The customer remains responsible for information and data stored in the cloud"
+        },
+        {
+          "id": "r1",
+          "text": "The cloud service model that leaves the most operational responsibility with the customer"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l2": "r2",
+        "l4": "r4",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "match-0019",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "PaaS responsibility model"
+        },
+        {
+          "id": "l2",
+          "text": "Customer data responsibility"
+        },
+        {
+          "id": "l3",
+          "text": "Customer identity responsibility"
+        },
+        {
+          "id": "l4",
+          "text": "Customer device responsibility"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "The customer remains responsible for devices that are allowed to connect to cloud resources"
+        },
+        {
+          "id": "r3",
+          "text": "The customer remains responsible for accounts and identities used in the environment"
+        },
+        {
+          "id": "r1",
+          "text": "A middle-ground model in which the provider manages the platform while the customer focuses on applications and data"
+        },
+        {
+          "id": "r2",
+          "text": "The customer remains responsible for information and data stored in the cloud"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l3": "r3",
+        "l1": "r1",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "fill-0015",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "question": "{{answer}} is the customer remains responsible for devices that are allowed to connect to cloud resources.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure Fundamentals",
+            "Customer identity responsibility",
+            "Describe cloud concepts",
+            "Customer device responsibility"
+          ],
+          "correctAnswer": "Customer device responsibility"
+        }
+      ],
+      "explanation": "Customer device responsibility is the customer remains responsible for devices that are allowed to connect to cloud resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "fill-0016",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "question": "The term for the cloud provider is responsible for the physical datacenter is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "AZ-900",
+            "Public-cloud scaling",
+            "Hybrid cloud",
+            "Provider physical datacenter responsibility"
+          ],
+          "correctAnswer": "Provider physical datacenter responsibility"
+        }
+      ],
+      "explanation": "Provider physical datacenter responsibility is the cloud provider is responsible for the physical datacenter.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "fill-0017",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "question": "In this unit, {{answer}} refers to the cloud provider is responsible for the physical network infrastructure.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Describe Azure architecture and services",
+            "Cloud databases",
+            "Provider physical network responsibility",
+            "Capital expenditure (CapEx)"
+          ],
+          "correctAnswer": "Provider physical network responsibility"
+        }
+      ],
+      "explanation": "Provider physical network responsibility is the cloud provider is responsible for the physical network infrastructure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "fill-0018",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "question": "For AZ-900, the concept described as the cloud provider is responsible for the physical hosts is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Cloud computing",
+            "Operational expenditure (OpEx)",
+            "Consumption-based model",
+            "Provider physical host responsibility"
+          ],
+          "correctAnswer": "Provider physical host responsibility"
+        }
+      ],
+      "explanation": "Provider physical host responsibility is the cloud provider is responsible for the physical hosts.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    },
+    {
+      "id": "fill-0019",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the shared responsibility model",
+      "question": "Choose the term that completes the statement: {{answer}} means the cloud service model that leaves the most operational responsibility with the customer.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Provider physical host responsibility",
+            "IaaS responsibility model",
+            "Provider physical datacenter responsibility",
+            "AZ-900"
+          ],
+          "correctAnswer": "IaaS responsibility model"
+        }
+      ],
+      "explanation": "IaaS responsibility model is the cloud service model that leaves the most operational responsibility with the customer.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model"
+    }
+  ]
+}

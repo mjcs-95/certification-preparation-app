@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe Azure identity, access, and security · Describe defense-in-depth",
+  "questions": [
+    {
+      "id": "mc-0435",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "question": "Which statement best describes Defense in depth?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Protections for datacenter facilities and physical hardware"
+        },
+        {
+          "id": "b",
+          "text": "A protection approach that can reduce exposure by limiting management-port access to approved time windows"
+        },
+        {
+          "id": "c",
+          "text": "Using identity and device state with tools such as Intune and Conditional Access"
+        },
+        {
+          "id": "d",
+          "text": "A security strategy that uses multiple layers so the failure of one control does not expose the entire system"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Defense in depth is a security strategy that uses multiple layers so the failure of one control does not expose the entire system.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "mc-0436",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "question": "In the context of this Microsoft Learn unit, what does Physical security layer refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Technology that synchronizes identities between on-premises Active Directory and Microsoft Entra ID"
+        },
+        {
+          "id": "b",
+          "text": "Protections for datacenter facilities and physical hardware"
+        },
+        {
+          "id": "c",
+          "text": "Identity synchronization from Microsoft Entra ID to Microsoft Entra Domain Services without syncing managed-domain-only objects back"
+        },
+        {
+          "id": "d",
+          "text": "Reassessing trust based on changing signals rather than assuming a one-time login establishes permanent trust"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Physical security layer is protections for datacenter facilities and physical hardware.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "mc-0437",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "question": "Which description correctly matches Identity and access layer?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verifying the identity of a person, service, or device before granting access"
+        },
+        {
+          "id": "b",
+          "text": "Something the user is, such as a fingerprint or facial biometric"
+        },
+        {
+          "id": "c",
+          "text": "A Conditional Access control that permits access only from devices meeting compliance requirements"
+        },
+        {
+          "id": "d",
+          "text": "Controls that verify identities and restrict permissions"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Identity and access layer is controls that verify identities and restrict permissions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "mc-0438",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "question": "Which of the following is the best definition of Perimeter layer?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A hardware-based passwordless authentication option supported by Microsoft Entra ID"
+        },
+        {
+          "id": "b",
+          "text": "Controls that protect the boundary from external network threats"
+        },
+        {
+          "id": "c",
+          "text": "Supporting sign-in experiences for customers who use an organization’s applications"
+        },
+        {
+          "id": "d",
+          "text": "Information about the requesting user or workload used to evaluate access"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Perimeter layer is controls that protect the boundary from external network threats.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "mc-0439",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "question": "What is the primary meaning of Network layer in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microsoft cloud-based identity and access management service"
+        },
+        {
+          "id": "b",
+          "text": "Segmentation and network controls that restrict communication paths"
+        },
+        {
+          "id": "c",
+          "text": "The identity or group membership used as part of a Conditional Access decision"
+        },
+        {
+          "id": "d",
+          "text": "An identity belonging to a person outside the organization who needs controlled access to applications or resources"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Network layer is segmentation and network controls that restrict communication paths.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "mr-0435",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Defense in depth: a security strategy that uses multiple layers so the failure of one control does not expose the entire system."
+        },
+        {
+          "id": "b",
+          "text": "Identity and access layer: Microsoft cloud-based identity and access management service."
+        },
+        {
+          "id": "c",
+          "text": "Defense in depth: controls that protect the boundary from external network threats."
+        },
+        {
+          "id": "d",
+          "text": "Physical security layer: protections for datacenter facilities and physical hardware."
+        },
+        {
+          "id": "e",
+          "text": "Physical security layer: secure coding, patching, and application-specific protections."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Defense in depth — a security strategy that uses multiple layers so the failure of one control does not expose the entire system; and Physical security layer — protections for datacenter facilities and physical hardware.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "mr-0436",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Perimeter layer: controls that protect the boundary from external network threats."
+        },
+        {
+          "id": "b",
+          "text": "Identity and access layer: controls that verify identities and restrict permissions."
+        },
+        {
+          "id": "c",
+          "text": "Perimeter layer: using overlapping safeguards so attackers must defeat multiple independent controls."
+        },
+        {
+          "id": "d",
+          "text": "Perimeter layer: verifying the identity of a person, service, or device before granting access."
+        },
+        {
+          "id": "e",
+          "text": "Identity and access layer: protections for virtual machines, containers, operating systems, and workloads."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Identity and access layer — controls that verify identities and restrict permissions; and Perimeter layer — controls that protect the boundary from external network threats.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "mr-0437",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Network layer: using one identity sign-in to access multiple trusted applications."
+        },
+        {
+          "id": "b",
+          "text": "Compute layer: verifying the identity of a person, service, or device before granting access."
+        },
+        {
+          "id": "c",
+          "text": "Compute layer: protections for virtual machines, containers, operating systems, and workloads."
+        },
+        {
+          "id": "d",
+          "text": "Network layer: segmentation and network controls that restrict communication paths."
+        },
+        {
+          "id": "e",
+          "text": "Network layer: controls such as encryption and access restrictions applied directly to information."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: Network layer — segmentation and network controls that restrict communication paths; and Compute layer — protections for virtual machines, containers, operating systems, and workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "mr-0438",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Data layer: controls such as encryption and access restrictions applied directly to information."
+        },
+        {
+          "id": "b",
+          "text": "Compute layer: Microsoft Entra capabilities for integrating and controlling access to cloud and on-premises applications."
+        },
+        {
+          "id": "c",
+          "text": "Data layer: Microsoft Entra capabilities for integrating and controlling access to cloud and on-premises applications."
+        },
+        {
+          "id": "d",
+          "text": "Application layer: Microsoft cloud-based identity and access management service."
+        },
+        {
+          "id": "e",
+          "text": "Application layer: secure coding, patching, and application-specific protections."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "e"
+      ],
+      "explanation": "The correct pair is: Application layer — secure coding, patching, and application-specific protections; and Data layer — controls such as encryption and access restrictions applied directly to information.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "mr-0439",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Application layer: using identity and device state with tools such as Intune and Conditional Access."
+        },
+        {
+          "id": "b",
+          "text": "Defense in depth: protections for virtual machines, containers, operating systems, and workloads."
+        },
+        {
+          "id": "c",
+          "text": "Layered mitigation: using overlapping safeguards so attackers must defeat multiple independent controls."
+        },
+        {
+          "id": "d",
+          "text": "Defense in depth: a security strategy that uses multiple layers so the failure of one control does not expose the entire system."
+        },
+        {
+          "id": "e",
+          "text": "Layered mitigation: using one identity sign-in to access multiple trusted applications."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: Layered mitigation — using overlapping safeguards so attackers must defeat multiple independent controls; and Defense in depth — a security strategy that uses multiple layers so the failure of one control does not expose the entire system.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "tf-0435",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "question": "Defense in depth is a security strategy that uses multiple layers so the failure of one control does not expose the entire system.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Defense in depth is a security strategy that uses multiple layers so the failure of one control does not expose the entire system.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "tf-0436",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "question": "According to this unit: Physical security layer is segmentation and network controls that restrict communication paths.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Physical security layer is protections for datacenter facilities and physical hardware.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "tf-0437",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "question": "For Azure fundamentals, Identity and access layer is controls that verify identities and restrict permissions.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Identity and access layer is controls that verify identities and restrict permissions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "tf-0438",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "question": "This statement is correct: Perimeter layer is secure coding, patching, and application-specific protections.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Perimeter layer is controls that protect the boundary from external network threats.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "tf-0439",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "question": "The unit supports the following statement: Network layer is segmentation and network controls that restrict communication paths.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Network layer is segmentation and network controls that restrict communication paths.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "sc-0870",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "scenario": "The organization is reviewing the topic “Describe defense-in-depth” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a security strategy that uses multiple layers so the failure of one control does not expose the entire system. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Security principal"
+        },
+        {
+          "id": "b",
+          "text": "Security recommendations"
+        },
+        {
+          "id": "c",
+          "text": "Defense in depth"
+        },
+        {
+          "id": "d",
+          "text": "Identity and access layer"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Defense in depth is the best match because it is a security strategy that uses multiple layers so the failure of one control does not expose the entire system.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "sc-0871",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "scenario": "The organization is reviewing the topic “Describe defense-in-depth” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs protections for datacenter facilities and physical hardware. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Regulatory compliance dashboard"
+        },
+        {
+          "id": "b",
+          "text": "Physical security layer"
+        },
+        {
+          "id": "c",
+          "text": "Application layer"
+        },
+        {
+          "id": "d",
+          "text": "Microsoft Authenticator"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Physical security layer is the best match because it is protections for datacenter facilities and physical hardware.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "sc-0872",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "scenario": "The organization is reviewing the topic “Describe defense-in-depth” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: controls that verify identities and restrict permissions. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Assume breach"
+        },
+        {
+          "id": "b",
+          "text": "Application signal"
+        },
+        {
+          "id": "c",
+          "text": "Identity and access layer"
+        },
+        {
+          "id": "d",
+          "text": "Role assignment"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Identity and access layer is the best match because it is controls that verify identities and restrict permissions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "sc-0873",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "scenario": "The organization is reviewing the topic “Describe defense-in-depth” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: controls that protect the boundary from external network threats. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "External ID"
+        },
+        {
+          "id": "b",
+          "text": "Perimeter layer"
+        },
+        {
+          "id": "c",
+          "text": "Guest user"
+        },
+        {
+          "id": "d",
+          "text": "Network layer"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Perimeter layer is the best match because it is controls that protect the boundary from external network threats.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "sc-0874",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "scenario": "The organization is reviewing the topic “Describe defense-in-depth” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants segmentation and network controls that restrict communication paths. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "FIDO2 security key"
+        },
+        {
+          "id": "b",
+          "text": "Require compliant device"
+        },
+        {
+          "id": "c",
+          "text": "Inherence factor"
+        },
+        {
+          "id": "d",
+          "text": "Network layer"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Network layer is the best match because it is segmentation and network controls that restrict communication paths.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "sc-0875",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "scenario": "The organization is reviewing the topic “Describe defense-in-depth” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for protections for virtual machines, containers, operating systems, and workloads. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Compute layer"
+        },
+        {
+          "id": "b",
+          "text": "External ID"
+        },
+        {
+          "id": "c",
+          "text": "Windows Hello for Business"
+        },
+        {
+          "id": "d",
+          "text": "Microsoft Defender for Cloud"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Compute layer is the best match because it is protections for virtual machines, containers, operating systems, and workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "sc-0876",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "scenario": "The organization is reviewing the topic “Describe defense-in-depth” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for secure coding, patching, and application-specific protections. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Application layer"
+        },
+        {
+          "id": "b",
+          "text": "Azure Storage Service Encryption"
+        },
+        {
+          "id": "c",
+          "text": "Microsoft-managed key"
+        },
+        {
+          "id": "d",
+          "text": "Security principal"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Application layer is the best match because it is secure coding, patching, and application-specific protections.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "sc-0877",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "scenario": "The organization is reviewing the topic “Describe defense-in-depth” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is controls such as encryption and access restrictions applied directly to information. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Assume breach"
+        },
+        {
+          "id": "b",
+          "text": "Azure RBAC"
+        },
+        {
+          "id": "c",
+          "text": "Data layer"
+        },
+        {
+          "id": "d",
+          "text": "Require compliant device"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Data layer is the best match because it is controls such as encryption and access restrictions applied directly to information.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "sc-0878",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "scenario": "The organization is reviewing the topic “Describe defense-in-depth” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as using overlapping safeguards so attackers must defeat multiple independent controls. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microsoft Entra Connect"
+        },
+        {
+          "id": "b",
+          "text": "Layered mitigation"
+        },
+        {
+          "id": "c",
+          "text": "Inherence factor"
+        },
+        {
+          "id": "d",
+          "text": "Least privilege"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Layered mitigation is the best match because it is using overlapping safeguards so attackers must defeat multiple independent controls.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "sc-0879",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "scenario": "The organization is reviewing the topic “Describe defense-in-depth” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides a security strategy that uses multiple layers so the failure of one control does not expose the entire system. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Application layer"
+        },
+        {
+          "id": "b",
+          "text": "Layered mitigation"
+        },
+        {
+          "id": "c",
+          "text": "Azure Disk Encryption"
+        },
+        {
+          "id": "d",
+          "text": "Defense in depth"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Defense in depth is the best match because it is a security strategy that uses multiple layers so the failure of one control does not expose the entire system.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "match-0435",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Defense in depth"
+        },
+        {
+          "id": "l2",
+          "text": "Physical security layer"
+        },
+        {
+          "id": "l3",
+          "text": "Identity and access layer"
+        },
+        {
+          "id": "l4",
+          "text": "Perimeter layer"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A security strategy that uses multiple layers so the failure of one control does not expose the entire system"
+        },
+        {
+          "id": "r4",
+          "text": "Controls that protect the boundary from external network threats"
+        },
+        {
+          "id": "r3",
+          "text": "Controls that verify identities and restrict permissions"
+        },
+        {
+          "id": "r2",
+          "text": "Protections for datacenter facilities and physical hardware"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l4": "r4",
+        "l3": "r3",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "match-0436",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Identity and access layer"
+        },
+        {
+          "id": "l2",
+          "text": "Perimeter layer"
+        },
+        {
+          "id": "l3",
+          "text": "Network layer"
+        },
+        {
+          "id": "l4",
+          "text": "Compute layer"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Controls that verify identities and restrict permissions"
+        },
+        {
+          "id": "r3",
+          "text": "Segmentation and network controls that restrict communication paths"
+        },
+        {
+          "id": "r2",
+          "text": "Controls that protect the boundary from external network threats"
+        },
+        {
+          "id": "r4",
+          "text": "Protections for virtual machines, containers, operating systems, and workloads"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l3": "r3",
+        "l2": "r2",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "match-0437",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Network layer"
+        },
+        {
+          "id": "l2",
+          "text": "Compute layer"
+        },
+        {
+          "id": "l3",
+          "text": "Application layer"
+        },
+        {
+          "id": "l4",
+          "text": "Data layer"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Secure coding, patching, and application-specific protections"
+        },
+        {
+          "id": "r1",
+          "text": "Segmentation and network controls that restrict communication paths"
+        },
+        {
+          "id": "r2",
+          "text": "Protections for virtual machines, containers, operating systems, and workloads"
+        },
+        {
+          "id": "r4",
+          "text": "Controls such as encryption and access restrictions applied directly to information"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l1": "r1",
+        "l2": "r2",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "match-0438",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Application layer"
+        },
+        {
+          "id": "l2",
+          "text": "Data layer"
+        },
+        {
+          "id": "l3",
+          "text": "Layered mitigation"
+        },
+        {
+          "id": "l4",
+          "text": "Defense in depth"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "A security strategy that uses multiple layers so the failure of one control does not expose the entire system"
+        },
+        {
+          "id": "r3",
+          "text": "Using overlapping safeguards so attackers must defeat multiple independent controls"
+        },
+        {
+          "id": "r2",
+          "text": "Controls such as encryption and access restrictions applied directly to information"
+        },
+        {
+          "id": "r1",
+          "text": "Secure coding, patching, and application-specific protections"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l3": "r3",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "match-0439",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Layered mitigation"
+        },
+        {
+          "id": "l2",
+          "text": "Defense in depth"
+        },
+        {
+          "id": "l3",
+          "text": "Physical security layer"
+        },
+        {
+          "id": "l4",
+          "text": "Identity and access layer"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Controls that verify identities and restrict permissions"
+        },
+        {
+          "id": "r1",
+          "text": "Using overlapping safeguards so attackers must defeat multiple independent controls"
+        },
+        {
+          "id": "r2",
+          "text": "A security strategy that uses multiple layers so the failure of one control does not expose the entire system"
+        },
+        {
+          "id": "r3",
+          "text": "Protections for datacenter facilities and physical hardware"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "fill-0435",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "question": "{{answer}} is controls that verify identities and restrict permissions.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Identity and access layer",
+            "Assume breach",
+            "Microsoft Entra ID",
+            "B2B collaboration"
+          ],
+          "correctAnswer": "Identity and access layer"
+        }
+      ],
+      "explanation": "Identity and access layer is controls that verify identities and restrict permissions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "fill-0436",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "question": "The term for controls that protect the boundary from external network threats is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Security posture management",
+            "Microsoft Authenticator",
+            "Perimeter layer",
+            "Conditional Access"
+          ],
+          "correctAnswer": "Perimeter layer"
+        }
+      ],
+      "explanation": "Perimeter layer is controls that protect the boundary from external network threats.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "fill-0437",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "question": "In this unit, {{answer}} refers to segmentation and network controls that restrict communication paths.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Network layer",
+            "Scope",
+            "Require MFA",
+            "Location signal"
+          ],
+          "correctAnswer": "Network layer"
+        }
+      ],
+      "explanation": "Network layer is segmentation and network controls that restrict communication paths.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "fill-0438",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "question": "For AZ-900, the concept described as protections for virtual machines, containers, operating systems, and workloads is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Guest user",
+            "One-way managed-domain synchronization",
+            "Defense in depth",
+            "Compute layer"
+          ],
+          "correctAnswer": "Compute layer"
+        }
+      ],
+      "explanation": "Compute layer is protections for virtual machines, containers, operating systems, and workloads.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    },
+    {
+      "id": "fill-0439",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe defense-in-depth",
+      "question": "Choose the term that completes the statement: {{answer}} means secure coding, patching, and application-specific protections.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Application management",
+            "Application layer",
+            "Physical security layer",
+            "Windows Hello for Business"
+          ],
+          "correctAnswer": "Application layer"
+        }
+      ],
+      "explanation": "Application layer is secure coding, patching, and application-specific protections.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth"
+    }
+  ]
+}

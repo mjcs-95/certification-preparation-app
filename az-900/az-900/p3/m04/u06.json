@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe Azure storage services · Identify Azure file movement options",
+  "questions": [
+    {
+      "id": "mc-0385",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "question": "Which statement best describes AzCopy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Synchronous replication across three availability zones in the primary region"
+        },
+        {
+          "id": "b",
+          "text": "A command-line utility for uploading, downloading, copying, and one-way synchronizing blobs and files"
+        },
+        {
+          "id": "c",
+          "text": "Using a Data Box device to transfer large datasets out of Azure"
+        },
+        {
+          "id": "d",
+          "text": "Storage Explorer running on Windows, macOS, and Linux"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "AzCopy is a command-line utility for uploading, downloading, copying, and one-way synchronizing blobs and files.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "mc-0386",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "question": "In the context of this Microsoft Learn unit, what does One-way synchronization refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "LRS in the primary region plus asynchronous replication to LRS in a paired secondary region"
+        },
+        {
+          "id": "b",
+          "text": "A resource that provides a unique namespace for Azure Storage data and exposes storage services through endpoints"
+        },
+        {
+          "id": "c",
+          "text": "A command-line utility for uploading, downloading, copying, and one-way synchronizing blobs and files"
+        },
+        {
+          "id": "d",
+          "text": "AzCopy synchronization that copies changes from a designated source toward a destination rather than maintaining two-way sync"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "One-way synchronization is AzCopy synchronization that copies changes from a designated source toward a destination rather than maintaining two-way sync.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "mc-0387",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "question": "Which description correctly matches Azure Storage Explorer?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A resource that provides a unique namespace for Azure Storage data and exposes storage services through endpoints"
+        },
+        {
+          "id": "b",
+          "text": "A cross-platform graphical application for managing Azure Storage files and blobs"
+        },
+        {
+          "id": "c",
+          "text": "Synchronous replication across three availability zones in the primary region"
+        },
+        {
+          "id": "d",
+          "text": "A Blob Storage tier optimized for infrequently accessed data generally stored for at least 90 days"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Storage Explorer is a cross-platform graphical application for managing Azure Storage files and blobs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "mc-0388",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "question": "Which of the following is the best definition of Storage Explorer backend?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The lowest-cost storage tier for rarely accessed data with the highest retrieval latency and a long intended retention period"
+        },
+        {
+          "id": "b",
+          "text": "AzCopy is used behind the scenes for many Storage Explorer file and blob operations"
+        },
+        {
+          "id": "c",
+          "text": "Shipping data on a secure physical device such as Azure Data Box"
+        },
+        {
+          "id": "d",
+          "text": "Azure Storage keeping three copies of data in the primary region"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Storage Explorer backend is AzCopy is used behind the scenes for many Storage Explorer file and blob operations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "mc-0389",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "question": "What is the primary meaning of Azure File Sync in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Replication of data three times within a single datacenter in the primary region"
+        },
+        {
+          "id": "b",
+          "text": "ZRS in the primary region plus asynchronous replication to LRS in a secondary region"
+        },
+        {
+          "id": "c",
+          "text": "Massively scalable object storage for unstructured text and binary data"
+        },
+        {
+          "id": "d",
+          "text": "A service that keeps Windows Server file data synchronized bidirectionally with Azure Files"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Azure File Sync is a service that keeps Windows Server file data synchronized bidirectionally with Azure Files.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "mr-0385",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "One-way synchronization: using Azure File Sync to retain fast local access while centralizing file shares in Azure Files."
+        },
+        {
+          "id": "b",
+          "text": "Azure Storage Explorer: the recommended standard account type for most blob, file, queue, and table storage scenarios."
+        },
+        {
+          "id": "c",
+          "text": "AzCopy: AzCopy is used behind the scenes for many Storage Explorer file and blob operations."
+        },
+        {
+          "id": "d",
+          "text": "AzCopy: a command-line utility for uploading, downloading, copying, and one-way synchronizing blobs and files."
+        },
+        {
+          "id": "e",
+          "text": "One-way synchronization: AzCopy synchronization that copies changes from a designated source toward a destination rather than maintaining two-way sync."
+        }
+      ],
+      "correctAnswers": [
+        "d",
+        "e"
+      ],
+      "explanation": "The correct pair is: AzCopy — a command-line utility for uploading, downloading, copying, and one-way synchronizing blobs and files; and One-way synchronization — AzCopy synchronization that copies changes from a designated source toward a destination rather than maintaining two-way sync.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "mr-0386",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Storage Explorer backend: a resource that provides a unique namespace for Azure Storage data and exposes storage services through endpoints."
+        },
+        {
+          "id": "b",
+          "text": "Azure Storage Explorer: keeping frequently accessed files locally while allowing less-used files to remain primarily in Azure."
+        },
+        {
+          "id": "c",
+          "text": "Azure Storage Explorer: a cross-platform graphical application for managing Azure Storage files and blobs."
+        },
+        {
+          "id": "d",
+          "text": "Storage Explorer backend: AzCopy is used behind the scenes for many Storage Explorer file and blob operations."
+        },
+        {
+          "id": "e",
+          "text": "Storage Explorer backend: a premium account type for block and append blobs requiring high transaction rates or low latency."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: Azure Storage Explorer — a cross-platform graphical application for managing Azure Storage files and blobs; and Storage Explorer backend — AzCopy is used behind the scenes for many Storage Explorer file and blob operations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "mr-0387",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure File Sync: a service that keeps Windows Server file data synchronized bidirectionally with Azure Files."
+        },
+        {
+          "id": "b",
+          "text": "Cloud tiering: a premium account type for block and append blobs requiring high transaction rates or low latency."
+        },
+        {
+          "id": "c",
+          "text": "Cloud tiering: keeping frequently accessed files locally while allowing less-used files to remain primarily in Azure."
+        },
+        {
+          "id": "d",
+          "text": "Azure File Sync: Storage Explorer running on Windows, macOS, and Linux."
+        },
+        {
+          "id": "e",
+          "text": "Azure File Sync: a premium account type for Azure Files that supports SMB and NFS shares."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "c"
+      ],
+      "explanation": "The correct pair is: Azure File Sync — a service that keeps Windows Server file data synchronized bidirectionally with Azure Files; and Cloud tiering — keeping frequently accessed files locally while allowing less-used files to remain primarily in Azure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "mr-0388",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Local file-server cache: the recommended standard account type for most blob, file, queue, and table storage scenarios."
+        },
+        {
+          "id": "b",
+          "text": "Cross-platform Storage Explorer: a premium account type dedicated to page blobs."
+        },
+        {
+          "id": "c",
+          "text": "Local file-server cache: using Azure File Sync to retain fast local access while centralizing file shares in Azure Files."
+        },
+        {
+          "id": "d",
+          "text": "Cross-platform Storage Explorer: Storage Explorer running on Windows, macOS, and Linux."
+        },
+        {
+          "id": "e",
+          "text": "Cloud tiering: a premium account type dedicated to page blobs."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: Local file-server cache — using Azure File Sync to retain fast local access while centralizing file shares in Azure Files; and Cross-platform Storage Explorer — Storage Explorer running on Windows, macOS, and Linux.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "mr-0389",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "One-way synchronization: AzCopy synchronization that copies changes from a designated source toward a destination rather than maintaining two-way sync."
+        },
+        {
+          "id": "b",
+          "text": "Local file-server cache: the globally unique account name used as part of Azure Storage service endpoints."
+        },
+        {
+          "id": "c",
+          "text": "AzCopy: AzCopy is used behind the scenes for many Storage Explorer file and blob operations."
+        },
+        {
+          "id": "d",
+          "text": "One-way synchronization: using Azure File Sync to retain fast local access while centralizing file shares in Azure Files."
+        },
+        {
+          "id": "e",
+          "text": "AzCopy: a command-line utility for uploading, downloading, copying, and one-way synchronizing blobs and files."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "e"
+      ],
+      "explanation": "The correct pair is: AzCopy — a command-line utility for uploading, downloading, copying, and one-way synchronizing blobs and files; and One-way synchronization — AzCopy synchronization that copies changes from a designated source toward a destination rather than maintaining two-way sync.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "tf-0385",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "question": "AzCopy is a command-line utility for uploading, downloading, copying, and one-way synchronizing blobs and files.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "AzCopy is a command-line utility for uploading, downloading, copying, and one-way synchronizing blobs and files.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "tf-0386",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "question": "According to this unit: One-way synchronization is a service that keeps Windows Server file data synchronized bidirectionally with Azure Files.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. One-way synchronization is AzCopy synchronization that copies changes from a designated source toward a destination rather than maintaining two-way sync.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "tf-0387",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "question": "For Azure fundamentals, Azure Storage Explorer is a cross-platform graphical application for managing Azure Storage files and blobs.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure Storage Explorer is a cross-platform graphical application for managing Azure Storage files and blobs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "tf-0388",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "question": "This statement is correct: Storage Explorer backend is using Azure File Sync to retain fast local access while centralizing file shares in Azure Files.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Storage Explorer backend is AzCopy is used behind the scenes for many Storage Explorer file and blob operations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "tf-0389",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "question": "The unit supports the following statement: Azure File Sync is a service that keeps Windows Server file data synchronized bidirectionally with Azure Files.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure File Sync is a service that keeps Windows Server file data synchronized bidirectionally with Azure Files.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "sc-0770",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "scenario": "The organization is reviewing the topic “Identify Azure file movement options” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a command-line utility for uploading, downloading, copying, and one-way synchronizing blobs and files. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Table Storage"
+        },
+        {
+          "id": "b",
+          "text": "Azure Disk Storage"
+        },
+        {
+          "id": "c",
+          "text": "Local file-server cache"
+        },
+        {
+          "id": "d",
+          "text": "AzCopy"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "AzCopy is the best match because it is a command-line utility for uploading, downloading, copying, and one-way synchronizing blobs and files.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "sc-0771",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "scenario": "The organization is reviewing the topic “Identify Azure file movement options” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs azCopy synchronization that copies changes from a designated source toward a destination rather than maintaining two-way sync. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "One-way synchronization"
+        },
+        {
+          "id": "b",
+          "text": "Discovery and assessment"
+        },
+        {
+          "id": "c",
+          "text": "Blob service endpoint"
+        },
+        {
+          "id": "d",
+          "text": "Server Migration"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "One-way synchronization is the best match because it is AzCopy synchronization that copies changes from a designated source toward a destination rather than maintaining two-way sync.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "sc-0772",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "scenario": "The organization is reviewing the topic “Identify Azure file movement options” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: a cross-platform graphical application for managing Azure Storage files and blobs. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Storage account naming rule"
+        },
+        {
+          "id": "b",
+          "text": "Azure Storage Explorer"
+        },
+        {
+          "id": "c",
+          "text": "Cool access tier"
+        },
+        {
+          "id": "d",
+          "text": "Blob service endpoint"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Storage Explorer is the best match because it is a cross-platform graphical application for managing Azure Storage files and blobs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "sc-0773",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "scenario": "The organization is reviewing the topic “Identify Azure file movement options” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: azCopy is used behind the scenes for many Storage Explorer file and blob operations. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Queue Storage"
+        },
+        {
+          "id": "b",
+          "text": "Azure Blob Storage"
+        },
+        {
+          "id": "c",
+          "text": "Azure storage account"
+        },
+        {
+          "id": "d",
+          "text": "Storage Explorer backend"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Storage Explorer backend is the best match because it is AzCopy is used behind the scenes for many Storage Explorer file and blob operations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "sc-0774",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "scenario": "The organization is reviewing the topic “Identify Azure file movement options” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants a service that keeps Windows Server file data synchronized bidirectionally with Azure Files. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Server Migration"
+        },
+        {
+          "id": "b",
+          "text": "Azure File Sync"
+        },
+        {
+          "id": "c",
+          "text": "Data Box import"
+        },
+        {
+          "id": "d",
+          "text": "Geo-zone-redundant storage (GZRS)"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure File Sync is the best match because it is a service that keeps Windows Server file data synchronized bidirectionally with Azure Files.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "sc-0775",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "scenario": "The organization is reviewing the topic “Identify Azure file movement options” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for keeping frequently accessed files locally while allowing less-used files to remain primarily in Azure. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cool access tier"
+        },
+        {
+          "id": "b",
+          "text": "Cloud tiering"
+        },
+        {
+          "id": "c",
+          "text": "Storage Explorer backend"
+        },
+        {
+          "id": "d",
+          "text": "Discovery and assessment"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Cloud tiering is the best match because it is keeping frequently accessed files locally while allowing less-used files to remain primarily in Azure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "sc-0776",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "scenario": "The organization is reviewing the topic “Identify Azure file movement options” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for using Azure File Sync to retain fast local access while centralizing file shares in Azure Files. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Disk Storage"
+        },
+        {
+          "id": "b",
+          "text": "Read-access geo-zone-redundant storage (RA-GZRS)"
+        },
+        {
+          "id": "c",
+          "text": "Server Migration"
+        },
+        {
+          "id": "d",
+          "text": "Local file-server cache"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Local file-server cache is the best match because it is using Azure File Sync to retain fast local access while centralizing file shares in Azure Files.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "sc-0777",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "scenario": "The organization is reviewing the topic “Identify Azure file movement options” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is storage Explorer running on Windows, macOS, and Linux. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "AzCopy"
+        },
+        {
+          "id": "b",
+          "text": "Azure Storage Explorer"
+        },
+        {
+          "id": "c",
+          "text": "Cross-platform Storage Explorer"
+        },
+        {
+          "id": "d",
+          "text": "One-way synchronization"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Cross-platform Storage Explorer is the best match because it is Storage Explorer running on Windows, macOS, and Linux.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "sc-0778",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "scenario": "The organization is reviewing the topic “Identify Azure file movement options” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as a command-line utility for uploading, downloading, copying, and one-way synchronizing blobs and files. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "AzCopy"
+        },
+        {
+          "id": "b",
+          "text": "Cloud tiering"
+        },
+        {
+          "id": "c",
+          "text": "Geo-zone-redundant storage (GZRS)"
+        },
+        {
+          "id": "d",
+          "text": "Server Migration"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "AzCopy is the best match because it is a command-line utility for uploading, downloading, copying, and one-way synchronizing blobs and files.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "sc-0779",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "scenario": "The organization is reviewing the topic “Identify Azure file movement options” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides azCopy synchronization that copies changes from a designated source toward a destination rather than maintaining two-way sync. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "One-way synchronization"
+        },
+        {
+          "id": "b",
+          "text": "Online migration"
+        },
+        {
+          "id": "c",
+          "text": "Geo-redundant storage (GRS)"
+        },
+        {
+          "id": "d",
+          "text": "Azure Table Storage"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "One-way synchronization is the best match because it is AzCopy synchronization that copies changes from a designated source toward a destination rather than maintaining two-way sync.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "match-0385",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "AzCopy"
+        },
+        {
+          "id": "l2",
+          "text": "One-way synchronization"
+        },
+        {
+          "id": "l3",
+          "text": "Azure Storage Explorer"
+        },
+        {
+          "id": "l4",
+          "text": "Storage Explorer backend"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A cross-platform graphical application for managing Azure Storage files and blobs"
+        },
+        {
+          "id": "r4",
+          "text": "AzCopy is used behind the scenes for many Storage Explorer file and blob operations"
+        },
+        {
+          "id": "r2",
+          "text": "AzCopy synchronization that copies changes from a designated source toward a destination rather than maintaining two-way sync"
+        },
+        {
+          "id": "r1",
+          "text": "A command-line utility for uploading, downloading, copying, and one-way synchronizing blobs and files"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "match-0386",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Storage Explorer"
+        },
+        {
+          "id": "l2",
+          "text": "Storage Explorer backend"
+        },
+        {
+          "id": "l3",
+          "text": "Azure File Sync"
+        },
+        {
+          "id": "l4",
+          "text": "Cloud tiering"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Keeping frequently accessed files locally while allowing less-used files to remain primarily in Azure"
+        },
+        {
+          "id": "r1",
+          "text": "A cross-platform graphical application for managing Azure Storage files and blobs"
+        },
+        {
+          "id": "r3",
+          "text": "A service that keeps Windows Server file data synchronized bidirectionally with Azure Files"
+        },
+        {
+          "id": "r2",
+          "text": "AzCopy is used behind the scenes for many Storage Explorer file and blob operations"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l1": "r1",
+        "l3": "r3",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "match-0387",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure File Sync"
+        },
+        {
+          "id": "l2",
+          "text": "Cloud tiering"
+        },
+        {
+          "id": "l3",
+          "text": "Local file-server cache"
+        },
+        {
+          "id": "l4",
+          "text": "Cross-platform Storage Explorer"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Using Azure File Sync to retain fast local access while centralizing file shares in Azure Files"
+        },
+        {
+          "id": "r2",
+          "text": "Keeping frequently accessed files locally while allowing less-used files to remain primarily in Azure"
+        },
+        {
+          "id": "r1",
+          "text": "A service that keeps Windows Server file data synchronized bidirectionally with Azure Files"
+        },
+        {
+          "id": "r4",
+          "text": "Storage Explorer running on Windows, macOS, and Linux"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l2": "r2",
+        "l1": "r1",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "match-0388",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Local file-server cache"
+        },
+        {
+          "id": "l2",
+          "text": "Cross-platform Storage Explorer"
+        },
+        {
+          "id": "l3",
+          "text": "AzCopy"
+        },
+        {
+          "id": "l4",
+          "text": "One-way synchronization"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "Storage Explorer running on Windows, macOS, and Linux"
+        },
+        {
+          "id": "r1",
+          "text": "Using Azure File Sync to retain fast local access while centralizing file shares in Azure Files"
+        },
+        {
+          "id": "r3",
+          "text": "A command-line utility for uploading, downloading, copying, and one-way synchronizing blobs and files"
+        },
+        {
+          "id": "r4",
+          "text": "AzCopy synchronization that copies changes from a designated source toward a destination rather than maintaining two-way sync"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l1": "r1",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "match-0389",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "AzCopy"
+        },
+        {
+          "id": "l2",
+          "text": "One-way synchronization"
+        },
+        {
+          "id": "l3",
+          "text": "Azure Storage Explorer"
+        },
+        {
+          "id": "l4",
+          "text": "Storage Explorer backend"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "AzCopy is used behind the scenes for many Storage Explorer file and blob operations"
+        },
+        {
+          "id": "r3",
+          "text": "A cross-platform graphical application for managing Azure Storage files and blobs"
+        },
+        {
+          "id": "r2",
+          "text": "AzCopy synchronization that copies changes from a designated source toward a destination rather than maintaining two-way sync"
+        },
+        {
+          "id": "r1",
+          "text": "A command-line utility for uploading, downloading, copying, and one-way synchronizing blobs and files"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l3": "r3",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "fill-0385",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "question": "{{answer}} is a cross-platform graphical application for managing Azure Storage files and blobs.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Premium block blobs",
+            "Archive access tier",
+            "Azure Storage Explorer",
+            "Geo-zone-redundant storage (GZRS)"
+          ],
+          "correctAnswer": "Azure Storage Explorer"
+        }
+      ],
+      "explanation": "Azure Storage Explorer is a cross-platform graphical application for managing Azure Storage files and blobs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "fill-0386",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "question": "The term for azCopy is used behind the scenes for many Storage Explorer file and blob operations is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Geo-zone-redundant storage (GZRS)",
+            "Recovery point objective (RPO)",
+            "Storage Explorer backend",
+            "Premium file shares"
+          ],
+          "correctAnswer": "Storage Explorer backend"
+        }
+      ],
+      "explanation": "Storage Explorer backend is AzCopy is used behind the scenes for many Storage Explorer file and blob operations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "fill-0387",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "question": "In this unit, {{answer}} refers to a service that keeps Windows Server file data synchronized bidirectionally with Azure Files.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure Storage Explorer",
+            "Azure File Sync",
+            "Cloud tiering",
+            "Azure Disk Storage"
+          ],
+          "correctAnswer": "Azure File Sync"
+        }
+      ],
+      "explanation": "Azure File Sync is a service that keeps Windows Server file data synchronized bidirectionally with Azure Files.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "fill-0388",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "question": "For AZ-900, the concept described as keeping frequently accessed files locally while allowing less-used files to remain primarily in Azure is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Premium page blobs",
+            "Azure Queue Storage",
+            "Primary-region replication",
+            "Cloud tiering"
+          ],
+          "correctAnswer": "Cloud tiering"
+        }
+      ],
+      "explanation": "Cloud tiering is keeping frequently accessed files locally while allowing less-used files to remain primarily in Azure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    },
+    {
+      "id": "fill-0389",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure file movement options",
+      "question": "Choose the term that completes the statement: {{answer}} means using Azure File Sync to retain fast local access while centralizing file shares in Azure Files.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Local file-server cache",
+            "Data Box export",
+            "Storage account namespace",
+            "Recovery point objective (RPO)"
+          ],
+          "correctAnswer": "Local file-server cache"
+        }
+      ],
+      "explanation": "Local file-server cache is using Azure File Sync to retain fast local access while centralizing file shares in Azure Files.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options"
+    }
+  ]
+}

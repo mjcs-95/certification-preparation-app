@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe cloud service types · Describe Software as a Service",
+  "questions": [
+    {
+      "id": "mc-0095",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "question": "Which statement best describes Software as a Service (SaaS)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moving workloads to cloud infrastructure with minimal redesign"
+        },
+        {
+          "id": "b",
+          "text": "A managed environment that lets developers build applications without maintaining the full development infrastructure"
+        },
+        {
+          "id": "c",
+          "text": "A model in which customers use a complete cloud-hosted application"
+        },
+        {
+          "id": "d",
+          "text": "Maintaining physical hardware, physical security, and internet connectivity"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Software as a Service (SaaS) is a model in which customers use a complete cloud-hosted application.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "mc-0096",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "question": "In the context of this Microsoft Learn unit, what does SaaS provider responsibility refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Maintaining physical hardware, physical security, and internet connectivity"
+        },
+        {
+          "id": "b",
+          "text": "Managing most of the infrastructure, platform, application maintenance, and updates"
+        },
+        {
+          "id": "c",
+          "text": "The cloud provider patches and maintains the underlying operating system"
+        },
+        {
+          "id": "d",
+          "text": "Installing, configuring, patching, and maintaining the guest operating system"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "SaaS provider responsibility is managing most of the infrastructure, platform, application maintenance, and updates.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "mc-0097",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "question": "Which description correctly matches SaaS customer responsibility?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A cloud model in which the provider manages infrastructure and platform components while the customer focuses on applications and data"
+        },
+        {
+          "id": "b",
+          "text": "Primarily managing data, identity, access settings, and device access posture"
+        },
+        {
+          "id": "c",
+          "text": "Application code, data, and access controls rather than physical infrastructure"
+        },
+        {
+          "id": "d",
+          "text": "Using complete productivity software delivered as a cloud service"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "SaaS customer responsibility is primarily managing data, identity, access settings, and device access posture.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "mc-0098",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "question": "Which of the following is the best definition of SaaS operational overhead?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The lowest customer operational overhead among IaaS, PaaS, and SaaS"
+        },
+        {
+          "id": "b",
+          "text": "Using complete productivity software delivered as a cloud service"
+        },
+        {
+          "id": "c",
+          "text": "Rapidly creating and removing environments while retaining detailed configuration control"
+        },
+        {
+          "id": "d",
+          "text": "Configuring much of the workload networking and security settings above the physical layer"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "SaaS operational overhead is the lowest customer operational overhead among IaaS, PaaS, and SaaS.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "mc-0099",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "question": "What is the primary meaning of SaaS flexibility in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Platform features such as scalability and high availability that reduce the amount of infrastructure code a team must manage"
+        },
+        {
+          "id": "b",
+          "text": "Typically less infrastructure customization than IaaS or PaaS"
+        },
+        {
+          "id": "c",
+          "text": "The lowest customer operational overhead among IaaS, PaaS, and SaaS"
+        },
+        {
+          "id": "d",
+          "text": "Primarily managing data, identity, access settings, and device access posture"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "SaaS flexibility is typically less infrastructure customization than IaaS or PaaS.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "mr-0095",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "SaaS provider responsibility: managing most of the infrastructure, platform, application maintenance, and updates."
+        },
+        {
+          "id": "b",
+          "text": "Software as a Service (SaaS): a model in which customers use a complete cloud-hosted application."
+        },
+        {
+          "id": "c",
+          "text": "SaaS provider responsibility: using complete productivity software delivered as a cloud service."
+        },
+        {
+          "id": "d",
+          "text": "SaaS customer responsibility: installing, configuring, patching, and maintaining the guest operating system."
+        },
+        {
+          "id": "e",
+          "text": "Software as a Service (SaaS): the lowest customer operational overhead among IaaS, PaaS, and SaaS."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Software as a Service (SaaS) — a model in which customers use a complete cloud-hosted application; and SaaS provider responsibility — managing most of the infrastructure, platform, application maintenance, and updates.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "mr-0096",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "SaaS operational overhead: maintaining physical hardware, physical security, and internet connectivity."
+        },
+        {
+          "id": "b",
+          "text": "SaaS operational overhead: configuring much of the workload networking and security settings above the physical layer."
+        },
+        {
+          "id": "c",
+          "text": "SaaS customer responsibility: using a fully hosted email or messaging application instead of operating mail servers."
+        },
+        {
+          "id": "d",
+          "text": "SaaS customer responsibility: primarily managing data, identity, access settings, and device access posture."
+        },
+        {
+          "id": "e",
+          "text": "SaaS operational overhead: the lowest customer operational overhead among IaaS, PaaS, and SaaS."
+        }
+      ],
+      "correctAnswers": [
+        "d",
+        "e"
+      ],
+      "explanation": "The correct pair is: SaaS customer responsibility — primarily managing data, identity, access settings, and device access posture; and SaaS operational overhead — the lowest customer operational overhead among IaaS, PaaS, and SaaS.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "mr-0097",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "SaaS email use case: configuring much of the workload networking and security settings above the physical layer."
+        },
+        {
+          "id": "b",
+          "text": "SaaS flexibility: typically less infrastructure customization than IaaS or PaaS."
+        },
+        {
+          "id": "c",
+          "text": "SaaS flexibility: a cloud model that rents infrastructure while giving the customer the most control over operating systems and software."
+        },
+        {
+          "id": "d",
+          "text": "SaaS email use case: using a fully hosted email or messaging application instead of operating mail servers."
+        },
+        {
+          "id": "e",
+          "text": "SaaS flexibility: moving workloads to cloud infrastructure with minimal redesign."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: SaaS flexibility — typically less infrastructure customization than IaaS or PaaS; and SaaS email use case — using a fully hosted email or messaging application instead of operating mail servers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "mr-0098",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Software as a Service (SaaS): using a fully hosted email or messaging application instead of operating mail servers."
+        },
+        {
+          "id": "b",
+          "text": "SaaS productivity use case: using complete productivity software delivered as a cloud service."
+        },
+        {
+          "id": "c",
+          "text": "Software as a Service (SaaS): a model in which customers use a complete cloud-hosted application."
+        },
+        {
+          "id": "d",
+          "text": "SaaS productivity use case: installing, configuring, patching, and maintaining the guest operating system."
+        },
+        {
+          "id": "e",
+          "text": "SaaS email use case: rapidly creating and removing environments while retaining detailed configuration control."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: SaaS productivity use case — using complete productivity software delivered as a cloud service; and Software as a Service (SaaS) — a model in which customers use a complete cloud-hosted application.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "mr-0099",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "SaaS provider responsibility: typically less infrastructure customization than IaaS or PaaS."
+        },
+        {
+          "id": "b",
+          "text": "SaaS provider responsibility: managing most of the infrastructure, platform, application maintenance, and updates."
+        },
+        {
+          "id": "c",
+          "text": "SaaS productivity use case: the high level of customer control that comes with greater operational responsibility."
+        },
+        {
+          "id": "d",
+          "text": "SaaS customer responsibility: a cloud model that rents infrastructure while giving the customer the most control over operating systems and software."
+        },
+        {
+          "id": "e",
+          "text": "SaaS customer responsibility: primarily managing data, identity, access settings, and device access posture."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: SaaS provider responsibility — managing most of the infrastructure, platform, application maintenance, and updates; and SaaS customer responsibility — primarily managing data, identity, access settings, and device access posture.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "tf-0095",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "question": "Software as a Service (SaaS) is a model in which customers use a complete cloud-hosted application.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Software as a Service (SaaS) is a model in which customers use a complete cloud-hosted application.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "tf-0096",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "question": "According to this unit: SaaS provider responsibility is typically less infrastructure customization than IaaS or PaaS.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. SaaS provider responsibility is managing most of the infrastructure, platform, application maintenance, and updates.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "tf-0097",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "question": "For Azure fundamentals, SaaS customer responsibility is primarily managing data, identity, access settings, and device access posture.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "SaaS customer responsibility is primarily managing data, identity, access settings, and device access posture.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "tf-0098",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "question": "This statement is correct: SaaS operational overhead is using complete productivity software delivered as a cloud service.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. SaaS operational overhead is the lowest customer operational overhead among IaaS, PaaS, and SaaS.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "tf-0099",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "question": "The unit supports the following statement: SaaS flexibility is typically less infrastructure customization than IaaS or PaaS.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "SaaS flexibility is typically less infrastructure customization than IaaS or PaaS.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "sc-0190",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Software as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a model in which customers use a complete cloud-hosted application. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS flexibility"
+        },
+        {
+          "id": "b",
+          "text": "PaaS analytics use case"
+        },
+        {
+          "id": "c",
+          "text": "IaaS customer operating-system responsibility"
+        },
+        {
+          "id": "d",
+          "text": "Software as a Service (SaaS)"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Software as a Service (SaaS) is the best match because it is a model in which customers use a complete cloud-hosted application.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "sc-0191",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Software as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs managing most of the infrastructure, platform, application maintenance, and updates. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "SaaS customer responsibility"
+        },
+        {
+          "id": "b",
+          "text": "PaaS customer focus"
+        },
+        {
+          "id": "c",
+          "text": "SaaS provider responsibility"
+        },
+        {
+          "id": "d",
+          "text": "PaaS development framework"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "SaaS provider responsibility is the best match because it is managing most of the infrastructure, platform, application maintenance, and updates.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "sc-0192",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Software as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: primarily managing data, identity, access settings, and device access posture. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS dev/test use case"
+        },
+        {
+          "id": "b",
+          "text": "SaaS customer responsibility"
+        },
+        {
+          "id": "c",
+          "text": "Lift-and-shift migration"
+        },
+        {
+          "id": "d",
+          "text": "PaaS development framework"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "SaaS customer responsibility is the best match because it is primarily managing data, identity, access settings, and device access posture.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "sc-0193",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Software as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: the lowest customer operational overhead among IaaS, PaaS, and SaaS. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS provider responsibility"
+        },
+        {
+          "id": "b",
+          "text": "IaaS flexibility"
+        },
+        {
+          "id": "c",
+          "text": "SaaS email use case"
+        },
+        {
+          "id": "d",
+          "text": "SaaS operational overhead"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "SaaS operational overhead is the best match because it is the lowest customer operational overhead among IaaS, PaaS, and SaaS.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "sc-0194",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Software as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants typically less infrastructure customization than IaaS or PaaS. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "SaaS flexibility"
+        },
+        {
+          "id": "b",
+          "text": "Platform as a Service (PaaS)"
+        },
+        {
+          "id": "c",
+          "text": "PaaS analytics use case"
+        },
+        {
+          "id": "d",
+          "text": "IaaS customer network configuration"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "SaaS flexibility is the best match because it is typically less infrastructure customization than IaaS or PaaS.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "sc-0195",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Software as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for using a fully hosted email or messaging application instead of operating mail servers. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS customer operating-system responsibility"
+        },
+        {
+          "id": "b",
+          "text": "SaaS email use case"
+        },
+        {
+          "id": "c",
+          "text": "Lift-and-shift migration"
+        },
+        {
+          "id": "d",
+          "text": "Platform as a Service (PaaS)"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "SaaS email use case is the best match because it is using a fully hosted email or messaging application instead of operating mail servers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "sc-0196",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Software as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for using complete productivity software delivered as a cloud service. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Infrastructure as a Service (IaaS)"
+        },
+        {
+          "id": "b",
+          "text": "IaaS flexibility"
+        },
+        {
+          "id": "c",
+          "text": "SaaS productivity use case"
+        },
+        {
+          "id": "d",
+          "text": "SaaS flexibility"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "SaaS productivity use case is the best match because it is using complete productivity software delivered as a cloud service.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "sc-0197",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Software as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is a model in which customers use a complete cloud-hosted application. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS flexibility"
+        },
+        {
+          "id": "b",
+          "text": "Infrastructure as a Service (IaaS)"
+        },
+        {
+          "id": "c",
+          "text": "IaaS dev/test use case"
+        },
+        {
+          "id": "d",
+          "text": "Software as a Service (SaaS)"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Software as a Service (SaaS) is the best match because it is a model in which customers use a complete cloud-hosted application.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "sc-0198",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Software as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as managing most of the infrastructure, platform, application maintenance, and updates. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS customer network configuration"
+        },
+        {
+          "id": "b",
+          "text": "SaaS provider responsibility"
+        },
+        {
+          "id": "c",
+          "text": "IaaS flexibility"
+        },
+        {
+          "id": "d",
+          "text": "IaaS provider responsibility"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "SaaS provider responsibility is the best match because it is managing most of the infrastructure, platform, application maintenance, and updates.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "sc-0199",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "scenario": "The organization is reviewing the topic “Describe Software as a Service” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides primarily managing data, identity, access settings, and device access posture. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "SaaS customer responsibility"
+        },
+        {
+          "id": "b",
+          "text": "Platform as a Service (PaaS)"
+        },
+        {
+          "id": "c",
+          "text": "IaaS customer operating-system responsibility"
+        },
+        {
+          "id": "d",
+          "text": "SaaS productivity use case"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "SaaS customer responsibility is the best match because it is primarily managing data, identity, access settings, and device access posture.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "match-0095",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Software as a Service (SaaS)"
+        },
+        {
+          "id": "l2",
+          "text": "SaaS provider responsibility"
+        },
+        {
+          "id": "l3",
+          "text": "SaaS customer responsibility"
+        },
+        {
+          "id": "l4",
+          "text": "SaaS operational overhead"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Primarily managing data, identity, access settings, and device access posture"
+        },
+        {
+          "id": "r4",
+          "text": "The lowest customer operational overhead among IaaS, PaaS, and SaaS"
+        },
+        {
+          "id": "r1",
+          "text": "A model in which customers use a complete cloud-hosted application"
+        },
+        {
+          "id": "r2",
+          "text": "Managing most of the infrastructure, platform, application maintenance, and updates"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l1": "r1",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "match-0096",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "SaaS customer responsibility"
+        },
+        {
+          "id": "l2",
+          "text": "SaaS operational overhead"
+        },
+        {
+          "id": "l3",
+          "text": "SaaS flexibility"
+        },
+        {
+          "id": "l4",
+          "text": "SaaS email use case"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Primarily managing data, identity, access settings, and device access posture"
+        },
+        {
+          "id": "r2",
+          "text": "The lowest customer operational overhead among IaaS, PaaS, and SaaS"
+        },
+        {
+          "id": "r3",
+          "text": "Typically less infrastructure customization than IaaS or PaaS"
+        },
+        {
+          "id": "r4",
+          "text": "Using a fully hosted email or messaging application instead of operating mail servers"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "match-0097",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "SaaS flexibility"
+        },
+        {
+          "id": "l2",
+          "text": "SaaS email use case"
+        },
+        {
+          "id": "l3",
+          "text": "SaaS productivity use case"
+        },
+        {
+          "id": "l4",
+          "text": "Software as a Service (SaaS)"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Typically less infrastructure customization than IaaS or PaaS"
+        },
+        {
+          "id": "r4",
+          "text": "A model in which customers use a complete cloud-hosted application"
+        },
+        {
+          "id": "r2",
+          "text": "Using a fully hosted email or messaging application instead of operating mail servers"
+        },
+        {
+          "id": "r3",
+          "text": "Using complete productivity software delivered as a cloud service"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l4": "r4",
+        "l2": "r2",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "match-0098",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "SaaS productivity use case"
+        },
+        {
+          "id": "l2",
+          "text": "Software as a Service (SaaS)"
+        },
+        {
+          "id": "l3",
+          "text": "SaaS provider responsibility"
+        },
+        {
+          "id": "l4",
+          "text": "SaaS customer responsibility"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Managing most of the infrastructure, platform, application maintenance, and updates"
+        },
+        {
+          "id": "r4",
+          "text": "Primarily managing data, identity, access settings, and device access posture"
+        },
+        {
+          "id": "r2",
+          "text": "A model in which customers use a complete cloud-hosted application"
+        },
+        {
+          "id": "r1",
+          "text": "Using complete productivity software delivered as a cloud service"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "match-0099",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "SaaS provider responsibility"
+        },
+        {
+          "id": "l2",
+          "text": "SaaS customer responsibility"
+        },
+        {
+          "id": "l3",
+          "text": "SaaS operational overhead"
+        },
+        {
+          "id": "l4",
+          "text": "SaaS flexibility"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "The lowest customer operational overhead among IaaS, PaaS, and SaaS"
+        },
+        {
+          "id": "r4",
+          "text": "Typically less infrastructure customization than IaaS or PaaS"
+        },
+        {
+          "id": "r2",
+          "text": "Primarily managing data, identity, access settings, and device access posture"
+        },
+        {
+          "id": "r1",
+          "text": "Managing most of the infrastructure, platform, application maintenance, and updates"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "fill-0095",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "question": "{{answer}} is primarily managing data, identity, access settings, and device access posture.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "SaaS customer responsibility",
+            "PaaS development framework",
+            "SaaS provider responsibility",
+            "Platform as a Service (PaaS)"
+          ],
+          "correctAnswer": "SaaS customer responsibility"
+        }
+      ],
+      "explanation": "SaaS customer responsibility is primarily managing data, identity, access settings, and device access posture.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "fill-0096",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "question": "The term for the lowest customer operational overhead among IaaS, PaaS, and SaaS is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "SaaS flexibility",
+            "SaaS operational overhead",
+            "SaaS customer responsibility",
+            "PaaS middleware management"
+          ],
+          "correctAnswer": "SaaS operational overhead"
+        }
+      ],
+      "explanation": "SaaS operational overhead is the lowest customer operational overhead among IaaS, PaaS, and SaaS.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "fill-0097",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "question": "In this unit, {{answer}} refers to typically less infrastructure customization than IaaS or PaaS.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "IaaS customer network configuration",
+            "SaaS operational overhead",
+            "IaaS provider responsibility",
+            "SaaS flexibility"
+          ],
+          "correctAnswer": "SaaS flexibility"
+        }
+      ],
+      "explanation": "SaaS flexibility is typically less infrastructure customization than IaaS or PaaS.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "fill-0098",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "question": "For AZ-900, the concept described as using a fully hosted email or messaging application instead of operating mail servers is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "SaaS email use case",
+            "IaaS customer operating-system responsibility",
+            "Software as a Service (SaaS)",
+            "SaaS provider responsibility"
+          ],
+          "correctAnswer": "SaaS email use case"
+        }
+      ],
+      "explanation": "SaaS email use case is using a fully hosted email or messaging application instead of operating mail servers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    },
+    {
+      "id": "fill-0099",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Describe Software as a Service",
+      "question": "Choose the term that completes the statement: {{answer}} means using complete productivity software delivered as a cloud service.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "PaaS customer focus",
+            "Platform as a Service (PaaS)",
+            "SaaS productivity use case",
+            "PaaS operating-system management"
+          ],
+          "correctAnswer": "SaaS productivity use case"
+        }
+      ],
+      "explanation": "SaaS productivity use case is using complete productivity software delivered as a cloud service.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service"
+    }
+  ]
+}

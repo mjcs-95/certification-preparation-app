@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe the benefits of using cloud services · Describe the benefits of reliability and predictability in the cloud",
+  "questions": [
+    {
+      "id": "mc-0050",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "question": "Which statement best describes Reliability?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Repeatable deployment definitions that reduce manual configuration"
+        },
+        {
+          "id": "b",
+          "text": "Identifying resources that do not comply with a defined baseline"
+        },
+        {
+          "id": "c",
+          "text": "A model in which more platform patching and maintenance are handled by the provider"
+        },
+        {
+          "id": "d",
+          "text": "The ability of a system to recover from failures and continue functioning"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Reliability is the ability of a system to recover from failures and continue functioning.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "mc-0051",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "question": "In the context of this Microsoft Learn unit, what does Decentralized cloud design refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Using standards, policies, templates, and auditing to keep deployments aligned with organizational and regulatory requirements"
+        },
+        {
+          "id": "b",
+          "text": "Observing resource health and responding to failures"
+        },
+        {
+          "id": "c",
+          "text": "The ability to adjust resources to meet changes in demand"
+        },
+        {
+          "id": "d",
+          "text": "Using distributed regions so a failure in one location does not necessarily stop the whole solution"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Decentralized cloud design is using distributed regions so a failure in one location does not necessarily stop the whole solution.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "mc-0052",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "question": "Which description correctly matches Performance predictability?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The ability to anticipate the resources needed to deliver a consistent user experience"
+        },
+        {
+          "id": "b",
+          "text": "Reducing resource capacity when demand falls so you avoid paying for unnecessary capacity"
+        },
+        {
+          "id": "c",
+          "text": "A model in which more platform patching and maintenance are handled by the provider"
+        },
+        {
+          "id": "d",
+          "text": "Stopping or deallocating unused resources to reduce unnecessary consumption"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Performance predictability is the ability to anticipate the resources needed to deliver a consistent user experience.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "mc-0053",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "question": "Which of the following is the best definition of Cost predictability?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Repeatable deployment definitions that reduce manual configuration"
+        },
+        {
+          "id": "b",
+          "text": "The ability to estimate and forecast cloud spending"
+        },
+        {
+          "id": "c",
+          "text": "Distributing traffic so that one resource is not overloaded while others are underused"
+        },
+        {
+          "id": "d",
+          "text": "Capabilities used to manage cloud resources, such as autoscaling, templates, health monitoring, and alerts"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Cost predictability is the ability to estimate and forecast cloud spending.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "mc-0054",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "question": "What is the primary meaning of Autoscaling in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Guidance that influences reliability, performance, and cost predictability"
+        },
+        {
+          "id": "b",
+          "text": "A graphical browser-based method for managing cloud resources"
+        },
+        {
+          "id": "c",
+          "text": "A defined set of standards against which cloud resources can be evaluated"
+        },
+        {
+          "id": "d",
+          "text": "Automatically adding or removing resources as demand changes"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Autoscaling is automatically adding or removing resources as demand changes.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "mr-0050",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reliability: the ability to estimate and forecast cloud spending."
+        },
+        {
+          "id": "b",
+          "text": "Decentralized cloud design: a tool that can estimate potential Azure spending before resources are deployed."
+        },
+        {
+          "id": "c",
+          "text": "Reliability: the ability of a system to recover from failures and continue functioning."
+        },
+        {
+          "id": "d",
+          "text": "Decentralized cloud design: using distributed regions so a failure in one location does not necessarily stop the whole solution."
+        },
+        {
+          "id": "e",
+          "text": "Performance predictability: a service availability commitment that can include an uptime guarantee."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: Reliability — the ability of a system to recover from failures and continue functioning; and Decentralized cloud design — using distributed regions so a failure in one location does not necessarily stop the whole solution.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "mr-0051",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cost predictability: designing services to remain available as much as possible despite failures or disruptions."
+        },
+        {
+          "id": "b",
+          "text": "Cost predictability: the ability to estimate and forecast cloud spending."
+        },
+        {
+          "id": "c",
+          "text": "Performance predictability: the ability to anticipate the resources needed to deliver a consistent user experience."
+        },
+        {
+          "id": "d",
+          "text": "Cost predictability: the ability to adjust resources to meet changes in demand."
+        },
+        {
+          "id": "e",
+          "text": "Performance predictability: distributing traffic so that one resource is not overloaded while others are underused."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: Performance predictability — the ability to anticipate the resources needed to deliver a consistent user experience; and Cost predictability — the ability to estimate and forecast cloud spending.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "mr-0052",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Autoscaling: increasing the capabilities of a resource, such as adding CPU or RAM to a virtual machine."
+        },
+        {
+          "id": "b",
+          "text": "Load balancing: the ability to adjust resources to meet changes in demand."
+        },
+        {
+          "id": "c",
+          "text": "Autoscaling: guidance that influences reliability, performance, and cost predictability."
+        },
+        {
+          "id": "d",
+          "text": "Load balancing: distributing traffic so that one resource is not overloaded while others are underused."
+        },
+        {
+          "id": "e",
+          "text": "Autoscaling: automatically adding or removing resources as demand changes."
+        }
+      ],
+      "correctAnswers": [
+        "d",
+        "e"
+      ],
+      "explanation": "The correct pair is: Autoscaling — automatically adding or removing resources as demand changes; and Load balancing — distributing traffic so that one resource is not overloaded while others are underused.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "mr-0053",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Load balancing: reducing the capabilities of a resource, such as decreasing CPU or RAM."
+        },
+        {
+          "id": "b",
+          "text": "Azure Pricing Calculator: a tool that can estimate potential Azure spending before resources are deployed."
+        },
+        {
+          "id": "c",
+          "text": "Azure Well-Architected Framework: guidance that influences reliability, performance, and cost predictability."
+        },
+        {
+          "id": "d",
+          "text": "Azure Well-Architected Framework: reducing the capabilities of a resource, such as decreasing CPU or RAM."
+        },
+        {
+          "id": "e",
+          "text": "Azure Pricing Calculator: a service availability commitment that can include an uptime guarantee."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: Azure Pricing Calculator — a tool that can estimate potential Azure spending before resources are deployed; and Azure Well-Architected Framework — guidance that influences reliability, performance, and cost predictability.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "mr-0054",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reliability: the ability to estimate and forecast cloud spending."
+        },
+        {
+          "id": "b",
+          "text": "Azure Pricing Calculator: adding more resource instances, such as additional virtual machines or containers."
+        },
+        {
+          "id": "c",
+          "text": "Decentralized cloud design: using distributed regions so a failure in one location does not necessarily stop the whole solution."
+        },
+        {
+          "id": "d",
+          "text": "Reliability: the ability of a system to recover from failures and continue functioning."
+        },
+        {
+          "id": "e",
+          "text": "Decentralized cloud design: a tool that can estimate potential Azure spending before resources are deployed."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: Reliability — the ability of a system to recover from failures and continue functioning; and Decentralized cloud design — using distributed regions so a failure in one location does not necessarily stop the whole solution.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "tf-0050",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "question": "Reliability is the ability of a system to recover from failures and continue functioning.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Reliability is the ability of a system to recover from failures and continue functioning.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "tf-0051",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "question": "According to this unit: Decentralized cloud design is automatically adding or removing resources as demand changes.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Decentralized cloud design is using distributed regions so a failure in one location does not necessarily stop the whole solution.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "tf-0052",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "question": "For Azure fundamentals, Performance predictability is the ability to anticipate the resources needed to deliver a consistent user experience.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Performance predictability is the ability to anticipate the resources needed to deliver a consistent user experience.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "tf-0053",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "question": "This statement is correct: Cost predictability is a tool that can estimate potential Azure spending before resources are deployed.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Cost predictability is the ability to estimate and forecast cloud spending.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "tf-0054",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "question": "The unit supports the following statement: Autoscaling is automatically adding or removing resources as demand changes.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Autoscaling is automatically adding or removing resources as demand changes.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "sc-0100",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of reliability and predictability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: the ability of a system to recover from failures and continue functioning. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Automatic alerts"
+        },
+        {
+          "id": "b",
+          "text": "Reliability"
+        },
+        {
+          "id": "c",
+          "text": "Cloud scale efficiency"
+        },
+        {
+          "id": "d",
+          "text": "Autoscaling"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Reliability is the best match because it is the ability of a system to recover from failures and continue functioning.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "sc-0101",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of reliability and predictability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs using distributed regions so a failure in one location does not necessarily stop the whole solution. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "SaaS maintenance"
+        },
+        {
+          "id": "b",
+          "text": "Decentralized cloud design"
+        },
+        {
+          "id": "c",
+          "text": "Management of the cloud"
+        },
+        {
+          "id": "d",
+          "text": "Health monitoring"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Decentralized cloud design is the best match because it is using distributed regions so a failure in one location does not necessarily stop the whole solution.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "sc-0102",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of reliability and predictability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: the ability to anticipate the resources needed to deliver a consistent user experience. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Performance predictability"
+        },
+        {
+          "id": "b",
+          "text": "Cloud governance"
+        },
+        {
+          "id": "c",
+          "text": "Command-line interface"
+        },
+        {
+          "id": "d",
+          "text": "Consumption-aware scaling"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Performance predictability is the best match because it is the ability to anticipate the resources needed to deliver a consistent user experience.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "sc-0103",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of reliability and predictability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: the ability to estimate and forecast cloud spending. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Horizontal scaling in"
+        },
+        {
+          "id": "b",
+          "text": "Cost predictability"
+        },
+        {
+          "id": "c",
+          "text": "Vertical scaling down"
+        },
+        {
+          "id": "d",
+          "text": "Performance predictability"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Cost predictability is the best match because it is the ability to estimate and forecast cloud spending.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "sc-0104",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of reliability and predictability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants automatically adding or removing resources as demand changes. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Governance templates"
+        },
+        {
+          "id": "b",
+          "text": "Autoscaling"
+        },
+        {
+          "id": "c",
+          "text": "Automation"
+        },
+        {
+          "id": "d",
+          "text": "Right-sizing"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Autoscaling is the best match because it is automatically adding or removing resources as demand changes.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "sc-0105",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of reliability and predictability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for distributing traffic so that one resource is not overloaded while others are underused. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Consumption-aware scaling"
+        },
+        {
+          "id": "b",
+          "text": "Load balancing"
+        },
+        {
+          "id": "c",
+          "text": "Management of the cloud"
+        },
+        {
+          "id": "d",
+          "text": "Vertical scaling down"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Load balancing is the best match because it is distributing traffic so that one resource is not overloaded while others are underused.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "sc-0106",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of reliability and predictability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for a tool that can estimate potential Azure spending before resources are deployed. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "High availability"
+        },
+        {
+          "id": "b",
+          "text": "Autoscaling"
+        },
+        {
+          "id": "c",
+          "text": "Azure Pricing Calculator"
+        },
+        {
+          "id": "d",
+          "text": "Deallocation"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure Pricing Calculator is the best match because it is a tool that can estimate potential Azure spending before resources are deployed.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "sc-0107",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of reliability and predictability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is guidance that influences reliability, performance, and cost predictability. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "DDoS resilience"
+        },
+        {
+          "id": "b",
+          "text": "Azure Well-Architected Framework"
+        },
+        {
+          "id": "c",
+          "text": "Reliability"
+        },
+        {
+          "id": "d",
+          "text": "Automatic alerts"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Well-Architected Framework is the best match because it is guidance that influences reliability, performance, and cost predictability.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "sc-0108",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of reliability and predictability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as the ability of a system to recover from failures and continue functioning. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "DDoS resilience"
+        },
+        {
+          "id": "b",
+          "text": "Reliability"
+        },
+        {
+          "id": "c",
+          "text": "Horizontal scaling in"
+        },
+        {
+          "id": "d",
+          "text": "High availability"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Reliability is the best match because it is the ability of a system to recover from failures and continue functioning.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "sc-0109",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of reliability and predictability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides using distributed regions so a failure in one location does not necessarily stop the whole solution. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vertical scaling up"
+        },
+        {
+          "id": "b",
+          "text": "Decentralized cloud design"
+        },
+        {
+          "id": "c",
+          "text": "Command-line interface"
+        },
+        {
+          "id": "d",
+          "text": "IaaS security control"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Decentralized cloud design is the best match because it is using distributed regions so a failure in one location does not necessarily stop the whole solution.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "match-0050",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Reliability"
+        },
+        {
+          "id": "l2",
+          "text": "Decentralized cloud design"
+        },
+        {
+          "id": "l3",
+          "text": "Performance predictability"
+        },
+        {
+          "id": "l4",
+          "text": "Cost predictability"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "The ability of a system to recover from failures and continue functioning"
+        },
+        {
+          "id": "r4",
+          "text": "The ability to estimate and forecast cloud spending"
+        },
+        {
+          "id": "r2",
+          "text": "Using distributed regions so a failure in one location does not necessarily stop the whole solution"
+        },
+        {
+          "id": "r3",
+          "text": "The ability to anticipate the resources needed to deliver a consistent user experience"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l4": "r4",
+        "l2": "r2",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "match-0051",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Performance predictability"
+        },
+        {
+          "id": "l2",
+          "text": "Cost predictability"
+        },
+        {
+          "id": "l3",
+          "text": "Autoscaling"
+        },
+        {
+          "id": "l4",
+          "text": "Load balancing"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "The ability to estimate and forecast cloud spending"
+        },
+        {
+          "id": "r4",
+          "text": "Distributing traffic so that one resource is not overloaded while others are underused"
+        },
+        {
+          "id": "r3",
+          "text": "Automatically adding or removing resources as demand changes"
+        },
+        {
+          "id": "r1",
+          "text": "The ability to anticipate the resources needed to deliver a consistent user experience"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l4": "r4",
+        "l3": "r3",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "match-0052",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Autoscaling"
+        },
+        {
+          "id": "l2",
+          "text": "Load balancing"
+        },
+        {
+          "id": "l3",
+          "text": "Azure Pricing Calculator"
+        },
+        {
+          "id": "l4",
+          "text": "Azure Well-Architected Framework"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Guidance that influences reliability, performance, and cost predictability"
+        },
+        {
+          "id": "r3",
+          "text": "A tool that can estimate potential Azure spending before resources are deployed"
+        },
+        {
+          "id": "r2",
+          "text": "Distributing traffic so that one resource is not overloaded while others are underused"
+        },
+        {
+          "id": "r1",
+          "text": "Automatically adding or removing resources as demand changes"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l3": "r3",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "match-0053",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Pricing Calculator"
+        },
+        {
+          "id": "l2",
+          "text": "Azure Well-Architected Framework"
+        },
+        {
+          "id": "l3",
+          "text": "Reliability"
+        },
+        {
+          "id": "l4",
+          "text": "Decentralized cloud design"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "Guidance that influences reliability, performance, and cost predictability"
+        },
+        {
+          "id": "r1",
+          "text": "A tool that can estimate potential Azure spending before resources are deployed"
+        },
+        {
+          "id": "r3",
+          "text": "The ability of a system to recover from failures and continue functioning"
+        },
+        {
+          "id": "r4",
+          "text": "Using distributed regions so a failure in one location does not necessarily stop the whole solution"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l1": "r1",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "match-0054",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Reliability"
+        },
+        {
+          "id": "l2",
+          "text": "Decentralized cloud design"
+        },
+        {
+          "id": "l3",
+          "text": "Performance predictability"
+        },
+        {
+          "id": "l4",
+          "text": "Cost predictability"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "The ability to anticipate the resources needed to deliver a consistent user experience"
+        },
+        {
+          "id": "r4",
+          "text": "The ability to estimate and forecast cloud spending"
+        },
+        {
+          "id": "r2",
+          "text": "Using distributed regions so a failure in one location does not necessarily stop the whole solution"
+        },
+        {
+          "id": "r1",
+          "text": "The ability of a system to recover from failures and continue functioning"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "fill-0050",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "question": "{{answer}} is the ability to anticipate the resources needed to deliver a consistent user experience.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Cloud scale efficiency",
+            "Performance predictability",
+            "Deallocation",
+            "Automation"
+          ],
+          "correctAnswer": "Performance predictability"
+        }
+      ],
+      "explanation": "Performance predictability is the ability to anticipate the resources needed to deliver a consistent user experience.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "fill-0051",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "question": "The term for the ability to estimate and forecast cloud spending is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Management of the cloud",
+            "Cost predictability",
+            "Automatic alerts",
+            "Autoscaling for sustainability"
+          ],
+          "correctAnswer": "Cost predictability"
+        }
+      ],
+      "explanation": "Cost predictability is the ability to estimate and forecast cloud spending.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "fill-0052",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "question": "In this unit, {{answer}} refers to automatically adding or removing resources as demand changes.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Autoscaling",
+            "Command-line interface",
+            "Cloud governance",
+            "Deallocation"
+          ],
+          "correctAnswer": "Autoscaling"
+        }
+      ],
+      "explanation": "Autoscaling is automatically adding or removing resources as demand changes.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "fill-0053",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "question": "For AZ-900, the concept described as distributing traffic so that one resource is not overloaded while others are underused is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Load balancing",
+            "Efficient service selection",
+            "PaaS maintenance",
+            "Vertical scaling down"
+          ],
+          "correctAnswer": "Load balancing"
+        }
+      ],
+      "explanation": "Load balancing is distributing traffic so that one resource is not overloaded while others are underused.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    },
+    {
+      "id": "fill-0054",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of reliability and predictability in the cloud",
+      "question": "Choose the term that completes the statement: {{answer}} means a tool that can estimate potential Azure spending before resources are deployed.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Command-line interface",
+            "PowerShell",
+            "IaaS security control",
+            "Azure Pricing Calculator"
+          ],
+          "correctAnswer": "Azure Pricing Calculator"
+        }
+      ],
+      "explanation": "Azure Pricing Calculator is a tool that can estimate potential Azure spending before resources are deployed.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud"
+    }
+  ]
+}

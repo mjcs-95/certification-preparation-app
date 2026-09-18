@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe Azure compute services · Describe AI, machine learning, and IoT/Edge services in Azure",
+  "questions": [
+    {
+      "id": "mc-0305",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "question": "Which statement best describes Azure AI services?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A stateful extension in which the runtime coordinates and tracks state across function activity"
+        },
+        {
+          "id": "b",
+          "text": "Prebuilt APIs and services for capabilities such as language, speech, vision, and document processing"
+        },
+        {
+          "id": "c",
+          "text": "Technology for running cloud capabilities closer to devices and where data is generated"
+        },
+        {
+          "id": "d",
+          "text": "Automated application deployment from sources such as GitHub, Azure DevOps, or other Git repositories"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure AI services is prebuilt APIs and services for capabilities such as language, speech, vision, and document processing.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "mc-0306",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "question": "In the context of this Microsoft Learn unit, what does Azure OpenAI Service refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Managing container deployment, scaling, networking, and lifecycle across many instances"
+        },
+        {
+          "id": "b",
+          "text": "Scaling one containerized component separately from others when only that component has increased demand"
+        },
+        {
+          "id": "c",
+          "text": "An Azure offering for generative AI scenarios such as chat and content generation"
+        },
+        {
+          "id": "d",
+          "text": "A model in which developers focus on code while the platform manages the underlying servers and scaling"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure OpenAI Service is an Azure offering for generative AI scenarios such as chat and content generation.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "mc-0307",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "question": "Which description correctly matches Agentic AI pattern?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A compute-optimized VM family suited to CPU-intensive workloads"
+        },
+        {
+          "id": "b",
+          "text": "A lightweight virtualization environment that packages an application and dependencies without requiring a separate guest OS per instance"
+        },
+        {
+          "id": "c",
+          "text": "An IaaS compute resource that provides control over the guest operating system and installed software"
+        },
+        {
+          "id": "d",
+          "text": "An application pattern combining an AI model with instructions, context, and tools to complete multistep goals"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Agentic AI pattern is an application pattern combining an AI model with instructions, context, and tools to complete multistep goals.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "mc-0308",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "question": "Which of the following is the best definition of Azure Machine Learning?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A platform for developing, training, deploying, and managing custom machine-learning models"
+        },
+        {
+          "id": "b",
+          "text": "Device-generated data sent to cloud services for monitoring and analysis"
+        },
+        {
+          "id": "c",
+          "text": "Running resources only as needed and charging primarily for the execution resources consumed"
+        },
+        {
+          "id": "d",
+          "text": "A widely used container engine supported by Azure container services"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure Machine Learning is a platform for developing, training, deploying, and managing custom machine-learning models.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "mc-0309",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "question": "What is the primary meaning of Azure IoT Hub in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A managed container platform with built-in scaling and load balancing"
+        },
+        {
+          "id": "b",
+          "text": "A widely used container engine supported by Azure container services"
+        },
+        {
+          "id": "c",
+          "text": "A service for secure bidirectional communication between IoT devices and cloud services"
+        },
+        {
+          "id": "d",
+          "text": "A stateful extension in which the runtime coordinates and tracks state across function activity"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure IoT Hub is a service for secure bidirectional communication between IoT devices and cloud services.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "mr-0305",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure OpenAI Service: an Azure offering for generative AI scenarios such as chat and content generation."
+        },
+        {
+          "id": "b",
+          "text": "Azure AI services: a platform for developing, training, deploying, and managing custom machine-learning models."
+        },
+        {
+          "id": "c",
+          "text": "Azure OpenAI Service: technology for running cloud capabilities closer to devices and where data is generated."
+        },
+        {
+          "id": "d",
+          "text": "Azure AI services: prebuilt APIs and services for capabilities such as language, speech, vision, and document processing."
+        },
+        {
+          "id": "e",
+          "text": "Agentic AI pattern: a template that can include an operating system and preinstalled components for rapid VM deployment."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Azure AI services — prebuilt APIs and services for capabilities such as language, speech, vision, and document processing; and Azure OpenAI Service — an Azure offering for generative AI scenarios such as chat and content generation.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "mr-0306",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Machine Learning: a burstable, cost-efficient VM family suited to workloads with occasional CPU spikes."
+        },
+        {
+          "id": "b",
+          "text": "Azure Machine Learning: an IaaS compute resource that provides control over the guest operating system and installed software."
+        },
+        {
+          "id": "c",
+          "text": "Azure Machine Learning: a platform for developing, training, deploying, and managing custom machine-learning models."
+        },
+        {
+          "id": "d",
+          "text": "Agentic AI pattern: a simplified SaaS platform for building and managing IoT solutions."
+        },
+        {
+          "id": "e",
+          "text": "Agentic AI pattern: an application pattern combining an AI model with instructions, context, and tools to complete multistep goals."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "e"
+      ],
+      "explanation": "The correct pair is: Agentic AI pattern — an application pattern combining an AI model with instructions, context, and tools to complete multistep goals; and Azure Machine Learning — a platform for developing, training, deploying, and managing custom machine-learning models.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "mr-0307",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure IoT Hub: a service for secure bidirectional communication between IoT devices and cloud services."
+        },
+        {
+          "id": "b",
+          "text": "Azure IoT Hub: device-generated data sent to cloud services for monitoring and analysis."
+        },
+        {
+          "id": "c",
+          "text": "Azure IoT Hub: a general-purpose VM family suited to common application and web-server workloads."
+        },
+        {
+          "id": "d",
+          "text": "Azure IoT Central: a simplified SaaS platform for building and managing IoT solutions."
+        },
+        {
+          "id": "e",
+          "text": "Azure IoT Central: a burstable, cost-efficient VM family suited to workloads with occasional CPU spikes."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Azure IoT Hub — a service for secure bidirectional communication between IoT devices and cloud services; and Azure IoT Central — a simplified SaaS platform for building and managing IoT solutions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "mr-0308",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure IoT Edge: technology for running cloud capabilities closer to devices and where data is generated."
+        },
+        {
+          "id": "b",
+          "text": "Telemetry: device-generated data sent to cloud services for monitoring and analysis."
+        },
+        {
+          "id": "c",
+          "text": "Azure IoT Central: a memory-optimized VM family suited to memory-intensive workloads."
+        },
+        {
+          "id": "d",
+          "text": "Azure IoT Edge: a template that can include an operating system and preinstalled components for rapid VM deployment."
+        },
+        {
+          "id": "e",
+          "text": "Telemetry: a memory-optimized VM family suited to memory-intensive workloads."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Azure IoT Edge — technology for running cloud capabilities closer to devices and where data is generated; and Telemetry — device-generated data sent to cloud services for monitoring and analysis.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "mr-0309",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure AI services: a platform for developing, training, deploying, and managing custom machine-learning models."
+        },
+        {
+          "id": "b",
+          "text": "Azure OpenAI Service: an Azure offering for generative AI scenarios such as chat and content generation."
+        },
+        {
+          "id": "c",
+          "text": "Azure OpenAI Service: technology for running cloud capabilities closer to devices and where data is generated."
+        },
+        {
+          "id": "d",
+          "text": "Azure AI services: prebuilt APIs and services for capabilities such as language, speech, vision, and document processing."
+        },
+        {
+          "id": "e",
+          "text": "Azure IoT Edge: a compute-optimized VM family suited to CPU-intensive workloads."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: Azure AI services — prebuilt APIs and services for capabilities such as language, speech, vision, and document processing; and Azure OpenAI Service — an Azure offering for generative AI scenarios such as chat and content generation.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "tf-0305",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "question": "Azure AI services is prebuilt APIs and services for capabilities such as language, speech, vision, and document processing.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure AI services is prebuilt APIs and services for capabilities such as language, speech, vision, and document processing.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "tf-0306",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "question": "According to this unit: Azure OpenAI Service is a service for secure bidirectional communication between IoT devices and cloud services.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Azure OpenAI Service is an Azure offering for generative AI scenarios such as chat and content generation.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "tf-0307",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "question": "For Azure fundamentals, Agentic AI pattern is an application pattern combining an AI model with instructions, context, and tools to complete multistep goals.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Agentic AI pattern is an application pattern combining an AI model with instructions, context, and tools to complete multistep goals.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "tf-0308",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "question": "This statement is correct: Azure Machine Learning is technology for running cloud capabilities closer to devices and where data is generated.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Azure Machine Learning is a platform for developing, training, deploying, and managing custom machine-learning models.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "tf-0309",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "question": "The unit supports the following statement: Azure IoT Hub is a service for secure bidirectional communication between IoT devices and cloud services.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure IoT Hub is a service for secure bidirectional communication between IoT devices and cloud services.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "sc-0610",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "scenario": "The organization is reviewing the topic “Describe AI, machine learning, and IoT/Edge services in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: prebuilt APIs and services for capabilities such as language, speech, vision, and document processing. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "API app"
+        },
+        {
+          "id": "b",
+          "text": "Azure AI services"
+        },
+        {
+          "id": "c",
+          "text": "Azure Machine Learning"
+        },
+        {
+          "id": "d",
+          "text": "Azure IoT Hub"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure AI services is the best match because it is prebuilt APIs and services for capabilities such as language, speech, vision, and document processing.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "sc-0611",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "scenario": "The organization is reviewing the topic “Describe AI, machine learning, and IoT/Edge services in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs an Azure offering for generative AI scenarios such as chat and content generation. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Container orchestration"
+        },
+        {
+          "id": "b",
+          "text": "Docker"
+        },
+        {
+          "id": "c",
+          "text": "Telemetry"
+        },
+        {
+          "id": "d",
+          "text": "Azure OpenAI Service"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Azure OpenAI Service is the best match because it is an Azure offering for generative AI scenarios such as chat and content generation.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "sc-0612",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "scenario": "The organization is reviewing the topic “Describe AI, machine learning, and IoT/Edge services in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: an application pattern combining an AI model with instructions, context, and tools to complete multistep goals. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Agentic AI pattern"
+        },
+        {
+          "id": "b",
+          "text": "WebJob"
+        },
+        {
+          "id": "c",
+          "text": "Azure Functions"
+        },
+        {
+          "id": "d",
+          "text": "Azure Virtual Machine"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Agentic AI pattern is the best match because it is an application pattern combining an AI model with instructions, context, and tools to complete multistep goals.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "sc-0613",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "scenario": "The organization is reviewing the topic “Describe AI, machine learning, and IoT/Edge services in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: a platform for developing, training, deploying, and managing custom machine-learning models. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Multi-session Windows"
+        },
+        {
+          "id": "b",
+          "text": "Reduced local data exposure"
+        },
+        {
+          "id": "c",
+          "text": "Azure Machine Learning"
+        },
+        {
+          "id": "d",
+          "text": "Microservices architecture"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure Machine Learning is the best match because it is a platform for developing, training, deploying, and managing custom machine-learning models.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "sc-0614",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "scenario": "The organization is reviewing the topic “Describe AI, machine learning, and IoT/Edge services in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants a service for secure bidirectional communication between IoT devices and cloud services. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Docker"
+        },
+        {
+          "id": "b",
+          "text": "Azure IoT Hub"
+        },
+        {
+          "id": "c",
+          "text": "Container hosting"
+        },
+        {
+          "id": "d",
+          "text": "Event trigger"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure IoT Hub is the best match because it is a service for secure bidirectional communication between IoT devices and cloud services.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "sc-0615",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "scenario": "The organization is reviewing the topic “Describe AI, machine learning, and IoT/Edge services in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for a simplified SaaS platform for building and managing IoT solutions. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Container hosting"
+        },
+        {
+          "id": "b",
+          "text": "Azure IoT Central"
+        },
+        {
+          "id": "c",
+          "text": "Azure Container Apps"
+        },
+        {
+          "id": "d",
+          "text": "D-series VM"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure IoT Central is the best match because it is a simplified SaaS platform for building and managing IoT solutions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "sc-0616",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "scenario": "The organization is reviewing the topic “Describe AI, machine learning, and IoT/Edge services in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for technology for running cloud capabilities closer to devices and where data is generated. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure IoT Edge"
+        },
+        {
+          "id": "b",
+          "text": "Azure Machine Learning"
+        },
+        {
+          "id": "c",
+          "text": "Azure Kubernetes Service (AKS)"
+        },
+        {
+          "id": "d",
+          "text": "Consumption execution"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure IoT Edge is the best match because it is technology for running cloud capabilities closer to devices and where data is generated.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "sc-0617",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "scenario": "The organization is reviewing the topic “Describe AI, machine learning, and IoT/Edge services in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is device-generated data sent to cloud services for monitoring and analysis. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "F-series VM"
+        },
+        {
+          "id": "b",
+          "text": "Telemetry"
+        },
+        {
+          "id": "c",
+          "text": "Automatic scaling"
+        },
+        {
+          "id": "d",
+          "text": "Multi-session Windows"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Telemetry is the best match because it is device-generated data sent to cloud services for monitoring and analysis.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "sc-0618",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "scenario": "The organization is reviewing the topic “Describe AI, machine learning, and IoT/Edge services in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as prebuilt APIs and services for capabilities such as language, speech, vision, and document processing. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure AI services"
+        },
+        {
+          "id": "b",
+          "text": "Container"
+        },
+        {
+          "id": "c",
+          "text": "Azure Container Instances"
+        },
+        {
+          "id": "d",
+          "text": "Container orchestration"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure AI services is the best match because it is prebuilt APIs and services for capabilities such as language, speech, vision, and document processing.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "sc-0619",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "scenario": "The organization is reviewing the topic “Describe AI, machine learning, and IoT/Edge services in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides an Azure offering for generative AI scenarios such as chat and content generation. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure OpenAI Service"
+        },
+        {
+          "id": "b",
+          "text": "Single-session Windows"
+        },
+        {
+          "id": "c",
+          "text": "VM image"
+        },
+        {
+          "id": "d",
+          "text": "Azure Virtual Desktop"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure OpenAI Service is the best match because it is an Azure offering for generative AI scenarios such as chat and content generation.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "match-0305",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure AI services"
+        },
+        {
+          "id": "l2",
+          "text": "Azure OpenAI Service"
+        },
+        {
+          "id": "l3",
+          "text": "Agentic AI pattern"
+        },
+        {
+          "id": "l4",
+          "text": "Azure Machine Learning"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "An application pattern combining an AI model with instructions, context, and tools to complete multistep goals"
+        },
+        {
+          "id": "r4",
+          "text": "A platform for developing, training, deploying, and managing custom machine-learning models"
+        },
+        {
+          "id": "r1",
+          "text": "Prebuilt APIs and services for capabilities such as language, speech, vision, and document processing"
+        },
+        {
+          "id": "r2",
+          "text": "An Azure offering for generative AI scenarios such as chat and content generation"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l1": "r1",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "match-0306",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Agentic AI pattern"
+        },
+        {
+          "id": "l2",
+          "text": "Azure Machine Learning"
+        },
+        {
+          "id": "l3",
+          "text": "Azure IoT Hub"
+        },
+        {
+          "id": "l4",
+          "text": "Azure IoT Central"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "An application pattern combining an AI model with instructions, context, and tools to complete multistep goals"
+        },
+        {
+          "id": "r2",
+          "text": "A platform for developing, training, deploying, and managing custom machine-learning models"
+        },
+        {
+          "id": "r4",
+          "text": "A simplified SaaS platform for building and managing IoT solutions"
+        },
+        {
+          "id": "r3",
+          "text": "A service for secure bidirectional communication between IoT devices and cloud services"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "match-0307",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure IoT Hub"
+        },
+        {
+          "id": "l2",
+          "text": "Azure IoT Central"
+        },
+        {
+          "id": "l3",
+          "text": "Azure IoT Edge"
+        },
+        {
+          "id": "l4",
+          "text": "Telemetry"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "A simplified SaaS platform for building and managing IoT solutions"
+        },
+        {
+          "id": "r1",
+          "text": "A service for secure bidirectional communication between IoT devices and cloud services"
+        },
+        {
+          "id": "r3",
+          "text": "Technology for running cloud capabilities closer to devices and where data is generated"
+        },
+        {
+          "id": "r4",
+          "text": "Device-generated data sent to cloud services for monitoring and analysis"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l1": "r1",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "match-0308",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure IoT Edge"
+        },
+        {
+          "id": "l2",
+          "text": "Telemetry"
+        },
+        {
+          "id": "l3",
+          "text": "Azure AI services"
+        },
+        {
+          "id": "l4",
+          "text": "Azure OpenAI Service"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "An Azure offering for generative AI scenarios such as chat and content generation"
+        },
+        {
+          "id": "r3",
+          "text": "Prebuilt APIs and services for capabilities such as language, speech, vision, and document processing"
+        },
+        {
+          "id": "r1",
+          "text": "Technology for running cloud capabilities closer to devices and where data is generated"
+        },
+        {
+          "id": "r2",
+          "text": "Device-generated data sent to cloud services for monitoring and analysis"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l3": "r3",
+        "l1": "r1",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "match-0309",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure AI services"
+        },
+        {
+          "id": "l2",
+          "text": "Azure OpenAI Service"
+        },
+        {
+          "id": "l3",
+          "text": "Agentic AI pattern"
+        },
+        {
+          "id": "l4",
+          "text": "Azure Machine Learning"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "An Azure offering for generative AI scenarios such as chat and content generation"
+        },
+        {
+          "id": "r1",
+          "text": "Prebuilt APIs and services for capabilities such as language, speech, vision, and document processing"
+        },
+        {
+          "id": "r4",
+          "text": "A platform for developing, training, deploying, and managing custom machine-learning models"
+        },
+        {
+          "id": "r3",
+          "text": "An application pattern combining an AI model with instructions, context, and tools to complete multistep goals"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l1": "r1",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "fill-0305",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "question": "{{answer}} is an application pattern combining an AI model with instructions, context, and tools to complete multistep goals.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Independent scaling",
+            "Single-session Windows",
+            "Agentic AI pattern",
+            "Azure Container Instances"
+          ],
+          "correctAnswer": "Agentic AI pattern"
+        }
+      ],
+      "explanation": "Agentic AI pattern is an application pattern combining an AI model with instructions, context, and tools to complete multistep goals.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "fill-0306",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "question": "The term for a platform for developing, training, deploying, and managing custom machine-learning models is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "D-series VM",
+            "Microservices architecture",
+            "Durable Functions",
+            "Azure Machine Learning"
+          ],
+          "correctAnswer": "Azure Machine Learning"
+        }
+      ],
+      "explanation": "Azure Machine Learning is a platform for developing, training, deploying, and managing custom machine-learning models.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "fill-0307",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "question": "In this unit, {{answer}} refers to a service for secure bidirectional communication between IoT devices and cloud services.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure IoT Hub",
+            "Azure Container Instances",
+            "WebJob",
+            "Container orchestration"
+          ],
+          "correctAnswer": "Azure IoT Hub"
+        }
+      ],
+      "explanation": "Azure IoT Hub is a service for secure bidirectional communication between IoT devices and cloud services.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "fill-0308",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "question": "For AZ-900, the concept described as a simplified SaaS platform for building and managing IoT solutions is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure Functions",
+            "Azure AI services",
+            "Azure IoT Central",
+            "Azure Container Instances"
+          ],
+          "correctAnswer": "Azure IoT Central"
+        }
+      ],
+      "explanation": "Azure IoT Central is a simplified SaaS platform for building and managing IoT solutions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    },
+    {
+      "id": "fill-0309",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe AI, machine learning, and IoT/Edge services in Azure",
+      "question": "Choose the term that completes the statement: {{answer}} means technology for running cloud capabilities closer to devices and where data is generated.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure IoT Edge",
+            "Availability set",
+            "Azure AI services",
+            "Automatic scaling"
+          ],
+          "correctAnswer": "Azure IoT Edge"
+        }
+      ],
+      "explanation": "Azure IoT Edge is technology for running cloud capabilities closer to devices and where data is generated.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services"
+    }
+  ]
+}

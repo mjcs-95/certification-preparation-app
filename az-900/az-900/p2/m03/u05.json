@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe features and tools for managing and deploying Azure resources · Module assessment",
+  "questions": [
+    {
+      "id": "mc-0205",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Which statement best describes Azure portal?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A web-based graphical console for creating, managing, and monitoring Azure resources"
+        },
+        {
+          "id": "b",
+          "text": "A cross-platform command-line tool that uses CLI/Bash-style commands to manage Azure"
+        },
+        {
+          "id": "c",
+          "text": "A command-line and scripting environment that uses PowerShell cmdlets to manage Azure through its APIs"
+        },
+        {
+          "id": "d",
+          "text": "Data services that can be managed in hybrid or multicloud environments through Azure Arc"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure portal is a web-based graphical console for creating, managing, and monitoring Azure resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "mc-0206",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "In the context of this Microsoft Learn unit, what does Azure Cloud Shell refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A centralized management approach for resources that remain outside Azure"
+        },
+        {
+          "id": "b",
+          "text": "A browser-based authenticated shell that supports Azure PowerShell and Azure CLI without local installation"
+        },
+        {
+          "id": "c",
+          "text": "ARM determining resource deployment order and deploying independent resources in parallel when possible"
+        },
+        {
+          "id": "d",
+          "text": "Applying Azure policy, inventory, and monitoring approaches across Azure, on-premises, and other clouds"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Cloud Shell is a browser-based authenticated shell that supports Azure PowerShell and Azure CLI without local installation.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "mc-0207",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Which description correctly matches Azure PowerShell?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A command-line and scripting environment that uses PowerShell cmdlets to manage Azure through its APIs"
+        },
+        {
+          "id": "b",
+          "text": "Managing infrastructure through code or templates instead of manual configuration"
+        },
+        {
+          "id": "c",
+          "text": "Specifying the desired end state rather than a sequence of imperative steps"
+        },
+        {
+          "id": "d",
+          "text": "Data services that can be managed in hybrid or multicloud environments through Azure Arc"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure PowerShell is a command-line and scripting environment that uses PowerShell cmdlets to manage Azure through its APIs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "mc-0208",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Which of the following is the best definition of Azure CLI?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The browser shell automatically uses the Azure identity and permissions of the signed-in user"
+        },
+        {
+          "id": "b",
+          "text": "A concise declarative language that deploys Azure resources through ARM"
+        },
+        {
+          "id": "c",
+          "text": "A cross-platform command-line tool that uses CLI/Bash-style commands to manage Azure"
+        },
+        {
+          "id": "d",
+          "text": "Representing non-Azure resources in Azure Resource Manager so they can be managed with familiar Azure tools"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure CLI is a cross-platform command-line tool that uses CLI/Bash-style commands to manage Azure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "mc-0209",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "What is the primary meaning of Copilot in Azure in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An AI assistant that can provide contextual guidance and help draft operational commands or workflows"
+        },
+        {
+          "id": "b",
+          "text": "Specifying the desired end state rather than a sequence of imperative steps"
+        },
+        {
+          "id": "c",
+          "text": "A centralized management approach for resources that remain outside Azure"
+        },
+        {
+          "id": "d",
+          "text": "A cross-platform command-line tool that uses CLI/Bash-style commands to manage Azure"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Copilot in Azure is an AI assistant that can provide contextual guidance and help draft operational commands or workflows.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "mr-0205",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure PowerShell: representing non-Azure resources in Azure Resource Manager so they can be managed with familiar Azure tools."
+        },
+        {
+          "id": "b",
+          "text": "Azure portal: a web-based graphical console for creating, managing, and monitoring Azure resources."
+        },
+        {
+          "id": "c",
+          "text": "Azure Cloud Shell: the browser shell automatically uses the Azure identity and permissions of the signed-in user."
+        },
+        {
+          "id": "d",
+          "text": "Azure Cloud Shell: a browser-based authenticated shell that supports Azure PowerShell and Azure CLI without local installation."
+        },
+        {
+          "id": "e",
+          "text": "Azure portal: a cross-platform command-line tool that uses CLI/Bash-style commands to manage Azure."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: Azure portal — a web-based graphical console for creating, managing, and monitoring Azure resources; and Azure Cloud Shell — a browser-based authenticated shell that supports Azure PowerShell and Azure CLI without local installation.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "mr-0206",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure CLI: physical or virtual servers outside Azure that can be brought under Azure management."
+        },
+        {
+          "id": "b",
+          "text": "Azure CLI: a service that extends Azure management and governance to hybrid and multicloud resources."
+        },
+        {
+          "id": "c",
+          "text": "Azure PowerShell: capturing management commands in scripts so operations can be automated and repeated consistently."
+        },
+        {
+          "id": "d",
+          "text": "Azure CLI: a cross-platform command-line tool that uses CLI/Bash-style commands to manage Azure."
+        },
+        {
+          "id": "e",
+          "text": "Azure PowerShell: a command-line and scripting environment that uses PowerShell cmdlets to manage Azure through its APIs."
+        }
+      ],
+      "correctAnswers": [
+        "d",
+        "e"
+      ],
+      "explanation": "The correct pair is: Azure PowerShell — a command-line and scripting environment that uses PowerShell cmdlets to manage Azure through its APIs; and Azure CLI — a cross-platform command-line tool that uses CLI/Bash-style commands to manage Azure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "mr-0207",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Repeatable scripting: physical or virtual servers outside Azure that can be brought under Azure management."
+        },
+        {
+          "id": "b",
+          "text": "Repeatable scripting: capturing management commands in scripts so operations can be automated and repeated consistently."
+        },
+        {
+          "id": "c",
+          "text": "Copilot in Azure: Kubernetes clusters outside Azure that can be governed and managed through Azure Arc."
+        },
+        {
+          "id": "d",
+          "text": "Copilot in Azure: an AI assistant that can provide contextual guidance and help draft operational commands or workflows."
+        },
+        {
+          "id": "e",
+          "text": "Copilot in Azure: Azure CLI and Azure PowerShell can be installed on Windows, Linux, and macOS."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: Copilot in Azure — an AI assistant that can provide contextual guidance and help draft operational commands or workflows; and Repeatable scripting — capturing management commands in scripts so operations can be automated and repeated consistently.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "mr-0208",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cloud Shell authentication: the browser shell automatically uses the Azure identity and permissions of the signed-in user."
+        },
+        {
+          "id": "b",
+          "text": "Cross-platform management: Azure CLI and Azure PowerShell can be installed on Windows, Linux, and macOS."
+        },
+        {
+          "id": "c",
+          "text": "Cross-platform management: data services that can be managed in hybrid or multicloud environments through Azure Arc."
+        },
+        {
+          "id": "d",
+          "text": "Repeatable scripting: data services that can be managed in hybrid or multicloud environments through Azure Arc."
+        },
+        {
+          "id": "e",
+          "text": "Cloud Shell authentication: representing non-Azure resources in Azure Resource Manager so they can be managed with familiar Azure tools."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Cloud Shell authentication — the browser shell automatically uses the Azure identity and permissions of the signed-in user; and Cross-platform management — Azure CLI and Azure PowerShell can be installed on Windows, Linux, and macOS.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "mr-0209",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Resource Manager projection: representing non-Azure resources in Azure Resource Manager so they can be managed with familiar Azure tools."
+        },
+        {
+          "id": "b",
+          "text": "Azure Resource Manager projection: a centralized management approach for resources that remain outside Azure."
+        },
+        {
+          "id": "c",
+          "text": "Azure Arc: Kubernetes clusters outside Azure that can be governed and managed through Azure Arc."
+        },
+        {
+          "id": "d",
+          "text": "Cloud Shell authentication: applying Azure policy, inventory, and monitoring approaches across Azure, on-premises, and other clouds."
+        },
+        {
+          "id": "e",
+          "text": "Azure Arc: a service that extends Azure management and governance to hybrid and multicloud resources."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "e"
+      ],
+      "explanation": "The correct pair is: Azure Arc — a service that extends Azure management and governance to hybrid and multicloud resources; and Azure Resource Manager projection — representing non-Azure resources in Azure Resource Manager so they can be managed with familiar Azure tools.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "tf-0205",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Azure portal is a web-based graphical console for creating, managing, and monitoring Azure resources.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure portal is a web-based graphical console for creating, managing, and monitoring Azure resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "tf-0206",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "According to this unit: Azure Cloud Shell is an AI assistant that can provide contextual guidance and help draft operational commands or workflows.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Azure Cloud Shell is a browser-based authenticated shell that supports Azure PowerShell and Azure CLI without local installation.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "tf-0207",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "For Azure fundamentals, Azure PowerShell is a command-line and scripting environment that uses PowerShell cmdlets to manage Azure through its APIs.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure PowerShell is a command-line and scripting environment that uses PowerShell cmdlets to manage Azure through its APIs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "tf-0208",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "This statement is correct: Azure CLI is the browser shell automatically uses the Azure identity and permissions of the signed-in user.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Azure CLI is a cross-platform command-line tool that uses CLI/Bash-style commands to manage Azure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "tf-0209",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "The unit supports the following statement: Copilot in Azure is an AI assistant that can provide contextual guidance and help draft operational commands or workflows.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Copilot in Azure is an AI assistant that can provide contextual guidance and help draft operational commands or workflows.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "sc-0410",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a web-based graphical console for creating, managing, and monitoring Azure resources. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Repeatable scripting"
+        },
+        {
+          "id": "b",
+          "text": "Arc-enabled data services"
+        },
+        {
+          "id": "c",
+          "text": "Azure portal"
+        },
+        {
+          "id": "d",
+          "text": "Infrastructure as code"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure portal is the best match because it is a web-based graphical console for creating, managing, and monitoring Azure resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "sc-0411",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs a browser-based authenticated shell that supports Azure PowerShell and Azure CLI without local installation. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Arc"
+        },
+        {
+          "id": "b",
+          "text": "Azure Cloud Shell"
+        },
+        {
+          "id": "c",
+          "text": "ARM request flow"
+        },
+        {
+          "id": "d",
+          "text": "Idempotent deployment"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Cloud Shell is the best match because it is a browser-based authenticated shell that supports Azure PowerShell and Azure CLI without local installation.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "sc-0412",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: a command-line and scripting environment that uses PowerShell cmdlets to manage Azure through its APIs. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure PowerShell"
+        },
+        {
+          "id": "b",
+          "text": "Bicep"
+        },
+        {
+          "id": "c",
+          "text": "Arc-enabled Kubernetes"
+        },
+        {
+          "id": "d",
+          "text": "Azure portal"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure PowerShell is the best match because it is a command-line and scripting environment that uses PowerShell cmdlets to manage Azure through its APIs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "sc-0413",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: a cross-platform command-line tool that uses CLI/Bash-style commands to manage Azure. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Resource Manager (ARM)"
+        },
+        {
+          "id": "b",
+          "text": "Dependency orchestration"
+        },
+        {
+          "id": "c",
+          "text": "Azure CLI"
+        },
+        {
+          "id": "d",
+          "text": "ARM request flow"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure CLI is the best match because it is a cross-platform command-line tool that uses CLI/Bash-style commands to manage Azure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "sc-0414",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants an AI assistant that can provide contextual guidance and help draft operational commands or workflows. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Arc-enabled servers"
+        },
+        {
+          "id": "b",
+          "text": "Copilot in Azure"
+        },
+        {
+          "id": "c",
+          "text": "Cross-platform management"
+        },
+        {
+          "id": "d",
+          "text": "Azure Cloud Shell"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Copilot in Azure is the best match because it is an AI assistant that can provide contextual guidance and help draft operational commands or workflows.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "sc-0415",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for capturing management commands in scripts so operations can be automated and repeated consistently. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Arc-enabled data services"
+        },
+        {
+          "id": "b",
+          "text": "Declarative deployment"
+        },
+        {
+          "id": "c",
+          "text": "Cloud Shell authentication"
+        },
+        {
+          "id": "d",
+          "text": "Repeatable scripting"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Repeatable scripting is the best match because it is capturing management commands in scripts so operations can be automated and repeated consistently.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "sc-0416",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for the browser shell automatically uses the Azure identity and permissions of the signed-in user. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cloud Shell authentication"
+        },
+        {
+          "id": "b",
+          "text": "Azure CLI"
+        },
+        {
+          "id": "c",
+          "text": "Repeatable scripting"
+        },
+        {
+          "id": "d",
+          "text": "Azure Cloud Shell"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Cloud Shell authentication is the best match because it is the browser shell automatically uses the Azure identity and permissions of the signed-in user.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "sc-0417",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is azure CLI and Azure PowerShell can be installed on Windows, Linux, and macOS. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cross-platform management"
+        },
+        {
+          "id": "b",
+          "text": "Infrastructure as code"
+        },
+        {
+          "id": "c",
+          "text": "Bicep"
+        },
+        {
+          "id": "d",
+          "text": "Azure Cloud Shell"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Cross-platform management is the best match because it is Azure CLI and Azure PowerShell can be installed on Windows, Linux, and macOS.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "sc-0418",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as a service that extends Azure management and governance to hybrid and multicloud resources. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Arc-enabled Kubernetes"
+        },
+        {
+          "id": "b",
+          "text": "Copilot in Azure"
+        },
+        {
+          "id": "c",
+          "text": "Azure Arc"
+        },
+        {
+          "id": "d",
+          "text": "Azure Cloud Shell"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure Arc is the best match because it is a service that extends Azure management and governance to hybrid and multicloud resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "sc-0419",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides representing non-Azure resources in Azure Resource Manager so they can be managed with familiar Azure tools. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Arc-enabled servers"
+        },
+        {
+          "id": "b",
+          "text": "Copilot in Azure"
+        },
+        {
+          "id": "c",
+          "text": "Azure CLI"
+        },
+        {
+          "id": "d",
+          "text": "Azure Resource Manager projection"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Azure Resource Manager projection is the best match because it is representing non-Azure resources in Azure Resource Manager so they can be managed with familiar Azure tools.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "match-0205",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure portal"
+        },
+        {
+          "id": "l2",
+          "text": "Azure Cloud Shell"
+        },
+        {
+          "id": "l3",
+          "text": "Azure PowerShell"
+        },
+        {
+          "id": "l4",
+          "text": "Azure CLI"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "A cross-platform command-line tool that uses CLI/Bash-style commands to manage Azure"
+        },
+        {
+          "id": "r1",
+          "text": "A web-based graphical console for creating, managing, and monitoring Azure resources"
+        },
+        {
+          "id": "r3",
+          "text": "A command-line and scripting environment that uses PowerShell cmdlets to manage Azure through its APIs"
+        },
+        {
+          "id": "r2",
+          "text": "A browser-based authenticated shell that supports Azure PowerShell and Azure CLI without local installation"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l1": "r1",
+        "l3": "r3",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "match-0206",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure PowerShell"
+        },
+        {
+          "id": "l2",
+          "text": "Azure CLI"
+        },
+        {
+          "id": "l3",
+          "text": "Copilot in Azure"
+        },
+        {
+          "id": "l4",
+          "text": "Repeatable scripting"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A command-line and scripting environment that uses PowerShell cmdlets to manage Azure through its APIs"
+        },
+        {
+          "id": "r2",
+          "text": "A cross-platform command-line tool that uses CLI/Bash-style commands to manage Azure"
+        },
+        {
+          "id": "r3",
+          "text": "An AI assistant that can provide contextual guidance and help draft operational commands or workflows"
+        },
+        {
+          "id": "r4",
+          "text": "Capturing management commands in scripts so operations can be automated and repeated consistently"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "match-0207",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Copilot in Azure"
+        },
+        {
+          "id": "l2",
+          "text": "Repeatable scripting"
+        },
+        {
+          "id": "l3",
+          "text": "Cloud Shell authentication"
+        },
+        {
+          "id": "l4",
+          "text": "Cross-platform management"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "The browser shell automatically uses the Azure identity and permissions of the signed-in user"
+        },
+        {
+          "id": "r4",
+          "text": "Azure CLI and Azure PowerShell can be installed on Windows, Linux, and macOS"
+        },
+        {
+          "id": "r1",
+          "text": "An AI assistant that can provide contextual guidance and help draft operational commands or workflows"
+        },
+        {
+          "id": "r2",
+          "text": "Capturing management commands in scripts so operations can be automated and repeated consistently"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l1": "r1",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "match-0208",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Cloud Shell authentication"
+        },
+        {
+          "id": "l2",
+          "text": "Cross-platform management"
+        },
+        {
+          "id": "l3",
+          "text": "Azure Arc"
+        },
+        {
+          "id": "l4",
+          "text": "Azure Resource Manager projection"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A service that extends Azure management and governance to hybrid and multicloud resources"
+        },
+        {
+          "id": "r4",
+          "text": "Representing non-Azure resources in Azure Resource Manager so they can be managed with familiar Azure tools"
+        },
+        {
+          "id": "r2",
+          "text": "Azure CLI and Azure PowerShell can be installed on Windows, Linux, and macOS"
+        },
+        {
+          "id": "r1",
+          "text": "The browser shell automatically uses the Azure identity and permissions of the signed-in user"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "match-0209",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Arc"
+        },
+        {
+          "id": "l2",
+          "text": "Azure Resource Manager projection"
+        },
+        {
+          "id": "l3",
+          "text": "Arc-enabled servers"
+        },
+        {
+          "id": "l4",
+          "text": "Arc-enabled Kubernetes"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Kubernetes clusters outside Azure that can be governed and managed through Azure Arc"
+        },
+        {
+          "id": "r3",
+          "text": "Physical or virtual servers outside Azure that can be brought under Azure management"
+        },
+        {
+          "id": "r2",
+          "text": "Representing non-Azure resources in Azure Resource Manager so they can be managed with familiar Azure tools"
+        },
+        {
+          "id": "r1",
+          "text": "A service that extends Azure management and governance to hybrid and multicloud resources"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l3": "r3",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "fill-0205",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "{{answer}} is a command-line and scripting environment that uses PowerShell cmdlets to manage Azure through its APIs.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure PowerShell",
+            "Hybrid management platform",
+            "Idempotent deployment",
+            "Copilot in Azure"
+          ],
+          "correctAnswer": "Azure PowerShell"
+        }
+      ],
+      "explanation": "Azure PowerShell is a command-line and scripting environment that uses PowerShell cmdlets to manage Azure through its APIs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "fill-0206",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "The term for a cross-platform command-line tool that uses CLI/Bash-style commands to manage Azure is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Idempotent deployment",
+            "Repeatable scripting",
+            "Declarative deployment",
+            "Azure CLI"
+          ],
+          "correctAnswer": "Azure CLI"
+        }
+      ],
+      "explanation": "Azure CLI is a cross-platform command-line tool that uses CLI/Bash-style commands to manage Azure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "fill-0207",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "In this unit, {{answer}} refers to an AI assistant that can provide contextual guidance and help draft operational commands or workflows.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure portal",
+            "Copilot in Azure",
+            "ARM request flow",
+            "Azure Cloud Shell"
+          ],
+          "correctAnswer": "Copilot in Azure"
+        }
+      ],
+      "explanation": "Copilot in Azure is an AI assistant that can provide contextual guidance and help draft operational commands or workflows.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "fill-0208",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "For AZ-900, the concept described as capturing management commands in scripts so operations can be automated and repeated consistently is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Infrastructure as code",
+            "Azure PowerShell",
+            "Repeatable scripting",
+            "Declarative deployment"
+          ],
+          "correctAnswer": "Repeatable scripting"
+        }
+      ],
+      "explanation": "Repeatable scripting is capturing management commands in scripts so operations can be automated and repeated consistently.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    },
+    {
+      "id": "fill-0209",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Choose the term that completes the statement: {{answer}} means the browser shell automatically uses the Azure identity and permissions of the signed-in user.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure Resource Manager projection",
+            "Cloud Shell authentication",
+            "Consistent governance",
+            "Azure Arc"
+          ],
+          "correctAnswer": "Cloud Shell authentication"
+        }
+      ],
+      "explanation": "Cloud Shell authentication is the browser shell automatically uses the Azure identity and permissions of the signed-in user.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check"
+    }
+  ]
+}

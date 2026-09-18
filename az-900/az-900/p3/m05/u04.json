@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe Azure identity, access, and security · Describe Azure external identities",
+  "questions": [
+    {
+      "id": "mc-0415",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "question": "Which statement best describes External identity?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Protecting data while it moves across networks, commonly with protocols such as TLS"
+        },
+        {
+          "id": "b",
+          "text": "An encryption key whose lifecycle and access are controlled by the customer"
+        },
+        {
+          "id": "c",
+          "text": "An authorization system that controls who can perform which actions on Azure resources and at what scope"
+        },
+        {
+          "id": "d",
+          "text": "An identity belonging to a person outside the organization who needs controlled access to applications or resources"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "External identity is an identity belonging to a person outside the organization who needs controlled access to applications or resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "mc-0416",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "question": "In the context of this Microsoft Learn unit, what does B2B collaboration refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The cloud app or resource being accessed as a policy condition"
+        },
+        {
+          "id": "b",
+          "text": "An encryption key whose lifecycle and access are controlled by the customer"
+        },
+        {
+          "id": "c",
+          "text": "Something the user knows, such as a password or PIN"
+        },
+        {
+          "id": "d",
+          "text": "Inviting external partners or guests to access organizational resources using their own identities"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "B2B collaboration is inviting external partners or guests to access organizational resources using their own identities.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "mc-0417",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "question": "Which description correctly matches Guest user?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Information about the requesting user or workload used to evaluate access"
+        },
+        {
+          "id": "b",
+          "text": "An external user represented in a Microsoft Entra tenant for collaboration"
+        },
+        {
+          "id": "c",
+          "text": "Inviting external partners or guests to access organizational resources using their own identities"
+        },
+        {
+          "id": "d",
+          "text": "Using available signals such as identity, location, device, service, workload, and data classification to make access decisions"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Guest user is an external user represented in a Microsoft Entra tenant for collaboration.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "mc-0418",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "question": "Which of the following is the best definition of External ID?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Granting only the permissions needed to perform required tasks"
+        },
+        {
+          "id": "b",
+          "text": "Microsoft Entra capabilities for managing access by external users and customers"
+        },
+        {
+          "id": "c",
+          "text": "Information about the requesting user or workload used to evaluate access"
+        },
+        {
+          "id": "d",
+          "text": "A security strategy that uses multiple layers so the failure of one control does not expose the entire system"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "External ID is Microsoft Entra capabilities for managing access by external users and customers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "mc-0419",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "question": "What is the primary meaning of Cross-tenant collaboration in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A security model that assumes breach and verifies each access request rather than trusting based on network location"
+        },
+        {
+          "id": "b",
+          "text": "Something the user has, such as a phone or security key"
+        },
+        {
+          "id": "c",
+          "text": "Configuring how users from different Microsoft Entra tenants collaborate"
+        },
+        {
+          "id": "d",
+          "text": "The combination of a security principal, role definition, and scope"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Cross-tenant collaboration is configuring how users from different Microsoft Entra tenants collaborate.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "mr-0415",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "B2B collaboration: granting external users only the permissions they need for the intended collaboration."
+        },
+        {
+          "id": "b",
+          "text": "B2B collaboration: inviting external partners or guests to access organizational resources using their own identities."
+        },
+        {
+          "id": "c",
+          "text": "External identity: an identity belonging to a person outside the organization who needs controlled access to applications or resources."
+        },
+        {
+          "id": "d",
+          "text": "Guest user: using one identity sign-in to access multiple trusted applications."
+        },
+        {
+          "id": "e",
+          "text": "External identity: Microsoft Entra capabilities for managing access by external users and customers."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: External identity — an identity belonging to a person outside the organization who needs controlled access to applications or resources; and B2B collaboration — inviting external partners or guests to access organizational resources using their own identities.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "mr-0416",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Guest user: an external user represented in a Microsoft Entra tenant for collaboration."
+        },
+        {
+          "id": "b",
+          "text": "External ID: Microsoft Entra capabilities for managing access by external users and customers."
+        },
+        {
+          "id": "c",
+          "text": "External ID: verifying the identity of a person, service, or device before granting access."
+        },
+        {
+          "id": "d",
+          "text": "External ID: Microsoft Entra capabilities for integrating and controlling access to cloud and on-premises applications."
+        },
+        {
+          "id": "e",
+          "text": "Guest user: supporting sign-in experiences for customers who use an organization’s applications."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Guest user — an external user represented in a Microsoft Entra tenant for collaboration; and External ID — Microsoft Entra capabilities for managing access by external users and customers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "mr-0417",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cross-tenant collaboration: Microsoft cloud-based identity and access management service."
+        },
+        {
+          "id": "b",
+          "text": "Cross-tenant collaboration: configuring how users from different Microsoft Entra tenants collaborate."
+        },
+        {
+          "id": "c",
+          "text": "Customer identity access: supporting sign-in experiences for customers who use an organization’s applications."
+        },
+        {
+          "id": "d",
+          "text": "Customer identity access: Microsoft Entra capabilities for integrating and controlling access to cloud and on-premises applications."
+        },
+        {
+          "id": "e",
+          "text": "Cross-tenant collaboration: using identity and device state with tools such as Intune and Conditional Access."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: Cross-tenant collaboration — configuring how users from different Microsoft Entra tenants collaborate; and Customer identity access — supporting sign-in experiences for customers who use an organization’s applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "mr-0418",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Least-privilege external access: granting external users only the permissions they need for the intended collaboration."
+        },
+        {
+          "id": "b",
+          "text": "Least-privilege external access: using one identity sign-in to access multiple trusted applications."
+        },
+        {
+          "id": "c",
+          "text": "External identity: supporting sign-in experiences for customers who use an organization’s applications."
+        },
+        {
+          "id": "d",
+          "text": "External identity: an identity belonging to a person outside the organization who needs controlled access to applications or resources."
+        },
+        {
+          "id": "e",
+          "text": "Customer identity access: technology that synchronizes identities between on-premises Active Directory and Microsoft Entra ID."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Least-privilege external access — granting external users only the permissions they need for the intended collaboration; and External identity — an identity belonging to a person outside the organization who needs controlled access to applications or resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "mr-0419",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Guest user: Microsoft cloud-based identity and access management service."
+        },
+        {
+          "id": "b",
+          "text": "B2B collaboration: inviting external partners or guests to access organizational resources using their own identities."
+        },
+        {
+          "id": "c",
+          "text": "Least-privilege external access: managed domain capabilities such as domain join, Group Policy, LDAP, Kerberos, and NTLM without customer-managed domain controllers."
+        },
+        {
+          "id": "d",
+          "text": "Guest user: an external user represented in a Microsoft Entra tenant for collaboration."
+        },
+        {
+          "id": "e",
+          "text": "B2B collaboration: configuring how users from different Microsoft Entra tenants collaborate."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: B2B collaboration — inviting external partners or guests to access organizational resources using their own identities; and Guest user — an external user represented in a Microsoft Entra tenant for collaboration.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "tf-0415",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "question": "External identity is an identity belonging to a person outside the organization who needs controlled access to applications or resources.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "External identity is an identity belonging to a person outside the organization who needs controlled access to applications or resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "tf-0416",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "question": "According to this unit: B2B collaboration is configuring how users from different Microsoft Entra tenants collaborate.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. B2B collaboration is inviting external partners or guests to access organizational resources using their own identities.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "tf-0417",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "question": "For Azure fundamentals, Guest user is an external user represented in a Microsoft Entra tenant for collaboration.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Guest user is an external user represented in a Microsoft Entra tenant for collaboration.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "tf-0418",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "question": "This statement is correct: External ID is granting external users only the permissions they need for the intended collaboration.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. External ID is Microsoft Entra capabilities for managing access by external users and customers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "tf-0419",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "question": "The unit supports the following statement: Cross-tenant collaboration is configuring how users from different Microsoft Entra tenants collaborate.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Cross-tenant collaboration is configuring how users from different Microsoft Entra tenants collaborate.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "sc-0830",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "scenario": "The organization is reviewing the topic “Describe Azure external identities” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: an identity belonging to a person outside the organization who needs controlled access to applications or resources. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microsoft Defender for Cloud"
+        },
+        {
+          "id": "b",
+          "text": "External identity"
+        },
+        {
+          "id": "c",
+          "text": "Workload protection"
+        },
+        {
+          "id": "d",
+          "text": "One-way managed-domain synchronization"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "External identity is the best match because it is an identity belonging to a person outside the organization who needs controlled access to applications or resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "sc-0831",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "scenario": "The organization is reviewing the topic “Describe Azure external identities” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs inviting external partners or guests to access organizational resources using their own identities. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Security principal"
+        },
+        {
+          "id": "b",
+          "text": "Least-privilege external access"
+        },
+        {
+          "id": "c",
+          "text": "B2B collaboration"
+        },
+        {
+          "id": "d",
+          "text": "Scope"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "B2B collaboration is the best match because it is inviting external partners or guests to access organizational resources using their own identities.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "sc-0832",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "scenario": "The organization is reviewing the topic “Describe Azure external identities” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: an external user represented in a Microsoft Entra tenant for collaboration. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Guest user"
+        },
+        {
+          "id": "b",
+          "text": "Secure score"
+        },
+        {
+          "id": "c",
+          "text": "Role assignment"
+        },
+        {
+          "id": "d",
+          "text": "Microsoft-managed key"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Guest user is the best match because it is an external user represented in a Microsoft Entra tenant for collaboration.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "sc-0833",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "scenario": "The organization is reviewing the topic “Describe Azure external identities” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: microsoft Entra capabilities for managing access by external users and customers. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "External ID"
+        },
+        {
+          "id": "b",
+          "text": "Key rotation"
+        },
+        {
+          "id": "c",
+          "text": "Security posture management"
+        },
+        {
+          "id": "d",
+          "text": "Microsoft Authenticator"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "External ID is the best match because it is Microsoft Entra capabilities for managing access by external users and customers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "sc-0834",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "scenario": "The organization is reviewing the topic “Describe Azure external identities” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants configuring how users from different Microsoft Entra tenants collaborate. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Security posture management"
+        },
+        {
+          "id": "b",
+          "text": "Cross-tenant collaboration"
+        },
+        {
+          "id": "c",
+          "text": "Continuous evaluation"
+        },
+        {
+          "id": "d",
+          "text": "Security principal"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Cross-tenant collaboration is the best match because it is configuring how users from different Microsoft Entra tenants collaborate.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "sc-0835",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "scenario": "The organization is reviewing the topic “Describe Azure external identities” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for supporting sign-in experiences for customers who use an organization’s applications. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Secure score"
+        },
+        {
+          "id": "b",
+          "text": "Authentication"
+        },
+        {
+          "id": "c",
+          "text": "Location signal"
+        },
+        {
+          "id": "d",
+          "text": "Customer identity access"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Customer identity access is the best match because it is supporting sign-in experiences for customers who use an organization’s applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "sc-0836",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "scenario": "The organization is reviewing the topic “Describe Azure external identities” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for granting external users only the permissions they need for the intended collaboration. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "External identity"
+        },
+        {
+          "id": "b",
+          "text": "Microsoft Entra Domain Services"
+        },
+        {
+          "id": "c",
+          "text": "Data layer"
+        },
+        {
+          "id": "d",
+          "text": "Least-privilege external access"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Least-privilege external access is the best match because it is granting external users only the permissions they need for the intended collaboration.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "sc-0837",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "scenario": "The organization is reviewing the topic “Describe Azure external identities” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is an identity belonging to a person outside the organization who needs controlled access to applications or resources. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Multifactor authentication (MFA)"
+        },
+        {
+          "id": "b",
+          "text": "Require MFA"
+        },
+        {
+          "id": "c",
+          "text": "Verify explicitly"
+        },
+        {
+          "id": "d",
+          "text": "External identity"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "External identity is the best match because it is an identity belonging to a person outside the organization who needs controlled access to applications or resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "sc-0838",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "scenario": "The organization is reviewing the topic “Describe Azure external identities” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as inviting external partners or guests to access organizational resources using their own identities. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Key Vault"
+        },
+        {
+          "id": "b",
+          "text": "Perimeter layer"
+        },
+        {
+          "id": "c",
+          "text": "Role definition"
+        },
+        {
+          "id": "d",
+          "text": "B2B collaboration"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "B2B collaboration is the best match because it is inviting external partners or guests to access organizational resources using their own identities.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "sc-0839",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "scenario": "The organization is reviewing the topic “Describe Azure external identities” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides an external user represented in a Microsoft Entra tenant for collaboration. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "FIDO2 security key"
+        },
+        {
+          "id": "b",
+          "text": "Device signal"
+        },
+        {
+          "id": "c",
+          "text": "Guest user"
+        },
+        {
+          "id": "d",
+          "text": "Identity and access layer"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Guest user is the best match because it is an external user represented in a Microsoft Entra tenant for collaboration.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "match-0415",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "External identity"
+        },
+        {
+          "id": "l2",
+          "text": "B2B collaboration"
+        },
+        {
+          "id": "l3",
+          "text": "Guest user"
+        },
+        {
+          "id": "l4",
+          "text": "External ID"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "An external user represented in a Microsoft Entra tenant for collaboration"
+        },
+        {
+          "id": "r2",
+          "text": "Inviting external partners or guests to access organizational resources using their own identities"
+        },
+        {
+          "id": "r4",
+          "text": "Microsoft Entra capabilities for managing access by external users and customers"
+        },
+        {
+          "id": "r1",
+          "text": "An identity belonging to a person outside the organization who needs controlled access to applications or resources"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l2": "r2",
+        "l4": "r4",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "match-0416",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Guest user"
+        },
+        {
+          "id": "l2",
+          "text": "External ID"
+        },
+        {
+          "id": "l3",
+          "text": "Cross-tenant collaboration"
+        },
+        {
+          "id": "l4",
+          "text": "Customer identity access"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "An external user represented in a Microsoft Entra tenant for collaboration"
+        },
+        {
+          "id": "r2",
+          "text": "Microsoft Entra capabilities for managing access by external users and customers"
+        },
+        {
+          "id": "r3",
+          "text": "Configuring how users from different Microsoft Entra tenants collaborate"
+        },
+        {
+          "id": "r4",
+          "text": "Supporting sign-in experiences for customers who use an organization’s applications"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "match-0417",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Cross-tenant collaboration"
+        },
+        {
+          "id": "l2",
+          "text": "Customer identity access"
+        },
+        {
+          "id": "l3",
+          "text": "Least-privilege external access"
+        },
+        {
+          "id": "l4",
+          "text": "External identity"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "An identity belonging to a person outside the organization who needs controlled access to applications or resources"
+        },
+        {
+          "id": "r3",
+          "text": "Granting external users only the permissions they need for the intended collaboration"
+        },
+        {
+          "id": "r1",
+          "text": "Configuring how users from different Microsoft Entra tenants collaborate"
+        },
+        {
+          "id": "r2",
+          "text": "Supporting sign-in experiences for customers who use an organization’s applications"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l3": "r3",
+        "l1": "r1",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "match-0418",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Least-privilege external access"
+        },
+        {
+          "id": "l2",
+          "text": "External identity"
+        },
+        {
+          "id": "l3",
+          "text": "B2B collaboration"
+        },
+        {
+          "id": "l4",
+          "text": "Guest user"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Inviting external partners or guests to access organizational resources using their own identities"
+        },
+        {
+          "id": "r4",
+          "text": "An external user represented in a Microsoft Entra tenant for collaboration"
+        },
+        {
+          "id": "r1",
+          "text": "Granting external users only the permissions they need for the intended collaboration"
+        },
+        {
+          "id": "r2",
+          "text": "An identity belonging to a person outside the organization who needs controlled access to applications or resources"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l1": "r1",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "match-0419",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "B2B collaboration"
+        },
+        {
+          "id": "l2",
+          "text": "Guest user"
+        },
+        {
+          "id": "l3",
+          "text": "External ID"
+        },
+        {
+          "id": "l4",
+          "text": "Cross-tenant collaboration"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "An external user represented in a Microsoft Entra tenant for collaboration"
+        },
+        {
+          "id": "r3",
+          "text": "Microsoft Entra capabilities for managing access by external users and customers"
+        },
+        {
+          "id": "r4",
+          "text": "Configuring how users from different Microsoft Entra tenants collaborate"
+        },
+        {
+          "id": "r1",
+          "text": "Inviting external partners or guests to access organizational resources using their own identities"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "fill-0415",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "question": "{{answer}} is an external user represented in a Microsoft Entra tenant for collaboration.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Application signal",
+            "Inherence factor",
+            "Guest user",
+            "Role assignment"
+          ],
+          "correctAnswer": "Guest user"
+        }
+      ],
+      "explanation": "Guest user is an external user represented in a Microsoft Entra tenant for collaboration.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "fill-0416",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "question": "The term for microsoft Entra capabilities for managing access by external users and customers is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "External ID",
+            "Block access",
+            "Azure Key Vault",
+            "Application management"
+          ],
+          "correctAnswer": "External ID"
+        }
+      ],
+      "explanation": "External ID is Microsoft Entra capabilities for managing access by external users and customers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "fill-0417",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "question": "In this unit, {{answer}} refers to configuring how users from different Microsoft Entra tenants collaborate.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Microsoft-managed key",
+            "Microsoft Entra Connect",
+            "Cross-tenant collaboration",
+            "Zero Trust"
+          ],
+          "correctAnswer": "Cross-tenant collaboration"
+        }
+      ],
+      "explanation": "Cross-tenant collaboration is configuring how users from different Microsoft Entra tenants collaborate.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "fill-0418",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "question": "For AZ-900, the concept described as supporting sign-in experiences for customers who use an organization’s applications is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Customer identity access",
+            "Device signal",
+            "External identity",
+            "Cross-tenant collaboration"
+          ],
+          "correctAnswer": "Customer identity access"
+        }
+      ],
+      "explanation": "Customer identity access is supporting sign-in experiences for customers who use an organization’s applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    },
+    {
+      "id": "fill-0419",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure external identities",
+      "question": "Choose the term that completes the statement: {{answer}} means granting external users only the permissions they need for the intended collaboration.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Just-in-time VM access",
+            "Require compliant device",
+            "Least-privilege external access",
+            "Windows Hello for Business"
+          ],
+          "correctAnswer": "Least-privilege external access"
+        }
+      ],
+      "explanation": "Least-privilege external access is granting external users only the permissions they need for the intended collaboration.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities"
+    }
+  ]
+}

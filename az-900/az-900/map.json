@@ -1,0 +1,777 @@
+{
+  "version": "1.0",
+  "generatedFor": "AZ-900 Microsoft Azure Fundamentals",
+  "source": "Microsoft Learn",
+  "learningPaths": [
+    {
+      "name": "Describe Cloud Concepts",
+      "url": "https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/",
+      "modules": [
+        {
+          "name": "Describe cloud computing",
+          "url": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/",
+          "units": [
+            {
+              "title": "Introduction to Microsoft Azure Fundamentals",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/1-introduction-microsoft-azure-fundamentals",
+              "file": "p1/m01/u01.json",
+              "questionCount": 35,
+              "code": "p1m01u01"
+            },
+            {
+              "title": "Introduction to cloud computing",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute",
+              "file": "p1/m01/u02.json",
+              "questionCount": 35,
+              "code": "p1m01u02"
+            },
+            {
+              "title": "What is cloud computing",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute",
+              "file": "p1/m01/u03.json",
+              "questionCount": 35,
+              "code": "p1m01u03"
+            },
+            {
+              "title": "Describe the shared responsibility model",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model",
+              "file": "p1/m01/u04.json",
+              "questionCount": 35,
+              "code": "p1m01u04"
+            },
+            {
+              "title": "Define cloud models",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models",
+              "file": "p1/m01/u05.json",
+              "questionCount": 35,
+              "code": "p1m01u05"
+            },
+            {
+              "title": "Describe the consumption-based model",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model",
+              "file": "p1/m01/u06.json",
+              "questionCount": 35,
+              "code": "p1m01u06"
+            },
+            {
+              "title": "Module assessment",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/7-knowledge-check",
+              "file": "p1/m01/u07.json",
+              "questionCount": 35,
+              "code": "p1m01u07"
+            },
+            {
+              "title": "Summary",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary",
+              "file": "p1/m01/u08.json",
+              "questionCount": 35,
+              "code": "p1m01u08"
+            }
+          ],
+          "code": "p1m01"
+        },
+        {
+          "name": "Describe the benefits of using cloud services",
+          "url": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/",
+          "units": [
+            {
+              "title": "Introduction",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/1-introduction",
+              "file": "p1/m02/u01.json",
+              "questionCount": 35,
+              "code": "p1m02u01"
+            },
+            {
+              "title": "Describe the benefits of high availability and scalability in the cloud",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud",
+              "file": "p1/m02/u02.json",
+              "questionCount": 35,
+              "code": "p1m02u02"
+            },
+            {
+              "title": "Describe the benefits of reliability and predictability in the cloud",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud",
+              "file": "p1/m02/u03.json",
+              "questionCount": 35,
+              "code": "p1m02u03"
+            },
+            {
+              "title": "Describe the benefits of security and governance in the cloud",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud",
+              "file": "p1/m02/u04.json",
+              "questionCount": 35,
+              "code": "p1m02u04"
+            },
+            {
+              "title": "Describe the benefits of manageability in the cloud",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud",
+              "file": "p1/m02/u05.json",
+              "questionCount": 35,
+              "code": "p1m02u05"
+            },
+            {
+              "title": "Describe sustainability considerations in the cloud",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud",
+              "file": "p1/m02/u06.json",
+              "questionCount": 35,
+              "code": "p1m02u06"
+            },
+            {
+              "title": "Module assessment",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/6-knowledge-check",
+              "file": "p1/m02/u07.json",
+              "questionCount": 35,
+              "code": "p1m02u07"
+            },
+            {
+              "title": "Summary",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/7-summary",
+              "file": "p1/m02/u08.json",
+              "questionCount": 35,
+              "code": "p1m02u08"
+            }
+          ],
+          "code": "p1m02"
+        },
+        {
+          "name": "Describe cloud service types",
+          "url": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/",
+          "units": [
+            {
+              "title": "Introduction",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/1-introduction",
+              "file": "p1/m03/u01.json",
+              "questionCount": 35,
+              "code": "p1m03u01"
+            },
+            {
+              "title": "Describe Infrastructure as a Service",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service",
+              "file": "p1/m03/u02.json",
+              "questionCount": 35,
+              "code": "p1m03u02"
+            },
+            {
+              "title": "Describe Platform as a Service",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service",
+              "file": "p1/m03/u03.json",
+              "questionCount": 35,
+              "code": "p1m03u03"
+            },
+            {
+              "title": "Describe Software as a Service",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service",
+              "file": "p1/m03/u04.json",
+              "questionCount": 35,
+              "code": "p1m03u04"
+            },
+            {
+              "title": "Module assessment",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check",
+              "file": "p1/m03/u05.json",
+              "questionCount": 35,
+              "code": "p1m03u05"
+            },
+            {
+              "title": "Summary",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/6-summary",
+              "file": "p1/m03/u06.json",
+              "questionCount": 35,
+              "code": "p1m03u06"
+            }
+          ],
+          "code": "p1m03"
+        }
+      ],
+      "code": "p1"
+    },
+    {
+      "name": "Describe Azure Management and Governance",
+      "url": "https://learn.microsoft.com/en-us/training/paths/describe-azure-management-governance/",
+      "modules": [
+        {
+          "name": "Describe cost management in Azure",
+          "url": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/",
+          "units": [
+            {
+              "title": "Introduction",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/1-introduction",
+              "file": "p2/m01/u01.json",
+              "questionCount": 35,
+              "code": "p2m01u01"
+            },
+            {
+              "title": "Describe factors that can affect costs in Azure",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure",
+              "file": "p2/m01/u02.json",
+              "questionCount": 35,
+              "code": "p2m01u02"
+            },
+            {
+              "title": "Explore the pricing calculator",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators",
+              "file": "p2/m01/u03.json",
+              "questionCount": 35,
+              "code": "p2m01u03"
+            },
+            {
+              "title": "Describe the Microsoft Cost Management tool",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool",
+              "file": "p2/m01/u04.json",
+              "questionCount": 35,
+              "code": "p2m01u04"
+            },
+            {
+              "title": "Describe the purpose of tags",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags",
+              "file": "p2/m01/u05.json",
+              "questionCount": 35,
+              "code": "p2m01u05"
+            },
+            {
+              "title": "Describe cost optimization options in Azure",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options",
+              "file": "p2/m01/u06.json",
+              "questionCount": 35,
+              "code": "p2m01u06"
+            },
+            {
+              "title": "Module assessment",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/8-knowledge-check",
+              "file": "p2/m01/u07.json",
+              "questionCount": 35,
+              "code": "p2m01u07"
+            },
+            {
+              "title": "Summary",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary",
+              "file": "p2/m01/u08.json",
+              "questionCount": 35,
+              "code": "p2m01u08"
+            }
+          ],
+          "code": "p2m01"
+        },
+        {
+          "name": "Describe features and tools in Azure for governance and compliance",
+          "url": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/",
+          "units": [
+            {
+              "title": "Introduction",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/1-introduction",
+              "file": "p2/m02/u01.json",
+              "questionCount": 35,
+              "code": "p2m02u01"
+            },
+            {
+              "title": "Describe the purpose of Microsoft Purview",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/2-describe-purpose-microsoft-purview",
+              "file": "p2/m02/u02.json",
+              "questionCount": 35,
+              "code": "p2m02u02"
+            },
+            {
+              "title": "Describe the purpose of Azure Policy",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy",
+              "file": "p2/m02/u03.json",
+              "questionCount": 35,
+              "code": "p2m02u03"
+            },
+            {
+              "title": "Describe the purpose of resource locks",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks",
+              "file": "p2/m02/u04.json",
+              "questionCount": 35,
+              "code": "p2m02u04"
+            },
+            {
+              "title": "Describe the purpose of the Service Trust portal",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal",
+              "file": "p2/m02/u05.json",
+              "questionCount": 35,
+              "code": "p2m02u05"
+            },
+            {
+              "title": "Module assessment",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check",
+              "file": "p2/m02/u06.json",
+              "questionCount": 35,
+              "code": "p2m02u06"
+            },
+            {
+              "title": "Summary",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/8-summary",
+              "file": "p2/m02/u07.json",
+              "questionCount": 35,
+              "code": "p2m02u07"
+            }
+          ],
+          "code": "p2m02"
+        },
+        {
+          "name": "Describe features and tools for managing and deploying Azure resources",
+          "url": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/",
+          "units": [
+            {
+              "title": "Introduction",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/1-introduction",
+              "file": "p2/m03/u01.json",
+              "questionCount": 35,
+              "code": "p2m03u01"
+            },
+            {
+              "title": "Describe tools for interacting with Azure",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/2-describe-interacting-azure",
+              "file": "p2/m03/u02.json",
+              "questionCount": 35,
+              "code": "p2m03u02"
+            },
+            {
+              "title": "Describe the purpose of Azure Arc",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc",
+              "file": "p2/m03/u03.json",
+              "questionCount": 35,
+              "code": "p2m03u03"
+            },
+            {
+              "title": "Describe Azure Resource Manager and Azure ARM templates",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates",
+              "file": "p2/m03/u04.json",
+              "questionCount": 35,
+              "code": "p2m03u04"
+            },
+            {
+              "title": "Module assessment",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check",
+              "file": "p2/m03/u05.json",
+              "questionCount": 35,
+              "code": "p2m03u05"
+            },
+            {
+              "title": "Summary",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/6-summary",
+              "file": "p2/m03/u06.json",
+              "questionCount": 35,
+              "code": "p2m03u06"
+            }
+          ],
+          "code": "p2m03"
+        },
+        {
+          "name": "Describe monitoring tools in Azure",
+          "url": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/",
+          "units": [
+            {
+              "title": "Introduction",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/1-introduction",
+              "file": "p2/m04/u01.json",
+              "questionCount": 35,
+              "code": "p2m04u01"
+            },
+            {
+              "title": "Describe the purpose of Azure Advisor",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor",
+              "file": "p2/m04/u02.json",
+              "questionCount": 35,
+              "code": "p2m04u02"
+            },
+            {
+              "title": "Describe Azure Service Health",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health",
+              "file": "p2/m04/u03.json",
+              "questionCount": 35,
+              "code": "p2m04u03"
+            },
+            {
+              "title": "Describe Azure Monitor",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor",
+              "file": "p2/m04/u04.json",
+              "questionCount": 35,
+              "code": "p2m04u04"
+            },
+            {
+              "title": "Module assessment",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check",
+              "file": "p2/m04/u05.json",
+              "questionCount": 35,
+              "code": "p2m04u05"
+            },
+            {
+              "title": "Summary",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/6-summary",
+              "file": "p2/m04/u06.json",
+              "questionCount": 35,
+              "code": "p2m04u06"
+            }
+          ],
+          "code": "p2m04"
+        }
+      ],
+      "code": "p2"
+    },
+    {
+      "name": "Describe Azure Architecture and Services",
+      "url": "https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-azure-architecture-services/",
+      "modules": [
+        {
+          "name": "Describe the core architectural components of Azure",
+          "url": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/",
+          "units": [
+            {
+              "title": "Introduction",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/1-introduction",
+              "file": "p3/m01/u01.json",
+              "questionCount": 35,
+              "code": "p3m01u01"
+            },
+            {
+              "title": "What is Microsoft Azure",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/2-what-microsoft-azure",
+              "file": "p3/m01/u02.json",
+              "questionCount": 35,
+              "code": "p3m01u02"
+            },
+            {
+              "title": "Get started with Azure accounts",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/3-get-started-azure-accounts",
+              "file": "p3/m01/u03.json",
+              "questionCount": 35,
+              "code": "p3m01u03"
+            },
+            {
+              "title": "Describe Azure physical infrastructure",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure",
+              "file": "p3/m01/u04.json",
+              "questionCount": 35,
+              "code": "p3m01u04"
+            },
+            {
+              "title": "Describe Azure management infrastructure",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure",
+              "file": "p3/m01/u05.json",
+              "questionCount": 35,
+              "code": "p3m01u05"
+            },
+            {
+              "title": "Module assessment",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/8-knowledge-check",
+              "file": "p3/m01/u06.json",
+              "questionCount": 35,
+              "code": "p3m01u06"
+            },
+            {
+              "title": "Summary",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary",
+              "file": "p3/m01/u07.json",
+              "questionCount": 35,
+              "code": "p3m01u07"
+            }
+          ],
+          "code": "p3m01"
+        },
+        {
+          "name": "Describe Azure compute services",
+          "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/",
+          "units": [
+            {
+              "title": "Introduction",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/1-introduction",
+              "file": "p3/m02/u01.json",
+              "questionCount": 35,
+              "code": "p3m02u01"
+            },
+            {
+              "title": "Describe Azure virtual machines",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines",
+              "file": "p3/m02/u02.json",
+              "questionCount": 35,
+              "code": "p3m02u02"
+            },
+            {
+              "title": "Describe Azure virtual desktop",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop",
+              "file": "p3/m02/u03.json",
+              "questionCount": 35,
+              "code": "p3m02u03"
+            },
+            {
+              "title": "Describe Azure containers",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers",
+              "file": "p3/m02/u04.json",
+              "questionCount": 35,
+              "code": "p3m02u04"
+            },
+            {
+              "title": "Describe Azure functions",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions",
+              "file": "p3/m02/u05.json",
+              "questionCount": 35,
+              "code": "p3m02u05"
+            },
+            {
+              "title": "Describe AI, machine learning, and IoT/Edge services in Azure",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services",
+              "file": "p3/m02/u06.json",
+              "questionCount": 35,
+              "code": "p3m02u06"
+            },
+            {
+              "title": "Describe application hosting options",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options",
+              "file": "p3/m02/u07.json",
+              "questionCount": 35,
+              "code": "p3m02u07"
+            },
+            {
+              "title": "Module assessment",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/13-knowledge-check",
+              "file": "p3/m02/u08.json",
+              "questionCount": 35,
+              "code": "p3m02u08"
+            },
+            {
+              "title": "Summary",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/14-summary",
+              "file": "p3/m02/u09.json",
+              "questionCount": 35,
+              "code": "p3m02u09"
+            }
+          ],
+          "code": "p3m02"
+        },
+        {
+          "name": "Describe Azure networking services",
+          "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/",
+          "units": [
+            {
+              "title": "Introduction",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/1-introduction",
+              "file": "p3/m03/u01.json",
+              "questionCount": 35,
+              "code": "p3m03u01"
+            },
+            {
+              "title": "Describe Azure virtual networking",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/2-virtual-network",
+              "file": "p3/m03/u02.json",
+              "questionCount": 35,
+              "code": "p3m03u02"
+            },
+            {
+              "title": "Describe Azure virtual private networks",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks",
+              "file": "p3/m03/u03.json",
+              "questionCount": 35,
+              "code": "p3m03u03"
+            },
+            {
+              "title": "Describe Azure ExpressRoute",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute",
+              "file": "p3/m03/u04.json",
+              "questionCount": 35,
+              "code": "p3m03u04"
+            },
+            {
+              "title": "Describe Azure DNS",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system",
+              "file": "p3/m03/u05.json",
+              "questionCount": 35,
+              "code": "p3m03u05"
+            },
+            {
+              "title": "Module assessment",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/6-knowledge-check",
+              "file": "p3/m03/u06.json",
+              "questionCount": 35,
+              "code": "p3m03u06"
+            },
+            {
+              "title": "Summary",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/7-summary",
+              "file": "p3/m03/u07.json",
+              "questionCount": 35,
+              "code": "p3m03u07"
+            }
+          ],
+          "code": "p3m03"
+        },
+        {
+          "name": "Describe Azure storage services",
+          "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/",
+          "units": [
+            {
+              "title": "Introduction",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/1-introduction",
+              "file": "p3/m04/u01.json",
+              "questionCount": 35,
+              "code": "p3m04u01"
+            },
+            {
+              "title": "Describe Azure storage accounts",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/2-accounts",
+              "file": "p3/m04/u02.json",
+              "questionCount": 35,
+              "code": "p3m04u02"
+            },
+            {
+              "title": "Describe Azure storage redundancy",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy",
+              "file": "p3/m04/u03.json",
+              "questionCount": 35,
+              "code": "p3m04u03"
+            },
+            {
+              "title": "Describe Azure storage services",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services",
+              "file": "p3/m04/u04.json",
+              "questionCount": 35,
+              "code": "p3m04u04"
+            },
+            {
+              "title": "Identify Azure data migration options",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options",
+              "file": "p3/m04/u05.json",
+              "questionCount": 35,
+              "code": "p3m04u05"
+            },
+            {
+              "title": "Identify Azure file movement options",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options",
+              "file": "p3/m04/u06.json",
+              "questionCount": 35,
+              "code": "p3m04u06"
+            },
+            {
+              "title": "Module assessment",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/8-knowledge-check",
+              "file": "p3/m04/u07.json",
+              "questionCount": 35,
+              "code": "p3m04u07"
+            },
+            {
+              "title": "Summary",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary",
+              "file": "p3/m04/u08.json",
+              "questionCount": 35,
+              "code": "p3m04u08"
+            }
+          ],
+          "code": "p3m04"
+        },
+        {
+          "name": "Describe Azure identity, access, and security",
+          "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/",
+          "units": [
+            {
+              "title": "Introduction",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction",
+              "file": "p3/m05/u01.json",
+              "questionCount": 35,
+              "code": "p3m05u01"
+            },
+            {
+              "title": "Describe Azure directory services",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/2-directory-services",
+              "file": "p3/m05/u02.json",
+              "questionCount": 35,
+              "code": "p3m05u02"
+            },
+            {
+              "title": "Describe Azure authentication methods",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods",
+              "file": "p3/m05/u03.json",
+              "questionCount": 35,
+              "code": "p3m05u03"
+            },
+            {
+              "title": "Describe Azure external identities",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities",
+              "file": "p3/m05/u04.json",
+              "questionCount": 35,
+              "code": "p3m05u04"
+            },
+            {
+              "title": "Describe Azure conditional access",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access",
+              "file": "p3/m05/u05.json",
+              "questionCount": 35,
+              "code": "p3m05u05"
+            },
+            {
+              "title": "Describe Azure role-based access control",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control",
+              "file": "p3/m05/u06.json",
+              "questionCount": 35,
+              "code": "p3m05u06"
+            },
+            {
+              "title": "Describe Zero Trust model",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model",
+              "file": "p3/m05/u07.json",
+              "questionCount": 35,
+              "code": "p3m05u07"
+            },
+            {
+              "title": "Describe defense-in-depth",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth",
+              "file": "p3/m05/u08.json",
+              "questionCount": 35,
+              "code": "p3m05u08"
+            },
+            {
+              "title": "Describe encryption and key management in Azure",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management",
+              "file": "p3/m05/u09.json",
+              "questionCount": 35,
+              "code": "p3m05u09"
+            },
+            {
+              "title": "Describe Microsoft Defender for Cloud",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud",
+              "file": "p3/m05/u10.json",
+              "questionCount": 35,
+              "code": "p3m05u10"
+            },
+            {
+              "title": "Module assessment",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/10-knowledge-check",
+              "file": "p3/m05/u11.json",
+              "questionCount": 35,
+              "code": "p3m05u11"
+            },
+            {
+              "title": "Summary",
+              "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/11-summary",
+              "file": "p3/m05/u12.json",
+              "questionCount": 35,
+              "code": "p3m05u12"
+            }
+          ],
+          "code": "p3m05"
+        }
+      ],
+      "code": "p3"
+    }
+  ],
+  "totals": {
+    "learningPaths": 3,
+    "modules": 12,
+    "units": 92,
+    "unitJsonFiles": 92,
+    "questions": 3220,
+    "byType": {
+      "multiple-choice": 460,
+      "multiple-response": 460,
+      "true-false": 460,
+      "scenario": 920,
+      "matching": 460,
+      "fill-blank": 460
+    },
+    "validationErrors": 0
+  },
+  "fileNaming": {
+    "pattern": "p<path>/m<module>/u<unit>.json",
+    "example": "p1/m01/u01.json",
+    "reason": "Short paths for Windows compatibility"
+  }
+}

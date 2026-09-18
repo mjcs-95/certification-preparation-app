@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe Azure identity, access, and security · Describe Zero Trust model",
+  "questions": [
+    {
+      "id": "mc-0430",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "question": "Which statement best describes Zero Trust?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Protecting stored data by encoding it while it resides on disks or other storage media"
+        },
+        {
+          "id": "b",
+          "text": "Segmentation and network controls that restrict communication paths"
+        },
+        {
+          "id": "c",
+          "text": "A security model that assumes breach and verifies each access request rather than trusting based on network location"
+        },
+        {
+          "id": "d",
+          "text": "Protections for virtual machines, containers, operating systems, and workloads"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Zero Trust is a security model that assumes breach and verifies each access request rather than trusting based on network location.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "mc-0431",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "question": "In the context of this Microsoft Learn unit, what does Verify explicitly refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A measurement that summarizes security posture and can improve as recommended controls are implemented"
+        },
+        {
+          "id": "b",
+          "text": "Using available signals such as identity, location, device, service, workload, and data classification to make access decisions"
+        },
+        {
+          "id": "c",
+          "text": "The level at which a role assignment applies, such as management group, subscription, resource group, or resource"
+        },
+        {
+          "id": "d",
+          "text": "A security strategy that uses multiple layers so the failure of one control does not expose the entire system"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Verify explicitly is using available signals such as identity, location, device, service, workload, and data classification to make access decisions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "mc-0432",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "question": "Which description correctly matches Least-privilege access?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Technology that synchronizes identities between on-premises Active Directory and Microsoft Entra ID"
+        },
+        {
+          "id": "b",
+          "text": "Segmentation and network controls that restrict communication paths"
+        },
+        {
+          "id": "c",
+          "text": "Limiting permissions to the smallest level needed and reducing unnecessary standing access"
+        },
+        {
+          "id": "d",
+          "text": "Using one identity sign-in to access multiple trusted applications"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Least-privilege access is limiting permissions to the smallest level needed and reducing unnecessary standing access.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "mc-0433",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "question": "Which of the following is the best definition of Assume breach?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Designing detection, segmentation, and response as though attackers may already be present"
+        },
+        {
+          "id": "b",
+          "text": "An authorization system that controls who can perform which actions on Azure resources and at what scope"
+        },
+        {
+          "id": "c",
+          "text": "An encryption key whose lifecycle is managed by Microsoft for the service"
+        },
+        {
+          "id": "d",
+          "text": "An encryption key whose lifecycle and access are controlled by the customer"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Assume breach is designing detection, segmentation, and response as though attackers may already be present.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "mc-0434",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "question": "What is the primary meaning of Identity signal in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Information about the requesting user or workload used to evaluate access"
+        },
+        {
+          "id": "b",
+          "text": "Automatic encryption of data written to Azure Storage"
+        },
+        {
+          "id": "c",
+          "text": "A security strategy that uses multiple layers so the failure of one control does not expose the entire system"
+        },
+        {
+          "id": "d",
+          "text": "Using identity and device state with tools such as Intune and Conditional Access"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Identity signal is information about the requesting user or workload used to evaluate access.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "mr-0430",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zero Trust: a security model that assumes breach and verifies each access request rather than trusting based on network location."
+        },
+        {
+          "id": "b",
+          "text": "Verify explicitly: reassessing trust based on changing signals rather than assuming a one-time login establishes permanent trust."
+        },
+        {
+          "id": "c",
+          "text": "Verify explicitly: using available signals such as identity, location, device, service, workload, and data classification to make access decisions."
+        },
+        {
+          "id": "d",
+          "text": "Zero Trust: designing detection, segmentation, and response as though attackers may already be present."
+        },
+        {
+          "id": "e",
+          "text": "Least-privilege access: using one identity sign-in to access multiple trusted applications."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "c"
+      ],
+      "explanation": "The correct pair is: Zero Trust — a security model that assumes breach and verifies each access request rather than trusting based on network location; and Verify explicitly — using available signals such as identity, location, device, service, workload, and data classification to make access decisions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "mr-0431",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Assume breach: verifying the identity of a person, service, or device before granting access."
+        },
+        {
+          "id": "b",
+          "text": "Assume breach: Microsoft Entra capabilities for integrating and controlling access to cloud and on-premises applications."
+        },
+        {
+          "id": "c",
+          "text": "Least-privilege access: limiting permissions to the smallest level needed and reducing unnecessary standing access."
+        },
+        {
+          "id": "d",
+          "text": "Assume breach: designing detection, segmentation, and response as though attackers may already be present."
+        },
+        {
+          "id": "e",
+          "text": "Least-privilege access: information about device health or compliance used to evaluate access."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: Least-privilege access — limiting permissions to the smallest level needed and reducing unnecessary standing access; and Assume breach — designing detection, segmentation, and response as though attackers may already be present.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "mr-0432",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Identity signal: using identity and device state with tools such as Intune and Conditional Access."
+        },
+        {
+          "id": "b",
+          "text": "Identity signal: information about the requesting user or workload used to evaluate access."
+        },
+        {
+          "id": "c",
+          "text": "Identity signal: Microsoft cloud-based identity and access management service."
+        },
+        {
+          "id": "d",
+          "text": "Device signal: information about device health or compliance used to evaluate access."
+        },
+        {
+          "id": "e",
+          "text": "Device signal: Microsoft Entra capabilities for integrating and controlling access to cloud and on-premises applications."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: Identity signal — information about the requesting user or workload used to evaluate access; and Device signal — information about device health or compliance used to evaluate access.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "mr-0433",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zero Trust: a security model that assumes breach and verifies each access request rather than trusting based on network location."
+        },
+        {
+          "id": "b",
+          "text": "Zero Trust: information about device health or compliance used to evaluate access."
+        },
+        {
+          "id": "c",
+          "text": "Continuous evaluation: using one identity sign-in to access multiple trusted applications."
+        },
+        {
+          "id": "d",
+          "text": "Device signal: technology that synchronizes identities between on-premises Active Directory and Microsoft Entra ID."
+        },
+        {
+          "id": "e",
+          "text": "Continuous evaluation: reassessing trust based on changing signals rather than assuming a one-time login establishes permanent trust."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "e"
+      ],
+      "explanation": "The correct pair is: Continuous evaluation — reassessing trust based on changing signals rather than assuming a one-time login establishes permanent trust; and Zero Trust — a security model that assumes breach and verifies each access request rather than trusting based on network location.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "mr-0434",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Continuous evaluation: managed domain capabilities such as domain join, Group Policy, LDAP, Kerberos, and NTLM without customer-managed domain controllers."
+        },
+        {
+          "id": "b",
+          "text": "Verify explicitly: using available signals such as identity, location, device, service, workload, and data classification to make access decisions."
+        },
+        {
+          "id": "c",
+          "text": "Least-privilege access: Microsoft cloud-based identity and access management service."
+        },
+        {
+          "id": "d",
+          "text": "Least-privilege access: limiting permissions to the smallest level needed and reducing unnecessary standing access."
+        },
+        {
+          "id": "e",
+          "text": "Verify explicitly: information about the requesting user or workload used to evaluate access."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: Verify explicitly — using available signals such as identity, location, device, service, workload, and data classification to make access decisions; and Least-privilege access — limiting permissions to the smallest level needed and reducing unnecessary standing access.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "tf-0430",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "question": "Zero Trust is a security model that assumes breach and verifies each access request rather than trusting based on network location.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Zero Trust is a security model that assumes breach and verifies each access request rather than trusting based on network location.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "tf-0431",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "question": "According to this unit: Verify explicitly is information about the requesting user or workload used to evaluate access.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Verify explicitly is using available signals such as identity, location, device, service, workload, and data classification to make access decisions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "tf-0432",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "question": "For Azure fundamentals, Least-privilege access is limiting permissions to the smallest level needed and reducing unnecessary standing access.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Least-privilege access is limiting permissions to the smallest level needed and reducing unnecessary standing access.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "tf-0433",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "question": "This statement is correct: Assume breach is reassessing trust based on changing signals rather than assuming a one-time login establishes permanent trust.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Assume breach is designing detection, segmentation, and response as though attackers may already be present.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "tf-0434",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "question": "The unit supports the following statement: Identity signal is information about the requesting user or workload used to evaluate access.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Identity signal is information about the requesting user or workload used to evaluate access.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "sc-0860",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "scenario": "The organization is reviewing the topic “Describe Zero Trust model” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a security model that assumes breach and verifies each access request rather than trusting based on network location. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zero Trust"
+        },
+        {
+          "id": "b",
+          "text": "Azure RBAC"
+        },
+        {
+          "id": "c",
+          "text": "External identity"
+        },
+        {
+          "id": "d",
+          "text": "Conditional Access"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Zero Trust is the best match because it is a security model that assumes breach and verifies each access request rather than trusting based on network location.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "sc-0861",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "scenario": "The organization is reviewing the topic “Describe Zero Trust model” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs using available signals such as identity, location, device, service, workload, and data classification to make access decisions. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Defense in depth"
+        },
+        {
+          "id": "b",
+          "text": "Zero Trust"
+        },
+        {
+          "id": "c",
+          "text": "Workload protection"
+        },
+        {
+          "id": "d",
+          "text": "Verify explicitly"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Verify explicitly is the best match because it is using available signals such as identity, location, device, service, workload, and data classification to make access decisions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "sc-0862",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "scenario": "The organization is reviewing the topic “Describe Zero Trust model” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: limiting permissions to the smallest level needed and reducing unnecessary standing access. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Device management"
+        },
+        {
+          "id": "b",
+          "text": "FIDO2 security key"
+        },
+        {
+          "id": "c",
+          "text": "Least-privilege access"
+        },
+        {
+          "id": "d",
+          "text": "Identity and access layer"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Least-privilege access is the best match because it is limiting permissions to the smallest level needed and reducing unnecessary standing access.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "sc-0863",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "scenario": "The organization is reviewing the topic “Describe Zero Trust model” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: designing detection, segmentation, and response as though attackers may already be present. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microsoft-managed key"
+        },
+        {
+          "id": "b",
+          "text": "Physical security layer"
+        },
+        {
+          "id": "c",
+          "text": "Security recommendations"
+        },
+        {
+          "id": "d",
+          "text": "Assume breach"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Assume breach is the best match because it is designing detection, segmentation, and response as though attackers may already be present.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "sc-0864",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "scenario": "The organization is reviewing the topic “Describe Zero Trust model” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants information about the requesting user or workload used to evaluate access. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Disk Encryption"
+        },
+        {
+          "id": "b",
+          "text": "Identity signal"
+        },
+        {
+          "id": "c",
+          "text": "Location signal"
+        },
+        {
+          "id": "d",
+          "text": "Azure RBAC"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Identity signal is the best match because it is information about the requesting user or workload used to evaluate access.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "sc-0865",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "scenario": "The organization is reviewing the topic “Describe Zero Trust model” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for information about device health or compliance used to evaluate access. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Possession factor"
+        },
+        {
+          "id": "b",
+          "text": "Customer identity access"
+        },
+        {
+          "id": "c",
+          "text": "Device signal"
+        },
+        {
+          "id": "d",
+          "text": "Security principal"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Device signal is the best match because it is information about device health or compliance used to evaluate access.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "sc-0866",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "scenario": "The organization is reviewing the topic “Describe Zero Trust model” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for reassessing trust based on changing signals rather than assuming a one-time login establishes permanent trust. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Conditional Access"
+        },
+        {
+          "id": "b",
+          "text": "Scope"
+        },
+        {
+          "id": "c",
+          "text": "Continuous evaluation"
+        },
+        {
+          "id": "d",
+          "text": "Security posture management"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Continuous evaluation is the best match because it is reassessing trust based on changing signals rather than assuming a one-time login establishes permanent trust.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "sc-0867",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "scenario": "The organization is reviewing the topic “Describe Zero Trust model” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is a security model that assumes breach and verifies each access request rather than trusting based on network location. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Physical security layer"
+        },
+        {
+          "id": "b",
+          "text": "Microsoft Entra Domain Services"
+        },
+        {
+          "id": "c",
+          "text": "Zero Trust"
+        },
+        {
+          "id": "d",
+          "text": "Windows Hello for Business"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Zero Trust is the best match because it is a security model that assumes breach and verifies each access request rather than trusting based on network location.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "sc-0868",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "scenario": "The organization is reviewing the topic “Describe Zero Trust model” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as using available signals such as identity, location, device, service, workload, and data classification to make access decisions. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Continuous evaluation"
+        },
+        {
+          "id": "b",
+          "text": "Microsoft Defender for Cloud"
+        },
+        {
+          "id": "c",
+          "text": "Application management"
+        },
+        {
+          "id": "d",
+          "text": "Verify explicitly"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Verify explicitly is the best match because it is using available signals such as identity, location, device, service, workload, and data classification to make access decisions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "sc-0869",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "scenario": "The organization is reviewing the topic “Describe Zero Trust model” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides limiting permissions to the smallest level needed and reducing unnecessary standing access. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Compute layer"
+        },
+        {
+          "id": "b",
+          "text": "Least-privilege access"
+        },
+        {
+          "id": "c",
+          "text": "Role assignment"
+        },
+        {
+          "id": "d",
+          "text": "Single sign-on (SSO)"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Least-privilege access is the best match because it is limiting permissions to the smallest level needed and reducing unnecessary standing access.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "match-0430",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Zero Trust"
+        },
+        {
+          "id": "l2",
+          "text": "Verify explicitly"
+        },
+        {
+          "id": "l3",
+          "text": "Least-privilege access"
+        },
+        {
+          "id": "l4",
+          "text": "Assume breach"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A security model that assumes breach and verifies each access request rather than trusting based on network location"
+        },
+        {
+          "id": "r2",
+          "text": "Using available signals such as identity, location, device, service, workload, and data classification to make access decisions"
+        },
+        {
+          "id": "r3",
+          "text": "Limiting permissions to the smallest level needed and reducing unnecessary standing access"
+        },
+        {
+          "id": "r4",
+          "text": "Designing detection, segmentation, and response as though attackers may already be present"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "match-0431",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Least-privilege access"
+        },
+        {
+          "id": "l2",
+          "text": "Assume breach"
+        },
+        {
+          "id": "l3",
+          "text": "Identity signal"
+        },
+        {
+          "id": "l4",
+          "text": "Device signal"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Limiting permissions to the smallest level needed and reducing unnecessary standing access"
+        },
+        {
+          "id": "r2",
+          "text": "Designing detection, segmentation, and response as though attackers may already be present"
+        },
+        {
+          "id": "r3",
+          "text": "Information about the requesting user or workload used to evaluate access"
+        },
+        {
+          "id": "r4",
+          "text": "Information about device health or compliance used to evaluate access"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "match-0432",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Identity signal"
+        },
+        {
+          "id": "l2",
+          "text": "Device signal"
+        },
+        {
+          "id": "l3",
+          "text": "Continuous evaluation"
+        },
+        {
+          "id": "l4",
+          "text": "Zero Trust"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Reassessing trust based on changing signals rather than assuming a one-time login establishes permanent trust"
+        },
+        {
+          "id": "r4",
+          "text": "A security model that assumes breach and verifies each access request rather than trusting based on network location"
+        },
+        {
+          "id": "r2",
+          "text": "Information about device health or compliance used to evaluate access"
+        },
+        {
+          "id": "r1",
+          "text": "Information about the requesting user or workload used to evaluate access"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "match-0433",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Continuous evaluation"
+        },
+        {
+          "id": "l2",
+          "text": "Zero Trust"
+        },
+        {
+          "id": "l3",
+          "text": "Verify explicitly"
+        },
+        {
+          "id": "l4",
+          "text": "Least-privilege access"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Limiting permissions to the smallest level needed and reducing unnecessary standing access"
+        },
+        {
+          "id": "r2",
+          "text": "A security model that assumes breach and verifies each access request rather than trusting based on network location"
+        },
+        {
+          "id": "r3",
+          "text": "Using available signals such as identity, location, device, service, workload, and data classification to make access decisions"
+        },
+        {
+          "id": "r1",
+          "text": "Reassessing trust based on changing signals rather than assuming a one-time login establishes permanent trust"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l2": "r2",
+        "l3": "r3",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "match-0434",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Verify explicitly"
+        },
+        {
+          "id": "l2",
+          "text": "Least-privilege access"
+        },
+        {
+          "id": "l3",
+          "text": "Assume breach"
+        },
+        {
+          "id": "l4",
+          "text": "Identity signal"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Using available signals such as identity, location, device, service, workload, and data classification to make access decisions"
+        },
+        {
+          "id": "r2",
+          "text": "Limiting permissions to the smallest level needed and reducing unnecessary standing access"
+        },
+        {
+          "id": "r3",
+          "text": "Designing detection, segmentation, and response as though attackers may already be present"
+        },
+        {
+          "id": "r4",
+          "text": "Information about the requesting user or workload used to evaluate access"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "fill-0430",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "question": "{{answer}} is limiting permissions to the smallest level needed and reducing unnecessary standing access.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Layered mitigation",
+            "Customer-managed key",
+            "Least-privilege access",
+            "Encryption in transit"
+          ],
+          "correctAnswer": "Least-privilege access"
+        }
+      ],
+      "explanation": "Least-privilege access is limiting permissions to the smallest level needed and reducing unnecessary standing access.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "fill-0431",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "question": "The term for designing detection, segmentation, and response as though attackers may already be present is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Knowledge factor",
+            "Encryption at rest",
+            "Assume breach",
+            "Azure Key Vault"
+          ],
+          "correctAnswer": "Assume breach"
+        }
+      ],
+      "explanation": "Assume breach is designing detection, segmentation, and response as though attackers may already be present.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "fill-0432",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "question": "In this unit, {{answer}} refers to information about the requesting user or workload used to evaluate access.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Device management",
+            "Identity signal",
+            "Multifactor authentication (MFA)",
+            "Location signal"
+          ],
+          "correctAnswer": "Identity signal"
+        }
+      ],
+      "explanation": "Identity signal is information about the requesting user or workload used to evaluate access.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "fill-0433",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "question": "For AZ-900, the concept described as information about device health or compliance used to evaluate access is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Device signal",
+            "Security recommendations",
+            "Least privilege",
+            "Multicloud security"
+          ],
+          "correctAnswer": "Device signal"
+        }
+      ],
+      "explanation": "Device signal is information about device health or compliance used to evaluate access.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    },
+    {
+      "id": "fill-0434",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Zero Trust model",
+      "question": "Choose the term that completes the statement: {{answer}} means reassessing trust based on changing signals rather than assuming a one-time login establishes permanent trust.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Block access",
+            "Continuous evaluation",
+            "Physical security layer",
+            "External ID"
+          ],
+          "correctAnswer": "Continuous evaluation"
+        }
+      ],
+      "explanation": "Continuous evaluation is reassessing trust based on changing signals rather than assuming a one-time login establishes permanent trust.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model"
+    }
+  ]
+}

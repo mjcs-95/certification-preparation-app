@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe Azure compute services · Describe application hosting options",
+  "questions": [
+    {
+      "id": "mc-0310",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "question": "Which statement best describes Azure App Service?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A PaaS option for running individual containers quickly without managing virtual machines"
+        },
+        {
+          "id": "b",
+          "text": "An Azure offering for generative AI scenarios such as chat and content generation"
+        },
+        {
+          "id": "c",
+          "text": "A managed HTTP-based platform for hosting web apps, REST APIs, mobile back ends, and related workloads without managing infrastructure"
+        },
+        {
+          "id": "d",
+          "text": "Running resources only as needed and charging primarily for the execution resources consumed"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure App Service is a managed HTTP-based platform for hosting web apps, REST APIs, mobile back ends, and related workloads without managing infrastructure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "mc-0311",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "question": "In the context of this Microsoft Learn unit, what does Web app refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A general-purpose VM family suited to common application and web-server workloads"
+        },
+        {
+          "id": "b",
+          "text": "An approach that packages and isolates application components for independent deployment and scaling"
+        },
+        {
+          "id": "c",
+          "text": "An App Service workload for hosting browser-accessible applications"
+        },
+        {
+          "id": "d",
+          "text": "A GPU-enabled VM family suited to graphics and AI workloads"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Web app is an App Service workload for hosting browser-accessible applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "mc-0312",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "question": "Which description correctly matches API app?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An App Service workload for hosting REST-based web APIs"
+        },
+        {
+          "id": "b",
+          "text": "An event such as an HTTP request, timer, or message that causes a function to run"
+        },
+        {
+          "id": "c",
+          "text": "Azure Functions increasing or decreasing execution capacity based on demand"
+        },
+        {
+          "id": "d",
+          "text": "Prebuilt APIs and services for capabilities such as language, speech, vision, and document processing"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "API app is an App Service workload for hosting REST-based web APIs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "mc-0313",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "question": "Which of the following is the best definition of WebJob?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A managed Kubernetes service used to orchestrate and manage fleets of containers"
+        },
+        {
+          "id": "b",
+          "text": "Scaling one containerized component separately from others when only that component has increased demand"
+        },
+        {
+          "id": "c",
+          "text": "A VM resiliency feature that separates instances across fault domains and update domains within a region"
+        },
+        {
+          "id": "d",
+          "text": "An App Service feature for running background programs or scripts on a schedule or trigger"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "WebJob is an App Service feature for running background programs or scripts on a schedule or trigger.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "mc-0314",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "question": "What is the primary meaning of Mobile app back end in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An App Service use case for providing data, authentication, push notifications, and server-side logic to mobile applications"
+        },
+        {
+          "id": "b",
+          "text": "A managed Kubernetes service used to orchestrate and manage fleets of containers"
+        },
+        {
+          "id": "c",
+          "text": "An Azure offering for generative AI scenarios such as chat and content generation"
+        },
+        {
+          "id": "d",
+          "text": "Running resources only as needed and charging primarily for the execution resources consumed"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Mobile app back end is an App Service use case for providing data, authentication, push notifications, and server-side logic to mobile applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "mr-0310",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure App Service: an App Service feature for running background programs or scripts on a schedule or trigger."
+        },
+        {
+          "id": "b",
+          "text": "Web app: an approach that packages and isolates application components for independent deployment and scaling."
+        },
+        {
+          "id": "c",
+          "text": "Web app: an App Service workload for hosting browser-accessible applications."
+        },
+        {
+          "id": "d",
+          "text": "API app: a template that can include an operating system and preinstalled components for rapid VM deployment."
+        },
+        {
+          "id": "e",
+          "text": "Azure App Service: a managed HTTP-based platform for hosting web apps, REST APIs, mobile back ends, and related workloads without managing infrastructure."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "e"
+      ],
+      "explanation": "The correct pair is: Azure App Service — a managed HTTP-based platform for hosting web apps, REST APIs, mobile back ends, and related workloads without managing infrastructure; and Web app — an App Service workload for hosting browser-accessible applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "mr-0311",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "API app: an application-hosting approach that provides maximum control over the operating system and environment."
+        },
+        {
+          "id": "b",
+          "text": "WebJob: an IaaS compute resource that provides control over the guest operating system and installed software."
+        },
+        {
+          "id": "c",
+          "text": "WebJob: an App Service feature for running background programs or scripts on a schedule or trigger."
+        },
+        {
+          "id": "d",
+          "text": "API app: an App Service workload for hosting REST-based web APIs."
+        },
+        {
+          "id": "e",
+          "text": "WebJob: a burstable, cost-efficient VM family suited to workloads with occasional CPU spikes."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: API app — an App Service workload for hosting REST-based web APIs; and WebJob — an App Service feature for running background programs or scripts on a schedule or trigger.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "mr-0312",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mobile app back end: an App Service use case for providing data, authentication, push notifications, and server-side logic to mobile applications."
+        },
+        {
+          "id": "b",
+          "text": "Mobile app back end: automated application deployment from sources such as GitHub, Azure DevOps, or other Git repositories."
+        },
+        {
+          "id": "c",
+          "text": "Mobile app back end: a general-purpose VM family suited to common application and web-server workloads."
+        },
+        {
+          "id": "d",
+          "text": "Virtual machine hosting: a burstable, cost-efficient VM family suited to workloads with occasional CPU spikes."
+        },
+        {
+          "id": "e",
+          "text": "Virtual machine hosting: an application-hosting approach that provides maximum control over the operating system and environment."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "e"
+      ],
+      "explanation": "The correct pair is: Mobile app back end — an App Service use case for providing data, authentication, push notifications, and server-side logic to mobile applications; and Virtual machine hosting — an application-hosting approach that provides maximum control over the operating system and environment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "mr-0313",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Continuous deployment: automated application deployment from sources such as GitHub, Azure DevOps, or other Git repositories."
+        },
+        {
+          "id": "b",
+          "text": "Container hosting: an approach that packages and isolates application components for independent deployment and scaling."
+        },
+        {
+          "id": "c",
+          "text": "Virtual machine hosting: a memory-optimized VM family suited to memory-intensive workloads."
+        },
+        {
+          "id": "d",
+          "text": "Container hosting: a template that can include an operating system and preinstalled components for rapid VM deployment."
+        },
+        {
+          "id": "e",
+          "text": "Continuous deployment: a memory-optimized VM family suited to memory-intensive workloads."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Container hosting — an approach that packages and isolates application components for independent deployment and scaling; and Continuous deployment — automated application deployment from sources such as GitHub, Azure DevOps, or other Git repositories.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "mr-0314",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure App Service: an App Service feature for running background programs or scripts on a schedule or trigger."
+        },
+        {
+          "id": "b",
+          "text": "Web app: an App Service workload for hosting browser-accessible applications."
+        },
+        {
+          "id": "c",
+          "text": "Web app: an approach that packages and isolates application components for independent deployment and scaling."
+        },
+        {
+          "id": "d",
+          "text": "Azure App Service: a managed HTTP-based platform for hosting web apps, REST APIs, mobile back ends, and related workloads without managing infrastructure."
+        },
+        {
+          "id": "e",
+          "text": "Container hosting: a compute-optimized VM family suited to CPU-intensive workloads."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: Azure App Service — a managed HTTP-based platform for hosting web apps, REST APIs, mobile back ends, and related workloads without managing infrastructure; and Web app — an App Service workload for hosting browser-accessible applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "tf-0310",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "question": "Azure App Service is a managed HTTP-based platform for hosting web apps, REST APIs, mobile back ends, and related workloads without managing infrastructure.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure App Service is a managed HTTP-based platform for hosting web apps, REST APIs, mobile back ends, and related workloads without managing infrastructure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "tf-0311",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "question": "According to this unit: Web app is an App Service use case for providing data, authentication, push notifications, and server-side logic to mobile applications.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Web app is an App Service workload for hosting browser-accessible applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "tf-0312",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "question": "For Azure fundamentals, API app is an App Service workload for hosting REST-based web APIs.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "API app is an App Service workload for hosting REST-based web APIs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "tf-0313",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "question": "This statement is correct: WebJob is an approach that packages and isolates application components for independent deployment and scaling.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. WebJob is an App Service feature for running background programs or scripts on a schedule or trigger.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "tf-0314",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "question": "The unit supports the following statement: Mobile app back end is an App Service use case for providing data, authentication, push notifications, and server-side logic to mobile applications.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Mobile app back end is an App Service use case for providing data, authentication, push notifications, and server-side logic to mobile applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "sc-0620",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "scenario": "The organization is reviewing the topic “Describe application hosting options” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a managed HTTP-based platform for hosting web apps, REST APIs, mobile back ends, and related workloads without managing infrastructure. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure App Service"
+        },
+        {
+          "id": "b",
+          "text": "Azure Virtual Machine"
+        },
+        {
+          "id": "c",
+          "text": "Container orchestration"
+        },
+        {
+          "id": "d",
+          "text": "Automatic scaling"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure App Service is the best match because it is a managed HTTP-based platform for hosting web apps, REST APIs, mobile back ends, and related workloads without managing infrastructure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "sc-0621",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "scenario": "The organization is reviewing the topic “Describe application hosting options” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs an App Service workload for hosting browser-accessible applications. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Web app"
+        },
+        {
+          "id": "b",
+          "text": "Container hosting"
+        },
+        {
+          "id": "c",
+          "text": "Virtual machine hosting"
+        },
+        {
+          "id": "d",
+          "text": "Azure AI services"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Web app is the best match because it is an App Service workload for hosting browser-accessible applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "sc-0622",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "scenario": "The organization is reviewing the topic “Describe application hosting options” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: an App Service workload for hosting REST-based web APIs. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Container"
+        },
+        {
+          "id": "b",
+          "text": "API app"
+        },
+        {
+          "id": "c",
+          "text": "Azure Functions"
+        },
+        {
+          "id": "d",
+          "text": "Continuous deployment"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "API app is the best match because it is an App Service workload for hosting REST-based web APIs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "sc-0623",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "scenario": "The organization is reviewing the topic “Describe application hosting options” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: an App Service feature for running background programs or scripts on a schedule or trigger. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure IoT Central"
+        },
+        {
+          "id": "b",
+          "text": "Event trigger"
+        },
+        {
+          "id": "c",
+          "text": "WebJob"
+        },
+        {
+          "id": "d",
+          "text": "Virtual machine hosting"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "WebJob is the best match because it is an App Service feature for running background programs or scripts on a schedule or trigger.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "sc-0624",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "scenario": "The organization is reviewing the topic “Describe application hosting options” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants an App Service use case for providing data, authentication, push notifications, and server-side logic to mobile applications. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Container"
+        },
+        {
+          "id": "b",
+          "text": "Mobile app back end"
+        },
+        {
+          "id": "c",
+          "text": "Azure OpenAI Service"
+        },
+        {
+          "id": "d",
+          "text": "Continuous deployment"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Mobile app back end is the best match because it is an App Service use case for providing data, authentication, push notifications, and server-side logic to mobile applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "sc-0625",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "scenario": "The organization is reviewing the topic “Describe application hosting options” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for an application-hosting approach that provides maximum control over the operating system and environment. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Kubernetes Service (AKS)"
+        },
+        {
+          "id": "b",
+          "text": "Microservices architecture"
+        },
+        {
+          "id": "c",
+          "text": "Virtual machine hosting"
+        },
+        {
+          "id": "d",
+          "text": "F-series VM"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Virtual machine hosting is the best match because it is an application-hosting approach that provides maximum control over the operating system and environment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "sc-0626",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "scenario": "The organization is reviewing the topic “Describe application hosting options” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for an approach that packages and isolates application components for independent deployment and scaling. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Container"
+        },
+        {
+          "id": "b",
+          "text": "Container hosting"
+        },
+        {
+          "id": "c",
+          "text": "Microsoft Entra ID integration"
+        },
+        {
+          "id": "d",
+          "text": "Azure Virtual Machine"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Container hosting is the best match because it is an approach that packages and isolates application components for independent deployment and scaling.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "sc-0627",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "scenario": "The organization is reviewing the topic “Describe application hosting options” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is automated application deployment from sources such as GitHub, Azure DevOps, or other Git repositories. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Container"
+        },
+        {
+          "id": "b",
+          "text": "Web app"
+        },
+        {
+          "id": "c",
+          "text": "Automatic scaling"
+        },
+        {
+          "id": "d",
+          "text": "Continuous deployment"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Continuous deployment is the best match because it is automated application deployment from sources such as GitHub, Azure DevOps, or other Git repositories.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "sc-0628",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "scenario": "The organization is reviewing the topic “Describe application hosting options” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as a managed HTTP-based platform for hosting web apps, REST APIs, mobile back ends, and related workloads without managing infrastructure. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "API app"
+        },
+        {
+          "id": "b",
+          "text": "Azure Kubernetes Service (AKS)"
+        },
+        {
+          "id": "c",
+          "text": "Azure Container Instances"
+        },
+        {
+          "id": "d",
+          "text": "Azure App Service"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Azure App Service is the best match because it is a managed HTTP-based platform for hosting web apps, REST APIs, mobile back ends, and related workloads without managing infrastructure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "sc-0629",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "scenario": "The organization is reviewing the topic “Describe application hosting options” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides an App Service workload for hosting browser-accessible applications. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure OpenAI Service"
+        },
+        {
+          "id": "b",
+          "text": "Container hosting"
+        },
+        {
+          "id": "c",
+          "text": "Web app"
+        },
+        {
+          "id": "d",
+          "text": "Independent scaling"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Web app is the best match because it is an App Service workload for hosting browser-accessible applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "match-0310",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure App Service"
+        },
+        {
+          "id": "l2",
+          "text": "Web app"
+        },
+        {
+          "id": "l3",
+          "text": "API app"
+        },
+        {
+          "id": "l4",
+          "text": "WebJob"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "An App Service workload for hosting REST-based web APIs"
+        },
+        {
+          "id": "r2",
+          "text": "An App Service workload for hosting browser-accessible applications"
+        },
+        {
+          "id": "r1",
+          "text": "A managed HTTP-based platform for hosting web apps, REST APIs, mobile back ends, and related workloads without managing infrastructure"
+        },
+        {
+          "id": "r4",
+          "text": "An App Service feature for running background programs or scripts on a schedule or trigger"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l2": "r2",
+        "l1": "r1",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "match-0311",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "API app"
+        },
+        {
+          "id": "l2",
+          "text": "WebJob"
+        },
+        {
+          "id": "l3",
+          "text": "Mobile app back end"
+        },
+        {
+          "id": "l4",
+          "text": "Virtual machine hosting"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "An App Service feature for running background programs or scripts on a schedule or trigger"
+        },
+        {
+          "id": "r1",
+          "text": "An App Service workload for hosting REST-based web APIs"
+        },
+        {
+          "id": "r3",
+          "text": "An App Service use case for providing data, authentication, push notifications, and server-side logic to mobile applications"
+        },
+        {
+          "id": "r4",
+          "text": "An application-hosting approach that provides maximum control over the operating system and environment"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l1": "r1",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "match-0312",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Mobile app back end"
+        },
+        {
+          "id": "l2",
+          "text": "Virtual machine hosting"
+        },
+        {
+          "id": "l3",
+          "text": "Container hosting"
+        },
+        {
+          "id": "l4",
+          "text": "Continuous deployment"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Automated application deployment from sources such as GitHub, Azure DevOps, or other Git repositories"
+        },
+        {
+          "id": "r2",
+          "text": "An application-hosting approach that provides maximum control over the operating system and environment"
+        },
+        {
+          "id": "r3",
+          "text": "An approach that packages and isolates application components for independent deployment and scaling"
+        },
+        {
+          "id": "r1",
+          "text": "An App Service use case for providing data, authentication, push notifications, and server-side logic to mobile applications"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l2": "r2",
+        "l3": "r3",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "match-0313",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Container hosting"
+        },
+        {
+          "id": "l2",
+          "text": "Continuous deployment"
+        },
+        {
+          "id": "l3",
+          "text": "Azure App Service"
+        },
+        {
+          "id": "l4",
+          "text": "Web app"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "An App Service workload for hosting browser-accessible applications"
+        },
+        {
+          "id": "r1",
+          "text": "An approach that packages and isolates application components for independent deployment and scaling"
+        },
+        {
+          "id": "r2",
+          "text": "Automated application deployment from sources such as GitHub, Azure DevOps, or other Git repositories"
+        },
+        {
+          "id": "r3",
+          "text": "A managed HTTP-based platform for hosting web apps, REST APIs, mobile back ends, and related workloads without managing infrastructure"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "match-0314",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure App Service"
+        },
+        {
+          "id": "l2",
+          "text": "Web app"
+        },
+        {
+          "id": "l3",
+          "text": "API app"
+        },
+        {
+          "id": "l4",
+          "text": "WebJob"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "An App Service workload for hosting browser-accessible applications"
+        },
+        {
+          "id": "r3",
+          "text": "An App Service workload for hosting REST-based web APIs"
+        },
+        {
+          "id": "r1",
+          "text": "A managed HTTP-based platform for hosting web apps, REST APIs, mobile back ends, and related workloads without managing infrastructure"
+        },
+        {
+          "id": "r4",
+          "text": "An App Service feature for running background programs or scripts on a schedule or trigger"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l3": "r3",
+        "l1": "r1",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "fill-0310",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "question": "{{answer}} is an App Service workload for hosting REST-based web APIs.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Container hosting",
+            "Azure Virtual Desktop",
+            "API app",
+            "D-series VM"
+          ],
+          "correctAnswer": "API app"
+        }
+      ],
+      "explanation": "API app is an App Service workload for hosting REST-based web APIs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "fill-0311",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "question": "The term for an App Service feature for running background programs or scripts on a schedule or trigger is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Automatic scaling",
+            "WebJob",
+            "Azure Functions",
+            "Microsoft Entra ID integration"
+          ],
+          "correctAnswer": "WebJob"
+        }
+      ],
+      "explanation": "WebJob is an App Service feature for running background programs or scripts on a schedule or trigger.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "fill-0312",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "question": "In this unit, {{answer}} refers to an App Service use case for providing data, authentication, push notifications, and server-side logic to mobile applications.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Mobile app back end",
+            "Azure IoT Central",
+            "Container",
+            "Azure Functions"
+          ],
+          "correctAnswer": "Mobile app back end"
+        }
+      ],
+      "explanation": "Mobile app back end is an App Service use case for providing data, authentication, push notifications, and server-side logic to mobile applications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "fill-0313",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "question": "For AZ-900, the concept described as an application-hosting approach that provides maximum control over the operating system and environment is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Reduced local data exposure",
+            "Mobile app back end",
+            "D-series VM",
+            "Virtual machine hosting"
+          ],
+          "correctAnswer": "Virtual machine hosting"
+        }
+      ],
+      "explanation": "Virtual machine hosting is an application-hosting approach that provides maximum control over the operating system and environment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    },
+    {
+      "id": "fill-0314",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe application hosting options",
+      "question": "Choose the term that completes the statement: {{answer}} means an approach that packages and isolates application components for independent deployment and scaling.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Virtual machine hosting",
+            "Stateless function",
+            "Azure IoT Central",
+            "Container hosting"
+          ],
+          "correctAnswer": "Container hosting"
+        }
+      ],
+      "explanation": "Container hosting is an approach that packages and isolates application components for independent deployment and scaling.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options"
+    }
+  ]
+}

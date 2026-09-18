@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe monitoring tools in Azure · Describe the purpose of Azure Advisor",
+  "questions": [
+    {
+      "id": "mc-0220",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "question": "Which statement best describes Azure Advisor?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Service information about issues or changes that may require customer attention"
+        },
+        {
+          "id": "b",
+          "text": "Advisor guidance intended to reduce configuration risks that threaten application availability"
+        },
+        {
+          "id": "c",
+          "text": "A service that analyzes Azure resources and provides personalized best-practice recommendations"
+        },
+        {
+          "id": "d",
+          "text": "A personalized view of outages, planned maintenance, and advisories for the Azure services and regions you use"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure Advisor is a service that analyzes Azure resources and provides personalized best-practice recommendations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "mc-0221",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "question": "In the context of this Microsoft Learn unit, what does Reliability recommendation refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Service information about issues or changes that may require customer attention"
+        },
+        {
+          "id": "b",
+          "text": "Advisor guidance intended to reduce configuration risks that threaten application availability"
+        },
+        {
+          "id": "c",
+          "text": "The Azure portal tool used to query Azure Monitor log data"
+        },
+        {
+          "id": "d",
+          "text": "A platform for collecting, analyzing, and acting on telemetry from Azure, on-premises, and multicloud resources and applications"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Reliability recommendation is Advisor guidance intended to reduce configuration risks that threaten application availability.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "mc-0222",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "question": "Which description correctly matches Security recommendation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Advisor guidance intended to improve application or resource performance"
+        },
+        {
+          "id": "b",
+          "text": "A view of the health of an individual Azure resource and whether an issue is attributable to Azure or the customer environment"
+        },
+        {
+          "id": "c",
+          "text": "Advisor guidance intended to reduce vulnerabilities and security risks"
+        },
+        {
+          "id": "d",
+          "text": "Advisor guidance intended to improve processes, workflows, and deployment practices"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Security recommendation is Advisor guidance intended to reduce vulnerabilities and security risks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "mc-0223",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "question": "Which of the following is the best definition of Performance recommendation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An Azure Monitor feature for observing web-application performance and usage"
+        },
+        {
+          "id": "b",
+          "text": "An optional notification when new recommendations become available"
+        },
+        {
+          "id": "c",
+          "text": "Advisor guidance intended to improve application or resource performance"
+        },
+        {
+          "id": "d",
+          "text": "A platform for collecting, analyzing, and acting on telemetry from Azure, on-premises, and multicloud resources and applications"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Performance recommendation is Advisor guidance intended to improve application or resource performance.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "mc-0224",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "question": "What is the primary meaning of Operational Excellence recommendation in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Advisor guidance intended to reduce unnecessary Azure spending"
+        },
+        {
+          "id": "b",
+          "text": "Advisor guidance intended to improve processes, workflows, and deployment practices"
+        },
+        {
+          "id": "c",
+          "text": "Numerical time-series measurements collected for monitoring resource behavior"
+        },
+        {
+          "id": "d",
+          "text": "Event and diagnostic data that can be queried and analyzed"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Operational Excellence recommendation is Advisor guidance intended to improve processes, workflows, and deployment practices.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "mr-0220",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reliability recommendation: viewing recommendations by subscription, resource group, or service."
+        },
+        {
+          "id": "b",
+          "text": "Azure Advisor: a service that analyzes Azure resources and provides personalized best-practice recommendations."
+        },
+        {
+          "id": "c",
+          "text": "Azure Advisor: Advisor guidance intended to improve application or resource performance."
+        },
+        {
+          "id": "d",
+          "text": "Security recommendation: a personalized view of outages, planned maintenance, and advisories for the Azure services and regions you use."
+        },
+        {
+          "id": "e",
+          "text": "Reliability recommendation: Advisor guidance intended to reduce configuration risks that threaten application availability."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: Azure Advisor — a service that analyzes Azure resources and provides personalized best-practice recommendations; and Reliability recommendation — Advisor guidance intended to reduce configuration risks that threaten application availability.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "mr-0221",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Performance recommendation: a view of the health of an individual Azure resource and whether an issue is attributable to Azure or the customer environment."
+        },
+        {
+          "id": "b",
+          "text": "Security recommendation: Advisor guidance intended to reduce vulnerabilities and security risks."
+        },
+        {
+          "id": "c",
+          "text": "Security recommendation: Advisor guidance intended to reduce unnecessary Azure spending."
+        },
+        {
+          "id": "d",
+          "text": "Performance recommendation: a broad public view of Azure health across services and regions."
+        },
+        {
+          "id": "e",
+          "text": "Performance recommendation: Advisor guidance intended to improve application or resource performance."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: Security recommendation — Advisor guidance intended to reduce vulnerabilities and security risks; and Performance recommendation — Advisor guidance intended to improve application or resource performance.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "mr-0222",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Operational Excellence recommendation: a notification configured for service incidents, maintenance, or advisories relevant to your environment."
+        },
+        {
+          "id": "b",
+          "text": "Operational Excellence recommendation: an optional notification when new recommendations become available."
+        },
+        {
+          "id": "c",
+          "text": "Cost recommendation: Advisor guidance intended to reduce unnecessary Azure spending."
+        },
+        {
+          "id": "d",
+          "text": "Cost recommendation: a view of the health of an individual Azure resource and whether an issue is attributable to Azure or the customer environment."
+        },
+        {
+          "id": "e",
+          "text": "Operational Excellence recommendation: Advisor guidance intended to improve processes, workflows, and deployment practices."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "e"
+      ],
+      "explanation": "The correct pair is: Operational Excellence recommendation — Advisor guidance intended to improve processes, workflows, and deployment practices; and Cost recommendation — Advisor guidance intended to reduce unnecessary Azure spending.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "mr-0223",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Advisor filtering: viewing recommendations by subscription, resource group, or service."
+        },
+        {
+          "id": "b",
+          "text": "Advisor filtering: a personalized view of outages, planned maintenance, and advisories for the Azure services and regions you use."
+        },
+        {
+          "id": "c",
+          "text": "Cost recommendation: information about scheduled Azure work that may affect services you use."
+        },
+        {
+          "id": "d",
+          "text": "Advisor notification: information about scheduled Azure work that may affect services you use."
+        },
+        {
+          "id": "e",
+          "text": "Advisor notification: an optional notification when new recommendations become available."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "e"
+      ],
+      "explanation": "The correct pair is: Advisor filtering — viewing recommendations by subscription, resource group, or service; and Advisor notification — an optional notification when new recommendations become available.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "mr-0224",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Advisor: a service that analyzes Azure resources and provides personalized best-practice recommendations."
+        },
+        {
+          "id": "b",
+          "text": "Azure Advisor: Advisor guidance intended to improve application or resource performance."
+        },
+        {
+          "id": "c",
+          "text": "Reliability recommendation: viewing recommendations by subscription, resource group, or service."
+        },
+        {
+          "id": "d",
+          "text": "Reliability recommendation: Advisor guidance intended to reduce configuration risks that threaten application availability."
+        },
+        {
+          "id": "e",
+          "text": "Advisor filtering: service information about issues or changes that may require customer attention."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Azure Advisor — a service that analyzes Azure resources and provides personalized best-practice recommendations; and Reliability recommendation — Advisor guidance intended to reduce configuration risks that threaten application availability.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "tf-0220",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "question": "Azure Advisor is a service that analyzes Azure resources and provides personalized best-practice recommendations.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure Advisor is a service that analyzes Azure resources and provides personalized best-practice recommendations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "tf-0221",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "question": "According to this unit: Reliability recommendation is Advisor guidance intended to improve processes, workflows, and deployment practices.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Reliability recommendation is Advisor guidance intended to reduce configuration risks that threaten application availability.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "tf-0222",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "question": "For Azure fundamentals, Security recommendation is Advisor guidance intended to reduce vulnerabilities and security risks.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Security recommendation is Advisor guidance intended to reduce vulnerabilities and security risks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "tf-0223",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "question": "This statement is correct: Performance recommendation is viewing recommendations by subscription, resource group, or service.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Performance recommendation is Advisor guidance intended to improve application or resource performance.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "tf-0224",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "question": "The unit supports the following statement: Operational Excellence recommendation is Advisor guidance intended to improve processes, workflows, and deployment practices.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Operational Excellence recommendation is Advisor guidance intended to improve processes, workflows, and deployment practices.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "sc-0440",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Advisor” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a service that analyzes Azure resources and provides personalized best-practice recommendations. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reliability recommendation"
+        },
+        {
+          "id": "b",
+          "text": "Azure Monitor alert rule"
+        },
+        {
+          "id": "c",
+          "text": "Azure Advisor"
+        },
+        {
+          "id": "d",
+          "text": "Operational Excellence recommendation"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure Advisor is the best match because it is a service that analyzes Azure resources and provides personalized best-practice recommendations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "sc-0441",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Advisor” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs advisor guidance intended to reduce configuration risks that threaten application availability. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Service Health"
+        },
+        {
+          "id": "b",
+          "text": "Advisor filtering"
+        },
+        {
+          "id": "c",
+          "text": "Logs"
+        },
+        {
+          "id": "d",
+          "text": "Reliability recommendation"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Reliability recommendation is the best match because it is Advisor guidance intended to reduce configuration risks that threaten application availability.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "sc-0442",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Advisor” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: advisor guidance intended to reduce vulnerabilities and security risks. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Monitor alert rule"
+        },
+        {
+          "id": "b",
+          "text": "Security recommendation"
+        },
+        {
+          "id": "c",
+          "text": "Operational Excellence recommendation"
+        },
+        {
+          "id": "d",
+          "text": "Metrics"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Security recommendation is the best match because it is Advisor guidance intended to reduce vulnerabilities and security risks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "sc-0443",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Advisor” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: advisor guidance intended to improve application or resource performance. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Performance recommendation"
+        },
+        {
+          "id": "b",
+          "text": "Reliability recommendation"
+        },
+        {
+          "id": "c",
+          "text": "Action group"
+        },
+        {
+          "id": "d",
+          "text": "Advisor notification"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Performance recommendation is the best match because it is Advisor guidance intended to improve application or resource performance.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "sc-0444",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Advisor” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants advisor guidance intended to improve processes, workflows, and deployment practices. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Historical health events"
+        },
+        {
+          "id": "b",
+          "text": "Security recommendation"
+        },
+        {
+          "id": "c",
+          "text": "Operational Excellence recommendation"
+        },
+        {
+          "id": "d",
+          "text": "Service Health"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Operational Excellence recommendation is the best match because it is Advisor guidance intended to improve processes, workflows, and deployment practices.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "sc-0445",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Advisor” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for advisor guidance intended to reduce unnecessary Azure spending. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Advisor notification"
+        },
+        {
+          "id": "b",
+          "text": "Cost recommendation"
+        },
+        {
+          "id": "c",
+          "text": "Azure Status"
+        },
+        {
+          "id": "d",
+          "text": "Azure Advisor"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Cost recommendation is the best match because it is Advisor guidance intended to reduce unnecessary Azure spending.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "sc-0446",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Advisor” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for viewing recommendations by subscription, resource group, or service. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Advisor filtering"
+        },
+        {
+          "id": "b",
+          "text": "Security recommendation"
+        },
+        {
+          "id": "c",
+          "text": "Availability test"
+        },
+        {
+          "id": "d",
+          "text": "Action group"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Advisor filtering is the best match because it is viewing recommendations by subscription, resource group, or service.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "sc-0447",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Advisor” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is an optional notification when new recommendations become available. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Action group"
+        },
+        {
+          "id": "b",
+          "text": "Logs"
+        },
+        {
+          "id": "c",
+          "text": "Advisor notification"
+        },
+        {
+          "id": "d",
+          "text": "Azure Advisor"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Advisor notification is the best match because it is an optional notification when new recommendations become available.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "sc-0448",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Advisor” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as a service that analyzes Azure resources and provides personalized best-practice recommendations. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Advisor notification"
+        },
+        {
+          "id": "b",
+          "text": "Azure Monitor"
+        },
+        {
+          "id": "c",
+          "text": "Azure Status"
+        },
+        {
+          "id": "d",
+          "text": "Azure Advisor"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Azure Advisor is the best match because it is a service that analyzes Azure resources and provides personalized best-practice recommendations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "sc-0449",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Advisor” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides advisor guidance intended to reduce configuration risks that threaten application availability. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Monitor"
+        },
+        {
+          "id": "b",
+          "text": "Reliability recommendation"
+        },
+        {
+          "id": "c",
+          "text": "Advisor filtering"
+        },
+        {
+          "id": "d",
+          "text": "Operational Excellence recommendation"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Reliability recommendation is the best match because it is Advisor guidance intended to reduce configuration risks that threaten application availability.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "match-0220",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Advisor"
+        },
+        {
+          "id": "l2",
+          "text": "Reliability recommendation"
+        },
+        {
+          "id": "l3",
+          "text": "Security recommendation"
+        },
+        {
+          "id": "l4",
+          "text": "Performance recommendation"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Advisor guidance intended to improve application or resource performance"
+        },
+        {
+          "id": "r2",
+          "text": "Advisor guidance intended to reduce configuration risks that threaten application availability"
+        },
+        {
+          "id": "r3",
+          "text": "Advisor guidance intended to reduce vulnerabilities and security risks"
+        },
+        {
+          "id": "r1",
+          "text": "A service that analyzes Azure resources and provides personalized best-practice recommendations"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l2": "r2",
+        "l3": "r3",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "match-0221",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Security recommendation"
+        },
+        {
+          "id": "l2",
+          "text": "Performance recommendation"
+        },
+        {
+          "id": "l3",
+          "text": "Operational Excellence recommendation"
+        },
+        {
+          "id": "l4",
+          "text": "Cost recommendation"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "Advisor guidance intended to improve application or resource performance"
+        },
+        {
+          "id": "r1",
+          "text": "Advisor guidance intended to reduce vulnerabilities and security risks"
+        },
+        {
+          "id": "r4",
+          "text": "Advisor guidance intended to reduce unnecessary Azure spending"
+        },
+        {
+          "id": "r3",
+          "text": "Advisor guidance intended to improve processes, workflows, and deployment practices"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l1": "r1",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "match-0222",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Operational Excellence recommendation"
+        },
+        {
+          "id": "l2",
+          "text": "Cost recommendation"
+        },
+        {
+          "id": "l3",
+          "text": "Advisor filtering"
+        },
+        {
+          "id": "l4",
+          "text": "Advisor notification"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "Advisor guidance intended to reduce unnecessary Azure spending"
+        },
+        {
+          "id": "r3",
+          "text": "Viewing recommendations by subscription, resource group, or service"
+        },
+        {
+          "id": "r4",
+          "text": "An optional notification when new recommendations become available"
+        },
+        {
+          "id": "r1",
+          "text": "Advisor guidance intended to improve processes, workflows, and deployment practices"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "match-0223",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Advisor filtering"
+        },
+        {
+          "id": "l2",
+          "text": "Advisor notification"
+        },
+        {
+          "id": "l3",
+          "text": "Azure Advisor"
+        },
+        {
+          "id": "l4",
+          "text": "Reliability recommendation"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A service that analyzes Azure resources and provides personalized best-practice recommendations"
+        },
+        {
+          "id": "r1",
+          "text": "Viewing recommendations by subscription, resource group, or service"
+        },
+        {
+          "id": "r4",
+          "text": "Advisor guidance intended to reduce configuration risks that threaten application availability"
+        },
+        {
+          "id": "r2",
+          "text": "An optional notification when new recommendations become available"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l1": "r1",
+        "l4": "r4",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "match-0224",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Advisor"
+        },
+        {
+          "id": "l2",
+          "text": "Reliability recommendation"
+        },
+        {
+          "id": "l3",
+          "text": "Security recommendation"
+        },
+        {
+          "id": "l4",
+          "text": "Performance recommendation"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Advisor guidance intended to improve application or resource performance"
+        },
+        {
+          "id": "r1",
+          "text": "A service that analyzes Azure resources and provides personalized best-practice recommendations"
+        },
+        {
+          "id": "r3",
+          "text": "Advisor guidance intended to reduce vulnerabilities and security risks"
+        },
+        {
+          "id": "r2",
+          "text": "Advisor guidance intended to reduce configuration risks that threaten application availability"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l1": "r1",
+        "l3": "r3",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "fill-0220",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "question": "{{answer}} is advisor guidance intended to reduce vulnerabilities and security risks.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Availability test",
+            "Service Health alert",
+            "Reliability recommendation",
+            "Security recommendation"
+          ],
+          "correctAnswer": "Security recommendation"
+        }
+      ],
+      "explanation": "Security recommendation is Advisor guidance intended to reduce vulnerabilities and security risks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "fill-0221",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "question": "The term for advisor guidance intended to improve application or resource performance is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Log Analytics",
+            "Azure Status",
+            "Historical health events",
+            "Performance recommendation"
+          ],
+          "correctAnswer": "Performance recommendation"
+        }
+      ],
+      "explanation": "Performance recommendation is Advisor guidance intended to improve application or resource performance.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "fill-0222",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "question": "In this unit, {{answer}} refers to advisor guidance intended to improve processes, workflows, and deployment practices.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure Monitor alert rule",
+            "Log Analytics",
+            "Operational Excellence recommendation",
+            "Logs"
+          ],
+          "correctAnswer": "Operational Excellence recommendation"
+        }
+      ],
+      "explanation": "Operational Excellence recommendation is Advisor guidance intended to improve processes, workflows, and deployment practices.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "fill-0223",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "question": "For AZ-900, the concept described as advisor guidance intended to reduce unnecessary Azure spending is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Resource Health",
+            "Azure Advisor",
+            "Cost recommendation",
+            "Log Analytics"
+          ],
+          "correctAnswer": "Cost recommendation"
+        }
+      ],
+      "explanation": "Cost recommendation is Advisor guidance intended to reduce unnecessary Azure spending.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    },
+    {
+      "id": "fill-0224",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Advisor",
+      "question": "Choose the term that completes the statement: {{answer}} means viewing recommendations by subscription, resource group, or service.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Advisor notification",
+            "Azure Advisor",
+            "Advisor filtering",
+            "Operational Excellence recommendation"
+          ],
+          "correctAnswer": "Advisor filtering"
+        }
+      ],
+      "explanation": "Advisor filtering is viewing recommendations by subscription, resource group, or service.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor"
+    }
+  ]
+}

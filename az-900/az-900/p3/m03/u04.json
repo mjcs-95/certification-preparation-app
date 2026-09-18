@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe Azure networking services · Describe Azure ExpressRoute",
+  "questions": [
+    {
+      "id": "mc-0340",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "question": "Which statement best describes Azure ExpressRoute?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A VPN model that uses routing to determine which traffic enters encrypted tunnels and is preferred for many modern scenarios"
+        },
+        {
+          "id": "b",
+          "text": "An encrypted tunnel that carries trusted private-network traffic across an untrusted network such as the internet"
+        },
+        {
+          "id": "c",
+          "text": "Managing domain records through the portal, PowerShell, CLI, REST API, or SDKs"
+        },
+        {
+          "id": "d",
+          "text": "A private connection from on-premises networks to Microsoft cloud services through a connectivity provider"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Azure ExpressRoute is a private connection from on-premises networks to Microsoft cloud services through a connectivity provider.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "mc-0341",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "question": "In the context of this Microsoft Learn unit, what does ExpressRoute circuit refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Routing DNS queries to a nearby available Azure DNS server for performance and resiliency"
+        },
+        {
+          "id": "b",
+          "text": "An encrypted tunnel that carries trusted private-network traffic across an untrusted network such as the internet"
+        },
+        {
+          "id": "c",
+          "text": "A private connection between VNets that uses the Microsoft backbone instead of the public internet"
+        },
+        {
+          "id": "d",
+          "text": "The private connectivity path used to connect a site to Microsoft cloud services"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "ExpressRoute circuit is the private connectivity path used to connect a site to Microsoft cloud services.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "mc-0342",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "question": "Which description correctly matches Private connectivity?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Network traffic that avoids the public internet for the ExpressRoute path"
+        },
+        {
+          "id": "b",
+          "text": "Routing DNS queries to a nearby available Azure DNS server for performance and resiliency"
+        },
+        {
+          "id": "c",
+          "text": "Managing domain records through the portal, PowerShell, CLI, REST API, or SDKs"
+        },
+        {
+          "id": "d",
+          "text": "Role-based permissions applied through Azure Resource Manager to control DNS resource management"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Private connectivity is network traffic that avoids the public internet for the ExpressRoute path.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "mc-0343",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "question": "Which of the following is the best definition of Border Gateway Protocol (BGP)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A private network in Azure that enables resources to communicate securely with each other and with external networks"
+        },
+        {
+          "id": "b",
+          "text": "A specialized VM that performs network functions such as firewalling or WAN optimization"
+        },
+        {
+          "id": "c",
+          "text": "The purchase of a domain name, which Azure DNS itself does not provide"
+        },
+        {
+          "id": "d",
+          "text": "The routing protocol ExpressRoute uses to exchange routes dynamically"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Border Gateway Protocol (BGP) is the routing protocol ExpressRoute uses to exchange routes dynamically.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "mc-0344",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "question": "What is the primary meaning of ExpressRoute Global Reach in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Using an internet-based VPN gateway as an alternate path if an ExpressRoute connection becomes unavailable"
+        },
+        {
+          "id": "b",
+          "text": "A subdivision of a virtual network address space used to segment resources"
+        },
+        {
+          "id": "c",
+          "text": "A feature that connects on-premises sites to each other through their ExpressRoute circuits and the Microsoft backbone"
+        },
+        {
+          "id": "d",
+          "text": "A VPN model that uses routing to determine which traffic enters encrypted tunnels and is preferred for many modern scenarios"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "ExpressRoute Global Reach is a feature that connects on-premises sites to each other through their ExpressRoute circuits and the Microsoft backbone.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "mr-0340",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Private connectivity: a subdivision of a virtual network address space used to segment resources."
+        },
+        {
+          "id": "b",
+          "text": "ExpressRoute circuit: the private connectivity path used to connect a site to Microsoft cloud services."
+        },
+        {
+          "id": "c",
+          "text": "ExpressRoute circuit: redundant connectivity at ExpressRoute peering locations for higher availability."
+        },
+        {
+          "id": "d",
+          "text": "Azure ExpressRoute: the routing protocol ExpressRoute uses to exchange routes dynamically."
+        },
+        {
+          "id": "e",
+          "text": "Azure ExpressRoute: a private connection from on-premises networks to Microsoft cloud services through a connectivity provider."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: Azure ExpressRoute — a private connection from on-premises networks to Microsoft cloud services through a connectivity provider; and ExpressRoute circuit — the private connectivity path used to connect a site to Microsoft cloud services.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "mr-0341",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Border Gateway Protocol (BGP): the routing protocol ExpressRoute uses to exchange routes dynamically."
+        },
+        {
+          "id": "b",
+          "text": "Private connectivity: network traffic that avoids the public internet for the ExpressRoute path."
+        },
+        {
+          "id": "c",
+          "text": "Private connectivity: a common reason to use ExpressRoute for consistent network performance."
+        },
+        {
+          "id": "d",
+          "text": "Border Gateway Protocol (BGP): an endpoint with a public IP address that can be reachable from the internet."
+        },
+        {
+          "id": "e",
+          "text": "Border Gateway Protocol (BGP): a private network in Azure that enables resources to communicate securely with each other and with external networks."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Private connectivity — network traffic that avoids the public internet for the ExpressRoute path; and Border Gateway Protocol (BGP) — the routing protocol ExpressRoute uses to exchange routes dynamically.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "mr-0342",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Predictable latency: an endpoint with a public IP address that can be reachable from the internet."
+        },
+        {
+          "id": "b",
+          "text": "Predictable latency: a common reason to use ExpressRoute for consistent network performance."
+        },
+        {
+          "id": "c",
+          "text": "ExpressRoute Global Reach: using an internet-based VPN gateway as an alternate path if an ExpressRoute connection becomes unavailable."
+        },
+        {
+          "id": "d",
+          "text": "ExpressRoute Global Reach: an endpoint with a private IP address inside a virtual network."
+        },
+        {
+          "id": "e",
+          "text": "ExpressRoute Global Reach: a feature that connects on-premises sites to each other through their ExpressRoute circuits and the Microsoft backbone."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: ExpressRoute Global Reach — a feature that connects on-premises sites to each other through their ExpressRoute circuits and the Microsoft backbone; and Predictable latency — a common reason to use ExpressRoute for consistent network performance.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "mr-0343",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Predictable latency: a resource containing inbound and outbound rules that allow or deny network traffic."
+        },
+        {
+          "id": "b",
+          "text": "VPN failover: using an internet-based VPN gateway as an alternate path if an ExpressRoute connection becomes unavailable."
+        },
+        {
+          "id": "c",
+          "text": "VPN failover: a resource containing inbound and outbound rules that allow or deny network traffic."
+        },
+        {
+          "id": "d",
+          "text": "Built-in redundancy: redundant connectivity at ExpressRoute peering locations for higher availability."
+        },
+        {
+          "id": "e",
+          "text": "Built-in redundancy: a subdivision of a virtual network address space used to segment resources."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: Built-in redundancy — redundant connectivity at ExpressRoute peering locations for higher availability; and VPN failover — using an internet-based VPN gateway as an alternate path if an ExpressRoute connection becomes unavailable.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "mr-0344",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure ExpressRoute: a private connection from on-premises networks to Microsoft cloud services through a connectivity provider."
+        },
+        {
+          "id": "b",
+          "text": "ExpressRoute circuit: the private connectivity path used to connect a site to Microsoft cloud services."
+        },
+        {
+          "id": "c",
+          "text": "Azure ExpressRoute: the routing protocol ExpressRoute uses to exchange routes dynamically."
+        },
+        {
+          "id": "d",
+          "text": "Built-in redundancy: a custom route used to control traffic flow between subnets or virtual networks."
+        },
+        {
+          "id": "e",
+          "text": "ExpressRoute circuit: redundant connectivity at ExpressRoute peering locations for higher availability."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Azure ExpressRoute — a private connection from on-premises networks to Microsoft cloud services through a connectivity provider; and ExpressRoute circuit — the private connectivity path used to connect a site to Microsoft cloud services.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "tf-0340",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "question": "Azure ExpressRoute is a private connection from on-premises networks to Microsoft cloud services through a connectivity provider.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure ExpressRoute is a private connection from on-premises networks to Microsoft cloud services through a connectivity provider.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "tf-0341",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "question": "According to this unit: ExpressRoute circuit is a feature that connects on-premises sites to each other through their ExpressRoute circuits and the Microsoft backbone.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. ExpressRoute circuit is the private connectivity path used to connect a site to Microsoft cloud services.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "tf-0342",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "question": "For Azure fundamentals, Private connectivity is network traffic that avoids the public internet for the ExpressRoute path.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Private connectivity is network traffic that avoids the public internet for the ExpressRoute path.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "tf-0343",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "question": "This statement is correct: Border Gateway Protocol (BGP) is redundant connectivity at ExpressRoute peering locations for higher availability.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Border Gateway Protocol (BGP) is the routing protocol ExpressRoute uses to exchange routes dynamically.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "tf-0344",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "question": "The unit supports the following statement: ExpressRoute Global Reach is a feature that connects on-premises sites to each other through their ExpressRoute circuits and the Microsoft backbone.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "ExpressRoute Global Reach is a feature that connects on-premises sites to each other through their ExpressRoute circuits and the Microsoft backbone.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "sc-0680",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "scenario": "The organization is reviewing the topic “Describe Azure ExpressRoute” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a private connection from on-premises networks to Microsoft cloud services through a connectivity provider. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Service endpoint"
+        },
+        {
+          "id": "b",
+          "text": "Azure ExpressRoute"
+        },
+        {
+          "id": "c",
+          "text": "VPN failover"
+        },
+        {
+          "id": "d",
+          "text": "Virtual private network (VPN)"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure ExpressRoute is the best match because it is a private connection from on-premises networks to Microsoft cloud services through a connectivity provider.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "sc-0681",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "scenario": "The organization is reviewing the topic “Describe Azure ExpressRoute” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs the private connectivity path used to connect a site to Microsoft cloud services. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Service endpoint"
+        },
+        {
+          "id": "b",
+          "text": "ExpressRoute circuit"
+        },
+        {
+          "id": "c",
+          "text": "Network virtual appliance"
+        },
+        {
+          "id": "d",
+          "text": "ExpressRoute Global Reach"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "ExpressRoute circuit is the best match because it is the private connectivity path used to connect a site to Microsoft cloud services.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "sc-0682",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "scenario": "The organization is reviewing the topic “Describe Azure ExpressRoute” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: network traffic that avoids the public internet for the ExpressRoute path. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alias record"
+        },
+        {
+          "id": "b",
+          "text": "Active/active gateway"
+        },
+        {
+          "id": "c",
+          "text": "Private connectivity"
+        },
+        {
+          "id": "d",
+          "text": "Border Gateway Protocol (BGP)"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Private connectivity is the best match because it is network traffic that avoids the public internet for the ExpressRoute path.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "sc-0683",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "scenario": "The organization is reviewing the topic “Describe Azure ExpressRoute” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: the routing protocol ExpressRoute uses to exchange routes dynamically. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Network security group (NSG)"
+        },
+        {
+          "id": "b",
+          "text": "Border Gateway Protocol (BGP)"
+        },
+        {
+          "id": "c",
+          "text": "Service endpoint"
+        },
+        {
+          "id": "d",
+          "text": "Network virtual appliance"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Border Gateway Protocol (BGP) is the best match because it is the routing protocol ExpressRoute uses to exchange routes dynamically.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "sc-0684",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "scenario": "The organization is reviewing the topic “Describe Azure ExpressRoute” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants a feature that connects on-premises sites to each other through their ExpressRoute circuits and the Microsoft backbone. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subnet"
+        },
+        {
+          "id": "b",
+          "text": "ExpressRoute Global Reach"
+        },
+        {
+          "id": "c",
+          "text": "Azure RBAC for DNS"
+        },
+        {
+          "id": "d",
+          "text": "Virtual network peering"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "ExpressRoute Global Reach is the best match because it is a feature that connects on-premises sites to each other through their ExpressRoute circuits and the Microsoft backbone.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "sc-0685",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "scenario": "The organization is reviewing the topic “Describe Azure ExpressRoute” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for a common reason to use ExpressRoute for consistent network performance. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Network virtual appliance"
+        },
+        {
+          "id": "b",
+          "text": "Active/active gateway"
+        },
+        {
+          "id": "c",
+          "text": "Predictable latency"
+        },
+        {
+          "id": "d",
+          "text": "Azure Resource Manager integration"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Predictable latency is the best match because it is a common reason to use ExpressRoute for consistent network performance.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "sc-0686",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "scenario": "The organization is reviewing the topic “Describe Azure ExpressRoute” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for redundant connectivity at ExpressRoute peering locations for higher availability. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ExpressRoute Global Reach"
+        },
+        {
+          "id": "b",
+          "text": "Built-in redundancy"
+        },
+        {
+          "id": "c",
+          "text": "VPN failover"
+        },
+        {
+          "id": "d",
+          "text": "Active/active gateway"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Built-in redundancy is the best match because it is redundant connectivity at ExpressRoute peering locations for higher availability.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "sc-0687",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "scenario": "The organization is reviewing the topic “Describe Azure ExpressRoute” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is using an internet-based VPN gateway as an alternate path if an ExpressRoute connection becomes unavailable. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "User-defined route (UDR)"
+        },
+        {
+          "id": "b",
+          "text": "Virtual network peering"
+        },
+        {
+          "id": "c",
+          "text": "VPN failover"
+        },
+        {
+          "id": "d",
+          "text": "Network-to-network VPN"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "VPN failover is the best match because it is using an internet-based VPN gateway as an alternate path if an ExpressRoute connection becomes unavailable.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "sc-0688",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "scenario": "The organization is reviewing the topic “Describe Azure ExpressRoute” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as a private connection from on-premises networks to Microsoft cloud services through a connectivity provider. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Network virtual appliance"
+        },
+        {
+          "id": "b",
+          "text": "Active/active gateway"
+        },
+        {
+          "id": "c",
+          "text": "Azure ExpressRoute"
+        },
+        {
+          "id": "d",
+          "text": "Subnet"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure ExpressRoute is the best match because it is a private connection from on-premises networks to Microsoft cloud services through a connectivity provider.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "sc-0689",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "scenario": "The organization is reviewing the topic “Describe Azure ExpressRoute” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides the private connectivity path used to connect a site to Microsoft cloud services. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Network virtual appliance"
+        },
+        {
+          "id": "b",
+          "text": "ExpressRoute circuit"
+        },
+        {
+          "id": "c",
+          "text": "Domain registration"
+        },
+        {
+          "id": "d",
+          "text": "ExpressRoute Global Reach"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "ExpressRoute circuit is the best match because it is the private connectivity path used to connect a site to Microsoft cloud services.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "match-0340",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure ExpressRoute"
+        },
+        {
+          "id": "l2",
+          "text": "ExpressRoute circuit"
+        },
+        {
+          "id": "l3",
+          "text": "Private connectivity"
+        },
+        {
+          "id": "l4",
+          "text": "Border Gateway Protocol (BGP)"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "The private connectivity path used to connect a site to Microsoft cloud services"
+        },
+        {
+          "id": "r1",
+          "text": "A private connection from on-premises networks to Microsoft cloud services through a connectivity provider"
+        },
+        {
+          "id": "r4",
+          "text": "The routing protocol ExpressRoute uses to exchange routes dynamically"
+        },
+        {
+          "id": "r3",
+          "text": "Network traffic that avoids the public internet for the ExpressRoute path"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l1": "r1",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "match-0341",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Private connectivity"
+        },
+        {
+          "id": "l2",
+          "text": "Border Gateway Protocol (BGP)"
+        },
+        {
+          "id": "l3",
+          "text": "ExpressRoute Global Reach"
+        },
+        {
+          "id": "l4",
+          "text": "Predictable latency"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A feature that connects on-premises sites to each other through their ExpressRoute circuits and the Microsoft backbone"
+        },
+        {
+          "id": "r4",
+          "text": "A common reason to use ExpressRoute for consistent network performance"
+        },
+        {
+          "id": "r1",
+          "text": "Network traffic that avoids the public internet for the ExpressRoute path"
+        },
+        {
+          "id": "r2",
+          "text": "The routing protocol ExpressRoute uses to exchange routes dynamically"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l1": "r1",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "match-0342",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "ExpressRoute Global Reach"
+        },
+        {
+          "id": "l2",
+          "text": "Predictable latency"
+        },
+        {
+          "id": "l3",
+          "text": "Built-in redundancy"
+        },
+        {
+          "id": "l4",
+          "text": "VPN failover"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "A common reason to use ExpressRoute for consistent network performance"
+        },
+        {
+          "id": "r1",
+          "text": "A feature that connects on-premises sites to each other through their ExpressRoute circuits and the Microsoft backbone"
+        },
+        {
+          "id": "r3",
+          "text": "Redundant connectivity at ExpressRoute peering locations for higher availability"
+        },
+        {
+          "id": "r4",
+          "text": "Using an internet-based VPN gateway as an alternate path if an ExpressRoute connection becomes unavailable"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l1": "r1",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "match-0343",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Built-in redundancy"
+        },
+        {
+          "id": "l2",
+          "text": "VPN failover"
+        },
+        {
+          "id": "l3",
+          "text": "Azure ExpressRoute"
+        },
+        {
+          "id": "l4",
+          "text": "ExpressRoute circuit"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A private connection from on-premises networks to Microsoft cloud services through a connectivity provider"
+        },
+        {
+          "id": "r4",
+          "text": "The private connectivity path used to connect a site to Microsoft cloud services"
+        },
+        {
+          "id": "r1",
+          "text": "Redundant connectivity at ExpressRoute peering locations for higher availability"
+        },
+        {
+          "id": "r2",
+          "text": "Using an internet-based VPN gateway as an alternate path if an ExpressRoute connection becomes unavailable"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l1": "r1",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "match-0344",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure ExpressRoute"
+        },
+        {
+          "id": "l2",
+          "text": "ExpressRoute circuit"
+        },
+        {
+          "id": "l3",
+          "text": "Private connectivity"
+        },
+        {
+          "id": "l4",
+          "text": "Border Gateway Protocol (BGP)"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "The private connectivity path used to connect a site to Microsoft cloud services"
+        },
+        {
+          "id": "r3",
+          "text": "Network traffic that avoids the public internet for the ExpressRoute path"
+        },
+        {
+          "id": "r1",
+          "text": "A private connection from on-premises networks to Microsoft cloud services through a connectivity provider"
+        },
+        {
+          "id": "r4",
+          "text": "The routing protocol ExpressRoute uses to exchange routes dynamically"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l3": "r3",
+        "l1": "r1",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "fill-0340",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "question": "{{answer}} is network traffic that avoids the public internet for the ExpressRoute path.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure VPN Gateway",
+            "Private connectivity",
+            "Alias record",
+            "Service endpoint"
+          ],
+          "correctAnswer": "Private connectivity"
+        }
+      ],
+      "explanation": "Private connectivity is network traffic that avoids the public internet for the ExpressRoute path.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "fill-0341",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "question": "The term for the routing protocol ExpressRoute uses to exchange routes dynamically is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Border Gateway Protocol (BGP)",
+            "Built-in redundancy",
+            "DNS record management",
+            "Network virtual appliance"
+          ],
+          "correctAnswer": "Border Gateway Protocol (BGP)"
+        }
+      ],
+      "explanation": "Border Gateway Protocol (BGP) is the routing protocol ExpressRoute uses to exchange routes dynamically.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "fill-0342",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "question": "In this unit, {{answer}} refers to a feature that connects on-premises sites to each other through their ExpressRoute circuits and the Microsoft backbone.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Private endpoint",
+            "ExpressRoute Global Reach",
+            "Azure Resource Manager integration",
+            "ExpressRoute circuit"
+          ],
+          "correctAnswer": "ExpressRoute Global Reach"
+        }
+      ],
+      "explanation": "ExpressRoute Global Reach is a feature that connects on-premises sites to each other through their ExpressRoute circuits and the Microsoft backbone.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "fill-0343",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "question": "For AZ-900, the concept described as a common reason to use ExpressRoute for consistent network performance is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "ExpressRoute circuit",
+            "Predictable latency",
+            "Azure ExpressRoute",
+            "DNS record management"
+          ],
+          "correctAnswer": "Predictable latency"
+        }
+      ],
+      "explanation": "Predictable latency is a common reason to use ExpressRoute for consistent network performance.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    },
+    {
+      "id": "fill-0344",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure ExpressRoute",
+      "question": "Choose the term that completes the statement: {{answer}} means redundant connectivity at ExpressRoute peering locations for higher availability.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Site-to-site VPN",
+            "Subnet",
+            "Built-in redundancy",
+            "User-defined route (UDR)"
+          ],
+          "correctAnswer": "Built-in redundancy"
+        }
+      ],
+      "explanation": "Built-in redundancy is redundant connectivity at ExpressRoute peering locations for higher availability.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/4-expressroute"
+    }
+  ]
+}

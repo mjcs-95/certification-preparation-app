@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe Azure compute services · Describe Azure functions",
+  "questions": [
+    {
+      "id": "mc-0300",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "question": "Which statement best describes Azure Functions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Technology for running cloud capabilities closer to devices and where data is generated"
+        },
+        {
+          "id": "b",
+          "text": "An event-driven serverless compute service that runs code in response to triggers"
+        },
+        {
+          "id": "c",
+          "text": "A compute-optimized VM family suited to CPU-intensive workloads"
+        },
+        {
+          "id": "d",
+          "text": "Managing container deployment, scaling, networking, and lifecycle across many instances"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Functions is an event-driven serverless compute service that runs code in response to triggers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "mc-0301",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "question": "In the context of this Microsoft Learn unit, what does Serverless compute refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Using Azure identity and access controls for virtual desktop users"
+        },
+        {
+          "id": "b",
+          "text": "A PaaS option for running individual containers quickly without managing virtual machines"
+        },
+        {
+          "id": "c",
+          "text": "The default style in which each invocation should not depend on local state from a previous invocation"
+        },
+        {
+          "id": "d",
+          "text": "A model in which developers focus on code while the platform manages the underlying servers and scaling"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Serverless compute is a model in which developers focus on code while the platform manages the underlying servers and scaling.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "mc-0302",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "question": "Which description correctly matches Event trigger?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A stateful extension in which the runtime coordinates and tracks state across function activity"
+        },
+        {
+          "id": "b",
+          "text": "Scaling one containerized component separately from others when only that component has increased demand"
+        },
+        {
+          "id": "c",
+          "text": "An event such as an HTTP request, timer, or message that causes a function to run"
+        },
+        {
+          "id": "d",
+          "text": "A burstable, cost-efficient VM family suited to workloads with occasional CPU spikes"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Event trigger is an event such as an HTTP request, timer, or message that causes a function to run.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "mc-0303",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "question": "Which of the following is the best definition of Consumption execution?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An application-hosting approach that provides maximum control over the operating system and environment"
+        },
+        {
+          "id": "b",
+          "text": "An application pattern combining an AI model with instructions, context, and tools to complete multistep goals"
+        },
+        {
+          "id": "c",
+          "text": "Running resources only as needed and charging primarily for the execution resources consumed"
+        },
+        {
+          "id": "d",
+          "text": "The default style in which each invocation should not depend on local state from a previous invocation"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Consumption execution is running resources only as needed and charging primarily for the execution resources consumed.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "mc-0304",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "question": "What is the primary meaning of Automatic scaling in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An App Service workload for hosting browser-accessible applications"
+        },
+        {
+          "id": "b",
+          "text": "Azure Functions increasing or decreasing execution capacity based on demand"
+        },
+        {
+          "id": "c",
+          "text": "An App Service use case for providing data, authentication, push notifications, and server-side logic to mobile applications"
+        },
+        {
+          "id": "d",
+          "text": "A widely used container engine supported by Azure container services"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Automatic scaling is Azure Functions increasing or decreasing execution capacity based on demand.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "mr-0300",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Serverless compute: a model in which developers focus on code while the platform manages the underlying servers and scaling."
+        },
+        {
+          "id": "b",
+          "text": "Azure Functions: running resources only as needed and charging primarily for the execution resources consumed."
+        },
+        {
+          "id": "c",
+          "text": "Event trigger: a template that can include an operating system and preinstalled components for rapid VM deployment."
+        },
+        {
+          "id": "d",
+          "text": "Serverless compute: a stateful extension in which the runtime coordinates and tracks state across function activity."
+        },
+        {
+          "id": "e",
+          "text": "Azure Functions: an event-driven serverless compute service that runs code in response to triggers."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "e"
+      ],
+      "explanation": "The correct pair is: Azure Functions — an event-driven serverless compute service that runs code in response to triggers; and Serverless compute — a model in which developers focus on code while the platform manages the underlying servers and scaling.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "mr-0301",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Consumption execution: running resources only as needed and charging primarily for the execution resources consumed."
+        },
+        {
+          "id": "b",
+          "text": "Consumption execution: a burstable, cost-efficient VM family suited to workloads with occasional CPU spikes."
+        },
+        {
+          "id": "c",
+          "text": "Event trigger: an event such as an HTTP request, timer, or message that causes a function to run."
+        },
+        {
+          "id": "d",
+          "text": "Event trigger: the default style in which each invocation should not depend on local state from a previous invocation."
+        },
+        {
+          "id": "e",
+          "text": "Consumption execution: an IaaS compute resource that provides control over the guest operating system and installed software."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "c"
+      ],
+      "explanation": "The correct pair is: Event trigger — an event such as an HTTP request, timer, or message that causes a function to run; and Consumption execution — running resources only as needed and charging primarily for the execution resources consumed.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "mr-0302",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Automatic scaling: a general-purpose VM family suited to common application and web-server workloads."
+        },
+        {
+          "id": "b",
+          "text": "Stateless function: the default style in which each invocation should not depend on local state from a previous invocation."
+        },
+        {
+          "id": "c",
+          "text": "Automatic scaling: Azure Functions increasing or decreasing execution capacity based on demand."
+        },
+        {
+          "id": "d",
+          "text": "Stateless function: a burstable, cost-efficient VM family suited to workloads with occasional CPU spikes."
+        },
+        {
+          "id": "e",
+          "text": "Automatic scaling: a trigger that runs a function according to a schedule."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: Automatic scaling — Azure Functions increasing or decreasing execution capacity based on demand; and Stateless function — the default style in which each invocation should not depend on local state from a previous invocation.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "mr-0303",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Durable Functions: a stateful extension in which the runtime coordinates and tracks state across function activity."
+        },
+        {
+          "id": "b",
+          "text": "Timer trigger: a memory-optimized VM family suited to memory-intensive workloads."
+        },
+        {
+          "id": "c",
+          "text": "Durable Functions: a template that can include an operating system and preinstalled components for rapid VM deployment."
+        },
+        {
+          "id": "d",
+          "text": "Timer trigger: a trigger that runs a function according to a schedule."
+        },
+        {
+          "id": "e",
+          "text": "Stateless function: a memory-optimized VM family suited to memory-intensive workloads."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Durable Functions — a stateful extension in which the runtime coordinates and tracks state across function activity; and Timer trigger — a trigger that runs a function according to a schedule.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "mr-0304",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Serverless compute: a stateful extension in which the runtime coordinates and tracks state across function activity."
+        },
+        {
+          "id": "b",
+          "text": "Azure Functions: running resources only as needed and charging primarily for the execution resources consumed."
+        },
+        {
+          "id": "c",
+          "text": "Serverless compute: a model in which developers focus on code while the platform manages the underlying servers and scaling."
+        },
+        {
+          "id": "d",
+          "text": "Azure Functions: an event-driven serverless compute service that runs code in response to triggers."
+        },
+        {
+          "id": "e",
+          "text": "Durable Functions: a compute-optimized VM family suited to CPU-intensive workloads."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: Azure Functions — an event-driven serverless compute service that runs code in response to triggers; and Serverless compute — a model in which developers focus on code while the platform manages the underlying servers and scaling.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "tf-0300",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "question": "Azure Functions is an event-driven serverless compute service that runs code in response to triggers.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure Functions is an event-driven serverless compute service that runs code in response to triggers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "tf-0301",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "question": "According to this unit: Serverless compute is Azure Functions increasing or decreasing execution capacity based on demand.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Serverless compute is a model in which developers focus on code while the platform manages the underlying servers and scaling.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "tf-0302",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "question": "For Azure fundamentals, Event trigger is an event such as an HTTP request, timer, or message that causes a function to run.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Event trigger is an event such as an HTTP request, timer, or message that causes a function to run.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "tf-0303",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "question": "This statement is correct: Consumption execution is a stateful extension in which the runtime coordinates and tracks state across function activity.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Consumption execution is running resources only as needed and charging primarily for the execution resources consumed.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "tf-0304",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "question": "The unit supports the following statement: Automatic scaling is Azure Functions increasing or decreasing execution capacity based on demand.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Automatic scaling is Azure Functions increasing or decreasing execution capacity based on demand.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "sc-0600",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "scenario": "The organization is reviewing the topic “Describe Azure functions” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: an event-driven serverless compute service that runs code in response to triggers. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Functions"
+        },
+        {
+          "id": "b",
+          "text": "Container hosting"
+        },
+        {
+          "id": "c",
+          "text": "Azure IoT Hub"
+        },
+        {
+          "id": "d",
+          "text": "B-series VM"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure Functions is the best match because it is an event-driven serverless compute service that runs code in response to triggers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "sc-0601",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "scenario": "The organization is reviewing the topic “Describe Azure functions” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs a model in which developers focus on code while the platform manages the underlying servers and scaling. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Serverless compute"
+        },
+        {
+          "id": "b",
+          "text": "Virtual Machine Scale Set"
+        },
+        {
+          "id": "c",
+          "text": "Consumption execution"
+        },
+        {
+          "id": "d",
+          "text": "Container"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Serverless compute is the best match because it is a model in which developers focus on code while the platform manages the underlying servers and scaling.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "sc-0602",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "scenario": "The organization is reviewing the topic “Describe Azure functions” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: an event such as an HTTP request, timer, or message that causes a function to run. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure IoT Edge"
+        },
+        {
+          "id": "b",
+          "text": "Event trigger"
+        },
+        {
+          "id": "c",
+          "text": "N-series VM"
+        },
+        {
+          "id": "d",
+          "text": "Mobile app back end"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Event trigger is the best match because it is an event such as an HTTP request, timer, or message that causes a function to run.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "sc-0603",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "scenario": "The organization is reviewing the topic “Describe Azure functions” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: running resources only as needed and charging primarily for the execution resources consumed. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "D-series VM"
+        },
+        {
+          "id": "b",
+          "text": "E-series VM"
+        },
+        {
+          "id": "c",
+          "text": "Consumption execution"
+        },
+        {
+          "id": "d",
+          "text": "Mobile app back end"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Consumption execution is the best match because it is running resources only as needed and charging primarily for the execution resources consumed.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "sc-0604",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "scenario": "The organization is reviewing the topic “Describe Azure functions” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants azure Functions increasing or decreasing execution capacity based on demand. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Automatic scaling"
+        },
+        {
+          "id": "b",
+          "text": "Continuous deployment"
+        },
+        {
+          "id": "c",
+          "text": "Telemetry"
+        },
+        {
+          "id": "d",
+          "text": "WebJob"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Automatic scaling is the best match because it is Azure Functions increasing or decreasing execution capacity based on demand.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "sc-0605",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "scenario": "The organization is reviewing the topic “Describe Azure functions” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for the default style in which each invocation should not depend on local state from a previous invocation. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Multi-session Windows"
+        },
+        {
+          "id": "b",
+          "text": "Azure Container Apps"
+        },
+        {
+          "id": "c",
+          "text": "Azure Container Instances"
+        },
+        {
+          "id": "d",
+          "text": "Stateless function"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Stateless function is the best match because it is the default style in which each invocation should not depend on local state from a previous invocation.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "sc-0606",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "scenario": "The organization is reviewing the topic “Describe Azure functions” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for a stateful extension in which the runtime coordinates and tracks state across function activity. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microservices architecture"
+        },
+        {
+          "id": "b",
+          "text": "F-series VM"
+        },
+        {
+          "id": "c",
+          "text": "Durable Functions"
+        },
+        {
+          "id": "d",
+          "text": "Azure Container Apps"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Durable Functions is the best match because it is a stateful extension in which the runtime coordinates and tracks state across function activity.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "sc-0607",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "scenario": "The organization is reviewing the topic “Describe Azure functions” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is a trigger that runs a function according to a schedule. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Timer trigger"
+        },
+        {
+          "id": "b",
+          "text": "N-series VM"
+        },
+        {
+          "id": "c",
+          "text": "B-series VM"
+        },
+        {
+          "id": "d",
+          "text": "Azure OpenAI Service"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Timer trigger is the best match because it is a trigger that runs a function according to a schedule.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "sc-0608",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "scenario": "The organization is reviewing the topic “Describe Azure functions” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as an event-driven serverless compute service that runs code in response to triggers. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microservices architecture"
+        },
+        {
+          "id": "b",
+          "text": "Azure Functions"
+        },
+        {
+          "id": "c",
+          "text": "Docker"
+        },
+        {
+          "id": "d",
+          "text": "Azure IoT Hub"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Functions is the best match because it is an event-driven serverless compute service that runs code in response to triggers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "sc-0609",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "scenario": "The organization is reviewing the topic “Describe Azure functions” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides a model in which developers focus on code while the platform manages the underlying servers and scaling. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Centralized desktop delivery"
+        },
+        {
+          "id": "b",
+          "text": "D-series VM"
+        },
+        {
+          "id": "c",
+          "text": "Serverless compute"
+        },
+        {
+          "id": "d",
+          "text": "Durable Functions"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Serverless compute is the best match because it is a model in which developers focus on code while the platform manages the underlying servers and scaling.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "match-0300",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Functions"
+        },
+        {
+          "id": "l2",
+          "text": "Serverless compute"
+        },
+        {
+          "id": "l3",
+          "text": "Event trigger"
+        },
+        {
+          "id": "l4",
+          "text": "Consumption execution"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "A model in which developers focus on code while the platform manages the underlying servers and scaling"
+        },
+        {
+          "id": "r4",
+          "text": "Running resources only as needed and charging primarily for the execution resources consumed"
+        },
+        {
+          "id": "r3",
+          "text": "An event such as an HTTP request, timer, or message that causes a function to run"
+        },
+        {
+          "id": "r1",
+          "text": "An event-driven serverless compute service that runs code in response to triggers"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l4": "r4",
+        "l3": "r3",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "match-0301",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Event trigger"
+        },
+        {
+          "id": "l2",
+          "text": "Consumption execution"
+        },
+        {
+          "id": "l3",
+          "text": "Automatic scaling"
+        },
+        {
+          "id": "l4",
+          "text": "Stateless function"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "Running resources only as needed and charging primarily for the execution resources consumed"
+        },
+        {
+          "id": "r1",
+          "text": "An event such as an HTTP request, timer, or message that causes a function to run"
+        },
+        {
+          "id": "r3",
+          "text": "Azure Functions increasing or decreasing execution capacity based on demand"
+        },
+        {
+          "id": "r4",
+          "text": "The default style in which each invocation should not depend on local state from a previous invocation"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l1": "r1",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "match-0302",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Automatic scaling"
+        },
+        {
+          "id": "l2",
+          "text": "Stateless function"
+        },
+        {
+          "id": "l3",
+          "text": "Durable Functions"
+        },
+        {
+          "id": "l4",
+          "text": "Timer trigger"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "The default style in which each invocation should not depend on local state from a previous invocation"
+        },
+        {
+          "id": "r3",
+          "text": "A stateful extension in which the runtime coordinates and tracks state across function activity"
+        },
+        {
+          "id": "r4",
+          "text": "A trigger that runs a function according to a schedule"
+        },
+        {
+          "id": "r1",
+          "text": "Azure Functions increasing or decreasing execution capacity based on demand"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "match-0303",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Durable Functions"
+        },
+        {
+          "id": "l2",
+          "text": "Timer trigger"
+        },
+        {
+          "id": "l3",
+          "text": "Azure Functions"
+        },
+        {
+          "id": "l4",
+          "text": "Serverless compute"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "A model in which developers focus on code while the platform manages the underlying servers and scaling"
+        },
+        {
+          "id": "r2",
+          "text": "A trigger that runs a function according to a schedule"
+        },
+        {
+          "id": "r1",
+          "text": "A stateful extension in which the runtime coordinates and tracks state across function activity"
+        },
+        {
+          "id": "r3",
+          "text": "An event-driven serverless compute service that runs code in response to triggers"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "match-0304",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Functions"
+        },
+        {
+          "id": "l2",
+          "text": "Serverless compute"
+        },
+        {
+          "id": "l3",
+          "text": "Event trigger"
+        },
+        {
+          "id": "l4",
+          "text": "Consumption execution"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "An event-driven serverless compute service that runs code in response to triggers"
+        },
+        {
+          "id": "r3",
+          "text": "An event such as an HTTP request, timer, or message that causes a function to run"
+        },
+        {
+          "id": "r2",
+          "text": "A model in which developers focus on code while the platform manages the underlying servers and scaling"
+        },
+        {
+          "id": "r4",
+          "text": "Running resources only as needed and charging primarily for the execution resources consumed"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l3": "r3",
+        "l2": "r2",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "fill-0300",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "question": "{{answer}} is an event such as an HTTP request, timer, or message that causes a function to run.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Telemetry",
+            "Reduced local data exposure",
+            "Event trigger",
+            "Azure Virtual Desktop"
+          ],
+          "correctAnswer": "Event trigger"
+        }
+      ],
+      "explanation": "Event trigger is an event such as an HTTP request, timer, or message that causes a function to run.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "fill-0301",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "question": "The term for running resources only as needed and charging primarily for the execution resources consumed is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Distributed workforce use case",
+            "Consumption execution",
+            "Virtual Machine Scale Set",
+            "Docker"
+          ],
+          "correctAnswer": "Consumption execution"
+        }
+      ],
+      "explanation": "Consumption execution is running resources only as needed and charging primarily for the execution resources consumed.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "fill-0302",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "question": "In this unit, {{answer}} refers to azure Functions increasing or decreasing execution capacity based on demand.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Automatic scaling",
+            "Continuous deployment",
+            "Azure Virtual Machine",
+            "Azure Container Instances"
+          ],
+          "correctAnswer": "Automatic scaling"
+        }
+      ],
+      "explanation": "Automatic scaling is Azure Functions increasing or decreasing execution capacity based on demand.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "fill-0303",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "question": "For AZ-900, the concept described as the default style in which each invocation should not depend on local state from a previous invocation is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "API app",
+            "Stateless function",
+            "Consumption execution",
+            "Azure IoT Central"
+          ],
+          "correctAnswer": "Stateless function"
+        }
+      ],
+      "explanation": "Stateless function is the default style in which each invocation should not depend on local state from a previous invocation.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    },
+    {
+      "id": "fill-0304",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure functions",
+      "question": "Choose the term that completes the statement: {{answer}} means a stateful extension in which the runtime coordinates and tracks state across function activity.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure IoT Central",
+            "Durable Functions",
+            "Azure Container Instances",
+            "Agentic AI pattern"
+          ],
+          "correctAnswer": "Durable Functions"
+        }
+      ],
+      "explanation": "Durable Functions is a stateful extension in which the runtime coordinates and tracks state across function activity.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions"
+    }
+  ]
+}

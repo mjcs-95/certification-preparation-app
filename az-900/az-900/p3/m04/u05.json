@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe Azure storage services · Identify Azure data migration options",
+  "questions": [
+    {
+      "id": "mc-0380",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "question": "Which statement best describes Azure Migrate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Using a Data Box device to transfer large datasets out of Azure"
+        },
+        {
+          "id": "b",
+          "text": "A hub for assessing and migrating on-premises infrastructure, servers, databases, and applications to Azure"
+        },
+        {
+          "id": "c",
+          "text": "A premium account type dedicated to page blobs"
+        },
+        {
+          "id": "d",
+          "text": "A resource that provides a unique namespace for Azure Storage data and exposes storage services through endpoints"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Migrate is a hub for assessing and migrating on-premises infrastructure, servers, databases, and applications to Azure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "mc-0381",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "question": "In the context of this Microsoft Learn unit, what does Discovery and assessment refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Using a Data Box device to transfer large datasets out of Azure"
+        },
+        {
+          "id": "b",
+          "text": "An Azure Migrate capability for inventorying workloads and evaluating migration readiness"
+        },
+        {
+          "id": "c",
+          "text": "A premium account type for block and append blobs requiring high transaction rates or low latency"
+        },
+        {
+          "id": "d",
+          "text": "Replication of data three times within a single datacenter in the primary region"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Discovery and assessment is an Azure Migrate capability for inventorying workloads and evaluating migration readiness.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "mc-0382",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "question": "Which description correctly matches Server Migration?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Storage Explorer running on Windows, macOS, and Linux"
+        },
+        {
+          "id": "b",
+          "text": "A premium account type for block and append blobs requiring high transaction rates or low latency"
+        },
+        {
+          "id": "c",
+          "text": "A cross-platform graphical application for managing Azure Storage files and blobs"
+        },
+        {
+          "id": "d",
+          "text": "An Azure Migrate capability for moving server workloads to Azure"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Server Migration is an Azure Migrate capability for moving server workloads to Azure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "mc-0383",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "question": "Which of the following is the best definition of Azure Data Box?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Storage Explorer running on Windows, macOS, and Linux"
+        },
+        {
+          "id": "b",
+          "text": "A command-line utility for uploading, downloading, copying, and one-way synchronizing blobs and files"
+        },
+        {
+          "id": "c",
+          "text": "A physical device-based service for transferring very large data sets when network transfer is impractical"
+        },
+        {
+          "id": "d",
+          "text": "Massively scalable object storage for unstructured text and binary data"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure Data Box is a physical device-based service for transferring very large data sets when network transfer is impractical.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "mc-0384",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "question": "What is the primary meaning of Online migration in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A Blob Storage tier optimized for data accessed frequently"
+        },
+        {
+          "id": "b",
+          "text": "Moving workloads and data through network-connected migration tooling such as Azure Migrate"
+        },
+        {
+          "id": "c",
+          "text": "Azure Storage keeping three copies of data in the primary region"
+        },
+        {
+          "id": "d",
+          "text": "AzCopy is used behind the scenes for many Storage Explorer file and blob operations"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Online migration is moving workloads and data through network-connected migration tooling such as Azure Migrate.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "mr-0380",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Migrate: a physical device-based service for transferring very large data sets when network transfer is impractical."
+        },
+        {
+          "id": "b",
+          "text": "Discovery and assessment: copying local data to the device and returning it so Microsoft can upload the data into Azure."
+        },
+        {
+          "id": "c",
+          "text": "Discovery and assessment: an Azure Migrate capability for inventorying workloads and evaluating migration readiness."
+        },
+        {
+          "id": "d",
+          "text": "Server Migration: the recommended standard account type for most blob, file, queue, and table storage scenarios."
+        },
+        {
+          "id": "e",
+          "text": "Azure Migrate: a hub for assessing and migrating on-premises infrastructure, servers, databases, and applications to Azure."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "e"
+      ],
+      "explanation": "The correct pair is: Azure Migrate — a hub for assessing and migrating on-premises infrastructure, servers, databases, and applications to Azure; and Discovery and assessment — an Azure Migrate capability for inventorying workloads and evaluating migration readiness.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "mr-0381",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Server Migration: shipping data on a secure physical device such as Azure Data Box."
+        },
+        {
+          "id": "b",
+          "text": "Server Migration: an Azure Migrate capability for moving server workloads to Azure."
+        },
+        {
+          "id": "c",
+          "text": "Azure Data Box: a premium account type for block and append blobs requiring high transaction rates or low latency."
+        },
+        {
+          "id": "d",
+          "text": "Azure Data Box: a physical device-based service for transferring very large data sets when network transfer is impractical."
+        },
+        {
+          "id": "e",
+          "text": "Azure Data Box: a resource that provides a unique namespace for Azure Storage data and exposes storage services through endpoints."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: Server Migration — an Azure Migrate capability for moving server workloads to Azure; and Azure Data Box — a physical device-based service for transferring very large data sets when network transfer is impractical.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "mr-0382",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Offline bulk migration: a premium account type for block and append blobs requiring high transaction rates or low latency."
+        },
+        {
+          "id": "b",
+          "text": "Offline bulk migration: shipping data on a secure physical device such as Azure Data Box."
+        },
+        {
+          "id": "c",
+          "text": "Online migration: moving workloads and data through network-connected migration tooling such as Azure Migrate."
+        },
+        {
+          "id": "d",
+          "text": "Online migration: using a Data Box device to transfer large datasets out of Azure."
+        },
+        {
+          "id": "e",
+          "text": "Online migration: a premium account type for Azure Files that supports SMB and NFS shares."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: Online migration — moving workloads and data through network-connected migration tooling such as Azure Migrate; and Offline bulk migration — shipping data on a secure physical device such as Azure Data Box.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "mr-0383",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Data Box import: copying local data to the device and returning it so Microsoft can upload the data into Azure."
+        },
+        {
+          "id": "b",
+          "text": "Data Box export: a premium account type dedicated to page blobs."
+        },
+        {
+          "id": "c",
+          "text": "Data Box export: using a Data Box device to transfer large datasets out of Azure."
+        },
+        {
+          "id": "d",
+          "text": "Offline bulk migration: a premium account type dedicated to page blobs."
+        },
+        {
+          "id": "e",
+          "text": "Data Box import: the recommended standard account type for most blob, file, queue, and table storage scenarios."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "c"
+      ],
+      "explanation": "The correct pair is: Data Box import — copying local data to the device and returning it so Microsoft can upload the data into Azure; and Data Box export — using a Data Box device to transfer large datasets out of Azure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "mr-0384",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Discovery and assessment: copying local data to the device and returning it so Microsoft can upload the data into Azure."
+        },
+        {
+          "id": "b",
+          "text": "Azure Migrate: a hub for assessing and migrating on-premises infrastructure, servers, databases, and applications to Azure."
+        },
+        {
+          "id": "c",
+          "text": "Azure Migrate: a physical device-based service for transferring very large data sets when network transfer is impractical."
+        },
+        {
+          "id": "d",
+          "text": "Data Box import: the globally unique account name used as part of Azure Storage service endpoints."
+        },
+        {
+          "id": "e",
+          "text": "Discovery and assessment: an Azure Migrate capability for inventorying workloads and evaluating migration readiness."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: Azure Migrate — a hub for assessing and migrating on-premises infrastructure, servers, databases, and applications to Azure; and Discovery and assessment — an Azure Migrate capability for inventorying workloads and evaluating migration readiness.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "tf-0380",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "question": "Azure Migrate is a hub for assessing and migrating on-premises infrastructure, servers, databases, and applications to Azure.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure Migrate is a hub for assessing and migrating on-premises infrastructure, servers, databases, and applications to Azure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "tf-0381",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "question": "According to this unit: Discovery and assessment is moving workloads and data through network-connected migration tooling such as Azure Migrate.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Discovery and assessment is an Azure Migrate capability for inventorying workloads and evaluating migration readiness.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "tf-0382",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "question": "For Azure fundamentals, Server Migration is an Azure Migrate capability for moving server workloads to Azure.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Server Migration is an Azure Migrate capability for moving server workloads to Azure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "tf-0383",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "question": "This statement is correct: Azure Data Box is copying local data to the device and returning it so Microsoft can upload the data into Azure.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Azure Data Box is a physical device-based service for transferring very large data sets when network transfer is impractical.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "tf-0384",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "question": "The unit supports the following statement: Online migration is moving workloads and data through network-connected migration tooling such as Azure Migrate.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Online migration is moving workloads and data through network-connected migration tooling such as Azure Migrate.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "sc-0760",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "scenario": "The organization is reviewing the topic “Identify Azure data migration options” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a hub for assessing and migrating on-premises infrastructure, servers, databases, and applications to Azure. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Migrate"
+        },
+        {
+          "id": "b",
+          "text": "Offline bulk migration"
+        },
+        {
+          "id": "c",
+          "text": "Storage account naming rule"
+        },
+        {
+          "id": "d",
+          "text": "Read-access geo-redundant storage (RA-GRS)"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure Migrate is the best match because it is a hub for assessing and migrating on-premises infrastructure, servers, databases, and applications to Azure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "sc-0761",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "scenario": "The organization is reviewing the topic “Identify Azure data migration options” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs an Azure Migrate capability for inventorying workloads and evaluating migration readiness. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Files"
+        },
+        {
+          "id": "b",
+          "text": "Discovery and assessment"
+        },
+        {
+          "id": "c",
+          "text": "Locally redundant storage (LRS)"
+        },
+        {
+          "id": "d",
+          "text": "Premium block blobs"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Discovery and assessment is the best match because it is an Azure Migrate capability for inventorying workloads and evaluating migration readiness.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "sc-0762",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "scenario": "The organization is reviewing the topic “Identify Azure data migration options” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: an Azure Migrate capability for moving server workloads to Azure. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cool access tier"
+        },
+        {
+          "id": "b",
+          "text": "Azure storage account"
+        },
+        {
+          "id": "c",
+          "text": "Server Migration"
+        },
+        {
+          "id": "d",
+          "text": "Geo-redundant storage (GRS)"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Server Migration is the best match because it is an Azure Migrate capability for moving server workloads to Azure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "sc-0763",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "scenario": "The organization is reviewing the topic “Identify Azure data migration options” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: a physical device-based service for transferring very large data sets when network transfer is impractical. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Queue Storage"
+        },
+        {
+          "id": "b",
+          "text": "Azure Data Box"
+        },
+        {
+          "id": "c",
+          "text": "Recovery point objective (RPO)"
+        },
+        {
+          "id": "d",
+          "text": "Azure File Sync"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Data Box is the best match because it is a physical device-based service for transferring very large data sets when network transfer is impractical.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "sc-0764",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "scenario": "The organization is reviewing the topic “Identify Azure data migration options” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants moving workloads and data through network-connected migration tooling such as Azure Migrate. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Geo-redundant storage (GRS)"
+        },
+        {
+          "id": "b",
+          "text": "Zone-redundant storage (ZRS)"
+        },
+        {
+          "id": "c",
+          "text": "Data Box import"
+        },
+        {
+          "id": "d",
+          "text": "Online migration"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Online migration is the best match because it is moving workloads and data through network-connected migration tooling such as Azure Migrate.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "sc-0765",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "scenario": "The organization is reviewing the topic “Identify Azure data migration options” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for shipping data on a secure physical device such as Azure Data Box. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Archive access tier"
+        },
+        {
+          "id": "b",
+          "text": "Offline bulk migration"
+        },
+        {
+          "id": "c",
+          "text": "Cloud tiering"
+        },
+        {
+          "id": "d",
+          "text": "Recovery point objective (RPO)"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Offline bulk migration is the best match because it is shipping data on a secure physical device such as Azure Data Box.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "sc-0766",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "scenario": "The organization is reviewing the topic “Identify Azure data migration options” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for copying local data to the device and returning it so Microsoft can upload the data into Azure. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Local file-server cache"
+        },
+        {
+          "id": "b",
+          "text": "Data Box import"
+        },
+        {
+          "id": "c",
+          "text": "Archive access tier"
+        },
+        {
+          "id": "d",
+          "text": "Premium block blobs"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Data Box import is the best match because it is copying local data to the device and returning it so Microsoft can upload the data into Azure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "sc-0767",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "scenario": "The organization is reviewing the topic “Identify Azure data migration options” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is using a Data Box device to transfer large datasets out of Azure. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Storage Explorer backend"
+        },
+        {
+          "id": "b",
+          "text": "Data Box export"
+        },
+        {
+          "id": "c",
+          "text": "Locally redundant storage (LRS)"
+        },
+        {
+          "id": "d",
+          "text": "Azure File Sync"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Data Box export is the best match because it is using a Data Box device to transfer large datasets out of Azure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "sc-0768",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "scenario": "The organization is reviewing the topic “Identify Azure data migration options” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as a hub for assessing and migrating on-premises infrastructure, servers, databases, and applications to Azure. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Local file-server cache"
+        },
+        {
+          "id": "b",
+          "text": "Azure Storage Explorer"
+        },
+        {
+          "id": "c",
+          "text": "Hot access tier"
+        },
+        {
+          "id": "d",
+          "text": "Azure Migrate"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Azure Migrate is the best match because it is a hub for assessing and migrating on-premises infrastructure, servers, databases, and applications to Azure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "sc-0769",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "scenario": "The organization is reviewing the topic “Identify Azure data migration options” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides an Azure Migrate capability for inventorying workloads and evaluating migration readiness. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Discovery and assessment"
+        },
+        {
+          "id": "b",
+          "text": "Azure Files"
+        },
+        {
+          "id": "c",
+          "text": "Azure Blob Storage"
+        },
+        {
+          "id": "d",
+          "text": "Local file-server cache"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Discovery and assessment is the best match because it is an Azure Migrate capability for inventorying workloads and evaluating migration readiness.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "match-0380",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Migrate"
+        },
+        {
+          "id": "l2",
+          "text": "Discovery and assessment"
+        },
+        {
+          "id": "l3",
+          "text": "Server Migration"
+        },
+        {
+          "id": "l4",
+          "text": "Azure Data Box"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "A physical device-based service for transferring very large data sets when network transfer is impractical"
+        },
+        {
+          "id": "r2",
+          "text": "An Azure Migrate capability for inventorying workloads and evaluating migration readiness"
+        },
+        {
+          "id": "r1",
+          "text": "A hub for assessing and migrating on-premises infrastructure, servers, databases, and applications to Azure"
+        },
+        {
+          "id": "r3",
+          "text": "An Azure Migrate capability for moving server workloads to Azure"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "match-0381",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Server Migration"
+        },
+        {
+          "id": "l2",
+          "text": "Azure Data Box"
+        },
+        {
+          "id": "l3",
+          "text": "Online migration"
+        },
+        {
+          "id": "l4",
+          "text": "Offline bulk migration"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Moving workloads and data through network-connected migration tooling such as Azure Migrate"
+        },
+        {
+          "id": "r1",
+          "text": "An Azure Migrate capability for moving server workloads to Azure"
+        },
+        {
+          "id": "r4",
+          "text": "Shipping data on a secure physical device such as Azure Data Box"
+        },
+        {
+          "id": "r2",
+          "text": "A physical device-based service for transferring very large data sets when network transfer is impractical"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l1": "r1",
+        "l4": "r4",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "match-0382",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Online migration"
+        },
+        {
+          "id": "l2",
+          "text": "Offline bulk migration"
+        },
+        {
+          "id": "l3",
+          "text": "Data Box import"
+        },
+        {
+          "id": "l4",
+          "text": "Data Box export"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Using a Data Box device to transfer large datasets out of Azure"
+        },
+        {
+          "id": "r1",
+          "text": "Moving workloads and data through network-connected migration tooling such as Azure Migrate"
+        },
+        {
+          "id": "r2",
+          "text": "Shipping data on a secure physical device such as Azure Data Box"
+        },
+        {
+          "id": "r3",
+          "text": "Copying local data to the device and returning it so Microsoft can upload the data into Azure"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "match-0383",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Data Box import"
+        },
+        {
+          "id": "l2",
+          "text": "Data Box export"
+        },
+        {
+          "id": "l3",
+          "text": "Azure Migrate"
+        },
+        {
+          "id": "l4",
+          "text": "Discovery and assessment"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "Using a Data Box device to transfer large datasets out of Azure"
+        },
+        {
+          "id": "r3",
+          "text": "A hub for assessing and migrating on-premises infrastructure, servers, databases, and applications to Azure"
+        },
+        {
+          "id": "r1",
+          "text": "Copying local data to the device and returning it so Microsoft can upload the data into Azure"
+        },
+        {
+          "id": "r4",
+          "text": "An Azure Migrate capability for inventorying workloads and evaluating migration readiness"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l3": "r3",
+        "l1": "r1",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "match-0384",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Migrate"
+        },
+        {
+          "id": "l2",
+          "text": "Discovery and assessment"
+        },
+        {
+          "id": "l3",
+          "text": "Server Migration"
+        },
+        {
+          "id": "l4",
+          "text": "Azure Data Box"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "An Azure Migrate capability for inventorying workloads and evaluating migration readiness"
+        },
+        {
+          "id": "r1",
+          "text": "A hub for assessing and migrating on-premises infrastructure, servers, databases, and applications to Azure"
+        },
+        {
+          "id": "r4",
+          "text": "A physical device-based service for transferring very large data sets when network transfer is impractical"
+        },
+        {
+          "id": "r3",
+          "text": "An Azure Migrate capability for moving server workloads to Azure"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l1": "r1",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "fill-0380",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "question": "{{answer}} is an Azure Migrate capability for moving server workloads to Azure.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure Blob Storage",
+            "Cross-platform Storage Explorer",
+            "Azure Disk Storage",
+            "Server Migration"
+          ],
+          "correctAnswer": "Server Migration"
+        }
+      ],
+      "explanation": "Server Migration is an Azure Migrate capability for moving server workloads to Azure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "fill-0381",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "question": "The term for a physical device-based service for transferring very large data sets when network transfer is impractical is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Read-access geo-zone-redundant storage (RA-GZRS)",
+            "Azure Data Box",
+            "Local file-server cache",
+            "Offline bulk migration"
+          ],
+          "correctAnswer": "Azure Data Box"
+        }
+      ],
+      "explanation": "Azure Data Box is a physical device-based service for transferring very large data sets when network transfer is impractical.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "fill-0382",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "question": "In this unit, {{answer}} refers to moving workloads and data through network-connected migration tooling such as Azure Migrate.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Online migration",
+            "Storage account namespace",
+            "Azure Blob Storage",
+            "Azure Queue Storage"
+          ],
+          "correctAnswer": "Online migration"
+        }
+      ],
+      "explanation": "Online migration is moving workloads and data through network-connected migration tooling such as Azure Migrate.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "fill-0383",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "question": "For AZ-900, the concept described as shipping data on a secure physical device such as Azure Data Box is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Offline bulk migration",
+            "Online migration",
+            "Discovery and assessment",
+            "Cold access tier"
+          ],
+          "correctAnswer": "Offline bulk migration"
+        }
+      ],
+      "explanation": "Offline bulk migration is shipping data on a secure physical device such as Azure Data Box.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    },
+    {
+      "id": "fill-0384",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure storage services",
+      "description": "Microsoft Learn unit: Identify Azure data migration options",
+      "question": "Choose the term that completes the statement: {{answer}} means copying local data to the device and returning it so Microsoft can upload the data into Azure.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure Disk Storage",
+            "Data Box import",
+            "Archive access tier",
+            "Online migration"
+          ],
+          "correctAnswer": "Data Box import"
+        }
+      ],
+      "explanation": "Data Box import is copying local data to the device and returning it so Microsoft can upload the data into Azure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options"
+    }
+  ]
+}

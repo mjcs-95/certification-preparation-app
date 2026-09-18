@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe Azure networking services · Describe Azure virtual private networks",
+  "questions": [
+    {
+      "id": "mc-0335",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "question": "Which statement best describes Virtual private network (VPN)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An encrypted tunnel that carries trusted private-network traffic across an untrusted network such as the internet"
+        },
+        {
+          "id": "b",
+          "text": "An endpoint with a private IP address inside a virtual network"
+        },
+        {
+          "id": "c",
+          "text": "A specialized VM that performs network functions such as firewalling or WAN optimization"
+        },
+        {
+          "id": "d",
+          "text": "The private connectivity path used to connect a site to Microsoft cloud services"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Virtual private network (VPN) is an encrypted tunnel that carries trusted private-network traffic across an untrusted network such as the internet.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "mc-0336",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "question": "In the context of this Microsoft Learn unit, what does Azure VPN Gateway refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Using an internet-based VPN gateway as an alternate path if an ExpressRoute connection becomes unavailable"
+        },
+        {
+          "id": "b",
+          "text": "A DNS zone used for custom private name resolution within Azure virtual networks"
+        },
+        {
+          "id": "c",
+          "text": "A VPN model that uses routing to determine which traffic enters encrypted tunnels and is preferred for many modern scenarios"
+        },
+        {
+          "id": "d",
+          "text": "A virtual network gateway used to create encrypted connectivity between Azure and other networks or devices"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Azure VPN Gateway is a virtual network gateway used to create encrypted connectivity between Azure and other networks or devices.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "mc-0337",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "question": "Which description correctly matches Site-to-site VPN?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A VPN connection between an on-premises network gateway and an Azure virtual network"
+        },
+        {
+          "id": "b",
+          "text": "A virtual network gateway used to create encrypted connectivity between Azure and other networks or devices"
+        },
+        {
+          "id": "c",
+          "text": "A custom route used to control traffic flow between subnets or virtual networks"
+        },
+        {
+          "id": "d",
+          "text": "A VPN connection between virtual networks"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Site-to-site VPN is a VPN connection between an on-premises network gateway and an Azure virtual network.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "mc-0338",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "question": "Which of the following is the best definition of Point-to-site VPN?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Using an internet-based VPN gateway as an alternate path if an ExpressRoute connection becomes unavailable"
+        },
+        {
+          "id": "b",
+          "text": "A VPN connection between virtual networks"
+        },
+        {
+          "id": "c",
+          "text": "The foundation that gives Azure DNS support for RBAC, activity logs, and resource locks"
+        },
+        {
+          "id": "d",
+          "text": "A VPN connection from an individual client device to an Azure virtual network"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Point-to-site VPN is a VPN connection from an individual client device to an Azure virtual network.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "mc-0339",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "question": "What is the primary meaning of Network-to-network VPN in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Redundant connectivity at ExpressRoute peering locations for higher availability"
+        },
+        {
+          "id": "b",
+          "text": "A resource containing inbound and outbound rules that allow or deny network traffic"
+        },
+        {
+          "id": "c",
+          "text": "A VPN connection between virtual networks"
+        },
+        {
+          "id": "d",
+          "text": "An endpoint with a public IP address that can be reachable from the internet"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Network-to-network VPN is a VPN connection between virtual networks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "mr-0335",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure VPN Gateway: a virtual network gateway used to create encrypted connectivity between Azure and other networks or devices."
+        },
+        {
+          "id": "b",
+          "text": "Site-to-site VPN: a subdivision of a virtual network address space used to segment resources."
+        },
+        {
+          "id": "c",
+          "text": "Virtual private network (VPN): an encrypted tunnel that carries trusted private-network traffic across an untrusted network such as the internet."
+        },
+        {
+          "id": "d",
+          "text": "Azure VPN Gateway: the default resiliency configuration in which a standby VPN gateway instance can take over during failure."
+        },
+        {
+          "id": "e",
+          "text": "Virtual private network (VPN): a VPN connection from an individual client device to an Azure virtual network."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "c"
+      ],
+      "explanation": "The correct pair is: Virtual private network (VPN) — an encrypted tunnel that carries trusted private-network traffic across an untrusted network such as the internet; and Azure VPN Gateway — a virtual network gateway used to create encrypted connectivity between Azure and other networks or devices.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "mr-0336",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Site-to-site VPN: a VPN model that uses routing to determine which traffic enters encrypted tunnels and is preferred for many modern scenarios."
+        },
+        {
+          "id": "b",
+          "text": "Site-to-site VPN: a VPN connection between an on-premises network gateway and an Azure virtual network."
+        },
+        {
+          "id": "c",
+          "text": "Point-to-site VPN: an endpoint with a public IP address that can be reachable from the internet."
+        },
+        {
+          "id": "d",
+          "text": "Point-to-site VPN: a private network in Azure that enables resources to communicate securely with each other and with external networks."
+        },
+        {
+          "id": "e",
+          "text": "Point-to-site VPN: a VPN connection from an individual client device to an Azure virtual network."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: Site-to-site VPN — a VPN connection between an on-premises network gateway and an Azure virtual network; and Point-to-site VPN — a VPN connection from an individual client device to an Azure virtual network.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "mr-0337",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Network-to-network VPN: a VPN connection between virtual networks."
+        },
+        {
+          "id": "b",
+          "text": "Route-based VPN: a VPN model that uses routing to determine which traffic enters encrypted tunnels and is preferred for many modern scenarios."
+        },
+        {
+          "id": "c",
+          "text": "Network-to-network VPN: a configuration in which both gateway instances can carry traffic using separate public IP addresses and tunnels."
+        },
+        {
+          "id": "d",
+          "text": "Route-based VPN: an endpoint with a public IP address that can be reachable from the internet."
+        },
+        {
+          "id": "e",
+          "text": "Network-to-network VPN: an endpoint with a private IP address inside a virtual network."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Network-to-network VPN — a VPN connection between virtual networks; and Route-based VPN — a VPN model that uses routing to determine which traffic enters encrypted tunnels and is preferred for many modern scenarios.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "mr-0338",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Active/standby gateway: the default resiliency configuration in which a standby VPN gateway instance can take over during failure."
+        },
+        {
+          "id": "b",
+          "text": "Active/active gateway: a resource containing inbound and outbound rules that allow or deny network traffic."
+        },
+        {
+          "id": "c",
+          "text": "Active/standby gateway: a subdivision of a virtual network address space used to segment resources."
+        },
+        {
+          "id": "d",
+          "text": "Route-based VPN: a resource containing inbound and outbound rules that allow or deny network traffic."
+        },
+        {
+          "id": "e",
+          "text": "Active/active gateway: a configuration in which both gateway instances can carry traffic using separate public IP addresses and tunnels."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "e"
+      ],
+      "explanation": "The correct pair is: Active/standby gateway — the default resiliency configuration in which a standby VPN gateway instance can take over during failure; and Active/active gateway — a configuration in which both gateway instances can carry traffic using separate public IP addresses and tunnels.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "mr-0339",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Active/standby gateway: a custom route used to control traffic flow between subnets or virtual networks."
+        },
+        {
+          "id": "b",
+          "text": "Azure VPN Gateway: the default resiliency configuration in which a standby VPN gateway instance can take over during failure."
+        },
+        {
+          "id": "c",
+          "text": "Virtual private network (VPN): a VPN connection from an individual client device to an Azure virtual network."
+        },
+        {
+          "id": "d",
+          "text": "Azure VPN Gateway: a virtual network gateway used to create encrypted connectivity between Azure and other networks or devices."
+        },
+        {
+          "id": "e",
+          "text": "Virtual private network (VPN): an encrypted tunnel that carries trusted private-network traffic across an untrusted network such as the internet."
+        }
+      ],
+      "correctAnswers": [
+        "d",
+        "e"
+      ],
+      "explanation": "The correct pair is: Virtual private network (VPN) — an encrypted tunnel that carries trusted private-network traffic across an untrusted network such as the internet; and Azure VPN Gateway — a virtual network gateway used to create encrypted connectivity between Azure and other networks or devices.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "tf-0335",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "question": "Virtual private network (VPN) is an encrypted tunnel that carries trusted private-network traffic across an untrusted network such as the internet.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Virtual private network (VPN) is an encrypted tunnel that carries trusted private-network traffic across an untrusted network such as the internet.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "tf-0336",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "question": "According to this unit: Azure VPN Gateway is a VPN connection between virtual networks.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Azure VPN Gateway is a virtual network gateway used to create encrypted connectivity between Azure and other networks or devices.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "tf-0337",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "question": "For Azure fundamentals, Site-to-site VPN is a VPN connection between an on-premises network gateway and an Azure virtual network.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Site-to-site VPN is a VPN connection between an on-premises network gateway and an Azure virtual network.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "tf-0338",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "question": "This statement is correct: Point-to-site VPN is the default resiliency configuration in which a standby VPN gateway instance can take over during failure.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Point-to-site VPN is a VPN connection from an individual client device to an Azure virtual network.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "tf-0339",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "question": "The unit supports the following statement: Network-to-network VPN is a VPN connection between virtual networks.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Network-to-network VPN is a VPN connection between virtual networks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "sc-0670",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual private networks” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: an encrypted tunnel that carries trusted private-network traffic across an untrusted network such as the internet. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Border Gateway Protocol (BGP)"
+        },
+        {
+          "id": "b",
+          "text": "Virtual private network (VPN)"
+        },
+        {
+          "id": "c",
+          "text": "VPN failover"
+        },
+        {
+          "id": "d",
+          "text": "Active/standby gateway"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Virtual private network (VPN) is the best match because it is an encrypted tunnel that carries trusted private-network traffic across an untrusted network such as the internet.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "sc-0671",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual private networks” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs a virtual network gateway used to create encrypted connectivity between Azure and other networks or devices. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure VPN Gateway"
+        },
+        {
+          "id": "b",
+          "text": "Private endpoint"
+        },
+        {
+          "id": "c",
+          "text": "ExpressRoute circuit"
+        },
+        {
+          "id": "d",
+          "text": "Private DNS zone"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure VPN Gateway is the best match because it is a virtual network gateway used to create encrypted connectivity between Azure and other networks or devices.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "sc-0672",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual private networks” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: a VPN connection between an on-premises network gateway and an Azure virtual network. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Network security group (NSG)"
+        },
+        {
+          "id": "b",
+          "text": "Private DNS zone"
+        },
+        {
+          "id": "c",
+          "text": "Site-to-site VPN"
+        },
+        {
+          "id": "d",
+          "text": "Anycast networking"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Site-to-site VPN is the best match because it is a VPN connection between an on-premises network gateway and an Azure virtual network.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "sc-0673",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual private networks” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: a VPN connection from an individual client device to an Azure virtual network. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Point-to-site VPN"
+        },
+        {
+          "id": "b",
+          "text": "Public endpoint"
+        },
+        {
+          "id": "c",
+          "text": "Azure ExpressRoute"
+        },
+        {
+          "id": "d",
+          "text": "Anycast networking"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Point-to-site VPN is the best match because it is a VPN connection from an individual client device to an Azure virtual network.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "sc-0674",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual private networks” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants a VPN connection between virtual networks. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Virtual private network (VPN)"
+        },
+        {
+          "id": "b",
+          "text": "Azure ExpressRoute"
+        },
+        {
+          "id": "c",
+          "text": "Network-to-network VPN"
+        },
+        {
+          "id": "d",
+          "text": "Private endpoint"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Network-to-network VPN is the best match because it is a VPN connection between virtual networks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "sc-0675",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual private networks” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for a VPN model that uses routing to determine which traffic enters encrypted tunnels and is preferred for many modern scenarios. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alias record"
+        },
+        {
+          "id": "b",
+          "text": "Route-based VPN"
+        },
+        {
+          "id": "c",
+          "text": "Private connectivity"
+        },
+        {
+          "id": "d",
+          "text": "Azure Virtual Network (VNet)"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Route-based VPN is the best match because it is a VPN model that uses routing to determine which traffic enters encrypted tunnels and is preferred for many modern scenarios.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "sc-0676",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual private networks” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for the default resiliency configuration in which a standby VPN gateway instance can take over during failure. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "VPN failover"
+        },
+        {
+          "id": "b",
+          "text": "Active/standby gateway"
+        },
+        {
+          "id": "c",
+          "text": "Point-to-site VPN"
+        },
+        {
+          "id": "d",
+          "text": "Azure VPN Gateway"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Active/standby gateway is the best match because it is the default resiliency configuration in which a standby VPN gateway instance can take over during failure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "sc-0677",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual private networks” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is a configuration in which both gateway instances can carry traffic using separate public IP addresses and tunnels. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure ExpressRoute"
+        },
+        {
+          "id": "b",
+          "text": "Active/active gateway"
+        },
+        {
+          "id": "c",
+          "text": "VPN failover"
+        },
+        {
+          "id": "d",
+          "text": "Domain registration"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Active/active gateway is the best match because it is a configuration in which both gateway instances can carry traffic using separate public IP addresses and tunnels.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "sc-0678",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual private networks” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as an encrypted tunnel that carries trusted private-network traffic across an untrusted network such as the internet. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Route-based VPN"
+        },
+        {
+          "id": "b",
+          "text": "Active/active gateway"
+        },
+        {
+          "id": "c",
+          "text": "Azure Virtual Network (VNet)"
+        },
+        {
+          "id": "d",
+          "text": "Virtual private network (VPN)"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Virtual private network (VPN) is the best match because it is an encrypted tunnel that carries trusted private-network traffic across an untrusted network such as the internet.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "sc-0679",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual private networks” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides a virtual network gateway used to create encrypted connectivity between Azure and other networks or devices. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure VPN Gateway"
+        },
+        {
+          "id": "b",
+          "text": "ExpressRoute Global Reach"
+        },
+        {
+          "id": "c",
+          "text": "Public endpoint"
+        },
+        {
+          "id": "d",
+          "text": "Alias record"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure VPN Gateway is the best match because it is a virtual network gateway used to create encrypted connectivity between Azure and other networks or devices.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "match-0335",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Virtual private network (VPN)"
+        },
+        {
+          "id": "l2",
+          "text": "Azure VPN Gateway"
+        },
+        {
+          "id": "l3",
+          "text": "Site-to-site VPN"
+        },
+        {
+          "id": "l4",
+          "text": "Point-to-site VPN"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "An encrypted tunnel that carries trusted private-network traffic across an untrusted network such as the internet"
+        },
+        {
+          "id": "r3",
+          "text": "A VPN connection between an on-premises network gateway and an Azure virtual network"
+        },
+        {
+          "id": "r2",
+          "text": "A virtual network gateway used to create encrypted connectivity between Azure and other networks or devices"
+        },
+        {
+          "id": "r4",
+          "text": "A VPN connection from an individual client device to an Azure virtual network"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l3": "r3",
+        "l2": "r2",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "match-0336",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Site-to-site VPN"
+        },
+        {
+          "id": "l2",
+          "text": "Point-to-site VPN"
+        },
+        {
+          "id": "l3",
+          "text": "Network-to-network VPN"
+        },
+        {
+          "id": "l4",
+          "text": "Route-based VPN"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "A VPN connection from an individual client device to an Azure virtual network"
+        },
+        {
+          "id": "r4",
+          "text": "A VPN model that uses routing to determine which traffic enters encrypted tunnels and is preferred for many modern scenarios"
+        },
+        {
+          "id": "r1",
+          "text": "A VPN connection between an on-premises network gateway and an Azure virtual network"
+        },
+        {
+          "id": "r3",
+          "text": "A VPN connection between virtual networks"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l4": "r4",
+        "l1": "r1",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "match-0337",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Network-to-network VPN"
+        },
+        {
+          "id": "l2",
+          "text": "Route-based VPN"
+        },
+        {
+          "id": "l3",
+          "text": "Active/standby gateway"
+        },
+        {
+          "id": "l4",
+          "text": "Active/active gateway"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "The default resiliency configuration in which a standby VPN gateway instance can take over during failure"
+        },
+        {
+          "id": "r1",
+          "text": "A VPN connection between virtual networks"
+        },
+        {
+          "id": "r2",
+          "text": "A VPN model that uses routing to determine which traffic enters encrypted tunnels and is preferred for many modern scenarios"
+        },
+        {
+          "id": "r4",
+          "text": "A configuration in which both gateway instances can carry traffic using separate public IP addresses and tunnels"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l1": "r1",
+        "l2": "r2",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "match-0338",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Active/standby gateway"
+        },
+        {
+          "id": "l2",
+          "text": "Active/active gateway"
+        },
+        {
+          "id": "l3",
+          "text": "Virtual private network (VPN)"
+        },
+        {
+          "id": "l4",
+          "text": "Azure VPN Gateway"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "An encrypted tunnel that carries trusted private-network traffic across an untrusted network such as the internet"
+        },
+        {
+          "id": "r2",
+          "text": "A configuration in which both gateway instances can carry traffic using separate public IP addresses and tunnels"
+        },
+        {
+          "id": "r1",
+          "text": "The default resiliency configuration in which a standby VPN gateway instance can take over during failure"
+        },
+        {
+          "id": "r4",
+          "text": "A virtual network gateway used to create encrypted connectivity between Azure and other networks or devices"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l2": "r2",
+        "l1": "r1",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "match-0339",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Virtual private network (VPN)"
+        },
+        {
+          "id": "l2",
+          "text": "Azure VPN Gateway"
+        },
+        {
+          "id": "l3",
+          "text": "Site-to-site VPN"
+        },
+        {
+          "id": "l4",
+          "text": "Point-to-site VPN"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "A VPN connection from an individual client device to an Azure virtual network"
+        },
+        {
+          "id": "r2",
+          "text": "A virtual network gateway used to create encrypted connectivity between Azure and other networks or devices"
+        },
+        {
+          "id": "r3",
+          "text": "A VPN connection between an on-premises network gateway and an Azure virtual network"
+        },
+        {
+          "id": "r1",
+          "text": "An encrypted tunnel that carries trusted private-network traffic across an untrusted network such as the internet"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l2": "r2",
+        "l3": "r3",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "fill-0335",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "question": "{{answer}} is a VPN connection between an on-premises network gateway and an Azure virtual network.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure VPN Gateway",
+            "Private endpoint",
+            "Anycast networking",
+            "Site-to-site VPN"
+          ],
+          "correctAnswer": "Site-to-site VPN"
+        }
+      ],
+      "explanation": "Site-to-site VPN is a VPN connection between an on-premises network gateway and an Azure virtual network.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "fill-0336",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "question": "The term for a VPN connection from an individual client device to an Azure virtual network is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Point-to-site VPN",
+            "Azure VPN Gateway",
+            "Azure Resource Manager integration",
+            "Anycast networking"
+          ],
+          "correctAnswer": "Point-to-site VPN"
+        }
+      ],
+      "explanation": "Point-to-site VPN is a VPN connection from an individual client device to an Azure virtual network.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "fill-0337",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "question": "In this unit, {{answer}} refers to a VPN connection between virtual networks.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Service endpoint",
+            "Network-to-network VPN",
+            "Azure RBAC for DNS",
+            "Public endpoint"
+          ],
+          "correctAnswer": "Network-to-network VPN"
+        }
+      ],
+      "explanation": "Network-to-network VPN is a VPN connection between virtual networks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "fill-0338",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "question": "For AZ-900, the concept described as a VPN model that uses routing to determine which traffic enters encrypted tunnels and is preferred for many modern scenarios is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Private DNS zone",
+            "Route-based VPN",
+            "Predictable latency",
+            "VPN failover"
+          ],
+          "correctAnswer": "Route-based VPN"
+        }
+      ],
+      "explanation": "Route-based VPN is a VPN model that uses routing to determine which traffic enters encrypted tunnels and is preferred for many modern scenarios.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    },
+    {
+      "id": "fill-0339",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure virtual private networks",
+      "question": "Choose the term that completes the statement: {{answer}} means the default resiliency configuration in which a standby VPN gateway instance can take over during failure.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Active/standby gateway",
+            "Alias record",
+            "Azure ExpressRoute",
+            "Network security group (NSG)"
+          ],
+          "correctAnswer": "Active/standby gateway"
+        }
+      ],
+      "explanation": "Active/standby gateway is the default resiliency configuration in which a standby VPN gateway instance can take over during failure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/3-virtual-private-networks"
+    }
+  ]
+}

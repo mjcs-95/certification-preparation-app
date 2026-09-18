@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe cloud computing · Introduction to cloud computing",
+  "questions": [
+    {
+      "id": "mc-0005",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "question": "Which statement best describes Cloud computing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The cloud provider is responsible for the physical network infrastructure"
+        },
+        {
+          "id": "b",
+          "text": "An AZ-900 domain covering general cloud ideas and accounting for roughly 25–30% of the exam"
+        },
+        {
+          "id": "c",
+          "text": "The delivery of computing services over the internet"
+        },
+        {
+          "id": "d",
+          "text": "A beginner-oriented series that introduces Azure services, cloud concepts, governance, and management"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Cloud computing is the delivery of computing services over the internet.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "mc-0006",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "question": "In the context of this Microsoft Learn unit, what does Shared responsibility model refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cloud pricing in which charges generally track actual service consumption"
+        },
+        {
+          "id": "b",
+          "text": "Up-front spending on physical infrastructure such as servers, networking equipment, and datacenter space"
+        },
+        {
+          "id": "c",
+          "text": "A model that divides security and management duties between the cloud provider and the customer"
+        },
+        {
+          "id": "d",
+          "text": "Cloud infrastructure operated by a third-party provider and offered to multiple customers"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Shared responsibility model is a model that divides security and management duties between the cloud provider and the customer.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "mc-0007",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "question": "Which description correctly matches Public cloud?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The use of services from two or more public cloud providers"
+        },
+        {
+          "id": "b",
+          "text": "Allocating too little capacity, which can cause performance or availability problems"
+        },
+        {
+          "id": "c",
+          "text": "Managed or hosted database capabilities delivered through a cloud platform"
+        },
+        {
+          "id": "d",
+          "text": "Cloud infrastructure operated by a third-party provider and offered to multiple customers"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Public cloud is cloud infrastructure operated by a third-party provider and offered to multiple customers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "mc-0008",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "question": "Which of the following is the best definition of Private cloud?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A cloud environment dedicated to a single organization"
+        },
+        {
+          "id": "b",
+          "text": "Approaches that determine cloud costs based on factors such as consumption, service choices, and commitments"
+        },
+        {
+          "id": "c",
+          "text": "Ongoing spending for services consumed over time"
+        },
+        {
+          "id": "d",
+          "text": "Technology that helps manage Azure, on-premises, hybrid, and multicloud resources through a consistent management approach"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Private cloud is a cloud environment dedicated to a single organization.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "mc-0009",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "question": "What is the primary meaning of Hybrid cloud in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Removing resource instances when demand falls"
+        },
+        {
+          "id": "b",
+          "text": "The ability to provision and deprovision resources quickly without purchasing new datacenter hardware"
+        },
+        {
+          "id": "c",
+          "text": "Managed or hosted database capabilities delivered through a cloud platform"
+        },
+        {
+          "id": "d",
+          "text": "An environment that connects private infrastructure with public cloud resources"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Hybrid cloud is an environment that connects private infrastructure with public cloud resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "mr-0005",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cloud computing: the delivery of computing services over the internet."
+        },
+        {
+          "id": "b",
+          "text": "Public cloud: a beginner-oriented series that introduces Azure services, cloud concepts, governance, and management."
+        },
+        {
+          "id": "c",
+          "text": "Cloud computing: a cloud environment dedicated to a single organization."
+        },
+        {
+          "id": "d",
+          "text": "Shared responsibility model: a model that divides security and management duties between the cloud provider and the customer."
+        },
+        {
+          "id": "e",
+          "text": "Shared responsibility model: approaches that determine cloud costs based on factors such as consumption, service choices, and commitments."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Cloud computing — the delivery of computing services over the internet; and Shared responsibility model — a model that divides security and management duties between the cloud provider and the customer.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "mr-0006",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Private cloud: an AZ-900 domain covering general cloud ideas and accounting for roughly 25–30% of the exam."
+        },
+        {
+          "id": "b",
+          "text": "Private cloud: a cloud environment dedicated to a single organization."
+        },
+        {
+          "id": "c",
+          "text": "Public cloud: cloud infrastructure operated by a third-party provider and offered to multiple customers."
+        },
+        {
+          "id": "d",
+          "text": "Private cloud: a cloud computing platform that provides services for compute, storage, networking, databases, AI, IoT, and more."
+        },
+        {
+          "id": "e",
+          "text": "Public cloud: a pricing approach in which customers pay for the resources they consume."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: Public cloud — cloud infrastructure operated by a third-party provider and offered to multiple customers; and Private cloud — a cloud environment dedicated to a single organization.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "mr-0007",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Consumption-based model: an AZ-900 domain covering general cloud ideas and accounting for roughly 25–30% of the exam."
+        },
+        {
+          "id": "b",
+          "text": "Hybrid cloud: an environment that connects private infrastructure with public cloud resources."
+        },
+        {
+          "id": "c",
+          "text": "Hybrid cloud: an AZ-900 domain covering Azure infrastructure and services and accounting for roughly 35–40% of the exam."
+        },
+        {
+          "id": "d",
+          "text": "Hybrid cloud: a workload requirement used to decide whether public, private, or hybrid cloud is the best fit."
+        },
+        {
+          "id": "e",
+          "text": "Consumption-based model: a pricing approach in which customers pay for the resources they consume."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: Hybrid cloud — an environment that connects private infrastructure with public cloud resources; and Consumption-based model — a pricing approach in which customers pay for the resources they consume.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "mr-0008",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Consumption-based model: an AZ-900 domain covering management, monitoring, cost, and governance and accounting for roughly 30–35% of the exam."
+        },
+        {
+          "id": "b",
+          "text": "Cloud model use case: a workload requirement used to decide whether public, private, or hybrid cloud is the best fit."
+        },
+        {
+          "id": "c",
+          "text": "Cloud model use case: an AZ-900 domain covering management, monitoring, cost, and governance and accounting for roughly 30–35% of the exam."
+        },
+        {
+          "id": "d",
+          "text": "Cloud pricing models: a beginner-oriented series that introduces Azure services, cloud concepts, governance, and management."
+        },
+        {
+          "id": "e",
+          "text": "Cloud pricing models: approaches that determine cloud costs based on factors such as consumption, service choices, and commitments."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: Cloud pricing models — approaches that determine cloud costs based on factors such as consumption, service choices, and commitments; and Cloud model use case — a workload requirement used to decide whether public, private, or hybrid cloud is the best fit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "mr-0009",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cloud pricing models: the Microsoft Azure Fundamentals certification exam that Azure Fundamentals learning paths help prepare you for."
+        },
+        {
+          "id": "b",
+          "text": "Shared responsibility model: approaches that determine cloud costs based on factors such as consumption, service choices, and commitments."
+        },
+        {
+          "id": "c",
+          "text": "Cloud computing: a cloud environment dedicated to a single organization."
+        },
+        {
+          "id": "d",
+          "text": "Cloud computing: the delivery of computing services over the internet."
+        },
+        {
+          "id": "e",
+          "text": "Shared responsibility model: a model that divides security and management duties between the cloud provider and the customer."
+        }
+      ],
+      "correctAnswers": [
+        "d",
+        "e"
+      ],
+      "explanation": "The correct pair is: Cloud computing — the delivery of computing services over the internet; and Shared responsibility model — a model that divides security and management duties between the cloud provider and the customer.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "tf-0005",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "question": "Cloud computing is the delivery of computing services over the internet.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Cloud computing is the delivery of computing services over the internet.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "tf-0006",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "question": "According to this unit: Shared responsibility model is an environment that connects private infrastructure with public cloud resources.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Shared responsibility model is a model that divides security and management duties between the cloud provider and the customer.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "tf-0007",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "question": "For Azure fundamentals, Public cloud is cloud infrastructure operated by a third-party provider and offered to multiple customers.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Public cloud is cloud infrastructure operated by a third-party provider and offered to multiple customers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "tf-0008",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "question": "This statement is correct: Private cloud is approaches that determine cloud costs based on factors such as consumption, service choices, and commitments.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Private cloud is a cloud environment dedicated to a single organization.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "tf-0009",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "question": "The unit supports the following statement: Hybrid cloud is an environment that connects private infrastructure with public cloud resources.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Hybrid cloud is an environment that connects private infrastructure with public cloud resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "sc-0010",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "scenario": "The organization is reviewing the topic “Introduction to cloud computing” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: the delivery of computing services over the internet. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cloud computing"
+        },
+        {
+          "id": "b",
+          "text": "Consumption-based model"
+        },
+        {
+          "id": "c",
+          "text": "Cloud pricing models"
+        },
+        {
+          "id": "d",
+          "text": "Customer data responsibility"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Cloud computing is the best match because it is the delivery of computing services over the internet.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "sc-0011",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "scenario": "The organization is reviewing the topic “Introduction to cloud computing” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs a model that divides security and management duties between the cloud provider and the customer. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "AZ-900"
+        },
+        {
+          "id": "b",
+          "text": "Capital expenditure (CapEx)"
+        },
+        {
+          "id": "c",
+          "text": "Shared responsibility model"
+        },
+        {
+          "id": "d",
+          "text": "General IT knowledge"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Shared responsibility model is the best match because it is a model that divides security and management duties between the cloud provider and the customer.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "sc-0012",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "scenario": "The organization is reviewing the topic “Introduction to cloud computing” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: cloud infrastructure operated by a third-party provider and offered to multiple customers. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Capital expenditure (CapEx)"
+        },
+        {
+          "id": "b",
+          "text": "Cloud pricing models"
+        },
+        {
+          "id": "c",
+          "text": "Public cloud"
+        },
+        {
+          "id": "d",
+          "text": "Consumption-based model"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Public cloud is the best match because it is cloud infrastructure operated by a third-party provider and offered to multiple customers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "sc-0013",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "scenario": "The organization is reviewing the topic “Introduction to cloud computing” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: a cloud environment dedicated to a single organization. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Private cloud"
+        },
+        {
+          "id": "b",
+          "text": "Shared responsibility model"
+        },
+        {
+          "id": "c",
+          "text": "Azure Fundamentals"
+        },
+        {
+          "id": "d",
+          "text": "Public-cloud scaling"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Private cloud is the best match because it is a cloud environment dedicated to a single organization.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "sc-0014",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "scenario": "The organization is reviewing the topic “Introduction to cloud computing” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants an environment that connects private infrastructure with public cloud resources. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Fundamentals"
+        },
+        {
+          "id": "b",
+          "text": "On-demand provisioning"
+        },
+        {
+          "id": "c",
+          "text": "Azure VMware Solution"
+        },
+        {
+          "id": "d",
+          "text": "Hybrid cloud"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Hybrid cloud is the best match because it is an environment that connects private infrastructure with public cloud resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "sc-0015",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "scenario": "The organization is reviewing the topic “Introduction to cloud computing” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for a pricing approach in which customers pay for the resources they consume. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS responsibility model"
+        },
+        {
+          "id": "b",
+          "text": "Consumption-based model"
+        },
+        {
+          "id": "c",
+          "text": "Provider physical datacenter responsibility"
+        },
+        {
+          "id": "d",
+          "text": "Customer identity responsibility"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Consumption-based model is the best match because it is a pricing approach in which customers pay for the resources they consume.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "sc-0016",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "scenario": "The organization is reviewing the topic “Introduction to cloud computing” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for approaches that determine cloud costs based on factors such as consumption, service choices, and commitments. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cloud databases"
+        },
+        {
+          "id": "b",
+          "text": "Cloud pricing models"
+        },
+        {
+          "id": "c",
+          "text": "Provider physical datacenter responsibility"
+        },
+        {
+          "id": "d",
+          "text": "Cloud computing"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Cloud pricing models is the best match because it is approaches that determine cloud costs based on factors such as consumption, service choices, and commitments.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "sc-0017",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "scenario": "The organization is reviewing the topic “Introduction to cloud computing” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is a workload requirement used to decide whether public, private, or hybrid cloud is the best fit. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Describe Azure management and governance"
+        },
+        {
+          "id": "b",
+          "text": "Provider physical datacenter responsibility"
+        },
+        {
+          "id": "c",
+          "text": "Provider physical network responsibility"
+        },
+        {
+          "id": "d",
+          "text": "Cloud model use case"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Cloud model use case is the best match because it is a workload requirement used to decide whether public, private, or hybrid cloud is the best fit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "sc-0018",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "scenario": "The organization is reviewing the topic “Introduction to cloud computing” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as the delivery of computing services over the internet. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "AZ-900"
+        },
+        {
+          "id": "b",
+          "text": "IaaS responsibility model"
+        },
+        {
+          "id": "c",
+          "text": "Cloud computing"
+        },
+        {
+          "id": "d",
+          "text": "Customer data responsibility"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Cloud computing is the best match because it is the delivery of computing services over the internet.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "sc-0019",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "scenario": "The organization is reviewing the topic “Introduction to cloud computing” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides a model that divides security and management duties between the cloud provider and the customer. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "General IT knowledge"
+        },
+        {
+          "id": "b",
+          "text": "Shared responsibility model"
+        },
+        {
+          "id": "c",
+          "text": "Capital expenditure (CapEx)"
+        },
+        {
+          "id": "d",
+          "text": "Operational expenditure (OpEx)"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Shared responsibility model is the best match because it is a model that divides security and management duties between the cloud provider and the customer.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "match-0005",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Cloud computing"
+        },
+        {
+          "id": "l2",
+          "text": "Shared responsibility model"
+        },
+        {
+          "id": "l3",
+          "text": "Public cloud"
+        },
+        {
+          "id": "l4",
+          "text": "Private cloud"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "A model that divides security and management duties between the cloud provider and the customer"
+        },
+        {
+          "id": "r1",
+          "text": "The delivery of computing services over the internet"
+        },
+        {
+          "id": "r3",
+          "text": "Cloud infrastructure operated by a third-party provider and offered to multiple customers"
+        },
+        {
+          "id": "r4",
+          "text": "A cloud environment dedicated to a single organization"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l1": "r1",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "match-0006",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Public cloud"
+        },
+        {
+          "id": "l2",
+          "text": "Private cloud"
+        },
+        {
+          "id": "l3",
+          "text": "Hybrid cloud"
+        },
+        {
+          "id": "l4",
+          "text": "Consumption-based model"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "A cloud environment dedicated to a single organization"
+        },
+        {
+          "id": "r3",
+          "text": "An environment that connects private infrastructure with public cloud resources"
+        },
+        {
+          "id": "r1",
+          "text": "Cloud infrastructure operated by a third-party provider and offered to multiple customers"
+        },
+        {
+          "id": "r4",
+          "text": "A pricing approach in which customers pay for the resources they consume"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l3": "r3",
+        "l1": "r1",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "match-0007",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Hybrid cloud"
+        },
+        {
+          "id": "l2",
+          "text": "Consumption-based model"
+        },
+        {
+          "id": "l3",
+          "text": "Cloud pricing models"
+        },
+        {
+          "id": "l4",
+          "text": "Cloud model use case"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "A pricing approach in which customers pay for the resources they consume"
+        },
+        {
+          "id": "r1",
+          "text": "An environment that connects private infrastructure with public cloud resources"
+        },
+        {
+          "id": "r4",
+          "text": "A workload requirement used to decide whether public, private, or hybrid cloud is the best fit"
+        },
+        {
+          "id": "r3",
+          "text": "Approaches that determine cloud costs based on factors such as consumption, service choices, and commitments"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l1": "r1",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "match-0008",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Cloud pricing models"
+        },
+        {
+          "id": "l2",
+          "text": "Cloud model use case"
+        },
+        {
+          "id": "l3",
+          "text": "Cloud computing"
+        },
+        {
+          "id": "l4",
+          "text": "Shared responsibility model"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "The delivery of computing services over the internet"
+        },
+        {
+          "id": "r2",
+          "text": "A workload requirement used to decide whether public, private, or hybrid cloud is the best fit"
+        },
+        {
+          "id": "r1",
+          "text": "Approaches that determine cloud costs based on factors such as consumption, service choices, and commitments"
+        },
+        {
+          "id": "r4",
+          "text": "A model that divides security and management duties between the cloud provider and the customer"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l2": "r2",
+        "l1": "r1",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "match-0009",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Cloud computing"
+        },
+        {
+          "id": "l2",
+          "text": "Shared responsibility model"
+        },
+        {
+          "id": "l3",
+          "text": "Public cloud"
+        },
+        {
+          "id": "l4",
+          "text": "Private cloud"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "A model that divides security and management duties between the cloud provider and the customer"
+        },
+        {
+          "id": "r4",
+          "text": "A cloud environment dedicated to a single organization"
+        },
+        {
+          "id": "r1",
+          "text": "The delivery of computing services over the internet"
+        },
+        {
+          "id": "r3",
+          "text": "Cloud infrastructure operated by a third-party provider and offered to multiple customers"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l4": "r4",
+        "l1": "r1",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "fill-0005",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "question": "{{answer}} is cloud infrastructure operated by a third-party provider and offered to multiple customers.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Scale in",
+            "Overprovisioning",
+            "Public cloud",
+            "Hybrid cloud"
+          ],
+          "correctAnswer": "Public cloud"
+        }
+      ],
+      "explanation": "Public cloud is cloud infrastructure operated by a third-party provider and offered to multiple customers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "fill-0006",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "question": "The term for a cloud environment dedicated to a single organization is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Scale out",
+            "Private cloud",
+            "Provider physical network responsibility",
+            "Azure VMware Solution"
+          ],
+          "correctAnswer": "Private cloud"
+        }
+      ],
+      "explanation": "Private cloud is a cloud environment dedicated to a single organization.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "fill-0007",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "question": "In this unit, {{answer}} refers to an environment that connects private infrastructure with public cloud resources.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Customer identity responsibility",
+            "SaaS responsibility model",
+            "Hybrid cloud",
+            "Pay-as-you-go"
+          ],
+          "correctAnswer": "Hybrid cloud"
+        }
+      ],
+      "explanation": "Hybrid cloud is an environment that connects private infrastructure with public cloud resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "fill-0008",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "question": "For AZ-900, the concept described as a pricing approach in which customers pay for the resources they consume is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Provider physical datacenter responsibility",
+            "Consumption-based model",
+            "Scale in",
+            "General IT knowledge"
+          ],
+          "correctAnswer": "Consumption-based model"
+        }
+      ],
+      "explanation": "Consumption-based model is a pricing approach in which customers pay for the resources they consume.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    },
+    {
+      "id": "fill-0009",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Introduction to cloud computing",
+      "question": "Choose the term that completes the statement: {{answer}} means approaches that determine cloud costs based on factors such as consumption, service choices, and commitments.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Operational expenditure (OpEx)",
+            "Cloud pricing models",
+            "Cloud computing",
+            "AZ-900"
+          ],
+          "correctAnswer": "Cloud pricing models"
+        }
+      ],
+      "explanation": "Cloud pricing models is approaches that determine cloud costs based on factors such as consumption, service choices, and commitments.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute"
+    }
+  ]
+}

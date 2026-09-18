@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe Azure identity, access, and security · Describe encryption and key management in Azure",
+  "questions": [
+    {
+      "id": "mc-0440",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "question": "Which statement best describes Encryption at rest?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A Microsoft passwordless authentication option using a device-bound credential and PIN or biometrics"
+        },
+        {
+          "id": "b",
+          "text": "A Conditional Access control that requires multifactor authentication before granting access"
+        },
+        {
+          "id": "c",
+          "text": "A role assignment at a higher scope applying to child resources"
+        },
+        {
+          "id": "d",
+          "text": "Protecting stored data by encoding it while it resides on disks or other storage media"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Encryption at rest is protecting stored data by encoding it while it resides on disks or other storage media.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "mc-0441",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "question": "In the context of this Microsoft Learn unit, what does Encryption in transit refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An app that can support MFA and passwordless sign-in"
+        },
+        {
+          "id": "b",
+          "text": "A security model that assumes breach and verifies each access request rather than trusting based on network location"
+        },
+        {
+          "id": "c",
+          "text": "Protecting data while it moves across networks, commonly with protocols such as TLS"
+        },
+        {
+          "id": "d",
+          "text": "Managed domain capabilities such as domain join, Group Policy, LDAP, Kerberos, and NTLM without customer-managed domain controllers"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Encryption in transit is protecting data while it moves across networks, commonly with protocols such as TLS.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "mc-0442",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "question": "Which description correctly matches Azure Storage Service Encryption?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The cloud app or resource being accessed as a policy condition"
+        },
+        {
+          "id": "b",
+          "text": "Automatic encryption of data written to Azure Storage"
+        },
+        {
+          "id": "c",
+          "text": "Microsoft Entra capabilities for managing access by external users and customers"
+        },
+        {
+          "id": "d",
+          "text": "Segmentation and network controls that restrict communication paths"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Storage Service Encryption is automatic encryption of data written to Azure Storage.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "mc-0443",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "question": "Which of the following is the best definition of Azure Disk Encryption?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A cloud security management service that helps assess security posture and protect workloads"
+        },
+        {
+          "id": "b",
+          "text": "Requiring an additional authentication factor so a password alone is not sufficient"
+        },
+        {
+          "id": "c",
+          "text": "Encryption capabilities for Azure virtual-machine disks"
+        },
+        {
+          "id": "d",
+          "text": "Automatic encryption of data written to Azure Storage"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure Disk Encryption is encryption capabilities for Azure virtual-machine disks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "mc-0444",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "question": "What is the primary meaning of Azure Key Vault in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A cloud security management service that helps assess security posture and protect workloads"
+        },
+        {
+          "id": "b",
+          "text": "A service for securely storing and controlling access to secrets, encryption keys, and certificates"
+        },
+        {
+          "id": "c",
+          "text": "Reassessing trust based on changing signals rather than assuming a one-time login establishes permanent trust"
+        },
+        {
+          "id": "d",
+          "text": "Defender capabilities that detect threats and protect supported cloud workloads"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Key Vault is a service for securely storing and controlling access to secrets, encryption keys, and certificates.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "mr-0440",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Encryption at rest: encryption capabilities for Azure virtual-machine disks."
+        },
+        {
+          "id": "b",
+          "text": "Encryption at rest: protecting stored data by encoding it while it resides on disks or other storage media."
+        },
+        {
+          "id": "c",
+          "text": "Encryption in transit: protecting data while it moves across networks, commonly with protocols such as TLS."
+        },
+        {
+          "id": "d",
+          "text": "Azure Storage Service Encryption: verifying the identity of a person, service, or device before granting access."
+        },
+        {
+          "id": "e",
+          "text": "Encryption in transit: an encryption key whose lifecycle is managed by Microsoft for the service."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: Encryption at rest — protecting stored data by encoding it while it resides on disks or other storage media; and Encryption in transit — protecting data while it moves across networks, commonly with protocols such as TLS.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "mr-0441",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Disk Encryption: encryption capabilities for Azure virtual-machine disks."
+        },
+        {
+          "id": "b",
+          "text": "Azure Storage Service Encryption: automatic encryption of data written to Azure Storage."
+        },
+        {
+          "id": "c",
+          "text": "Azure Disk Encryption: using one identity sign-in to access multiple trusted applications."
+        },
+        {
+          "id": "d",
+          "text": "Azure Disk Encryption: Microsoft cloud-based identity and access management service."
+        },
+        {
+          "id": "e",
+          "text": "Azure Storage Service Encryption: an encryption key whose lifecycle and access are controlled by the customer."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Azure Storage Service Encryption — automatic encryption of data written to Azure Storage; and Azure Disk Encryption — encryption capabilities for Azure virtual-machine disks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "mr-0442",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Key Vault: a service for securely storing and controlling access to secrets, encryption keys, and certificates."
+        },
+        {
+          "id": "b",
+          "text": "Customer-managed key: an encryption key whose lifecycle and access are controlled by the customer."
+        },
+        {
+          "id": "c",
+          "text": "Customer-managed key: using one identity sign-in to access multiple trusted applications."
+        },
+        {
+          "id": "d",
+          "text": "Azure Key Vault: Microsoft Entra capabilities for integrating and controlling access to cloud and on-premises applications."
+        },
+        {
+          "id": "e",
+          "text": "Azure Key Vault: replacing cryptographic keys periodically or according to security policy."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Azure Key Vault — a service for securely storing and controlling access to secrets, encryption keys, and certificates; and Customer-managed key — an encryption key whose lifecycle and access are controlled by the customer.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "mr-0443",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Key rotation: replacing cryptographic keys periodically or according to security policy."
+        },
+        {
+          "id": "b",
+          "text": "Key rotation: using identity and device state with tools such as Intune and Conditional Access."
+        },
+        {
+          "id": "c",
+          "text": "Microsoft-managed key: verifying the identity of a person, service, or device before granting access."
+        },
+        {
+          "id": "d",
+          "text": "Customer-managed key: using identity and device state with tools such as Intune and Conditional Access."
+        },
+        {
+          "id": "e",
+          "text": "Microsoft-managed key: an encryption key whose lifecycle is managed by Microsoft for the service."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "e"
+      ],
+      "explanation": "The correct pair is: Microsoft-managed key — an encryption key whose lifecycle is managed by Microsoft for the service; and Key rotation — replacing cryptographic keys periodically or according to security policy.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "mr-0444",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Encryption in transit: protecting data while it moves across networks, commonly with protocols such as TLS."
+        },
+        {
+          "id": "b",
+          "text": "Microsoft-managed key: technology that synchronizes identities between on-premises Active Directory and Microsoft Entra ID."
+        },
+        {
+          "id": "c",
+          "text": "Encryption at rest: encryption capabilities for Azure virtual-machine disks."
+        },
+        {
+          "id": "d",
+          "text": "Encryption in transit: an encryption key whose lifecycle is managed by Microsoft for the service."
+        },
+        {
+          "id": "e",
+          "text": "Encryption at rest: protecting stored data by encoding it while it resides on disks or other storage media."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "e"
+      ],
+      "explanation": "The correct pair is: Encryption at rest — protecting stored data by encoding it while it resides on disks or other storage media; and Encryption in transit — protecting data while it moves across networks, commonly with protocols such as TLS.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "tf-0440",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "question": "Encryption at rest is protecting stored data by encoding it while it resides on disks or other storage media.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Encryption at rest is protecting stored data by encoding it while it resides on disks or other storage media.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "tf-0441",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "question": "According to this unit: Encryption in transit is a service for securely storing and controlling access to secrets, encryption keys, and certificates.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Encryption in transit is protecting data while it moves across networks, commonly with protocols such as TLS.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "tf-0442",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "question": "For Azure fundamentals, Azure Storage Service Encryption is automatic encryption of data written to Azure Storage.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure Storage Service Encryption is automatic encryption of data written to Azure Storage.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "tf-0443",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "question": "This statement is correct: Azure Disk Encryption is an encryption key whose lifecycle is managed by Microsoft for the service.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Azure Disk Encryption is encryption capabilities for Azure virtual-machine disks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "tf-0444",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "question": "The unit supports the following statement: Azure Key Vault is a service for securely storing and controlling access to secrets, encryption keys, and certificates.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure Key Vault is a service for securely storing and controlling access to secrets, encryption keys, and certificates.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "sc-0880",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "scenario": "The organization is reviewing the topic “Describe encryption and key management in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: protecting stored data by encoding it while it resides on disks or other storage media. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Key Vault"
+        },
+        {
+          "id": "b",
+          "text": "Network layer"
+        },
+        {
+          "id": "c",
+          "text": "Just-in-time VM access"
+        },
+        {
+          "id": "d",
+          "text": "Encryption at rest"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Encryption at rest is the best match because it is protecting stored data by encoding it while it resides on disks or other storage media.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "sc-0881",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "scenario": "The organization is reviewing the topic “Describe encryption and key management in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs protecting data while it moves across networks, commonly with protocols such as TLS. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Continuous evaluation"
+        },
+        {
+          "id": "b",
+          "text": "Encryption at rest"
+        },
+        {
+          "id": "c",
+          "text": "Encryption in transit"
+        },
+        {
+          "id": "d",
+          "text": "Verify explicitly"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Encryption in transit is the best match because it is protecting data while it moves across networks, commonly with protocols such as TLS.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "sc-0882",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "scenario": "The organization is reviewing the topic “Describe encryption and key management in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: automatic encryption of data written to Azure Storage. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Storage Service Encryption"
+        },
+        {
+          "id": "b",
+          "text": "Workload protection"
+        },
+        {
+          "id": "c",
+          "text": "Location signal"
+        },
+        {
+          "id": "d",
+          "text": "Azure RBAC"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure Storage Service Encryption is the best match because it is automatic encryption of data written to Azure Storage.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "sc-0883",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "scenario": "The organization is reviewing the topic “Describe encryption and key management in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: encryption capabilities for Azure virtual-machine disks. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure RBAC"
+        },
+        {
+          "id": "b",
+          "text": "Key rotation"
+        },
+        {
+          "id": "c",
+          "text": "Microsoft Entra Connect"
+        },
+        {
+          "id": "d",
+          "text": "Azure Disk Encryption"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Azure Disk Encryption is the best match because it is encryption capabilities for Azure virtual-machine disks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "sc-0884",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "scenario": "The organization is reviewing the topic “Describe encryption and key management in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants a service for securely storing and controlling access to secrets, encryption keys, and certificates. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Key Vault"
+        },
+        {
+          "id": "b",
+          "text": "Windows Hello for Business"
+        },
+        {
+          "id": "c",
+          "text": "Perimeter layer"
+        },
+        {
+          "id": "d",
+          "text": "Require compliant device"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure Key Vault is the best match because it is a service for securely storing and controlling access to secrets, encryption keys, and certificates.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "sc-0885",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "scenario": "The organization is reviewing the topic “Describe encryption and key management in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for an encryption key whose lifecycle and access are controlled by the customer. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Just-in-time VM access"
+        },
+        {
+          "id": "b",
+          "text": "Customer-managed key"
+        },
+        {
+          "id": "c",
+          "text": "Authentication"
+        },
+        {
+          "id": "d",
+          "text": "Identity and access layer"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Customer-managed key is the best match because it is an encryption key whose lifecycle and access are controlled by the customer.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "sc-0886",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "scenario": "The organization is reviewing the topic “Describe encryption and key management in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for an encryption key whose lifecycle is managed by Microsoft for the service. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microsoft Authenticator"
+        },
+        {
+          "id": "b",
+          "text": "Compute layer"
+        },
+        {
+          "id": "c",
+          "text": "Microsoft-managed key"
+        },
+        {
+          "id": "d",
+          "text": "Location signal"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Microsoft-managed key is the best match because it is an encryption key whose lifecycle is managed by Microsoft for the service.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "sc-0887",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "scenario": "The organization is reviewing the topic “Describe encryption and key management in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is replacing cryptographic keys periodically or according to security policy. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microsoft Defender for Cloud"
+        },
+        {
+          "id": "b",
+          "text": "Key rotation"
+        },
+        {
+          "id": "c",
+          "text": "Multifactor authentication (MFA)"
+        },
+        {
+          "id": "d",
+          "text": "Zero Trust"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Key rotation is the best match because it is replacing cryptographic keys periodically or according to security policy.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "sc-0888",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "scenario": "The organization is reviewing the topic “Describe encryption and key management in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as protecting stored data by encoding it while it resides on disks or other storage media. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microsoft Defender for Cloud"
+        },
+        {
+          "id": "b",
+          "text": "Azure RBAC"
+        },
+        {
+          "id": "c",
+          "text": "Microsoft Entra ID"
+        },
+        {
+          "id": "d",
+          "text": "Encryption at rest"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Encryption at rest is the best match because it is protecting stored data by encoding it while it resides on disks or other storage media.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "sc-0889",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "scenario": "The organization is reviewing the topic “Describe encryption and key management in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides protecting data while it moves across networks, commonly with protocols such as TLS. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Perimeter layer"
+        },
+        {
+          "id": "b",
+          "text": "Knowledge factor"
+        },
+        {
+          "id": "c",
+          "text": "Least privilege"
+        },
+        {
+          "id": "d",
+          "text": "Encryption in transit"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Encryption in transit is the best match because it is protecting data while it moves across networks, commonly with protocols such as TLS.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "match-0440",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Encryption at rest"
+        },
+        {
+          "id": "l2",
+          "text": "Encryption in transit"
+        },
+        {
+          "id": "l3",
+          "text": "Azure Storage Service Encryption"
+        },
+        {
+          "id": "l4",
+          "text": "Azure Disk Encryption"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Automatic encryption of data written to Azure Storage"
+        },
+        {
+          "id": "r2",
+          "text": "Protecting data while it moves across networks, commonly with protocols such as TLS"
+        },
+        {
+          "id": "r1",
+          "text": "Protecting stored data by encoding it while it resides on disks or other storage media"
+        },
+        {
+          "id": "r4",
+          "text": "Encryption capabilities for Azure virtual-machine disks"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l2": "r2",
+        "l1": "r1",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "match-0441",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Storage Service Encryption"
+        },
+        {
+          "id": "l2",
+          "text": "Azure Disk Encryption"
+        },
+        {
+          "id": "l3",
+          "text": "Azure Key Vault"
+        },
+        {
+          "id": "l4",
+          "text": "Customer-managed key"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Automatic encryption of data written to Azure Storage"
+        },
+        {
+          "id": "r3",
+          "text": "A service for securely storing and controlling access to secrets, encryption keys, and certificates"
+        },
+        {
+          "id": "r2",
+          "text": "Encryption capabilities for Azure virtual-machine disks"
+        },
+        {
+          "id": "r4",
+          "text": "An encryption key whose lifecycle and access are controlled by the customer"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l3": "r3",
+        "l2": "r2",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "match-0442",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Key Vault"
+        },
+        {
+          "id": "l2",
+          "text": "Customer-managed key"
+        },
+        {
+          "id": "l3",
+          "text": "Microsoft-managed key"
+        },
+        {
+          "id": "l4",
+          "text": "Key rotation"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Replacing cryptographic keys periodically or according to security policy"
+        },
+        {
+          "id": "r1",
+          "text": "A service for securely storing and controlling access to secrets, encryption keys, and certificates"
+        },
+        {
+          "id": "r2",
+          "text": "An encryption key whose lifecycle and access are controlled by the customer"
+        },
+        {
+          "id": "r3",
+          "text": "An encryption key whose lifecycle is managed by Microsoft for the service"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "match-0443",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Microsoft-managed key"
+        },
+        {
+          "id": "l2",
+          "text": "Key rotation"
+        },
+        {
+          "id": "l3",
+          "text": "Encryption at rest"
+        },
+        {
+          "id": "l4",
+          "text": "Encryption in transit"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Protecting stored data by encoding it while it resides on disks or other storage media"
+        },
+        {
+          "id": "r4",
+          "text": "Protecting data while it moves across networks, commonly with protocols such as TLS"
+        },
+        {
+          "id": "r2",
+          "text": "Replacing cryptographic keys periodically or according to security policy"
+        },
+        {
+          "id": "r1",
+          "text": "An encryption key whose lifecycle is managed by Microsoft for the service"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "match-0444",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Encryption at rest"
+        },
+        {
+          "id": "l2",
+          "text": "Encryption in transit"
+        },
+        {
+          "id": "l3",
+          "text": "Azure Storage Service Encryption"
+        },
+        {
+          "id": "l4",
+          "text": "Azure Disk Encryption"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Encryption capabilities for Azure virtual-machine disks"
+        },
+        {
+          "id": "r1",
+          "text": "Protecting stored data by encoding it while it resides on disks or other storage media"
+        },
+        {
+          "id": "r2",
+          "text": "Protecting data while it moves across networks, commonly with protocols such as TLS"
+        },
+        {
+          "id": "r3",
+          "text": "Automatic encryption of data written to Azure Storage"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "fill-0440",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "question": "{{answer}} is automatic encryption of data written to Azure Storage.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Multifactor authentication (MFA)",
+            "Identity signal",
+            "Continuous evaluation",
+            "Azure Storage Service Encryption"
+          ],
+          "correctAnswer": "Azure Storage Service Encryption"
+        }
+      ],
+      "explanation": "Azure Storage Service Encryption is automatic encryption of data written to Azure Storage.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "fill-0441",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "question": "The term for encryption capabilities for Azure virtual-machine disks is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure Disk Encryption",
+            "Require MFA",
+            "Azure Storage Service Encryption",
+            "Just-in-time VM access"
+          ],
+          "correctAnswer": "Azure Disk Encryption"
+        }
+      ],
+      "explanation": "Azure Disk Encryption is encryption capabilities for Azure virtual-machine disks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "fill-0442",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "question": "In this unit, {{answer}} refers to a service for securely storing and controlling access to secrets, encryption keys, and certificates.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Security posture management",
+            "Azure Key Vault",
+            "Azure RBAC",
+            "Least-privilege external access"
+          ],
+          "correctAnswer": "Azure Key Vault"
+        }
+      ],
+      "explanation": "Azure Key Vault is a service for securely storing and controlling access to secrets, encryption keys, and certificates.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "fill-0443",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "question": "For AZ-900, the concept described as an encryption key whose lifecycle and access are controlled by the customer is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "External ID",
+            "Role definition",
+            "Possession factor",
+            "Customer-managed key"
+          ],
+          "correctAnswer": "Customer-managed key"
+        }
+      ],
+      "explanation": "Customer-managed key is an encryption key whose lifecycle and access are controlled by the customer.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    },
+    {
+      "id": "fill-0444",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe encryption and key management in Azure",
+      "question": "Choose the term that completes the statement: {{answer}} means an encryption key whose lifecycle is managed by Microsoft for the service.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Network layer",
+            "Data layer",
+            "Microsoft-managed key",
+            "Application signal"
+          ],
+          "correctAnswer": "Microsoft-managed key"
+        }
+      ],
+      "explanation": "Microsoft-managed key is an encryption key whose lifecycle is managed by Microsoft for the service.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management"
+    }
+  ]
+}

@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe features and tools in Azure for governance and compliance · Describe the purpose of the Service Trust portal",
+  "questions": [
+    {
+      "id": "mc-0170",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "question": "Which statement best describes Service Trust Portal?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A Purview capability for understanding how data moves and transforms across systems"
+        },
+        {
+          "id": "b",
+          "text": "A control designed to protect Azure resources from accidental deletion or modification"
+        },
+        {
+          "id": "c",
+          "text": "A Service Trust Portal area for pinning documents and optionally receiving update notifications"
+        },
+        {
+          "id": "d",
+          "text": "A Microsoft portal that provides resources about security, privacy, compliance, controls, and cloud-service trust"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Service Trust Portal is a Microsoft portal that provides resources about security, privacy, compliance, controls, and cloud-service trust.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "mc-0171",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "question": "In the context of this Microsoft Learn unit, what does Authenticated access refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A lock that permits authorized users to read and modify a resource but prevents deletion"
+        },
+        {
+          "id": "b",
+          "text": "A Purview capability for identifying and classifying sensitive information"
+        },
+        {
+          "id": "c",
+          "text": "A control designed to protect Azure resources from accidental deletion or modification"
+        },
+        {
+          "id": "d",
+          "text": "Some Service Trust Portal materials require signing in with a Microsoft Entra work or school account"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Authenticated access is some Service Trust Portal materials require signing in with a Microsoft Entra work or school account.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "mc-0172",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "question": "Which description correctly matches Nondisclosure agreement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A resource-group or subscription lock applying to resources beneath that scope"
+        },
+        {
+          "id": "b",
+          "text": "An agreement that may need to be accepted before accessing certain compliance materials"
+        },
+        {
+          "id": "c",
+          "text": "A controlled exclusion that allows a resource to be exempted from a policy requirement"
+        },
+        {
+          "id": "d",
+          "text": "A Purview capability for identifying and classifying sensitive information"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Nondisclosure agreement is an agreement that may need to be accepted before accessing certain compliance materials.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "mc-0173",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "question": "Which of the following is the best definition of My Library?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The required first step before performing an operation that the lock blocks"
+        },
+        {
+          "id": "b",
+          "text": "A family of data governance, risk, and compliance solutions that provides a unified view of data across environments"
+        },
+        {
+          "id": "c",
+          "text": "Documents that provide information about Microsoft controls, assessments, and compliance practices"
+        },
+        {
+          "id": "d",
+          "text": "A Service Trust Portal area for pinning documents and optionally receiving update notifications"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "My Library is a Service Trust Portal area for pinning documents and optionally receiving update notifications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "mc-0174",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "question": "What is the primary meaning of All Documents in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The behavior by which a policy assigned at a higher scope applies to resources in child scopes"
+        },
+        {
+          "id": "b",
+          "text": "The Service Trust Portal landing area for browsing available documents"
+        },
+        {
+          "id": "c",
+          "text": "The ability of some policy configurations to automatically correct noncompliant resources"
+        },
+        {
+          "id": "d",
+          "text": "Some Service Trust Portal materials require signing in with a Microsoft Entra work or school account"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "All Documents is the Service Trust Portal landing area for browsing available documents.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "mr-0170",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Authenticated access: Service Trust Portal reports are generally available for at least 12 months after publication or until a newer version is available."
+        },
+        {
+          "id": "b",
+          "text": "Service Trust Portal: a Service Trust Portal area for pinning documents and optionally receiving update notifications."
+        },
+        {
+          "id": "c",
+          "text": "Service Trust Portal: a Microsoft portal that provides resources about security, privacy, compliance, controls, and cloud-service trust."
+        },
+        {
+          "id": "d",
+          "text": "Nondisclosure agreement: a Purview capability for identifying and classifying sensitive information."
+        },
+        {
+          "id": "e",
+          "text": "Authenticated access: some Service Trust Portal materials require signing in with a Microsoft Entra work or school account."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "e"
+      ],
+      "explanation": "The correct pair is: Service Trust Portal — a Microsoft portal that provides resources about security, privacy, compliance, controls, and cloud-service trust; and Authenticated access — some Service Trust Portal materials require signing in with a Microsoft Entra work or school account.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "mr-0171",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nondisclosure agreement: documents that provide information about Microsoft controls, assessments, and compliance practices."
+        },
+        {
+          "id": "b",
+          "text": "Nondisclosure agreement: an agreement that may need to be accepted before accessing certain compliance materials."
+        },
+        {
+          "id": "c",
+          "text": "My Library: a Purview capability that helps identify data across the data estate."
+        },
+        {
+          "id": "d",
+          "text": "My Library: a Service Trust Portal area for pinning documents and optionally receiving update notifications."
+        },
+        {
+          "id": "e",
+          "text": "My Library: a Purview capability for understanding how data moves and transforms across systems."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: Nondisclosure agreement — an agreement that may need to be accepted before accessing certain compliance materials; and My Library — a Service Trust Portal area for pinning documents and optionally receiving update notifications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "mr-0172",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Compliance reports: a Purview capability for understanding how data moves and transforms across systems."
+        },
+        {
+          "id": "b",
+          "text": "All Documents: solution capabilities focused on protecting sensitive data and managing regulatory requirements."
+        },
+        {
+          "id": "c",
+          "text": "All Documents: the Service Trust Portal landing area for browsing available documents."
+        },
+        {
+          "id": "d",
+          "text": "Compliance reports: documents that provide information about Microsoft controls, assessments, and compliance practices."
+        },
+        {
+          "id": "e",
+          "text": "All Documents: a family of data governance, risk, and compliance solutions that provides a unified view of data across environments."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: All Documents — the Service Trust Portal landing area for browsing available documents; and Compliance reports — documents that provide information about Microsoft controls, assessments, and compliance practices.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "mr-0173",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Document retention availability: Service Trust Portal reports are generally available for at least 12 months after publication or until a newer version is available."
+        },
+        {
+          "id": "b",
+          "text": "Service Trust Portal: documents that provide information about Microsoft controls, assessments, and compliance practices."
+        },
+        {
+          "id": "c",
+          "text": "Service Trust Portal: a Microsoft portal that provides resources about security, privacy, compliance, controls, and cloud-service trust."
+        },
+        {
+          "id": "d",
+          "text": "Document retention availability: a Purview capability for identifying and classifying sensitive information."
+        },
+        {
+          "id": "e",
+          "text": "Compliance reports: Purview capabilities for mapping, classifying, discovering, and governing data across on-premises, multicloud, and SaaS sources."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "c"
+      ],
+      "explanation": "The correct pair is: Document retention availability — Service Trust Portal reports are generally available for at least 12 months after publication or until a newer version is available; and Service Trust Portal — a Microsoft portal that provides resources about security, privacy, compliance, controls, and cloud-service trust.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "mr-0174",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Authenticated access: some Service Trust Portal materials require signing in with a Microsoft Entra work or school account."
+        },
+        {
+          "id": "b",
+          "text": "Nondisclosure agreement: a family of data governance, risk, and compliance solutions that provides a unified view of data across environments."
+        },
+        {
+          "id": "c",
+          "text": "Authenticated access: the Service Trust Portal landing area for browsing available documents."
+        },
+        {
+          "id": "d",
+          "text": "Document retention availability: a view that helps organizations understand where data is stored and how it is classified."
+        },
+        {
+          "id": "e",
+          "text": "Nondisclosure agreement: an agreement that may need to be accepted before accessing certain compliance materials."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "e"
+      ],
+      "explanation": "The correct pair is: Authenticated access — some Service Trust Portal materials require signing in with a Microsoft Entra work or school account; and Nondisclosure agreement — an agreement that may need to be accepted before accessing certain compliance materials.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "tf-0170",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "question": "Service Trust Portal is a Microsoft portal that provides resources about security, privacy, compliance, controls, and cloud-service trust.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Service Trust Portal is a Microsoft portal that provides resources about security, privacy, compliance, controls, and cloud-service trust.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "tf-0171",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "question": "According to this unit: Authenticated access is the Service Trust Portal landing area for browsing available documents.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Authenticated access is some Service Trust Portal materials require signing in with a Microsoft Entra work or school account.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "tf-0172",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "question": "For Azure fundamentals, Nondisclosure agreement is an agreement that may need to be accepted before accessing certain compliance materials.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Nondisclosure agreement is an agreement that may need to be accepted before accessing certain compliance materials.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "tf-0173",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "question": "This statement is correct: My Library is Service Trust Portal reports are generally available for at least 12 months after publication or until a newer version is available.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. My Library is a Service Trust Portal area for pinning documents and optionally receiving update notifications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "tf-0174",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "question": "The unit supports the following statement: All Documents is the Service Trust Portal landing area for browsing available documents.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "All Documents is the Service Trust Portal landing area for browsing available documents.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "sc-0340",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of the Service Trust portal” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a Microsoft portal that provides resources about security, privacy, compliance, controls, and cloud-service trust. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Service Trust Portal"
+        },
+        {
+          "id": "b",
+          "text": "Purview risk and compliance"
+        },
+        {
+          "id": "c",
+          "text": "Sensitive data classification"
+        },
+        {
+          "id": "d",
+          "text": "Policy inheritance"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Service Trust Portal is the best match because it is a Microsoft portal that provides resources about security, privacy, compliance, controls, and cloud-service trust.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "sc-0341",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of the Service Trust portal” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs some Service Trust Portal materials require signing in with a Microsoft Entra work or school account. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Authenticated access"
+        },
+        {
+          "id": "b",
+          "text": "Removing a lock"
+        },
+        {
+          "id": "c",
+          "text": "My Library"
+        },
+        {
+          "id": "d",
+          "text": "Policy remediation"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Authenticated access is the best match because it is some Service Trust Portal materials require signing in with a Microsoft Entra work or school account.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "sc-0342",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of the Service Trust portal” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: an agreement that may need to be accepted before accessing certain compliance materials. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Removing a lock"
+        },
+        {
+          "id": "b",
+          "text": "My Library"
+        },
+        {
+          "id": "c",
+          "text": "Policy exception"
+        },
+        {
+          "id": "d",
+          "text": "Nondisclosure agreement"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Nondisclosure agreement is the best match because it is an agreement that may need to be accepted before accessing certain compliance materials.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "sc-0343",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of the Service Trust portal” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: a Service Trust Portal area for pinning documents and optionally receiving update notifications. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "RBAC and locks"
+        },
+        {
+          "id": "b",
+          "text": "Initiative"
+        },
+        {
+          "id": "c",
+          "text": "Policy inheritance"
+        },
+        {
+          "id": "d",
+          "text": "My Library"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "My Library is the best match because it is a Service Trust Portal area for pinning documents and optionally receiving update notifications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "sc-0344",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of the Service Trust portal” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants the Service Trust Portal landing area for browsing available documents. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Secure data discovery"
+        },
+        {
+          "id": "b",
+          "text": "Initiative"
+        },
+        {
+          "id": "c",
+          "text": "Unified data governance"
+        },
+        {
+          "id": "d",
+          "text": "All Documents"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "All Documents is the best match because it is the Service Trust Portal landing area for browsing available documents.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "sc-0345",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of the Service Trust portal” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for documents that provide information about Microsoft controls, assessments, and compliance practices. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Secure data discovery"
+        },
+        {
+          "id": "b",
+          "text": "End-to-end data lineage"
+        },
+        {
+          "id": "c",
+          "text": "Compliance reports"
+        },
+        {
+          "id": "d",
+          "text": "Authenticated access"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Compliance reports is the best match because it is documents that provide information about Microsoft controls, assessments, and compliance practices.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "sc-0346",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of the Service Trust portal” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for service Trust Portal reports are generally available for at least 12 months after publication or until a newer version is available. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Document retention availability"
+        },
+        {
+          "id": "b",
+          "text": "End-to-end data lineage"
+        },
+        {
+          "id": "c",
+          "text": "Data estate map"
+        },
+        {
+          "id": "d",
+          "text": "Microsoft Purview"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Document retention availability is the best match because it is Service Trust Portal reports are generally available for at least 12 months after publication or until a newer version is available.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "sc-0347",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of the Service Trust portal” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is a Microsoft portal that provides resources about security, privacy, compliance, controls, and cloud-service trust. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lock management tools"
+        },
+        {
+          "id": "b",
+          "text": "Service Trust Portal"
+        },
+        {
+          "id": "c",
+          "text": "Automated data discovery"
+        },
+        {
+          "id": "d",
+          "text": "Policy definition"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Service Trust Portal is the best match because it is a Microsoft portal that provides resources about security, privacy, compliance, controls, and cloud-service trust.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "sc-0348",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of the Service Trust portal” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as some Service Trust Portal materials require signing in with a Microsoft Entra work or school account. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Initiative"
+        },
+        {
+          "id": "b",
+          "text": "Azure Policy"
+        },
+        {
+          "id": "c",
+          "text": "Authenticated access"
+        },
+        {
+          "id": "d",
+          "text": "Policy definition"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Authenticated access is the best match because it is some Service Trust Portal materials require signing in with a Microsoft Entra work or school account.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "sc-0349",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of the Service Trust portal” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides an agreement that may need to be accepted before accessing certain compliance materials. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lock inheritance"
+        },
+        {
+          "id": "b",
+          "text": "Nondisclosure agreement"
+        },
+        {
+          "id": "c",
+          "text": "Policy remediation"
+        },
+        {
+          "id": "d",
+          "text": "Preventive policy effect"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Nondisclosure agreement is the best match because it is an agreement that may need to be accepted before accessing certain compliance materials.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "match-0170",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Service Trust Portal"
+        },
+        {
+          "id": "l2",
+          "text": "Authenticated access"
+        },
+        {
+          "id": "l3",
+          "text": "Nondisclosure agreement"
+        },
+        {
+          "id": "l4",
+          "text": "My Library"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "An agreement that may need to be accepted before accessing certain compliance materials"
+        },
+        {
+          "id": "r2",
+          "text": "Some Service Trust Portal materials require signing in with a Microsoft Entra work or school account"
+        },
+        {
+          "id": "r4",
+          "text": "A Service Trust Portal area for pinning documents and optionally receiving update notifications"
+        },
+        {
+          "id": "r1",
+          "text": "A Microsoft portal that provides resources about security, privacy, compliance, controls, and cloud-service trust"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l2": "r2",
+        "l4": "r4",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "match-0171",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Nondisclosure agreement"
+        },
+        {
+          "id": "l2",
+          "text": "My Library"
+        },
+        {
+          "id": "l3",
+          "text": "All Documents"
+        },
+        {
+          "id": "l4",
+          "text": "Compliance reports"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "An agreement that may need to be accepted before accessing certain compliance materials"
+        },
+        {
+          "id": "r3",
+          "text": "The Service Trust Portal landing area for browsing available documents"
+        },
+        {
+          "id": "r2",
+          "text": "A Service Trust Portal area for pinning documents and optionally receiving update notifications"
+        },
+        {
+          "id": "r4",
+          "text": "Documents that provide information about Microsoft controls, assessments, and compliance practices"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l3": "r3",
+        "l2": "r2",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "match-0172",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "All Documents"
+        },
+        {
+          "id": "l2",
+          "text": "Compliance reports"
+        },
+        {
+          "id": "l3",
+          "text": "Document retention availability"
+        },
+        {
+          "id": "l4",
+          "text": "Service Trust Portal"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Service Trust Portal reports are generally available for at least 12 months after publication or until a newer version is available"
+        },
+        {
+          "id": "r2",
+          "text": "Documents that provide information about Microsoft controls, assessments, and compliance practices"
+        },
+        {
+          "id": "r4",
+          "text": "A Microsoft portal that provides resources about security, privacy, compliance, controls, and cloud-service trust"
+        },
+        {
+          "id": "r1",
+          "text": "The Service Trust Portal landing area for browsing available documents"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l2": "r2",
+        "l4": "r4",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "match-0173",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Document retention availability"
+        },
+        {
+          "id": "l2",
+          "text": "Service Trust Portal"
+        },
+        {
+          "id": "l3",
+          "text": "Authenticated access"
+        },
+        {
+          "id": "l4",
+          "text": "Nondisclosure agreement"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Some Service Trust Portal materials require signing in with a Microsoft Entra work or school account"
+        },
+        {
+          "id": "r2",
+          "text": "A Microsoft portal that provides resources about security, privacy, compliance, controls, and cloud-service trust"
+        },
+        {
+          "id": "r4",
+          "text": "An agreement that may need to be accepted before accessing certain compliance materials"
+        },
+        {
+          "id": "r1",
+          "text": "Service Trust Portal reports are generally available for at least 12 months after publication or until a newer version is available"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l2": "r2",
+        "l4": "r4",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "match-0174",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Authenticated access"
+        },
+        {
+          "id": "l2",
+          "text": "Nondisclosure agreement"
+        },
+        {
+          "id": "l3",
+          "text": "My Library"
+        },
+        {
+          "id": "l4",
+          "text": "All Documents"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "An agreement that may need to be accepted before accessing certain compliance materials"
+        },
+        {
+          "id": "r3",
+          "text": "A Service Trust Portal area for pinning documents and optionally receiving update notifications"
+        },
+        {
+          "id": "r1",
+          "text": "Some Service Trust Portal materials require signing in with a Microsoft Entra work or school account"
+        },
+        {
+          "id": "r4",
+          "text": "The Service Trust Portal landing area for browsing available documents"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l3": "r3",
+        "l1": "r1",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "fill-0170",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "question": "{{answer}} is an agreement that may need to be accepted before accessing certain compliance materials.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Automated data discovery",
+            "Nondisclosure agreement",
+            "Sensitive data classification",
+            "Policy inheritance"
+          ],
+          "correctAnswer": "Nondisclosure agreement"
+        }
+      ],
+      "explanation": "Nondisclosure agreement is an agreement that may need to be accepted before accessing certain compliance materials.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "fill-0171",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "question": "The term for a Service Trust Portal area for pinning documents and optionally receiving update notifications is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Removing a lock",
+            "Data estate map",
+            "End-to-end data lineage",
+            "My Library"
+          ],
+          "correctAnswer": "My Library"
+        }
+      ],
+      "explanation": "My Library is a Service Trust Portal area for pinning documents and optionally receiving update notifications.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "fill-0172",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "question": "In this unit, {{answer}} refers to the Service Trust Portal landing area for browsing available documents.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "ReadOnly lock",
+            "All Documents",
+            "Purview risk and compliance",
+            "Authenticated access"
+          ],
+          "correctAnswer": "All Documents"
+        }
+      ],
+      "explanation": "All Documents is the Service Trust Portal landing area for browsing available documents.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "fill-0173",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "question": "For AZ-900, the concept described as documents that provide information about Microsoft controls, assessments, and compliance practices is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Microsoft Purview",
+            "Policy inheritance",
+            "Compliance reports",
+            "Authenticated access"
+          ],
+          "correctAnswer": "Compliance reports"
+        }
+      ],
+      "explanation": "Compliance reports is documents that provide information about Microsoft controls, assessments, and compliance practices.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    },
+    {
+      "id": "fill-0174",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of the Service Trust portal",
+      "question": "Choose the term that completes the statement: {{answer}} means service Trust Portal reports are generally available for at least 12 months after publication or until a newer version is available.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Removing a lock",
+            "Document retention availability",
+            "Policy inheritance",
+            "RBAC and locks"
+          ],
+          "correctAnswer": "Document retention availability"
+        }
+      ],
+      "explanation": "Document retention availability is Service Trust Portal reports are generally available for at least 12 months after publication or until a newer version is available.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal"
+    }
+  ]
+}

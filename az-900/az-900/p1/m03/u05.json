@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe cloud service types · Module assessment",
+  "questions": [
+    {
+      "id": "mc-0100",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Which statement best describes Infrastructure as a Service (IaaS)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A cloud model that rents infrastructure while giving the customer the most control over operating systems and software"
+        },
+        {
+          "id": "b",
+          "text": "Application code, data, and access controls rather than physical infrastructure"
+        },
+        {
+          "id": "c",
+          "text": "Managing most of the infrastructure, platform, application maintenance, and updates"
+        },
+        {
+          "id": "d",
+          "text": "Rapidly creating and removing environments while retaining detailed configuration control"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Infrastructure as a Service (IaaS) is a cloud model that rents infrastructure while giving the customer the most control over operating systems and software.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "mc-0101",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "In the context of this Microsoft Learn unit, what does IaaS provider responsibility refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Primarily managing data, identity, access settings, and device access posture"
+        },
+        {
+          "id": "b",
+          "text": "Configuring much of the workload networking and security settings above the physical layer"
+        },
+        {
+          "id": "c",
+          "text": "Maintaining physical hardware, physical security, and internet connectivity"
+        },
+        {
+          "id": "d",
+          "text": "The cloud provider patches and maintains the underlying operating system"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "IaaS provider responsibility is maintaining physical hardware, physical security, and internet connectivity.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "mc-0102",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Which description correctly matches IaaS customer operating-system responsibility?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Installing, configuring, patching, and maintaining the guest operating system"
+        },
+        {
+          "id": "b",
+          "text": "The lowest customer operational overhead among IaaS, PaaS, and SaaS"
+        },
+        {
+          "id": "c",
+          "text": "A cloud model that rents infrastructure while giving the customer the most control over operating systems and software"
+        },
+        {
+          "id": "d",
+          "text": "Primarily managing data, identity, access settings, and device access posture"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "IaaS customer operating-system responsibility is installing, configuring, patching, and maintaining the guest operating system.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "mc-0103",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Which of the following is the best definition of IaaS customer network configuration?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A model in which customers use a complete cloud-hosted application"
+        },
+        {
+          "id": "b",
+          "text": "Primarily managing data, identity, access settings, and device access posture"
+        },
+        {
+          "id": "c",
+          "text": "Configuring much of the workload networking and security settings above the physical layer"
+        },
+        {
+          "id": "d",
+          "text": "Using complete productivity software delivered as a cloud service"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "IaaS customer network configuration is configuring much of the workload networking and security settings above the physical layer.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "mc-0104",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "What is the primary meaning of Lift-and-shift migration in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The cloud provider manages middleware and managed runtime components"
+        },
+        {
+          "id": "b",
+          "text": "Installing, configuring, patching, and maintaining the guest operating system"
+        },
+        {
+          "id": "c",
+          "text": "Rapidly creating and removing environments while retaining detailed configuration control"
+        },
+        {
+          "id": "d",
+          "text": "Moving workloads to cloud infrastructure with minimal redesign"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Lift-and-shift migration is moving workloads to cloud infrastructure with minimal redesign.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "mr-0100",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Infrastructure as a Service (IaaS): configuring much of the workload networking and security settings above the physical layer."
+        },
+        {
+          "id": "b",
+          "text": "IaaS customer operating-system responsibility: the cloud provider manages middleware and managed runtime components."
+        },
+        {
+          "id": "c",
+          "text": "IaaS provider responsibility: the high level of customer control that comes with greater operational responsibility."
+        },
+        {
+          "id": "d",
+          "text": "IaaS provider responsibility: maintaining physical hardware, physical security, and internet connectivity."
+        },
+        {
+          "id": "e",
+          "text": "Infrastructure as a Service (IaaS): a cloud model that rents infrastructure while giving the customer the most control over operating systems and software."
+        }
+      ],
+      "correctAnswers": [
+        "d",
+        "e"
+      ],
+      "explanation": "The correct pair is: Infrastructure as a Service (IaaS) — a cloud model that rents infrastructure while giving the customer the most control over operating systems and software; and IaaS provider responsibility — maintaining physical hardware, physical security, and internet connectivity.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "mr-0101",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS customer network configuration: the cloud provider patches and maintains the underlying operating system."
+        },
+        {
+          "id": "b",
+          "text": "IaaS customer operating-system responsibility: installing, configuring, patching, and maintaining the guest operating system."
+        },
+        {
+          "id": "c",
+          "text": "IaaS customer operating-system responsibility: rapidly creating and removing environments while retaining detailed configuration control."
+        },
+        {
+          "id": "d",
+          "text": "IaaS customer network configuration: a managed environment that lets developers build applications without maintaining the full development infrastructure."
+        },
+        {
+          "id": "e",
+          "text": "IaaS customer network configuration: configuring much of the workload networking and security settings above the physical layer."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: IaaS customer operating-system responsibility — installing, configuring, patching, and maintaining the guest operating system; and IaaS customer network configuration — configuring much of the workload networking and security settings above the physical layer.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "mr-0102",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lift-and-shift migration: a cloud model in which the provider manages infrastructure and platform components while the customer focuses on applications and data."
+        },
+        {
+          "id": "b",
+          "text": "Lift-and-shift migration: moving workloads to cloud infrastructure with minimal redesign."
+        },
+        {
+          "id": "c",
+          "text": "Lift-and-shift migration: using managed analytics or business-intelligence platforms to extract insights without running the underlying platform."
+        },
+        {
+          "id": "d",
+          "text": "IaaS dev/test use case: rapidly creating and removing environments while retaining detailed configuration control."
+        },
+        {
+          "id": "e",
+          "text": "IaaS dev/test use case: a managed environment that lets developers build applications without maintaining the full development infrastructure."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: Lift-and-shift migration — moving workloads to cloud infrastructure with minimal redesign; and IaaS dev/test use case — rapidly creating and removing environments while retaining detailed configuration control.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "mr-0103",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS flexibility: the high level of customer control that comes with greater operational responsibility."
+        },
+        {
+          "id": "b",
+          "text": "Platform as a Service (PaaS): application code, data, and access controls rather than physical infrastructure."
+        },
+        {
+          "id": "c",
+          "text": "IaaS dev/test use case: application code, data, and access controls rather than physical infrastructure."
+        },
+        {
+          "id": "d",
+          "text": "IaaS flexibility: the cloud provider manages middleware and managed runtime components."
+        },
+        {
+          "id": "e",
+          "text": "Platform as a Service (PaaS): a cloud model in which the provider manages infrastructure and platform components while the customer focuses on applications and data."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "e"
+      ],
+      "explanation": "The correct pair is: IaaS flexibility — the high level of customer control that comes with greater operational responsibility; and Platform as a Service (PaaS) — a cloud model in which the provider manages infrastructure and platform components while the customer focuses on applications and data.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "mr-0104",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS flexibility: platform features such as scalability and high availability that reduce the amount of infrastructure code a team must manage."
+        },
+        {
+          "id": "b",
+          "text": "PaaS middleware management: a model in which customers use a complete cloud-hosted application."
+        },
+        {
+          "id": "c",
+          "text": "PaaS middleware management: the cloud provider manages middleware and managed runtime components."
+        },
+        {
+          "id": "d",
+          "text": "PaaS operating-system management: using managed analytics or business-intelligence platforms to extract insights without running the underlying platform."
+        },
+        {
+          "id": "e",
+          "text": "PaaS operating-system management: the cloud provider patches and maintains the underlying operating system."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "e"
+      ],
+      "explanation": "The correct pair is: PaaS operating-system management — the cloud provider patches and maintains the underlying operating system; and PaaS middleware management — the cloud provider manages middleware and managed runtime components.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "tf-0100",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Infrastructure as a Service (IaaS) is a cloud model that rents infrastructure while giving the customer the most control over operating systems and software.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Infrastructure as a Service (IaaS) is a cloud model that rents infrastructure while giving the customer the most control over operating systems and software.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "tf-0101",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "According to this unit: IaaS provider responsibility is moving workloads to cloud infrastructure with minimal redesign.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. IaaS provider responsibility is maintaining physical hardware, physical security, and internet connectivity.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "tf-0102",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "For Azure fundamentals, IaaS customer operating-system responsibility is installing, configuring, patching, and maintaining the guest operating system.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "IaaS customer operating-system responsibility is installing, configuring, patching, and maintaining the guest operating system.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "tf-0103",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "This statement is correct: IaaS customer network configuration is the high level of customer control that comes with greater operational responsibility.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. IaaS customer network configuration is configuring much of the workload networking and security settings above the physical layer.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "tf-0104",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "The unit supports the following statement: Lift-and-shift migration is moving workloads to cloud infrastructure with minimal redesign.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Lift-and-shift migration is moving workloads to cloud infrastructure with minimal redesign.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "sc-0200",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a cloud model that rents infrastructure while giving the customer the most control over operating systems and software. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "PaaS development framework"
+        },
+        {
+          "id": "b",
+          "text": "PaaS built-in cloud capabilities"
+        },
+        {
+          "id": "c",
+          "text": "Infrastructure as a Service (IaaS)"
+        },
+        {
+          "id": "d",
+          "text": "PaaS middleware management"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Infrastructure as a Service (IaaS) is the best match because it is a cloud model that rents infrastructure while giving the customer the most control over operating systems and software.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "sc-0201",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs maintaining physical hardware, physical security, and internet connectivity. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "PaaS development framework"
+        },
+        {
+          "id": "b",
+          "text": "Lift-and-shift migration"
+        },
+        {
+          "id": "c",
+          "text": "SaaS operational overhead"
+        },
+        {
+          "id": "d",
+          "text": "IaaS provider responsibility"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "IaaS provider responsibility is the best match because it is maintaining physical hardware, physical security, and internet connectivity.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "sc-0202",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: installing, configuring, patching, and maintaining the guest operating system. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS customer operating-system responsibility"
+        },
+        {
+          "id": "b",
+          "text": "PaaS middleware management"
+        },
+        {
+          "id": "c",
+          "text": "SaaS customer responsibility"
+        },
+        {
+          "id": "d",
+          "text": "PaaS analytics use case"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "IaaS customer operating-system responsibility is the best match because it is installing, configuring, patching, and maintaining the guest operating system.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "sc-0203",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: configuring much of the workload networking and security settings above the physical layer. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lift-and-shift migration"
+        },
+        {
+          "id": "b",
+          "text": "IaaS customer network configuration"
+        },
+        {
+          "id": "c",
+          "text": "PaaS development framework"
+        },
+        {
+          "id": "d",
+          "text": "PaaS customer focus"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "IaaS customer network configuration is the best match because it is configuring much of the workload networking and security settings above the physical layer.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "sc-0204",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants moving workloads to cloud infrastructure with minimal redesign. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "SaaS operational overhead"
+        },
+        {
+          "id": "b",
+          "text": "IaaS customer operating-system responsibility"
+        },
+        {
+          "id": "c",
+          "text": "SaaS customer responsibility"
+        },
+        {
+          "id": "d",
+          "text": "Lift-and-shift migration"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Lift-and-shift migration is the best match because it is moving workloads to cloud infrastructure with minimal redesign.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "sc-0205",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for rapidly creating and removing environments while retaining detailed configuration control. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS dev/test use case"
+        },
+        {
+          "id": "b",
+          "text": "SaaS operational overhead"
+        },
+        {
+          "id": "c",
+          "text": "PaaS built-in cloud capabilities"
+        },
+        {
+          "id": "d",
+          "text": "PaaS customer focus"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "IaaS dev/test use case is the best match because it is rapidly creating and removing environments while retaining detailed configuration control.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "sc-0206",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for the high level of customer control that comes with greater operational responsibility. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS customer network configuration"
+        },
+        {
+          "id": "b",
+          "text": "PaaS customer focus"
+        },
+        {
+          "id": "c",
+          "text": "SaaS flexibility"
+        },
+        {
+          "id": "d",
+          "text": "IaaS flexibility"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "IaaS flexibility is the best match because it is the high level of customer control that comes with greater operational responsibility.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "sc-0207",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is a cloud model in which the provider manages infrastructure and platform components while the customer focuses on applications and data. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS flexibility"
+        },
+        {
+          "id": "b",
+          "text": "SaaS flexibility"
+        },
+        {
+          "id": "c",
+          "text": "Platform as a Service (PaaS)"
+        },
+        {
+          "id": "d",
+          "text": "IaaS dev/test use case"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Platform as a Service (PaaS) is the best match because it is a cloud model in which the provider manages infrastructure and platform components while the customer focuses on applications and data.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "sc-0208",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as the cloud provider patches and maintains the underlying operating system. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "PaaS built-in cloud capabilities"
+        },
+        {
+          "id": "b",
+          "text": "PaaS development framework"
+        },
+        {
+          "id": "c",
+          "text": "SaaS provider responsibility"
+        },
+        {
+          "id": "d",
+          "text": "PaaS operating-system management"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "PaaS operating-system management is the best match because it is the cloud provider patches and maintains the underlying operating system.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "sc-0209",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides the cloud provider manages middleware and managed runtime components. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "PaaS middleware management"
+        },
+        {
+          "id": "b",
+          "text": "IaaS provider responsibility"
+        },
+        {
+          "id": "c",
+          "text": "Software as a Service (SaaS)"
+        },
+        {
+          "id": "d",
+          "text": "Platform as a Service (PaaS)"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "PaaS middleware management is the best match because it is the cloud provider manages middleware and managed runtime components.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "match-0100",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Infrastructure as a Service (IaaS)"
+        },
+        {
+          "id": "l2",
+          "text": "IaaS provider responsibility"
+        },
+        {
+          "id": "l3",
+          "text": "IaaS customer operating-system responsibility"
+        },
+        {
+          "id": "l4",
+          "text": "IaaS customer network configuration"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Configuring much of the workload networking and security settings above the physical layer"
+        },
+        {
+          "id": "r3",
+          "text": "Installing, configuring, patching, and maintaining the guest operating system"
+        },
+        {
+          "id": "r2",
+          "text": "Maintaining physical hardware, physical security, and internet connectivity"
+        },
+        {
+          "id": "r1",
+          "text": "A cloud model that rents infrastructure while giving the customer the most control over operating systems and software"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l3": "r3",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "match-0101",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "IaaS customer operating-system responsibility"
+        },
+        {
+          "id": "l2",
+          "text": "IaaS customer network configuration"
+        },
+        {
+          "id": "l3",
+          "text": "Lift-and-shift migration"
+        },
+        {
+          "id": "l4",
+          "text": "IaaS dev/test use case"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Moving workloads to cloud infrastructure with minimal redesign"
+        },
+        {
+          "id": "r4",
+          "text": "Rapidly creating and removing environments while retaining detailed configuration control"
+        },
+        {
+          "id": "r2",
+          "text": "Configuring much of the workload networking and security settings above the physical layer"
+        },
+        {
+          "id": "r1",
+          "text": "Installing, configuring, patching, and maintaining the guest operating system"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "match-0102",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Lift-and-shift migration"
+        },
+        {
+          "id": "l2",
+          "text": "IaaS dev/test use case"
+        },
+        {
+          "id": "l3",
+          "text": "IaaS flexibility"
+        },
+        {
+          "id": "l4",
+          "text": "Platform as a Service (PaaS)"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "The high level of customer control that comes with greater operational responsibility"
+        },
+        {
+          "id": "r4",
+          "text": "A cloud model in which the provider manages infrastructure and platform components while the customer focuses on applications and data"
+        },
+        {
+          "id": "r1",
+          "text": "Moving workloads to cloud infrastructure with minimal redesign"
+        },
+        {
+          "id": "r2",
+          "text": "Rapidly creating and removing environments while retaining detailed configuration control"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l1": "r1",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "match-0103",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "IaaS flexibility"
+        },
+        {
+          "id": "l2",
+          "text": "Platform as a Service (PaaS)"
+        },
+        {
+          "id": "l3",
+          "text": "PaaS operating-system management"
+        },
+        {
+          "id": "l4",
+          "text": "PaaS middleware management"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "The cloud provider patches and maintains the underlying operating system"
+        },
+        {
+          "id": "r2",
+          "text": "A cloud model in which the provider manages infrastructure and platform components while the customer focuses on applications and data"
+        },
+        {
+          "id": "r4",
+          "text": "The cloud provider manages middleware and managed runtime components"
+        },
+        {
+          "id": "r1",
+          "text": "The high level of customer control that comes with greater operational responsibility"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l2": "r2",
+        "l4": "r4",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "match-0104",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "PaaS operating-system management"
+        },
+        {
+          "id": "l2",
+          "text": "PaaS middleware management"
+        },
+        {
+          "id": "l3",
+          "text": "PaaS development framework"
+        },
+        {
+          "id": "l4",
+          "text": "PaaS analytics use case"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Using managed analytics or business-intelligence platforms to extract insights without running the underlying platform"
+        },
+        {
+          "id": "r3",
+          "text": "A managed environment that lets developers build applications without maintaining the full development infrastructure"
+        },
+        {
+          "id": "r2",
+          "text": "The cloud provider manages middleware and managed runtime components"
+        },
+        {
+          "id": "r1",
+          "text": "The cloud provider patches and maintains the underlying operating system"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l3": "r3",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "fill-0100",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "{{answer}} is installing, configuring, patching, and maintaining the guest operating system.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Platform as a Service (PaaS)",
+            "IaaS customer operating-system responsibility",
+            "SaaS provider responsibility",
+            "IaaS provider responsibility"
+          ],
+          "correctAnswer": "IaaS customer operating-system responsibility"
+        }
+      ],
+      "explanation": "IaaS customer operating-system responsibility is installing, configuring, patching, and maintaining the guest operating system.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "fill-0101",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "The term for configuring much of the workload networking and security settings above the physical layer is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "PaaS analytics use case",
+            "IaaS customer network configuration",
+            "Lift-and-shift migration",
+            "Software as a Service (SaaS)"
+          ],
+          "correctAnswer": "IaaS customer network configuration"
+        }
+      ],
+      "explanation": "IaaS customer network configuration is configuring much of the workload networking and security settings above the physical layer.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "fill-0102",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "In this unit, {{answer}} refers to moving workloads to cloud infrastructure with minimal redesign.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "IaaS flexibility",
+            "SaaS productivity use case",
+            "IaaS customer operating-system responsibility",
+            "Lift-and-shift migration"
+          ],
+          "correctAnswer": "Lift-and-shift migration"
+        }
+      ],
+      "explanation": "Lift-and-shift migration is moving workloads to cloud infrastructure with minimal redesign.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "fill-0103",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "For AZ-900, the concept described as rapidly creating and removing environments while retaining detailed configuration control is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "PaaS analytics use case",
+            "IaaS dev/test use case",
+            "SaaS operational overhead",
+            "Software as a Service (SaaS)"
+          ],
+          "correctAnswer": "IaaS dev/test use case"
+        }
+      ],
+      "explanation": "IaaS dev/test use case is rapidly creating and removing environments while retaining detailed configuration control.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    },
+    {
+      "id": "fill-0104",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud service types",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Choose the term that completes the statement: {{answer}} means the high level of customer control that comes with greater operational responsibility.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "PaaS operating-system management",
+            "SaaS provider responsibility",
+            "SaaS customer responsibility",
+            "IaaS flexibility"
+          ],
+          "correctAnswer": "IaaS flexibility"
+        }
+      ],
+      "explanation": "IaaS flexibility is the high level of customer control that comes with greater operational responsibility.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check"
+    }
+  ]
+}

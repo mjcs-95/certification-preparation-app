@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe Azure identity, access, and security · Describe Azure conditional access",
+  "questions": [
+    {
+      "id": "mc-0420",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "question": "Which statement best describes Conditional Access?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Using identity and device state with tools such as Intune and Conditional Access"
+        },
+        {
+          "id": "b",
+          "text": "A Microsoft Entra policy engine that evaluates sign-in signals and applies access controls"
+        },
+        {
+          "id": "c",
+          "text": "Technology that synchronizes identities between on-premises Active Directory and Microsoft Entra ID"
+        },
+        {
+          "id": "d",
+          "text": "Designing detection, segmentation, and response as though attackers may already be present"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Conditional Access is a Microsoft Entra policy engine that evaluates sign-in signals and applies access controls.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "mc-0421",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "question": "In the context of this Microsoft Learn unit, what does User or group signal refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The identity or group membership used as part of a Conditional Access decision"
+        },
+        {
+          "id": "b",
+          "text": "Controls that protect the boundary from external network threats"
+        },
+        {
+          "id": "c",
+          "text": "An identity belonging to a person outside the organization who needs controlled access to applications or resources"
+        },
+        {
+          "id": "d",
+          "text": "Security posture and protection capabilities that can extend beyond Azure to supported other-cloud environments"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "User or group signal is the identity or group membership used as part of a Conditional Access decision.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "mc-0422",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "question": "Which description correctly matches Location signal?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An encryption key whose lifecycle and access are controlled by the customer"
+        },
+        {
+          "id": "b",
+          "text": "The network or geographic context that can influence a Conditional Access policy"
+        },
+        {
+          "id": "c",
+          "text": "A Conditional Access control that requires multifactor authentication before granting access"
+        },
+        {
+          "id": "d",
+          "text": "Requiring an additional authentication factor so a password alone is not sufficient"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Location signal is the network or geographic context that can influence a Conditional Access policy.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "mc-0423",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "question": "Which of the following is the best definition of Device signal?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Device state or compliance information used in access decisions"
+        },
+        {
+          "id": "b",
+          "text": "Microsoft Entra capabilities for integrating and controlling access to cloud and on-premises applications"
+        },
+        {
+          "id": "c",
+          "text": "Microsoft Entra capabilities for managing access by external users and customers"
+        },
+        {
+          "id": "d",
+          "text": "Something the user has, such as a phone or security key"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Device signal is device state or compliance information used in access decisions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "mc-0424",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "question": "What is the primary meaning of Application signal in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Protecting data while it moves across networks, commonly with protocols such as TLS"
+        },
+        {
+          "id": "b",
+          "text": "Microsoft Entra capabilities for integrating and controlling access to cloud and on-premises applications"
+        },
+        {
+          "id": "c",
+          "text": "The cloud app or resource being accessed as a policy condition"
+        },
+        {
+          "id": "d",
+          "text": "Controls that protect the boundary from external network threats"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Application signal is the cloud app or resource being accessed as a policy condition.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "mr-0420",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Location signal: verifying the identity of a person, service, or device before granting access."
+        },
+        {
+          "id": "b",
+          "text": "User or group signal: the identity or group membership used as part of a Conditional Access decision."
+        },
+        {
+          "id": "c",
+          "text": "Conditional Access: a Microsoft Entra policy engine that evaluates sign-in signals and applies access controls."
+        },
+        {
+          "id": "d",
+          "text": "Conditional Access: device state or compliance information used in access decisions."
+        },
+        {
+          "id": "e",
+          "text": "User or group signal: a Conditional Access result that denies access when policy conditions are met."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: Conditional Access — a Microsoft Entra policy engine that evaluates sign-in signals and applies access controls; and User or group signal — the identity or group membership used as part of a Conditional Access decision.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "mr-0421",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Device signal: using one identity sign-in to access multiple trusted applications."
+        },
+        {
+          "id": "b",
+          "text": "Location signal: a Conditional Access control that requires multifactor authentication before granting access."
+        },
+        {
+          "id": "c",
+          "text": "Device signal: device state or compliance information used in access decisions."
+        },
+        {
+          "id": "d",
+          "text": "Device signal: Microsoft cloud-based identity and access management service."
+        },
+        {
+          "id": "e",
+          "text": "Location signal: the network or geographic context that can influence a Conditional Access policy."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "e"
+      ],
+      "explanation": "The correct pair is: Location signal — the network or geographic context that can influence a Conditional Access policy; and Device signal — device state or compliance information used in access decisions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "mr-0422",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Application signal: the cloud app or resource being accessed as a policy condition."
+        },
+        {
+          "id": "b",
+          "text": "Require MFA: using one identity sign-in to access multiple trusted applications."
+        },
+        {
+          "id": "c",
+          "text": "Application signal: Microsoft Entra capabilities for integrating and controlling access to cloud and on-premises applications."
+        },
+        {
+          "id": "d",
+          "text": "Application signal: a Conditional Access control that permits access only from devices meeting compliance requirements."
+        },
+        {
+          "id": "e",
+          "text": "Require MFA: a Conditional Access control that requires multifactor authentication before granting access."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "e"
+      ],
+      "explanation": "The correct pair is: Application signal — the cloud app or resource being accessed as a policy condition; and Require MFA — a Conditional Access control that requires multifactor authentication before granting access.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "mr-0423",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Require compliant device: using identity and device state with tools such as Intune and Conditional Access."
+        },
+        {
+          "id": "b",
+          "text": "Require compliant device: a Conditional Access control that permits access only from devices meeting compliance requirements."
+        },
+        {
+          "id": "c",
+          "text": "Require MFA: using identity and device state with tools such as Intune and Conditional Access."
+        },
+        {
+          "id": "d",
+          "text": "Block access: a Conditional Access result that denies access when policy conditions are met."
+        },
+        {
+          "id": "e",
+          "text": "Block access: verifying the identity of a person, service, or device before granting access."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: Block access — a Conditional Access result that denies access when policy conditions are met; and Require compliant device — a Conditional Access control that permits access only from devices meeting compliance requirements.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "mr-0424",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Conditional Access: device state or compliance information used in access decisions."
+        },
+        {
+          "id": "b",
+          "text": "Conditional Access: a Microsoft Entra policy engine that evaluates sign-in signals and applies access controls."
+        },
+        {
+          "id": "c",
+          "text": "User or group signal: a Conditional Access result that denies access when policy conditions are met."
+        },
+        {
+          "id": "d",
+          "text": "User or group signal: the identity or group membership used as part of a Conditional Access decision."
+        },
+        {
+          "id": "e",
+          "text": "Block access: technology that synchronizes identities between on-premises Active Directory and Microsoft Entra ID."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: Conditional Access — a Microsoft Entra policy engine that evaluates sign-in signals and applies access controls; and User or group signal — the identity or group membership used as part of a Conditional Access decision.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "tf-0420",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "question": "Conditional Access is a Microsoft Entra policy engine that evaluates sign-in signals and applies access controls.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Conditional Access is a Microsoft Entra policy engine that evaluates sign-in signals and applies access controls.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "tf-0421",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "question": "According to this unit: User or group signal is the cloud app or resource being accessed as a policy condition.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. User or group signal is the identity or group membership used as part of a Conditional Access decision.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "tf-0422",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "question": "For Azure fundamentals, Location signal is the network or geographic context that can influence a Conditional Access policy.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Location signal is the network or geographic context that can influence a Conditional Access policy.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "tf-0423",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "question": "This statement is correct: Device signal is a Conditional Access result that denies access when policy conditions are met.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Device signal is device state or compliance information used in access decisions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "tf-0424",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "question": "The unit supports the following statement: Application signal is the cloud app or resource being accessed as a policy condition.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Application signal is the cloud app or resource being accessed as a policy condition.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "sc-0840",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "scenario": "The organization is reviewing the topic “Describe Azure conditional access” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a Microsoft Entra policy engine that evaluates sign-in signals and applies access controls. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Security principal"
+        },
+        {
+          "id": "b",
+          "text": "Microsoft Entra Connect"
+        },
+        {
+          "id": "c",
+          "text": "Zero Trust"
+        },
+        {
+          "id": "d",
+          "text": "Conditional Access"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Conditional Access is the best match because it is a Microsoft Entra policy engine that evaluates sign-in signals and applies access controls.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "sc-0841",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "scenario": "The organization is reviewing the topic “Describe Azure conditional access” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs the identity or group membership used as part of a Conditional Access decision. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Encryption at rest"
+        },
+        {
+          "id": "b",
+          "text": "Block access"
+        },
+        {
+          "id": "c",
+          "text": "User or group signal"
+        },
+        {
+          "id": "d",
+          "text": "Azure Storage Service Encryption"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "User or group signal is the best match because it is the identity or group membership used as part of a Conditional Access decision.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "sc-0842",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "scenario": "The organization is reviewing the topic “Describe Azure conditional access” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: the network or geographic context that can influence a Conditional Access policy. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Assume breach"
+        },
+        {
+          "id": "b",
+          "text": "Windows Hello for Business"
+        },
+        {
+          "id": "c",
+          "text": "Microsoft Entra ID"
+        },
+        {
+          "id": "d",
+          "text": "Location signal"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Location signal is the best match because it is the network or geographic context that can influence a Conditional Access policy.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "sc-0843",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "scenario": "The organization is reviewing the topic “Describe Azure conditional access” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: device state or compliance information used in access decisions. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Authentication"
+        },
+        {
+          "id": "b",
+          "text": "One-way managed-domain synchronization"
+        },
+        {
+          "id": "c",
+          "text": "Multifactor authentication (MFA)"
+        },
+        {
+          "id": "d",
+          "text": "Device signal"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Device signal is the best match because it is device state or compliance information used in access decisions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "sc-0844",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "scenario": "The organization is reviewing the topic “Describe Azure conditional access” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants the cloud app or resource being accessed as a policy condition. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Secure score"
+        },
+        {
+          "id": "b",
+          "text": "Application signal"
+        },
+        {
+          "id": "c",
+          "text": "User or group signal"
+        },
+        {
+          "id": "d",
+          "text": "Identity and access layer"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Application signal is the best match because it is the cloud app or resource being accessed as a policy condition.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "sc-0845",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "scenario": "The organization is reviewing the topic “Describe Azure conditional access” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for a Conditional Access control that requires multifactor authentication before granting access. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Key rotation"
+        },
+        {
+          "id": "b",
+          "text": "Windows Hello for Business"
+        },
+        {
+          "id": "c",
+          "text": "Role definition"
+        },
+        {
+          "id": "d",
+          "text": "Require MFA"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Require MFA is the best match because it is a Conditional Access control that requires multifactor authentication before granting access.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "sc-0846",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "scenario": "The organization is reviewing the topic “Describe Azure conditional access” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for a Conditional Access result that denies access when policy conditions are met. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Storage Service Encryption"
+        },
+        {
+          "id": "b",
+          "text": "Identity signal"
+        },
+        {
+          "id": "c",
+          "text": "Microsoft Entra Domain Services"
+        },
+        {
+          "id": "d",
+          "text": "Block access"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Block access is the best match because it is a Conditional Access result that denies access when policy conditions are met.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "sc-0847",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "scenario": "The organization is reviewing the topic “Describe Azure conditional access” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is a Conditional Access control that permits access only from devices meeting compliance requirements. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zero Trust"
+        },
+        {
+          "id": "b",
+          "text": "Least-privilege access"
+        },
+        {
+          "id": "c",
+          "text": "Require compliant device"
+        },
+        {
+          "id": "d",
+          "text": "Role definition"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Require compliant device is the best match because it is a Conditional Access control that permits access only from devices meeting compliance requirements.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "sc-0848",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "scenario": "The organization is reviewing the topic “Describe Azure conditional access” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as a Microsoft Entra policy engine that evaluates sign-in signals and applies access controls. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Perimeter layer"
+        },
+        {
+          "id": "b",
+          "text": "Secure score"
+        },
+        {
+          "id": "c",
+          "text": "Conditional Access"
+        },
+        {
+          "id": "d",
+          "text": "Physical security layer"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Conditional Access is the best match because it is a Microsoft Entra policy engine that evaluates sign-in signals and applies access controls.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "sc-0849",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "scenario": "The organization is reviewing the topic “Describe Azure conditional access” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides the identity or group membership used as part of a Conditional Access decision. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Security principal"
+        },
+        {
+          "id": "b",
+          "text": "User or group signal"
+        },
+        {
+          "id": "c",
+          "text": "Knowledge factor"
+        },
+        {
+          "id": "d",
+          "text": "Secure score"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "User or group signal is the best match because it is the identity or group membership used as part of a Conditional Access decision.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "match-0420",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Conditional Access"
+        },
+        {
+          "id": "l2",
+          "text": "User or group signal"
+        },
+        {
+          "id": "l3",
+          "text": "Location signal"
+        },
+        {
+          "id": "l4",
+          "text": "Device signal"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Device state or compliance information used in access decisions"
+        },
+        {
+          "id": "r2",
+          "text": "The identity or group membership used as part of a Conditional Access decision"
+        },
+        {
+          "id": "r3",
+          "text": "The network or geographic context that can influence a Conditional Access policy"
+        },
+        {
+          "id": "r1",
+          "text": "A Microsoft Entra policy engine that evaluates sign-in signals and applies access controls"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l2": "r2",
+        "l3": "r3",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "match-0421",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Location signal"
+        },
+        {
+          "id": "l2",
+          "text": "Device signal"
+        },
+        {
+          "id": "l3",
+          "text": "Application signal"
+        },
+        {
+          "id": "l4",
+          "text": "Require MFA"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "The cloud app or resource being accessed as a policy condition"
+        },
+        {
+          "id": "r4",
+          "text": "A Conditional Access control that requires multifactor authentication before granting access"
+        },
+        {
+          "id": "r2",
+          "text": "Device state or compliance information used in access decisions"
+        },
+        {
+          "id": "r1",
+          "text": "The network or geographic context that can influence a Conditional Access policy"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "match-0422",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Application signal"
+        },
+        {
+          "id": "l2",
+          "text": "Require MFA"
+        },
+        {
+          "id": "l3",
+          "text": "Block access"
+        },
+        {
+          "id": "l4",
+          "text": "Require compliant device"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "A Conditional Access control that permits access only from devices meeting compliance requirements"
+        },
+        {
+          "id": "r1",
+          "text": "The cloud app or resource being accessed as a policy condition"
+        },
+        {
+          "id": "r2",
+          "text": "A Conditional Access control that requires multifactor authentication before granting access"
+        },
+        {
+          "id": "r3",
+          "text": "A Conditional Access result that denies access when policy conditions are met"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "match-0423",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Block access"
+        },
+        {
+          "id": "l2",
+          "text": "Require compliant device"
+        },
+        {
+          "id": "l3",
+          "text": "Conditional Access"
+        },
+        {
+          "id": "l4",
+          "text": "User or group signal"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A Conditional Access result that denies access when policy conditions are met"
+        },
+        {
+          "id": "r3",
+          "text": "A Microsoft Entra policy engine that evaluates sign-in signals and applies access controls"
+        },
+        {
+          "id": "r2",
+          "text": "A Conditional Access control that permits access only from devices meeting compliance requirements"
+        },
+        {
+          "id": "r4",
+          "text": "The identity or group membership used as part of a Conditional Access decision"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l3": "r3",
+        "l2": "r2",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "match-0424",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Conditional Access"
+        },
+        {
+          "id": "l2",
+          "text": "User or group signal"
+        },
+        {
+          "id": "l3",
+          "text": "Location signal"
+        },
+        {
+          "id": "l4",
+          "text": "Device signal"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Device state or compliance information used in access decisions"
+        },
+        {
+          "id": "r1",
+          "text": "A Microsoft Entra policy engine that evaluates sign-in signals and applies access controls"
+        },
+        {
+          "id": "r3",
+          "text": "The network or geographic context that can influence a Conditional Access policy"
+        },
+        {
+          "id": "r2",
+          "text": "The identity or group membership used as part of a Conditional Access decision"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l1": "r1",
+        "l3": "r3",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "fill-0420",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "question": "{{answer}} is the network or geographic context that can influence a Conditional Access policy.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Location signal",
+            "Defense in depth",
+            "Microsoft Entra ID",
+            "Guest user"
+          ],
+          "correctAnswer": "Location signal"
+        }
+      ],
+      "explanation": "Location signal is the network or geographic context that can influence a Conditional Access policy.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "fill-0421",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "question": "The term for device state or compliance information used in access decisions is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Inherited RBAC permission",
+            "Security principal",
+            "Require MFA",
+            "Device signal"
+          ],
+          "correctAnswer": "Device signal"
+        }
+      ],
+      "explanation": "Device signal is device state or compliance information used in access decisions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "fill-0422",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "question": "In this unit, {{answer}} refers to the cloud app or resource being accessed as a policy condition.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Least-privilege access",
+            "Guest user",
+            "Application signal",
+            "Microsoft Entra Connect"
+          ],
+          "correctAnswer": "Application signal"
+        }
+      ],
+      "explanation": "Application signal is the cloud app or resource being accessed as a policy condition.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "fill-0423",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "question": "For AZ-900, the concept described as a Conditional Access control that requires multifactor authentication before granting access is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Customer identity access",
+            "Multicloud security",
+            "Continuous evaluation",
+            "Require MFA"
+          ],
+          "correctAnswer": "Require MFA"
+        }
+      ],
+      "explanation": "Require MFA is a Conditional Access control that requires multifactor authentication before granting access.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    },
+    {
+      "id": "fill-0424",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure conditional access",
+      "question": "Choose the term that completes the statement: {{answer}} means a Conditional Access result that denies access when policy conditions are met.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "One-way managed-domain synchronization",
+            "Zero Trust",
+            "Azure Key Vault",
+            "Block access"
+          ],
+          "correctAnswer": "Block access"
+        }
+      ],
+      "explanation": "Block access is a Conditional Access result that denies access when policy conditions are met.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access"
+    }
+  ]
+}

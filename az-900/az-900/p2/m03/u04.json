@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe features and tools for managing and deploying Azure resources · Describe Azure Resource Manager and Azure ARM templates",
+  "questions": [
+    {
+      "id": "mc-0200",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "question": "Which statement best describes Azure Resource Manager (ARM)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Specifying the desired end state rather than a sequence of imperative steps"
+        },
+        {
+          "id": "b",
+          "text": "Kubernetes clusters outside Azure that can be governed and managed through Azure Arc"
+        },
+        {
+          "id": "c",
+          "text": "The Azure deployment and management service that processes requests to create, update, and delete resources"
+        },
+        {
+          "id": "d",
+          "text": "Data services that can be managed in hybrid or multicloud environments through Azure Arc"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure Resource Manager (ARM) is the Azure deployment and management service that processes requests to create, update, and delete resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "mc-0201",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "question": "In the context of this Microsoft Learn unit, what does ARM request flow refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ARM determining resource deployment order and deploying independent resources in parallel when possible"
+        },
+        {
+          "id": "b",
+          "text": "The Azure deployment and management service that processes requests to create, update, and delete resources"
+        },
+        {
+          "id": "c",
+          "text": "Representing non-Azure resources in Azure Resource Manager so they can be managed with familiar Azure tools"
+        },
+        {
+          "id": "d",
+          "text": "Management requests are authenticated and authorized by ARM before being forwarded to the target Azure service"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "ARM request flow is management requests are authenticated and authorized by ARM before being forwarded to the target Azure service.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "mc-0202",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "question": "Which description correctly matches ARM template?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A service that extends Azure management and governance to hybrid and multicloud resources"
+        },
+        {
+          "id": "b",
+          "text": "A browser-based authenticated shell that supports Azure PowerShell and Azure CLI without local installation"
+        },
+        {
+          "id": "c",
+          "text": "A declarative JSON file that describes the desired Azure resources and configuration"
+        },
+        {
+          "id": "d",
+          "text": "A web-based graphical console for creating, managing, and monitoring Azure resources"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "ARM template is a declarative JSON file that describes the desired Azure resources and configuration.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "mc-0203",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "question": "Which of the following is the best definition of Infrastructure as code?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A cross-platform command-line tool that uses CLI/Bash-style commands to manage Azure"
+        },
+        {
+          "id": "b",
+          "text": "Managing infrastructure through code or templates instead of manual configuration"
+        },
+        {
+          "id": "c",
+          "text": "An AI assistant that can provide contextual guidance and help draft operational commands or workflows"
+        },
+        {
+          "id": "d",
+          "text": "Azure CLI and Azure PowerShell can be installed on Windows, Linux, and macOS"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Infrastructure as code is managing infrastructure through code or templates instead of manual configuration.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "mc-0204",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "question": "What is the primary meaning of Declarative deployment in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kubernetes clusters outside Azure that can be governed and managed through Azure Arc"
+        },
+        {
+          "id": "b",
+          "text": "Azure CLI and Azure PowerShell can be installed on Windows, Linux, and macOS"
+        },
+        {
+          "id": "c",
+          "text": "Specifying the desired end state rather than a sequence of imperative steps"
+        },
+        {
+          "id": "d",
+          "text": "The browser shell automatically uses the Azure identity and permissions of the signed-in user"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Declarative deployment is specifying the desired end state rather than a sequence of imperative steps.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "mr-0200",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Resource Manager (ARM): the Azure deployment and management service that processes requests to create, update, and delete resources."
+        },
+        {
+          "id": "b",
+          "text": "ARM request flow: a concise declarative language that deploys Azure resources through ARM."
+        },
+        {
+          "id": "c",
+          "text": "ARM template: a browser-based authenticated shell that supports Azure PowerShell and Azure CLI without local installation."
+        },
+        {
+          "id": "d",
+          "text": "ARM request flow: management requests are authenticated and authorized by ARM before being forwarded to the target Azure service."
+        },
+        {
+          "id": "e",
+          "text": "Azure Resource Manager (ARM): managing infrastructure through code or templates instead of manual configuration."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Azure Resource Manager (ARM) — the Azure deployment and management service that processes requests to create, update, and delete resources; and ARM request flow — management requests are authenticated and authorized by ARM before being forwarded to the target Azure service.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "mr-0201",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ARM template: a declarative JSON file that describes the desired Azure resources and configuration."
+        },
+        {
+          "id": "b",
+          "text": "Infrastructure as code: a command-line and scripting environment that uses PowerShell cmdlets to manage Azure through its APIs."
+        },
+        {
+          "id": "c",
+          "text": "Infrastructure as code: a web-based graphical console for creating, managing, and monitoring Azure resources."
+        },
+        {
+          "id": "d",
+          "text": "Infrastructure as code: managing infrastructure through code or templates instead of manual configuration."
+        },
+        {
+          "id": "e",
+          "text": "ARM template: ARM determining resource deployment order and deploying independent resources in parallel when possible."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: ARM template — a declarative JSON file that describes the desired Azure resources and configuration; and Infrastructure as code — managing infrastructure through code or templates instead of manual configuration.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "mr-0202",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Declarative deployment: specifying the desired end state rather than a sequence of imperative steps."
+        },
+        {
+          "id": "b",
+          "text": "Dependency orchestration: a command-line and scripting environment that uses PowerShell cmdlets to manage Azure through its APIs."
+        },
+        {
+          "id": "c",
+          "text": "Declarative deployment: a cross-platform command-line tool that uses CLI/Bash-style commands to manage Azure."
+        },
+        {
+          "id": "d",
+          "text": "Dependency orchestration: ARM determining resource deployment order and deploying independent resources in parallel when possible."
+        },
+        {
+          "id": "e",
+          "text": "Declarative deployment: reapplying a declarative template to reach the same intended end state consistently."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Declarative deployment — specifying the desired end state rather than a sequence of imperative steps; and Dependency orchestration — ARM determining resource deployment order and deploying independent resources in parallel when possible.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "mr-0203",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Idempotent deployment: reapplying a declarative template to reach the same intended end state consistently."
+        },
+        {
+          "id": "b",
+          "text": "Bicep: a browser-based authenticated shell that supports Azure PowerShell and Azure CLI without local installation."
+        },
+        {
+          "id": "c",
+          "text": "Idempotent deployment: an AI assistant that can provide contextual guidance and help draft operational commands or workflows."
+        },
+        {
+          "id": "d",
+          "text": "Bicep: a concise declarative language that deploys Azure resources through ARM."
+        },
+        {
+          "id": "e",
+          "text": "Dependency orchestration: an AI assistant that can provide contextual guidance and help draft operational commands or workflows."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Bicep — a concise declarative language that deploys Azure resources through ARM; and Idempotent deployment — reapplying a declarative template to reach the same intended end state consistently.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "mr-0204",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ARM request flow: a concise declarative language that deploys Azure resources through ARM."
+        },
+        {
+          "id": "b",
+          "text": "ARM request flow: management requests are authenticated and authorized by ARM before being forwarded to the target Azure service."
+        },
+        {
+          "id": "c",
+          "text": "Azure Resource Manager (ARM): the Azure deployment and management service that processes requests to create, update, and delete resources."
+        },
+        {
+          "id": "d",
+          "text": "Azure Resource Manager (ARM): managing infrastructure through code or templates instead of manual configuration."
+        },
+        {
+          "id": "e",
+          "text": "Bicep: capturing management commands in scripts so operations can be automated and repeated consistently."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: Azure Resource Manager (ARM) — the Azure deployment and management service that processes requests to create, update, and delete resources; and ARM request flow — management requests are authenticated and authorized by ARM before being forwarded to the target Azure service.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "tf-0200",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "question": "Azure Resource Manager (ARM) is the Azure deployment and management service that processes requests to create, update, and delete resources.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure Resource Manager (ARM) is the Azure deployment and management service that processes requests to create, update, and delete resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "tf-0201",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "question": "According to this unit: ARM request flow is specifying the desired end state rather than a sequence of imperative steps.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. ARM request flow is management requests are authenticated and authorized by ARM before being forwarded to the target Azure service.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "tf-0202",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "question": "For Azure fundamentals, ARM template is a declarative JSON file that describes the desired Azure resources and configuration.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "ARM template is a declarative JSON file that describes the desired Azure resources and configuration.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "tf-0203",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "question": "This statement is correct: Infrastructure as code is a concise declarative language that deploys Azure resources through ARM.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Infrastructure as code is managing infrastructure through code or templates instead of manual configuration.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "tf-0204",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "question": "The unit supports the following statement: Declarative deployment is specifying the desired end state rather than a sequence of imperative steps.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Declarative deployment is specifying the desired end state rather than a sequence of imperative steps.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "sc-0400",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "scenario": "The organization is reviewing the topic “Describe Azure Resource Manager and Azure ARM templates” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: the Azure deployment and management service that processes requests to create, update, and delete resources. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Consistent governance"
+        },
+        {
+          "id": "b",
+          "text": "Azure Resource Manager (ARM)"
+        },
+        {
+          "id": "c",
+          "text": "Arc-enabled data services"
+        },
+        {
+          "id": "d",
+          "text": "Arc-enabled Kubernetes"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Resource Manager (ARM) is the best match because it is the Azure deployment and management service that processes requests to create, update, and delete resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "sc-0401",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "scenario": "The organization is reviewing the topic “Describe Azure Resource Manager and Azure ARM templates” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs management requests are authenticated and authorized by ARM before being forwarded to the target Azure service. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hybrid management platform"
+        },
+        {
+          "id": "b",
+          "text": "Azure PowerShell"
+        },
+        {
+          "id": "c",
+          "text": "Arc-enabled Kubernetes"
+        },
+        {
+          "id": "d",
+          "text": "ARM request flow"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "ARM request flow is the best match because it is management requests are authenticated and authorized by ARM before being forwarded to the target Azure service.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "sc-0402",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "scenario": "The organization is reviewing the topic “Describe Azure Resource Manager and Azure ARM templates” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: a declarative JSON file that describes the desired Azure resources and configuration. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dependency orchestration"
+        },
+        {
+          "id": "b",
+          "text": "ARM template"
+        },
+        {
+          "id": "c",
+          "text": "Infrastructure as code"
+        },
+        {
+          "id": "d",
+          "text": "Azure PowerShell"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "ARM template is the best match because it is a declarative JSON file that describes the desired Azure resources and configuration.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "sc-0403",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "scenario": "The organization is reviewing the topic “Describe Azure Resource Manager and Azure ARM templates” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: managing infrastructure through code or templates instead of manual configuration. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Resource Manager projection"
+        },
+        {
+          "id": "b",
+          "text": "Cloud Shell authentication"
+        },
+        {
+          "id": "c",
+          "text": "Consistent governance"
+        },
+        {
+          "id": "d",
+          "text": "Infrastructure as code"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Infrastructure as code is the best match because it is managing infrastructure through code or templates instead of manual configuration.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "sc-0404",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "scenario": "The organization is reviewing the topic “Describe Azure Resource Manager and Azure ARM templates” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants specifying the desired end state rather than a sequence of imperative steps. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Consistent governance"
+        },
+        {
+          "id": "b",
+          "text": "Declarative deployment"
+        },
+        {
+          "id": "c",
+          "text": "Hybrid management platform"
+        },
+        {
+          "id": "d",
+          "text": "Cross-platform management"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Declarative deployment is the best match because it is specifying the desired end state rather than a sequence of imperative steps.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "sc-0405",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "scenario": "The organization is reviewing the topic “Describe Azure Resource Manager and Azure ARM templates” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for aRM determining resource deployment order and deploying independent resources in parallel when possible. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Idempotent deployment"
+        },
+        {
+          "id": "b",
+          "text": "Dependency orchestration"
+        },
+        {
+          "id": "c",
+          "text": "ARM request flow"
+        },
+        {
+          "id": "d",
+          "text": "Azure Resource Manager (ARM)"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Dependency orchestration is the best match because it is ARM determining resource deployment order and deploying independent resources in parallel when possible.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "sc-0406",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "scenario": "The organization is reviewing the topic “Describe Azure Resource Manager and Azure ARM templates” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for a concise declarative language that deploys Azure resources through ARM. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bicep"
+        },
+        {
+          "id": "b",
+          "text": "ARM request flow"
+        },
+        {
+          "id": "c",
+          "text": "Arc-enabled data services"
+        },
+        {
+          "id": "d",
+          "text": "Infrastructure as code"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Bicep is the best match because it is a concise declarative language that deploys Azure resources through ARM.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "sc-0407",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "scenario": "The organization is reviewing the topic “Describe Azure Resource Manager and Azure ARM templates” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is reapplying a declarative template to reach the same intended end state consistently. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Idempotent deployment"
+        },
+        {
+          "id": "b",
+          "text": "Consistent governance"
+        },
+        {
+          "id": "c",
+          "text": "Infrastructure as code"
+        },
+        {
+          "id": "d",
+          "text": "ARM request flow"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Idempotent deployment is the best match because it is reapplying a declarative template to reach the same intended end state consistently.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "sc-0408",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "scenario": "The organization is reviewing the topic “Describe Azure Resource Manager and Azure ARM templates” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as the Azure deployment and management service that processes requests to create, update, and delete resources. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Arc-enabled Kubernetes"
+        },
+        {
+          "id": "b",
+          "text": "Azure Arc"
+        },
+        {
+          "id": "c",
+          "text": "Dependency orchestration"
+        },
+        {
+          "id": "d",
+          "text": "Azure Resource Manager (ARM)"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Azure Resource Manager (ARM) is the best match because it is the Azure deployment and management service that processes requests to create, update, and delete resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "sc-0409",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "scenario": "The organization is reviewing the topic “Describe Azure Resource Manager and Azure ARM templates” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides management requests are authenticated and authorized by ARM before being forwarded to the target Azure service. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Declarative deployment"
+        },
+        {
+          "id": "b",
+          "text": "Hybrid management platform"
+        },
+        {
+          "id": "c",
+          "text": "Infrastructure as code"
+        },
+        {
+          "id": "d",
+          "text": "ARM request flow"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "ARM request flow is the best match because it is management requests are authenticated and authorized by ARM before being forwarded to the target Azure service.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "match-0200",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Resource Manager (ARM)"
+        },
+        {
+          "id": "l2",
+          "text": "ARM request flow"
+        },
+        {
+          "id": "l3",
+          "text": "ARM template"
+        },
+        {
+          "id": "l4",
+          "text": "Infrastructure as code"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "The Azure deployment and management service that processes requests to create, update, and delete resources"
+        },
+        {
+          "id": "r4",
+          "text": "Managing infrastructure through code or templates instead of manual configuration"
+        },
+        {
+          "id": "r2",
+          "text": "Management requests are authenticated and authorized by ARM before being forwarded to the target Azure service"
+        },
+        {
+          "id": "r3",
+          "text": "A declarative JSON file that describes the desired Azure resources and configuration"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l4": "r4",
+        "l2": "r2",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "match-0201",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "ARM template"
+        },
+        {
+          "id": "l2",
+          "text": "Infrastructure as code"
+        },
+        {
+          "id": "l3",
+          "text": "Declarative deployment"
+        },
+        {
+          "id": "l4",
+          "text": "Dependency orchestration"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "Managing infrastructure through code or templates instead of manual configuration"
+        },
+        {
+          "id": "r4",
+          "text": "ARM determining resource deployment order and deploying independent resources in parallel when possible"
+        },
+        {
+          "id": "r3",
+          "text": "Specifying the desired end state rather than a sequence of imperative steps"
+        },
+        {
+          "id": "r1",
+          "text": "A declarative JSON file that describes the desired Azure resources and configuration"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l4": "r4",
+        "l3": "r3",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "match-0202",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Declarative deployment"
+        },
+        {
+          "id": "l2",
+          "text": "Dependency orchestration"
+        },
+        {
+          "id": "l3",
+          "text": "Bicep"
+        },
+        {
+          "id": "l4",
+          "text": "Idempotent deployment"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Reapplying a declarative template to reach the same intended end state consistently"
+        },
+        {
+          "id": "r2",
+          "text": "ARM determining resource deployment order and deploying independent resources in parallel when possible"
+        },
+        {
+          "id": "r1",
+          "text": "Specifying the desired end state rather than a sequence of imperative steps"
+        },
+        {
+          "id": "r3",
+          "text": "A concise declarative language that deploys Azure resources through ARM"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "match-0203",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Bicep"
+        },
+        {
+          "id": "l2",
+          "text": "Idempotent deployment"
+        },
+        {
+          "id": "l3",
+          "text": "Azure Resource Manager (ARM)"
+        },
+        {
+          "id": "l4",
+          "text": "ARM request flow"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Management requests are authenticated and authorized by ARM before being forwarded to the target Azure service"
+        },
+        {
+          "id": "r3",
+          "text": "The Azure deployment and management service that processes requests to create, update, and delete resources"
+        },
+        {
+          "id": "r1",
+          "text": "A concise declarative language that deploys Azure resources through ARM"
+        },
+        {
+          "id": "r2",
+          "text": "Reapplying a declarative template to reach the same intended end state consistently"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l3": "r3",
+        "l1": "r1",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "match-0204",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Resource Manager (ARM)"
+        },
+        {
+          "id": "l2",
+          "text": "ARM request flow"
+        },
+        {
+          "id": "l3",
+          "text": "ARM template"
+        },
+        {
+          "id": "l4",
+          "text": "Infrastructure as code"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Managing infrastructure through code or templates instead of manual configuration"
+        },
+        {
+          "id": "r2",
+          "text": "Management requests are authenticated and authorized by ARM before being forwarded to the target Azure service"
+        },
+        {
+          "id": "r3",
+          "text": "A declarative JSON file that describes the desired Azure resources and configuration"
+        },
+        {
+          "id": "r1",
+          "text": "The Azure deployment and management service that processes requests to create, update, and delete resources"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l2": "r2",
+        "l3": "r3",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "fill-0200",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "question": "{{answer}} is a declarative JSON file that describes the desired Azure resources and configuration.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Copilot in Azure",
+            "Declarative deployment",
+            "Consistent governance",
+            "ARM template"
+          ],
+          "correctAnswer": "ARM template"
+        }
+      ],
+      "explanation": "ARM template is a declarative JSON file that describes the desired Azure resources and configuration.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "fill-0201",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "question": "The term for managing infrastructure through code or templates instead of manual configuration is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Arc-enabled Kubernetes",
+            "Arc-enabled data services",
+            "Infrastructure as code",
+            "Idempotent deployment"
+          ],
+          "correctAnswer": "Infrastructure as code"
+        }
+      ],
+      "explanation": "Infrastructure as code is managing infrastructure through code or templates instead of manual configuration.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "fill-0202",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "question": "In this unit, {{answer}} refers to specifying the desired end state rather than a sequence of imperative steps.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Declarative deployment",
+            "Azure portal",
+            "Arc-enabled data services",
+            "Bicep"
+          ],
+          "correctAnswer": "Declarative deployment"
+        }
+      ],
+      "explanation": "Declarative deployment is specifying the desired end state rather than a sequence of imperative steps.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "fill-0203",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "question": "For AZ-900, the concept described as aRM determining resource deployment order and deploying independent resources in parallel when possible is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Dependency orchestration",
+            "Idempotent deployment",
+            "Declarative deployment",
+            "ARM request flow"
+          ],
+          "correctAnswer": "Dependency orchestration"
+        }
+      ],
+      "explanation": "Dependency orchestration is ARM determining resource deployment order and deploying independent resources in parallel when possible.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    },
+    {
+      "id": "fill-0204",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe Azure Resource Manager and Azure ARM templates",
+      "question": "Choose the term that completes the statement: {{answer}} means a concise declarative language that deploys Azure resources through ARM.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure Resource Manager (ARM)",
+            "Arc-enabled servers",
+            "Idempotent deployment",
+            "Bicep"
+          ],
+          "correctAnswer": "Bicep"
+        }
+      ],
+      "explanation": "Bicep is a concise declarative language that deploys Azure resources through ARM.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates"
+    }
+  ]
+}

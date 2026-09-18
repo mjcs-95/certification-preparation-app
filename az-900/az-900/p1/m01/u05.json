@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe cloud computing · Define cloud models",
+  "questions": [
+    {
+      "id": "mc-0020",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "question": "Which statement best describes Public cloud?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cloud infrastructure built, controlled, and maintained by a third-party provider and available to customers who purchase services"
+        },
+        {
+          "id": "b",
+          "text": "Ongoing spending for services consumed over time"
+        },
+        {
+          "id": "c",
+          "text": "Cloud pricing in which charges generally track actual service consumption"
+        },
+        {
+          "id": "d",
+          "text": "The ability to place services closer to users and design regional resilience without building your own worldwide datacenters"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Public cloud is cloud infrastructure built, controlled, and maintained by a third-party provider and available to customers who purchase services.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "mc-0021",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "question": "In the context of this Microsoft Learn unit, what does Private cloud refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Managed or hosted database capabilities delivered through a cloud platform"
+        },
+        {
+          "id": "b",
+          "text": "Removing resource instances when demand falls"
+        },
+        {
+          "id": "c",
+          "text": "An AZ-900 domain covering management, monitoring, cost, and governance and accounting for roughly 30–35% of the exam"
+        },
+        {
+          "id": "d",
+          "text": "A cloud environment dedicated to a single organization, offering greater control but typically greater cost and management responsibility"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Private cloud is a cloud environment dedicated to a single organization, offering greater control but typically greater cost and management responsibility.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "mc-0022",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "question": "Which description correctly matches Hybrid cloud?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The ability to decide which workloads remain private and which use public-cloud capacity"
+        },
+        {
+          "id": "b",
+          "text": "Allocating more capacity than needed, which can create unnecessary cost"
+        },
+        {
+          "id": "c",
+          "text": "An interconnected environment that combines private and public cloud resources"
+        },
+        {
+          "id": "d",
+          "text": "An AZ-900 domain covering management, monitoring, cost, and governance and accounting for roughly 30–35% of the exam"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Hybrid cloud is an interconnected environment that combines private and public cloud resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "mc-0023",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "question": "Which of the following is the best definition of Multicloud?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The use of services from two or more public cloud providers"
+        },
+        {
+          "id": "b",
+          "text": "Allocating more capacity than needed, which can create unnecessary cost"
+        },
+        {
+          "id": "c",
+          "text": "Compute resources that can be delivered as cloud services instead of requiring local physical servers"
+        },
+        {
+          "id": "d",
+          "text": "A model in which you pay for the IT resources you use and can release them when they are no longer needed"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Multicloud is the use of services from two or more public cloud providers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "mc-0024",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "question": "What is the primary meaning of Azure Arc in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An AZ-900 domain covering general cloud ideas and accounting for roughly 25–30% of the exam"
+        },
+        {
+          "id": "b",
+          "text": "The customer remains responsible for accounts and identities used in the environment"
+        },
+        {
+          "id": "c",
+          "text": "An interconnected environment that combines private and public cloud resources"
+        },
+        {
+          "id": "d",
+          "text": "Technology that helps manage Azure, on-premises, hybrid, and multicloud resources through a consistent management approach"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Azure Arc is technology that helps manage Azure, on-premises, hybrid, and multicloud resources through a consistent management approach.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "mr-0020",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Public cloud: the use of services from two or more public cloud providers."
+        },
+        {
+          "id": "b",
+          "text": "Hybrid cloud: a beginner-oriented series that introduces Azure services, cloud concepts, governance, and management."
+        },
+        {
+          "id": "c",
+          "text": "Private cloud: a cloud environment dedicated to a single organization, offering greater control but typically greater cost and management responsibility."
+        },
+        {
+          "id": "d",
+          "text": "Private cloud: the ability to provision and deprovision resources quickly without purchasing new datacenter hardware."
+        },
+        {
+          "id": "e",
+          "text": "Public cloud: cloud infrastructure built, controlled, and maintained by a third-party provider and available to customers who purchase services."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "e"
+      ],
+      "explanation": "The correct pair is: Public cloud — cloud infrastructure built, controlled, and maintained by a third-party provider and available to customers who purchase services; and Private cloud — a cloud environment dedicated to a single organization, offering greater control but typically greater cost and management responsibility.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "mr-0021",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Multicloud: the use of services from two or more public cloud providers."
+        },
+        {
+          "id": "b",
+          "text": "Multicloud: an AZ-900 domain covering general cloud ideas and accounting for roughly 25–30% of the exam."
+        },
+        {
+          "id": "c",
+          "text": "Hybrid cloud: an Azure service that lets organizations run VMware workloads in Azure."
+        },
+        {
+          "id": "d",
+          "text": "Hybrid cloud: an interconnected environment that combines private and public cloud resources."
+        },
+        {
+          "id": "e",
+          "text": "Multicloud: a cloud computing platform that provides services for compute, storage, networking, databases, AI, IoT, and more."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Hybrid cloud — an interconnected environment that combines private and public cloud resources; and Multicloud — the use of services from two or more public cloud providers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "mr-0022",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Arc: an AZ-900 domain covering Azure infrastructure and services and accounting for roughly 35–40% of the exam."
+        },
+        {
+          "id": "b",
+          "text": "Azure VMware Solution: an Azure service that lets organizations run VMware workloads in Azure."
+        },
+        {
+          "id": "c",
+          "text": "Azure VMware Solution: an AZ-900 domain covering general cloud ideas and accounting for roughly 25–30% of the exam."
+        },
+        {
+          "id": "d",
+          "text": "Azure Arc: technology that helps manage Azure, on-premises, hybrid, and multicloud resources through a consistent management approach."
+        },
+        {
+          "id": "e",
+          "text": "Azure Arc: the ability to decide which workloads remain private and which use public-cloud capacity."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: Azure Arc — technology that helps manage Azure, on-premises, hybrid, and multicloud resources through a consistent management approach; and Azure VMware Solution — an Azure service that lets organizations run VMware workloads in Azure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "mr-0023",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hybrid flexibility: the ability to decide which workloads remain private and which use public-cloud capacity."
+        },
+        {
+          "id": "b",
+          "text": "Hybrid flexibility: an AZ-900 domain covering management, monitoring, cost, and governance and accounting for roughly 30–35% of the exam."
+        },
+        {
+          "id": "c",
+          "text": "Public-cloud scaling: the ability to provision and deprovision resources quickly without purchasing new datacenter hardware."
+        },
+        {
+          "id": "d",
+          "text": "Azure VMware Solution: an AZ-900 domain covering management, monitoring, cost, and governance and accounting for roughly 30–35% of the exam."
+        },
+        {
+          "id": "e",
+          "text": "Public-cloud scaling: a beginner-oriented series that introduces Azure services, cloud concepts, governance, and management."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "c"
+      ],
+      "explanation": "The correct pair is: Public-cloud scaling — the ability to provision and deprovision resources quickly without purchasing new datacenter hardware; and Hybrid flexibility — the ability to decide which workloads remain private and which use public-cloud capacity.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "mr-0024",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Public cloud: cloud infrastructure built, controlled, and maintained by a third-party provider and available to customers who purchase services."
+        },
+        {
+          "id": "b",
+          "text": "Private cloud: a cloud environment dedicated to a single organization, offering greater control but typically greater cost and management responsibility."
+        },
+        {
+          "id": "c",
+          "text": "Public cloud: the use of services from two or more public cloud providers."
+        },
+        {
+          "id": "d",
+          "text": "Public-cloud scaling: the Microsoft Azure Fundamentals certification exam that Azure Fundamentals learning paths help prepare you for."
+        },
+        {
+          "id": "e",
+          "text": "Private cloud: the ability to provision and deprovision resources quickly without purchasing new datacenter hardware."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Public cloud — cloud infrastructure built, controlled, and maintained by a third-party provider and available to customers who purchase services; and Private cloud — a cloud environment dedicated to a single organization, offering greater control but typically greater cost and management responsibility.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "tf-0020",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "question": "Public cloud is cloud infrastructure built, controlled, and maintained by a third-party provider and available to customers who purchase services.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Public cloud is cloud infrastructure built, controlled, and maintained by a third-party provider and available to customers who purchase services.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "tf-0021",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "question": "According to this unit: Private cloud is technology that helps manage Azure, on-premises, hybrid, and multicloud resources through a consistent management approach.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Private cloud is a cloud environment dedicated to a single organization, offering greater control but typically greater cost and management responsibility.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "tf-0022",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "question": "For Azure fundamentals, Hybrid cloud is an interconnected environment that combines private and public cloud resources.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Hybrid cloud is an interconnected environment that combines private and public cloud resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "tf-0023",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "question": "This statement is correct: Multicloud is the ability to provision and deprovision resources quickly without purchasing new datacenter hardware.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Multicloud is the use of services from two or more public cloud providers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "tf-0024",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "question": "The unit supports the following statement: Azure Arc is technology that helps manage Azure, on-premises, hybrid, and multicloud resources through a consistent management approach.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure Arc is technology that helps manage Azure, on-premises, hybrid, and multicloud resources through a consistent management approach.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "sc-0040",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "scenario": "The organization is reviewing the topic “Define cloud models” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: cloud infrastructure built, controlled, and maintained by a third-party provider and available to customers who purchase services. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Customer identity responsibility"
+        },
+        {
+          "id": "b",
+          "text": "Scale in"
+        },
+        {
+          "id": "c",
+          "text": "Provider physical datacenter responsibility"
+        },
+        {
+          "id": "d",
+          "text": "Public cloud"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Public cloud is the best match because it is cloud infrastructure built, controlled, and maintained by a third-party provider and available to customers who purchase services.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "sc-0041",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "scenario": "The organization is reviewing the topic “Define cloud models” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs a cloud environment dedicated to a single organization, offering greater control but typically greater cost and management responsibility. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "PaaS responsibility model"
+        },
+        {
+          "id": "b",
+          "text": "Private cloud"
+        },
+        {
+          "id": "c",
+          "text": "Azure Arc"
+        },
+        {
+          "id": "d",
+          "text": "Operational expenditure (OpEx)"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Private cloud is the best match because it is a cloud environment dedicated to a single organization, offering greater control but typically greater cost and management responsibility.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "sc-0042",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "scenario": "The organization is reviewing the topic “Define cloud models” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: an interconnected environment that combines private and public cloud resources. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Operational expenditure (OpEx)"
+        },
+        {
+          "id": "b",
+          "text": "Cloud databases"
+        },
+        {
+          "id": "c",
+          "text": "Global reach"
+        },
+        {
+          "id": "d",
+          "text": "Hybrid cloud"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Hybrid cloud is the best match because it is an interconnected environment that combines private and public cloud resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "sc-0043",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "scenario": "The organization is reviewing the topic “Define cloud models” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: the use of services from two or more public cloud providers. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Customer identity responsibility"
+        },
+        {
+          "id": "b",
+          "text": "Provider physical network responsibility"
+        },
+        {
+          "id": "c",
+          "text": "Multicloud"
+        },
+        {
+          "id": "d",
+          "text": "Microsoft Azure"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Multicloud is the best match because it is the use of services from two or more public cloud providers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "sc-0044",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "scenario": "The organization is reviewing the topic “Define cloud models” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants technology that helps manage Azure, on-premises, hybrid, and multicloud resources through a consistent management approach. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Virtual machines"
+        },
+        {
+          "id": "b",
+          "text": "Azure Arc"
+        },
+        {
+          "id": "c",
+          "text": "Capital expenditure (CapEx)"
+        },
+        {
+          "id": "d",
+          "text": "Describe Azure architecture and services"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Arc is the best match because it is technology that helps manage Azure, on-premises, hybrid, and multicloud resources through a consistent management approach.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "sc-0045",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "scenario": "The organization is reviewing the topic “Define cloud models” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for an Azure service that lets organizations run VMware workloads in Azure. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Scale out"
+        },
+        {
+          "id": "b",
+          "text": "Underprovisioning"
+        },
+        {
+          "id": "c",
+          "text": "Cloud storage"
+        },
+        {
+          "id": "d",
+          "text": "Azure VMware Solution"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Azure VMware Solution is the best match because it is an Azure service that lets organizations run VMware workloads in Azure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "sc-0046",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "scenario": "The organization is reviewing the topic “Define cloud models” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for the ability to provision and deprovision resources quickly without purchasing new datacenter hardware. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Public cloud"
+        },
+        {
+          "id": "b",
+          "text": "Hybrid cloud"
+        },
+        {
+          "id": "c",
+          "text": "Public-cloud scaling"
+        },
+        {
+          "id": "d",
+          "text": "Overprovisioning"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Public-cloud scaling is the best match because it is the ability to provision and deprovision resources quickly without purchasing new datacenter hardware.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "sc-0047",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "scenario": "The organization is reviewing the topic “Define cloud models” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is the ability to decide which workloads remain private and which use public-cloud capacity. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Provider physical network responsibility"
+        },
+        {
+          "id": "b",
+          "text": "Hybrid flexibility"
+        },
+        {
+          "id": "c",
+          "text": "Public cloud"
+        },
+        {
+          "id": "d",
+          "text": "Operational expenditure (OpEx)"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Hybrid flexibility is the best match because it is the ability to decide which workloads remain private and which use public-cloud capacity.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "sc-0048",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "scenario": "The organization is reviewing the topic “Define cloud models” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as cloud infrastructure built, controlled, and maintained by a third-party provider and available to customers who purchase services. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Operational expenditure (OpEx)"
+        },
+        {
+          "id": "b",
+          "text": "Capital expenditure (CapEx)"
+        },
+        {
+          "id": "c",
+          "text": "Public cloud"
+        },
+        {
+          "id": "d",
+          "text": "Microsoft Azure"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Public cloud is the best match because it is cloud infrastructure built, controlled, and maintained by a third-party provider and available to customers who purchase services.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "sc-0049",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "scenario": "The organization is reviewing the topic “Define cloud models” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides a cloud environment dedicated to a single organization, offering greater control but typically greater cost and management responsibility. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Private cloud"
+        },
+        {
+          "id": "b",
+          "text": "Describe Azure management and governance"
+        },
+        {
+          "id": "c",
+          "text": "Describe cloud concepts"
+        },
+        {
+          "id": "d",
+          "text": "Cloud computing"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Private cloud is the best match because it is a cloud environment dedicated to a single organization, offering greater control but typically greater cost and management responsibility.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "match-0020",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Public cloud"
+        },
+        {
+          "id": "l2",
+          "text": "Private cloud"
+        },
+        {
+          "id": "l3",
+          "text": "Hybrid cloud"
+        },
+        {
+          "id": "l4",
+          "text": "Multicloud"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Cloud infrastructure built, controlled, and maintained by a third-party provider and available to customers who purchase services"
+        },
+        {
+          "id": "r2",
+          "text": "A cloud environment dedicated to a single organization, offering greater control but typically greater cost and management responsibility"
+        },
+        {
+          "id": "r4",
+          "text": "The use of services from two or more public cloud providers"
+        },
+        {
+          "id": "r3",
+          "text": "An interconnected environment that combines private and public cloud resources"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "match-0021",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Hybrid cloud"
+        },
+        {
+          "id": "l2",
+          "text": "Multicloud"
+        },
+        {
+          "id": "l3",
+          "text": "Azure Arc"
+        },
+        {
+          "id": "l4",
+          "text": "Azure VMware Solution"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "The use of services from two or more public cloud providers"
+        },
+        {
+          "id": "r4",
+          "text": "An Azure service that lets organizations run VMware workloads in Azure"
+        },
+        {
+          "id": "r1",
+          "text": "An interconnected environment that combines private and public cloud resources"
+        },
+        {
+          "id": "r3",
+          "text": "Technology that helps manage Azure, on-premises, hybrid, and multicloud resources through a consistent management approach"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l4": "r4",
+        "l1": "r1",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "match-0022",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Arc"
+        },
+        {
+          "id": "l2",
+          "text": "Azure VMware Solution"
+        },
+        {
+          "id": "l3",
+          "text": "Public-cloud scaling"
+        },
+        {
+          "id": "l4",
+          "text": "Hybrid flexibility"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "The ability to decide which workloads remain private and which use public-cloud capacity"
+        },
+        {
+          "id": "r3",
+          "text": "The ability to provision and deprovision resources quickly without purchasing new datacenter hardware"
+        },
+        {
+          "id": "r2",
+          "text": "An Azure service that lets organizations run VMware workloads in Azure"
+        },
+        {
+          "id": "r1",
+          "text": "Technology that helps manage Azure, on-premises, hybrid, and multicloud resources through a consistent management approach"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l3": "r3",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "match-0023",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Public-cloud scaling"
+        },
+        {
+          "id": "l2",
+          "text": "Hybrid flexibility"
+        },
+        {
+          "id": "l3",
+          "text": "Public cloud"
+        },
+        {
+          "id": "l4",
+          "text": "Private cloud"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "A cloud environment dedicated to a single organization, offering greater control but typically greater cost and management responsibility"
+        },
+        {
+          "id": "r2",
+          "text": "The ability to decide which workloads remain private and which use public-cloud capacity"
+        },
+        {
+          "id": "r3",
+          "text": "Cloud infrastructure built, controlled, and maintained by a third-party provider and available to customers who purchase services"
+        },
+        {
+          "id": "r1",
+          "text": "The ability to provision and deprovision resources quickly without purchasing new datacenter hardware"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l2": "r2",
+        "l3": "r3",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "match-0024",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Public cloud"
+        },
+        {
+          "id": "l2",
+          "text": "Private cloud"
+        },
+        {
+          "id": "l3",
+          "text": "Hybrid cloud"
+        },
+        {
+          "id": "l4",
+          "text": "Multicloud"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Cloud infrastructure built, controlled, and maintained by a third-party provider and available to customers who purchase services"
+        },
+        {
+          "id": "r4",
+          "text": "The use of services from two or more public cloud providers"
+        },
+        {
+          "id": "r2",
+          "text": "A cloud environment dedicated to a single organization, offering greater control but typically greater cost and management responsibility"
+        },
+        {
+          "id": "r3",
+          "text": "An interconnected environment that combines private and public cloud resources"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l4": "r4",
+        "l2": "r2",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "fill-0020",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "question": "{{answer}} is an interconnected environment that combines private and public cloud resources.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Describe Azure management and governance",
+            "Provider physical network responsibility",
+            "Customer identity responsibility",
+            "Hybrid cloud"
+          ],
+          "correctAnswer": "Hybrid cloud"
+        }
+      ],
+      "explanation": "Hybrid cloud is an interconnected environment that combines private and public cloud resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "fill-0021",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "question": "The term for the use of services from two or more public cloud providers is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Scale in",
+            "On-demand provisioning",
+            "Multicloud",
+            "General IT knowledge"
+          ],
+          "correctAnswer": "Multicloud"
+        }
+      ],
+      "explanation": "Multicloud is the use of services from two or more public cloud providers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "fill-0022",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "question": "In this unit, {{answer}} refers to technology that helps manage Azure, on-premises, hybrid, and multicloud resources through a consistent management approach.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Public cloud",
+            "Consumption-based model",
+            "Azure Arc",
+            "General IT knowledge"
+          ],
+          "correctAnswer": "Azure Arc"
+        }
+      ],
+      "explanation": "Azure Arc is technology that helps manage Azure, on-premises, hybrid, and multicloud resources through a consistent management approach.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "fill-0023",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "question": "For AZ-900, the concept described as an Azure service that lets organizations run VMware workloads in Azure is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure VMware Solution",
+            "Microsoft Azure",
+            "Private cloud",
+            "SaaS responsibility model"
+          ],
+          "correctAnswer": "Azure VMware Solution"
+        }
+      ],
+      "explanation": "Azure VMware Solution is an Azure service that lets organizations run VMware workloads in Azure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    },
+    {
+      "id": "fill-0024",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Define cloud models",
+      "question": "Choose the term that completes the statement: {{answer}} means the ability to provision and deprovision resources quickly without purchasing new datacenter hardware.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Customer identity responsibility",
+            "Cloud AI and IoT services",
+            "Public-cloud scaling",
+            "AZ-900"
+          ],
+          "correctAnswer": "Public-cloud scaling"
+        }
+      ],
+      "explanation": "Public-cloud scaling is the ability to provision and deprovision resources quickly without purchasing new datacenter hardware.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models"
+    }
+  ]
+}

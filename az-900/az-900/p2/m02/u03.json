@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe features and tools in Azure for governance and compliance · Describe the purpose of Azure Policy",
+  "questions": [
+    {
+      "id": "mc-0160",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "question": "Which statement best describes Azure Policy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A view that helps organizations understand where data is stored and how it is classified"
+        },
+        {
+          "id": "b",
+          "text": "A service for creating, assigning, and managing rules that audit or control Azure resource configurations"
+        },
+        {
+          "id": "c",
+          "text": "A lock that permits authorized users to read and modify a resource but prevents deletion"
+        },
+        {
+          "id": "d",
+          "text": "The Service Trust Portal landing area for browsing available documents"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Policy is a service for creating, assigning, and managing rules that audit or control Azure resource configurations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "mc-0161",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "question": "In the context of this Microsoft Learn unit, what does Policy definition refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A service for creating, assigning, and managing rules that audit or control Azure resource configurations"
+        },
+        {
+          "id": "b",
+          "text": "A resource-group or subscription lock applying to resources beneath that scope"
+        },
+        {
+          "id": "c",
+          "text": "An individual Azure Policy rule that describes a desired or prohibited resource condition"
+        },
+        {
+          "id": "d",
+          "text": "A Service Trust Portal area for pinning documents and optionally receiving update notifications"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Policy definition is an individual Azure Policy rule that describes a desired or prohibited resource condition.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "mc-0162",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "question": "Which description correctly matches Initiative?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A view that helps organizations understand where data is stored and how it is classified"
+        },
+        {
+          "id": "b",
+          "text": "A collection of related Azure Policy definitions grouped to support a broader compliance goal"
+        },
+        {
+          "id": "c",
+          "text": "Documents that provide information about Microsoft controls, assessments, and compliance practices"
+        },
+        {
+          "id": "d",
+          "text": "An agreement that may need to be accepted before accessing certain compliance materials"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Initiative is a collection of related Azure Policy definitions grouped to support a broader compliance goal.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "mc-0163",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "question": "Which of the following is the best definition of Policy inheritance?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Service Trust Portal reports are generally available for at least 12 months after publication or until a newer version is available"
+        },
+        {
+          "id": "b",
+          "text": "The behavior by which a policy assigned at a higher scope applies to resources in child scopes"
+        },
+        {
+          "id": "c",
+          "text": "Some Service Trust Portal materials require signing in with a Microsoft Entra work or school account"
+        },
+        {
+          "id": "d",
+          "text": "Purview capabilities for mapping, classifying, discovering, and governing data across on-premises, multicloud, and SaaS sources"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Policy inheritance is the behavior by which a policy assigned at a higher scope applies to resources in child scopes.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "mc-0164",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "question": "What is the primary meaning of Compliance evaluation in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A Purview capability for understanding how data moves and transforms across systems"
+        },
+        {
+          "id": "b",
+          "text": "Azure Policy checking existing resources and identifying those that do not meet assigned rules"
+        },
+        {
+          "id": "c",
+          "text": "Resource locks apply even when a user has RBAC permissions that would otherwise allow the blocked operation"
+        },
+        {
+          "id": "d",
+          "text": "The required first step before performing an operation that the lock blocks"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Compliance evaluation is Azure Policy checking existing resources and identifying those that do not meet assigned rules.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "mr-0160",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Initiative: a Purview capability that helps identify data across the data estate."
+        },
+        {
+          "id": "b",
+          "text": "Azure Policy: the behavior by which a policy assigned at a higher scope applies to resources in child scopes."
+        },
+        {
+          "id": "c",
+          "text": "Policy definition: the ability of some policy configurations to automatically correct noncompliant resources."
+        },
+        {
+          "id": "d",
+          "text": "Policy definition: an individual Azure Policy rule that describes a desired or prohibited resource condition."
+        },
+        {
+          "id": "e",
+          "text": "Azure Policy: a service for creating, assigning, and managing rules that audit or control Azure resource configurations."
+        }
+      ],
+      "correctAnswers": [
+        "d",
+        "e"
+      ],
+      "explanation": "The correct pair is: Azure Policy — a service for creating, assigning, and managing rules that audit or control Azure resource configurations; and Policy definition — an individual Azure Policy rule that describes a desired or prohibited resource condition.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "mr-0161",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Initiative: the ability of a policy to block creation of noncompliant resources."
+        },
+        {
+          "id": "b",
+          "text": "Policy inheritance: a family of data governance, risk, and compliance solutions that provides a unified view of data across environments."
+        },
+        {
+          "id": "c",
+          "text": "Policy inheritance: the behavior by which a policy assigned at a higher scope applies to resources in child scopes."
+        },
+        {
+          "id": "d",
+          "text": "Initiative: a collection of related Azure Policy definitions grouped to support a broader compliance goal."
+        },
+        {
+          "id": "e",
+          "text": "Policy inheritance: a Purview capability for identifying and classifying sensitive information."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: Initiative — a collection of related Azure Policy definitions grouped to support a broader compliance goal; and Policy inheritance — the behavior by which a policy assigned at a higher scope applies to resources in child scopes.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "mr-0162",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Preventive policy effect: a Purview capability for identifying and classifying sensitive information."
+        },
+        {
+          "id": "b",
+          "text": "Compliance evaluation: a controlled exclusion that allows a resource to be exempted from a policy requirement."
+        },
+        {
+          "id": "c",
+          "text": "Preventive policy effect: the ability of a policy to block creation of noncompliant resources."
+        },
+        {
+          "id": "d",
+          "text": "Compliance evaluation: a Purview capability for understanding how data moves and transforms across systems."
+        },
+        {
+          "id": "e",
+          "text": "Compliance evaluation: Azure Policy checking existing resources and identifying those that do not meet assigned rules."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "e"
+      ],
+      "explanation": "The correct pair is: Compliance evaluation — Azure Policy checking existing resources and identifying those that do not meet assigned rules; and Preventive policy effect — the ability of a policy to block creation of noncompliant resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "mr-0163",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Policy exception: solution capabilities focused on protecting sensitive data and managing regulatory requirements."
+        },
+        {
+          "id": "b",
+          "text": "Preventive policy effect: solution capabilities focused on protecting sensitive data and managing regulatory requirements."
+        },
+        {
+          "id": "c",
+          "text": "Policy exception: a controlled exclusion that allows a resource to be exempted from a policy requirement."
+        },
+        {
+          "id": "d",
+          "text": "Policy remediation: a Purview capability that helps identify data across the data estate."
+        },
+        {
+          "id": "e",
+          "text": "Policy remediation: the ability of some policy configurations to automatically correct noncompliant resources."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "e"
+      ],
+      "explanation": "The correct pair is: Policy remediation — the ability of some policy configurations to automatically correct noncompliant resources; and Policy exception — a controlled exclusion that allows a resource to be exempted from a policy requirement.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "mr-0164",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Policy: the behavior by which a policy assigned at a higher scope applies to resources in child scopes."
+        },
+        {
+          "id": "b",
+          "text": "Policy definition: the ability of some policy configurations to automatically correct noncompliant resources."
+        },
+        {
+          "id": "c",
+          "text": "Policy definition: an individual Azure Policy rule that describes a desired or prohibited resource condition."
+        },
+        {
+          "id": "d",
+          "text": "Azure Policy: a service for creating, assigning, and managing rules that audit or control Azure resource configurations."
+        },
+        {
+          "id": "e",
+          "text": "Policy remediation: Purview capabilities for mapping, classifying, discovering, and governing data across on-premises, multicloud, and SaaS sources."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: Azure Policy — a service for creating, assigning, and managing rules that audit or control Azure resource configurations; and Policy definition — an individual Azure Policy rule that describes a desired or prohibited resource condition.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "tf-0160",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "question": "Azure Policy is a service for creating, assigning, and managing rules that audit or control Azure resource configurations.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure Policy is a service for creating, assigning, and managing rules that audit or control Azure resource configurations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "tf-0161",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "question": "According to this unit: Policy definition is Azure Policy checking existing resources and identifying those that do not meet assigned rules.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Policy definition is an individual Azure Policy rule that describes a desired or prohibited resource condition.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "tf-0162",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "question": "For Azure fundamentals, Initiative is a collection of related Azure Policy definitions grouped to support a broader compliance goal.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Initiative is a collection of related Azure Policy definitions grouped to support a broader compliance goal.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "tf-0163",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "question": "This statement is correct: Policy inheritance is the ability of some policy configurations to automatically correct noncompliant resources.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Policy inheritance is the behavior by which a policy assigned at a higher scope applies to resources in child scopes.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "tf-0164",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "question": "The unit supports the following statement: Compliance evaluation is Azure Policy checking existing resources and identifying those that do not meet assigned rules.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Compliance evaluation is Azure Policy checking existing resources and identifying those that do not meet assigned rules.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "sc-0320",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Policy” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a service for creating, assigning, and managing rules that audit or control Azure resource configurations. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Policy"
+        },
+        {
+          "id": "b",
+          "text": "Resource lock"
+        },
+        {
+          "id": "c",
+          "text": "Secure data discovery"
+        },
+        {
+          "id": "d",
+          "text": "Initiative"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure Policy is the best match because it is a service for creating, assigning, and managing rules that audit or control Azure resource configurations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "sc-0321",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Policy” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs an individual Azure Policy rule that describes a desired or prohibited resource condition. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ReadOnly lock"
+        },
+        {
+          "id": "b",
+          "text": "Policy definition"
+        },
+        {
+          "id": "c",
+          "text": "Compliance evaluation"
+        },
+        {
+          "id": "d",
+          "text": "Service Trust Portal"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Policy definition is the best match because it is an individual Azure Policy rule that describes a desired or prohibited resource condition.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "sc-0322",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Policy” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: a collection of related Azure Policy definitions grouped to support a broader compliance goal. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Initiative"
+        },
+        {
+          "id": "b",
+          "text": "Removing a lock"
+        },
+        {
+          "id": "c",
+          "text": "Microsoft Purview"
+        },
+        {
+          "id": "d",
+          "text": "Sensitive data classification"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Initiative is the best match because it is a collection of related Azure Policy definitions grouped to support a broader compliance goal.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "sc-0323",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Policy” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: the behavior by which a policy assigned at a higher scope applies to resources in child scopes. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Policy inheritance"
+        },
+        {
+          "id": "b",
+          "text": "Policy remediation"
+        },
+        {
+          "id": "c",
+          "text": "Policy definition"
+        },
+        {
+          "id": "d",
+          "text": "RBAC and locks"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Policy inheritance is the best match because it is the behavior by which a policy assigned at a higher scope applies to resources in child scopes.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "sc-0324",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Policy” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants azure Policy checking existing resources and identifying those that do not meet assigned rules. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Compliance evaluation"
+        },
+        {
+          "id": "b",
+          "text": "Azure Policy"
+        },
+        {
+          "id": "c",
+          "text": "Purview risk and compliance"
+        },
+        {
+          "id": "d",
+          "text": "Delete lock"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Compliance evaluation is the best match because it is Azure Policy checking existing resources and identifying those that do not meet assigned rules.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "sc-0325",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Policy” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for the ability of a policy to block creation of noncompliant resources. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Compliance evaluation"
+        },
+        {
+          "id": "b",
+          "text": "Lock management tools"
+        },
+        {
+          "id": "c",
+          "text": "Preventive policy effect"
+        },
+        {
+          "id": "d",
+          "text": "Removing a lock"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Preventive policy effect is the best match because it is the ability of a policy to block creation of noncompliant resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "sc-0326",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Policy” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for the ability of some policy configurations to automatically correct noncompliant resources. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Policy remediation"
+        },
+        {
+          "id": "b",
+          "text": "RBAC and locks"
+        },
+        {
+          "id": "c",
+          "text": "Preventive policy effect"
+        },
+        {
+          "id": "d",
+          "text": "My Library"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Policy remediation is the best match because it is the ability of some policy configurations to automatically correct noncompliant resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "sc-0327",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Policy” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is a controlled exclusion that allows a resource to be exempted from a policy requirement. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lock management tools"
+        },
+        {
+          "id": "b",
+          "text": "End-to-end data lineage"
+        },
+        {
+          "id": "c",
+          "text": "Policy exception"
+        },
+        {
+          "id": "d",
+          "text": "Delete lock"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Policy exception is the best match because it is a controlled exclusion that allows a resource to be exempted from a policy requirement.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "sc-0328",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Policy” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as a service for creating, assigning, and managing rules that audit or control Azure resource configurations. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Preventive policy effect"
+        },
+        {
+          "id": "b",
+          "text": "Azure Policy"
+        },
+        {
+          "id": "c",
+          "text": "Resource lock"
+        },
+        {
+          "id": "d",
+          "text": "All Documents"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Policy is the best match because it is a service for creating, assigning, and managing rules that audit or control Azure resource configurations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "sc-0329",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Policy” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides an individual Azure Policy rule that describes a desired or prohibited resource condition. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Automated data discovery"
+        },
+        {
+          "id": "b",
+          "text": "Unified data governance"
+        },
+        {
+          "id": "c",
+          "text": "Policy definition"
+        },
+        {
+          "id": "d",
+          "text": "All Documents"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Policy definition is the best match because it is an individual Azure Policy rule that describes a desired or prohibited resource condition.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "match-0160",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Policy"
+        },
+        {
+          "id": "l2",
+          "text": "Policy definition"
+        },
+        {
+          "id": "l3",
+          "text": "Initiative"
+        },
+        {
+          "id": "l4",
+          "text": "Policy inheritance"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "An individual Azure Policy rule that describes a desired or prohibited resource condition"
+        },
+        {
+          "id": "r4",
+          "text": "The behavior by which a policy assigned at a higher scope applies to resources in child scopes"
+        },
+        {
+          "id": "r3",
+          "text": "A collection of related Azure Policy definitions grouped to support a broader compliance goal"
+        },
+        {
+          "id": "r1",
+          "text": "A service for creating, assigning, and managing rules that audit or control Azure resource configurations"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l4": "r4",
+        "l3": "r3",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "match-0161",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Initiative"
+        },
+        {
+          "id": "l2",
+          "text": "Policy inheritance"
+        },
+        {
+          "id": "l3",
+          "text": "Compliance evaluation"
+        },
+        {
+          "id": "l4",
+          "text": "Preventive policy effect"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "The behavior by which a policy assigned at a higher scope applies to resources in child scopes"
+        },
+        {
+          "id": "r3",
+          "text": "Azure Policy checking existing resources and identifying those that do not meet assigned rules"
+        },
+        {
+          "id": "r1",
+          "text": "A collection of related Azure Policy definitions grouped to support a broader compliance goal"
+        },
+        {
+          "id": "r4",
+          "text": "The ability of a policy to block creation of noncompliant resources"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l3": "r3",
+        "l1": "r1",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "match-0162",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Compliance evaluation"
+        },
+        {
+          "id": "l2",
+          "text": "Preventive policy effect"
+        },
+        {
+          "id": "l3",
+          "text": "Policy remediation"
+        },
+        {
+          "id": "l4",
+          "text": "Policy exception"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "A controlled exclusion that allows a resource to be exempted from a policy requirement"
+        },
+        {
+          "id": "r3",
+          "text": "The ability of some policy configurations to automatically correct noncompliant resources"
+        },
+        {
+          "id": "r2",
+          "text": "The ability of a policy to block creation of noncompliant resources"
+        },
+        {
+          "id": "r1",
+          "text": "Azure Policy checking existing resources and identifying those that do not meet assigned rules"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l3": "r3",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "match-0163",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Policy remediation"
+        },
+        {
+          "id": "l2",
+          "text": "Policy exception"
+        },
+        {
+          "id": "l3",
+          "text": "Azure Policy"
+        },
+        {
+          "id": "l4",
+          "text": "Policy definition"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "An individual Azure Policy rule that describes a desired or prohibited resource condition"
+        },
+        {
+          "id": "r2",
+          "text": "A controlled exclusion that allows a resource to be exempted from a policy requirement"
+        },
+        {
+          "id": "r1",
+          "text": "The ability of some policy configurations to automatically correct noncompliant resources"
+        },
+        {
+          "id": "r3",
+          "text": "A service for creating, assigning, and managing rules that audit or control Azure resource configurations"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "match-0164",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Policy"
+        },
+        {
+          "id": "l2",
+          "text": "Policy definition"
+        },
+        {
+          "id": "l3",
+          "text": "Initiative"
+        },
+        {
+          "id": "l4",
+          "text": "Policy inheritance"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "An individual Azure Policy rule that describes a desired or prohibited resource condition"
+        },
+        {
+          "id": "r1",
+          "text": "A service for creating, assigning, and managing rules that audit or control Azure resource configurations"
+        },
+        {
+          "id": "r4",
+          "text": "The behavior by which a policy assigned at a higher scope applies to resources in child scopes"
+        },
+        {
+          "id": "r3",
+          "text": "A collection of related Azure Policy definitions grouped to support a broader compliance goal"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l1": "r1",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "fill-0160",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "question": "{{answer}} is a collection of related Azure Policy definitions grouped to support a broader compliance goal.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "My Library",
+            "Unified data governance",
+            "Resource lock",
+            "Initiative"
+          ],
+          "correctAnswer": "Initiative"
+        }
+      ],
+      "explanation": "Initiative is a collection of related Azure Policy definitions grouped to support a broader compliance goal.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "fill-0161",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "question": "The term for the behavior by which a policy assigned at a higher scope applies to resources in child scopes is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Service Trust Portal",
+            "Policy inheritance",
+            "Data estate map",
+            "Unified data governance"
+          ],
+          "correctAnswer": "Policy inheritance"
+        }
+      ],
+      "explanation": "Policy inheritance is the behavior by which a policy assigned at a higher scope applies to resources in child scopes.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "fill-0162",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "question": "In this unit, {{answer}} refers to azure Policy checking existing resources and identifying those that do not meet assigned rules.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "My Library",
+            "Automated data discovery",
+            "Policy remediation",
+            "Compliance evaluation"
+          ],
+          "correctAnswer": "Compliance evaluation"
+        }
+      ],
+      "explanation": "Compliance evaluation is Azure Policy checking existing resources and identifying those that do not meet assigned rules.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "fill-0163",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "question": "For AZ-900, the concept described as the ability of a policy to block creation of noncompliant resources is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Lock inheritance",
+            "Preventive policy effect",
+            "Lock management tools",
+            "RBAC and locks"
+          ],
+          "correctAnswer": "Preventive policy effect"
+        }
+      ],
+      "explanation": "Preventive policy effect is the ability of a policy to block creation of noncompliant resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    },
+    {
+      "id": "fill-0164",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools in Azure for governance and compliance",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Policy",
+      "question": "Choose the term that completes the statement: {{answer}} means the ability of some policy configurations to automatically correct noncompliant resources.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "End-to-end data lineage",
+            "Policy remediation",
+            "My Library",
+            "Delete lock"
+          ],
+          "correctAnswer": "Policy remediation"
+        }
+      ],
+      "explanation": "Policy remediation is the ability of some policy configurations to automatically correct noncompliant resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy"
+    }
+  ]
+}

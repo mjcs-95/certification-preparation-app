@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe monitoring tools in Azure · Module assessment",
+  "questions": [
+    {
+      "id": "mc-0235",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Which statement best describes Azure Advisor?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Advisor guidance intended to reduce unnecessary Azure spending"
+        },
+        {
+          "id": "b",
+          "text": "Advisor guidance intended to reduce vulnerabilities and security risks"
+        },
+        {
+          "id": "c",
+          "text": "A service that analyzes Azure resources and provides personalized best-practice recommendations"
+        },
+        {
+          "id": "d",
+          "text": "Advisor guidance intended to improve application or resource performance"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure Advisor is a service that analyzes Azure resources and provides personalized best-practice recommendations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "mc-0236",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "In the context of this Microsoft Learn unit, what does Reliability recommendation refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A reusable definition of who to notify or what action to run when an alert fires"
+        },
+        {
+          "id": "b",
+          "text": "A service that analyzes Azure resources and provides personalized best-practice recommendations"
+        },
+        {
+          "id": "c",
+          "text": "Viewing recommendations by subscription, resource group, or service"
+        },
+        {
+          "id": "d",
+          "text": "Advisor guidance intended to reduce configuration risks that threaten application availability"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Reliability recommendation is Advisor guidance intended to reduce configuration risks that threaten application availability.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "mc-0237",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Which description correctly matches Security recommendation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A definition of the condition that triggers a monitoring alert"
+        },
+        {
+          "id": "b",
+          "text": "Retained event information that can help identify recurring service patterns"
+        },
+        {
+          "id": "c",
+          "text": "Numerical time-series measurements collected for monitoring resource behavior"
+        },
+        {
+          "id": "d",
+          "text": "Advisor guidance intended to reduce vulnerabilities and security risks"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Security recommendation is Advisor guidance intended to reduce vulnerabilities and security risks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "mc-0238",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Which of the following is the best definition of Performance recommendation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A notification configured for service incidents, maintenance, or advisories relevant to your environment"
+        },
+        {
+          "id": "b",
+          "text": "Event and diagnostic data that can be queried and analyzed"
+        },
+        {
+          "id": "c",
+          "text": "Advisor guidance intended to improve application or resource performance"
+        },
+        {
+          "id": "d",
+          "text": "Advisor guidance intended to reduce vulnerabilities and security risks"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Performance recommendation is Advisor guidance intended to improve application or resource performance.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "mc-0239",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "What is the primary meaning of Operational Excellence recommendation in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A definition of the condition that triggers a monitoring alert"
+        },
+        {
+          "id": "b",
+          "text": "Advisor guidance intended to reduce vulnerabilities and security risks"
+        },
+        {
+          "id": "c",
+          "text": "Advisor guidance intended to improve processes, workflows, and deployment practices"
+        },
+        {
+          "id": "d",
+          "text": "An optional notification when new recommendations become available"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Operational Excellence recommendation is Advisor guidance intended to improve processes, workflows, and deployment practices.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "mr-0235",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reliability recommendation: Advisor guidance intended to reduce configuration risks that threaten application availability."
+        },
+        {
+          "id": "b",
+          "text": "Reliability recommendation: viewing recommendations by subscription, resource group, or service."
+        },
+        {
+          "id": "c",
+          "text": "Azure Advisor: Advisor guidance intended to improve application or resource performance."
+        },
+        {
+          "id": "d",
+          "text": "Azure Advisor: a service that analyzes Azure resources and provides personalized best-practice recommendations."
+        },
+        {
+          "id": "e",
+          "text": "Security recommendation: a personalized view of outages, planned maintenance, and advisories for the Azure services and regions you use."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Azure Advisor — a service that analyzes Azure resources and provides personalized best-practice recommendations; and Reliability recommendation — Advisor guidance intended to reduce configuration risks that threaten application availability.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "mr-0236",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Performance recommendation: Advisor guidance intended to improve application or resource performance."
+        },
+        {
+          "id": "b",
+          "text": "Performance recommendation: a view of the health of an individual Azure resource and whether an issue is attributable to Azure or the customer environment."
+        },
+        {
+          "id": "c",
+          "text": "Security recommendation: Advisor guidance intended to reduce vulnerabilities and security risks."
+        },
+        {
+          "id": "d",
+          "text": "Performance recommendation: a broad public view of Azure health across services and regions."
+        },
+        {
+          "id": "e",
+          "text": "Security recommendation: Advisor guidance intended to reduce unnecessary Azure spending."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "c"
+      ],
+      "explanation": "The correct pair is: Security recommendation — Advisor guidance intended to reduce vulnerabilities and security risks; and Performance recommendation — Advisor guidance intended to improve application or resource performance.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "mr-0237",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Operational Excellence recommendation: a notification configured for service incidents, maintenance, or advisories relevant to your environment."
+        },
+        {
+          "id": "b",
+          "text": "Cost recommendation: Advisor guidance intended to reduce unnecessary Azure spending."
+        },
+        {
+          "id": "c",
+          "text": "Cost recommendation: a view of the health of an individual Azure resource and whether an issue is attributable to Azure or the customer environment."
+        },
+        {
+          "id": "d",
+          "text": "Operational Excellence recommendation: an optional notification when new recommendations become available."
+        },
+        {
+          "id": "e",
+          "text": "Operational Excellence recommendation: Advisor guidance intended to improve processes, workflows, and deployment practices."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: Operational Excellence recommendation — Advisor guidance intended to improve processes, workflows, and deployment practices; and Cost recommendation — Advisor guidance intended to reduce unnecessary Azure spending.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "mr-0238",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Advisor filtering: viewing recommendations by subscription, resource group, or service."
+        },
+        {
+          "id": "b",
+          "text": "Advisor filtering: a personalized view of outages, planned maintenance, and advisories for the Azure services and regions you use."
+        },
+        {
+          "id": "c",
+          "text": "Advisor notification: information about scheduled Azure work that may affect services you use."
+        },
+        {
+          "id": "d",
+          "text": "Advisor notification: an optional notification when new recommendations become available."
+        },
+        {
+          "id": "e",
+          "text": "Cost recommendation: information about scheduled Azure work that may affect services you use."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Advisor filtering — viewing recommendations by subscription, resource group, or service; and Advisor notification — an optional notification when new recommendations become available.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "mr-0239",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Status: a notification configured for service incidents, maintenance, or advisories relevant to your environment."
+        },
+        {
+          "id": "b",
+          "text": "Advisor filtering: service information about issues or changes that may require customer attention."
+        },
+        {
+          "id": "c",
+          "text": "Service Health: a personalized view of outages, planned maintenance, and advisories for the Azure services and regions you use."
+        },
+        {
+          "id": "d",
+          "text": "Service Health: retained event information that can help identify recurring service patterns."
+        },
+        {
+          "id": "e",
+          "text": "Azure Status: a broad public view of Azure health across services and regions."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "e"
+      ],
+      "explanation": "The correct pair is: Azure Status — a broad public view of Azure health across services and regions; and Service Health — a personalized view of outages, planned maintenance, and advisories for the Azure services and regions you use.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "tf-0235",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Azure Advisor is a service that analyzes Azure resources and provides personalized best-practice recommendations.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure Advisor is a service that analyzes Azure resources and provides personalized best-practice recommendations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "tf-0236",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "According to this unit: Reliability recommendation is Advisor guidance intended to improve processes, workflows, and deployment practices.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Reliability recommendation is Advisor guidance intended to reduce configuration risks that threaten application availability.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "tf-0237",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "For Azure fundamentals, Security recommendation is Advisor guidance intended to reduce vulnerabilities and security risks.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Security recommendation is Advisor guidance intended to reduce vulnerabilities and security risks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "tf-0238",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "This statement is correct: Performance recommendation is viewing recommendations by subscription, resource group, or service.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Performance recommendation is Advisor guidance intended to improve application or resource performance.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "tf-0239",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "The unit supports the following statement: Operational Excellence recommendation is Advisor guidance intended to improve processes, workflows, and deployment practices.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Operational Excellence recommendation is Advisor guidance intended to improve processes, workflows, and deployment practices.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "sc-0470",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a service that analyzes Azure resources and provides personalized best-practice recommendations. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Advisor"
+        },
+        {
+          "id": "b",
+          "text": "Cost recommendation"
+        },
+        {
+          "id": "c",
+          "text": "Resource Health"
+        },
+        {
+          "id": "d",
+          "text": "Azure Monitor alert rule"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure Advisor is the best match because it is a service that analyzes Azure resources and provides personalized best-practice recommendations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "sc-0471",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs advisor guidance intended to reduce configuration risks that threaten application availability. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Advisor"
+        },
+        {
+          "id": "b",
+          "text": "Reliability recommendation"
+        },
+        {
+          "id": "c",
+          "text": "Application Insights"
+        },
+        {
+          "id": "d",
+          "text": "Service Health alert"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Reliability recommendation is the best match because it is Advisor guidance intended to reduce configuration risks that threaten application availability.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "sc-0472",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: advisor guidance intended to reduce vulnerabilities and security risks. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Application Insights"
+        },
+        {
+          "id": "b",
+          "text": "Security recommendation"
+        },
+        {
+          "id": "c",
+          "text": "Advisor filtering"
+        },
+        {
+          "id": "d",
+          "text": "Reliability recommendation"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Security recommendation is the best match because it is Advisor guidance intended to reduce vulnerabilities and security risks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "sc-0473",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: advisor guidance intended to improve application or resource performance. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Performance recommendation"
+        },
+        {
+          "id": "b",
+          "text": "Advisor filtering"
+        },
+        {
+          "id": "c",
+          "text": "Health advisory"
+        },
+        {
+          "id": "d",
+          "text": "Azure Advisor"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Performance recommendation is the best match because it is Advisor guidance intended to improve application or resource performance.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "sc-0474",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants advisor guidance intended to improve processes, workflows, and deployment practices. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Operational Excellence recommendation"
+        },
+        {
+          "id": "b",
+          "text": "Advisor filtering"
+        },
+        {
+          "id": "c",
+          "text": "Historical health events"
+        },
+        {
+          "id": "d",
+          "text": "Cost recommendation"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Operational Excellence recommendation is the best match because it is Advisor guidance intended to improve processes, workflows, and deployment practices.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "sc-0475",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for advisor guidance intended to reduce unnecessary Azure spending. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Security recommendation"
+        },
+        {
+          "id": "b",
+          "text": "Azure Status"
+        },
+        {
+          "id": "c",
+          "text": "Advisor notification"
+        },
+        {
+          "id": "d",
+          "text": "Cost recommendation"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Cost recommendation is the best match because it is Advisor guidance intended to reduce unnecessary Azure spending.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "sc-0476",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for viewing recommendations by subscription, resource group, or service. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Advisor filtering"
+        },
+        {
+          "id": "b",
+          "text": "Azure Advisor"
+        },
+        {
+          "id": "c",
+          "text": "Service Health alert"
+        },
+        {
+          "id": "d",
+          "text": "Azure Monitor"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Advisor filtering is the best match because it is viewing recommendations by subscription, resource group, or service.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "sc-0477",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is an optional notification when new recommendations become available. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Advisor notification"
+        },
+        {
+          "id": "b",
+          "text": "Service Health alert"
+        },
+        {
+          "id": "c",
+          "text": "Log Analytics"
+        },
+        {
+          "id": "d",
+          "text": "Metrics"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Advisor notification is the best match because it is an optional notification when new recommendations become available.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "sc-0478",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as a broad public view of Azure health across services and regions. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Advisor"
+        },
+        {
+          "id": "b",
+          "text": "Azure Status"
+        },
+        {
+          "id": "c",
+          "text": "Log Analytics"
+        },
+        {
+          "id": "d",
+          "text": "Advisor filtering"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Status is the best match because it is a broad public view of Azure health across services and regions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "sc-0479",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "scenario": "The organization is reviewing the topic “Module assessment” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides a personalized view of outages, planned maintenance, and advisories for the Azure services and regions you use. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Log Analytics"
+        },
+        {
+          "id": "b",
+          "text": "Logs"
+        },
+        {
+          "id": "c",
+          "text": "Azure Advisor"
+        },
+        {
+          "id": "d",
+          "text": "Service Health"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Service Health is the best match because it is a personalized view of outages, planned maintenance, and advisories for the Azure services and regions you use.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "match-0235",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Advisor"
+        },
+        {
+          "id": "l2",
+          "text": "Reliability recommendation"
+        },
+        {
+          "id": "l3",
+          "text": "Security recommendation"
+        },
+        {
+          "id": "l4",
+          "text": "Performance recommendation"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A service that analyzes Azure resources and provides personalized best-practice recommendations"
+        },
+        {
+          "id": "r3",
+          "text": "Advisor guidance intended to reduce vulnerabilities and security risks"
+        },
+        {
+          "id": "r4",
+          "text": "Advisor guidance intended to improve application or resource performance"
+        },
+        {
+          "id": "r2",
+          "text": "Advisor guidance intended to reduce configuration risks that threaten application availability"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "match-0236",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Security recommendation"
+        },
+        {
+          "id": "l2",
+          "text": "Performance recommendation"
+        },
+        {
+          "id": "l3",
+          "text": "Operational Excellence recommendation"
+        },
+        {
+          "id": "l4",
+          "text": "Cost recommendation"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Advisor guidance intended to improve processes, workflows, and deployment practices"
+        },
+        {
+          "id": "r1",
+          "text": "Advisor guidance intended to reduce vulnerabilities and security risks"
+        },
+        {
+          "id": "r2",
+          "text": "Advisor guidance intended to improve application or resource performance"
+        },
+        {
+          "id": "r4",
+          "text": "Advisor guidance intended to reduce unnecessary Azure spending"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l1": "r1",
+        "l2": "r2",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "match-0237",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Operational Excellence recommendation"
+        },
+        {
+          "id": "l2",
+          "text": "Cost recommendation"
+        },
+        {
+          "id": "l3",
+          "text": "Advisor filtering"
+        },
+        {
+          "id": "l4",
+          "text": "Advisor notification"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "Advisor guidance intended to reduce unnecessary Azure spending"
+        },
+        {
+          "id": "r4",
+          "text": "An optional notification when new recommendations become available"
+        },
+        {
+          "id": "r3",
+          "text": "Viewing recommendations by subscription, resource group, or service"
+        },
+        {
+          "id": "r1",
+          "text": "Advisor guidance intended to improve processes, workflows, and deployment practices"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l4": "r4",
+        "l3": "r3",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "match-0238",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Advisor filtering"
+        },
+        {
+          "id": "l2",
+          "text": "Advisor notification"
+        },
+        {
+          "id": "l3",
+          "text": "Azure Status"
+        },
+        {
+          "id": "l4",
+          "text": "Service Health"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A broad public view of Azure health across services and regions"
+        },
+        {
+          "id": "r4",
+          "text": "A personalized view of outages, planned maintenance, and advisories for the Azure services and regions you use"
+        },
+        {
+          "id": "r1",
+          "text": "Viewing recommendations by subscription, resource group, or service"
+        },
+        {
+          "id": "r2",
+          "text": "An optional notification when new recommendations become available"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l1": "r1",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "match-0239",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Status"
+        },
+        {
+          "id": "l2",
+          "text": "Service Health"
+        },
+        {
+          "id": "l3",
+          "text": "Resource Health"
+        },
+        {
+          "id": "l4",
+          "text": "Service Health alert"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "A notification configured for service incidents, maintenance, or advisories relevant to your environment"
+        },
+        {
+          "id": "r2",
+          "text": "A personalized view of outages, planned maintenance, and advisories for the Azure services and regions you use"
+        },
+        {
+          "id": "r1",
+          "text": "A broad public view of Azure health across services and regions"
+        },
+        {
+          "id": "r3",
+          "text": "A view of the health of an individual Azure resource and whether an issue is attributable to Azure or the customer environment"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "fill-0235",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "{{answer}} is advisor guidance intended to reduce vulnerabilities and security risks.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure Monitor alert rule",
+            "Availability test",
+            "Azure Advisor",
+            "Security recommendation"
+          ],
+          "correctAnswer": "Security recommendation"
+        }
+      ],
+      "explanation": "Security recommendation is Advisor guidance intended to reduce vulnerabilities and security risks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "fill-0236",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "The term for advisor guidance intended to improve application or resource performance is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Cost recommendation",
+            "Operational Excellence recommendation",
+            "Resource Health",
+            "Performance recommendation"
+          ],
+          "correctAnswer": "Performance recommendation"
+        }
+      ],
+      "explanation": "Performance recommendation is Advisor guidance intended to improve application or resource performance.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "fill-0237",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "In this unit, {{answer}} refers to advisor guidance intended to improve processes, workflows, and deployment practices.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Operational Excellence recommendation",
+            "Application Insights",
+            "Cost recommendation",
+            "Service Health alert"
+          ],
+          "correctAnswer": "Operational Excellence recommendation"
+        }
+      ],
+      "explanation": "Operational Excellence recommendation is Advisor guidance intended to improve processes, workflows, and deployment practices.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "fill-0238",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "For AZ-900, the concept described as advisor guidance intended to reduce unnecessary Azure spending is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Service Health alert",
+            "Application Insights",
+            "Metrics",
+            "Cost recommendation"
+          ],
+          "correctAnswer": "Cost recommendation"
+        }
+      ],
+      "explanation": "Cost recommendation is Advisor guidance intended to reduce unnecessary Azure spending.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    },
+    {
+      "id": "fill-0239",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe monitoring tools in Azure",
+      "description": "Microsoft Learn unit: Module assessment",
+      "question": "Choose the term that completes the statement: {{answer}} means viewing recommendations by subscription, resource group, or service.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Advisor filtering",
+            "Performance recommendation",
+            "Planned maintenance notice",
+            "Cost recommendation"
+          ],
+          "correctAnswer": "Advisor filtering"
+        }
+      ],
+      "explanation": "Advisor filtering is viewing recommendations by subscription, resource group, or service.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check"
+    }
+  ]
+}

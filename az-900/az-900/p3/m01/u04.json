@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe the core architectural components of Azure · Describe Azure physical infrastructure",
+  "questions": [
+    {
+      "id": "mc-0260",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "question": "Which statement best describes Azure datacenter?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A global cloud platform with services for building, managing, and deploying applications and infrastructure"
+        },
+        {
+          "id": "b",
+          "text": "Prebuilt cloud AI capabilities that can add intelligent features to applications"
+        },
+        {
+          "id": "c",
+          "text": "Database services that reduce the need to operate the underlying database infrastructure manually"
+        },
+        {
+          "id": "d",
+          "text": "A physical facility containing servers plus power, cooling, and networking infrastructure"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Azure datacenter is a physical facility containing servers plus power, cooling, and networking infrastructure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "mc-0261",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "question": "In the context of this Microsoft Learn unit, what does Azure region refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A physically separate datacenter location within an Azure region with independent power, cooling, and networking"
+        },
+        {
+          "id": "b",
+          "text": "A billing, management, and access-control boundary containing resource groups"
+        },
+        {
+          "id": "c",
+          "text": "A geographic area containing one or more nearby datacenters connected with low-latency networking"
+        },
+        {
+          "id": "d",
+          "text": "An isolated Azure environment designed for specific legal, government, or compliance requirements"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure region is a geographic area containing one or more nearby datacenters connected with low-latency networking.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "mc-0262",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "question": "Which description correctly matches Availability Zone?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Policies and access assignments at a management-group scope flowing down to child scopes"
+        },
+        {
+          "id": "b",
+          "text": "A physically separate datacenter location within an Azure region with independent power, cooling, and networking"
+        },
+        {
+          "id": "c",
+          "text": "A logical container in which every Azure resource belongs to exactly one group at a time"
+        },
+        {
+          "id": "d",
+          "text": "A billing, management, and access-control boundary containing resource groups"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Availability Zone is a physically separate datacenter location within an Azure region with independent power, cooling, and networking.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "mc-0263",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "question": "Which of the following is the best definition of Zonal service?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A logical container in which every Azure resource belongs to exactly one group at a time"
+        },
+        {
+          "id": "b",
+          "text": "A way to separate environments, teams, billing, or access policies"
+        },
+        {
+          "id": "c",
+          "text": "A service for building, training, and managing custom machine-learning models"
+        },
+        {
+          "id": "d",
+          "text": "An Azure service or resource pinned to a specific availability zone"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Zonal service is an Azure service or resource pinned to a specific availability zone.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "mc-0264",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "question": "What is the primary meaning of Zone-redundant service in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prebuilt cloud AI capabilities that can add intelligent features to applications"
+        },
+        {
+          "id": "b",
+          "text": "A physical facility containing servers plus power, cooling, and networking infrastructure"
+        },
+        {
+          "id": "c",
+          "text": "Policies and access assignments at a management-group scope flowing down to child scopes"
+        },
+        {
+          "id": "d",
+          "text": "A service that replicates across availability zones within a region"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Zone-redundant service is a service that replicates across availability zones within a region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "mr-0260",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure region: an isolated Azure environment designed for specific legal, government, or compliance requirements."
+        },
+        {
+          "id": "b",
+          "text": "Azure region: a geographic area containing one or more nearby datacenters connected with low-latency networking."
+        },
+        {
+          "id": "c",
+          "text": "Availability Zone: an Azure compute option for running existing or custom server workloads."
+        },
+        {
+          "id": "d",
+          "text": "Azure datacenter: a physical facility containing servers plus power, cooling, and networking infrastructure."
+        },
+        {
+          "id": "e",
+          "text": "Azure datacenter: an Azure service or resource pinned to a specific availability zone."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: Azure datacenter — a physical facility containing servers plus power, cooling, and networking infrastructure; and Azure region — a geographic area containing one or more nearby datacenters connected with low-latency networking.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "mr-0261",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Availability Zone: two Azure regions in the same geography, typically separated by significant distance, used to improve regional resiliency."
+        },
+        {
+          "id": "b",
+          "text": "Zonal service: database services that reduce the need to operate the underlying database infrastructure manually."
+        },
+        {
+          "id": "c",
+          "text": "Availability Zone: a physically separate datacenter location within an Azure region with independent power, cooling, and networking."
+        },
+        {
+          "id": "d",
+          "text": "Zonal service: an Azure service or resource pinned to a specific availability zone."
+        },
+        {
+          "id": "e",
+          "text": "Zonal service: a global cloud platform with services for building, managing, and deploying applications and infrastructure."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: Availability Zone — a physically separate datacenter location within an Azure region with independent power, cooling, and networking; and Zonal service — an Azure service or resource pinned to a specific availability zone.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "mr-0262",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zone-redundant service: prebuilt cloud AI capabilities that can add intelligent features to applications."
+        },
+        {
+          "id": "b",
+          "text": "Zone-redundant service: a service designed to operate across broader Azure geographies rather than being tied to one region."
+        },
+        {
+          "id": "c",
+          "text": "Region pair: database services that reduce the need to operate the underlying database infrastructure manually."
+        },
+        {
+          "id": "d",
+          "text": "Zone-redundant service: a service that replicates across availability zones within a region."
+        },
+        {
+          "id": "e",
+          "text": "Region pair: two Azure regions in the same geography, typically separated by significant distance, used to improve regional resiliency."
+        }
+      ],
+      "correctAnswers": [
+        "d",
+        "e"
+      ],
+      "explanation": "The correct pair is: Zone-redundant service — a service that replicates across availability zones within a region; and Region pair — two Azure regions in the same geography, typically separated by significant distance, used to improve regional resiliency.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "mr-0263",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sovereign region: an Azure compute option for running existing or custom server workloads."
+        },
+        {
+          "id": "b",
+          "text": "Non-regional service: an Azure service for generative AI scenarios such as chat and content generation."
+        },
+        {
+          "id": "c",
+          "text": "Region pair: an Azure service for generative AI scenarios such as chat and content generation."
+        },
+        {
+          "id": "d",
+          "text": "Non-regional service: a service designed to operate across broader Azure geographies rather than being tied to one region."
+        },
+        {
+          "id": "e",
+          "text": "Sovereign region: an isolated Azure environment designed for specific legal, government, or compliance requirements."
+        }
+      ],
+      "correctAnswers": [
+        "d",
+        "e"
+      ],
+      "explanation": "The correct pair is: Sovereign region — an isolated Azure environment designed for specific legal, government, or compliance requirements; and Non-regional service — a service designed to operate across broader Azure geographies rather than being tied to one region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "mr-0264",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure datacenter: an Azure service or resource pinned to a specific availability zone."
+        },
+        {
+          "id": "b",
+          "text": "Sovereign region: a service for building, training, and managing custom machine-learning models."
+        },
+        {
+          "id": "c",
+          "text": "Azure region: an isolated Azure environment designed for specific legal, government, or compliance requirements."
+        },
+        {
+          "id": "d",
+          "text": "Azure region: a geographic area containing one or more nearby datacenters connected with low-latency networking."
+        },
+        {
+          "id": "e",
+          "text": "Azure datacenter: a physical facility containing servers plus power, cooling, and networking infrastructure."
+        }
+      ],
+      "correctAnswers": [
+        "d",
+        "e"
+      ],
+      "explanation": "The correct pair is: Azure datacenter — a physical facility containing servers plus power, cooling, and networking infrastructure; and Azure region — a geographic area containing one or more nearby datacenters connected with low-latency networking.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "tf-0260",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "question": "Azure datacenter is a physical facility containing servers plus power, cooling, and networking infrastructure.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure datacenter is a physical facility containing servers plus power, cooling, and networking infrastructure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "tf-0261",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "question": "According to this unit: Azure region is a service that replicates across availability zones within a region.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Azure region is a geographic area containing one or more nearby datacenters connected with low-latency networking.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "tf-0262",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "question": "For Azure fundamentals, Availability Zone is a physically separate datacenter location within an Azure region with independent power, cooling, and networking.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Availability Zone is a physically separate datacenter location within an Azure region with independent power, cooling, and networking.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "tf-0263",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "question": "This statement is correct: Zonal service is an isolated Azure environment designed for specific legal, government, or compliance requirements.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Zonal service is an Azure service or resource pinned to a specific availability zone.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "tf-0264",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "question": "The unit supports the following statement: Zone-redundant service is a service that replicates across availability zones within a region.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Zone-redundant service is a service that replicates across availability zones within a region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "sc-0520",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "scenario": "The organization is reviewing the topic “Describe Azure physical infrastructure” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a physical facility containing servers plus power, cooling, and networking infrastructure. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Workload modernization"
+        },
+        {
+          "id": "b",
+          "text": "Azure datacenter"
+        },
+        {
+          "id": "c",
+          "text": "Azure subscription boundary"
+        },
+        {
+          "id": "d",
+          "text": "Zone-redundant service"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure datacenter is the best match because it is a physical facility containing servers plus power, cooling, and networking infrastructure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "sc-0521",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "scenario": "The organization is reviewing the topic “Describe Azure physical infrastructure” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs a geographic area containing one or more nearby datacenters connected with low-latency networking. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Resource creation"
+        },
+        {
+          "id": "b",
+          "text": "Region pair"
+        },
+        {
+          "id": "c",
+          "text": "Azure region"
+        },
+        {
+          "id": "d",
+          "text": "Azure resource"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure region is the best match because it is a geographic area containing one or more nearby datacenters connected with low-latency networking.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "sc-0522",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "scenario": "The organization is reviewing the topic “Describe Azure physical infrastructure” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: a physically separate datacenter location within an Azure region with independent power, cooling, and networking. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure resource"
+        },
+        {
+          "id": "b",
+          "text": "Azure AI services"
+        },
+        {
+          "id": "c",
+          "text": "Azure Machine Learning"
+        },
+        {
+          "id": "d",
+          "text": "Availability Zone"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Availability Zone is the best match because it is a physically separate datacenter location within an Azure region with independent power, cooling, and networking.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "sc-0523",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "scenario": "The organization is reviewing the topic “Describe Azure physical infrastructure” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: an Azure service or resource pinned to a specific availability zone. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zonal service"
+        },
+        {
+          "id": "b",
+          "text": "Azure for Students"
+        },
+        {
+          "id": "c",
+          "text": "Azure global network"
+        },
+        {
+          "id": "d",
+          "text": "Azure datacenter"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Zonal service is the best match because it is an Azure service or resource pinned to a specific availability zone.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "sc-0524",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "scenario": "The organization is reviewing the topic “Describe Azure physical infrastructure” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants a service that replicates across availability zones within a region. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cloud Solution Provider partner"
+        },
+        {
+          "id": "b",
+          "text": "Availability Zone"
+        },
+        {
+          "id": "c",
+          "text": "Zone-redundant service"
+        },
+        {
+          "id": "d",
+          "text": "Azure resource"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Zone-redundant service is the best match because it is a service that replicates across availability zones within a region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "sc-0525",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "scenario": "The organization is reviewing the topic “Describe Azure physical infrastructure” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for two Azure regions in the same geography, typically separated by significant distance, used to improve regional resiliency. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Availability Zone"
+        },
+        {
+          "id": "b",
+          "text": "Management-group inheritance"
+        },
+        {
+          "id": "c",
+          "text": "Azure subscription boundary"
+        },
+        {
+          "id": "d",
+          "text": "Region pair"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Region pair is the best match because it is two Azure regions in the same geography, typically separated by significant distance, used to improve regional resiliency.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "sc-0526",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "scenario": "The organization is reviewing the topic “Describe Azure physical infrastructure” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for an isolated Azure environment designed for specific legal, government, or compliance requirements. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure account"
+        },
+        {
+          "id": "b",
+          "text": "Microsoft Azure"
+        },
+        {
+          "id": "c",
+          "text": "Sovereign region"
+        },
+        {
+          "id": "d",
+          "text": "Management-group inheritance"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Sovereign region is the best match because it is an isolated Azure environment designed for specific legal, government, or compliance requirements.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "sc-0527",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "scenario": "The organization is reviewing the topic “Describe Azure physical infrastructure” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is a service designed to operate across broader Azure geographies rather than being tied to one region. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Multiple subscriptions"
+        },
+        {
+          "id": "b",
+          "text": "Azure resource"
+        },
+        {
+          "id": "c",
+          "text": "Non-regional service"
+        },
+        {
+          "id": "d",
+          "text": "Zonal service"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Non-regional service is the best match because it is a service designed to operate across broader Azure geographies rather than being tied to one region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "sc-0528",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "scenario": "The organization is reviewing the topic “Describe Azure physical infrastructure” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as a physical facility containing servers plus power, cooling, and networking infrastructure. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Resource-group deletion"
+        },
+        {
+          "id": "b",
+          "text": "Azure datacenter"
+        },
+        {
+          "id": "c",
+          "text": "Azure free account"
+        },
+        {
+          "id": "d",
+          "text": "Billing boundary"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure datacenter is the best match because it is a physical facility containing servers plus power, cooling, and networking infrastructure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "sc-0529",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "scenario": "The organization is reviewing the topic “Describe Azure physical infrastructure” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides a geographic area containing one or more nearby datacenters connected with low-latency networking. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure subscription"
+        },
+        {
+          "id": "b",
+          "text": "Zonal service"
+        },
+        {
+          "id": "c",
+          "text": "Azure region"
+        },
+        {
+          "id": "d",
+          "text": "Availability Zone"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure region is the best match because it is a geographic area containing one or more nearby datacenters connected with low-latency networking.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "match-0260",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure datacenter"
+        },
+        {
+          "id": "l2",
+          "text": "Azure region"
+        },
+        {
+          "id": "l3",
+          "text": "Availability Zone"
+        },
+        {
+          "id": "l4",
+          "text": "Zonal service"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A physical facility containing servers plus power, cooling, and networking infrastructure"
+        },
+        {
+          "id": "r2",
+          "text": "A geographic area containing one or more nearby datacenters connected with low-latency networking"
+        },
+        {
+          "id": "r3",
+          "text": "A physically separate datacenter location within an Azure region with independent power, cooling, and networking"
+        },
+        {
+          "id": "r4",
+          "text": "An Azure service or resource pinned to a specific availability zone"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "match-0261",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Availability Zone"
+        },
+        {
+          "id": "l2",
+          "text": "Zonal service"
+        },
+        {
+          "id": "l3",
+          "text": "Zone-redundant service"
+        },
+        {
+          "id": "l4",
+          "text": "Region pair"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A service that replicates across availability zones within a region"
+        },
+        {
+          "id": "r1",
+          "text": "A physically separate datacenter location within an Azure region with independent power, cooling, and networking"
+        },
+        {
+          "id": "r2",
+          "text": "An Azure service or resource pinned to a specific availability zone"
+        },
+        {
+          "id": "r4",
+          "text": "Two Azure regions in the same geography, typically separated by significant distance, used to improve regional resiliency"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l1": "r1",
+        "l2": "r2",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "match-0262",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Zone-redundant service"
+        },
+        {
+          "id": "l2",
+          "text": "Region pair"
+        },
+        {
+          "id": "l3",
+          "text": "Sovereign region"
+        },
+        {
+          "id": "l4",
+          "text": "Non-regional service"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A service that replicates across availability zones within a region"
+        },
+        {
+          "id": "r2",
+          "text": "Two Azure regions in the same geography, typically separated by significant distance, used to improve regional resiliency"
+        },
+        {
+          "id": "r4",
+          "text": "A service designed to operate across broader Azure geographies rather than being tied to one region"
+        },
+        {
+          "id": "r3",
+          "text": "An isolated Azure environment designed for specific legal, government, or compliance requirements"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "match-0263",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Sovereign region"
+        },
+        {
+          "id": "l2",
+          "text": "Non-regional service"
+        },
+        {
+          "id": "l3",
+          "text": "Azure datacenter"
+        },
+        {
+          "id": "l4",
+          "text": "Azure region"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "An isolated Azure environment designed for specific legal, government, or compliance requirements"
+        },
+        {
+          "id": "r2",
+          "text": "A service designed to operate across broader Azure geographies rather than being tied to one region"
+        },
+        {
+          "id": "r3",
+          "text": "A physical facility containing servers plus power, cooling, and networking infrastructure"
+        },
+        {
+          "id": "r4",
+          "text": "A geographic area containing one or more nearby datacenters connected with low-latency networking"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "match-0264",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure datacenter"
+        },
+        {
+          "id": "l2",
+          "text": "Azure region"
+        },
+        {
+          "id": "l3",
+          "text": "Availability Zone"
+        },
+        {
+          "id": "l4",
+          "text": "Zonal service"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A physically separate datacenter location within an Azure region with independent power, cooling, and networking"
+        },
+        {
+          "id": "r4",
+          "text": "An Azure service or resource pinned to a specific availability zone"
+        },
+        {
+          "id": "r2",
+          "text": "A geographic area containing one or more nearby datacenters connected with low-latency networking"
+        },
+        {
+          "id": "r1",
+          "text": "A physical facility containing servers plus power, cooling, and networking infrastructure"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "fill-0260",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "question": "{{answer}} is a physically separate datacenter location within an Azure region with independent power, cooling, and networking.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Availability Zone",
+            "Sovereign region",
+            "Azure for Students",
+            "Azure AI services"
+          ],
+          "correctAnswer": "Availability Zone"
+        }
+      ],
+      "explanation": "Availability Zone is a physically separate datacenter location within an Azure region with independent power, cooling, and networking.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "fill-0261",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "question": "The term for an Azure service or resource pinned to a specific availability zone is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure for Students",
+            "Azure Machine Learning",
+            "Zonal service",
+            "Availability Zone"
+          ],
+          "correctAnswer": "Zonal service"
+        }
+      ],
+      "explanation": "Zonal service is an Azure service or resource pinned to a specific availability zone.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "fill-0262",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "question": "In this unit, {{answer}} refers to a service that replicates across availability zones within a region.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Zone-redundant service",
+            "Azure global network",
+            "Azure region",
+            "Availability Zone"
+          ],
+          "correctAnswer": "Zone-redundant service"
+        }
+      ],
+      "explanation": "Zone-redundant service is a service that replicates across availability zones within a region.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "fill-0263",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "question": "For AZ-900, the concept described as two Azure regions in the same geography, typically separated by significant distance, used to improve regional resiliency is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Access-control boundary",
+            "Zonal service",
+            "Azure global network",
+            "Region pair"
+          ],
+          "correctAnswer": "Region pair"
+        }
+      ],
+      "explanation": "Region pair is two Azure regions in the same geography, typically separated by significant distance, used to improve regional resiliency.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    },
+    {
+      "id": "fill-0264",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure physical infrastructure",
+      "question": "Choose the term that completes the statement: {{answer}} means an isolated Azure environment designed for specific legal, government, or compliance requirements.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure subscription",
+            "Sovereign region",
+            "Managed databases",
+            "Azure datacenter"
+          ],
+          "correctAnswer": "Sovereign region"
+        }
+      ],
+      "explanation": "Sovereign region is an isolated Azure environment designed for specific legal, government, or compliance requirements.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure"
+    }
+  ]
+}

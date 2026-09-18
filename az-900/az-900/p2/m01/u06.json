@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe cost management in Azure · Describe cost optimization options in Azure",
+  "questions": [
+    {
+      "id": "mc-0135",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "question": "Which statement best describes Azure Reservations?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A defined spending target that can be scoped and paired with alert thresholds"
+        },
+        {
+          "id": "b",
+          "text": "A name-value metadata pair attached to an Azure resource"
+        },
+        {
+          "id": "c",
+          "text": "A discounted commitment option suited to stable, predictable workloads and specific resource capacity"
+        },
+        {
+          "id": "d",
+          "text": "Discounted unused capacity suitable for workloads that can tolerate eviction"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure Reservations is a discounted commitment option suited to stable, predictable workloads and specific resource capacity.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "mc-0136",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "question": "In the context of this Microsoft Learn unit, what does One-year reservation term refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A source of third-party solutions that can add vendor charges to Azure service costs"
+        },
+        {
+          "id": "b",
+          "text": "The amount of a resource used during a billing period"
+        },
+        {
+          "id": "c",
+          "text": "One of the commitment durations available for Azure Reservations"
+        },
+        {
+          "id": "d",
+          "text": "A geographical grouping used for some data-transfer pricing and distinct from an availability zone"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "One-year reservation term is one of the commitment durations available for Azure Reservations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "mc-0137",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "question": "Which description correctly matches Three-year reservation term?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An online tool for estimating the potential cost of Azure resources and solutions before deployment"
+        },
+        {
+          "id": "b",
+          "text": "An Enterprise Agreement alert when departmental spending reaches a configured quota threshold"
+        },
+        {
+          "id": "c",
+          "text": "A longer commitment duration available for Azure Reservations"
+        },
+        {
+          "id": "d",
+          "text": "A workload pattern well suited to Spot Virtual Machines"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Three-year reservation term is a longer commitment duration available for Azure Reservations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "mc-0138",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "question": "Which of the following is the best definition of Azure savings plan for compute?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A notification generated when spending reaches or exceeds a defined budget threshold"
+        },
+        {
+          "id": "b",
+          "text": "A longer commitment duration available for Azure Reservations"
+        },
+        {
+          "id": "c",
+          "text": "A commitment to an hourly spend amount across eligible compute usage rather than to one specific VM size"
+        },
+        {
+          "id": "d",
+          "text": "Discounted pricing that uses unused Azure capacity and can be interrupted when Azure reclaims capacity"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure savings plan for compute is a commitment to an hourly spend amount across eligible compute usage rather than to one specific VM size.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "mc-0139",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "question": "What is the primary meaning of Spot pricing in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Discounted pricing that uses unused Azure capacity and can be interrupted when Azure reclaims capacity"
+        },
+        {
+          "id": "b",
+          "text": "Discounted unused capacity suitable for workloads that can tolerate eviction"
+        },
+        {
+          "id": "c",
+          "text": "A commitment to an hourly spend amount across eligible compute usage rather than to one specific VM size"
+        },
+        {
+          "id": "d",
+          "text": "Metadata that identifies the person or team responsible for a resource"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Spot pricing is discounted pricing that uses unused Azure capacity and can be interrupted when Azure reclaims capacity.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "mr-0135",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "One-year reservation term: one of the commitment durations available for Azure Reservations."
+        },
+        {
+          "id": "b",
+          "text": "One-year reservation term: a workload pattern that can fit an Azure savings plan for compute."
+        },
+        {
+          "id": "c",
+          "text": "Azure Reservations: a commitment to an hourly spend amount across eligible compute usage rather than to one specific VM size."
+        },
+        {
+          "id": "d",
+          "text": "Azure Reservations: a discounted commitment option suited to stable, predictable workloads and specific resource capacity."
+        },
+        {
+          "id": "e",
+          "text": "Three-year reservation term: the amount of a resource used during a billing period."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Azure Reservations — a discounted commitment option suited to stable, predictable workloads and specific resource capacity; and One-year reservation term — one of the commitment durations available for Azure Reservations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "mr-0136",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Three-year reservation term: a workload pattern that can be a strong fit for Reservations."
+        },
+        {
+          "id": "b",
+          "text": "Azure savings plan for compute: the kind and configuration of an Azure service, which influences its price."
+        },
+        {
+          "id": "c",
+          "text": "Three-year reservation term: a longer commitment duration available for Azure Reservations."
+        },
+        {
+          "id": "d",
+          "text": "Azure savings plan for compute: ongoing cleanup and management that prevents unused associated resources from continuing to incur cost."
+        },
+        {
+          "id": "e",
+          "text": "Azure savings plan for compute: a commitment to an hourly spend amount across eligible compute usage rather than to one specific VM size."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "e"
+      ],
+      "explanation": "The correct pair is: Three-year reservation term — a longer commitment duration available for Azure Reservations; and Azure savings plan for compute — a commitment to an hourly spend amount across eligible compute usage rather than to one specific VM size.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "mr-0137",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Predictable production workload: a workload pattern that can be a strong fit for Reservations."
+        },
+        {
+          "id": "b",
+          "text": "Spot pricing: the Azure region and data-transfer locations, which can affect pricing."
+        },
+        {
+          "id": "c",
+          "text": "Spot pricing: discounted pricing that uses unused Azure capacity and can be interrupted when Azure reclaims capacity."
+        },
+        {
+          "id": "d",
+          "text": "Spot pricing: a workload pattern well suited to Spot Virtual Machines."
+        },
+        {
+          "id": "e",
+          "text": "Predictable production workload: ongoing cleanup and management that prevents unused associated resources from continuing to incur cost."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "c"
+      ],
+      "explanation": "The correct pair is: Spot pricing — discounted pricing that uses unused Azure capacity and can be interrupted when Azure reclaims capacity; and Predictable production workload — a workload pattern that can be a strong fit for Reservations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "mr-0138",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Interruptible batch workload: a workload pattern well suited to Spot Virtual Machines."
+        },
+        {
+          "id": "b",
+          "text": "Flexible steady compute usage: a workload pattern that can fit an Azure savings plan for compute."
+        },
+        {
+          "id": "c",
+          "text": "Predictable production workload: the subscription offer and included allowances that can change effective cost."
+        },
+        {
+          "id": "d",
+          "text": "Interruptible batch workload: the subscription offer and included allowances that can change effective cost."
+        },
+        {
+          "id": "e",
+          "text": "Flexible steady compute usage: the amount of a resource used during a billing period."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Flexible steady compute usage — a workload pattern that can fit an Azure savings plan for compute; and Interruptible batch workload — a workload pattern well suited to Spot Virtual Machines.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "mr-0139",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Reservations: a commitment to an hourly spend amount across eligible compute usage rather than to one specific VM size."
+        },
+        {
+          "id": "b",
+          "text": "Flexible steady compute usage: a source of third-party solutions that can add vendor charges to Azure service costs."
+        },
+        {
+          "id": "c",
+          "text": "Azure Reservations: a discounted commitment option suited to stable, predictable workloads and specific resource capacity."
+        },
+        {
+          "id": "d",
+          "text": "One-year reservation term: one of the commitment durations available for Azure Reservations."
+        },
+        {
+          "id": "e",
+          "text": "One-year reservation term: a workload pattern that can fit an Azure savings plan for compute."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: Azure Reservations — a discounted commitment option suited to stable, predictable workloads and specific resource capacity; and One-year reservation term — one of the commitment durations available for Azure Reservations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "tf-0135",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "question": "Azure Reservations is a discounted commitment option suited to stable, predictable workloads and specific resource capacity.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure Reservations is a discounted commitment option suited to stable, predictable workloads and specific resource capacity.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "tf-0136",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "question": "According to this unit: One-year reservation term is discounted pricing that uses unused Azure capacity and can be interrupted when Azure reclaims capacity.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. One-year reservation term is one of the commitment durations available for Azure Reservations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "tf-0137",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "question": "For Azure fundamentals, Three-year reservation term is a longer commitment duration available for Azure Reservations.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Three-year reservation term is a longer commitment duration available for Azure Reservations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "tf-0138",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "question": "This statement is correct: Azure savings plan for compute is a workload pattern that can fit an Azure savings plan for compute.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Azure savings plan for compute is a commitment to an hourly spend amount across eligible compute usage rather than to one specific VM size.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "tf-0139",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "question": "The unit supports the following statement: Spot pricing is discounted pricing that uses unused Azure capacity and can be interrupted when Azure reclaims capacity.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Spot pricing is discounted pricing that uses unused Azure capacity and can be interrupted when Azure reclaims capacity.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "sc-0270",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "scenario": "The organization is reviewing the topic “Describe cost optimization options in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a discounted commitment option suited to stable, predictable workloads and specific resource capacity. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Owner tag"
+        },
+        {
+          "id": "b",
+          "text": "Budget automation"
+        },
+        {
+          "id": "c",
+          "text": "Tag inheritance"
+        },
+        {
+          "id": "d",
+          "text": "Azure Reservations"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Azure Reservations is the best match because it is a discounted commitment option suited to stable, predictable workloads and specific resource capacity.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "sc-0271",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "scenario": "The organization is reviewing the topic “Describe cost optimization options in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs one of the commitment durations available for Azure Reservations. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microsoft Cost Management"
+        },
+        {
+          "id": "b",
+          "text": "Resource type"
+        },
+        {
+          "id": "c",
+          "text": "One-year reservation term"
+        },
+        {
+          "id": "d",
+          "text": "Consumption"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "One-year reservation term is the best match because it is one of the commitment durations available for Azure Reservations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "sc-0272",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "scenario": "The organization is reviewing the topic “Describe cost optimization options in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: a longer commitment duration available for Azure Reservations. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "One-year reservation term"
+        },
+        {
+          "id": "b",
+          "text": "Tag inheritance"
+        },
+        {
+          "id": "c",
+          "text": "Three-year reservation term"
+        },
+        {
+          "id": "d",
+          "text": "Credit alert"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Three-year reservation term is the best match because it is a longer commitment duration available for Azure Reservations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "sc-0273",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "scenario": "The organization is reviewing the topic “Describe cost optimization options in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: a commitment to an hourly spend amount across eligible compute usage rather than to one specific VM size. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure savings plan for compute"
+        },
+        {
+          "id": "b",
+          "text": "Microsoft Cost Management"
+        },
+        {
+          "id": "c",
+          "text": "Storage-option comparison"
+        },
+        {
+          "id": "d",
+          "text": "Tag inheritance"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure savings plan for compute is the best match because it is a commitment to an hourly spend amount across eligible compute usage rather than to one specific VM size.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "sc-0274",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "scenario": "The organization is reviewing the topic “Describe cost optimization options in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants discounted pricing that uses unused Azure capacity and can be interrupted when Azure reclaims capacity. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Budget alert"
+        },
+        {
+          "id": "b",
+          "text": "Three-year reservation term"
+        },
+        {
+          "id": "c",
+          "text": "Spot pricing"
+        },
+        {
+          "id": "d",
+          "text": "Credit alert"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Spot pricing is the best match because it is discounted pricing that uses unused Azure capacity and can be interrupted when Azure reclaims capacity.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "sc-0275",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "scenario": "The organization is reviewing the topic “Describe cost optimization options in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for a workload pattern that can be a strong fit for Reservations. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Predictable production workload"
+        },
+        {
+          "id": "b",
+          "text": "Maintenance"
+        },
+        {
+          "id": "c",
+          "text": "Resource type"
+        },
+        {
+          "id": "d",
+          "text": "Geography"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Predictable production workload is the best match because it is a workload pattern that can be a strong fit for Reservations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "sc-0276",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "scenario": "The organization is reviewing the topic “Describe cost optimization options in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for a workload pattern that can fit an Azure savings plan for compute. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Reservations"
+        },
+        {
+          "id": "b",
+          "text": "Owner tag"
+        },
+        {
+          "id": "c",
+          "text": "Estimate only"
+        },
+        {
+          "id": "d",
+          "text": "Flexible steady compute usage"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Flexible steady compute usage is the best match because it is a workload pattern that can fit an Azure savings plan for compute.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "sc-0277",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "scenario": "The organization is reviewing the topic “Describe cost optimization options in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is a workload pattern well suited to Spot Virtual Machines. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tag inheritance"
+        },
+        {
+          "id": "b",
+          "text": "Azure savings plan for compute"
+        },
+        {
+          "id": "c",
+          "text": "Interruptible batch workload"
+        },
+        {
+          "id": "d",
+          "text": "Predictable production workload"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Interruptible batch workload is the best match because it is a workload pattern well suited to Spot Virtual Machines.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "sc-0278",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "scenario": "The organization is reviewing the topic “Describe cost optimization options in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as a discounted commitment option suited to stable, predictable workloads and specific resource capacity. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Reservations"
+        },
+        {
+          "id": "b",
+          "text": "Budget"
+        },
+        {
+          "id": "c",
+          "text": "Service-tier comparison"
+        },
+        {
+          "id": "d",
+          "text": "Azure Policy for tags"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure Reservations is the best match because it is a discounted commitment option suited to stable, predictable workloads and specific resource capacity.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "sc-0279",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "scenario": "The organization is reviewing the topic “Describe cost optimization options in Azure” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides one of the commitment durations available for Azure Reservations. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Regional comparison"
+        },
+        {
+          "id": "b",
+          "text": "Azure savings plan for compute"
+        },
+        {
+          "id": "c",
+          "text": "Predictable production workload"
+        },
+        {
+          "id": "d",
+          "text": "One-year reservation term"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "One-year reservation term is the best match because it is one of the commitment durations available for Azure Reservations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "match-0135",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Reservations"
+        },
+        {
+          "id": "l2",
+          "text": "One-year reservation term"
+        },
+        {
+          "id": "l3",
+          "text": "Three-year reservation term"
+        },
+        {
+          "id": "l4",
+          "text": "Azure savings plan for compute"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "One of the commitment durations available for Azure Reservations"
+        },
+        {
+          "id": "r1",
+          "text": "A discounted commitment option suited to stable, predictable workloads and specific resource capacity"
+        },
+        {
+          "id": "r3",
+          "text": "A longer commitment duration available for Azure Reservations"
+        },
+        {
+          "id": "r4",
+          "text": "A commitment to an hourly spend amount across eligible compute usage rather than to one specific VM size"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l1": "r1",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "match-0136",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Three-year reservation term"
+        },
+        {
+          "id": "l2",
+          "text": "Azure savings plan for compute"
+        },
+        {
+          "id": "l3",
+          "text": "Spot pricing"
+        },
+        {
+          "id": "l4",
+          "text": "Predictable production workload"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Discounted pricing that uses unused Azure capacity and can be interrupted when Azure reclaims capacity"
+        },
+        {
+          "id": "r1",
+          "text": "A longer commitment duration available for Azure Reservations"
+        },
+        {
+          "id": "r4",
+          "text": "A workload pattern that can be a strong fit for Reservations"
+        },
+        {
+          "id": "r2",
+          "text": "A commitment to an hourly spend amount across eligible compute usage rather than to one specific VM size"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l1": "r1",
+        "l4": "r4",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "match-0137",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Spot pricing"
+        },
+        {
+          "id": "l2",
+          "text": "Predictable production workload"
+        },
+        {
+          "id": "l3",
+          "text": "Flexible steady compute usage"
+        },
+        {
+          "id": "l4",
+          "text": "Interruptible batch workload"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Discounted pricing that uses unused Azure capacity and can be interrupted when Azure reclaims capacity"
+        },
+        {
+          "id": "r2",
+          "text": "A workload pattern that can be a strong fit for Reservations"
+        },
+        {
+          "id": "r4",
+          "text": "A workload pattern well suited to Spot Virtual Machines"
+        },
+        {
+          "id": "r3",
+          "text": "A workload pattern that can fit an Azure savings plan for compute"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "match-0138",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Flexible steady compute usage"
+        },
+        {
+          "id": "l2",
+          "text": "Interruptible batch workload"
+        },
+        {
+          "id": "l3",
+          "text": "Azure Reservations"
+        },
+        {
+          "id": "l4",
+          "text": "One-year reservation term"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A workload pattern that can fit an Azure savings plan for compute"
+        },
+        {
+          "id": "r4",
+          "text": "One of the commitment durations available for Azure Reservations"
+        },
+        {
+          "id": "r2",
+          "text": "A workload pattern well suited to Spot Virtual Machines"
+        },
+        {
+          "id": "r3",
+          "text": "A discounted commitment option suited to stable, predictable workloads and specific resource capacity"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l4": "r4",
+        "l2": "r2",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "match-0139",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Reservations"
+        },
+        {
+          "id": "l2",
+          "text": "One-year reservation term"
+        },
+        {
+          "id": "l3",
+          "text": "Three-year reservation term"
+        },
+        {
+          "id": "l4",
+          "text": "Azure savings plan for compute"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A discounted commitment option suited to stable, predictable workloads and specific resource capacity"
+        },
+        {
+          "id": "r2",
+          "text": "One of the commitment durations available for Azure Reservations"
+        },
+        {
+          "id": "r3",
+          "text": "A longer commitment duration available for Azure Reservations"
+        },
+        {
+          "id": "r4",
+          "text": "A commitment to an hourly spend amount across eligible compute usage rather than to one specific VM size"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "fill-0135",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "question": "{{answer}} is a longer commitment duration available for Azure Reservations.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Estimate only",
+            "Azure Policy for tags",
+            "Azure Reservations",
+            "Three-year reservation term"
+          ],
+          "correctAnswer": "Three-year reservation term"
+        }
+      ],
+      "explanation": "Three-year reservation term is a longer commitment duration available for Azure Reservations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "fill-0136",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "question": "The term for a commitment to an hourly spend amount across eligible compute usage rather than to one specific VM size is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Budget automation",
+            "Azure savings plan for compute",
+            "Service-tier comparison",
+            "Storage-option comparison"
+          ],
+          "correctAnswer": "Azure savings plan for compute"
+        }
+      ],
+      "explanation": "Azure savings plan for compute is a commitment to an hourly spend amount across eligible compute usage rather than to one specific VM size.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "fill-0137",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "question": "In this unit, {{answer}} refers to discounted pricing that uses unused Azure capacity and can be interrupted when Azure reclaims capacity.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Spot pricing",
+            "Tag-based automation",
+            "Budget automation",
+            "Azure Marketplace"
+          ],
+          "correctAnswer": "Spot pricing"
+        }
+      ],
+      "explanation": "Spot pricing is discounted pricing that uses unused Azure capacity and can be interrupted when Azure reclaims capacity.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "fill-0138",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "question": "For AZ-900, the concept described as a workload pattern that can be a strong fit for Reservations is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Solution estimate",
+            "Predictable production workload",
+            "Resource type",
+            "Tag-based security classification"
+          ],
+          "correctAnswer": "Predictable production workload"
+        }
+      ],
+      "explanation": "Predictable production workload is a workload pattern that can be a strong fit for Reservations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    },
+    {
+      "id": "fill-0139",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe cost optimization options in Azure",
+      "question": "Choose the term that completes the statement: {{answer}} means a workload pattern that can fit an Azure savings plan for compute.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "CostCenter tag",
+            "Cost trend analysis",
+            "Flexible steady compute usage",
+            "Budget automation"
+          ],
+          "correctAnswer": "Flexible steady compute usage"
+        }
+      ],
+      "explanation": "Flexible steady compute usage is a workload pattern that can fit an Azure savings plan for compute.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7a-describe-cost-optimization-options"
+    }
+  ]
+}

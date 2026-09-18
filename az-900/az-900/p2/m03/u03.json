@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe features and tools for managing and deploying Azure resources · Describe the purpose of Azure Arc",
+  "questions": [
+    {
+      "id": "mc-0195",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "question": "Which statement best describes Azure Arc?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Management requests are authenticated and authorized by ARM before being forwarded to the target Azure service"
+        },
+        {
+          "id": "b",
+          "text": "Applying Azure policy, inventory, and monitoring approaches across Azure, on-premises, and other clouds"
+        },
+        {
+          "id": "c",
+          "text": "A service that extends Azure management and governance to hybrid and multicloud resources"
+        },
+        {
+          "id": "d",
+          "text": "An AI assistant that can provide contextual guidance and help draft operational commands or workflows"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure Arc is a service that extends Azure management and governance to hybrid and multicloud resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "mc-0196",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "question": "In the context of this Microsoft Learn unit, what does Azure Resource Manager projection refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A declarative JSON file that describes the desired Azure resources and configuration"
+        },
+        {
+          "id": "b",
+          "text": "Specifying the desired end state rather than a sequence of imperative steps"
+        },
+        {
+          "id": "c",
+          "text": "Azure CLI and Azure PowerShell can be installed on Windows, Linux, and macOS"
+        },
+        {
+          "id": "d",
+          "text": "Representing non-Azure resources in Azure Resource Manager so they can be managed with familiar Azure tools"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Azure Resource Manager projection is representing non-Azure resources in Azure Resource Manager so they can be managed with familiar Azure tools.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "mc-0197",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "question": "Which description correctly matches Arc-enabled servers?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A cross-platform command-line tool that uses CLI/Bash-style commands to manage Azure"
+        },
+        {
+          "id": "b",
+          "text": "Applying Azure policy, inventory, and monitoring approaches across Azure, on-premises, and other clouds"
+        },
+        {
+          "id": "c",
+          "text": "Physical or virtual servers outside Azure that can be brought under Azure management"
+        },
+        {
+          "id": "d",
+          "text": "An AI assistant that can provide contextual guidance and help draft operational commands or workflows"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Arc-enabled servers is physical or virtual servers outside Azure that can be brought under Azure management.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "mc-0198",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "question": "Which of the following is the best definition of Arc-enabled Kubernetes?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A service that extends Azure management and governance to hybrid and multicloud resources"
+        },
+        {
+          "id": "b",
+          "text": "Kubernetes clusters outside Azure that can be governed and managed through Azure Arc"
+        },
+        {
+          "id": "c",
+          "text": "Physical or virtual servers outside Azure that can be brought under Azure management"
+        },
+        {
+          "id": "d",
+          "text": "Applying Azure policy, inventory, and monitoring approaches across Azure, on-premises, and other clouds"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Arc-enabled Kubernetes is Kubernetes clusters outside Azure that can be governed and managed through Azure Arc.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "mc-0199",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "question": "What is the primary meaning of Arc-enabled data services in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Specifying the desired end state rather than a sequence of imperative steps"
+        },
+        {
+          "id": "b",
+          "text": "A browser-based authenticated shell that supports Azure PowerShell and Azure CLI without local installation"
+        },
+        {
+          "id": "c",
+          "text": "Data services that can be managed in hybrid or multicloud environments through Azure Arc"
+        },
+        {
+          "id": "d",
+          "text": "ARM determining resource deployment order and deploying independent resources in parallel when possible"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Arc-enabled data services is data services that can be managed in hybrid or multicloud environments through Azure Arc.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "mr-0195",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Arc: Kubernetes clusters outside Azure that can be governed and managed through Azure Arc."
+        },
+        {
+          "id": "b",
+          "text": "Azure Resource Manager projection: representing non-Azure resources in Azure Resource Manager so they can be managed with familiar Azure tools."
+        },
+        {
+          "id": "c",
+          "text": "Arc-enabled servers: a command-line and scripting environment that uses PowerShell cmdlets to manage Azure through its APIs."
+        },
+        {
+          "id": "d",
+          "text": "Azure Arc: a service that extends Azure management and governance to hybrid and multicloud resources."
+        },
+        {
+          "id": "e",
+          "text": "Azure Resource Manager projection: a centralized management approach for resources that remain outside Azure."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: Azure Arc — a service that extends Azure management and governance to hybrid and multicloud resources; and Azure Resource Manager projection — representing non-Azure resources in Azure Resource Manager so they can be managed with familiar Azure tools.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "mr-0196",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Arc-enabled Kubernetes: a browser-based authenticated shell that supports Azure PowerShell and Azure CLI without local installation."
+        },
+        {
+          "id": "b",
+          "text": "Arc-enabled Kubernetes: a cross-platform command-line tool that uses CLI/Bash-style commands to manage Azure."
+        },
+        {
+          "id": "c",
+          "text": "Arc-enabled Kubernetes: Kubernetes clusters outside Azure that can be governed and managed through Azure Arc."
+        },
+        {
+          "id": "d",
+          "text": "Arc-enabled servers: physical or virtual servers outside Azure that can be brought under Azure management."
+        },
+        {
+          "id": "e",
+          "text": "Arc-enabled servers: applying Azure policy, inventory, and monitoring approaches across Azure, on-premises, and other clouds."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: Arc-enabled servers — physical or virtual servers outside Azure that can be brought under Azure management; and Arc-enabled Kubernetes — Kubernetes clusters outside Azure that can be governed and managed through Azure Arc.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "mr-0197",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Arc-enabled data services: data services that can be managed in hybrid or multicloud environments through Azure Arc."
+        },
+        {
+          "id": "b",
+          "text": "Consistent governance: applying Azure policy, inventory, and monitoring approaches across Azure, on-premises, and other clouds."
+        },
+        {
+          "id": "c",
+          "text": "Arc-enabled data services: a web-based graphical console for creating, managing, and monitoring Azure resources."
+        },
+        {
+          "id": "d",
+          "text": "Arc-enabled data services: an AI assistant that can provide contextual guidance and help draft operational commands or workflows."
+        },
+        {
+          "id": "e",
+          "text": "Consistent governance: a cross-platform command-line tool that uses CLI/Bash-style commands to manage Azure."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Arc-enabled data services — data services that can be managed in hybrid or multicloud environments through Azure Arc; and Consistent governance — applying Azure policy, inventory, and monitoring approaches across Azure, on-premises, and other clouds.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "mr-0198",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Arc: applying Azure policy, inventory, and monitoring approaches across Azure, on-premises, and other clouds."
+        },
+        {
+          "id": "b",
+          "text": "Hybrid management platform: a centralized management approach for resources that remain outside Azure."
+        },
+        {
+          "id": "c",
+          "text": "Hybrid management platform: a command-line and scripting environment that uses PowerShell cmdlets to manage Azure through its APIs."
+        },
+        {
+          "id": "d",
+          "text": "Consistent governance: capturing management commands in scripts so operations can be automated and repeated consistently."
+        },
+        {
+          "id": "e",
+          "text": "Azure Arc: a service that extends Azure management and governance to hybrid and multicloud resources."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: Hybrid management platform — a centralized management approach for resources that remain outside Azure; and Azure Arc — a service that extends Azure management and governance to hybrid and multicloud resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "mr-0199",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Resource Manager projection: representing non-Azure resources in Azure Resource Manager so they can be managed with familiar Azure tools."
+        },
+        {
+          "id": "b",
+          "text": "Arc-enabled servers: a web-based graphical console for creating, managing, and monitoring Azure resources."
+        },
+        {
+          "id": "c",
+          "text": "Hybrid management platform: the browser shell automatically uses the Azure identity and permissions of the signed-in user."
+        },
+        {
+          "id": "d",
+          "text": "Arc-enabled servers: physical or virtual servers outside Azure that can be brought under Azure management."
+        },
+        {
+          "id": "e",
+          "text": "Azure Resource Manager projection: data services that can be managed in hybrid or multicloud environments through Azure Arc."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Azure Resource Manager projection — representing non-Azure resources in Azure Resource Manager so they can be managed with familiar Azure tools; and Arc-enabled servers — physical or virtual servers outside Azure that can be brought under Azure management.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "tf-0195",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "question": "Azure Arc is a service that extends Azure management and governance to hybrid and multicloud resources.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure Arc is a service that extends Azure management and governance to hybrid and multicloud resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "tf-0196",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "question": "According to this unit: Azure Resource Manager projection is data services that can be managed in hybrid or multicloud environments through Azure Arc.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Azure Resource Manager projection is representing non-Azure resources in Azure Resource Manager so they can be managed with familiar Azure tools.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "tf-0197",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "question": "For Azure fundamentals, Arc-enabled servers is physical or virtual servers outside Azure that can be brought under Azure management.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Arc-enabled servers is physical or virtual servers outside Azure that can be brought under Azure management.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "tf-0198",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "question": "This statement is correct: Arc-enabled Kubernetes is a centralized management approach for resources that remain outside Azure.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Arc-enabled Kubernetes is Kubernetes clusters outside Azure that can be governed and managed through Azure Arc.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "tf-0199",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "question": "The unit supports the following statement: Arc-enabled data services is data services that can be managed in hybrid or multicloud environments through Azure Arc.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Arc-enabled data services is data services that can be managed in hybrid or multicloud environments through Azure Arc.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "sc-0390",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Arc” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a service that extends Azure management and governance to hybrid and multicloud resources. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Arc"
+        },
+        {
+          "id": "b",
+          "text": "Cross-platform management"
+        },
+        {
+          "id": "c",
+          "text": "Dependency orchestration"
+        },
+        {
+          "id": "d",
+          "text": "Bicep"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure Arc is the best match because it is a service that extends Azure management and governance to hybrid and multicloud resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "sc-0391",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Arc” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs representing non-Azure resources in Azure Resource Manager so they can be managed with familiar Azure tools. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Resource Manager projection"
+        },
+        {
+          "id": "b",
+          "text": "Azure Arc"
+        },
+        {
+          "id": "c",
+          "text": "Repeatable scripting"
+        },
+        {
+          "id": "d",
+          "text": "Azure Resource Manager (ARM)"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure Resource Manager projection is the best match because it is representing non-Azure resources in Azure Resource Manager so they can be managed with familiar Azure tools.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "sc-0392",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Arc” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: physical or virtual servers outside Azure that can be brought under Azure management. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Infrastructure as code"
+        },
+        {
+          "id": "b",
+          "text": "Repeatable scripting"
+        },
+        {
+          "id": "c",
+          "text": "Arc-enabled Kubernetes"
+        },
+        {
+          "id": "d",
+          "text": "Arc-enabled servers"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Arc-enabled servers is the best match because it is physical or virtual servers outside Azure that can be brought under Azure management.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "sc-0393",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Arc” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: kubernetes clusters outside Azure that can be governed and managed through Azure Arc. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Arc-enabled Kubernetes"
+        },
+        {
+          "id": "b",
+          "text": "Cross-platform management"
+        },
+        {
+          "id": "c",
+          "text": "Consistent governance"
+        },
+        {
+          "id": "d",
+          "text": "Declarative deployment"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Arc-enabled Kubernetes is the best match because it is Kubernetes clusters outside Azure that can be governed and managed through Azure Arc.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "sc-0394",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Arc” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants data services that can be managed in hybrid or multicloud environments through Azure Arc. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ARM request flow"
+        },
+        {
+          "id": "b",
+          "text": "Cloud Shell authentication"
+        },
+        {
+          "id": "c",
+          "text": "Arc-enabled data services"
+        },
+        {
+          "id": "d",
+          "text": "Azure Resource Manager projection"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Arc-enabled data services is the best match because it is data services that can be managed in hybrid or multicloud environments through Azure Arc.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "sc-0395",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Arc” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for applying Azure policy, inventory, and monitoring approaches across Azure, on-premises, and other clouds. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Consistent governance"
+        },
+        {
+          "id": "b",
+          "text": "Azure PowerShell"
+        },
+        {
+          "id": "c",
+          "text": "Repeatable scripting"
+        },
+        {
+          "id": "d",
+          "text": "ARM template"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Consistent governance is the best match because it is applying Azure policy, inventory, and monitoring approaches across Azure, on-premises, and other clouds.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "sc-0396",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Arc” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for a centralized management approach for resources that remain outside Azure. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ARM request flow"
+        },
+        {
+          "id": "b",
+          "text": "Hybrid management platform"
+        },
+        {
+          "id": "c",
+          "text": "Repeatable scripting"
+        },
+        {
+          "id": "d",
+          "text": "ARM template"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Hybrid management platform is the best match because it is a centralized management approach for resources that remain outside Azure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "sc-0397",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Arc” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is a service that extends Azure management and governance to hybrid and multicloud resources. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Copilot in Azure"
+        },
+        {
+          "id": "b",
+          "text": "Azure Arc"
+        },
+        {
+          "id": "c",
+          "text": "Azure CLI"
+        },
+        {
+          "id": "d",
+          "text": "Cross-platform management"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Arc is the best match because it is a service that extends Azure management and governance to hybrid and multicloud resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "sc-0398",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Arc” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as representing non-Azure resources in Azure Resource Manager so they can be managed with familiar Azure tools. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Copilot in Azure"
+        },
+        {
+          "id": "b",
+          "text": "Azure Arc"
+        },
+        {
+          "id": "c",
+          "text": "Azure Resource Manager projection"
+        },
+        {
+          "id": "d",
+          "text": "Azure PowerShell"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure Resource Manager projection is the best match because it is representing non-Azure resources in Azure Resource Manager so they can be managed with familiar Azure tools.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "sc-0399",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of Azure Arc” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides physical or virtual servers outside Azure that can be brought under Azure management. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Idempotent deployment"
+        },
+        {
+          "id": "b",
+          "text": "Azure portal"
+        },
+        {
+          "id": "c",
+          "text": "Arc-enabled servers"
+        },
+        {
+          "id": "d",
+          "text": "Copilot in Azure"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Arc-enabled servers is the best match because it is physical or virtual servers outside Azure that can be brought under Azure management.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "match-0195",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Arc"
+        },
+        {
+          "id": "l2",
+          "text": "Azure Resource Manager projection"
+        },
+        {
+          "id": "l3",
+          "text": "Arc-enabled servers"
+        },
+        {
+          "id": "l4",
+          "text": "Arc-enabled Kubernetes"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "Representing non-Azure resources in Azure Resource Manager so they can be managed with familiar Azure tools"
+        },
+        {
+          "id": "r3",
+          "text": "Physical or virtual servers outside Azure that can be brought under Azure management"
+        },
+        {
+          "id": "r4",
+          "text": "Kubernetes clusters outside Azure that can be governed and managed through Azure Arc"
+        },
+        {
+          "id": "r1",
+          "text": "A service that extends Azure management and governance to hybrid and multicloud resources"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "match-0196",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Arc-enabled servers"
+        },
+        {
+          "id": "l2",
+          "text": "Arc-enabled Kubernetes"
+        },
+        {
+          "id": "l3",
+          "text": "Arc-enabled data services"
+        },
+        {
+          "id": "l4",
+          "text": "Consistent governance"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Physical or virtual servers outside Azure that can be brought under Azure management"
+        },
+        {
+          "id": "r4",
+          "text": "Applying Azure policy, inventory, and monitoring approaches across Azure, on-premises, and other clouds"
+        },
+        {
+          "id": "r2",
+          "text": "Kubernetes clusters outside Azure that can be governed and managed through Azure Arc"
+        },
+        {
+          "id": "r3",
+          "text": "Data services that can be managed in hybrid or multicloud environments through Azure Arc"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l4": "r4",
+        "l2": "r2",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "match-0197",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Arc-enabled data services"
+        },
+        {
+          "id": "l2",
+          "text": "Consistent governance"
+        },
+        {
+          "id": "l3",
+          "text": "Hybrid management platform"
+        },
+        {
+          "id": "l4",
+          "text": "Azure Arc"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A centralized management approach for resources that remain outside Azure"
+        },
+        {
+          "id": "r2",
+          "text": "Applying Azure policy, inventory, and monitoring approaches across Azure, on-premises, and other clouds"
+        },
+        {
+          "id": "r1",
+          "text": "Data services that can be managed in hybrid or multicloud environments through Azure Arc"
+        },
+        {
+          "id": "r4",
+          "text": "A service that extends Azure management and governance to hybrid and multicloud resources"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l2": "r2",
+        "l1": "r1",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "match-0198",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Hybrid management platform"
+        },
+        {
+          "id": "l2",
+          "text": "Azure Arc"
+        },
+        {
+          "id": "l3",
+          "text": "Azure Resource Manager projection"
+        },
+        {
+          "id": "l4",
+          "text": "Arc-enabled servers"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Physical or virtual servers outside Azure that can be brought under Azure management"
+        },
+        {
+          "id": "r3",
+          "text": "Representing non-Azure resources in Azure Resource Manager so they can be managed with familiar Azure tools"
+        },
+        {
+          "id": "r1",
+          "text": "A centralized management approach for resources that remain outside Azure"
+        },
+        {
+          "id": "r2",
+          "text": "A service that extends Azure management and governance to hybrid and multicloud resources"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l3": "r3",
+        "l1": "r1",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "match-0199",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Resource Manager projection"
+        },
+        {
+          "id": "l2",
+          "text": "Arc-enabled servers"
+        },
+        {
+          "id": "l3",
+          "text": "Arc-enabled Kubernetes"
+        },
+        {
+          "id": "l4",
+          "text": "Arc-enabled data services"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Kubernetes clusters outside Azure that can be governed and managed through Azure Arc"
+        },
+        {
+          "id": "r1",
+          "text": "Representing non-Azure resources in Azure Resource Manager so they can be managed with familiar Azure tools"
+        },
+        {
+          "id": "r4",
+          "text": "Data services that can be managed in hybrid or multicloud environments through Azure Arc"
+        },
+        {
+          "id": "r2",
+          "text": "Physical or virtual servers outside Azure that can be brought under Azure management"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l1": "r1",
+        "l4": "r4",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "fill-0195",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "question": "{{answer}} is physical or virtual servers outside Azure that can be brought under Azure management.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Arc-enabled servers",
+            "Azure Cloud Shell",
+            "ARM template",
+            "ARM request flow"
+          ],
+          "correctAnswer": "Arc-enabled servers"
+        }
+      ],
+      "explanation": "Arc-enabled servers is physical or virtual servers outside Azure that can be brought under Azure management.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "fill-0196",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "question": "The term for kubernetes clusters outside Azure that can be governed and managed through Azure Arc is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Arc-enabled data services",
+            "Arc-enabled Kubernetes",
+            "Azure Arc",
+            "Azure Resource Manager projection"
+          ],
+          "correctAnswer": "Arc-enabled Kubernetes"
+        }
+      ],
+      "explanation": "Arc-enabled Kubernetes is Kubernetes clusters outside Azure that can be governed and managed through Azure Arc.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "fill-0197",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "question": "In this unit, {{answer}} refers to data services that can be managed in hybrid or multicloud environments through Azure Arc.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "ARM request flow",
+            "Declarative deployment",
+            "Azure Arc",
+            "Arc-enabled data services"
+          ],
+          "correctAnswer": "Arc-enabled data services"
+        }
+      ],
+      "explanation": "Arc-enabled data services is data services that can be managed in hybrid or multicloud environments through Azure Arc.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "fill-0198",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "question": "For AZ-900, the concept described as applying Azure policy, inventory, and monitoring approaches across Azure, on-premises, and other clouds is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Consistent governance",
+            "Repeatable scripting",
+            "Hybrid management platform",
+            "ARM template"
+          ],
+          "correctAnswer": "Consistent governance"
+        }
+      ],
+      "explanation": "Consistent governance is applying Azure policy, inventory, and monitoring approaches across Azure, on-premises, and other clouds.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    },
+    {
+      "id": "fill-0199",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe features and tools for managing and deploying Azure resources",
+      "description": "Microsoft Learn unit: Describe the purpose of Azure Arc",
+      "question": "Choose the term that completes the statement: {{answer}} means a centralized management approach for resources that remain outside Azure.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Hybrid management platform",
+            "Arc-enabled servers",
+            "Cross-platform management",
+            "Idempotent deployment"
+          ],
+          "correctAnswer": "Hybrid management platform"
+        }
+      ],
+      "explanation": "Hybrid management platform is a centralized management approach for resources that remain outside Azure.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc"
+    }
+  ]
+}

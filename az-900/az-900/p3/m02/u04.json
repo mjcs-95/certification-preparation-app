@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe Azure compute services · Describe Azure containers",
+  "questions": [
+    {
+      "id": "mc-0295",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "question": "Which statement best describes Container?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An approach that packages and isolates application components for independent deployment and scaling"
+        },
+        {
+          "id": "b",
+          "text": "A PaaS option for running individual containers quickly without managing virtual machines"
+        },
+        {
+          "id": "c",
+          "text": "A VM resiliency feature that separates instances across fault domains and update domains within a region"
+        },
+        {
+          "id": "d",
+          "text": "A lightweight virtualization environment that packages an application and dependencies without requiring a separate guest OS per instance"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Container is a lightweight virtualization environment that packages an application and dependencies without requiring a separate guest OS per instance.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "mc-0296",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "question": "In the context of this Microsoft Learn unit, what does Azure Container Instances refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A PaaS option for running individual containers quickly without managing virtual machines"
+        },
+        {
+          "id": "b",
+          "text": "A VM resiliency feature that separates instances across fault domains and update domains within a region"
+        },
+        {
+          "id": "c",
+          "text": "An event such as an HTTP request, timer, or message that causes a function to run"
+        },
+        {
+          "id": "d",
+          "text": "An App Service feature for running background programs or scripts on a schedule or trigger"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure Container Instances is a PaaS option for running individual containers quickly without managing virtual machines.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "mc-0297",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "question": "Which description correctly matches Azure Container Apps?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An App Service workload for hosting browser-accessible applications"
+        },
+        {
+          "id": "b",
+          "text": "Azure Functions increasing or decreasing execution capacity based on demand"
+        },
+        {
+          "id": "c",
+          "text": "A managed container platform with built-in scaling and load balancing"
+        },
+        {
+          "id": "d",
+          "text": "A burstable, cost-efficient VM family suited to workloads with occasional CPU spikes"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure Container Apps is a managed container platform with built-in scaling and load balancing.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "mc-0298",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "question": "Which of the following is the best definition of Azure Kubernetes Service (AKS)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An App Service workload for hosting REST-based web APIs"
+        },
+        {
+          "id": "b",
+          "text": "Technology for running cloud capabilities closer to devices and where data is generated"
+        },
+        {
+          "id": "c",
+          "text": "A managed Kubernetes service used to orchestrate and manage fleets of containers"
+        },
+        {
+          "id": "d",
+          "text": "An application pattern combining an AI model with instructions, context, and tools to complete multistep goals"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure Kubernetes Service (AKS) is a managed Kubernetes service used to orchestrate and manage fleets of containers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "mc-0299",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "question": "What is the primary meaning of Container orchestration in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prebuilt APIs and services for capabilities such as language, speech, vision, and document processing"
+        },
+        {
+          "id": "b",
+          "text": "Device-generated data sent to cloud services for monitoring and analysis"
+        },
+        {
+          "id": "c",
+          "text": "An Azure offering for generative AI scenarios such as chat and content generation"
+        },
+        {
+          "id": "d",
+          "text": "Managing container deployment, scaling, networking, and lifecycle across many instances"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Container orchestration is managing container deployment, scaling, networking, and lifecycle across many instances.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "mr-0295",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Container: a managed Kubernetes service used to orchestrate and manage fleets of containers."
+        },
+        {
+          "id": "b",
+          "text": "Azure Container Instances: a PaaS option for running individual containers quickly without managing virtual machines."
+        },
+        {
+          "id": "c",
+          "text": "Azure Container Apps: a template that can include an operating system and preinstalled components for rapid VM deployment."
+        },
+        {
+          "id": "d",
+          "text": "Azure Container Instances: scaling one containerized component separately from others when only that component has increased demand."
+        },
+        {
+          "id": "e",
+          "text": "Container: a lightweight virtualization environment that packages an application and dependencies without requiring a separate guest OS per instance."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: Container — a lightweight virtualization environment that packages an application and dependencies without requiring a separate guest OS per instance; and Azure Container Instances — a PaaS option for running individual containers quickly without managing virtual machines.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "mr-0296",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Container Apps: an architecture that splits a solution into smaller independently deployable components."
+        },
+        {
+          "id": "b",
+          "text": "Azure Kubernetes Service (AKS): a managed Kubernetes service used to orchestrate and manage fleets of containers."
+        },
+        {
+          "id": "c",
+          "text": "Azure Container Apps: a managed container platform with built-in scaling and load balancing."
+        },
+        {
+          "id": "d",
+          "text": "Azure Kubernetes Service (AKS): an IaaS compute resource that provides control over the guest operating system and installed software."
+        },
+        {
+          "id": "e",
+          "text": "Azure Kubernetes Service (AKS): a burstable, cost-efficient VM family suited to workloads with occasional CPU spikes."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: Azure Container Apps — a managed container platform with built-in scaling and load balancing; and Azure Kubernetes Service (AKS) — a managed Kubernetes service used to orchestrate and manage fleets of containers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "mr-0297",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Container orchestration: a widely used container engine supported by Azure container services."
+        },
+        {
+          "id": "b",
+          "text": "Microservices architecture: a burstable, cost-efficient VM family suited to workloads with occasional CPU spikes."
+        },
+        {
+          "id": "c",
+          "text": "Container orchestration: managing container deployment, scaling, networking, and lifecycle across many instances."
+        },
+        {
+          "id": "d",
+          "text": "Microservices architecture: an architecture that splits a solution into smaller independently deployable components."
+        },
+        {
+          "id": "e",
+          "text": "Container orchestration: a general-purpose VM family suited to common application and web-server workloads."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: Container orchestration — managing container deployment, scaling, networking, and lifecycle across many instances; and Microservices architecture — an architecture that splits a solution into smaller independently deployable components.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "mr-0298",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Independent scaling: a template that can include an operating system and preinstalled components for rapid VM deployment."
+        },
+        {
+          "id": "b",
+          "text": "Docker: a memory-optimized VM family suited to memory-intensive workloads."
+        },
+        {
+          "id": "c",
+          "text": "Microservices architecture: a memory-optimized VM family suited to memory-intensive workloads."
+        },
+        {
+          "id": "d",
+          "text": "Docker: a widely used container engine supported by Azure container services."
+        },
+        {
+          "id": "e",
+          "text": "Independent scaling: scaling one containerized component separately from others when only that component has increased demand."
+        }
+      ],
+      "correctAnswers": [
+        "d",
+        "e"
+      ],
+      "explanation": "The correct pair is: Independent scaling — scaling one containerized component separately from others when only that component has increased demand; and Docker — a widely used container engine supported by Azure container services.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "mr-0299",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Container Instances: scaling one containerized component separately from others when only that component has increased demand."
+        },
+        {
+          "id": "b",
+          "text": "Independent scaling: a compute-optimized VM family suited to CPU-intensive workloads."
+        },
+        {
+          "id": "c",
+          "text": "Container: a managed Kubernetes service used to orchestrate and manage fleets of containers."
+        },
+        {
+          "id": "d",
+          "text": "Azure Container Instances: a PaaS option for running individual containers quickly without managing virtual machines."
+        },
+        {
+          "id": "e",
+          "text": "Container: a lightweight virtualization environment that packages an application and dependencies without requiring a separate guest OS per instance."
+        }
+      ],
+      "correctAnswers": [
+        "d",
+        "e"
+      ],
+      "explanation": "The correct pair is: Container — a lightweight virtualization environment that packages an application and dependencies without requiring a separate guest OS per instance; and Azure Container Instances — a PaaS option for running individual containers quickly without managing virtual machines.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "tf-0295",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "question": "Container is a lightweight virtualization environment that packages an application and dependencies without requiring a separate guest OS per instance.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Container is a lightweight virtualization environment that packages an application and dependencies without requiring a separate guest OS per instance.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "tf-0296",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "question": "According to this unit: Azure Container Instances is managing container deployment, scaling, networking, and lifecycle across many instances.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Azure Container Instances is a PaaS option for running individual containers quickly without managing virtual machines.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "tf-0297",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "question": "For Azure fundamentals, Azure Container Apps is a managed container platform with built-in scaling and load balancing.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure Container Apps is a managed container platform with built-in scaling and load balancing.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "tf-0298",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "question": "This statement is correct: Azure Kubernetes Service (AKS) is scaling one containerized component separately from others when only that component has increased demand.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Azure Kubernetes Service (AKS) is a managed Kubernetes service used to orchestrate and manage fleets of containers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "tf-0299",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "question": "The unit supports the following statement: Container orchestration is managing container deployment, scaling, networking, and lifecycle across many instances.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Container orchestration is managing container deployment, scaling, networking, and lifecycle across many instances.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "sc-0590",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "scenario": "The organization is reviewing the topic “Describe Azure containers” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a lightweight virtualization environment that packages an application and dependencies without requiring a separate guest OS per instance. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mobile app back end"
+        },
+        {
+          "id": "b",
+          "text": "Container"
+        },
+        {
+          "id": "c",
+          "text": "F-series VM"
+        },
+        {
+          "id": "d",
+          "text": "Continuous deployment"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Container is the best match because it is a lightweight virtualization environment that packages an application and dependencies without requiring a separate guest OS per instance.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "sc-0591",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "scenario": "The organization is reviewing the topic “Describe Azure containers” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs a PaaS option for running individual containers quickly without managing virtual machines. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Independent scaling"
+        },
+        {
+          "id": "b",
+          "text": "Timer trigger"
+        },
+        {
+          "id": "c",
+          "text": "Azure Container Instances"
+        },
+        {
+          "id": "d",
+          "text": "Availability set"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure Container Instances is the best match because it is a PaaS option for running individual containers quickly without managing virtual machines.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "sc-0592",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "scenario": "The organization is reviewing the topic “Describe Azure containers” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: a managed container platform with built-in scaling and load balancing. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Virtual Desktop"
+        },
+        {
+          "id": "b",
+          "text": "WebJob"
+        },
+        {
+          "id": "c",
+          "text": "Azure Container Instances"
+        },
+        {
+          "id": "d",
+          "text": "Azure Container Apps"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Azure Container Apps is the best match because it is a managed container platform with built-in scaling and load balancing.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "sc-0593",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "scenario": "The organization is reviewing the topic “Describe Azure containers” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: a managed Kubernetes service used to orchestrate and manage fleets of containers. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "D-series VM"
+        },
+        {
+          "id": "b",
+          "text": "Azure IoT Edge"
+        },
+        {
+          "id": "c",
+          "text": "VM image"
+        },
+        {
+          "id": "d",
+          "text": "Azure Kubernetes Service (AKS)"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Azure Kubernetes Service (AKS) is the best match because it is a managed Kubernetes service used to orchestrate and manage fleets of containers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "sc-0594",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "scenario": "The organization is reviewing the topic “Describe Azure containers” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants managing container deployment, scaling, networking, and lifecycle across many instances. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reduced local data exposure"
+        },
+        {
+          "id": "b",
+          "text": "Container orchestration"
+        },
+        {
+          "id": "c",
+          "text": "Web app"
+        },
+        {
+          "id": "d",
+          "text": "N-series VM"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Container orchestration is the best match because it is managing container deployment, scaling, networking, and lifecycle across many instances.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "sc-0595",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "scenario": "The organization is reviewing the topic “Describe Azure containers” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for an architecture that splits a solution into smaller independently deployable components. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Docker"
+        },
+        {
+          "id": "b",
+          "text": "Microservices architecture"
+        },
+        {
+          "id": "c",
+          "text": "Independent scaling"
+        },
+        {
+          "id": "d",
+          "text": "Azure OpenAI Service"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Microservices architecture is the best match because it is an architecture that splits a solution into smaller independently deployable components.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "sc-0596",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "scenario": "The organization is reviewing the topic “Describe Azure containers” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for scaling one containerized component separately from others when only that component has increased demand. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Consumption execution"
+        },
+        {
+          "id": "b",
+          "text": "Azure Functions"
+        },
+        {
+          "id": "c",
+          "text": "Azure AI services"
+        },
+        {
+          "id": "d",
+          "text": "Independent scaling"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Independent scaling is the best match because it is scaling one containerized component separately from others when only that component has increased demand.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "sc-0597",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "scenario": "The organization is reviewing the topic “Describe Azure containers” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is a widely used container engine supported by Azure container services. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Automatic scaling"
+        },
+        {
+          "id": "b",
+          "text": "D-series VM"
+        },
+        {
+          "id": "c",
+          "text": "Docker"
+        },
+        {
+          "id": "d",
+          "text": "Independent scaling"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Docker is the best match because it is a widely used container engine supported by Azure container services.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "sc-0598",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "scenario": "The organization is reviewing the topic “Describe Azure containers” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as a lightweight virtualization environment that packages an application and dependencies without requiring a separate guest OS per instance. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "N-series VM"
+        },
+        {
+          "id": "b",
+          "text": "Azure OpenAI Service"
+        },
+        {
+          "id": "c",
+          "text": "Centralized desktop delivery"
+        },
+        {
+          "id": "d",
+          "text": "Container"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Container is the best match because it is a lightweight virtualization environment that packages an application and dependencies without requiring a separate guest OS per instance.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "sc-0599",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "scenario": "The organization is reviewing the topic “Describe Azure containers” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides a PaaS option for running individual containers quickly without managing virtual machines. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Container Instances"
+        },
+        {
+          "id": "b",
+          "text": "Docker"
+        },
+        {
+          "id": "c",
+          "text": "F-series VM"
+        },
+        {
+          "id": "d",
+          "text": "Container orchestration"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure Container Instances is the best match because it is a PaaS option for running individual containers quickly without managing virtual machines.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "match-0295",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Container"
+        },
+        {
+          "id": "l2",
+          "text": "Azure Container Instances"
+        },
+        {
+          "id": "l3",
+          "text": "Azure Container Apps"
+        },
+        {
+          "id": "l4",
+          "text": "Azure Kubernetes Service (AKS)"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A managed container platform with built-in scaling and load balancing"
+        },
+        {
+          "id": "r1",
+          "text": "A lightweight virtualization environment that packages an application and dependencies without requiring a separate guest OS per instance"
+        },
+        {
+          "id": "r4",
+          "text": "A managed Kubernetes service used to orchestrate and manage fleets of containers"
+        },
+        {
+          "id": "r2",
+          "text": "A PaaS option for running individual containers quickly without managing virtual machines"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l1": "r1",
+        "l4": "r4",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "match-0296",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Container Apps"
+        },
+        {
+          "id": "l2",
+          "text": "Azure Kubernetes Service (AKS)"
+        },
+        {
+          "id": "l3",
+          "text": "Container orchestration"
+        },
+        {
+          "id": "l4",
+          "text": "Microservices architecture"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "An architecture that splits a solution into smaller independently deployable components"
+        },
+        {
+          "id": "r3",
+          "text": "Managing container deployment, scaling, networking, and lifecycle across many instances"
+        },
+        {
+          "id": "r2",
+          "text": "A managed Kubernetes service used to orchestrate and manage fleets of containers"
+        },
+        {
+          "id": "r1",
+          "text": "A managed container platform with built-in scaling and load balancing"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l3": "r3",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "match-0297",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Container orchestration"
+        },
+        {
+          "id": "l2",
+          "text": "Microservices architecture"
+        },
+        {
+          "id": "l3",
+          "text": "Independent scaling"
+        },
+        {
+          "id": "l4",
+          "text": "Docker"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "A widely used container engine supported by Azure container services"
+        },
+        {
+          "id": "r3",
+          "text": "Scaling one containerized component separately from others when only that component has increased demand"
+        },
+        {
+          "id": "r1",
+          "text": "Managing container deployment, scaling, networking, and lifecycle across many instances"
+        },
+        {
+          "id": "r2",
+          "text": "An architecture that splits a solution into smaller independently deployable components"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l3": "r3",
+        "l1": "r1",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "match-0298",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Independent scaling"
+        },
+        {
+          "id": "l2",
+          "text": "Docker"
+        },
+        {
+          "id": "l3",
+          "text": "Container"
+        },
+        {
+          "id": "l4",
+          "text": "Azure Container Instances"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "A widely used container engine supported by Azure container services"
+        },
+        {
+          "id": "r3",
+          "text": "A lightweight virtualization environment that packages an application and dependencies without requiring a separate guest OS per instance"
+        },
+        {
+          "id": "r4",
+          "text": "A PaaS option for running individual containers quickly without managing virtual machines"
+        },
+        {
+          "id": "r1",
+          "text": "Scaling one containerized component separately from others when only that component has increased demand"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "match-0299",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Container"
+        },
+        {
+          "id": "l2",
+          "text": "Azure Container Instances"
+        },
+        {
+          "id": "l3",
+          "text": "Azure Container Apps"
+        },
+        {
+          "id": "l4",
+          "text": "Azure Kubernetes Service (AKS)"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A lightweight virtualization environment that packages an application and dependencies without requiring a separate guest OS per instance"
+        },
+        {
+          "id": "r2",
+          "text": "A PaaS option for running individual containers quickly without managing virtual machines"
+        },
+        {
+          "id": "r4",
+          "text": "A managed Kubernetes service used to orchestrate and manage fleets of containers"
+        },
+        {
+          "id": "r3",
+          "text": "A managed container platform with built-in scaling and load balancing"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "fill-0295",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "question": "{{answer}} is a managed container platform with built-in scaling and load balancing.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Agentic AI pattern",
+            "Docker",
+            "Azure App Service",
+            "Azure Container Apps"
+          ],
+          "correctAnswer": "Azure Container Apps"
+        }
+      ],
+      "explanation": "Azure Container Apps is a managed container platform with built-in scaling and load balancing.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "fill-0296",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "question": "The term for a managed Kubernetes service used to orchestrate and manage fleets of containers is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure Kubernetes Service (AKS)",
+            "Automatic scaling",
+            "Virtual machine hosting",
+            "Serverless compute"
+          ],
+          "correctAnswer": "Azure Kubernetes Service (AKS)"
+        }
+      ],
+      "explanation": "Azure Kubernetes Service (AKS) is a managed Kubernetes service used to orchestrate and manage fleets of containers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "fill-0297",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "question": "In this unit, {{answer}} refers to managing container deployment, scaling, networking, and lifecycle across many instances.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Container orchestration",
+            "Web app",
+            "Azure Virtual Machine",
+            "Azure AI services"
+          ],
+          "correctAnswer": "Container orchestration"
+        }
+      ],
+      "explanation": "Container orchestration is managing container deployment, scaling, networking, and lifecycle across many instances.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "fill-0298",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "question": "For AZ-900, the concept described as an architecture that splits a solution into smaller independently deployable components is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Multi-session Windows",
+            "Docker",
+            "Microservices architecture",
+            "Availability set"
+          ],
+          "correctAnswer": "Microservices architecture"
+        }
+      ],
+      "explanation": "Microservices architecture is an architecture that splits a solution into smaller independently deployable components.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    },
+    {
+      "id": "fill-0299",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure containers",
+      "question": "Choose the term that completes the statement: {{answer}} means scaling one containerized component separately from others when only that component has increased demand.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Independent scaling",
+            "Stateless function",
+            "Docker",
+            "Availability set"
+          ],
+          "correctAnswer": "Independent scaling"
+        }
+      ],
+      "explanation": "Independent scaling is scaling one containerized component separately from others when only that component has increased demand.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers"
+    }
+  ]
+}

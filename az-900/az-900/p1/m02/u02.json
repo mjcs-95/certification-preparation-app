@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe the benefits of using cloud services · Describe the benefits of high availability and scalability in the cloud",
+  "questions": [
+    {
+      "id": "mc-0045",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "question": "Which statement best describes High availability?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reducing resource capacity when demand falls so you avoid paying for unnecessary capacity"
+        },
+        {
+          "id": "b",
+          "text": "Capabilities used to manage cloud resources, such as autoscaling, templates, health monitoring, and alerts"
+        },
+        {
+          "id": "c",
+          "text": "Designing services to remain available as much as possible despite failures or disruptions"
+        },
+        {
+          "id": "d",
+          "text": "Choosing services and configurations that meet requirements without unnecessary overprovisioning"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "High availability is designing services to remain available as much as possible despite failures or disruptions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "mc-0046",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "question": "In the context of this Microsoft Learn unit, what does Service-level agreement (SLA) refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A service availability commitment that can include an uptime guarantee"
+        },
+        {
+          "id": "b",
+          "text": "The ability to anticipate the resources needed to deliver a consistent user experience"
+        },
+        {
+          "id": "c",
+          "text": "Using standards, policies, templates, and auditing to keep deployments aligned with organizational and regulatory requirements"
+        },
+        {
+          "id": "d",
+          "text": "Capabilities used to manage cloud resources, such as autoscaling, templates, health monitoring, and alerts"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Service-level agreement (SLA) is a service availability commitment that can include an uptime guarantee.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "mc-0047",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "question": "Which description correctly matches Scalability?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Using schedules and policies to turn off or resize resources when they are not needed"
+        },
+        {
+          "id": "b",
+          "text": "The ability to adjust resources to meet changes in demand"
+        },
+        {
+          "id": "c",
+          "text": "Designing services to remain available as much as possible despite failures or disruptions"
+        },
+        {
+          "id": "d",
+          "text": "Removing resource instances when demand falls"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Scalability is the ability to adjust resources to meet changes in demand.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "mc-0048",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "question": "Which of the following is the best definition of Vertical scaling up?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Increasing the capabilities of a resource, such as adding CPU or RAM to a virtual machine"
+        },
+        {
+          "id": "b",
+          "text": "Repeatable deployment definitions that reduce manual configuration"
+        },
+        {
+          "id": "c",
+          "text": "The ability to estimate and forecast cloud spending"
+        },
+        {
+          "id": "d",
+          "text": "Choosing services and configurations that meet requirements without unnecessary overprovisioning"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Vertical scaling up is increasing the capabilities of a resource, such as adding CPU or RAM to a virtual machine.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "mc-0049",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "question": "What is the primary meaning of Vertical scaling down in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A model in which more platform patching and maintenance are handled by the provider"
+        },
+        {
+          "id": "b",
+          "text": "Notifications generated when configured metrics or conditions are reached"
+        },
+        {
+          "id": "c",
+          "text": "Matching provisioned resource capacity to actual workload needs"
+        },
+        {
+          "id": "d",
+          "text": "Reducing the capabilities of a resource, such as decreasing CPU or RAM"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Vertical scaling down is reducing the capabilities of a resource, such as decreasing CPU or RAM.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "mr-0045",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Service-level agreement (SLA): a service availability commitment that can include an uptime guarantee."
+        },
+        {
+          "id": "b",
+          "text": "Scalability: using distributed regions so a failure in one location does not necessarily stop the whole solution."
+        },
+        {
+          "id": "c",
+          "text": "High availability: designing services to remain available as much as possible despite failures or disruptions."
+        },
+        {
+          "id": "d",
+          "text": "Service-level agreement (SLA): removing resource instances when demand falls."
+        },
+        {
+          "id": "e",
+          "text": "High availability: increasing the capabilities of a resource, such as adding CPU or RAM to a virtual machine."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "c"
+      ],
+      "explanation": "The correct pair is: High availability — designing services to remain available as much as possible despite failures or disruptions; and Service-level agreement (SLA) — a service availability commitment that can include an uptime guarantee.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "mr-0046",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Scalability: adding more resource instances, such as additional virtual machines or containers."
+        },
+        {
+          "id": "b",
+          "text": "Vertical scaling up: the ability of a system to recover from failures and continue functioning."
+        },
+        {
+          "id": "c",
+          "text": "Vertical scaling up: increasing the capabilities of a resource, such as adding CPU or RAM to a virtual machine."
+        },
+        {
+          "id": "d",
+          "text": "Vertical scaling up: the ability to anticipate the resources needed to deliver a consistent user experience."
+        },
+        {
+          "id": "e",
+          "text": "Scalability: the ability to adjust resources to meet changes in demand."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "e"
+      ],
+      "explanation": "The correct pair is: Scalability — the ability to adjust resources to meet changes in demand; and Vertical scaling up — increasing the capabilities of a resource, such as adding CPU or RAM to a virtual machine.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "mr-0047",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Horizontal scaling out: the ability to anticipate the resources needed to deliver a consistent user experience."
+        },
+        {
+          "id": "b",
+          "text": "Vertical scaling down: the ability to estimate and forecast cloud spending."
+        },
+        {
+          "id": "c",
+          "text": "Vertical scaling down: reducing resource capacity when demand falls so you avoid paying for unnecessary capacity."
+        },
+        {
+          "id": "d",
+          "text": "Vertical scaling down: reducing the capabilities of a resource, such as decreasing CPU or RAM."
+        },
+        {
+          "id": "e",
+          "text": "Horizontal scaling out: adding more resource instances, such as additional virtual machines or containers."
+        }
+      ],
+      "correctAnswers": [
+        "d",
+        "e"
+      ],
+      "explanation": "The correct pair is: Vertical scaling down — reducing the capabilities of a resource, such as decreasing CPU or RAM; and Horizontal scaling out — adding more resource instances, such as additional virtual machines or containers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "mr-0048",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Consumption-aware scaling: reducing resource capacity when demand falls so you avoid paying for unnecessary capacity."
+        },
+        {
+          "id": "b",
+          "text": "Consumption-aware scaling: automatically adding or removing resources as demand changes."
+        },
+        {
+          "id": "c",
+          "text": "Horizontal scaling in: removing resource instances when demand falls."
+        },
+        {
+          "id": "d",
+          "text": "Horizontal scaling in: using distributed regions so a failure in one location does not necessarily stop the whole solution."
+        },
+        {
+          "id": "e",
+          "text": "Horizontal scaling out: automatically adding or removing resources as demand changes."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "c"
+      ],
+      "explanation": "The correct pair is: Horizontal scaling in — removing resource instances when demand falls; and Consumption-aware scaling — reducing resource capacity when demand falls so you avoid paying for unnecessary capacity.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "mr-0049",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Service-level agreement (SLA): removing resource instances when demand falls."
+        },
+        {
+          "id": "b",
+          "text": "Service-level agreement (SLA): a service availability commitment that can include an uptime guarantee."
+        },
+        {
+          "id": "c",
+          "text": "High availability: designing services to remain available as much as possible despite failures or disruptions."
+        },
+        {
+          "id": "d",
+          "text": "Horizontal scaling in: distributing traffic so that one resource is not overloaded while others are underused."
+        },
+        {
+          "id": "e",
+          "text": "High availability: increasing the capabilities of a resource, such as adding CPU or RAM to a virtual machine."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: High availability — designing services to remain available as much as possible despite failures or disruptions; and Service-level agreement (SLA) — a service availability commitment that can include an uptime guarantee.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "tf-0045",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "question": "High availability is designing services to remain available as much as possible despite failures or disruptions.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "High availability is designing services to remain available as much as possible despite failures or disruptions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "tf-0046",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "question": "According to this unit: Service-level agreement (SLA) is reducing the capabilities of a resource, such as decreasing CPU or RAM.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Service-level agreement (SLA) is a service availability commitment that can include an uptime guarantee.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "tf-0047",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "question": "For Azure fundamentals, Scalability is the ability to adjust resources to meet changes in demand.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Scalability is the ability to adjust resources to meet changes in demand.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "tf-0048",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "question": "This statement is correct: Vertical scaling up is removing resource instances when demand falls.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Vertical scaling up is increasing the capabilities of a resource, such as adding CPU or RAM to a virtual machine.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "tf-0049",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "question": "The unit supports the following statement: Vertical scaling down is reducing the capabilities of a resource, such as decreasing CPU or RAM.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Vertical scaling down is reducing the capabilities of a resource, such as decreasing CPU or RAM.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "sc-0090",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of high availability and scalability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: designing services to remain available as much as possible despite failures or disruptions. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Well-Architected Framework"
+        },
+        {
+          "id": "b",
+          "text": "Cloud scale efficiency"
+        },
+        {
+          "id": "c",
+          "text": "DDoS resilience"
+        },
+        {
+          "id": "d",
+          "text": "High availability"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "High availability is the best match because it is designing services to remain available as much as possible despite failures or disruptions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "sc-0091",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of high availability and scalability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs a service availability commitment that can include an uptime guarantee. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "PaaS maintenance"
+        },
+        {
+          "id": "b",
+          "text": "Consumption-aware scaling"
+        },
+        {
+          "id": "c",
+          "text": "Service-level agreement (SLA)"
+        },
+        {
+          "id": "d",
+          "text": "SaaS maintenance"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Service-level agreement (SLA) is the best match because it is a service availability commitment that can include an uptime guarantee.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "sc-0092",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of high availability and scalability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: the ability to adjust resources to meet changes in demand. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Scalability"
+        },
+        {
+          "id": "b",
+          "text": "PaaS maintenance"
+        },
+        {
+          "id": "c",
+          "text": "SaaS maintenance"
+        },
+        {
+          "id": "d",
+          "text": "Right-sizing"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Scalability is the best match because it is the ability to adjust resources to meet changes in demand.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "sc-0093",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of high availability and scalability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: increasing the capabilities of a resource, such as adding CPU or RAM to a virtual machine. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Load balancing"
+        },
+        {
+          "id": "b",
+          "text": "Management in the cloud"
+        },
+        {
+          "id": "c",
+          "text": "Deallocation"
+        },
+        {
+          "id": "d",
+          "text": "Vertical scaling up"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Vertical scaling up is the best match because it is increasing the capabilities of a resource, such as adding CPU or RAM to a virtual machine.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "sc-0094",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of high availability and scalability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants reducing the capabilities of a resource, such as decreasing CPU or RAM. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "SaaS maintenance"
+        },
+        {
+          "id": "b",
+          "text": "Autoscaling"
+        },
+        {
+          "id": "c",
+          "text": "Deallocation"
+        },
+        {
+          "id": "d",
+          "text": "Vertical scaling down"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Vertical scaling down is the best match because it is reducing the capabilities of a resource, such as decreasing CPU or RAM.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "sc-0095",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of high availability and scalability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for adding more resource instances, such as additional virtual machines or containers. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Management in the cloud"
+        },
+        {
+          "id": "b",
+          "text": "Horizontal scaling out"
+        },
+        {
+          "id": "c",
+          "text": "Monitoring usage trends"
+        },
+        {
+          "id": "d",
+          "text": "Command-line interface"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Horizontal scaling out is the best match because it is adding more resource instances, such as additional virtual machines or containers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "sc-0096",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of high availability and scalability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for removing resource instances when demand falls. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cloud scale efficiency"
+        },
+        {
+          "id": "b",
+          "text": "Cloud governance"
+        },
+        {
+          "id": "c",
+          "text": "Reliability"
+        },
+        {
+          "id": "d",
+          "text": "Horizontal scaling in"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Horizontal scaling in is the best match because it is removing resource instances when demand falls.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "sc-0097",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of high availability and scalability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is reducing resource capacity when demand falls so you avoid paying for unnecessary capacity. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "High availability"
+        },
+        {
+          "id": "b",
+          "text": "Horizontal scaling in"
+        },
+        {
+          "id": "c",
+          "text": "Consumption-aware scaling"
+        },
+        {
+          "id": "d",
+          "text": "Service-level agreement (SLA)"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Consumption-aware scaling is the best match because it is reducing resource capacity when demand falls so you avoid paying for unnecessary capacity.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "sc-0098",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of high availability and scalability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as designing services to remain available as much as possible despite failures or disruptions. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS security control"
+        },
+        {
+          "id": "b",
+          "text": "High availability"
+        },
+        {
+          "id": "c",
+          "text": "Efficient service selection"
+        },
+        {
+          "id": "d",
+          "text": "Vertical scaling down"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "High availability is the best match because it is designing services to remain available as much as possible despite failures or disruptions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "sc-0099",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe the benefits of high availability and scalability in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides a service availability commitment that can include an uptime guarantee. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Consumption-aware scaling"
+        },
+        {
+          "id": "b",
+          "text": "Service-level agreement (SLA)"
+        },
+        {
+          "id": "c",
+          "text": "Efficient service selection"
+        },
+        {
+          "id": "d",
+          "text": "Cloud auditing"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Service-level agreement (SLA) is the best match because it is a service availability commitment that can include an uptime guarantee.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "match-0045",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "High availability"
+        },
+        {
+          "id": "l2",
+          "text": "Service-level agreement (SLA)"
+        },
+        {
+          "id": "l3",
+          "text": "Scalability"
+        },
+        {
+          "id": "l4",
+          "text": "Vertical scaling up"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Designing services to remain available as much as possible despite failures or disruptions"
+        },
+        {
+          "id": "r2",
+          "text": "A service availability commitment that can include an uptime guarantee"
+        },
+        {
+          "id": "r4",
+          "text": "Increasing the capabilities of a resource, such as adding CPU or RAM to a virtual machine"
+        },
+        {
+          "id": "r3",
+          "text": "The ability to adjust resources to meet changes in demand"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "match-0046",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Scalability"
+        },
+        {
+          "id": "l2",
+          "text": "Vertical scaling up"
+        },
+        {
+          "id": "l3",
+          "text": "Vertical scaling down"
+        },
+        {
+          "id": "l4",
+          "text": "Horizontal scaling out"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "The ability to adjust resources to meet changes in demand"
+        },
+        {
+          "id": "r2",
+          "text": "Increasing the capabilities of a resource, such as adding CPU or RAM to a virtual machine"
+        },
+        {
+          "id": "r4",
+          "text": "Adding more resource instances, such as additional virtual machines or containers"
+        },
+        {
+          "id": "r3",
+          "text": "Reducing the capabilities of a resource, such as decreasing CPU or RAM"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "match-0047",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Vertical scaling down"
+        },
+        {
+          "id": "l2",
+          "text": "Horizontal scaling out"
+        },
+        {
+          "id": "l3",
+          "text": "Horizontal scaling in"
+        },
+        {
+          "id": "l4",
+          "text": "Consumption-aware scaling"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Reducing the capabilities of a resource, such as decreasing CPU or RAM"
+        },
+        {
+          "id": "r3",
+          "text": "Removing resource instances when demand falls"
+        },
+        {
+          "id": "r4",
+          "text": "Reducing resource capacity when demand falls so you avoid paying for unnecessary capacity"
+        },
+        {
+          "id": "r2",
+          "text": "Adding more resource instances, such as additional virtual machines or containers"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "match-0048",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Horizontal scaling in"
+        },
+        {
+          "id": "l2",
+          "text": "Consumption-aware scaling"
+        },
+        {
+          "id": "l3",
+          "text": "High availability"
+        },
+        {
+          "id": "l4",
+          "text": "Service-level agreement (SLA)"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Designing services to remain available as much as possible despite failures or disruptions"
+        },
+        {
+          "id": "r1",
+          "text": "Removing resource instances when demand falls"
+        },
+        {
+          "id": "r4",
+          "text": "A service availability commitment that can include an uptime guarantee"
+        },
+        {
+          "id": "r2",
+          "text": "Reducing resource capacity when demand falls so you avoid paying for unnecessary capacity"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l1": "r1",
+        "l4": "r4",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "match-0049",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "High availability"
+        },
+        {
+          "id": "l2",
+          "text": "Service-level agreement (SLA)"
+        },
+        {
+          "id": "l3",
+          "text": "Scalability"
+        },
+        {
+          "id": "l4",
+          "text": "Vertical scaling up"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Increasing the capabilities of a resource, such as adding CPU or RAM to a virtual machine"
+        },
+        {
+          "id": "r3",
+          "text": "The ability to adjust resources to meet changes in demand"
+        },
+        {
+          "id": "r1",
+          "text": "Designing services to remain available as much as possible despite failures or disruptions"
+        },
+        {
+          "id": "r2",
+          "text": "A service availability commitment that can include an uptime guarantee"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l3": "r3",
+        "l1": "r1",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "fill-0045",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "question": "{{answer}} is the ability to adjust resources to meet changes in demand.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Cloud auditing",
+            "Automatic alerts",
+            "Automation",
+            "Scalability"
+          ],
+          "correctAnswer": "Scalability"
+        }
+      ],
+      "explanation": "Scalability is the ability to adjust resources to meet changes in demand.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "fill-0046",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "question": "The term for increasing the capabilities of a resource, such as adding CPU or RAM to a virtual machine is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Cloud governance",
+            "Monitoring usage trends",
+            "Horizontal scaling out",
+            "Vertical scaling up"
+          ],
+          "correctAnswer": "Vertical scaling up"
+        }
+      ],
+      "explanation": "Vertical scaling up is increasing the capabilities of a resource, such as adding CPU or RAM to a virtual machine.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "fill-0047",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "question": "In this unit, {{answer}} refers to reducing the capabilities of a resource, such as decreasing CPU or RAM.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Vertical scaling down",
+            "Vertical scaling up",
+            "PowerShell",
+            "Load balancing"
+          ],
+          "correctAnswer": "Vertical scaling down"
+        }
+      ],
+      "explanation": "Vertical scaling down is reducing the capabilities of a resource, such as decreasing CPU or RAM.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "fill-0048",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "question": "For AZ-900, the concept described as adding more resource instances, such as additional virtual machines or containers is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Horizontal scaling out",
+            "SaaS maintenance",
+            "Decentralized cloud design",
+            "Autoscaling for sustainability"
+          ],
+          "correctAnswer": "Horizontal scaling out"
+        }
+      ],
+      "explanation": "Horizontal scaling out is adding more resource instances, such as additional virtual machines or containers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    },
+    {
+      "id": "fill-0049",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe the benefits of high availability and scalability in the cloud",
+      "question": "Choose the term that completes the statement: {{answer}} means removing resource instances when demand falls.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Vertical scaling up",
+            "Horizontal scaling in",
+            "PowerShell",
+            "Autoscaling for sustainability"
+          ],
+          "correctAnswer": "Horizontal scaling in"
+        }
+      ],
+      "explanation": "Horizontal scaling in is removing resource instances when demand falls.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud"
+    }
+  ]
+}

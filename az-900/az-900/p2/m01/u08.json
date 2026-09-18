@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe cost management in Azure · Summary",
+  "questions": [
+    {
+      "id": "mc-0145",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Which statement best describes Resource type?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The Azure region and data-transfer locations, which can affect pricing"
+        },
+        {
+          "id": "b",
+          "text": "The kind and configuration of an Azure service, which influences its price"
+        },
+        {
+          "id": "c",
+          "text": "One of the commitment durations available for Azure Reservations"
+        },
+        {
+          "id": "d",
+          "text": "Actions that can be triggered when a spending threshold is reached, such as shutting down nonproduction resources"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Resource type is the kind and configuration of an Azure service, which influences its price.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "mc-0146",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "In the context of this Microsoft Learn unit, what does Consumption refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The amount of a resource used during a billing period"
+        },
+        {
+          "id": "b",
+          "text": "Tags do not automatically inherit from subscriptions or resource groups to child resources"
+        },
+        {
+          "id": "c",
+          "text": "A workload pattern that can be a strong fit for Reservations"
+        },
+        {
+          "id": "d",
+          "text": "Data leaving Azure datacenters that can incur zone-based transfer charges"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Consumption is the amount of a resource used during a billing period.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "mc-0147",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Which description correctly matches Maintenance?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reviewing accumulated costs over time to understand spending patterns and forecast future spend"
+        },
+        {
+          "id": "b",
+          "text": "Ongoing cleanup and management that prevents unused associated resources from continuing to incur cost"
+        },
+        {
+          "id": "c",
+          "text": "Using metadata to select resources for automated operational tasks"
+        },
+        {
+          "id": "d",
+          "text": "The amount of a resource used during a billing period"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Maintenance is ongoing cleanup and management that prevents unused associated resources from continuing to incur cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "mc-0148",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Which of the following is the best definition of Geography?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An Enterprise Agreement alert when departmental spending reaches a configured quota threshold"
+        },
+        {
+          "id": "b",
+          "text": "The Azure region and data-transfer locations, which can affect pricing"
+        },
+        {
+          "id": "c",
+          "text": "Modeling storage type, access tier, and redundancy choices to see how they affect estimated cost"
+        },
+        {
+          "id": "d",
+          "text": "The pricing calculator does not provision resources or create charges when you add services to an estimate"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Geography is the Azure region and data-transfer locations, which can affect pricing.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "mc-0149",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "What is the primary meaning of Subscription type in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A notification generated when spending reaches or exceeds a defined budget threshold"
+        },
+        {
+          "id": "b",
+          "text": "The subscription offer and included allowances that can change effective cost"
+        },
+        {
+          "id": "c",
+          "text": "Tags do not automatically inherit from subscriptions or resource groups to child resources"
+        },
+        {
+          "id": "d",
+          "text": "A set of tools for analyzing, monitoring, and managing Azure costs"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Subscription type is the subscription offer and included allowances that can change effective cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "mr-0145",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Resource type: the Azure region and data-transfer locations, which can affect pricing."
+        },
+        {
+          "id": "b",
+          "text": "Maintenance: an online tool for estimating the potential cost of Azure resources and solutions before deployment."
+        },
+        {
+          "id": "c",
+          "text": "Consumption: a geographical grouping used for some data-transfer pricing and distinct from an availability zone."
+        },
+        {
+          "id": "d",
+          "text": "Resource type: the kind and configuration of an Azure service, which influences its price."
+        },
+        {
+          "id": "e",
+          "text": "Consumption: the amount of a resource used during a billing period."
+        }
+      ],
+      "correctAnswers": [
+        "d",
+        "e"
+      ],
+      "explanation": "The correct pair is: Resource type — the kind and configuration of an Azure service, which influences its price; and Consumption — the amount of a resource used during a billing period.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "mr-0146",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Geography: the pricing calculator does not provision resources or create charges when you add services to an estimate."
+        },
+        {
+          "id": "b",
+          "text": "Geography: the Azure region and data-transfer locations, which can affect pricing."
+        },
+        {
+          "id": "c",
+          "text": "Maintenance: ongoing cleanup and management that prevents unused associated resources from continuing to incur cost."
+        },
+        {
+          "id": "d",
+          "text": "Maintenance: a source of third-party solutions that can add vendor charges to Azure service costs."
+        },
+        {
+          "id": "e",
+          "text": "Geography: discounted unused capacity suitable for workloads that can tolerate eviction."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: Maintenance — ongoing cleanup and management that prevents unused associated resources from continuing to incur cost; and Geography — the Azure region and data-transfer locations, which can affect pricing.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "mr-0147",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subscription type: the subscription offer and included allowances that can change effective cost."
+        },
+        {
+          "id": "b",
+          "text": "Subscription type: a pricing-calculator configuration that combines multiple Azure services into a projected cost."
+        },
+        {
+          "id": "c",
+          "text": "Azure Marketplace: a source of third-party solutions that can add vendor charges to Azure service costs."
+        },
+        {
+          "id": "d",
+          "text": "Subscription type: data leaving Azure datacenters that can incur zone-based transfer charges."
+        },
+        {
+          "id": "e",
+          "text": "Azure Marketplace: the pricing calculator does not provision resources or create charges when you add services to an estimate."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "c"
+      ],
+      "explanation": "The correct pair is: Subscription type — the subscription offer and included allowances that can change effective cost; and Azure Marketplace — a source of third-party solutions that can add vendor charges to Azure service costs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "mr-0148",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Outbound data transfer: using the pricing calculator to compare estimated costs across Azure regions."
+        },
+        {
+          "id": "b",
+          "text": "Billing zone: a geographical grouping used for some data-transfer pricing and distinct from an availability zone."
+        },
+        {
+          "id": "c",
+          "text": "Outbound data transfer: data leaving Azure datacenters that can incur zone-based transfer charges."
+        },
+        {
+          "id": "d",
+          "text": "Azure Marketplace: using the pricing calculator to compare estimated costs across Azure regions."
+        },
+        {
+          "id": "e",
+          "text": "Billing zone: an online tool for estimating the potential cost of Azure resources and solutions before deployment."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: Billing zone — a geographical grouping used for some data-transfer pricing and distinct from an availability zone; and Outbound data transfer — data leaving Azure datacenters that can incur zone-based transfer charges.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "mr-0149",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Billing zone: using the pricing calculator to compare different service tiers or sizes before deployment."
+        },
+        {
+          "id": "b",
+          "text": "Azure Pricing Calculator: an online tool for estimating the potential cost of Azure resources and solutions before deployment."
+        },
+        {
+          "id": "c",
+          "text": "Azure Pricing Calculator: modeling storage type, access tier, and redundancy choices to see how they affect estimated cost."
+        },
+        {
+          "id": "d",
+          "text": "Azure Spot Virtual Machines: discounted unused capacity suitable for workloads that can tolerate eviction."
+        },
+        {
+          "id": "e",
+          "text": "Azure Spot Virtual Machines: a pricing-calculator configuration that combines multiple Azure services into a projected cost."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: Azure Spot Virtual Machines — discounted unused capacity suitable for workloads that can tolerate eviction; and Azure Pricing Calculator — an online tool for estimating the potential cost of Azure resources and solutions before deployment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "tf-0145",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Resource type is the kind and configuration of an Azure service, which influences its price.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Resource type is the kind and configuration of an Azure service, which influences its price.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "tf-0146",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "According to this unit: Consumption is the subscription offer and included allowances that can change effective cost.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Consumption is the amount of a resource used during a billing period.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "tf-0147",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "For Azure fundamentals, Maintenance is ongoing cleanup and management that prevents unused associated resources from continuing to incur cost.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Maintenance is ongoing cleanup and management that prevents unused associated resources from continuing to incur cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "tf-0148",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "This statement is correct: Geography is a geographical grouping used for some data-transfer pricing and distinct from an availability zone.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Geography is the Azure region and data-transfer locations, which can affect pricing.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "tf-0149",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "The unit supports the following statement: Subscription type is the subscription offer and included allowances that can change effective cost.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Subscription type is the subscription offer and included allowances that can change effective cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "sc-0290",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: the kind and configuration of an Azure service, which influences its price. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Resource type"
+        },
+        {
+          "id": "b",
+          "text": "Budget automation"
+        },
+        {
+          "id": "c",
+          "text": "Environment tag"
+        },
+        {
+          "id": "d",
+          "text": "Spot pricing"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Resource type is the best match because it is the kind and configuration of an Azure service, which influences its price.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "sc-0291",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs the amount of a resource used during a billing period. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Department spending quota alert"
+        },
+        {
+          "id": "b",
+          "text": "Consumption"
+        },
+        {
+          "id": "c",
+          "text": "Resource tag"
+        },
+        {
+          "id": "d",
+          "text": "Microsoft Cost Management"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Consumption is the best match because it is the amount of a resource used during a billing period.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "sc-0292",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: ongoing cleanup and management that prevents unused associated resources from continuing to incur cost. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Maintenance"
+        },
+        {
+          "id": "b",
+          "text": "Credit alert"
+        },
+        {
+          "id": "c",
+          "text": "Predictable production workload"
+        },
+        {
+          "id": "d",
+          "text": "Subscription type"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Maintenance is the best match because it is ongoing cleanup and management that prevents unused associated resources from continuing to incur cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "sc-0293",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: the Azure region and data-transfer locations, which can affect pricing. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Geography"
+        },
+        {
+          "id": "b",
+          "text": "Azure Reservations"
+        },
+        {
+          "id": "c",
+          "text": "Tag-based security classification"
+        },
+        {
+          "id": "d",
+          "text": "Budget"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Geography is the best match because it is the Azure region and data-transfer locations, which can affect pricing.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "sc-0294",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants the subscription offer and included allowances that can change effective cost. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subscription type"
+        },
+        {
+          "id": "b",
+          "text": "Microsoft Cost Management"
+        },
+        {
+          "id": "c",
+          "text": "Three-year reservation term"
+        },
+        {
+          "id": "d",
+          "text": "CostCenter tag"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Subscription type is the best match because it is the subscription offer and included allowances that can change effective cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "sc-0295",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for a source of third-party solutions that can add vendor charges to Azure service costs. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Flexible steady compute usage"
+        },
+        {
+          "id": "b",
+          "text": "Outbound data transfer"
+        },
+        {
+          "id": "c",
+          "text": "Azure Marketplace"
+        },
+        {
+          "id": "d",
+          "text": "One-year reservation term"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure Marketplace is the best match because it is a source of third-party solutions that can add vendor charges to Azure service costs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "sc-0296",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for a geographical grouping used for some data-transfer pricing and distinct from an availability zone. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "TCO calculator status"
+        },
+        {
+          "id": "b",
+          "text": "Environment tag"
+        },
+        {
+          "id": "c",
+          "text": "Billing zone"
+        },
+        {
+          "id": "d",
+          "text": "Flexible steady compute usage"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Billing zone is the best match because it is a geographical grouping used for some data-transfer pricing and distinct from an availability zone.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "sc-0297",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is data leaving Azure datacenters that can incur zone-based transfer charges. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Outbound data transfer"
+        },
+        {
+          "id": "b",
+          "text": "Consumption"
+        },
+        {
+          "id": "c",
+          "text": "Microsoft Cost Management"
+        },
+        {
+          "id": "d",
+          "text": "TCO calculator status"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Outbound data transfer is the best match because it is data leaving Azure datacenters that can incur zone-based transfer charges.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "sc-0298",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as discounted unused capacity suitable for workloads that can tolerate eviction. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Department spending quota alert"
+        },
+        {
+          "id": "b",
+          "text": "Geography"
+        },
+        {
+          "id": "c",
+          "text": "Azure Spot Virtual Machines"
+        },
+        {
+          "id": "d",
+          "text": "Maintenance"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure Spot Virtual Machines is the best match because it is discounted unused capacity suitable for workloads that can tolerate eviction.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "sc-0299",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides an online tool for estimating the potential cost of Azure resources and solutions before deployment. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Geography"
+        },
+        {
+          "id": "b",
+          "text": "Billing zone"
+        },
+        {
+          "id": "c",
+          "text": "Azure Pricing Calculator"
+        },
+        {
+          "id": "d",
+          "text": "Tag-based automation"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure Pricing Calculator is the best match because it is an online tool for estimating the potential cost of Azure resources and solutions before deployment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "match-0145",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Resource type"
+        },
+        {
+          "id": "l2",
+          "text": "Consumption"
+        },
+        {
+          "id": "l3",
+          "text": "Maintenance"
+        },
+        {
+          "id": "l4",
+          "text": "Geography"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "The Azure region and data-transfer locations, which can affect pricing"
+        },
+        {
+          "id": "r1",
+          "text": "The kind and configuration of an Azure service, which influences its price"
+        },
+        {
+          "id": "r2",
+          "text": "The amount of a resource used during a billing period"
+        },
+        {
+          "id": "r3",
+          "text": "Ongoing cleanup and management that prevents unused associated resources from continuing to incur cost"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "match-0146",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Maintenance"
+        },
+        {
+          "id": "l2",
+          "text": "Geography"
+        },
+        {
+          "id": "l3",
+          "text": "Subscription type"
+        },
+        {
+          "id": "l4",
+          "text": "Azure Marketplace"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Ongoing cleanup and management that prevents unused associated resources from continuing to incur cost"
+        },
+        {
+          "id": "r2",
+          "text": "The Azure region and data-transfer locations, which can affect pricing"
+        },
+        {
+          "id": "r3",
+          "text": "The subscription offer and included allowances that can change effective cost"
+        },
+        {
+          "id": "r4",
+          "text": "A source of third-party solutions that can add vendor charges to Azure service costs"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "match-0147",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Subscription type"
+        },
+        {
+          "id": "l2",
+          "text": "Azure Marketplace"
+        },
+        {
+          "id": "l3",
+          "text": "Billing zone"
+        },
+        {
+          "id": "l4",
+          "text": "Outbound data transfer"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "The subscription offer and included allowances that can change effective cost"
+        },
+        {
+          "id": "r2",
+          "text": "A source of third-party solutions that can add vendor charges to Azure service costs"
+        },
+        {
+          "id": "r4",
+          "text": "Data leaving Azure datacenters that can incur zone-based transfer charges"
+        },
+        {
+          "id": "r3",
+          "text": "A geographical grouping used for some data-transfer pricing and distinct from an availability zone"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "match-0148",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Billing zone"
+        },
+        {
+          "id": "l2",
+          "text": "Outbound data transfer"
+        },
+        {
+          "id": "l3",
+          "text": "Azure Spot Virtual Machines"
+        },
+        {
+          "id": "l4",
+          "text": "Azure Pricing Calculator"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "Data leaving Azure datacenters that can incur zone-based transfer charges"
+        },
+        {
+          "id": "r4",
+          "text": "An online tool for estimating the potential cost of Azure resources and solutions before deployment"
+        },
+        {
+          "id": "r1",
+          "text": "A geographical grouping used for some data-transfer pricing and distinct from an availability zone"
+        },
+        {
+          "id": "r3",
+          "text": "Discounted unused capacity suitable for workloads that can tolerate eviction"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l4": "r4",
+        "l1": "r1",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "match-0149",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Spot Virtual Machines"
+        },
+        {
+          "id": "l2",
+          "text": "Azure Pricing Calculator"
+        },
+        {
+          "id": "l3",
+          "text": "Estimate only"
+        },
+        {
+          "id": "l4",
+          "text": "Solution estimate"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "An online tool for estimating the potential cost of Azure resources and solutions before deployment"
+        },
+        {
+          "id": "r4",
+          "text": "A pricing-calculator configuration that combines multiple Azure services into a projected cost"
+        },
+        {
+          "id": "r1",
+          "text": "Discounted unused capacity suitable for workloads that can tolerate eviction"
+        },
+        {
+          "id": "r3",
+          "text": "The pricing calculator does not provision resources or create charges when you add services to an estimate"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l4": "r4",
+        "l1": "r1",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "fill-0145",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "{{answer}} is ongoing cleanup and management that prevents unused associated resources from continuing to incur cost.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Solution estimate",
+            "Budget",
+            "Cost trend analysis",
+            "Maintenance"
+          ],
+          "correctAnswer": "Maintenance"
+        }
+      ],
+      "explanation": "Maintenance is ongoing cleanup and management that prevents unused associated resources from continuing to incur cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "fill-0146",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "The term for the Azure region and data-transfer locations, which can affect pricing is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Interruptible batch workload",
+            "Tag-based security classification",
+            "Predictable production workload",
+            "Geography"
+          ],
+          "correctAnswer": "Geography"
+        }
+      ],
+      "explanation": "Geography is the Azure region and data-transfer locations, which can affect pricing.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "fill-0147",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "In this unit, {{answer}} refers to the subscription offer and included allowances that can change effective cost.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Interruptible batch workload",
+            "Azure Policy for tags",
+            "Subscription type",
+            "Storage-option comparison"
+          ],
+          "correctAnswer": "Subscription type"
+        }
+      ],
+      "explanation": "Subscription type is the subscription offer and included allowances that can change effective cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "fill-0148",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "For AZ-900, the concept described as a source of third-party solutions that can add vendor charges to Azure service costs is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Resource type",
+            "Azure Marketplace",
+            "One-year reservation term",
+            "Environment tag"
+          ],
+          "correctAnswer": "Azure Marketplace"
+        }
+      ],
+      "explanation": "Azure Marketplace is a source of third-party solutions that can add vendor charges to Azure service costs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    },
+    {
+      "id": "fill-0149",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Choose the term that completes the statement: {{answer}} means a geographical grouping used for some data-transfer pricing and distinct from an availability zone.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Department spending quota alert",
+            "TCO calculator status",
+            "Flexible steady compute usage",
+            "Billing zone"
+          ],
+          "correctAnswer": "Billing zone"
+        }
+      ],
+      "explanation": "Billing zone is a geographical grouping used for some data-transfer pricing and distinct from an availability zone.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary"
+    }
+  ]
+}

@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe Azure compute services · Describe Azure virtual desktop",
+  "questions": [
+    {
+      "id": "mc-0290",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "question": "Which statement best describes Azure Virtual Desktop?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Running resources only as needed and charging primarily for the execution resources consumed"
+        },
+        {
+          "id": "b",
+          "text": "A managed Azure service that provides virtual Windows desktops and applications to remote users"
+        },
+        {
+          "id": "c",
+          "text": "An App Service feature for running background programs or scripts on a schedule or trigger"
+        },
+        {
+          "id": "d",
+          "text": "Hosting desktops and applications in Azure rather than storing all application state on local user devices"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Virtual Desktop is a managed Azure service that provides virtual Windows desktops and applications to remote users.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "mc-0291",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "question": "In the context of this Microsoft Learn unit, what does Centralized desktop delivery refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Functions increasing or decreasing execution capacity based on demand"
+        },
+        {
+          "id": "b",
+          "text": "Running resources only as needed and charging primarily for the execution resources consumed"
+        },
+        {
+          "id": "c",
+          "text": "An application-hosting approach that provides maximum control over the operating system and environment"
+        },
+        {
+          "id": "d",
+          "text": "Hosting desktops and applications in Azure rather than storing all application state on local user devices"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Centralized desktop delivery is hosting desktops and applications in Azure rather than storing all application state on local user devices.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "mc-0292",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "question": "Which description correctly matches Microsoft Entra ID integration?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Automated application deployment from sources such as GitHub, Azure DevOps, or other Git repositories"
+        },
+        {
+          "id": "b",
+          "text": "A PaaS option for running individual containers quickly without managing virtual machines"
+        },
+        {
+          "id": "c",
+          "text": "Using Azure identity and access controls for virtual desktop users"
+        },
+        {
+          "id": "d",
+          "text": "A template that can include an operating system and preinstalled components for rapid VM deployment"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Microsoft Entra ID integration is using Azure identity and access controls for virtual desktop users.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "mc-0293",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "question": "Which of the following is the best definition of Multi-session Windows?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An IaaS compute resource that provides control over the guest operating system and installed software"
+        },
+        {
+          "id": "b",
+          "text": "Allowing multiple users to share Windows session-host infrastructure when appropriate"
+        },
+        {
+          "id": "c",
+          "text": "An architecture that splits a solution into smaller independently deployable components"
+        },
+        {
+          "id": "d",
+          "text": "A managed Kubernetes service used to orchestrate and manage fleets of containers"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Multi-session Windows is allowing multiple users to share Windows session-host infrastructure when appropriate.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "mc-0294",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "question": "What is the primary meaning of Single-session Windows in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Managing container deployment, scaling, networking, and lifecycle across many instances"
+        },
+        {
+          "id": "b",
+          "text": "Keeping application data in Azure-hosted sessions instead of on endpoint devices"
+        },
+        {
+          "id": "c",
+          "text": "Providing a dedicated session experience for a user when workload needs require it"
+        },
+        {
+          "id": "d",
+          "text": "An event such as an HTTP request, timer, or message that causes a function to run"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Single-session Windows is providing a dedicated session experience for a user when workload needs require it.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "mr-0290",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Virtual Desktop: a managed Azure service that provides virtual Windows desktops and applications to remote users."
+        },
+        {
+          "id": "b",
+          "text": "Microsoft Entra ID integration: a burstable, cost-efficient VM family suited to workloads with occasional CPU spikes."
+        },
+        {
+          "id": "c",
+          "text": "Centralized desktop delivery: hosting desktops and applications in Azure rather than storing all application state on local user devices."
+        },
+        {
+          "id": "d",
+          "text": "Centralized desktop delivery: keeping application data in Azure-hosted sessions instead of on endpoint devices."
+        },
+        {
+          "id": "e",
+          "text": "Azure Virtual Desktop: allowing multiple users to share Windows session-host infrastructure when appropriate."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "c"
+      ],
+      "explanation": "The correct pair is: Azure Virtual Desktop — a managed Azure service that provides virtual Windows desktops and applications to remote users; and Centralized desktop delivery — hosting desktops and applications in Azure rather than storing all application state on local user devices.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "mr-0291",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microsoft Entra ID integration: using Azure identity and access controls for virtual desktop users."
+        },
+        {
+          "id": "b",
+          "text": "Microsoft Entra ID integration: providing standardized desktops and apps to remote, contractor, or hybrid users."
+        },
+        {
+          "id": "c",
+          "text": "Multi-session Windows: a template that can include an operating system and preinstalled components for rapid VM deployment."
+        },
+        {
+          "id": "d",
+          "text": "Multi-session Windows: allowing multiple users to share Windows session-host infrastructure when appropriate."
+        },
+        {
+          "id": "e",
+          "text": "Multi-session Windows: a general-purpose VM family suited to common application and web-server workloads."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Microsoft Entra ID integration — using Azure identity and access controls for virtual desktop users; and Multi-session Windows — allowing multiple users to share Windows session-host infrastructure when appropriate.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "mr-0292",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Single-session Windows: a memory-optimized VM family suited to memory-intensive workloads."
+        },
+        {
+          "id": "b",
+          "text": "Single-session Windows: providing a dedicated session experience for a user when workload needs require it."
+        },
+        {
+          "id": "c",
+          "text": "Single-session Windows: an IaaS compute resource that provides control over the guest operating system and installed software."
+        },
+        {
+          "id": "d",
+          "text": "Distributed workforce use case: a general-purpose VM family suited to common application and web-server workloads."
+        },
+        {
+          "id": "e",
+          "text": "Distributed workforce use case: providing standardized desktops and apps to remote, contractor, or hybrid users."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: Single-session Windows — providing a dedicated session experience for a user when workload needs require it; and Distributed workforce use case — providing standardized desktops and apps to remote, contractor, or hybrid users.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "mr-0293",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Virtual Desktop: a managed Azure service that provides virtual Windows desktops and applications to remote users."
+        },
+        {
+          "id": "b",
+          "text": "Reduced local data exposure: keeping application data in Azure-hosted sessions instead of on endpoint devices."
+        },
+        {
+          "id": "c",
+          "text": "Azure Virtual Desktop: providing standardized desktops and apps to remote, contractor, or hybrid users."
+        },
+        {
+          "id": "d",
+          "text": "Reduced local data exposure: a burstable, cost-efficient VM family suited to workloads with occasional CPU spikes."
+        },
+        {
+          "id": "e",
+          "text": "Distributed workforce use case: a compute-optimized VM family suited to CPU-intensive workloads."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Reduced local data exposure — keeping application data in Azure-hosted sessions instead of on endpoint devices; and Azure Virtual Desktop — a managed Azure service that provides virtual Windows desktops and applications to remote users.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "mr-0294",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reduced local data exposure: a GPU-enabled VM family suited to graphics and AI workloads."
+        },
+        {
+          "id": "b",
+          "text": "Centralized desktop delivery: providing a dedicated session experience for a user when workload needs require it."
+        },
+        {
+          "id": "c",
+          "text": "Microsoft Entra ID integration: an IaaS compute resource that provides control over the guest operating system and installed software."
+        },
+        {
+          "id": "d",
+          "text": "Microsoft Entra ID integration: using Azure identity and access controls for virtual desktop users."
+        },
+        {
+          "id": "e",
+          "text": "Centralized desktop delivery: hosting desktops and applications in Azure rather than storing all application state on local user devices."
+        }
+      ],
+      "correctAnswers": [
+        "d",
+        "e"
+      ],
+      "explanation": "The correct pair is: Centralized desktop delivery — hosting desktops and applications in Azure rather than storing all application state on local user devices; and Microsoft Entra ID integration — using Azure identity and access controls for virtual desktop users.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "tf-0290",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "question": "Azure Virtual Desktop is a managed Azure service that provides virtual Windows desktops and applications to remote users.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure Virtual Desktop is a managed Azure service that provides virtual Windows desktops and applications to remote users.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "tf-0291",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "question": "According to this unit: Centralized desktop delivery is providing a dedicated session experience for a user when workload needs require it.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Centralized desktop delivery is hosting desktops and applications in Azure rather than storing all application state on local user devices.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "tf-0292",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "question": "For Azure fundamentals, Microsoft Entra ID integration is using Azure identity and access controls for virtual desktop users.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Microsoft Entra ID integration is using Azure identity and access controls for virtual desktop users.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "tf-0293",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "question": "This statement is correct: Multi-session Windows is keeping application data in Azure-hosted sessions instead of on endpoint devices.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Multi-session Windows is allowing multiple users to share Windows session-host infrastructure when appropriate.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "tf-0294",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "question": "The unit supports the following statement: Single-session Windows is providing a dedicated session experience for a user when workload needs require it.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Single-session Windows is providing a dedicated session experience for a user when workload needs require it.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "sc-0580",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual desktop” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a managed Azure service that provides virtual Windows desktops and applications to remote users. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microservices architecture"
+        },
+        {
+          "id": "b",
+          "text": "Microsoft Entra ID integration"
+        },
+        {
+          "id": "c",
+          "text": "Centralized desktop delivery"
+        },
+        {
+          "id": "d",
+          "text": "Azure Virtual Desktop"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Azure Virtual Desktop is the best match because it is a managed Azure service that provides virtual Windows desktops and applications to remote users.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "sc-0581",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual desktop” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs hosting desktops and applications in Azure rather than storing all application state on local user devices. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "F-series VM"
+        },
+        {
+          "id": "b",
+          "text": "Virtual machine hosting"
+        },
+        {
+          "id": "c",
+          "text": "Availability set"
+        },
+        {
+          "id": "d",
+          "text": "Centralized desktop delivery"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Centralized desktop delivery is the best match because it is hosting desktops and applications in Azure rather than storing all application state on local user devices.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "sc-0582",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual desktop” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: using Azure identity and access controls for virtual desktop users. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Serverless compute"
+        },
+        {
+          "id": "b",
+          "text": "Single-session Windows"
+        },
+        {
+          "id": "c",
+          "text": "Microsoft Entra ID integration"
+        },
+        {
+          "id": "d",
+          "text": "Multi-session Windows"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Microsoft Entra ID integration is the best match because it is using Azure identity and access controls for virtual desktop users.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "sc-0583",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual desktop” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: allowing multiple users to share Windows session-host infrastructure when appropriate. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "E-series VM"
+        },
+        {
+          "id": "b",
+          "text": "B-series VM"
+        },
+        {
+          "id": "c",
+          "text": "Consumption execution"
+        },
+        {
+          "id": "d",
+          "text": "Multi-session Windows"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Multi-session Windows is the best match because it is allowing multiple users to share Windows session-host infrastructure when appropriate.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "sc-0584",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual desktop” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants providing a dedicated session experience for a user when workload needs require it. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "D-series VM"
+        },
+        {
+          "id": "b",
+          "text": "Single-session Windows"
+        },
+        {
+          "id": "c",
+          "text": "Agentic AI pattern"
+        },
+        {
+          "id": "d",
+          "text": "Docker"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Single-session Windows is the best match because it is providing a dedicated session experience for a user when workload needs require it.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "sc-0585",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual desktop” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for providing standardized desktops and apps to remote, contractor, or hybrid users. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Web app"
+        },
+        {
+          "id": "b",
+          "text": "WebJob"
+        },
+        {
+          "id": "c",
+          "text": "Distributed workforce use case"
+        },
+        {
+          "id": "d",
+          "text": "Azure Virtual Machine"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Distributed workforce use case is the best match because it is providing standardized desktops and apps to remote, contractor, or hybrid users.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "sc-0586",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual desktop” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for keeping application data in Azure-hosted sessions instead of on endpoint devices. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microsoft Entra ID integration"
+        },
+        {
+          "id": "b",
+          "text": "Automatic scaling"
+        },
+        {
+          "id": "c",
+          "text": "Agentic AI pattern"
+        },
+        {
+          "id": "d",
+          "text": "Reduced local data exposure"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Reduced local data exposure is the best match because it is keeping application data in Azure-hosted sessions instead of on endpoint devices.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "sc-0587",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual desktop” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is a managed Azure service that provides virtual Windows desktops and applications to remote users. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Container Instances"
+        },
+        {
+          "id": "b",
+          "text": "Agentic AI pattern"
+        },
+        {
+          "id": "c",
+          "text": "Azure Virtual Desktop"
+        },
+        {
+          "id": "d",
+          "text": "Consumption execution"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure Virtual Desktop is the best match because it is a managed Azure service that provides virtual Windows desktops and applications to remote users.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "sc-0588",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual desktop” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as hosting desktops and applications in Azure rather than storing all application state on local user devices. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microservices architecture"
+        },
+        {
+          "id": "b",
+          "text": "Centralized desktop delivery"
+        },
+        {
+          "id": "c",
+          "text": "API app"
+        },
+        {
+          "id": "d",
+          "text": "E-series VM"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Centralized desktop delivery is the best match because it is hosting desktops and applications in Azure rather than storing all application state on local user devices.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "sc-0589",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "scenario": "The organization is reviewing the topic “Describe Azure virtual desktop” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides using Azure identity and access controls for virtual desktop users. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Telemetry"
+        },
+        {
+          "id": "b",
+          "text": "Timer trigger"
+        },
+        {
+          "id": "c",
+          "text": "Microsoft Entra ID integration"
+        },
+        {
+          "id": "d",
+          "text": "Azure Machine Learning"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Microsoft Entra ID integration is the best match because it is using Azure identity and access controls for virtual desktop users.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "match-0290",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Virtual Desktop"
+        },
+        {
+          "id": "l2",
+          "text": "Centralized desktop delivery"
+        },
+        {
+          "id": "l3",
+          "text": "Microsoft Entra ID integration"
+        },
+        {
+          "id": "l4",
+          "text": "Multi-session Windows"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Using Azure identity and access controls for virtual desktop users"
+        },
+        {
+          "id": "r4",
+          "text": "Allowing multiple users to share Windows session-host infrastructure when appropriate"
+        },
+        {
+          "id": "r2",
+          "text": "Hosting desktops and applications in Azure rather than storing all application state on local user devices"
+        },
+        {
+          "id": "r1",
+          "text": "A managed Azure service that provides virtual Windows desktops and applications to remote users"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "match-0291",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Microsoft Entra ID integration"
+        },
+        {
+          "id": "l2",
+          "text": "Multi-session Windows"
+        },
+        {
+          "id": "l3",
+          "text": "Single-session Windows"
+        },
+        {
+          "id": "l4",
+          "text": "Distributed workforce use case"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "Providing standardized desktops and apps to remote, contractor, or hybrid users"
+        },
+        {
+          "id": "r2",
+          "text": "Allowing multiple users to share Windows session-host infrastructure when appropriate"
+        },
+        {
+          "id": "r3",
+          "text": "Providing a dedicated session experience for a user when workload needs require it"
+        },
+        {
+          "id": "r1",
+          "text": "Using Azure identity and access controls for virtual desktop users"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l2": "r2",
+        "l3": "r3",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "match-0292",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Single-session Windows"
+        },
+        {
+          "id": "l2",
+          "text": "Distributed workforce use case"
+        },
+        {
+          "id": "l3",
+          "text": "Reduced local data exposure"
+        },
+        {
+          "id": "l4",
+          "text": "Azure Virtual Desktop"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "A managed Azure service that provides virtual Windows desktops and applications to remote users"
+        },
+        {
+          "id": "r1",
+          "text": "Providing a dedicated session experience for a user when workload needs require it"
+        },
+        {
+          "id": "r2",
+          "text": "Providing standardized desktops and apps to remote, contractor, or hybrid users"
+        },
+        {
+          "id": "r3",
+          "text": "Keeping application data in Azure-hosted sessions instead of on endpoint devices"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "match-0293",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Reduced local data exposure"
+        },
+        {
+          "id": "l2",
+          "text": "Azure Virtual Desktop"
+        },
+        {
+          "id": "l3",
+          "text": "Centralized desktop delivery"
+        },
+        {
+          "id": "l4",
+          "text": "Microsoft Entra ID integration"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "A managed Azure service that provides virtual Windows desktops and applications to remote users"
+        },
+        {
+          "id": "r3",
+          "text": "Hosting desktops and applications in Azure rather than storing all application state on local user devices"
+        },
+        {
+          "id": "r1",
+          "text": "Keeping application data in Azure-hosted sessions instead of on endpoint devices"
+        },
+        {
+          "id": "r4",
+          "text": "Using Azure identity and access controls for virtual desktop users"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l3": "r3",
+        "l1": "r1",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "match-0294",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Centralized desktop delivery"
+        },
+        {
+          "id": "l2",
+          "text": "Microsoft Entra ID integration"
+        },
+        {
+          "id": "l3",
+          "text": "Multi-session Windows"
+        },
+        {
+          "id": "l4",
+          "text": "Single-session Windows"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "Using Azure identity and access controls for virtual desktop users"
+        },
+        {
+          "id": "r4",
+          "text": "Providing a dedicated session experience for a user when workload needs require it"
+        },
+        {
+          "id": "r1",
+          "text": "Hosting desktops and applications in Azure rather than storing all application state on local user devices"
+        },
+        {
+          "id": "r3",
+          "text": "Allowing multiple users to share Windows session-host infrastructure when appropriate"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l4": "r4",
+        "l1": "r1",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "fill-0290",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "question": "{{answer}} is using Azure identity and access controls for virtual desktop users.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "VM image",
+            "Microsoft Entra ID integration",
+            "Automatic scaling",
+            "Azure Container Apps"
+          ],
+          "correctAnswer": "Microsoft Entra ID integration"
+        }
+      ],
+      "explanation": "Microsoft Entra ID integration is using Azure identity and access controls for virtual desktop users.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "fill-0291",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "question": "The term for allowing multiple users to share Windows session-host infrastructure when appropriate is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Microsoft Entra ID integration",
+            "B-series VM",
+            "Azure IoT Central",
+            "Multi-session Windows"
+          ],
+          "correctAnswer": "Multi-session Windows"
+        }
+      ],
+      "explanation": "Multi-session Windows is allowing multiple users to share Windows session-host infrastructure when appropriate.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "fill-0292",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "question": "In this unit, {{answer}} refers to providing a dedicated session experience for a user when workload needs require it.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure IoT Hub",
+            "Serverless compute",
+            "Azure OpenAI Service",
+            "Single-session Windows"
+          ],
+          "correctAnswer": "Single-session Windows"
+        }
+      ],
+      "explanation": "Single-session Windows is providing a dedicated session experience for a user when workload needs require it.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "fill-0293",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "question": "For AZ-900, the concept described as providing standardized desktops and apps to remote, contractor, or hybrid users is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure Container Apps",
+            "N-series VM",
+            "Distributed workforce use case",
+            "Azure IoT Hub"
+          ],
+          "correctAnswer": "Distributed workforce use case"
+        }
+      ],
+      "explanation": "Distributed workforce use case is providing standardized desktops and apps to remote, contractor, or hybrid users.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    },
+    {
+      "id": "fill-0294",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure compute services",
+      "description": "Microsoft Learn unit: Describe Azure virtual desktop",
+      "question": "Choose the term that completes the statement: {{answer}} means keeping application data in Azure-hosted sessions instead of on endpoint devices.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Web app",
+            "API app",
+            "Reduced local data exposure",
+            "Azure Virtual Desktop"
+          ],
+          "correctAnswer": "Reduced local data exposure"
+        }
+      ],
+      "explanation": "Reduced local data exposure is keeping application data in Azure-hosted sessions instead of on endpoint devices.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop"
+    }
+  ]
+}

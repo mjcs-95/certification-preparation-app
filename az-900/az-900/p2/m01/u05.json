@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe cost management in Azure · Describe the purpose of tags",
+  "questions": [
+    {
+      "id": "mc-0130",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "question": "Which statement best describes Resource tag?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A name-value metadata pair attached to an Azure resource"
+        },
+        {
+          "id": "b",
+          "text": "Tags do not automatically inherit from subscriptions or resource groups to child resources"
+        },
+        {
+          "id": "c",
+          "text": "Metadata that can help allocate or report costs to an internal cost center"
+        },
+        {
+          "id": "d",
+          "text": "A commitment to an hourly spend amount across eligible compute usage rather than to one specific VM size"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Resource tag is a name-value metadata pair attached to an Azure resource.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "mc-0131",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "question": "In the context of this Microsoft Learn unit, what does CostCenter tag refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The amount of a resource used during a billing period"
+        },
+        {
+          "id": "b",
+          "text": "The subscription offer and included allowances that can change effective cost"
+        },
+        {
+          "id": "c",
+          "text": "Metadata that can help allocate or report costs to an internal cost center"
+        },
+        {
+          "id": "d",
+          "text": "An online tool for estimating the potential cost of Azure resources and solutions before deployment"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "CostCenter tag is metadata that can help allocate or report costs to an internal cost center.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "mc-0132",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "question": "Which description correctly matches Owner tag?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A discounted commitment option suited to stable, predictable workloads and specific resource capacity"
+        },
+        {
+          "id": "b",
+          "text": "Using the pricing calculator to compare different service tiers or sizes before deployment"
+        },
+        {
+          "id": "c",
+          "text": "A defined spending target that can be scoped and paired with alert thresholds"
+        },
+        {
+          "id": "d",
+          "text": "Metadata that identifies the person or team responsible for a resource"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Owner tag is metadata that identifies the person or team responsible for a resource.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "mc-0133",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "question": "Which of the following is the best definition of Environment tag?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Metadata such as Prod, Dev, or Test used to classify deployment environments"
+        },
+        {
+          "id": "b",
+          "text": "A workload pattern that can be a strong fit for Reservations"
+        },
+        {
+          "id": "c",
+          "text": "A workload pattern that can fit an Azure savings plan for compute"
+        },
+        {
+          "id": "d",
+          "text": "Discounted pricing that uses unused Azure capacity and can be interrupted when Azure reclaims capacity"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Environment tag is metadata such as Prod, Dev, or Test used to classify deployment environments.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "mc-0134",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "question": "What is the primary meaning of Azure Policy for tags in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A governance mechanism that can require or add tags according to organizational rules"
+        },
+        {
+          "id": "b",
+          "text": "One of the commitment durations available for Azure Reservations"
+        },
+        {
+          "id": "c",
+          "text": "Actions that can be triggered when a spending threshold is reached, such as shutting down nonproduction resources"
+        },
+        {
+          "id": "d",
+          "text": "Metadata that can help allocate or report costs to an internal cost center"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure Policy for tags is a governance mechanism that can require or add tags according to organizational rules.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "mr-0130",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Resource tag: metadata such as Prod, Dev, or Test used to classify deployment environments."
+        },
+        {
+          "id": "b",
+          "text": "Resource tag: a name-value metadata pair attached to an Azure resource."
+        },
+        {
+          "id": "c",
+          "text": "Owner tag: the amount of a resource used during a billing period."
+        },
+        {
+          "id": "d",
+          "text": "CostCenter tag: using metadata to select resources for automated operational tasks."
+        },
+        {
+          "id": "e",
+          "text": "CostCenter tag: metadata that can help allocate or report costs to an internal cost center."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: Resource tag — a name-value metadata pair attached to an Azure resource; and CostCenter tag — metadata that can help allocate or report costs to an internal cost center.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "mr-0131",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Environment tag: ongoing cleanup and management that prevents unused associated resources from continuing to incur cost."
+        },
+        {
+          "id": "b",
+          "text": "Owner tag: metadata that identifies the person or team responsible for a resource."
+        },
+        {
+          "id": "c",
+          "text": "Environment tag: metadata such as Prod, Dev, or Test used to classify deployment environments."
+        },
+        {
+          "id": "d",
+          "text": "Owner tag: tags do not automatically inherit from subscriptions or resource groups to child resources."
+        },
+        {
+          "id": "e",
+          "text": "Environment tag: the kind and configuration of an Azure service, which influences its price."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: Owner tag — metadata that identifies the person or team responsible for a resource; and Environment tag — metadata such as Prod, Dev, or Test used to classify deployment environments.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "mr-0132",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Policy for tags: a governance mechanism that can require or add tags according to organizational rules."
+        },
+        {
+          "id": "b",
+          "text": "Azure Policy for tags: using metadata to mark resources according to classifications such as public or confidential."
+        },
+        {
+          "id": "c",
+          "text": "Tag inheritance: ongoing cleanup and management that prevents unused associated resources from continuing to incur cost."
+        },
+        {
+          "id": "d",
+          "text": "Azure Policy for tags: the Azure region and data-transfer locations, which can affect pricing."
+        },
+        {
+          "id": "e",
+          "text": "Tag inheritance: tags do not automatically inherit from subscriptions or resource groups to child resources."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "e"
+      ],
+      "explanation": "The correct pair is: Azure Policy for tags — a governance mechanism that can require or add tags according to organizational rules; and Tag inheritance — tags do not automatically inherit from subscriptions or resource groups to child resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "mr-0133",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tag inheritance: the subscription offer and included allowances that can change effective cost."
+        },
+        {
+          "id": "b",
+          "text": "Tag-based automation: using metadata to select resources for automated operational tasks."
+        },
+        {
+          "id": "c",
+          "text": "Tag-based automation: the amount of a resource used during a billing period."
+        },
+        {
+          "id": "d",
+          "text": "Tag-based security classification: using metadata to mark resources according to classifications such as public or confidential."
+        },
+        {
+          "id": "e",
+          "text": "Tag-based security classification: the subscription offer and included allowances that can change effective cost."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: Tag-based automation — using metadata to select resources for automated operational tasks; and Tag-based security classification — using metadata to mark resources according to classifications such as public or confidential.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "mr-0134",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Resource tag: a name-value metadata pair attached to an Azure resource."
+        },
+        {
+          "id": "b",
+          "text": "Resource tag: metadata such as Prod, Dev, or Test used to classify deployment environments."
+        },
+        {
+          "id": "c",
+          "text": "CostCenter tag: using metadata to select resources for automated operational tasks."
+        },
+        {
+          "id": "d",
+          "text": "CostCenter tag: metadata that can help allocate or report costs to an internal cost center."
+        },
+        {
+          "id": "e",
+          "text": "Tag-based automation: a source of third-party solutions that can add vendor charges to Azure service costs."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Resource tag — a name-value metadata pair attached to an Azure resource; and CostCenter tag — metadata that can help allocate or report costs to an internal cost center.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "tf-0130",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "question": "Resource tag is a name-value metadata pair attached to an Azure resource.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Resource tag is a name-value metadata pair attached to an Azure resource.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "tf-0131",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "question": "According to this unit: CostCenter tag is a governance mechanism that can require or add tags according to organizational rules.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. CostCenter tag is metadata that can help allocate or report costs to an internal cost center.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "tf-0132",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "question": "For Azure fundamentals, Owner tag is metadata that identifies the person or team responsible for a resource.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Owner tag is metadata that identifies the person or team responsible for a resource.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "tf-0133",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "question": "This statement is correct: Environment tag is using metadata to select resources for automated operational tasks.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Environment tag is metadata such as Prod, Dev, or Test used to classify deployment environments.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "tf-0134",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "question": "The unit supports the following statement: Azure Policy for tags is a governance mechanism that can require or add tags according to organizational rules.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure Policy for tags is a governance mechanism that can require or add tags according to organizational rules.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "sc-0260",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of tags” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a name-value metadata pair attached to an Azure resource. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Interruptible batch workload"
+        },
+        {
+          "id": "b",
+          "text": "Tag inheritance"
+        },
+        {
+          "id": "c",
+          "text": "Resource tag"
+        },
+        {
+          "id": "d",
+          "text": "Predictable production workload"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Resource tag is the best match because it is a name-value metadata pair attached to an Azure resource.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "sc-0261",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of tags” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs metadata that can help allocate or report costs to an internal cost center. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microsoft Cost Management"
+        },
+        {
+          "id": "b",
+          "text": "CostCenter tag"
+        },
+        {
+          "id": "c",
+          "text": "Budget alert"
+        },
+        {
+          "id": "d",
+          "text": "Azure savings plan for compute"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "CostCenter tag is the best match because it is metadata that can help allocate or report costs to an internal cost center.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "sc-0262",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of tags” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: metadata that identifies the person or team responsible for a resource. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Owner tag"
+        },
+        {
+          "id": "b",
+          "text": "Azure Pricing Calculator"
+        },
+        {
+          "id": "c",
+          "text": "TCO calculator status"
+        },
+        {
+          "id": "d",
+          "text": "Service-tier comparison"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Owner tag is the best match because it is metadata that identifies the person or team responsible for a resource.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "sc-0263",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of tags” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: metadata such as Prod, Dev, or Test used to classify deployment environments. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Spot Virtual Machines"
+        },
+        {
+          "id": "b",
+          "text": "Environment tag"
+        },
+        {
+          "id": "c",
+          "text": "Resource tag"
+        },
+        {
+          "id": "d",
+          "text": "Storage-option comparison"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Environment tag is the best match because it is metadata such as Prod, Dev, or Test used to classify deployment environments.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "sc-0264",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of tags” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants a governance mechanism that can require or add tags according to organizational rules. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure savings plan for compute"
+        },
+        {
+          "id": "b",
+          "text": "Budget automation"
+        },
+        {
+          "id": "c",
+          "text": "Tag-based automation"
+        },
+        {
+          "id": "d",
+          "text": "Azure Policy for tags"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Azure Policy for tags is the best match because it is a governance mechanism that can require or add tags according to organizational rules.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "sc-0265",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of tags” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for tags do not automatically inherit from subscriptions or resource groups to child resources. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Budget"
+        },
+        {
+          "id": "b",
+          "text": "Tag inheritance"
+        },
+        {
+          "id": "c",
+          "text": "Budget alert"
+        },
+        {
+          "id": "d",
+          "text": "Budget automation"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Tag inheritance is the best match because it is tags do not automatically inherit from subscriptions or resource groups to child resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "sc-0266",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of tags” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for using metadata to select resources for automated operational tasks. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tag-based automation"
+        },
+        {
+          "id": "b",
+          "text": "Flexible steady compute usage"
+        },
+        {
+          "id": "c",
+          "text": "Solution estimate"
+        },
+        {
+          "id": "d",
+          "text": "Resource tag"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Tag-based automation is the best match because it is using metadata to select resources for automated operational tasks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "sc-0267",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of tags” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is using metadata to mark resources according to classifications such as public or confidential. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Outbound data transfer"
+        },
+        {
+          "id": "b",
+          "text": "Azure Pricing Calculator"
+        },
+        {
+          "id": "c",
+          "text": "Owner tag"
+        },
+        {
+          "id": "d",
+          "text": "Tag-based security classification"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Tag-based security classification is the best match because it is using metadata to mark resources according to classifications such as public or confidential.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "sc-0268",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of tags” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as a name-value metadata pair attached to an Azure resource. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Marketplace"
+        },
+        {
+          "id": "b",
+          "text": "Resource tag"
+        },
+        {
+          "id": "c",
+          "text": "Billing zone"
+        },
+        {
+          "id": "d",
+          "text": "Cost trend analysis"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Resource tag is the best match because it is a name-value metadata pair attached to an Azure resource.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "sc-0269",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "scenario": "The organization is reviewing the topic “Describe the purpose of tags” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides metadata that can help allocate or report costs to an internal cost center. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Pricing Calculator"
+        },
+        {
+          "id": "b",
+          "text": "CostCenter tag"
+        },
+        {
+          "id": "c",
+          "text": "TCO calculator status"
+        },
+        {
+          "id": "d",
+          "text": "Service-tier comparison"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "CostCenter tag is the best match because it is metadata that can help allocate or report costs to an internal cost center.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "match-0130",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Resource tag"
+        },
+        {
+          "id": "l2",
+          "text": "CostCenter tag"
+        },
+        {
+          "id": "l3",
+          "text": "Owner tag"
+        },
+        {
+          "id": "l4",
+          "text": "Environment tag"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A name-value metadata pair attached to an Azure resource"
+        },
+        {
+          "id": "r2",
+          "text": "Metadata that can help allocate or report costs to an internal cost center"
+        },
+        {
+          "id": "r3",
+          "text": "Metadata that identifies the person or team responsible for a resource"
+        },
+        {
+          "id": "r4",
+          "text": "Metadata such as Prod, Dev, or Test used to classify deployment environments"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "match-0131",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Owner tag"
+        },
+        {
+          "id": "l2",
+          "text": "Environment tag"
+        },
+        {
+          "id": "l3",
+          "text": "Azure Policy for tags"
+        },
+        {
+          "id": "l4",
+          "text": "Tag inheritance"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A governance mechanism that can require or add tags according to organizational rules"
+        },
+        {
+          "id": "r4",
+          "text": "Tags do not automatically inherit from subscriptions or resource groups to child resources"
+        },
+        {
+          "id": "r2",
+          "text": "Metadata such as Prod, Dev, or Test used to classify deployment environments"
+        },
+        {
+          "id": "r1",
+          "text": "Metadata that identifies the person or team responsible for a resource"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "match-0132",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure Policy for tags"
+        },
+        {
+          "id": "l2",
+          "text": "Tag inheritance"
+        },
+        {
+          "id": "l3",
+          "text": "Tag-based automation"
+        },
+        {
+          "id": "l4",
+          "text": "Tag-based security classification"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A governance mechanism that can require or add tags according to organizational rules"
+        },
+        {
+          "id": "r2",
+          "text": "Tags do not automatically inherit from subscriptions or resource groups to child resources"
+        },
+        {
+          "id": "r4",
+          "text": "Using metadata to mark resources according to classifications such as public or confidential"
+        },
+        {
+          "id": "r3",
+          "text": "Using metadata to select resources for automated operational tasks"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "match-0133",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Tag-based automation"
+        },
+        {
+          "id": "l2",
+          "text": "Tag-based security classification"
+        },
+        {
+          "id": "l3",
+          "text": "Resource tag"
+        },
+        {
+          "id": "l4",
+          "text": "CostCenter tag"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A name-value metadata pair attached to an Azure resource"
+        },
+        {
+          "id": "r2",
+          "text": "Using metadata to mark resources according to classifications such as public or confidential"
+        },
+        {
+          "id": "r4",
+          "text": "Metadata that can help allocate or report costs to an internal cost center"
+        },
+        {
+          "id": "r1",
+          "text": "Using metadata to select resources for automated operational tasks"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l2": "r2",
+        "l4": "r4",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "match-0134",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Resource tag"
+        },
+        {
+          "id": "l2",
+          "text": "CostCenter tag"
+        },
+        {
+          "id": "l3",
+          "text": "Owner tag"
+        },
+        {
+          "id": "l4",
+          "text": "Environment tag"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Metadata that identifies the person or team responsible for a resource"
+        },
+        {
+          "id": "r2",
+          "text": "Metadata that can help allocate or report costs to an internal cost center"
+        },
+        {
+          "id": "r4",
+          "text": "Metadata such as Prod, Dev, or Test used to classify deployment environments"
+        },
+        {
+          "id": "r1",
+          "text": "A name-value metadata pair attached to an Azure resource"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l2": "r2",
+        "l4": "r4",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "fill-0130",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "question": "{{answer}} is metadata that identifies the person or team responsible for a resource.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Budget automation",
+            "Maintenance",
+            "Owner tag",
+            "Outbound data transfer"
+          ],
+          "correctAnswer": "Owner tag"
+        }
+      ],
+      "explanation": "Owner tag is metadata that identifies the person or team responsible for a resource.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "fill-0131",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "question": "The term for metadata such as Prod, Dev, or Test used to classify deployment environments is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Environment tag",
+            "Azure Marketplace",
+            "Azure Spot Virtual Machines",
+            "Service-tier comparison"
+          ],
+          "correctAnswer": "Environment tag"
+        }
+      ],
+      "explanation": "Environment tag is metadata such as Prod, Dev, or Test used to classify deployment environments.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "fill-0132",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "question": "In this unit, {{answer}} refers to a governance mechanism that can require or add tags according to organizational rules.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Budget automation",
+            "Azure Policy for tags",
+            "Budget alert",
+            "Cost analysis"
+          ],
+          "correctAnswer": "Azure Policy for tags"
+        }
+      ],
+      "explanation": "Azure Policy for tags is a governance mechanism that can require or add tags according to organizational rules.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "fill-0133",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "question": "For AZ-900, the concept described as tags do not automatically inherit from subscriptions or resource groups to child resources is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure Policy for tags",
+            "Storage-option comparison",
+            "Tag inheritance",
+            "Budget automation"
+          ],
+          "correctAnswer": "Tag inheritance"
+        }
+      ],
+      "explanation": "Tag inheritance is tags do not automatically inherit from subscriptions or resource groups to child resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    },
+    {
+      "id": "fill-0134",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the purpose of tags",
+      "question": "Choose the term that completes the statement: {{answer}} means using metadata to select resources for automated operational tasks.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Tag-based security classification",
+            "Subscription type",
+            "Tag-based automation",
+            "Budget"
+          ],
+          "correctAnswer": "Tag-based automation"
+        }
+      ],
+      "explanation": "Tag-based automation is using metadata to select resources for automated operational tasks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags"
+    }
+  ]
+}

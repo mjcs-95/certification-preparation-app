@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe cost management in Azure · Describe the Microsoft Cost Management tool",
+  "questions": [
+    {
+      "id": "mc-0125",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "question": "Which statement best describes Microsoft Cost Management?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A set of tools for analyzing, monitoring, and managing Azure costs"
+        },
+        {
+          "id": "b",
+          "text": "Actions that can be triggered when a spending threshold is reached, such as shutting down nonproduction resources"
+        },
+        {
+          "id": "c",
+          "text": "Ongoing cleanup and management that prevents unused associated resources from continuing to incur cost"
+        },
+        {
+          "id": "d",
+          "text": "The amount of a resource used during a billing period"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Microsoft Cost Management is a set of tools for analyzing, monitoring, and managing Azure costs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "mc-0126",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "question": "In the context of this Microsoft Learn unit, what does Cost analysis refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Metadata such as Prod, Dev, or Test used to classify deployment environments"
+        },
+        {
+          "id": "b",
+          "text": "A source of third-party solutions that can add vendor charges to Azure service costs"
+        },
+        {
+          "id": "c",
+          "text": "A name-value metadata pair attached to an Azure resource"
+        },
+        {
+          "id": "d",
+          "text": "A Cost Management feature for visualizing and grouping spend by dimensions such as subscription, resource group, region, or service"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Cost analysis is a Cost Management feature for visualizing and grouping spend by dimensions such as subscription, resource group, region, or service.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "mc-0127",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "question": "Which description correctly matches Budget alert?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tags do not automatically inherit from subscriptions or resource groups to child resources"
+        },
+        {
+          "id": "b",
+          "text": "A notification generated when spending reaches or exceeds a defined budget threshold"
+        },
+        {
+          "id": "c",
+          "text": "Modeling storage type, access tier, and redundancy choices to see how they affect estimated cost"
+        },
+        {
+          "id": "d",
+          "text": "Using metadata to mark resources according to classifications such as public or confidential"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Budget alert is a notification generated when spending reaches or exceeds a defined budget threshold.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "mc-0128",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "question": "Which of the following is the best definition of Credit alert?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An alert for Enterprise Agreement customers when Azure Prepayment credit reaches defined consumption points"
+        },
+        {
+          "id": "b",
+          "text": "A pricing-calculator configuration that combines multiple Azure services into a projected cost"
+        },
+        {
+          "id": "c",
+          "text": "Metadata that can help allocate or report costs to an internal cost center"
+        },
+        {
+          "id": "d",
+          "text": "Reviewing accumulated costs over time to understand spending patterns and forecast future spend"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Credit alert is an alert for Enterprise Agreement customers when Azure Prepayment credit reaches defined consumption points.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "mc-0129",
+      "type": "multiple-choice",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "question": "What is the primary meaning of Department spending quota alert in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Metadata that identifies the person or team responsible for a resource"
+        },
+        {
+          "id": "b",
+          "text": "An Enterprise Agreement alert when departmental spending reaches a configured quota threshold"
+        },
+        {
+          "id": "c",
+          "text": "The former Total Cost of Ownership calculator has been retired"
+        },
+        {
+          "id": "d",
+          "text": "Metadata that can help allocate or report costs to an internal cost center"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Department spending quota alert is an Enterprise Agreement alert when departmental spending reaches a configured quota threshold.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "mr-0125",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microsoft Cost Management: an alert for Enterprise Agreement customers when Azure Prepayment credit reaches defined consumption points."
+        },
+        {
+          "id": "b",
+          "text": "Cost analysis: a Cost Management feature for visualizing and grouping spend by dimensions such as subscription, resource group, region, or service."
+        },
+        {
+          "id": "c",
+          "text": "Microsoft Cost Management: a set of tools for analyzing, monitoring, and managing Azure costs."
+        },
+        {
+          "id": "d",
+          "text": "Cost analysis: actions that can be triggered when a spending threshold is reached, such as shutting down nonproduction resources."
+        },
+        {
+          "id": "e",
+          "text": "Budget alert: the amount of a resource used during a billing period."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: Microsoft Cost Management — a set of tools for analyzing, monitoring, and managing Azure costs; and Cost analysis — a Cost Management feature for visualizing and grouping spend by dimensions such as subscription, resource group, region, or service.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "mr-0126",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Budget alert: a notification generated when spending reaches or exceeds a defined budget threshold."
+        },
+        {
+          "id": "b",
+          "text": "Credit alert: an alert for Enterprise Agreement customers when Azure Prepayment credit reaches defined consumption points."
+        },
+        {
+          "id": "c",
+          "text": "Credit alert: the kind and configuration of an Azure service, which influences its price."
+        },
+        {
+          "id": "d",
+          "text": "Credit alert: ongoing cleanup and management that prevents unused associated resources from continuing to incur cost."
+        },
+        {
+          "id": "e",
+          "text": "Budget alert: a defined spending target that can be scoped and paired with alert thresholds."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Budget alert — a notification generated when spending reaches or exceeds a defined budget threshold; and Credit alert — an alert for Enterprise Agreement customers when Azure Prepayment credit reaches defined consumption points.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "mr-0127",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Budget: a defined spending target that can be scoped and paired with alert thresholds."
+        },
+        {
+          "id": "b",
+          "text": "Department spending quota alert: an Enterprise Agreement alert when departmental spending reaches a configured quota threshold."
+        },
+        {
+          "id": "c",
+          "text": "Department spending quota alert: the Azure region and data-transfer locations, which can affect pricing."
+        },
+        {
+          "id": "d",
+          "text": "Budget: ongoing cleanup and management that prevents unused associated resources from continuing to incur cost."
+        },
+        {
+          "id": "e",
+          "text": "Department spending quota alert: reviewing accumulated costs over time to understand spending patterns and forecast future spend."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Department spending quota alert — an Enterprise Agreement alert when departmental spending reaches a configured quota threshold; and Budget — a defined spending target that can be scoped and paired with alert thresholds.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "mr-0128",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cost trend analysis: reviewing accumulated costs over time to understand spending patterns and forecast future spend."
+        },
+        {
+          "id": "b",
+          "text": "Budget automation: actions that can be triggered when a spending threshold is reached, such as shutting down nonproduction resources."
+        },
+        {
+          "id": "c",
+          "text": "Cost trend analysis: the subscription offer and included allowances that can change effective cost."
+        },
+        {
+          "id": "d",
+          "text": "Budget: the subscription offer and included allowances that can change effective cost."
+        },
+        {
+          "id": "e",
+          "text": "Budget automation: the amount of a resource used during a billing period."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Budget automation — actions that can be triggered when a spending threshold is reached, such as shutting down nonproduction resources; and Cost trend analysis — reviewing accumulated costs over time to understand spending patterns and forecast future spend.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "mr-0129",
+      "type": "multiple-response",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cost analysis: a Cost Management feature for visualizing and grouping spend by dimensions such as subscription, resource group, region, or service."
+        },
+        {
+          "id": "b",
+          "text": "Microsoft Cost Management: an alert for Enterprise Agreement customers when Azure Prepayment credit reaches defined consumption points."
+        },
+        {
+          "id": "c",
+          "text": "Cost analysis: actions that can be triggered when a spending threshold is reached, such as shutting down nonproduction resources."
+        },
+        {
+          "id": "d",
+          "text": "Budget automation: a source of third-party solutions that can add vendor charges to Azure service costs."
+        },
+        {
+          "id": "e",
+          "text": "Microsoft Cost Management: a set of tools for analyzing, monitoring, and managing Azure costs."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "e"
+      ],
+      "explanation": "The correct pair is: Microsoft Cost Management — a set of tools for analyzing, monitoring, and managing Azure costs; and Cost analysis — a Cost Management feature for visualizing and grouping spend by dimensions such as subscription, resource group, region, or service.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "tf-0125",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "question": "Microsoft Cost Management is a set of tools for analyzing, monitoring, and managing Azure costs.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Microsoft Cost Management is a set of tools for analyzing, monitoring, and managing Azure costs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "tf-0126",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "question": "According to this unit: Cost analysis is an Enterprise Agreement alert when departmental spending reaches a configured quota threshold.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Cost analysis is a Cost Management feature for visualizing and grouping spend by dimensions such as subscription, resource group, region, or service.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "tf-0127",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "question": "For Azure fundamentals, Budget alert is a notification generated when spending reaches or exceeds a defined budget threshold.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Budget alert is a notification generated when spending reaches or exceeds a defined budget threshold.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "tf-0128",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "question": "This statement is correct: Credit alert is actions that can be triggered when a spending threshold is reached, such as shutting down nonproduction resources.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Credit alert is an alert for Enterprise Agreement customers when Azure Prepayment credit reaches defined consumption points.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "tf-0129",
+      "type": "true-false",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "question": "The unit supports the following statement: Department spending quota alert is an Enterprise Agreement alert when departmental spending reaches a configured quota threshold.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Department spending quota alert is an Enterprise Agreement alert when departmental spending reaches a configured quota threshold.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "sc-0250",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "scenario": "The organization is reviewing the topic “Describe the Microsoft Cost Management tool” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a set of tools for analyzing, monitoring, and managing Azure costs. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microsoft Cost Management"
+        },
+        {
+          "id": "b",
+          "text": "Interruptible batch workload"
+        },
+        {
+          "id": "c",
+          "text": "Resource type"
+        },
+        {
+          "id": "d",
+          "text": "Consumption"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Microsoft Cost Management is the best match because it is a set of tools for analyzing, monitoring, and managing Azure costs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "sc-0251",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "scenario": "The organization is reviewing the topic “Describe the Microsoft Cost Management tool” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs a Cost Management feature for visualizing and grouping spend by dimensions such as subscription, resource group, region, or service. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tag-based automation"
+        },
+        {
+          "id": "b",
+          "text": "Cost analysis"
+        },
+        {
+          "id": "c",
+          "text": "CostCenter tag"
+        },
+        {
+          "id": "d",
+          "text": "Environment tag"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Cost analysis is the best match because it is a Cost Management feature for visualizing and grouping spend by dimensions such as subscription, resource group, region, or service.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "sc-0252",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "scenario": "The organization is reviewing the topic “Describe the Microsoft Cost Management tool” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: a notification generated when spending reaches or exceeds a defined budget threshold. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Budget alert"
+        },
+        {
+          "id": "b",
+          "text": "Azure Spot Virtual Machines"
+        },
+        {
+          "id": "c",
+          "text": "Tag inheritance"
+        },
+        {
+          "id": "d",
+          "text": "Tag-based automation"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Budget alert is the best match because it is a notification generated when spending reaches or exceeds a defined budget threshold.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "sc-0253",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "scenario": "The organization is reviewing the topic “Describe the Microsoft Cost Management tool” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: an alert for Enterprise Agreement customers when Azure Prepayment credit reaches defined consumption points. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Credit alert"
+        },
+        {
+          "id": "b",
+          "text": "Cost trend analysis"
+        },
+        {
+          "id": "c",
+          "text": "Budget automation"
+        },
+        {
+          "id": "d",
+          "text": "Storage-option comparison"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Credit alert is the best match because it is an alert for Enterprise Agreement customers when Azure Prepayment credit reaches defined consumption points.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "sc-0254",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "scenario": "The organization is reviewing the topic “Describe the Microsoft Cost Management tool” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants an Enterprise Agreement alert when departmental spending reaches a configured quota threshold. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Department spending quota alert"
+        },
+        {
+          "id": "b",
+          "text": "Outbound data transfer"
+        },
+        {
+          "id": "c",
+          "text": "Microsoft Cost Management"
+        },
+        {
+          "id": "d",
+          "text": "Azure savings plan for compute"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Department spending quota alert is the best match because it is an Enterprise Agreement alert when departmental spending reaches a configured quota threshold.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "sc-0255",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "scenario": "The organization is reviewing the topic “Describe the Microsoft Cost Management tool” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for a defined spending target that can be scoped and paired with alert thresholds. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Regional comparison"
+        },
+        {
+          "id": "b",
+          "text": "Outbound data transfer"
+        },
+        {
+          "id": "c",
+          "text": "Geography"
+        },
+        {
+          "id": "d",
+          "text": "Budget"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Budget is the best match because it is a defined spending target that can be scoped and paired with alert thresholds.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "sc-0256",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "scenario": "The organization is reviewing the topic “Describe the Microsoft Cost Management tool” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for actions that can be triggered when a spending threshold is reached, such as shutting down nonproduction resources. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Environment tag"
+        },
+        {
+          "id": "b",
+          "text": "Resource tag"
+        },
+        {
+          "id": "c",
+          "text": "Budget automation"
+        },
+        {
+          "id": "d",
+          "text": "Three-year reservation term"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Budget automation is the best match because it is actions that can be triggered when a spending threshold is reached, such as shutting down nonproduction resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "sc-0257",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "scenario": "The organization is reviewing the topic “Describe the Microsoft Cost Management tool” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is reviewing accumulated costs over time to understand spending patterns and forecast future spend. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Budget alert"
+        },
+        {
+          "id": "b",
+          "text": "Billing zone"
+        },
+        {
+          "id": "c",
+          "text": "Cost trend analysis"
+        },
+        {
+          "id": "d",
+          "text": "Tag-based automation"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Cost trend analysis is the best match because it is reviewing accumulated costs over time to understand spending patterns and forecast future spend.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "sc-0258",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "scenario": "The organization is reviewing the topic “Describe the Microsoft Cost Management tool” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as a set of tools for analyzing, monitoring, and managing Azure costs. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tag-based security classification"
+        },
+        {
+          "id": "b",
+          "text": "Credit alert"
+        },
+        {
+          "id": "c",
+          "text": "Microsoft Cost Management"
+        },
+        {
+          "id": "d",
+          "text": "Predictable production workload"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Microsoft Cost Management is the best match because it is a set of tools for analyzing, monitoring, and managing Azure costs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "sc-0259",
+      "type": "scenario",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "scenario": "The organization is reviewing the topic “Describe the Microsoft Cost Management tool” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides a Cost Management feature for visualizing and grouping spend by dimensions such as subscription, resource group, region, or service. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Geography"
+        },
+        {
+          "id": "b",
+          "text": "Outbound data transfer"
+        },
+        {
+          "id": "c",
+          "text": "Cost analysis"
+        },
+        {
+          "id": "d",
+          "text": "One-year reservation term"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Cost analysis is the best match because it is a Cost Management feature for visualizing and grouping spend by dimensions such as subscription, resource group, region, or service.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "match-0125",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Microsoft Cost Management"
+        },
+        {
+          "id": "l2",
+          "text": "Cost analysis"
+        },
+        {
+          "id": "l3",
+          "text": "Budget alert"
+        },
+        {
+          "id": "l4",
+          "text": "Credit alert"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "A Cost Management feature for visualizing and grouping spend by dimensions such as subscription, resource group, region, or service"
+        },
+        {
+          "id": "r4",
+          "text": "An alert for Enterprise Agreement customers when Azure Prepayment credit reaches defined consumption points"
+        },
+        {
+          "id": "r3",
+          "text": "A notification generated when spending reaches or exceeds a defined budget threshold"
+        },
+        {
+          "id": "r1",
+          "text": "A set of tools for analyzing, monitoring, and managing Azure costs"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l4": "r4",
+        "l3": "r3",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "match-0126",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Budget alert"
+        },
+        {
+          "id": "l2",
+          "text": "Credit alert"
+        },
+        {
+          "id": "l3",
+          "text": "Department spending quota alert"
+        },
+        {
+          "id": "l4",
+          "text": "Budget"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "An alert for Enterprise Agreement customers when Azure Prepayment credit reaches defined consumption points"
+        },
+        {
+          "id": "r3",
+          "text": "An Enterprise Agreement alert when departmental spending reaches a configured quota threshold"
+        },
+        {
+          "id": "r4",
+          "text": "A defined spending target that can be scoped and paired with alert thresholds"
+        },
+        {
+          "id": "r1",
+          "text": "A notification generated when spending reaches or exceeds a defined budget threshold"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "match-0127",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Department spending quota alert"
+        },
+        {
+          "id": "l2",
+          "text": "Budget"
+        },
+        {
+          "id": "l3",
+          "text": "Budget automation"
+        },
+        {
+          "id": "l4",
+          "text": "Cost trend analysis"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Actions that can be triggered when a spending threshold is reached, such as shutting down nonproduction resources"
+        },
+        {
+          "id": "r1",
+          "text": "An Enterprise Agreement alert when departmental spending reaches a configured quota threshold"
+        },
+        {
+          "id": "r4",
+          "text": "Reviewing accumulated costs over time to understand spending patterns and forecast future spend"
+        },
+        {
+          "id": "r2",
+          "text": "A defined spending target that can be scoped and paired with alert thresholds"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l1": "r1",
+        "l4": "r4",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "match-0128",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Budget automation"
+        },
+        {
+          "id": "l2",
+          "text": "Cost trend analysis"
+        },
+        {
+          "id": "l3",
+          "text": "Microsoft Cost Management"
+        },
+        {
+          "id": "l4",
+          "text": "Cost analysis"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "A Cost Management feature for visualizing and grouping spend by dimensions such as subscription, resource group, region, or service"
+        },
+        {
+          "id": "r2",
+          "text": "Reviewing accumulated costs over time to understand spending patterns and forecast future spend"
+        },
+        {
+          "id": "r1",
+          "text": "Actions that can be triggered when a spending threshold is reached, such as shutting down nonproduction resources"
+        },
+        {
+          "id": "r3",
+          "text": "A set of tools for analyzing, monitoring, and managing Azure costs"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "match-0129",
+      "type": "matching",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Microsoft Cost Management"
+        },
+        {
+          "id": "l2",
+          "text": "Cost analysis"
+        },
+        {
+          "id": "l3",
+          "text": "Budget alert"
+        },
+        {
+          "id": "l4",
+          "text": "Credit alert"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A set of tools for analyzing, monitoring, and managing Azure costs"
+        },
+        {
+          "id": "r4",
+          "text": "An alert for Enterprise Agreement customers when Azure Prepayment credit reaches defined consumption points"
+        },
+        {
+          "id": "r3",
+          "text": "A notification generated when spending reaches or exceeds a defined budget threshold"
+        },
+        {
+          "id": "r2",
+          "text": "A Cost Management feature for visualizing and grouping spend by dimensions such as subscription, resource group, region, or service"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l4": "r4",
+        "l3": "r3",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "fill-0125",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "question": "{{answer}} is a notification generated when spending reaches or exceeds a defined budget threshold.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure Marketplace",
+            "Budget automation",
+            "Consumption",
+            "Budget alert"
+          ],
+          "correctAnswer": "Budget alert"
+        }
+      ],
+      "explanation": "Budget alert is a notification generated when spending reaches or exceeds a defined budget threshold.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "fill-0126",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "question": "The term for an alert for Enterprise Agreement customers when Azure Prepayment credit reaches defined consumption points is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Resource type",
+            "Cost trend analysis",
+            "Credit alert",
+            "Storage-option comparison"
+          ],
+          "correctAnswer": "Credit alert"
+        }
+      ],
+      "explanation": "Credit alert is an alert for Enterprise Agreement customers when Azure Prepayment credit reaches defined consumption points.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "fill-0127",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "question": "In this unit, {{answer}} refers to an Enterprise Agreement alert when departmental spending reaches a configured quota threshold.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Department spending quota alert",
+            "Estimate only",
+            "Resource tag",
+            "Tag-based automation"
+          ],
+          "correctAnswer": "Department spending quota alert"
+        }
+      ],
+      "explanation": "Department spending quota alert is an Enterprise Agreement alert when departmental spending reaches a configured quota threshold.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "fill-0128",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "question": "For AZ-900, the concept described as a defined spending target that can be scoped and paired with alert thresholds is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Resource type",
+            "Tag-based automation",
+            "Solution estimate",
+            "Budget"
+          ],
+          "correctAnswer": "Budget"
+        }
+      ],
+      "explanation": "Budget is a defined spending target that can be scoped and paired with alert thresholds.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    },
+    {
+      "id": "fill-0129",
+      "type": "fill-blank",
+      "category": "Describe Azure Management and Governance > Describe cost management in Azure",
+      "description": "Microsoft Learn unit: Describe the Microsoft Cost Management tool",
+      "question": "Choose the term that completes the statement: {{answer}} means actions that can be triggered when a spending threshold is reached, such as shutting down nonproduction resources.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Budget automation",
+            "Environment tag",
+            "Budget",
+            "Spot pricing"
+          ],
+          "correctAnswer": "Budget automation"
+        }
+      ],
+      "explanation": "Budget automation is actions that can be triggered when a spending threshold is reached, such as shutting down nonproduction resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool"
+    }
+  ]
+}

@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe Azure identity, access, and security · Describe Azure role-based access control",
+  "questions": [
+    {
+      "id": "mc-0425",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "question": "Which statement best describes Azure RBAC?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An authorization system that controls who can perform which actions on Azure resources and at what scope"
+        },
+        {
+          "id": "b",
+          "text": "Controls that verify identities and restrict permissions"
+        },
+        {
+          "id": "c",
+          "text": "Controls such as encryption and access restrictions applied directly to information"
+        },
+        {
+          "id": "d",
+          "text": "Using identity and device state with tools such as Intune and Conditional Access"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure RBAC is an authorization system that controls who can perform which actions on Azure resources and at what scope.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "mc-0426",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "question": "In the context of this Microsoft Learn unit, what does Security principal refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The user, group, service principal, or managed identity receiving a role assignment"
+        },
+        {
+          "id": "b",
+          "text": "The level at which a role assignment applies, such as management group, subscription, resource group, or resource"
+        },
+        {
+          "id": "c",
+          "text": "Microsoft Entra capabilities for managing access by external users and customers"
+        },
+        {
+          "id": "d",
+          "text": "Requiring an additional authentication factor so a password alone is not sufficient"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Security principal is the user, group, service principal, or managed identity receiving a role assignment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "mc-0427",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "question": "Which description correctly matches Role definition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Encryption capabilities for Azure virtual-machine disks"
+        },
+        {
+          "id": "b",
+          "text": "A view that maps resource configuration and controls to supported compliance standards"
+        },
+        {
+          "id": "c",
+          "text": "A collection of permitted management actions such as read, write, or delete operations"
+        },
+        {
+          "id": "d",
+          "text": "Automatic encryption of data written to Azure Storage"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Role definition is a collection of permitted management actions such as read, write, or delete operations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "mc-0428",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "question": "Which of the following is the best definition of Scope?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Granting only the permissions needed to perform required tasks"
+        },
+        {
+          "id": "b",
+          "text": "Designing detection, segmentation, and response as though attackers may already be present"
+        },
+        {
+          "id": "c",
+          "text": "Identity synchronization from Microsoft Entra ID to Microsoft Entra Domain Services without syncing managed-domain-only objects back"
+        },
+        {
+          "id": "d",
+          "text": "The level at which a role assignment applies, such as management group, subscription, resource group, or resource"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Scope is the level at which a role assignment applies, such as management group, subscription, resource group, or resource.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "mc-0429",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "question": "What is the primary meaning of Role assignment in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Inviting external partners or guests to access organizational resources using their own identities"
+        },
+        {
+          "id": "b",
+          "text": "Protecting stored data by encoding it while it resides on disks or other storage media"
+        },
+        {
+          "id": "c",
+          "text": "The combination of a security principal, role definition, and scope"
+        },
+        {
+          "id": "d",
+          "text": "A collection of permitted management actions such as read, write, or delete operations"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Role assignment is the combination of a security principal, role definition, and scope.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "mr-0425",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure RBAC: an authorization system that controls who can perform which actions on Azure resources and at what scope."
+        },
+        {
+          "id": "b",
+          "text": "Role definition: using one identity sign-in to access multiple trusted applications."
+        },
+        {
+          "id": "c",
+          "text": "Azure RBAC: the level at which a role assignment applies, such as management group, subscription, resource group, or resource."
+        },
+        {
+          "id": "d",
+          "text": "Security principal: a role assignment at a higher scope applying to child resources."
+        },
+        {
+          "id": "e",
+          "text": "Security principal: the user, group, service principal, or managed identity receiving a role assignment."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "e"
+      ],
+      "explanation": "The correct pair is: Azure RBAC — an authorization system that controls who can perform which actions on Azure resources and at what scope; and Security principal — the user, group, service principal, or managed identity receiving a role assignment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "mr-0426",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Role definition: a collection of permitted management actions such as read, write, or delete operations."
+        },
+        {
+          "id": "b",
+          "text": "Scope: the level at which a role assignment applies, such as management group, subscription, resource group, or resource."
+        },
+        {
+          "id": "c",
+          "text": "Scope: verifying the identity of a person, service, or device before granting access."
+        },
+        {
+          "id": "d",
+          "text": "Role definition: granting only the permissions needed to perform required tasks."
+        },
+        {
+          "id": "e",
+          "text": "Scope: Microsoft Entra capabilities for integrating and controlling access to cloud and on-premises applications."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Role definition — a collection of permitted management actions such as read, write, or delete operations; and Scope — the level at which a role assignment applies, such as management group, subscription, resource group, or resource.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "mr-0427",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Role assignment: the combination of a security principal, role definition, and scope."
+        },
+        {
+          "id": "b",
+          "text": "Role assignment: using identity and device state with tools such as Intune and Conditional Access."
+        },
+        {
+          "id": "c",
+          "text": "Least privilege: Microsoft Entra capabilities for integrating and controlling access to cloud and on-premises applications."
+        },
+        {
+          "id": "d",
+          "text": "Role assignment: Microsoft cloud-based identity and access management service."
+        },
+        {
+          "id": "e",
+          "text": "Least privilege: granting only the permissions needed to perform required tasks."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "e"
+      ],
+      "explanation": "The correct pair is: Role assignment — the combination of a security principal, role definition, and scope; and Least privilege — granting only the permissions needed to perform required tasks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "mr-0428",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Least privilege: technology that synchronizes identities between on-premises Active Directory and Microsoft Entra ID."
+        },
+        {
+          "id": "b",
+          "text": "Azure RBAC: granting only the permissions needed to perform required tasks."
+        },
+        {
+          "id": "c",
+          "text": "Inherited RBAC permission: a role assignment at a higher scope applying to child resources."
+        },
+        {
+          "id": "d",
+          "text": "Inherited RBAC permission: using one identity sign-in to access multiple trusted applications."
+        },
+        {
+          "id": "e",
+          "text": "Azure RBAC: an authorization system that controls who can perform which actions on Azure resources and at what scope."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "e"
+      ],
+      "explanation": "The correct pair is: Inherited RBAC permission — a role assignment at a higher scope applying to child resources; and Azure RBAC — an authorization system that controls who can perform which actions on Azure resources and at what scope.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "mr-0429",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Security principal: the combination of a security principal, role definition, and scope."
+        },
+        {
+          "id": "b",
+          "text": "Security principal: the user, group, service principal, or managed identity receiving a role assignment."
+        },
+        {
+          "id": "c",
+          "text": "Inherited RBAC permission: managed domain capabilities such as domain join, Group Policy, LDAP, Kerberos, and NTLM without customer-managed domain controllers."
+        },
+        {
+          "id": "d",
+          "text": "Role definition: Microsoft cloud-based identity and access management service."
+        },
+        {
+          "id": "e",
+          "text": "Role definition: a collection of permitted management actions such as read, write, or delete operations."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: Security principal — the user, group, service principal, or managed identity receiving a role assignment; and Role definition — a collection of permitted management actions such as read, write, or delete operations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "tf-0425",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "question": "Azure RBAC is an authorization system that controls who can perform which actions on Azure resources and at what scope.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure RBAC is an authorization system that controls who can perform which actions on Azure resources and at what scope.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "tf-0426",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "question": "According to this unit: Security principal is the combination of a security principal, role definition, and scope.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Security principal is the user, group, service principal, or managed identity receiving a role assignment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "tf-0427",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "question": "For Azure fundamentals, Role definition is a collection of permitted management actions such as read, write, or delete operations.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Role definition is a collection of permitted management actions such as read, write, or delete operations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "tf-0428",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "question": "This statement is correct: Scope is a role assignment at a higher scope applying to child resources.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Scope is the level at which a role assignment applies, such as management group, subscription, resource group, or resource.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "tf-0429",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "question": "The unit supports the following statement: Role assignment is the combination of a security principal, role definition, and scope.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Role assignment is the combination of a security principal, role definition, and scope.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "sc-0850",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "scenario": "The organization is reviewing the topic “Describe Azure role-based access control” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: an authorization system that controls who can perform which actions on Azure resources and at what scope. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Least-privilege external access"
+        },
+        {
+          "id": "b",
+          "text": "Azure RBAC"
+        },
+        {
+          "id": "c",
+          "text": "Require compliant device"
+        },
+        {
+          "id": "d",
+          "text": "Scope"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure RBAC is the best match because it is an authorization system that controls who can perform which actions on Azure resources and at what scope.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "sc-0851",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "scenario": "The organization is reviewing the topic “Describe Azure role-based access control” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs the user, group, service principal, or managed identity receiving a role assignment. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Security principal"
+        },
+        {
+          "id": "b",
+          "text": "Customer identity access"
+        },
+        {
+          "id": "c",
+          "text": "Multicloud security"
+        },
+        {
+          "id": "d",
+          "text": "Microsoft Entra Domain Services"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Security principal is the best match because it is the user, group, service principal, or managed identity receiving a role assignment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "sc-0852",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "scenario": "The organization is reviewing the topic “Describe Azure role-based access control” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: a collection of permitted management actions such as read, write, or delete operations. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Require compliant device"
+        },
+        {
+          "id": "b",
+          "text": "Layered mitigation"
+        },
+        {
+          "id": "c",
+          "text": "Role definition"
+        },
+        {
+          "id": "d",
+          "text": "Identity signal"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Role definition is the best match because it is a collection of permitted management actions such as read, write, or delete operations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "sc-0853",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "scenario": "The organization is reviewing the topic “Describe Azure role-based access control” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: the level at which a role assignment applies, such as management group, subscription, resource group, or resource. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Continuous evaluation"
+        },
+        {
+          "id": "b",
+          "text": "Scope"
+        },
+        {
+          "id": "c",
+          "text": "External ID"
+        },
+        {
+          "id": "d",
+          "text": "Physical security layer"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Scope is the best match because it is the level at which a role assignment applies, such as management group, subscription, resource group, or resource.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "sc-0854",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "scenario": "The organization is reviewing the topic “Describe Azure role-based access control” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants the combination of a security principal, role definition, and scope. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Security recommendations"
+        },
+        {
+          "id": "b",
+          "text": "Role assignment"
+        },
+        {
+          "id": "c",
+          "text": "Block access"
+        },
+        {
+          "id": "d",
+          "text": "Zero Trust"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Role assignment is the best match because it is the combination of a security principal, role definition, and scope.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "sc-0855",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "scenario": "The organization is reviewing the topic “Describe Azure role-based access control” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for granting only the permissions needed to perform required tasks. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Least-privilege access"
+        },
+        {
+          "id": "b",
+          "text": "Single sign-on (SSO)"
+        },
+        {
+          "id": "c",
+          "text": "Microsoft Entra Connect"
+        },
+        {
+          "id": "d",
+          "text": "Least privilege"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Least privilege is the best match because it is granting only the permissions needed to perform required tasks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "sc-0856",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "scenario": "The organization is reviewing the topic “Describe Azure role-based access control” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for a role assignment at a higher scope applying to child resources. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Layered mitigation"
+        },
+        {
+          "id": "b",
+          "text": "Identity and access layer"
+        },
+        {
+          "id": "c",
+          "text": "Inherited RBAC permission"
+        },
+        {
+          "id": "d",
+          "text": "Role assignment"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Inherited RBAC permission is the best match because it is a role assignment at a higher scope applying to child resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "sc-0857",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "scenario": "The organization is reviewing the topic “Describe Azure role-based access control” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is an authorization system that controls who can perform which actions on Azure resources and at what scope. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "FIDO2 security key"
+        },
+        {
+          "id": "b",
+          "text": "Inherited RBAC permission"
+        },
+        {
+          "id": "c",
+          "text": "Azure RBAC"
+        },
+        {
+          "id": "d",
+          "text": "Perimeter layer"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure RBAC is the best match because it is an authorization system that controls who can perform which actions on Azure resources and at what scope.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "sc-0858",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "scenario": "The organization is reviewing the topic “Describe Azure role-based access control” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as the user, group, service principal, or managed identity receiving a role assignment. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Application signal"
+        },
+        {
+          "id": "b",
+          "text": "Security principal"
+        },
+        {
+          "id": "c",
+          "text": "Security posture management"
+        },
+        {
+          "id": "d",
+          "text": "Microsoft-managed key"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Security principal is the best match because it is the user, group, service principal, or managed identity receiving a role assignment.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "sc-0859",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "scenario": "The organization is reviewing the topic “Describe Azure role-based access control” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides a collection of permitted management actions such as read, write, or delete operations. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Role definition"
+        },
+        {
+          "id": "b",
+          "text": "Azure Key Vault"
+        },
+        {
+          "id": "c",
+          "text": "Continuous evaluation"
+        },
+        {
+          "id": "d",
+          "text": "Role assignment"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Role definition is the best match because it is a collection of permitted management actions such as read, write, or delete operations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "match-0425",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure RBAC"
+        },
+        {
+          "id": "l2",
+          "text": "Security principal"
+        },
+        {
+          "id": "l3",
+          "text": "Role definition"
+        },
+        {
+          "id": "l4",
+          "text": "Scope"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "The user, group, service principal, or managed identity receiving a role assignment"
+        },
+        {
+          "id": "r3",
+          "text": "A collection of permitted management actions such as read, write, or delete operations"
+        },
+        {
+          "id": "r1",
+          "text": "An authorization system that controls who can perform which actions on Azure resources and at what scope"
+        },
+        {
+          "id": "r4",
+          "text": "The level at which a role assignment applies, such as management group, subscription, resource group, or resource"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l3": "r3",
+        "l1": "r1",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "match-0426",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Role definition"
+        },
+        {
+          "id": "l2",
+          "text": "Scope"
+        },
+        {
+          "id": "l3",
+          "text": "Role assignment"
+        },
+        {
+          "id": "l4",
+          "text": "Least privilege"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A collection of permitted management actions such as read, write, or delete operations"
+        },
+        {
+          "id": "r3",
+          "text": "The combination of a security principal, role definition, and scope"
+        },
+        {
+          "id": "r2",
+          "text": "The level at which a role assignment applies, such as management group, subscription, resource group, or resource"
+        },
+        {
+          "id": "r4",
+          "text": "Granting only the permissions needed to perform required tasks"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l3": "r3",
+        "l2": "r2",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "match-0427",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Role assignment"
+        },
+        {
+          "id": "l2",
+          "text": "Least privilege"
+        },
+        {
+          "id": "l3",
+          "text": "Inherited RBAC permission"
+        },
+        {
+          "id": "l4",
+          "text": "Azure RBAC"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "An authorization system that controls who can perform which actions on Azure resources and at what scope"
+        },
+        {
+          "id": "r2",
+          "text": "Granting only the permissions needed to perform required tasks"
+        },
+        {
+          "id": "r3",
+          "text": "A role assignment at a higher scope applying to child resources"
+        },
+        {
+          "id": "r1",
+          "text": "The combination of a security principal, role definition, and scope"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l2": "r2",
+        "l3": "r3",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "match-0428",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Inherited RBAC permission"
+        },
+        {
+          "id": "l2",
+          "text": "Azure RBAC"
+        },
+        {
+          "id": "l3",
+          "text": "Security principal"
+        },
+        {
+          "id": "l4",
+          "text": "Role definition"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A role assignment at a higher scope applying to child resources"
+        },
+        {
+          "id": "r3",
+          "text": "The user, group, service principal, or managed identity receiving a role assignment"
+        },
+        {
+          "id": "r2",
+          "text": "An authorization system that controls who can perform which actions on Azure resources and at what scope"
+        },
+        {
+          "id": "r4",
+          "text": "A collection of permitted management actions such as read, write, or delete operations"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l3": "r3",
+        "l2": "r2",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "match-0429",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Security principal"
+        },
+        {
+          "id": "l2",
+          "text": "Role definition"
+        },
+        {
+          "id": "l3",
+          "text": "Scope"
+        },
+        {
+          "id": "l4",
+          "text": "Role assignment"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "The user, group, service principal, or managed identity receiving a role assignment"
+        },
+        {
+          "id": "r2",
+          "text": "A collection of permitted management actions such as read, write, or delete operations"
+        },
+        {
+          "id": "r3",
+          "text": "The level at which a role assignment applies, such as management group, subscription, resource group, or resource"
+        },
+        {
+          "id": "r4",
+          "text": "The combination of a security principal, role definition, and scope"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "fill-0425",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "question": "{{answer}} is a collection of permitted management actions such as read, write, or delete operations.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Microsoft Entra Domain Services",
+            "Layered mitigation",
+            "Data layer",
+            "Role definition"
+          ],
+          "correctAnswer": "Role definition"
+        }
+      ],
+      "explanation": "Role definition is a collection of permitted management actions such as read, write, or delete operations.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "fill-0426",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "question": "The term for the level at which a role assignment applies, such as management group, subscription, resource group, or resource is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Zero Trust",
+            "Scope",
+            "Regulatory compliance dashboard",
+            "Azure RBAC"
+          ],
+          "correctAnswer": "Scope"
+        }
+      ],
+      "explanation": "Scope is the level at which a role assignment applies, such as management group, subscription, resource group, or resource.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "fill-0427",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "question": "In this unit, {{answer}} refers to the combination of a security principal, role definition, and scope.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Role assignment",
+            "One-way managed-domain synchronization",
+            "Require MFA",
+            "External identity"
+          ],
+          "correctAnswer": "Role assignment"
+        }
+      ],
+      "explanation": "Role assignment is the combination of a security principal, role definition, and scope.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "fill-0428",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "question": "For AZ-900, the concept described as granting only the permissions needed to perform required tasks is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Least privilege",
+            "Single sign-on (SSO)",
+            "Verify explicitly",
+            "Multicloud security"
+          ],
+          "correctAnswer": "Least privilege"
+        }
+      ],
+      "explanation": "Least privilege is granting only the permissions needed to perform required tasks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    },
+    {
+      "id": "fill-0429",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure identity, access, and security",
+      "description": "Microsoft Learn unit: Describe Azure role-based access control",
+      "question": "Choose the term that completes the statement: {{answer}} means a role assignment at a higher scope applying to child resources.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Multicloud security",
+            "Device signal",
+            "Inherited RBAC permission",
+            "Cross-tenant collaboration"
+          ],
+          "correctAnswer": "Inherited RBAC permission"
+        }
+      ],
+      "explanation": "Inherited RBAC permission is a role assignment at a higher scope applying to child resources.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control"
+    }
+  ]
+}

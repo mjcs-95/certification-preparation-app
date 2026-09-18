@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe the core architectural components of Azure · Describe Azure management infrastructure",
+  "questions": [
+    {
+      "id": "mc-0265",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "question": "Which statement best describes Azure resource?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The worldwide infrastructure that enables Azure services to be deployed close to users and across regions"
+        },
+        {
+          "id": "b",
+          "text": "A physically separate datacenter location within an Azure region with independent power, cooling, and networking"
+        },
+        {
+          "id": "c",
+          "text": "The basic Azure object that you create, provision, or deploy, such as a VM, database, or virtual network"
+        },
+        {
+          "id": "d",
+          "text": "A geographic area containing one or more nearby datacenters connected with low-latency networking"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure resource is the basic Azure object that you create, provision, or deploy, such as a VM, database, or virtual network.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "mc-0266",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "question": "In the context of this Microsoft Learn unit, what does Resource group refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A logical container in which every Azure resource belongs to exactly one group at a time"
+        },
+        {
+          "id": "b",
+          "text": "Database services that reduce the need to operate the underlying database infrastructure manually"
+        },
+        {
+          "id": "c",
+          "text": "An isolated Azure environment designed for specific legal, government, or compliance requirements"
+        },
+        {
+          "id": "d",
+          "text": "A scope above subscriptions used to apply governance and access across multiple subscriptions"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Resource group is a logical container in which every Azure resource belongs to exactly one group at a time.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "mc-0267",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "question": "Which description correctly matches Resource-group deletion?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The identity relationship used to access Azure and own one or more subscriptions"
+        },
+        {
+          "id": "b",
+          "text": "Using subscription scope to apply different permissions or policies to different environments"
+        },
+        {
+          "id": "c",
+          "text": "A service that replicates across availability zones within a region"
+        },
+        {
+          "id": "d",
+          "text": "An operation that deletes the resources contained in that resource group"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Resource-group deletion is an operation that deletes the resources contained in that resource group.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "mc-0268",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "question": "Which of the following is the best definition of Azure subscription boundary?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Removing resources you no longer need to avoid unexpected charges"
+        },
+        {
+          "id": "b",
+          "text": "Policies and access assignments at a management-group scope flowing down to child scopes"
+        },
+        {
+          "id": "c",
+          "text": "A billing, management, and access-control boundary containing resource groups"
+        },
+        {
+          "id": "d",
+          "text": "A student offer that provides credit and developer benefits without requiring a credit card for sign-up"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure subscription boundary is a billing, management, and access-control boundary containing resource groups.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "mc-0269",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "question": "What is the primary meaning of Billing boundary in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Using separate subscriptions to produce distinct cost tracking and billing reports"
+        },
+        {
+          "id": "b",
+          "text": "A logical unit that provides access to Azure products and services and acts as a billing and management boundary"
+        },
+        {
+          "id": "c",
+          "text": "An operation that deletes the resources contained in that resource group"
+        },
+        {
+          "id": "d",
+          "text": "A physically separate datacenter location within an Azure region with independent power, cooling, and networking"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Billing boundary is using separate subscriptions to produce distinct cost tracking and billing reports.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "mr-0265",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Resource group: a logical container in which every Azure resource belongs to exactly one group at a time."
+        },
+        {
+          "id": "b",
+          "text": "Azure resource: a billing, management, and access-control boundary containing resource groups."
+        },
+        {
+          "id": "c",
+          "text": "Resource group: a scope above subscriptions used to apply governance and access across multiple subscriptions."
+        },
+        {
+          "id": "d",
+          "text": "Azure resource: the basic Azure object that you create, provision, or deploy, such as a VM, database, or virtual network."
+        },
+        {
+          "id": "e",
+          "text": "Resource-group deletion: a global cloud platform with services for building, managing, and deploying applications and infrastructure."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Azure resource — the basic Azure object that you create, provision, or deploy, such as a VM, database, or virtual network; and Resource group — a logical container in which every Azure resource belongs to exactly one group at a time.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "mr-0266",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure subscription boundary: policies and access assignments at a management-group scope flowing down to child scopes."
+        },
+        {
+          "id": "b",
+          "text": "Azure subscription boundary: an Azure compute option for running existing or custom server workloads."
+        },
+        {
+          "id": "c",
+          "text": "Azure subscription boundary: a billing, management, and access-control boundary containing resource groups."
+        },
+        {
+          "id": "d",
+          "text": "Resource-group deletion: using subscription scope to apply different permissions or policies to different environments."
+        },
+        {
+          "id": "e",
+          "text": "Resource-group deletion: an operation that deletes the resources contained in that resource group."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "e"
+      ],
+      "explanation": "The correct pair is: Resource-group deletion — an operation that deletes the resources contained in that resource group; and Azure subscription boundary — a billing, management, and access-control boundary containing resource groups.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "mr-0267",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Billing boundary: using separate subscriptions to produce distinct cost tracking and billing reports."
+        },
+        {
+          "id": "b",
+          "text": "Billing boundary: database services that reduce the need to operate the underlying database infrastructure manually."
+        },
+        {
+          "id": "c",
+          "text": "Billing boundary: the top-level management group associated with a Microsoft Entra tenant."
+        },
+        {
+          "id": "d",
+          "text": "Access-control boundary: an Azure compute option for running existing or custom server workloads."
+        },
+        {
+          "id": "e",
+          "text": "Access-control boundary: using subscription scope to apply different permissions or policies to different environments."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "e"
+      ],
+      "explanation": "The correct pair is: Billing boundary — using separate subscriptions to produce distinct cost tracking and billing reports; and Access-control boundary — using subscription scope to apply different permissions or policies to different environments.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "mr-0268",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tenant Root Group: the top-level management group associated with a Microsoft Entra tenant."
+        },
+        {
+          "id": "b",
+          "text": "Management group: a scope above subscriptions used to apply governance and access across multiple subscriptions."
+        },
+        {
+          "id": "c",
+          "text": "Access-control boundary: prebuilt cloud AI capabilities that can add intelligent features to applications."
+        },
+        {
+          "id": "d",
+          "text": "Management group: a global cloud platform with services for building, managing, and deploying applications and infrastructure."
+        },
+        {
+          "id": "e",
+          "text": "Tenant Root Group: prebuilt cloud AI capabilities that can add intelligent features to applications."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Management group — a scope above subscriptions used to apply governance and access across multiple subscriptions; and Tenant Root Group — the top-level management group associated with a Microsoft Entra tenant.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "mr-0269",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Management-group inheritance: policies and access assignments at a management-group scope flowing down to child scopes."
+        },
+        {
+          "id": "b",
+          "text": "Management-group inheritance: database services that reduce the need to operate the underlying database infrastructure manually."
+        },
+        {
+          "id": "c",
+          "text": "Azure resource: using subscription scope to apply different permissions or policies to different environments."
+        },
+        {
+          "id": "d",
+          "text": "Azure resource: the basic Azure object that you create, provision, or deploy, such as a VM, database, or virtual network."
+        },
+        {
+          "id": "e",
+          "text": "Management group: an Azure service for generative AI scenarios such as chat and content generation."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Management-group inheritance — policies and access assignments at a management-group scope flowing down to child scopes; and Azure resource — the basic Azure object that you create, provision, or deploy, such as a VM, database, or virtual network.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "tf-0265",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "question": "Azure resource is the basic Azure object that you create, provision, or deploy, such as a VM, database, or virtual network.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure resource is the basic Azure object that you create, provision, or deploy, such as a VM, database, or virtual network.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "tf-0266",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "question": "According to this unit: Resource group is using separate subscriptions to produce distinct cost tracking and billing reports.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Resource group is a logical container in which every Azure resource belongs to exactly one group at a time.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "tf-0267",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "question": "For Azure fundamentals, Resource-group deletion is an operation that deletes the resources contained in that resource group.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Resource-group deletion is an operation that deletes the resources contained in that resource group.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "tf-0268",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "question": "This statement is correct: Azure subscription boundary is a scope above subscriptions used to apply governance and access across multiple subscriptions.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Azure subscription boundary is a billing, management, and access-control boundary containing resource groups.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "tf-0269",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "question": "The unit supports the following statement: Billing boundary is using separate subscriptions to produce distinct cost tracking and billing reports.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Billing boundary is using separate subscriptions to produce distinct cost tracking and billing reports.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "sc-0530",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "scenario": "The organization is reviewing the topic “Describe Azure management infrastructure” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: the basic Azure object that you create, provision, or deploy, such as a VM, database, or virtual network. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure resource"
+        },
+        {
+          "id": "b",
+          "text": "Azure OpenAI Service"
+        },
+        {
+          "id": "c",
+          "text": "Azure region"
+        },
+        {
+          "id": "d",
+          "text": "Non-regional service"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure resource is the best match because it is the basic Azure object that you create, provision, or deploy, such as a VM, database, or virtual network.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "sc-0531",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "scenario": "The organization is reviewing the topic “Describe Azure management infrastructure” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs a logical container in which every Azure resource belongs to exactly one group at a time. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure region"
+        },
+        {
+          "id": "b",
+          "text": "Access-control boundary"
+        },
+        {
+          "id": "c",
+          "text": "Resource group"
+        },
+        {
+          "id": "d",
+          "text": "Azure resource"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Resource group is the best match because it is a logical container in which every Azure resource belongs to exactly one group at a time.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "sc-0532",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "scenario": "The organization is reviewing the topic “Describe Azure management infrastructure” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: an operation that deletes the resources contained in that resource group. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zone-redundant service"
+        },
+        {
+          "id": "b",
+          "text": "Resource-group deletion"
+        },
+        {
+          "id": "c",
+          "text": "Resource group"
+        },
+        {
+          "id": "d",
+          "text": "Azure AI services"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Resource-group deletion is the best match because it is an operation that deletes the resources contained in that resource group.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "sc-0533",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "scenario": "The organization is reviewing the topic “Describe Azure management infrastructure” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: a billing, management, and access-control boundary containing resource groups. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure subscription boundary"
+        },
+        {
+          "id": "b",
+          "text": "Azure AI services"
+        },
+        {
+          "id": "c",
+          "text": "Azure OpenAI Service"
+        },
+        {
+          "id": "d",
+          "text": "Region pair"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure subscription boundary is the best match because it is a billing, management, and access-control boundary containing resource groups.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "sc-0534",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "scenario": "The organization is reviewing the topic “Describe Azure management infrastructure” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants using separate subscriptions to produce distinct cost tracking and billing reports. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Billing boundary"
+        },
+        {
+          "id": "b",
+          "text": "Zone-redundant service"
+        },
+        {
+          "id": "c",
+          "text": "Region pair"
+        },
+        {
+          "id": "d",
+          "text": "Azure account"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Billing boundary is the best match because it is using separate subscriptions to produce distinct cost tracking and billing reports.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "sc-0535",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "scenario": "The organization is reviewing the topic “Describe Azure management infrastructure” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for using subscription scope to apply different permissions or policies to different environments. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zone-redundant service"
+        },
+        {
+          "id": "b",
+          "text": "Access-control boundary"
+        },
+        {
+          "id": "c",
+          "text": "Managed databases"
+        },
+        {
+          "id": "d",
+          "text": "Azure Machine Learning"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Access-control boundary is the best match because it is using subscription scope to apply different permissions or policies to different environments.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "sc-0536",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "scenario": "The organization is reviewing the topic “Describe Azure management infrastructure” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for a scope above subscriptions used to apply governance and access across multiple subscriptions. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Managed databases"
+        },
+        {
+          "id": "b",
+          "text": "Access-control boundary"
+        },
+        {
+          "id": "c",
+          "text": "Zonal service"
+        },
+        {
+          "id": "d",
+          "text": "Management group"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Management group is the best match because it is a scope above subscriptions used to apply governance and access across multiple subscriptions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "sc-0537",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "scenario": "The organization is reviewing the topic “Describe Azure management infrastructure” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is the top-level management group associated with a Microsoft Entra tenant. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tenant Root Group"
+        },
+        {
+          "id": "b",
+          "text": "Azure region"
+        },
+        {
+          "id": "c",
+          "text": "Azure datacenter"
+        },
+        {
+          "id": "d",
+          "text": "Resource creation"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Tenant Root Group is the best match because it is the top-level management group associated with a Microsoft Entra tenant.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "sc-0538",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "scenario": "The organization is reviewing the topic “Describe Azure management infrastructure” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as policies and access assignments at a management-group scope flowing down to child scopes. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microsoft Azure"
+        },
+        {
+          "id": "b",
+          "text": "Management-group inheritance"
+        },
+        {
+          "id": "c",
+          "text": "Azure free account"
+        },
+        {
+          "id": "d",
+          "text": "Cloud Solution Provider partner"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Management-group inheritance is the best match because it is policies and access assignments at a management-group scope flowing down to child scopes.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "sc-0539",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "scenario": "The organization is reviewing the topic “Describe Azure management infrastructure” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides the basic Azure object that you create, provision, or deploy, such as a VM, database, or virtual network. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure resource"
+        },
+        {
+          "id": "b",
+          "text": "Azure datacenter"
+        },
+        {
+          "id": "c",
+          "text": "Azure free account"
+        },
+        {
+          "id": "d",
+          "text": "Zone-redundant service"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Azure resource is the best match because it is the basic Azure object that you create, provision, or deploy, such as a VM, database, or virtual network.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "match-0265",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure resource"
+        },
+        {
+          "id": "l2",
+          "text": "Resource group"
+        },
+        {
+          "id": "l3",
+          "text": "Resource-group deletion"
+        },
+        {
+          "id": "l4",
+          "text": "Azure subscription boundary"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "A billing, management, and access-control boundary containing resource groups"
+        },
+        {
+          "id": "r1",
+          "text": "The basic Azure object that you create, provision, or deploy, such as a VM, database, or virtual network"
+        },
+        {
+          "id": "r3",
+          "text": "An operation that deletes the resources contained in that resource group"
+        },
+        {
+          "id": "r2",
+          "text": "A logical container in which every Azure resource belongs to exactly one group at a time"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l1": "r1",
+        "l3": "r3",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "match-0266",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Resource-group deletion"
+        },
+        {
+          "id": "l2",
+          "text": "Azure subscription boundary"
+        },
+        {
+          "id": "l3",
+          "text": "Billing boundary"
+        },
+        {
+          "id": "l4",
+          "text": "Access-control boundary"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "A billing, management, and access-control boundary containing resource groups"
+        },
+        {
+          "id": "r1",
+          "text": "An operation that deletes the resources contained in that resource group"
+        },
+        {
+          "id": "r4",
+          "text": "Using subscription scope to apply different permissions or policies to different environments"
+        },
+        {
+          "id": "r3",
+          "text": "Using separate subscriptions to produce distinct cost tracking and billing reports"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l1": "r1",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "match-0267",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Billing boundary"
+        },
+        {
+          "id": "l2",
+          "text": "Access-control boundary"
+        },
+        {
+          "id": "l3",
+          "text": "Management group"
+        },
+        {
+          "id": "l4",
+          "text": "Tenant Root Group"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A scope above subscriptions used to apply governance and access across multiple subscriptions"
+        },
+        {
+          "id": "r4",
+          "text": "The top-level management group associated with a Microsoft Entra tenant"
+        },
+        {
+          "id": "r1",
+          "text": "Using separate subscriptions to produce distinct cost tracking and billing reports"
+        },
+        {
+          "id": "r2",
+          "text": "Using subscription scope to apply different permissions or policies to different environments"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l1": "r1",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "match-0268",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Management group"
+        },
+        {
+          "id": "l2",
+          "text": "Tenant Root Group"
+        },
+        {
+          "id": "l3",
+          "text": "Management-group inheritance"
+        },
+        {
+          "id": "l4",
+          "text": "Azure resource"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Policies and access assignments at a management-group scope flowing down to child scopes"
+        },
+        {
+          "id": "r2",
+          "text": "The top-level management group associated with a Microsoft Entra tenant"
+        },
+        {
+          "id": "r4",
+          "text": "The basic Azure object that you create, provision, or deploy, such as a VM, database, or virtual network"
+        },
+        {
+          "id": "r1",
+          "text": "A scope above subscriptions used to apply governance and access across multiple subscriptions"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l2": "r2",
+        "l4": "r4",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "match-0269",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Management-group inheritance"
+        },
+        {
+          "id": "l2",
+          "text": "Azure resource"
+        },
+        {
+          "id": "l3",
+          "text": "Resource group"
+        },
+        {
+          "id": "l4",
+          "text": "Resource-group deletion"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "A logical container in which every Azure resource belongs to exactly one group at a time"
+        },
+        {
+          "id": "r4",
+          "text": "An operation that deletes the resources contained in that resource group"
+        },
+        {
+          "id": "r2",
+          "text": "The basic Azure object that you create, provision, or deploy, such as a VM, database, or virtual network"
+        },
+        {
+          "id": "r1",
+          "text": "Policies and access assignments at a management-group scope flowing down to child scopes"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "fill-0265",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "question": "{{answer}} is an operation that deletes the resources contained in that resource group.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Workload modernization",
+            "Resource group",
+            "Azure AI services",
+            "Resource-group deletion"
+          ],
+          "correctAnswer": "Resource-group deletion"
+        }
+      ],
+      "explanation": "Resource-group deletion is an operation that deletes the resources contained in that resource group.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "fill-0266",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "question": "The term for a billing, management, and access-control boundary containing resource groups is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure subscription boundary",
+            "Azure subscription",
+            "Azure for Students",
+            "Multiple subscriptions"
+          ],
+          "correctAnswer": "Azure subscription boundary"
+        }
+      ],
+      "explanation": "Azure subscription boundary is a billing, management, and access-control boundary containing resource groups.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "fill-0267",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "question": "In this unit, {{answer}} refers to using separate subscriptions to produce distinct cost tracking and billing reports.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure subscription",
+            "Billing boundary",
+            "Azure datacenter",
+            "Azure region"
+          ],
+          "correctAnswer": "Billing boundary"
+        }
+      ],
+      "explanation": "Billing boundary is using separate subscriptions to produce distinct cost tracking and billing reports.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "fill-0268",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "question": "For AZ-900, the concept described as using subscription scope to apply different permissions or policies to different environments is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Access-control boundary",
+            "Zonal service",
+            "Azure global network",
+            "Managed databases"
+          ],
+          "correctAnswer": "Access-control boundary"
+        }
+      ],
+      "explanation": "Access-control boundary is using subscription scope to apply different permissions or policies to different environments.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    },
+    {
+      "id": "fill-0269",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe the core architectural components of Azure",
+      "description": "Microsoft Learn unit: Describe Azure management infrastructure",
+      "question": "Choose the term that completes the statement: {{answer}} means a scope above subscriptions used to apply governance and access across multiple subscriptions.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Management group",
+            "Azure datacenter",
+            "Availability Zone",
+            "Zonal service"
+          ],
+          "correctAnswer": "Management group"
+        }
+      ],
+      "explanation": "Management group is a scope above subscriptions used to apply governance and access across multiple subscriptions.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure"
+    }
+  ]
+}

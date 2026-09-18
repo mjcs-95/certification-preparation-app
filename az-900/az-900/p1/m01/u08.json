@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe cloud computing · Summary",
+  "questions": [
+    {
+      "id": "mc-0035",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Which statement best describes Microsoft Azure?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The cloud provider is responsible for the physical hosts"
+        },
+        {
+          "id": "b",
+          "text": "Examples of cloud capabilities that extend beyond traditional compute, storage, databases, and networking"
+        },
+        {
+          "id": "c",
+          "text": "The use of services from two or more public cloud providers"
+        },
+        {
+          "id": "d",
+          "text": "A cloud computing platform that provides services for compute, storage, networking, databases, AI, IoT, and more"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Microsoft Azure is a cloud computing platform that provides services for compute, storage, networking, databases, AI, IoT, and more.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "mc-0036",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "In the context of this Microsoft Learn unit, what does Azure Fundamentals refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Allocating too little capacity, which can cause performance or availability problems"
+        },
+        {
+          "id": "b",
+          "text": "A beginner-oriented series that introduces Azure services, cloud concepts, governance, and management"
+        },
+        {
+          "id": "c",
+          "text": "The ability to provision and deprovision resources quickly without purchasing new datacenter hardware"
+        },
+        {
+          "id": "d",
+          "text": "A model in which you pay for the IT resources you use and can release them when they are no longer needed"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Fundamentals is a beginner-oriented series that introduces Azure services, cloud concepts, governance, and management.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "mc-0037",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Which description correctly matches Describe cloud concepts?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Removing resource instances when demand falls"
+        },
+        {
+          "id": "b",
+          "text": "Adding more resource instances when demand increases"
+        },
+        {
+          "id": "c",
+          "text": "The cloud provider is responsible for the physical datacenter"
+        },
+        {
+          "id": "d",
+          "text": "An AZ-900 domain covering general cloud ideas and accounting for roughly 25–30% of the exam"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Describe cloud concepts is an AZ-900 domain covering general cloud ideas and accounting for roughly 25–30% of the exam.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "mc-0038",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Which of the following is the best definition of Describe Azure architecture and services?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The delivery of computing services over the internet"
+        },
+        {
+          "id": "b",
+          "text": "The cloud service model that places the largest share of application-stack responsibility on the provider"
+        },
+        {
+          "id": "c",
+          "text": "An AZ-900 domain covering Azure infrastructure and services and accounting for roughly 35–40% of the exam"
+        },
+        {
+          "id": "d",
+          "text": "An AZ-900 domain covering management, monitoring, cost, and governance and accounting for roughly 30–35% of the exam"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Describe Azure architecture and services is an AZ-900 domain covering Azure infrastructure and services and accounting for roughly 35–40% of the exam.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "mc-0039",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "What is the primary meaning of Describe Azure management and governance in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An AZ-900 domain covering management, monitoring, cost, and governance and accounting for roughly 30–35% of the exam"
+        },
+        {
+          "id": "b",
+          "text": "The cloud provider is responsible for the physical network infrastructure"
+        },
+        {
+          "id": "c",
+          "text": "Internet-delivered storage capacity that can expand without building a new datacenter"
+        },
+        {
+          "id": "d",
+          "text": "The cloud provider is responsible for the physical hosts"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Describe Azure management and governance is an AZ-900 domain covering management, monitoring, cost, and governance and accounting for roughly 30–35% of the exam.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "mr-0035",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Fundamentals: a beginner-oriented series that introduces Azure services, cloud concepts, governance, and management."
+        },
+        {
+          "id": "b",
+          "text": "Microsoft Azure: an AZ-900 domain covering Azure infrastructure and services and accounting for roughly 35–40% of the exam."
+        },
+        {
+          "id": "c",
+          "text": "Describe cloud concepts: internet-delivered storage capacity that can expand without building a new datacenter."
+        },
+        {
+          "id": "d",
+          "text": "Azure Fundamentals: helpful background for Azure Fundamentals even though prior technical IT experience is not required."
+        },
+        {
+          "id": "e",
+          "text": "Microsoft Azure: a cloud computing platform that provides services for compute, storage, networking, databases, AI, IoT, and more."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "e"
+      ],
+      "explanation": "The correct pair is: Microsoft Azure — a cloud computing platform that provides services for compute, storage, networking, databases, AI, IoT, and more; and Azure Fundamentals — a beginner-oriented series that introduces Azure services, cloud concepts, governance, and management.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "mr-0036",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Describe Azure architecture and services: an AZ-900 domain covering Azure infrastructure and services and accounting for roughly 35–40% of the exam."
+        },
+        {
+          "id": "b",
+          "text": "Describe Azure architecture and services: the ability to obtain computing capacity rapidly instead of waiting for physical infrastructure procurement."
+        },
+        {
+          "id": "c",
+          "text": "Describe cloud concepts: the Microsoft Azure Fundamentals certification exam that Azure Fundamentals learning paths help prepare you for."
+        },
+        {
+          "id": "d",
+          "text": "Describe Azure architecture and services: compute resources that can be delivered as cloud services instead of requiring local physical servers."
+        },
+        {
+          "id": "e",
+          "text": "Describe cloud concepts: an AZ-900 domain covering general cloud ideas and accounting for roughly 25–30% of the exam."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "e"
+      ],
+      "explanation": "The correct pair is: Describe cloud concepts — an AZ-900 domain covering general cloud ideas and accounting for roughly 25–30% of the exam; and Describe Azure architecture and services — an AZ-900 domain covering Azure infrastructure and services and accounting for roughly 35–40% of the exam.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "mr-0037",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Describe Azure management and governance: the ability to place services closer to users and design regional resilience without building your own worldwide datacenters."
+        },
+        {
+          "id": "b",
+          "text": "Describe Azure management and governance: an AZ-900 domain covering management, monitoring, cost, and governance and accounting for roughly 30–35% of the exam."
+        },
+        {
+          "id": "c",
+          "text": "AZ-900: the ability to obtain computing capacity rapidly instead of waiting for physical infrastructure procurement."
+        },
+        {
+          "id": "d",
+          "text": "AZ-900: the Microsoft Azure Fundamentals certification exam that Azure Fundamentals learning paths help prepare you for."
+        },
+        {
+          "id": "e",
+          "text": "Describe Azure management and governance: the delivery of computing services over the internet."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: Describe Azure management and governance — an AZ-900 domain covering management, monitoring, cost, and governance and accounting for roughly 30–35% of the exam; and AZ-900 — the Microsoft Azure Fundamentals certification exam that Azure Fundamentals learning paths help prepare you for.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "mr-0038",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cloud computing: the delivery of computing services over the internet."
+        },
+        {
+          "id": "b",
+          "text": "General IT knowledge: internet-delivered storage capacity that can expand without building a new datacenter."
+        },
+        {
+          "id": "c",
+          "text": "AZ-900: the ability to add resources for periods of high demand and reduce them again when demand falls."
+        },
+        {
+          "id": "d",
+          "text": "General IT knowledge: helpful background for Azure Fundamentals even though prior technical IT experience is not required."
+        },
+        {
+          "id": "e",
+          "text": "Cloud computing: the ability to add resources for periods of high demand and reduce them again when demand falls."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: General IT knowledge — helpful background for Azure Fundamentals even though prior technical IT experience is not required; and Cloud computing — the delivery of computing services over the internet.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "mr-0039",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Virtual machines: compute resources that can be delivered as cloud services instead of requiring local physical servers."
+        },
+        {
+          "id": "b",
+          "text": "Cloud storage: internet-delivered storage capacity that can expand without building a new datacenter."
+        },
+        {
+          "id": "c",
+          "text": "Virtual machines: the ability to place services closer to users and design regional resilience without building your own worldwide datacenters."
+        },
+        {
+          "id": "d",
+          "text": "Cloud storage: examples of cloud capabilities that extend beyond traditional compute, storage, databases, and networking."
+        },
+        {
+          "id": "e",
+          "text": "General IT knowledge: managed or hosted database capabilities delivered through a cloud platform."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Virtual machines — compute resources that can be delivered as cloud services instead of requiring local physical servers; and Cloud storage — internet-delivered storage capacity that can expand without building a new datacenter.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "tf-0035",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Microsoft Azure is a cloud computing platform that provides services for compute, storage, networking, databases, AI, IoT, and more.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Microsoft Azure is a cloud computing platform that provides services for compute, storage, networking, databases, AI, IoT, and more.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "tf-0036",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "According to this unit: Azure Fundamentals is an AZ-900 domain covering management, monitoring, cost, and governance and accounting for roughly 30–35% of the exam.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Azure Fundamentals is a beginner-oriented series that introduces Azure services, cloud concepts, governance, and management.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "tf-0037",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "For Azure fundamentals, Describe cloud concepts is an AZ-900 domain covering general cloud ideas and accounting for roughly 25–30% of the exam.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Describe cloud concepts is an AZ-900 domain covering general cloud ideas and accounting for roughly 25–30% of the exam.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "tf-0038",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "This statement is correct: Describe Azure architecture and services is helpful background for Azure Fundamentals even though prior technical IT experience is not required.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Describe Azure architecture and services is an AZ-900 domain covering Azure infrastructure and services and accounting for roughly 35–40% of the exam.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "tf-0039",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "The unit supports the following statement: Describe Azure management and governance is an AZ-900 domain covering management, monitoring, cost, and governance and accounting for roughly 30–35% of the exam.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Describe Azure management and governance is an AZ-900 domain covering management, monitoring, cost, and governance and accounting for roughly 30–35% of the exam.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "sc-0070",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a cloud computing platform that provides services for compute, storage, networking, databases, AI, IoT, and more. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cloud AI and IoT services"
+        },
+        {
+          "id": "b",
+          "text": "Customer identity responsibility"
+        },
+        {
+          "id": "c",
+          "text": "Microsoft Azure"
+        },
+        {
+          "id": "d",
+          "text": "Cloud databases"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Microsoft Azure is the best match because it is a cloud computing platform that provides services for compute, storage, networking, databases, AI, IoT, and more.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "sc-0071",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs a beginner-oriented series that introduces Azure services, cloud concepts, governance, and management. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure VMware Solution"
+        },
+        {
+          "id": "b",
+          "text": "Azure Fundamentals"
+        },
+        {
+          "id": "c",
+          "text": "Overprovisioning"
+        },
+        {
+          "id": "d",
+          "text": "Describe Azure architecture and services"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure Fundamentals is the best match because it is a beginner-oriented series that introduces Azure services, cloud concepts, governance, and management.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "sc-0072",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: an AZ-900 domain covering general cloud ideas and accounting for roughly 25–30% of the exam. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Describe cloud concepts"
+        },
+        {
+          "id": "b",
+          "text": "Public cloud"
+        },
+        {
+          "id": "c",
+          "text": "Capital expenditure (CapEx)"
+        },
+        {
+          "id": "d",
+          "text": "On-demand provisioning"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Describe cloud concepts is the best match because it is an AZ-900 domain covering general cloud ideas and accounting for roughly 25–30% of the exam.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "sc-0073",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: an AZ-900 domain covering Azure infrastructure and services and accounting for roughly 35–40% of the exam. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Provider physical datacenter responsibility"
+        },
+        {
+          "id": "b",
+          "text": "Azure VMware Solution"
+        },
+        {
+          "id": "c",
+          "text": "Describe Azure architecture and services"
+        },
+        {
+          "id": "d",
+          "text": "Pay-as-you-go"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Describe Azure architecture and services is the best match because it is an AZ-900 domain covering Azure infrastructure and services and accounting for roughly 35–40% of the exam.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "sc-0074",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants an AZ-900 domain covering management, monitoring, cost, and governance and accounting for roughly 30–35% of the exam. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pay-as-you-go"
+        },
+        {
+          "id": "b",
+          "text": "Virtual machines"
+        },
+        {
+          "id": "c",
+          "text": "Describe Azure management and governance"
+        },
+        {
+          "id": "d",
+          "text": "Global reach"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Describe Azure management and governance is the best match because it is an AZ-900 domain covering management, monitoring, cost, and governance and accounting for roughly 30–35% of the exam.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "sc-0075",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for the Microsoft Azure Fundamentals certification exam that Azure Fundamentals learning paths help prepare you for. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "PaaS responsibility model"
+        },
+        {
+          "id": "b",
+          "text": "AZ-900"
+        },
+        {
+          "id": "c",
+          "text": "Elastic capacity"
+        },
+        {
+          "id": "d",
+          "text": "Azure Fundamentals"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "AZ-900 is the best match because it is the Microsoft Azure Fundamentals certification exam that Azure Fundamentals learning paths help prepare you for.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "sc-0076",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for helpful background for Azure Fundamentals even though prior technical IT experience is not required. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pay-as-you-go"
+        },
+        {
+          "id": "b",
+          "text": "General IT knowledge"
+        },
+        {
+          "id": "c",
+          "text": "Underprovisioning"
+        },
+        {
+          "id": "d",
+          "text": "Global reach"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "General IT knowledge is the best match because it is helpful background for Azure Fundamentals even though prior technical IT experience is not required.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "sc-0077",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is the delivery of computing services over the internet. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cloud computing"
+        },
+        {
+          "id": "b",
+          "text": "Virtual machines"
+        },
+        {
+          "id": "c",
+          "text": "Provider physical datacenter responsibility"
+        },
+        {
+          "id": "d",
+          "text": "Cloud storage"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Cloud computing is the best match because it is the delivery of computing services over the internet.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "sc-0078",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as compute resources that can be delivered as cloud services instead of requiring local physical servers. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Customer identity responsibility"
+        },
+        {
+          "id": "b",
+          "text": "Describe Azure architecture and services"
+        },
+        {
+          "id": "c",
+          "text": "Describe cloud concepts"
+        },
+        {
+          "id": "d",
+          "text": "Virtual machines"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Virtual machines is the best match because it is compute resources that can be delivered as cloud services instead of requiring local physical servers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "sc-0079",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "scenario": "The organization is reviewing the topic “Summary” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides internet-delivered storage capacity that can expand without building a new datacenter. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Customer device responsibility"
+        },
+        {
+          "id": "b",
+          "text": "PaaS responsibility model"
+        },
+        {
+          "id": "c",
+          "text": "Cloud storage"
+        },
+        {
+          "id": "d",
+          "text": "Provider physical datacenter responsibility"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Cloud storage is the best match because it is internet-delivered storage capacity that can expand without building a new datacenter.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "match-0035",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Microsoft Azure"
+        },
+        {
+          "id": "l2",
+          "text": "Azure Fundamentals"
+        },
+        {
+          "id": "l3",
+          "text": "Describe cloud concepts"
+        },
+        {
+          "id": "l4",
+          "text": "Describe Azure architecture and services"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "An AZ-900 domain covering general cloud ideas and accounting for roughly 25–30% of the exam"
+        },
+        {
+          "id": "r2",
+          "text": "A beginner-oriented series that introduces Azure services, cloud concepts, governance, and management"
+        },
+        {
+          "id": "r1",
+          "text": "A cloud computing platform that provides services for compute, storage, networking, databases, AI, IoT, and more"
+        },
+        {
+          "id": "r4",
+          "text": "An AZ-900 domain covering Azure infrastructure and services and accounting for roughly 35–40% of the exam"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l2": "r2",
+        "l1": "r1",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "match-0036",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Describe cloud concepts"
+        },
+        {
+          "id": "l2",
+          "text": "Describe Azure architecture and services"
+        },
+        {
+          "id": "l3",
+          "text": "Describe Azure management and governance"
+        },
+        {
+          "id": "l4",
+          "text": "AZ-900"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "The Microsoft Azure Fundamentals certification exam that Azure Fundamentals learning paths help prepare you for"
+        },
+        {
+          "id": "r2",
+          "text": "An AZ-900 domain covering Azure infrastructure and services and accounting for roughly 35–40% of the exam"
+        },
+        {
+          "id": "r1",
+          "text": "An AZ-900 domain covering general cloud ideas and accounting for roughly 25–30% of the exam"
+        },
+        {
+          "id": "r3",
+          "text": "An AZ-900 domain covering management, monitoring, cost, and governance and accounting for roughly 30–35% of the exam"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "match-0037",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Describe Azure management and governance"
+        },
+        {
+          "id": "l2",
+          "text": "AZ-900"
+        },
+        {
+          "id": "l3",
+          "text": "General IT knowledge"
+        },
+        {
+          "id": "l4",
+          "text": "Cloud computing"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Helpful background for Azure Fundamentals even though prior technical IT experience is not required"
+        },
+        {
+          "id": "r2",
+          "text": "The Microsoft Azure Fundamentals certification exam that Azure Fundamentals learning paths help prepare you for"
+        },
+        {
+          "id": "r1",
+          "text": "An AZ-900 domain covering management, monitoring, cost, and governance and accounting for roughly 30–35% of the exam"
+        },
+        {
+          "id": "r4",
+          "text": "The delivery of computing services over the internet"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l2": "r2",
+        "l1": "r1",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "match-0038",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "General IT knowledge"
+        },
+        {
+          "id": "l2",
+          "text": "Cloud computing"
+        },
+        {
+          "id": "l3",
+          "text": "Virtual machines"
+        },
+        {
+          "id": "l4",
+          "text": "Cloud storage"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Helpful background for Azure Fundamentals even though prior technical IT experience is not required"
+        },
+        {
+          "id": "r3",
+          "text": "Compute resources that can be delivered as cloud services instead of requiring local physical servers"
+        },
+        {
+          "id": "r2",
+          "text": "The delivery of computing services over the internet"
+        },
+        {
+          "id": "r4",
+          "text": "Internet-delivered storage capacity that can expand without building a new datacenter"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l3": "r3",
+        "l2": "r2",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "match-0039",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Virtual machines"
+        },
+        {
+          "id": "l2",
+          "text": "Cloud storage"
+        },
+        {
+          "id": "l3",
+          "text": "On-demand provisioning"
+        },
+        {
+          "id": "l4",
+          "text": "Global reach"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Compute resources that can be delivered as cloud services instead of requiring local physical servers"
+        },
+        {
+          "id": "r2",
+          "text": "Internet-delivered storage capacity that can expand without building a new datacenter"
+        },
+        {
+          "id": "r3",
+          "text": "The ability to obtain computing capacity rapidly instead of waiting for physical infrastructure procurement"
+        },
+        {
+          "id": "r4",
+          "text": "The ability to place services closer to users and design regional resilience without building your own worldwide datacenters"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "fill-0035",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "{{answer}} is an AZ-900 domain covering general cloud ideas and accounting for roughly 25–30% of the exam.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Hybrid flexibility",
+            "Hybrid cloud",
+            "IaaS responsibility model",
+            "Describe cloud concepts"
+          ],
+          "correctAnswer": "Describe cloud concepts"
+        }
+      ],
+      "explanation": "Describe cloud concepts is an AZ-900 domain covering general cloud ideas and accounting for roughly 25–30% of the exam.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "fill-0036",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "The term for an AZ-900 domain covering Azure infrastructure and services and accounting for roughly 35–40% of the exam is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Consumption-based model",
+            "Describe Azure architecture and services",
+            "Underprovisioning",
+            "Overprovisioning"
+          ],
+          "correctAnswer": "Describe Azure architecture and services"
+        }
+      ],
+      "explanation": "Describe Azure architecture and services is an AZ-900 domain covering Azure infrastructure and services and accounting for roughly 35–40% of the exam.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "fill-0037",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "In this unit, {{answer}} refers to an AZ-900 domain covering management, monitoring, cost, and governance and accounting for roughly 30–35% of the exam.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Virtual machines",
+            "Elastic capacity",
+            "Global reach",
+            "Describe Azure management and governance"
+          ],
+          "correctAnswer": "Describe Azure management and governance"
+        }
+      ],
+      "explanation": "Describe Azure management and governance is an AZ-900 domain covering management, monitoring, cost, and governance and accounting for roughly 30–35% of the exam.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "fill-0038",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "For AZ-900, the concept described as the Microsoft Azure Fundamentals certification exam that Azure Fundamentals learning paths help prepare you for is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Cloud AI and IoT services",
+            "Elastic capacity",
+            "AZ-900",
+            "Cloud computing"
+          ],
+          "correctAnswer": "AZ-900"
+        }
+      ],
+      "explanation": "AZ-900 is the Microsoft Azure Fundamentals certification exam that Azure Fundamentals learning paths help prepare you for.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    },
+    {
+      "id": "fill-0039",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Summary",
+      "question": "Choose the term that completes the statement: {{answer}} means helpful background for Azure Fundamentals even though prior technical IT experience is not required.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "PaaS responsibility model",
+            "Customer device responsibility",
+            "Scale in",
+            "General IT knowledge"
+          ],
+          "correctAnswer": "General IT knowledge"
+        }
+      ],
+      "explanation": "General IT knowledge is helpful background for Azure Fundamentals even though prior technical IT experience is not required.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary"
+    }
+  ]
+}

@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe cloud computing · What is cloud computing",
+  "questions": [
+    {
+      "id": "mc-0010",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "question": "Which statement best describes Cloud computing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The ability to obtain computing capacity rapidly instead of waiting for physical infrastructure procurement"
+        },
+        {
+          "id": "b",
+          "text": "The delivery of computing services over the internet"
+        },
+        {
+          "id": "c",
+          "text": "Technology that helps manage Azure, on-premises, hybrid, and multicloud resources through a consistent management approach"
+        },
+        {
+          "id": "d",
+          "text": "The cloud service model that leaves the most operational responsibility with the customer"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Cloud computing is the delivery of computing services over the internet.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "mc-0011",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "question": "In the context of this Microsoft Learn unit, what does Virtual machines refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An AZ-900 domain covering Azure infrastructure and services and accounting for roughly 35–40% of the exam"
+        },
+        {
+          "id": "b",
+          "text": "An AZ-900 domain covering general cloud ideas and accounting for roughly 25–30% of the exam"
+        },
+        {
+          "id": "c",
+          "text": "The ability to provision and deprovision resources quickly without purchasing new datacenter hardware"
+        },
+        {
+          "id": "d",
+          "text": "Compute resources that can be delivered as cloud services instead of requiring local physical servers"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Virtual machines is compute resources that can be delivered as cloud services instead of requiring local physical servers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "mc-0012",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "question": "Which description correctly matches Cloud storage?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Allocating more capacity than needed, which can create unnecessary cost"
+        },
+        {
+          "id": "b",
+          "text": "The ability to provision and deprovision resources quickly without purchasing new datacenter hardware"
+        },
+        {
+          "id": "c",
+          "text": "Internet-delivered storage capacity that can expand without building a new datacenter"
+        },
+        {
+          "id": "d",
+          "text": "The ability to place services closer to users and design regional resilience without building your own worldwide datacenters"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Cloud storage is internet-delivered storage capacity that can expand without building a new datacenter.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "mc-0013",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "question": "Which of the following is the best definition of On-demand provisioning?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Managed or hosted database capabilities delivered through a cloud platform"
+        },
+        {
+          "id": "b",
+          "text": "The ability to obtain computing capacity rapidly instead of waiting for physical infrastructure procurement"
+        },
+        {
+          "id": "c",
+          "text": "Technology that helps manage Azure, on-premises, hybrid, and multicloud resources through a consistent management approach"
+        },
+        {
+          "id": "d",
+          "text": "The cloud provider is responsible for the physical datacenter"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "On-demand provisioning is the ability to obtain computing capacity rapidly instead of waiting for physical infrastructure procurement.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "mc-0014",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "question": "What is the primary meaning of Global reach in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Technology that helps manage Azure, on-premises, hybrid, and multicloud resources through a consistent management approach"
+        },
+        {
+          "id": "b",
+          "text": "An Azure service that lets organizations run VMware workloads in Azure"
+        },
+        {
+          "id": "c",
+          "text": "The ability to place services closer to users and design regional resilience without building your own worldwide datacenters"
+        },
+        {
+          "id": "d",
+          "text": "Removing resource instances when demand falls"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Global reach is the ability to place services closer to users and design regional resilience without building your own worldwide datacenters.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "mr-0010",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Virtual machines: managed or hosted database capabilities delivered through a cloud platform."
+        },
+        {
+          "id": "b",
+          "text": "Virtual machines: compute resources that can be delivered as cloud services instead of requiring local physical servers."
+        },
+        {
+          "id": "c",
+          "text": "Cloud storage: a beginner-oriented series that introduces Azure services, cloud concepts, governance, and management."
+        },
+        {
+          "id": "d",
+          "text": "Cloud computing: the delivery of computing services over the internet."
+        },
+        {
+          "id": "e",
+          "text": "Cloud computing: the ability to obtain computing capacity rapidly instead of waiting for physical infrastructure procurement."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: Cloud computing — the delivery of computing services over the internet; and Virtual machines — compute resources that can be delivered as cloud services instead of requiring local physical servers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "mr-0011",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cloud storage: the ability to add resources for periods of high demand and reduce them again when demand falls."
+        },
+        {
+          "id": "b",
+          "text": "On-demand provisioning: an AZ-900 domain covering general cloud ideas and accounting for roughly 25–30% of the exam."
+        },
+        {
+          "id": "c",
+          "text": "On-demand provisioning: a cloud computing platform that provides services for compute, storage, networking, databases, AI, IoT, and more."
+        },
+        {
+          "id": "d",
+          "text": "Cloud storage: internet-delivered storage capacity that can expand without building a new datacenter."
+        },
+        {
+          "id": "e",
+          "text": "On-demand provisioning: the ability to obtain computing capacity rapidly instead of waiting for physical infrastructure procurement."
+        }
+      ],
+      "correctAnswers": [
+        "d",
+        "e"
+      ],
+      "explanation": "The correct pair is: Cloud storage — internet-delivered storage capacity that can expand without building a new datacenter; and On-demand provisioning — the ability to obtain computing capacity rapidly instead of waiting for physical infrastructure procurement.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "mr-0012",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Global reach: an AZ-900 domain covering Azure infrastructure and services and accounting for roughly 35–40% of the exam."
+        },
+        {
+          "id": "b",
+          "text": "Global reach: examples of cloud capabilities that extend beyond traditional compute, storage, databases, and networking."
+        },
+        {
+          "id": "c",
+          "text": "Elastic capacity: the ability to add resources for periods of high demand and reduce them again when demand falls."
+        },
+        {
+          "id": "d",
+          "text": "Global reach: the ability to place services closer to users and design regional resilience without building your own worldwide datacenters."
+        },
+        {
+          "id": "e",
+          "text": "Elastic capacity: an AZ-900 domain covering general cloud ideas and accounting for roughly 25–30% of the exam."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "d"
+      ],
+      "explanation": "The correct pair is: Global reach — the ability to place services closer to users and design regional resilience without building your own worldwide datacenters; and Elastic capacity — the ability to add resources for periods of high demand and reduce them again when demand falls.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "mr-0013",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elastic capacity: an AZ-900 domain covering management, monitoring, cost, and governance and accounting for roughly 30–35% of the exam."
+        },
+        {
+          "id": "b",
+          "text": "Cloud databases: managed or hosted database capabilities delivered through a cloud platform."
+        },
+        {
+          "id": "c",
+          "text": "Cloud AI and IoT services: an AZ-900 domain covering management, monitoring, cost, and governance and accounting for roughly 30–35% of the exam."
+        },
+        {
+          "id": "d",
+          "text": "Cloud AI and IoT services: examples of cloud capabilities that extend beyond traditional compute, storage, databases, and networking."
+        },
+        {
+          "id": "e",
+          "text": "Cloud databases: a beginner-oriented series that introduces Azure services, cloud concepts, governance, and management."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: Cloud databases — managed or hosted database capabilities delivered through a cloud platform; and Cloud AI and IoT services — examples of cloud capabilities that extend beyond traditional compute, storage, databases, and networking.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "mr-0014",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cloud computing: the ability to obtain computing capacity rapidly instead of waiting for physical infrastructure procurement."
+        },
+        {
+          "id": "b",
+          "text": "Cloud computing: the delivery of computing services over the internet."
+        },
+        {
+          "id": "c",
+          "text": "Virtual machines: compute resources that can be delivered as cloud services instead of requiring local physical servers."
+        },
+        {
+          "id": "d",
+          "text": "Cloud databases: the Microsoft Azure Fundamentals certification exam that Azure Fundamentals learning paths help prepare you for."
+        },
+        {
+          "id": "e",
+          "text": "Virtual machines: managed or hosted database capabilities delivered through a cloud platform."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: Cloud computing — the delivery of computing services over the internet; and Virtual machines — compute resources that can be delivered as cloud services instead of requiring local physical servers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "tf-0010",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "question": "Cloud computing is the delivery of computing services over the internet.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Cloud computing is the delivery of computing services over the internet.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "tf-0011",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "question": "According to this unit: Virtual machines is the ability to place services closer to users and design regional resilience without building your own worldwide datacenters.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Virtual machines is compute resources that can be delivered as cloud services instead of requiring local physical servers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "tf-0012",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "question": "For Azure fundamentals, Cloud storage is internet-delivered storage capacity that can expand without building a new datacenter.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Cloud storage is internet-delivered storage capacity that can expand without building a new datacenter.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "tf-0013",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "question": "This statement is correct: On-demand provisioning is managed or hosted database capabilities delivered through a cloud platform.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. On-demand provisioning is the ability to obtain computing capacity rapidly instead of waiting for physical infrastructure procurement.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "tf-0014",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "question": "The unit supports the following statement: Global reach is the ability to place services closer to users and design regional resilience without building your own worldwide datacenters.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Global reach is the ability to place services closer to users and design regional resilience without building your own worldwide datacenters.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "sc-0020",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "scenario": "The organization is reviewing the topic “What is cloud computing” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: the delivery of computing services over the internet. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Describe Azure management and governance"
+        },
+        {
+          "id": "b",
+          "text": "Global reach"
+        },
+        {
+          "id": "c",
+          "text": "Overprovisioning"
+        },
+        {
+          "id": "d",
+          "text": "Cloud computing"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Cloud computing is the best match because it is the delivery of computing services over the internet.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "sc-0021",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "scenario": "The organization is reviewing the topic “What is cloud computing” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs compute resources that can be delivered as cloud services instead of requiring local physical servers. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "AZ-900"
+        },
+        {
+          "id": "b",
+          "text": "On-demand provisioning"
+        },
+        {
+          "id": "c",
+          "text": "Describe cloud concepts"
+        },
+        {
+          "id": "d",
+          "text": "Virtual machines"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Virtual machines is the best match because it is compute resources that can be delivered as cloud services instead of requiring local physical servers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "sc-0022",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "scenario": "The organization is reviewing the topic “What is cloud computing” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: internet-delivered storage capacity that can expand without building a new datacenter. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "PaaS responsibility model"
+        },
+        {
+          "id": "b",
+          "text": "Scale in"
+        },
+        {
+          "id": "c",
+          "text": "Cloud computing"
+        },
+        {
+          "id": "d",
+          "text": "Cloud storage"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Cloud storage is the best match because it is internet-delivered storage capacity that can expand without building a new datacenter.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "sc-0023",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "scenario": "The organization is reviewing the topic “What is cloud computing” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: the ability to obtain computing capacity rapidly instead of waiting for physical infrastructure procurement. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Customer device responsibility"
+        },
+        {
+          "id": "b",
+          "text": "Provider physical network responsibility"
+        },
+        {
+          "id": "c",
+          "text": "Provider physical host responsibility"
+        },
+        {
+          "id": "d",
+          "text": "On-demand provisioning"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "On-demand provisioning is the best match because it is the ability to obtain computing capacity rapidly instead of waiting for physical infrastructure procurement.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "sc-0024",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "scenario": "The organization is reviewing the topic “What is cloud computing” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants the ability to place services closer to users and design regional resilience without building your own worldwide datacenters. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Scale out"
+        },
+        {
+          "id": "b",
+          "text": "Global reach"
+        },
+        {
+          "id": "c",
+          "text": "Azure VMware Solution"
+        },
+        {
+          "id": "d",
+          "text": "Private cloud"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Global reach is the best match because it is the ability to place services closer to users and design regional resilience without building your own worldwide datacenters.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "sc-0025",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "scenario": "The organization is reviewing the topic “What is cloud computing” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for the ability to add resources for periods of high demand and reduce them again when demand falls. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hybrid cloud"
+        },
+        {
+          "id": "b",
+          "text": "Cloud storage"
+        },
+        {
+          "id": "c",
+          "text": "Elastic capacity"
+        },
+        {
+          "id": "d",
+          "text": "AZ-900"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Elastic capacity is the best match because it is the ability to add resources for periods of high demand and reduce them again when demand falls.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "sc-0026",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "scenario": "The organization is reviewing the topic “What is cloud computing” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for managed or hosted database capabilities delivered through a cloud platform. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cloud databases"
+        },
+        {
+          "id": "b",
+          "text": "Azure Arc"
+        },
+        {
+          "id": "c",
+          "text": "Provider physical datacenter responsibility"
+        },
+        {
+          "id": "d",
+          "text": "Provider physical host responsibility"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Cloud databases is the best match because it is managed or hosted database capabilities delivered through a cloud platform.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "sc-0027",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "scenario": "The organization is reviewing the topic “What is cloud computing” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is examples of cloud capabilities that extend beyond traditional compute, storage, databases, and networking. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Consumption-based model"
+        },
+        {
+          "id": "b",
+          "text": "Cloud computing"
+        },
+        {
+          "id": "c",
+          "text": "Pay-as-you-go"
+        },
+        {
+          "id": "d",
+          "text": "Cloud AI and IoT services"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Cloud AI and IoT services is the best match because it is examples of cloud capabilities that extend beyond traditional compute, storage, databases, and networking.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "sc-0028",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "scenario": "The organization is reviewing the topic “What is cloud computing” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as the delivery of computing services over the internet. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "PaaS responsibility model"
+        },
+        {
+          "id": "b",
+          "text": "Public-cloud scaling"
+        },
+        {
+          "id": "c",
+          "text": "Cloud databases"
+        },
+        {
+          "id": "d",
+          "text": "Cloud computing"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Cloud computing is the best match because it is the delivery of computing services over the internet.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "sc-0029",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "scenario": "The organization is reviewing the topic “What is cloud computing” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides compute resources that can be delivered as cloud services instead of requiring local physical servers. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "AZ-900"
+        },
+        {
+          "id": "b",
+          "text": "Virtual machines"
+        },
+        {
+          "id": "c",
+          "text": "Provider physical network responsibility"
+        },
+        {
+          "id": "d",
+          "text": "Describe Azure management and governance"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Virtual machines is the best match because it is compute resources that can be delivered as cloud services instead of requiring local physical servers.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "match-0010",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Cloud computing"
+        },
+        {
+          "id": "l2",
+          "text": "Virtual machines"
+        },
+        {
+          "id": "l3",
+          "text": "Cloud storage"
+        },
+        {
+          "id": "l4",
+          "text": "On-demand provisioning"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Internet-delivered storage capacity that can expand without building a new datacenter"
+        },
+        {
+          "id": "r2",
+          "text": "Compute resources that can be delivered as cloud services instead of requiring local physical servers"
+        },
+        {
+          "id": "r1",
+          "text": "The delivery of computing services over the internet"
+        },
+        {
+          "id": "r4",
+          "text": "The ability to obtain computing capacity rapidly instead of waiting for physical infrastructure procurement"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l2": "r2",
+        "l1": "r1",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "match-0011",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Cloud storage"
+        },
+        {
+          "id": "l2",
+          "text": "On-demand provisioning"
+        },
+        {
+          "id": "l3",
+          "text": "Global reach"
+        },
+        {
+          "id": "l4",
+          "text": "Elastic capacity"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "The ability to place services closer to users and design regional resilience without building your own worldwide datacenters"
+        },
+        {
+          "id": "r2",
+          "text": "The ability to obtain computing capacity rapidly instead of waiting for physical infrastructure procurement"
+        },
+        {
+          "id": "r1",
+          "text": "Internet-delivered storage capacity that can expand without building a new datacenter"
+        },
+        {
+          "id": "r4",
+          "text": "The ability to add resources for periods of high demand and reduce them again when demand falls"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l2": "r2",
+        "l1": "r1",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "match-0012",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Global reach"
+        },
+        {
+          "id": "l2",
+          "text": "Elastic capacity"
+        },
+        {
+          "id": "l3",
+          "text": "Cloud databases"
+        },
+        {
+          "id": "l4",
+          "text": "Cloud AI and IoT services"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Managed or hosted database capabilities delivered through a cloud platform"
+        },
+        {
+          "id": "r1",
+          "text": "The ability to place services closer to users and design regional resilience without building your own worldwide datacenters"
+        },
+        {
+          "id": "r4",
+          "text": "Examples of cloud capabilities that extend beyond traditional compute, storage, databases, and networking"
+        },
+        {
+          "id": "r2",
+          "text": "The ability to add resources for periods of high demand and reduce them again when demand falls"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l1": "r1",
+        "l4": "r4",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "match-0013",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Cloud databases"
+        },
+        {
+          "id": "l2",
+          "text": "Cloud AI and IoT services"
+        },
+        {
+          "id": "l3",
+          "text": "Cloud computing"
+        },
+        {
+          "id": "l4",
+          "text": "Virtual machines"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Managed or hosted database capabilities delivered through a cloud platform"
+        },
+        {
+          "id": "r2",
+          "text": "Examples of cloud capabilities that extend beyond traditional compute, storage, databases, and networking"
+        },
+        {
+          "id": "r4",
+          "text": "Compute resources that can be delivered as cloud services instead of requiring local physical servers"
+        },
+        {
+          "id": "r3",
+          "text": "The delivery of computing services over the internet"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "match-0014",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Cloud computing"
+        },
+        {
+          "id": "l2",
+          "text": "Virtual machines"
+        },
+        {
+          "id": "l3",
+          "text": "Cloud storage"
+        },
+        {
+          "id": "l4",
+          "text": "On-demand provisioning"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "The delivery of computing services over the internet"
+        },
+        {
+          "id": "r4",
+          "text": "The ability to obtain computing capacity rapidly instead of waiting for physical infrastructure procurement"
+        },
+        {
+          "id": "r3",
+          "text": "Internet-delivered storage capacity that can expand without building a new datacenter"
+        },
+        {
+          "id": "r2",
+          "text": "Compute resources that can be delivered as cloud services instead of requiring local physical servers"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l4": "r4",
+        "l3": "r3",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "fill-0010",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "question": "{{answer}} is internet-delivered storage capacity that can expand without building a new datacenter.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Provider physical host responsibility",
+            "Elastic capacity",
+            "Cloud databases",
+            "Cloud storage"
+          ],
+          "correctAnswer": "Cloud storage"
+        }
+      ],
+      "explanation": "Cloud storage is internet-delivered storage capacity that can expand without building a new datacenter.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "fill-0011",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "question": "The term for the ability to obtain computing capacity rapidly instead of waiting for physical infrastructure procurement is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Virtual machines",
+            "Operational expenditure (OpEx)",
+            "On-demand provisioning",
+            "Describe cloud concepts"
+          ],
+          "correctAnswer": "On-demand provisioning"
+        }
+      ],
+      "explanation": "On-demand provisioning is the ability to obtain computing capacity rapidly instead of waiting for physical infrastructure procurement.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "fill-0012",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "question": "In this unit, {{answer}} refers to the ability to place services closer to users and design regional resilience without building your own worldwide datacenters.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "AZ-900",
+            "Underprovisioning",
+            "Global reach",
+            "Public cloud"
+          ],
+          "correctAnswer": "Global reach"
+        }
+      ],
+      "explanation": "Global reach is the ability to place services closer to users and design regional resilience without building your own worldwide datacenters.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "fill-0013",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "question": "For AZ-900, the concept described as the ability to add resources for periods of high demand and reduce them again when demand falls is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "AZ-900",
+            "Describe Azure architecture and services",
+            "Elastic capacity",
+            "General IT knowledge"
+          ],
+          "correctAnswer": "Elastic capacity"
+        }
+      ],
+      "explanation": "Elastic capacity is the ability to add resources for periods of high demand and reduce them again when demand falls.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    },
+    {
+      "id": "fill-0014",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: What is cloud computing",
+      "question": "Choose the term that completes the statement: {{answer}} means managed or hosted database capabilities delivered through a cloud platform.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Cloud databases",
+            "Pay-as-you-go",
+            "Capital expenditure (CapEx)",
+            "Underprovisioning"
+          ],
+          "correctAnswer": "Cloud databases"
+        }
+      ],
+      "explanation": "Cloud databases is managed or hosted database capabilities delivered through a cloud platform.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute"
+    }
+  ]
+}

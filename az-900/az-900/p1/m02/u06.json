@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe the benefits of using cloud services · Describe sustainability considerations in the cloud",
+  "questions": [
+    {
+      "id": "mc-0065",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "question": "Which statement best describes Right-sizing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Capabilities used to manage cloud resources, such as autoscaling, templates, health monitoring, and alerts"
+        },
+        {
+          "id": "b",
+          "text": "A model in which more platform patching and maintenance are handled by the provider"
+        },
+        {
+          "id": "c",
+          "text": "The ability to estimate and forecast cloud spending"
+        },
+        {
+          "id": "d",
+          "text": "Matching provisioned resource capacity to actual workload needs"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Right-sizing is matching provisioned resource capacity to actual workload needs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "mc-0066",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "question": "In the context of this Microsoft Learn unit, what does Deallocation refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Matching provisioned resource capacity to actual workload needs"
+        },
+        {
+          "id": "b",
+          "text": "A graphical browser-based method for managing cloud resources"
+        },
+        {
+          "id": "c",
+          "text": "The methods used to interact with cloud resources, such as a web portal, CLI, APIs, and PowerShell"
+        },
+        {
+          "id": "d",
+          "text": "Stopping or deallocating unused resources to reduce unnecessary consumption"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Deallocation is stopping or deallocating unused resources to reduce unnecessary consumption.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "mc-0067",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "question": "Which description correctly matches Autoscaling for sustainability?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A scripting and command-line option for automating cloud management tasks"
+        },
+        {
+          "id": "b",
+          "text": "A service availability commitment that can include an uptime guarantee"
+        },
+        {
+          "id": "c",
+          "text": "Reducing capacity when demand decreases instead of keeping resources overprovisioned"
+        },
+        {
+          "id": "d",
+          "text": "The methods used to interact with cloud resources, such as a web portal, CLI, APIs, and PowerShell"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Autoscaling for sustainability is reducing capacity when demand decreases instead of keeping resources overprovisioned.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "mc-0068",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "question": "Which of the following is the best definition of Monitoring usage trends?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Using operational data to identify waste and optimization opportunities"
+        },
+        {
+          "id": "b",
+          "text": "Increasing the capabilities of a resource, such as adding CPU or RAM to a virtual machine"
+        },
+        {
+          "id": "c",
+          "text": "A model in which more platform patching and maintenance are handled by the provider"
+        },
+        {
+          "id": "d",
+          "text": "Using standards, policies, templates, and auditing to keep deployments aligned with organizational and regulatory requirements"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Monitoring usage trends is using operational data to identify waste and optimization opportunities.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "mc-0069",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "question": "What is the primary meaning of Automation in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Using schedules and policies to turn off or resize resources when they are not needed"
+        },
+        {
+          "id": "b",
+          "text": "Matching provisioned resource capacity to actual workload needs"
+        },
+        {
+          "id": "c",
+          "text": "A service availability commitment that can include an uptime guarantee"
+        },
+        {
+          "id": "d",
+          "text": "A model in which the provider handles most application-stack maintenance"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Automation is using schedules and policies to turn off or resize resources when they are not needed.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "mr-0065",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Deallocation: stopping or deallocating unused resources to reduce unnecessary consumption."
+        },
+        {
+          "id": "b",
+          "text": "Deallocation: the potential for large cloud providers to use infrastructure more efficiently than many isolated environments."
+        },
+        {
+          "id": "c",
+          "text": "Right-sizing: using operational data to identify waste and optimization opportunities."
+        },
+        {
+          "id": "d",
+          "text": "Right-sizing: matching provisioned resource capacity to actual workload needs."
+        },
+        {
+          "id": "e",
+          "text": "Autoscaling for sustainability: a service availability commitment that can include an uptime guarantee."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "d"
+      ],
+      "explanation": "The correct pair is: Right-sizing — matching provisioned resource capacity to actual workload needs; and Deallocation — stopping or deallocating unused resources to reduce unnecessary consumption.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "mr-0066",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Autoscaling for sustainability: choosing services and configurations that meet requirements without unnecessary overprovisioning."
+        },
+        {
+          "id": "b",
+          "text": "Autoscaling for sustainability: reducing capacity when demand decreases instead of keeping resources overprovisioned."
+        },
+        {
+          "id": "c",
+          "text": "Monitoring usage trends: the ability to adjust resources to meet changes in demand."
+        },
+        {
+          "id": "d",
+          "text": "Monitoring usage trends: designing services to remain available as much as possible despite failures or disruptions."
+        },
+        {
+          "id": "e",
+          "text": "Monitoring usage trends: using operational data to identify waste and optimization opportunities."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: Autoscaling for sustainability — reducing capacity when demand decreases instead of keeping resources overprovisioned; and Monitoring usage trends — using operational data to identify waste and optimization opportunities.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "mr-0067",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Efficient service selection: the ability to adjust resources to meet changes in demand."
+        },
+        {
+          "id": "b",
+          "text": "Automation: using schedules and policies to turn off or resize resources when they are not needed."
+        },
+        {
+          "id": "c",
+          "text": "Automation: repeatedly reviewing and improving resource use as workload patterns change."
+        },
+        {
+          "id": "d",
+          "text": "Efficient service selection: choosing services and configurations that meet requirements without unnecessary overprovisioning."
+        },
+        {
+          "id": "e",
+          "text": "Automation: increasing the capabilities of a resource, such as adding CPU or RAM to a virtual machine."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "d"
+      ],
+      "explanation": "The correct pair is: Automation — using schedules and policies to turn off or resize resources when they are not needed; and Efficient service selection — choosing services and configurations that meet requirements without unnecessary overprovisioning.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "mr-0068",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cloud scale efficiency: a service availability commitment that can include an uptime guarantee."
+        },
+        {
+          "id": "b",
+          "text": "Continuous optimization: repeatedly reviewing and improving resource use as workload patterns change."
+        },
+        {
+          "id": "c",
+          "text": "Cloud scale efficiency: the potential for large cloud providers to use infrastructure more efficiently than many isolated environments."
+        },
+        {
+          "id": "d",
+          "text": "Continuous optimization: reducing the capabilities of a resource, such as decreasing CPU or RAM."
+        },
+        {
+          "id": "e",
+          "text": "Efficient service selection: reducing the capabilities of a resource, such as decreasing CPU or RAM."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "c"
+      ],
+      "explanation": "The correct pair is: Cloud scale efficiency — the potential for large cloud providers to use infrastructure more efficiently than many isolated environments; and Continuous optimization — repeatedly reviewing and improving resource use as workload patterns change.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "mr-0069",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Right-sizing: using operational data to identify waste and optimization opportunities."
+        },
+        {
+          "id": "b",
+          "text": "Deallocation: the potential for large cloud providers to use infrastructure more efficiently than many isolated environments."
+        },
+        {
+          "id": "c",
+          "text": "Right-sizing: matching provisioned resource capacity to actual workload needs."
+        },
+        {
+          "id": "d",
+          "text": "Cloud scale efficiency: adding more resource instances, such as additional virtual machines or containers."
+        },
+        {
+          "id": "e",
+          "text": "Deallocation: stopping or deallocating unused resources to reduce unnecessary consumption."
+        }
+      ],
+      "correctAnswers": [
+        "c",
+        "e"
+      ],
+      "explanation": "The correct pair is: Right-sizing — matching provisioned resource capacity to actual workload needs; and Deallocation — stopping or deallocating unused resources to reduce unnecessary consumption.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "tf-0065",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "question": "Right-sizing is matching provisioned resource capacity to actual workload needs.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Right-sizing is matching provisioned resource capacity to actual workload needs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "tf-0066",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "question": "According to this unit: Deallocation is using schedules and policies to turn off or resize resources when they are not needed.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Deallocation is stopping or deallocating unused resources to reduce unnecessary consumption.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "tf-0067",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "question": "For Azure fundamentals, Autoscaling for sustainability is reducing capacity when demand decreases instead of keeping resources overprovisioned.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Autoscaling for sustainability is reducing capacity when demand decreases instead of keeping resources overprovisioned.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "tf-0068",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "question": "This statement is correct: Monitoring usage trends is the potential for large cloud providers to use infrastructure more efficiently than many isolated environments.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Monitoring usage trends is using operational data to identify waste and optimization opportunities.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "tf-0069",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "question": "The unit supports the following statement: Automation is using schedules and policies to turn off or resize resources when they are not needed.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Automation is using schedules and policies to turn off or resize resources when they are not needed.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "sc-0130",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe sustainability considerations in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: matching provisioned resource capacity to actual workload needs. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cloud scale efficiency"
+        },
+        {
+          "id": "b",
+          "text": "Management in the cloud"
+        },
+        {
+          "id": "c",
+          "text": "Horizontal scaling out"
+        },
+        {
+          "id": "d",
+          "text": "Right-sizing"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Right-sizing is the best match because it is matching provisioned resource capacity to actual workload needs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "sc-0131",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe sustainability considerations in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs stopping or deallocating unused resources to reduce unnecessary consumption. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Decentralized cloud design"
+        },
+        {
+          "id": "b",
+          "text": "Deallocation"
+        },
+        {
+          "id": "c",
+          "text": "Reliability"
+        },
+        {
+          "id": "d",
+          "text": "Performance predictability"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Deallocation is the best match because it is stopping or deallocating unused resources to reduce unnecessary consumption.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "sc-0132",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe sustainability considerations in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: reducing capacity when demand decreases instead of keeping resources overprovisioned. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Load balancing"
+        },
+        {
+          "id": "b",
+          "text": "Autoscaling for sustainability"
+        },
+        {
+          "id": "c",
+          "text": "Automatic alerts"
+        },
+        {
+          "id": "d",
+          "text": "Command-line interface"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Autoscaling for sustainability is the best match because it is reducing capacity when demand decreases instead of keeping resources overprovisioned.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "sc-0133",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe sustainability considerations in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: using operational data to identify waste and optimization opportunities. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Deallocation"
+        },
+        {
+          "id": "b",
+          "text": "Reliability"
+        },
+        {
+          "id": "c",
+          "text": "Monitoring usage trends"
+        },
+        {
+          "id": "d",
+          "text": "Right-sizing"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Monitoring usage trends is the best match because it is using operational data to identify waste and optimization opportunities.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "sc-0134",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe sustainability considerations in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants using schedules and policies to turn off or resize resources when they are not needed. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Autoscaling for sustainability"
+        },
+        {
+          "id": "b",
+          "text": "Automation"
+        },
+        {
+          "id": "c",
+          "text": "Performance predictability"
+        },
+        {
+          "id": "d",
+          "text": "Vertical scaling down"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Automation is the best match because it is using schedules and policies to turn off or resize resources when they are not needed.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "sc-0135",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe sustainability considerations in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for choosing services and configurations that meet requirements without unnecessary overprovisioning. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Consumption-aware scaling"
+        },
+        {
+          "id": "b",
+          "text": "Efficient service selection"
+        },
+        {
+          "id": "c",
+          "text": "Command-line interface"
+        },
+        {
+          "id": "d",
+          "text": "Right-sizing"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Efficient service selection is the best match because it is choosing services and configurations that meet requirements without unnecessary overprovisioning.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "sc-0136",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe sustainability considerations in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for the potential for large cloud providers to use infrastructure more efficiently than many isolated environments. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Management in the cloud"
+        },
+        {
+          "id": "b",
+          "text": "Automatic alerts"
+        },
+        {
+          "id": "c",
+          "text": "SaaS maintenance"
+        },
+        {
+          "id": "d",
+          "text": "Cloud scale efficiency"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Cloud scale efficiency is the best match because it is the potential for large cloud providers to use infrastructure more efficiently than many isolated environments.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "sc-0137",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe sustainability considerations in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is repeatedly reviewing and improving resource use as workload patterns change. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Continuous optimization"
+        },
+        {
+          "id": "b",
+          "text": "Preconfigured templates"
+        },
+        {
+          "id": "c",
+          "text": "High availability"
+        },
+        {
+          "id": "d",
+          "text": "Reliability"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Continuous optimization is the best match because it is repeatedly reviewing and improving resource use as workload patterns change.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "sc-0138",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe sustainability considerations in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as matching provisioned resource capacity to actual workload needs. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Scalability"
+        },
+        {
+          "id": "b",
+          "text": "Right-sizing"
+        },
+        {
+          "id": "c",
+          "text": "Azure Well-Architected Framework"
+        },
+        {
+          "id": "d",
+          "text": "Continuous optimization"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Right-sizing is the best match because it is matching provisioned resource capacity to actual workload needs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "sc-0139",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "scenario": "The organization is reviewing the topic “Describe sustainability considerations in the cloud” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides stopping or deallocating unused resources to reduce unnecessary consumption. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "PaaS maintenance"
+        },
+        {
+          "id": "b",
+          "text": "Consumption-aware scaling"
+        },
+        {
+          "id": "c",
+          "text": "Deallocation"
+        },
+        {
+          "id": "d",
+          "text": "Service-level agreement (SLA)"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Deallocation is the best match because it is stopping or deallocating unused resources to reduce unnecessary consumption.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "match-0065",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Right-sizing"
+        },
+        {
+          "id": "l2",
+          "text": "Deallocation"
+        },
+        {
+          "id": "l3",
+          "text": "Autoscaling for sustainability"
+        },
+        {
+          "id": "l4",
+          "text": "Monitoring usage trends"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Matching provisioned resource capacity to actual workload needs"
+        },
+        {
+          "id": "r4",
+          "text": "Using operational data to identify waste and optimization opportunities"
+        },
+        {
+          "id": "r3",
+          "text": "Reducing capacity when demand decreases instead of keeping resources overprovisioned"
+        },
+        {
+          "id": "r2",
+          "text": "Stopping or deallocating unused resources to reduce unnecessary consumption"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l4": "r4",
+        "l3": "r3",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "match-0066",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Autoscaling for sustainability"
+        },
+        {
+          "id": "l2",
+          "text": "Monitoring usage trends"
+        },
+        {
+          "id": "l3",
+          "text": "Automation"
+        },
+        {
+          "id": "l4",
+          "text": "Efficient service selection"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Reducing capacity when demand decreases instead of keeping resources overprovisioned"
+        },
+        {
+          "id": "r3",
+          "text": "Using schedules and policies to turn off or resize resources when they are not needed"
+        },
+        {
+          "id": "r4",
+          "text": "Choosing services and configurations that meet requirements without unnecessary overprovisioning"
+        },
+        {
+          "id": "r2",
+          "text": "Using operational data to identify waste and optimization opportunities"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l3": "r3",
+        "l4": "r4",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "match-0067",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Automation"
+        },
+        {
+          "id": "l2",
+          "text": "Efficient service selection"
+        },
+        {
+          "id": "l3",
+          "text": "Cloud scale efficiency"
+        },
+        {
+          "id": "l4",
+          "text": "Continuous optimization"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "Choosing services and configurations that meet requirements without unnecessary overprovisioning"
+        },
+        {
+          "id": "r3",
+          "text": "The potential for large cloud providers to use infrastructure more efficiently than many isolated environments"
+        },
+        {
+          "id": "r1",
+          "text": "Using schedules and policies to turn off or resize resources when they are not needed"
+        },
+        {
+          "id": "r4",
+          "text": "Repeatedly reviewing and improving resource use as workload patterns change"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l3": "r3",
+        "l1": "r1",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "match-0068",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Cloud scale efficiency"
+        },
+        {
+          "id": "l2",
+          "text": "Continuous optimization"
+        },
+        {
+          "id": "l3",
+          "text": "Right-sizing"
+        },
+        {
+          "id": "l4",
+          "text": "Deallocation"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "Repeatedly reviewing and improving resource use as workload patterns change"
+        },
+        {
+          "id": "r4",
+          "text": "Stopping or deallocating unused resources to reduce unnecessary consumption"
+        },
+        {
+          "id": "r3",
+          "text": "Matching provisioned resource capacity to actual workload needs"
+        },
+        {
+          "id": "r1",
+          "text": "The potential for large cloud providers to use infrastructure more efficiently than many isolated environments"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l4": "r4",
+        "l3": "r3",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "match-0069",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Right-sizing"
+        },
+        {
+          "id": "l2",
+          "text": "Deallocation"
+        },
+        {
+          "id": "l3",
+          "text": "Autoscaling for sustainability"
+        },
+        {
+          "id": "l4",
+          "text": "Monitoring usage trends"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "Stopping or deallocating unused resources to reduce unnecessary consumption"
+        },
+        {
+          "id": "r4",
+          "text": "Using operational data to identify waste and optimization opportunities"
+        },
+        {
+          "id": "r1",
+          "text": "Matching provisioned resource capacity to actual workload needs"
+        },
+        {
+          "id": "r3",
+          "text": "Reducing capacity when demand decreases instead of keeping resources overprovisioned"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l4": "r4",
+        "l1": "r1",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "fill-0065",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "question": "{{answer}} is reducing capacity when demand decreases instead of keeping resources overprovisioned.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Governance baseline",
+            "Cost predictability",
+            "Autoscaling for sustainability",
+            "Management in the cloud"
+          ],
+          "correctAnswer": "Autoscaling for sustainability"
+        }
+      ],
+      "explanation": "Autoscaling for sustainability is reducing capacity when demand decreases instead of keeping resources overprovisioned.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "fill-0066",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "question": "The term for using operational data to identify waste and optimization opportunities is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Vertical scaling down",
+            "Monitoring usage trends",
+            "PaaS maintenance",
+            "Autoscaling for sustainability"
+          ],
+          "correctAnswer": "Monitoring usage trends"
+        }
+      ],
+      "explanation": "Monitoring usage trends is using operational data to identify waste and optimization opportunities.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "fill-0067",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "question": "In this unit, {{answer}} refers to using schedules and policies to turn off or resize resources when they are not needed.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Performance predictability",
+            "Automation",
+            "Management of the cloud",
+            "Consumption-aware scaling"
+          ],
+          "correctAnswer": "Automation"
+        }
+      ],
+      "explanation": "Automation is using schedules and policies to turn off or resize resources when they are not needed.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "fill-0068",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "question": "For AZ-900, the concept described as choosing services and configurations that meet requirements without unnecessary overprovisioning is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Cloud scale efficiency",
+            "Cost predictability",
+            "SaaS maintenance",
+            "Efficient service selection"
+          ],
+          "correctAnswer": "Efficient service selection"
+        }
+      ],
+      "explanation": "Efficient service selection is choosing services and configurations that meet requirements without unnecessary overprovisioning.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    },
+    {
+      "id": "fill-0069",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe the benefits of using cloud services",
+      "description": "Microsoft Learn unit: Describe sustainability considerations in the cloud",
+      "question": "Choose the term that completes the statement: {{answer}} means the potential for large cloud providers to use infrastructure more efficiently than many isolated environments.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "PaaS maintenance",
+            "Service-level agreement (SLA)",
+            "Cloud scale efficiency",
+            "Reliability"
+          ],
+          "correctAnswer": "Cloud scale efficiency"
+        }
+      ],
+      "explanation": "Cloud scale efficiency is the potential for large cloud providers to use infrastructure more efficiently than many isolated environments.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5a-describe-sustainability-cloud"
+    }
+  ]
+}

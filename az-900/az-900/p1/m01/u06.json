@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe cloud computing · Describe the consumption-based model",
+  "questions": [
+    {
+      "id": "mc-0025",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "question": "Which statement best describes Consumption-based model?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Removing resource instances when demand falls"
+        },
+        {
+          "id": "b",
+          "text": "A model in which you pay for the IT resources you use and can release them when they are no longer needed"
+        },
+        {
+          "id": "c",
+          "text": "Ongoing spending for services consumed over time"
+        },
+        {
+          "id": "d",
+          "text": "The ability to obtain computing capacity rapidly instead of waiting for physical infrastructure procurement"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Consumption-based model is a model in which you pay for the IT resources you use and can release them when they are no longer needed.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "mc-0026",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "question": "In the context of this Microsoft Learn unit, what does Capital expenditure (CapEx) refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Up-front spending on physical infrastructure such as servers, networking equipment, and datacenter space"
+        },
+        {
+          "id": "b",
+          "text": "Ongoing spending for services consumed over time"
+        },
+        {
+          "id": "c",
+          "text": "The ability to place services closer to users and design regional resilience without building your own worldwide datacenters"
+        },
+        {
+          "id": "d",
+          "text": "An AZ-900 domain covering general cloud ideas and accounting for roughly 25–30% of the exam"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Capital expenditure (CapEx) is up-front spending on physical infrastructure such as servers, networking equipment, and datacenter space.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "mc-0027",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "question": "Which description correctly matches Operational expenditure (OpEx)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ongoing spending for services consumed over time"
+        },
+        {
+          "id": "b",
+          "text": "The delivery of computing services over the internet"
+        },
+        {
+          "id": "c",
+          "text": "Cloud infrastructure built, controlled, and maintained by a third-party provider and available to customers who purchase services"
+        },
+        {
+          "id": "d",
+          "text": "The customer remains responsible for devices that are allowed to connect to cloud resources"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Operational expenditure (OpEx) is ongoing spending for services consumed over time.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "mc-0028",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "question": "Which of the following is the best definition of Pay-as-you-go?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A middle-ground model in which the provider manages the platform while the customer focuses on applications and data"
+        },
+        {
+          "id": "b",
+          "text": "Compute resources that can be delivered as cloud services instead of requiring local physical servers"
+        },
+        {
+          "id": "c",
+          "text": "Cloud pricing in which charges generally track actual service consumption"
+        },
+        {
+          "id": "d",
+          "text": "The Microsoft Azure Fundamentals certification exam that Azure Fundamentals learning paths help prepare you for"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Pay-as-you-go is cloud pricing in which charges generally track actual service consumption.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "mc-0029",
+      "type": "multiple-choice",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "question": "What is the primary meaning of Overprovisioning in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Allocating more capacity than needed, which can create unnecessary cost"
+        },
+        {
+          "id": "b",
+          "text": "The Microsoft Azure Fundamentals certification exam that Azure Fundamentals learning paths help prepare you for"
+        },
+        {
+          "id": "c",
+          "text": "The use of services from two or more public cloud providers"
+        },
+        {
+          "id": "d",
+          "text": "An AZ-900 domain covering general cloud ideas and accounting for roughly 25–30% of the exam"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Overprovisioning is allocating more capacity than needed, which can create unnecessary cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "mr-0025",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Consumption-based model: a model in which you pay for the IT resources you use and can release them when they are no longer needed."
+        },
+        {
+          "id": "b",
+          "text": "Capital expenditure (CapEx): adding more resource instances when demand increases."
+        },
+        {
+          "id": "c",
+          "text": "Capital expenditure (CapEx): up-front spending on physical infrastructure such as servers, networking equipment, and datacenter space."
+        },
+        {
+          "id": "d",
+          "text": "Consumption-based model: cloud pricing in which charges generally track actual service consumption."
+        },
+        {
+          "id": "e",
+          "text": "Operational expenditure (OpEx): a beginner-oriented series that introduces Azure services, cloud concepts, governance, and management."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "c"
+      ],
+      "explanation": "The correct pair is: Consumption-based model — a model in which you pay for the IT resources you use and can release them when they are no longer needed; and Capital expenditure (CapEx) — up-front spending on physical infrastructure such as servers, networking equipment, and datacenter space.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "mr-0026",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pay-as-you-go: a cloud computing platform that provides services for compute, storage, networking, databases, AI, IoT, and more."
+        },
+        {
+          "id": "b",
+          "text": "Pay-as-you-go: cloud pricing in which charges generally track actual service consumption."
+        },
+        {
+          "id": "c",
+          "text": "Pay-as-you-go: an AZ-900 domain covering general cloud ideas and accounting for roughly 25–30% of the exam."
+        },
+        {
+          "id": "d",
+          "text": "Operational expenditure (OpEx): allocating too little capacity, which can cause performance or availability problems."
+        },
+        {
+          "id": "e",
+          "text": "Operational expenditure (OpEx): ongoing spending for services consumed over time."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: Operational expenditure (OpEx) — ongoing spending for services consumed over time; and Pay-as-you-go — cloud pricing in which charges generally track actual service consumption.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "mr-0027",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Underprovisioning: an AZ-900 domain covering general cloud ideas and accounting for roughly 25–30% of the exam."
+        },
+        {
+          "id": "b",
+          "text": "Underprovisioning: allocating too little capacity, which can cause performance or availability problems."
+        },
+        {
+          "id": "c",
+          "text": "Overprovisioning: an AZ-900 domain covering Azure infrastructure and services and accounting for roughly 35–40% of the exam."
+        },
+        {
+          "id": "d",
+          "text": "Overprovisioning: removing resource instances when demand falls."
+        },
+        {
+          "id": "e",
+          "text": "Overprovisioning: allocating more capacity than needed, which can create unnecessary cost."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: Overprovisioning — allocating more capacity than needed, which can create unnecessary cost; and Underprovisioning — allocating too little capacity, which can cause performance or availability problems.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "mr-0028",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Scale out: a beginner-oriented series that introduces Azure services, cloud concepts, governance, and management."
+        },
+        {
+          "id": "b",
+          "text": "Scale in: an AZ-900 domain covering management, monitoring, cost, and governance and accounting for roughly 30–35% of the exam."
+        },
+        {
+          "id": "c",
+          "text": "Underprovisioning: an AZ-900 domain covering management, monitoring, cost, and governance and accounting for roughly 30–35% of the exam."
+        },
+        {
+          "id": "d",
+          "text": "Scale out: adding more resource instances when demand increases."
+        },
+        {
+          "id": "e",
+          "text": "Scale in: removing resource instances when demand falls."
+        }
+      ],
+      "correctAnswers": [
+        "d",
+        "e"
+      ],
+      "explanation": "The correct pair is: Scale out — adding more resource instances when demand increases; and Scale in — removing resource instances when demand falls.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "mr-0029",
+      "type": "multiple-response",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Capital expenditure (CapEx): adding more resource instances when demand increases."
+        },
+        {
+          "id": "b",
+          "text": "Consumption-based model: cloud pricing in which charges generally track actual service consumption."
+        },
+        {
+          "id": "c",
+          "text": "Scale out: the Microsoft Azure Fundamentals certification exam that Azure Fundamentals learning paths help prepare you for."
+        },
+        {
+          "id": "d",
+          "text": "Capital expenditure (CapEx): up-front spending on physical infrastructure such as servers, networking equipment, and datacenter space."
+        },
+        {
+          "id": "e",
+          "text": "Consumption-based model: a model in which you pay for the IT resources you use and can release them when they are no longer needed."
+        }
+      ],
+      "correctAnswers": [
+        "d",
+        "e"
+      ],
+      "explanation": "The correct pair is: Consumption-based model — a model in which you pay for the IT resources you use and can release them when they are no longer needed; and Capital expenditure (CapEx) — up-front spending on physical infrastructure such as servers, networking equipment, and datacenter space.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "tf-0025",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "question": "Consumption-based model is a model in which you pay for the IT resources you use and can release them when they are no longer needed.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Consumption-based model is a model in which you pay for the IT resources you use and can release them when they are no longer needed.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "tf-0026",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "question": "According to this unit: Capital expenditure (CapEx) is allocating more capacity than needed, which can create unnecessary cost.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Capital expenditure (CapEx) is up-front spending on physical infrastructure such as servers, networking equipment, and datacenter space.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "tf-0027",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "question": "For Azure fundamentals, Operational expenditure (OpEx) is ongoing spending for services consumed over time.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Operational expenditure (OpEx) is ongoing spending for services consumed over time.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "tf-0028",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "question": "This statement is correct: Pay-as-you-go is adding more resource instances when demand increases.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Pay-as-you-go is cloud pricing in which charges generally track actual service consumption.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "tf-0029",
+      "type": "true-false",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "question": "The unit supports the following statement: Overprovisioning is allocating more capacity than needed, which can create unnecessary cost.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Overprovisioning is allocating more capacity than needed, which can create unnecessary cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "sc-0050",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "scenario": "The organization is reviewing the topic “Describe the consumption-based model” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a model in which you pay for the IT resources you use and can release them when they are no longer needed. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Provider physical datacenter responsibility"
+        },
+        {
+          "id": "b",
+          "text": "Multicloud"
+        },
+        {
+          "id": "c",
+          "text": "Provider physical host responsibility"
+        },
+        {
+          "id": "d",
+          "text": "Consumption-based model"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Consumption-based model is the best match because it is a model in which you pay for the IT resources you use and can release them when they are no longer needed.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "sc-0051",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "scenario": "The organization is reviewing the topic “Describe the consumption-based model” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs up-front spending on physical infrastructure such as servers, networking equipment, and datacenter space. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IaaS responsibility model"
+        },
+        {
+          "id": "b",
+          "text": "Customer data responsibility"
+        },
+        {
+          "id": "c",
+          "text": "Cloud computing"
+        },
+        {
+          "id": "d",
+          "text": "Capital expenditure (CapEx)"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Capital expenditure (CapEx) is the best match because it is up-front spending on physical infrastructure such as servers, networking equipment, and datacenter space.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "sc-0052",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "scenario": "The organization is reviewing the topic “Describe the consumption-based model” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: ongoing spending for services consumed over time. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Underprovisioning"
+        },
+        {
+          "id": "b",
+          "text": "On-demand provisioning"
+        },
+        {
+          "id": "c",
+          "text": "Customer data responsibility"
+        },
+        {
+          "id": "d",
+          "text": "Operational expenditure (OpEx)"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Operational expenditure (OpEx) is the best match because it is ongoing spending for services consumed over time.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "sc-0053",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "scenario": "The organization is reviewing the topic “Describe the consumption-based model” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: cloud pricing in which charges generally track actual service consumption. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pay-as-you-go"
+        },
+        {
+          "id": "b",
+          "text": "Public cloud"
+        },
+        {
+          "id": "c",
+          "text": "Microsoft Azure"
+        },
+        {
+          "id": "d",
+          "text": "Customer data responsibility"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Pay-as-you-go is the best match because it is cloud pricing in which charges generally track actual service consumption.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "sc-0054",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "scenario": "The organization is reviewing the topic “Describe the consumption-based model” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants allocating more capacity than needed, which can create unnecessary cost. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Overprovisioning"
+        },
+        {
+          "id": "b",
+          "text": "Hybrid cloud"
+        },
+        {
+          "id": "c",
+          "text": "SaaS responsibility model"
+        },
+        {
+          "id": "d",
+          "text": "Virtual machines"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Overprovisioning is the best match because it is allocating more capacity than needed, which can create unnecessary cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "sc-0055",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "scenario": "The organization is reviewing the topic “Describe the consumption-based model” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for allocating too little capacity, which can cause performance or availability problems. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cloud AI and IoT services"
+        },
+        {
+          "id": "b",
+          "text": "Cloud databases"
+        },
+        {
+          "id": "c",
+          "text": "Underprovisioning"
+        },
+        {
+          "id": "d",
+          "text": "Provider physical host responsibility"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Underprovisioning is the best match because it is allocating too little capacity, which can cause performance or availability problems.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "sc-0056",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "scenario": "The organization is reviewing the topic “Describe the consumption-based model” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for adding more resource instances when demand increases. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Describe cloud concepts"
+        },
+        {
+          "id": "b",
+          "text": "Provider physical datacenter responsibility"
+        },
+        {
+          "id": "c",
+          "text": "Scale out"
+        },
+        {
+          "id": "d",
+          "text": "Cloud storage"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Scale out is the best match because it is adding more resource instances when demand increases.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "sc-0057",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "scenario": "The organization is reviewing the topic “Describe the consumption-based model” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is removing resource instances when demand falls. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Public cloud"
+        },
+        {
+          "id": "b",
+          "text": "Scale in"
+        },
+        {
+          "id": "c",
+          "text": "AZ-900"
+        },
+        {
+          "id": "d",
+          "text": "On-demand provisioning"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Scale in is the best match because it is removing resource instances when demand falls.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "sc-0058",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "scenario": "The organization is reviewing the topic “Describe the consumption-based model” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as a model in which you pay for the IT resources you use and can release them when they are no longer needed. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Scale in"
+        },
+        {
+          "id": "b",
+          "text": "Consumption-based model"
+        },
+        {
+          "id": "c",
+          "text": "Capital expenditure (CapEx)"
+        },
+        {
+          "id": "d",
+          "text": "Customer device responsibility"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Consumption-based model is the best match because it is a model in which you pay for the IT resources you use and can release them when they are no longer needed.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "sc-0059",
+      "type": "scenario",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "scenario": "The organization is reviewing the topic “Describe the consumption-based model” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides up-front spending on physical infrastructure such as servers, networking equipment, and datacenter space. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Describe Azure architecture and services"
+        },
+        {
+          "id": "b",
+          "text": "Azure Arc"
+        },
+        {
+          "id": "c",
+          "text": "Cloud databases"
+        },
+        {
+          "id": "d",
+          "text": "Capital expenditure (CapEx)"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Capital expenditure (CapEx) is the best match because it is up-front spending on physical infrastructure such as servers, networking equipment, and datacenter space.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "match-0025",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Consumption-based model"
+        },
+        {
+          "id": "l2",
+          "text": "Capital expenditure (CapEx)"
+        },
+        {
+          "id": "l3",
+          "text": "Operational expenditure (OpEx)"
+        },
+        {
+          "id": "l4",
+          "text": "Pay-as-you-go"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "A model in which you pay for the IT resources you use and can release them when they are no longer needed"
+        },
+        {
+          "id": "r4",
+          "text": "Cloud pricing in which charges generally track actual service consumption"
+        },
+        {
+          "id": "r2",
+          "text": "Up-front spending on physical infrastructure such as servers, networking equipment, and datacenter space"
+        },
+        {
+          "id": "r3",
+          "text": "Ongoing spending for services consumed over time"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l4": "r4",
+        "l2": "r2",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "match-0026",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Operational expenditure (OpEx)"
+        },
+        {
+          "id": "l2",
+          "text": "Pay-as-you-go"
+        },
+        {
+          "id": "l3",
+          "text": "Overprovisioning"
+        },
+        {
+          "id": "l4",
+          "text": "Underprovisioning"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Ongoing spending for services consumed over time"
+        },
+        {
+          "id": "r4",
+          "text": "Allocating too little capacity, which can cause performance or availability problems"
+        },
+        {
+          "id": "r3",
+          "text": "Allocating more capacity than needed, which can create unnecessary cost"
+        },
+        {
+          "id": "r2",
+          "text": "Cloud pricing in which charges generally track actual service consumption"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l4": "r4",
+        "l3": "r3",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "match-0027",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Overprovisioning"
+        },
+        {
+          "id": "l2",
+          "text": "Underprovisioning"
+        },
+        {
+          "id": "l3",
+          "text": "Scale out"
+        },
+        {
+          "id": "l4",
+          "text": "Scale in"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Allocating more capacity than needed, which can create unnecessary cost"
+        },
+        {
+          "id": "r2",
+          "text": "Allocating too little capacity, which can cause performance or availability problems"
+        },
+        {
+          "id": "r4",
+          "text": "Removing resource instances when demand falls"
+        },
+        {
+          "id": "r3",
+          "text": "Adding more resource instances when demand increases"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l4": "r4",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "match-0028",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Scale out"
+        },
+        {
+          "id": "l2",
+          "text": "Scale in"
+        },
+        {
+          "id": "l3",
+          "text": "Consumption-based model"
+        },
+        {
+          "id": "l4",
+          "text": "Capital expenditure (CapEx)"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "Removing resource instances when demand falls"
+        },
+        {
+          "id": "r4",
+          "text": "Up-front spending on physical infrastructure such as servers, networking equipment, and datacenter space"
+        },
+        {
+          "id": "r1",
+          "text": "Adding more resource instances when demand increases"
+        },
+        {
+          "id": "r3",
+          "text": "A model in which you pay for the IT resources you use and can release them when they are no longer needed"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l4": "r4",
+        "l1": "r1",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "match-0029",
+      "type": "matching",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Consumption-based model"
+        },
+        {
+          "id": "l2",
+          "text": "Capital expenditure (CapEx)"
+        },
+        {
+          "id": "l3",
+          "text": "Operational expenditure (OpEx)"
+        },
+        {
+          "id": "l4",
+          "text": "Pay-as-you-go"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Ongoing spending for services consumed over time"
+        },
+        {
+          "id": "r4",
+          "text": "Cloud pricing in which charges generally track actual service consumption"
+        },
+        {
+          "id": "r1",
+          "text": "A model in which you pay for the IT resources you use and can release them when they are no longer needed"
+        },
+        {
+          "id": "r2",
+          "text": "Up-front spending on physical infrastructure such as servers, networking equipment, and datacenter space"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l4": "r4",
+        "l1": "r1",
+        "l2": "r2"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "fill-0025",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "question": "{{answer}} is ongoing spending for services consumed over time.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Operational expenditure (OpEx)",
+            "Microsoft Azure",
+            "Customer identity responsibility",
+            "Public cloud"
+          ],
+          "correctAnswer": "Operational expenditure (OpEx)"
+        }
+      ],
+      "explanation": "Operational expenditure (OpEx) is ongoing spending for services consumed over time.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "fill-0026",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "question": "The term for cloud pricing in which charges generally track actual service consumption is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Pay-as-you-go",
+            "Describe Azure architecture and services",
+            "Provider physical network responsibility",
+            "Customer identity responsibility"
+          ],
+          "correctAnswer": "Pay-as-you-go"
+        }
+      ],
+      "explanation": "Pay-as-you-go is cloud pricing in which charges generally track actual service consumption.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "fill-0027",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "question": "In this unit, {{answer}} refers to allocating more capacity than needed, which can create unnecessary cost.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Scale out",
+            "Overprovisioning",
+            "AZ-900",
+            "Describe Azure architecture and services"
+          ],
+          "correctAnswer": "Overprovisioning"
+        }
+      ],
+      "explanation": "Overprovisioning is allocating more capacity than needed, which can create unnecessary cost.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "fill-0028",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "question": "For AZ-900, the concept described as allocating too little capacity, which can cause performance or availability problems is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "AZ-900",
+            "Azure Fundamentals",
+            "Multicloud",
+            "Underprovisioning"
+          ],
+          "correctAnswer": "Underprovisioning"
+        }
+      ],
+      "explanation": "Underprovisioning is allocating too little capacity, which can cause performance or availability problems.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    },
+    {
+      "id": "fill-0029",
+      "type": "fill-blank",
+      "category": "Describe Cloud Concepts > Describe cloud computing",
+      "description": "Microsoft Learn unit: Describe the consumption-based model",
+      "question": "Choose the term that completes the statement: {{answer}} means adding more resource instances when demand increases.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Scale out",
+            "Describe Azure management and governance",
+            "Public-cloud scaling",
+            "Customer data responsibility"
+          ],
+          "correctAnswer": "Scale out"
+        }
+      ],
+      "explanation": "Scale out is adding more resource instances when demand increases.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+    }
+  ]
+}

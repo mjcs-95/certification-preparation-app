@@ -1,0 +1,1111 @@
+{
+  "version": "1.0",
+  "title": "AZ-900 · Describe Azure networking services · Describe Azure DNS",
+  "questions": [
+    {
+      "id": "mc-0345",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "question": "Which statement best describes Azure DNS?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A DNS zone used for custom private name resolution within Azure virtual networks"
+        },
+        {
+          "id": "b",
+          "text": "The default resiliency configuration in which a standby VPN gateway instance can take over during failure"
+        },
+        {
+          "id": "c",
+          "text": "Managing domain records through the portal, PowerShell, CLI, REST API, or SDKs"
+        },
+        {
+          "id": "d",
+          "text": "A DNS hosting service that uses Azure infrastructure to provide name resolution for domains"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Azure DNS is a DNS hosting service that uses Azure infrastructure to provide name resolution for domains.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "mc-0346",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "question": "In the context of this Microsoft Learn unit, what does Anycast networking refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Routing DNS queries to a nearby available Azure DNS server for performance and resiliency"
+        },
+        {
+          "id": "b",
+          "text": "A VPN connection between virtual networks"
+        },
+        {
+          "id": "c",
+          "text": "A DNS record that references an Azure resource and can follow changes to the resource endpoint"
+        },
+        {
+          "id": "d",
+          "text": "A private connection between VNets that uses the Microsoft backbone instead of the public internet"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Anycast networking is routing DNS queries to a nearby available Azure DNS server for performance and resiliency.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "mc-0347",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "question": "Which description correctly matches Private DNS zone?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An endpoint with a public IP address that can be reachable from the internet"
+        },
+        {
+          "id": "b",
+          "text": "A custom route used to control traffic flow between subnets or virtual networks"
+        },
+        {
+          "id": "c",
+          "text": "Using an internet-based VPN gateway as an alternate path if an ExpressRoute connection becomes unavailable"
+        },
+        {
+          "id": "d",
+          "text": "A DNS zone used for custom private name resolution within Azure virtual networks"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Private DNS zone is a DNS zone used for custom private name resolution within Azure virtual networks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "mc-0348",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "question": "Which of the following is the best definition of Alias record?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The foundation that gives Azure DNS support for RBAC, activity logs, and resource locks"
+        },
+        {
+          "id": "b",
+          "text": "The routing protocol ExpressRoute uses to exchange routes dynamically"
+        },
+        {
+          "id": "c",
+          "text": "A DNS hosting service that uses Azure infrastructure to provide name resolution for domains"
+        },
+        {
+          "id": "d",
+          "text": "A DNS record that references an Azure resource and can follow changes to the resource endpoint"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Alias record is a DNS record that references an Azure resource and can follow changes to the resource endpoint.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "mc-0349",
+      "type": "multiple-choice",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "question": "What is the primary meaning of Azure RBAC for DNS in Azure fundamentals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A configuration in which both gateway instances can carry traffic using separate public IP addresses and tunnels"
+        },
+        {
+          "id": "b",
+          "text": "A feature that connects on-premises sites to each other through their ExpressRoute circuits and the Microsoft backbone"
+        },
+        {
+          "id": "c",
+          "text": "Role-based permissions applied through Azure Resource Manager to control DNS resource management"
+        },
+        {
+          "id": "d",
+          "text": "A specialized VM that performs network functions such as firewalling or WAN optimization"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure RBAC for DNS is role-based permissions applied through Azure Resource Manager to control DNS resource management.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "mr-0345",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "question": "Select the TWO statements that are correct according to this unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure DNS: a DNS hosting service that uses Azure infrastructure to provide name resolution for domains."
+        },
+        {
+          "id": "b",
+          "text": "Anycast networking: the purchase of a domain name, which Azure DNS itself does not provide."
+        },
+        {
+          "id": "c",
+          "text": "Anycast networking: routing DNS queries to a nearby available Azure DNS server for performance and resiliency."
+        },
+        {
+          "id": "d",
+          "text": "Private DNS zone: a subdivision of a virtual network address space used to segment resources."
+        },
+        {
+          "id": "e",
+          "text": "Azure DNS: a DNS record that references an Azure resource and can follow changes to the resource endpoint."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "c"
+      ],
+      "explanation": "The correct pair is: Azure DNS — a DNS hosting service that uses Azure infrastructure to provide name resolution for domains; and Anycast networking — routing DNS queries to a nearby available Azure DNS server for performance and resiliency.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "mr-0346",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "question": "Which TWO statements accurately reflect the concepts covered in this unit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alias record: a DNS record that references an Azure resource and can follow changes to the resource endpoint."
+        },
+        {
+          "id": "b",
+          "text": "Private DNS zone: managing domain records through the portal, PowerShell, CLI, REST API, or SDKs."
+        },
+        {
+          "id": "c",
+          "text": "Alias record: an endpoint with a public IP address that can be reachable from the internet."
+        },
+        {
+          "id": "d",
+          "text": "Alias record: a private network in Azure that enables resources to communicate securely with each other and with external networks."
+        },
+        {
+          "id": "e",
+          "text": "Private DNS zone: a DNS zone used for custom private name resolution within Azure virtual networks."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "e"
+      ],
+      "explanation": "The correct pair is: Private DNS zone — a DNS zone used for custom private name resolution within Azure virtual networks; and Alias record — a DNS record that references an Azure resource and can follow changes to the resource endpoint.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "mr-0347",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "question": "Select TWO correct statements about the material in this Microsoft Learn unit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure RBAC for DNS: an endpoint with a private IP address inside a virtual network."
+        },
+        {
+          "id": "b",
+          "text": "DNS record management: managing domain records through the portal, PowerShell, CLI, REST API, or SDKs."
+        },
+        {
+          "id": "c",
+          "text": "Azure RBAC for DNS: the foundation that gives Azure DNS support for RBAC, activity logs, and resource locks."
+        },
+        {
+          "id": "d",
+          "text": "DNS record management: an endpoint with a public IP address that can be reachable from the internet."
+        },
+        {
+          "id": "e",
+          "text": "Azure RBAC for DNS: role-based permissions applied through Azure Resource Manager to control DNS resource management."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: Azure RBAC for DNS — role-based permissions applied through Azure Resource Manager to control DNS resource management; and DNS record management — managing domain records through the portal, PowerShell, CLI, REST API, or SDKs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "mr-0348",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "question": "Which TWO statements are consistent with the unit content?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure Resource Manager integration: a resource containing inbound and outbound rules that allow or deny network traffic."
+        },
+        {
+          "id": "b",
+          "text": "Domain registration: the purchase of a domain name, which Azure DNS itself does not provide."
+        },
+        {
+          "id": "c",
+          "text": "DNS record management: a resource containing inbound and outbound rules that allow or deny network traffic."
+        },
+        {
+          "id": "d",
+          "text": "Domain registration: a subdivision of a virtual network address space used to segment resources."
+        },
+        {
+          "id": "e",
+          "text": "Azure Resource Manager integration: the foundation that gives Azure DNS support for RBAC, activity logs, and resource locks."
+        }
+      ],
+      "correctAnswers": [
+        "b",
+        "e"
+      ],
+      "explanation": "The correct pair is: Domain registration — the purchase of a domain name, which Azure DNS itself does not provide; and Azure Resource Manager integration — the foundation that gives Azure DNS support for RBAC, activity logs, and resource locks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "mr-0349",
+      "type": "multiple-response",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "question": "Choose the TWO accurate statements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anycast networking: routing DNS queries to a nearby available Azure DNS server for performance and resiliency."
+        },
+        {
+          "id": "b",
+          "text": "Azure DNS: a DNS hosting service that uses Azure infrastructure to provide name resolution for domains."
+        },
+        {
+          "id": "c",
+          "text": "Anycast networking: the purchase of a domain name, which Azure DNS itself does not provide."
+        },
+        {
+          "id": "d",
+          "text": "Azure DNS: a DNS record that references an Azure resource and can follow changes to the resource endpoint."
+        },
+        {
+          "id": "e",
+          "text": "Domain registration: a custom route used to control traffic flow between subnets or virtual networks."
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ],
+      "explanation": "The correct pair is: Azure DNS — a DNS hosting service that uses Azure infrastructure to provide name resolution for domains; and Anycast networking — routing DNS queries to a nearby available Azure DNS server for performance and resiliency.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "tf-0345",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "question": "Azure DNS is a DNS hosting service that uses Azure infrastructure to provide name resolution for domains.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure DNS is a DNS hosting service that uses Azure infrastructure to provide name resolution for domains.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "tf-0346",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "question": "According to this unit: Anycast networking is role-based permissions applied through Azure Resource Manager to control DNS resource management.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Anycast networking is routing DNS queries to a nearby available Azure DNS server for performance and resiliency.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "tf-0347",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "question": "For Azure fundamentals, Private DNS zone is a DNS zone used for custom private name resolution within Azure virtual networks.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Private DNS zone is a DNS zone used for custom private name resolution within Azure virtual networks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "tf-0348",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "question": "This statement is correct: Alias record is the purchase of a domain name, which Azure DNS itself does not provide.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "false"
+      ],
+      "explanation": "False. Alias record is a DNS record that references an Azure resource and can follow changes to the resource endpoint.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "tf-0349",
+      "type": "true-false",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "question": "The unit supports the following statement: Azure RBAC for DNS is role-based permissions applied through Azure Resource Manager to control DNS resource management.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswers": [
+        "true"
+      ],
+      "explanation": "Azure RBAC for DNS is role-based permissions applied through Azure Resource Manager to control DNS resource management.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "sc-0690",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "scenario": "The organization is reviewing the topic “Describe Azure DNS” and must choose the concept that best fits a practical requirement.",
+      "question": "A team has this requirement: a DNS hosting service that uses Azure infrastructure to provide name resolution for domains. Which concept or Azure option best matches the requirement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure RBAC for DNS"
+        },
+        {
+          "id": "b",
+          "text": "Azure DNS"
+        },
+        {
+          "id": "c",
+          "text": "DNS record management"
+        },
+        {
+          "id": "d",
+          "text": "ExpressRoute circuit"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ],
+      "explanation": "Azure DNS is the best match because it is a DNS hosting service that uses Azure infrastructure to provide name resolution for domains.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "sc-0691",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "scenario": "The organization is reviewing the topic “Describe Azure DNS” and must choose the concept that best fits a practical requirement.",
+      "question": "An organization is choosing an approach where it needs routing DNS queries to a nearby available Azure DNS server for performance and resiliency. What should it identify?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Active/active gateway"
+        },
+        {
+          "id": "b",
+          "text": "Built-in redundancy"
+        },
+        {
+          "id": "c",
+          "text": "Anycast networking"
+        },
+        {
+          "id": "d",
+          "text": "VPN failover"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Anycast networking is the best match because it is routing DNS queries to a nearby available Azure DNS server for performance and resiliency.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "sc-0692",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "scenario": "The organization is reviewing the topic “Describe Azure DNS” and must choose the concept that best fits a practical requirement.",
+      "question": "During an AZ-900 design discussion, the requirement is: a DNS zone used for custom private name resolution within Azure virtual networks. Which answer best fits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Domain registration"
+        },
+        {
+          "id": "b",
+          "text": "Border Gateway Protocol (BGP)"
+        },
+        {
+          "id": "c",
+          "text": "Azure RBAC for DNS"
+        },
+        {
+          "id": "d",
+          "text": "Private DNS zone"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Private DNS zone is the best match because it is a DNS zone used for custom private name resolution within Azure virtual networks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "sc-0693",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "scenario": "The organization is reviewing the topic “Describe Azure DNS” and must choose the concept that best fits a practical requirement.",
+      "question": "A cloud administrator needs a capability described as follows: a DNS record that references an Azure resource and can follow changes to the resource endpoint. Which term matches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ExpressRoute Global Reach"
+        },
+        {
+          "id": "b",
+          "text": "Azure Resource Manager integration"
+        },
+        {
+          "id": "c",
+          "text": "Alias record"
+        },
+        {
+          "id": "d",
+          "text": "Azure ExpressRoute"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Alias record is the best match because it is a DNS record that references an Azure resource and can follow changes to the resource endpoint.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "sc-0694",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "scenario": "The organization is reviewing the topic “Describe Azure DNS” and must choose the concept that best fits a practical requirement.",
+      "question": "A company is reviewing Azure fundamentals and wants role-based permissions applied through Azure Resource Manager to control DNS resource management. Which concept should the team choose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Border Gateway Protocol (BGP)"
+        },
+        {
+          "id": "b",
+          "text": "User-defined route (UDR)"
+        },
+        {
+          "id": "c",
+          "text": "Private connectivity"
+        },
+        {
+          "id": "d",
+          "text": "Azure RBAC for DNS"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Azure RBAC for DNS is the best match because it is role-based permissions applied through Azure Resource Manager to control DNS resource management.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "sc-0695",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "scenario": "The organization is reviewing the topic “Describe Azure DNS” and must choose the concept that best fits a practical requirement.",
+      "question": "A solution architect is asked for managing domain records through the portal, PowerShell, CLI, REST API, or SDKs. Which option is the best match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "DNS record management"
+        },
+        {
+          "id": "b",
+          "text": "Azure RBAC for DNS"
+        },
+        {
+          "id": "c",
+          "text": "Predictable latency"
+        },
+        {
+          "id": "d",
+          "text": "Border Gateway Protocol (BGP)"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "DNS record management is the best match because it is managing domain records through the portal, PowerShell, CLI, REST API, or SDKs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "sc-0696",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "scenario": "The organization is reviewing the topic “Describe Azure DNS” and must choose the concept that best fits a practical requirement.",
+      "question": "A project requirement calls for the purchase of a domain name, which Azure DNS itself does not provide. Which Azure concept or service applies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Domain registration"
+        },
+        {
+          "id": "b",
+          "text": "Private connectivity"
+        },
+        {
+          "id": "c",
+          "text": "Network-to-network VPN"
+        },
+        {
+          "id": "d",
+          "text": "Network virtual appliance"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ],
+      "explanation": "Domain registration is the best match because it is the purchase of a domain name, which Azure DNS itself does not provide.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "sc-0697",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "scenario": "The organization is reviewing the topic “Describe Azure DNS” and must choose the concept that best fits a practical requirement.",
+      "question": "A team wants to implement a capability whose purpose is the foundation that gives Azure DNS support for RBAC, activity logs, and resource locks. Which answer is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Route-based VPN"
+        },
+        {
+          "id": "b",
+          "text": "Azure DNS"
+        },
+        {
+          "id": "c",
+          "text": "Azure Resource Manager integration"
+        },
+        {
+          "id": "d",
+          "text": "Subnet"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure Resource Manager integration is the best match because it is the foundation that gives Azure DNS support for RBAC, activity logs, and resource locks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "sc-0698",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "scenario": "The organization is reviewing the topic “Describe Azure DNS” and must choose the concept that best fits a practical requirement.",
+      "question": "A workload has a requirement best described as a DNS hosting service that uses Azure infrastructure to provide name resolution for domains. What concept should the team use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Site-to-site VPN"
+        },
+        {
+          "id": "b",
+          "text": "Private endpoint"
+        },
+        {
+          "id": "c",
+          "text": "Azure DNS"
+        },
+        {
+          "id": "d",
+          "text": "Azure Resource Manager integration"
+        }
+      ],
+      "correctAnswers": [
+        "c"
+      ],
+      "explanation": "Azure DNS is the best match because it is a DNS hosting service that uses Azure infrastructure to provide name resolution for domains.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "sc-0699",
+      "type": "scenario",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "scenario": "The organization is reviewing the topic “Describe Azure DNS” and must choose the concept that best fits a practical requirement.",
+      "question": "A manager asks which Azure concept provides routing DNS queries to a nearby available Azure DNS server for performance and resiliency. Which response is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azure DNS"
+        },
+        {
+          "id": "b",
+          "text": "Predictable latency"
+        },
+        {
+          "id": "c",
+          "text": "ExpressRoute Global Reach"
+        },
+        {
+          "id": "d",
+          "text": "Anycast networking"
+        }
+      ],
+      "correctAnswers": [
+        "d"
+      ],
+      "explanation": "Anycast networking is the best match because it is routing DNS queries to a nearby available Azure DNS server for performance and resiliency.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "match-0345",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure DNS"
+        },
+        {
+          "id": "l2",
+          "text": "Anycast networking"
+        },
+        {
+          "id": "l3",
+          "text": "Private DNS zone"
+        },
+        {
+          "id": "l4",
+          "text": "Alias record"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "Routing DNS queries to a nearby available Azure DNS server for performance and resiliency"
+        },
+        {
+          "id": "r3",
+          "text": "A DNS zone used for custom private name resolution within Azure virtual networks"
+        },
+        {
+          "id": "r4",
+          "text": "A DNS record that references an Azure resource and can follow changes to the resource endpoint"
+        },
+        {
+          "id": "r1",
+          "text": "A DNS hosting service that uses Azure infrastructure to provide name resolution for domains"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "match-0346",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Private DNS zone"
+        },
+        {
+          "id": "l2",
+          "text": "Alias record"
+        },
+        {
+          "id": "l3",
+          "text": "Azure RBAC for DNS"
+        },
+        {
+          "id": "l4",
+          "text": "DNS record management"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": "Role-based permissions applied through Azure Resource Manager to control DNS resource management"
+        },
+        {
+          "id": "r2",
+          "text": "A DNS record that references an Azure resource and can follow changes to the resource endpoint"
+        },
+        {
+          "id": "r1",
+          "text": "A DNS zone used for custom private name resolution within Azure virtual networks"
+        },
+        {
+          "id": "r4",
+          "text": "Managing domain records through the portal, PowerShell, CLI, REST API, or SDKs"
+        }
+      ],
+      "correctMatches": {
+        "l3": "r3",
+        "l2": "r2",
+        "l1": "r1",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "match-0347",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure RBAC for DNS"
+        },
+        {
+          "id": "l2",
+          "text": "DNS record management"
+        },
+        {
+          "id": "l3",
+          "text": "Domain registration"
+        },
+        {
+          "id": "l4",
+          "text": "Azure Resource Manager integration"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "The foundation that gives Azure DNS support for RBAC, activity logs, and resource locks"
+        },
+        {
+          "id": "r2",
+          "text": "Managing domain records through the portal, PowerShell, CLI, REST API, or SDKs"
+        },
+        {
+          "id": "r1",
+          "text": "Role-based permissions applied through Azure Resource Manager to control DNS resource management"
+        },
+        {
+          "id": "r3",
+          "text": "The purchase of a domain name, which Azure DNS itself does not provide"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l2": "r2",
+        "l1": "r1",
+        "l3": "r3"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "match-0348",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Domain registration"
+        },
+        {
+          "id": "l2",
+          "text": "Azure Resource Manager integration"
+        },
+        {
+          "id": "l3",
+          "text": "Azure DNS"
+        },
+        {
+          "id": "l4",
+          "text": "Anycast networking"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": "The foundation that gives Azure DNS support for RBAC, activity logs, and resource locks"
+        },
+        {
+          "id": "r3",
+          "text": "A DNS hosting service that uses Azure infrastructure to provide name resolution for domains"
+        },
+        {
+          "id": "r1",
+          "text": "The purchase of a domain name, which Azure DNS itself does not provide"
+        },
+        {
+          "id": "r4",
+          "text": "Routing DNS queries to a nearby available Azure DNS server for performance and resiliency"
+        }
+      ],
+      "correctMatches": {
+        "l2": "r2",
+        "l3": "r3",
+        "l1": "r1",
+        "l4": "r4"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "match-0349",
+      "type": "matching",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "question": "Match each term from this unit with its correct description.",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Azure DNS"
+        },
+        {
+          "id": "l2",
+          "text": "Anycast networking"
+        },
+        {
+          "id": "l3",
+          "text": "Private DNS zone"
+        },
+        {
+          "id": "l4",
+          "text": "Alias record"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r4",
+          "text": "A DNS record that references an Azure resource and can follow changes to the resource endpoint"
+        },
+        {
+          "id": "r2",
+          "text": "Routing DNS queries to a nearby available Azure DNS server for performance and resiliency"
+        },
+        {
+          "id": "r3",
+          "text": "A DNS zone used for custom private name resolution within Azure virtual networks"
+        },
+        {
+          "id": "r1",
+          "text": "A DNS hosting service that uses Azure infrastructure to provide name resolution for domains"
+        }
+      ],
+      "correctMatches": {
+        "l4": "r4",
+        "l2": "r2",
+        "l3": "r3",
+        "l1": "r1"
+      },
+      "explanation": "Each term is matched to the definition used in the Microsoft Learn-aligned fact set for this unit.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "fill-0345",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "question": "{{answer}} is a DNS zone used for custom private name resolution within Azure virtual networks.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure ExpressRoute",
+            "Private DNS zone",
+            "Private endpoint",
+            "Azure RBAC for DNS"
+          ],
+          "correctAnswer": "Private DNS zone"
+        }
+      ],
+      "explanation": "Private DNS zone is a DNS zone used for custom private name resolution within Azure virtual networks.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "fill-0346",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "question": "The term for a DNS record that references an Azure resource and can follow changes to the resource endpoint is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Azure VPN Gateway",
+            "Alias record",
+            "Border Gateway Protocol (BGP)",
+            "Private DNS zone"
+          ],
+          "correctAnswer": "Alias record"
+        }
+      ],
+      "explanation": "Alias record is a DNS record that references an Azure resource and can follow changes to the resource endpoint.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "fill-0347",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "question": "In this unit, {{answer}} refers to role-based permissions applied through Azure Resource Manager to control DNS resource management.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Service endpoint",
+            "Azure RBAC for DNS",
+            "Azure Resource Manager integration",
+            "Azure ExpressRoute"
+          ],
+          "correctAnswer": "Azure RBAC for DNS"
+        }
+      ],
+      "explanation": "Azure RBAC for DNS is role-based permissions applied through Azure Resource Manager to control DNS resource management.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "fill-0348",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "question": "For AZ-900, the concept described as managing domain records through the portal, PowerShell, CLI, REST API, or SDKs is {{answer}}.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "DNS record management",
+            "Virtual private network (VPN)",
+            "Azure Resource Manager integration",
+            "Network virtual appliance"
+          ],
+          "correctAnswer": "DNS record management"
+        }
+      ],
+      "explanation": "DNS record management is managing domain records through the portal, PowerShell, CLI, REST API, or SDKs.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    },
+    {
+      "id": "fill-0349",
+      "type": "fill-blank",
+      "category": "Describe Azure Architecture and Services > Describe Azure networking services",
+      "description": "Microsoft Learn unit: Describe Azure DNS",
+      "question": "Choose the term that completes the statement: {{answer}} means the purchase of a domain name, which Azure DNS itself does not provide.",
+      "blanks": [
+        {
+          "id": "answer",
+          "options": [
+            "Domain registration",
+            "Network virtual appliance",
+            "Site-to-site VPN",
+            "Predictable latency"
+          ],
+          "correctAnswer": "Domain registration"
+        }
+      ],
+      "explanation": "Domain registration is the purchase of a domain name, which Azure DNS itself does not provide.",
+      "source": "https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/5-domain-name-system"
+    }
+  ]
+}
